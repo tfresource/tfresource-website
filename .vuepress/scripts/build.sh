@@ -11,7 +11,7 @@ export TIMESTAMP=`date`
 
 # SURGE:
 # ------
-# surge .vuepress/dist
+surge -d tfresource.surge.sh .vuepress/dist
 
 # GITHUB-PAGES:
 # -------------

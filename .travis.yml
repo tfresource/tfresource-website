@@ -25,7 +25,7 @@ after_success: |
     git push -f -q https://billyc:$GITHUB_API_KEY@github.com/billyc/tfresource gh-pages &>/dev/null
   fi
 
-  if [ -n "$SURGE_TOKEN" ]; then
-    cd "$TRAVIS_BUILD_DIR"/.vuepress/dist
-    surge .
-  fi 
+  #if [ -n "$SURGE_TOKEN" ]; then
+  #  cd "$TRAVIS_BUILD_DIR"/.vuepress/dist
+  #  surge .
+  #fi 
