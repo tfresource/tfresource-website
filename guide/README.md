@@ -1,5 +1,5 @@
-# Guide to TF Resource
+# Welcome to the TF Resource
 
-Here you'll find the main topic areas. Many pages fit into more than one category.
+This starter guide collects all of the main topic areas, from which you can explore as you wish. Note that many pages are found in multiple categories.
 
-
+- And feel free to edit!
