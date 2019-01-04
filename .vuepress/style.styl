@@ -1,17 +1,16 @@
 body,html
     background-color: #eeeeea
     font-family: Lato,Raleway,serif
-    color: #111
 
 .navbar
   height: 4.5rem
   box-shadow: 0px 0px 6px rgba(0,0,0,0.4)
   background-color: white
 
-
   .site-name
+    background: url(/tfr-logo.png) left no-repeat
+    color: #00000000
     padding-left:275px
-    background: url(/tfresource/tfr-logo.png) left no-repeat
     padding-top: 15px
 
   .links
@@ -34,7 +33,6 @@ body,html
     width: 100%
     margin: 0
 
-.home
   .features
     max-width: 960px
     padding: 2rem 0
@@ -49,13 +47,20 @@ body,html
       max-width: 960px
       margin: auto
 
-.navbar
-  .site-name
-    color: #00000000
-
 .page
   .content
     padding-top: 50px
+
+.page-edit
+    border-top: solid 1px #ccc
+    padding: 0.5rem 2rem
+
+.sidebar
+  background-color: #5f86b0
+  padding-top: 20px
+
+  .sidebar-link
+    color: #eed
 
 @media (max-width: 1000px)
   .home
@@ -69,7 +74,7 @@ body,html
   .navbar
     .site-name
       color: #2b8
-      background: url(/tfresource/tiny-logo.png) left no-repeat
+      background: url(/tiny-logo.png) left no-repeat
       padding-left: 50px
       padding-top: 10px
 

@@ -1,4 +1,4 @@
-Learn more about this circle at [Pricing and valuation](Pricing_and_valuation "wikilink").
+# Pricing
 
 Attributes of Pricing
 ---------------------

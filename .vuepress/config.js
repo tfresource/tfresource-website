@@ -1,10 +1,11 @@
 module.exports = {
-  base: '/tfresource/',
   head: [
       ['link', {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway:400,700'}]
   ],
   title: 'tf resource',
   themeConfig: {
+    displayAllHeaders: true,
+    sidebar: 'auto',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Topics', link: '/guide/' },
