@@ -29,6 +29,7 @@
 .home
   .features
     max-width: 960px
+    padding: 2rem 0
     margin: auto
 
   .content.custom
@@ -38,3 +39,20 @@
 .navbar
   .site-name
     color: #00000000
+
+@media (max-width: 1000px)
+  .home
+    .features
+      margin: 2rem
+    .content.custom
+      margin: 2rem
+
+
+@media (max-width: 500px)
+  .navbar
+    .site-name
+      color: #2b8
+      background: url(/tfresource/tiny-logo.png) left no-repeat
+      padding-left: 50px
+      padding-top: 10px
+
