@@ -1,0 +1,27 @@
+language: node_js
+node_js:
+    - "8"
+
+before_script:
+ - chmod +x .vuepress/scripts/build.sh
+
+script: ./scripts/build.sh
+
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - master     # test the gh-pages branch
+
+cache: npm # caching bundler gem packages will speed up build
+
+# Optional: disable email notifications about the outcome of your builds
+notifications:
+  email: false
+
+after_success: |
+  if [ -n "$GITHUB_API_KEY" ]; then
+    cd "$TRAVIS_BUILD_DIR"
+    # git -c user.name='Travis CI' -c user.email='travis' commit -m BUILD
+    git push -f -q https://billyc:$GITHUB_API_KEY@github.com/billyc/tfresource gh-pages &>/dev/null
+  fi
+
