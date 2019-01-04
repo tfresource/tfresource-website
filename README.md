@@ -12,8 +12,8 @@ features:
   details: "Many pages are updated frequently by the best minds in our industry."
 - title: Contribute!
   details: "Make this site better by editing existing content or adding new pages. We welcome
-  content from the entire travel forecasting community. Yes, that means you!"
-footer: Copyright © 2019-present by the contributing authors
+  content from the entire travel forecasting community."
+footer: Copyright © 2019-present by the contributing authors.
 ---
 
 This site is a technology experiment, for discussion by the TRB ADB45 committee.
