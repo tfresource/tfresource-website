@@ -1,8 +1,7 @@
 ---
 home: true
-heroImage: /hero.png
-heroText: Hero Title
-tagline: Hero subtitle
+heroText: TF Resource
+tagline: Best practices in travel demand forecasting.
 actionText: Get Started →
 actionLink: /guide/
 features:
@@ -16,6 +15,6 @@ features:
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-Whoa! Here we are.
+Whoa! Here we are. I think it's working!
 
 
