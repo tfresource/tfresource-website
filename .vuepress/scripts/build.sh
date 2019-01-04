@@ -9,7 +9,7 @@ export SITE=`mktemp -d`
 export TIMESTAMP=`date` 
 
 mv .vuepress/dist/* $SITE
-git checkout -b gh-pages
+git checkout gh-pages
 rm -rf *
 mv $SITE/* .
 
