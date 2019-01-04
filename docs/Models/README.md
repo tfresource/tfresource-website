@@ -13,7 +13,7 @@ Pricing specifically refers to strategies that vary toll rates by time of day or
 
 This page will consider any analytical treatment of monetary cost in models, whether for revenue generation of congestion management, as relevant to the overall disucsison of pricing and valuation considerations in travel models.
 
-### Pricing Forms and Types
+### Pricing Forms
 
 Pricing level and structure are frequently the first set of considerations associated with any pricing initiative at early stages of decision-making. These considerations closely relate to the physical project alternatives. Second-order considerations involve further refinements such as pricing differentiation, eligibility by vehicle type and occupancy. These normally come into play at later stages of decisionmaking, when different pricing policies are examined for each physical design.
 
