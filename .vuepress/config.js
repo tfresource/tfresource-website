@@ -4,19 +4,40 @@ module.exports = {
   ],
   title: 'tf resource',
   themeConfig: {
-    displayAllHeaders: true,
-    sidebar: 'auto',
+    displayAllHeaders: false,
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Topics', link: '/guide/' },
       { text: 'Resources', items: [
           { text: 'Google', link: 'https://google.com' },
-          { text: 'Google2', link: 'https://google.com' }
+          { text: 'Google2', link: 'https://google.com/' }
       ]}
     ],
     sidebar: [
-        '/',
-        ['/guide/', 'Guide']
+        {
+            title: 'Guide',
+            children: [
+                '/guide/', '/guide/Pricing', '/guide/Trip Generation', '/guide/MATSim'
+            ]
+        },
+        {
+            title: 'Models',
+            children: [
+                '/guide/', '/guide/Pricing', '/guide/Trip Generation', '/guide/MATSim'
+            ]
+        },
+        {
+            title: 'Data',
+            children: [
+                '/guide/', '/guide/Pricing', '/guide/Trip Generation', '/guide/MATSim'
+            ]
+        },
+        {
+            title: 'User Recipes',
+            children: [
+                '/guide/', '/guide/Pricing', '/guide/Trip Generation', '/guide/MATSim'
+            ]
+        }
     ],
     lastUpdated: 'Last Updated',
     repo: 'billyc/tfresource',

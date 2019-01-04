@@ -50,6 +50,7 @@ body,html
 .page
   .content
     padding-top: 50px
+    max-width: 900px
 
 .page-edit
     border-top: solid 1px #ccc
@@ -59,8 +60,20 @@ body,html
   background-color: #5f86b0
   padding-top: 20px
 
+  .sidebar-heading
+    color: white
+    font-weight: normal
+
+  .sidebar-heading.open
+    color: white
+
   .sidebar-link
     color: #eed
+  .sidebar-link.active
+    color: #ff4
+    border-left-color: #ff4
+  a.sidebar-link:hover
+    color: #ff4
 
 @media (max-width: 1000px)
   .home
@@ -77,4 +90,9 @@ body,html
       background: url(/tiny-logo.png) left no-repeat
       padding-left: 50px
       padding-top: 10px
+
+@media (max-width: 1500px)
+  .page
+    .content
+      max-width: 780px
 
