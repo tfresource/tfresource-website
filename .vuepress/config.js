@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/tfresource/',
   title: 'TF Resource',
   themeConfig: {
     nav: [
