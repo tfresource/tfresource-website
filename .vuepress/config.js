@@ -1,6 +1,7 @@
 module.exports = {
   head: [
-      ['link', {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway:400,700'}]
+      ['link', {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway:400,700'}],
+      ['link', {rel: 'icon', href: '/tiny-logo.png'}]
   ],
   title: 'tf resource',
   themeConfig: {
