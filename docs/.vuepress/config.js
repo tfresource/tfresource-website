@@ -1,15 +1,21 @@
 module.exports = {
+  title: 'TF Resource',
   themeConfig: {
-    title: 'Hello',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'External', link: 'https://google.com' },
+      { text: 'Topics', link: '/Models/' },
+      { text: 'Resources', items: [
+          { text: 'Google', link: 'https://google.com' },
+          { text: 'Google2', link: 'https://google.com' }
+      ]}
     ],
     sidebar: [
         '/',
         '/Models/'
     ],
-    lastUpdated: 'Last Updated'
+    lastUpdated: 'Last Updated',
+    repo: 'billyc/tfresource',
+    editLinks: true,
+    editLinkText: "Edit this page on Github",
   }
 }
