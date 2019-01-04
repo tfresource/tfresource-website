@@ -1,20 +1,24 @@
 ---
 home: true
-heroText: TF Resource
+heroImage: /seattle.jpg
+heroText: Travel Forecasting Resource
 tagline: Best practices in travel demand forecasting.
 actionText: Get Started →
 actionLink: /guide/
 features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develope
-   custom themes with Vue.
-- title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: State of the art
+  details: "This site endeavors to capture the true state of the practice, to enable practitioners to
+  build and use travel models effectively."
+- title: Up to Date
+  details: "Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develope
+   custom themes with Vue."
+- title: Contribute!
+  details: "You can make this site better by editing existing content or adding new pages. We welcome
+  content from the entire travel forecasting community. Yes, that means you!"
+footer: Copyright © 2019-present by the contributing authors
 ---
 
-Whoa! Here we are. I think it's working!
+This site is a technology experiment, for discussion by the TRB ADB45 committee.
+
 
 
