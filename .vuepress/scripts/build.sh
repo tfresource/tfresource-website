@@ -2,12 +2,19 @@
 set -e
 
 npm i -g vuepress
+npm i -g surge
 
 vuepress build
 
 export SITE=`mktemp -d`
 export TIMESTAMP=`date` 
 
+# SURGE:
+# ------
+# surge .vuepress/dist
+
+# GITHUB-PAGES:
+# -------------
 mv .vuepress/dist/* $SITE
 git checkout -b gh-pages
 rm -rf *
