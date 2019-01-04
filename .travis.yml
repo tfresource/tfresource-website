@@ -5,7 +5,7 @@ node_js:
 before_script:
  - chmod +x .vuepress/scripts/build.sh
 
-script: ./scripts/build.sh
+script: .vuepress/scripts/build.sh
 
 # branch whitelist, only for GitHub Pages
 branches:
