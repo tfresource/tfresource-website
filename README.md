@@ -11,13 +11,11 @@ features:
 - title: Dynamic
   details: "Many pages are updated frequently by the best minds in our industry."
 - title: Contribute!
-  details: "Make this site better by editing existing content or adding new pages. We welcome
-  content from the entire travel forecasting community."
-footer: "Copyright © 2016-present National Academy of Sciences and by the contributing authors. All
-rights reserved."
+  details: "We welcome content from the entire travel forecasting community. Typo corrections, case studies, even entire pages on new techniques."
+footer: "Copyright © 2016-present National Academy of Sciences and by the contributing authors. All rights reserved."
 ---
 
-This site is a technology experiment, for discussion by the TRB ADB45 committee.
+<p style="text-align: center">This site is a technology experiment, for discussion by the TRB ADB45 committee.</p>
 
 
 

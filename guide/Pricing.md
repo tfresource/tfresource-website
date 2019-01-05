@@ -18,7 +18,8 @@ This page will consider any analytical treatment of monetary cost in models, whe
 
 ### Pricing Forms
 
-<span style="float:right; margin: 0 0 15px 15px">![Traveler Responses](./images/Pricing_forms.jpg)
+<span style="float:right; margin: 0 0 15px 15px">![Traveler Responses](./images/Pricing_forms.jpg
+"Traveler Responses")
 </span>
 
 Pricing level and structure are frequently the first set of considerations associated with any pricing initiative at early stages of decision-making. These considerations closely relate to the physical project alternatives. Second-order considerations involve further refinements such as pricing differentiation, eligibility by vehicle type and occupancy. These normally come into play at later stages of decisionmaking, when different pricing policies are examined for each physical design.

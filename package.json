@@ -1,0 +1,31 @@
+{
+  "name": "tf-resource",
+  "version": "2.0.0",
+  "description": "ADB45 Travel Forecasting Resource Website",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vuepress dev",
+    "build": "vuepress build",
+    "deploy": "vuepress build && surge -d https://tfresource.surge.sh .vuepress/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billyc/tfresource.git"
+  },
+  "keywords": [
+    "vuepress",
+    "trb",
+    "website"
+  ],
+  "author": "Billy Charlton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billyc/tfresource/issues"
+  },
+  "homepage": "https://github.com/billyc/tfresource#readme",
+  "devDependencies": {
+    "surge": "^0.20.1",
+    "vuepress": "^0.14.8"
+  },
+  "dependencies": {}
+}
