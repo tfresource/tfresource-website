@@ -19,19 +19,29 @@ module.exports = {
       {
         text: 'Resources',
         items: [
-          { text: 'OG TF-Resource', link: 'http://tfresource.org' },
+          { text: 'TF-Resource OG', link: 'http://tfresource.org' },
           { text: 'Wikipedia Travel Forecasting', link: 'https://en.wikipedia.org/wiki/Transportation_forecasting' },
+          { text: 'TFR on Github', link: 'https://github.com/billyc/tfresource' },
         ],
       },
     ],
     sidebar: [
       {
-        title: 'Guide',
-        children: ['/guide/'],
+        title: 'Modeling Topics',
+        children: ['/topics/', '/topics/Pricing', '/topics/Trip Generation'],
+      },
+      {
+        title: 'Data Topics',
+        children: ['/topics/', '/topics/Pricing', '/topics/Trip Generation'],
+      },
+      {
+        title: 'Resources',
+        children: ['/topics/', '/topics/Pricing', '/topics/Trip Generation'],
       },
     ],
     lastUpdated: 'Last Updated',
     repo: 'billyc/tfresource',
+
     editLinks: true,
     editLinkText: 'Edit this page on Github',
   },

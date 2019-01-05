@@ -4,7 +4,7 @@ heroImage: /bikes.jpg
 heroText: 'Travel Forecasting, Explained'
 tagline: 'A collection of best practices in travel demand forecasting and modeling.'
 actionText: Get Started →
-actionLink: /guide/
+actionLink: /topics/
 features:
   - title: State of the practice
     details: 'This site collects the latest and most practical methods and tools available for travel modelers.'

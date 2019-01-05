@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /bikes.jpg
+heroImage: /seattle.jpg
 heroText: 'Innovations in Travel Modeling 2020'
 tagline: 'Join us in Seattle, Washington.'
 actionText: Register Now →
