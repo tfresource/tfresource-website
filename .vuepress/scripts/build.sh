@@ -7,11 +7,11 @@ npm i -g surge
 vuepress build
 
 export SITE=`mktemp -d`
-export TIMESTAMP=`date` 
+export TIMESTAMP=`date`
 
 # SURGE:
 # ------
-surge -d tfresource.surge.sh .vuepress/dist
+surge -d https://tfresource.surge.sh .vuepress/dist
 
 # GITHUB-PAGES:
 # -------------
