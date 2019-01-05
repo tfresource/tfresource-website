@@ -6,6 +6,10 @@ The continued growth in travel demand, worsening congestion, coupled with signif
 
 THIS PAGE will consider methods and strategies for incorporating both pricing and tolling in travel models. **Tolling strategies** involve the imposition of fees for the use of a roadway facility; examples include fixed fees that motorists pay—usually based on the numberof axles or vehicle weight—to cross a bridge or tunnel or drive on a tolled highway facility. Tolling strategies are used primarily as a revenue source to finance and expedite the implementation of needed transportation improvements.
 
+::: tip
+Pricing regimens are invariably comprised of a combination of attributes.
+:::
+
 Pricing specifically refers to strategies that vary toll rates by time of day or traffic volume level to manage congestion or use of that facility. Pricing is used as a tool to influence travel behavior, reduce congestion, maximize vehicle throughput and provide new transportation options.or use of that facility.
 
 **Pricing regimens** are invariably comprised of a combination of attributes. As they move through the different phases of the evaluation process, pricing concepts are normally defined at greater and greater levels of resolution. During early stages of planing, pricing concepts are likely to be described by a few basic characteristics. At advanced stages of planning and design, careful review of their effects on traffic services, projects revenues, implementation cost, and financial feasibility will typically be important.
@@ -14,11 +18,13 @@ This page will consider any analytical treatment of monetary cost in models, whe
 
 ### Pricing Forms
 
+<span style="float:right; margin: 0 0 15px 15px">![Traveler Responses](../images/Pricing_forms.jpg)
+</span>
+
 Pricing level and structure are frequently the first set of considerations associated with any pricing initiative at early stages of decision-making. These considerations closely relate to the physical project alternatives. Second-order considerations involve further refinements such as pricing differentiation, eligibility by vehicle type and occupancy. These normally come into play at later stages of decisionmaking, when different pricing policies are examined for each physical design.
 
 In certain cases—such as the conversion of HOV lanes to HOT operation—second-order pricing considerations are considered immediately. Pricing level and lane eligibility by vehicle type generally remains an open issue. Different vehicle classification schemes may require evaluation—from a two-class car-and-truck system, to a four-class system including motorbikes and light commercial vehicles. The identification of the most appropriate classification will depend on local conditions and the expected mix of traffic.[1]
 
-![Traveler Responses]( pricing forms.jpg "Traveler Responses")
 
 ## Traveler Response to Pricing Strategies
 
@@ -66,13 +72,15 @@ Dozens of fare elasticity studies have been completed over the past view decases
 
 Possible behavioral responses to network pricing can be categorized temporally, and encompass short term, medium, and long term adjustments in travel behavior. The extent to which modeling methods will need to acocunt for each level of behavior will typically vary based on the planning stage and impacts of highest interest for decision-making [5]
 
-![Traveler Responses](behavior.jpg "Traveler Responses")
+![Traveler Responses](../images/behavior.jpg)
+>Traveler Responses
 
 ### Modeling Methods for Pricing
 
 While some model features that are absolutely essential to pricing studies in the very beginning of analysis, other more advanced features may be reserved for subsequent stages of project development (detailed feasibility and investment grade studies). The more advanced features, however, may become extremely relevant even early on, if a corresponding pricing strategy is included in the range of options included in the scope of the particular study, and a robust and consistent analysis of it is required to compare with other more easily modeled alternatives. Both essential and advanced modeling features may still belong in the category of short-term improvements and arenot explicitly distinguished here between 4-step (trip-based) and activity based frameworks in this classification. .[6]
 
-![Methods](pricing_treatments.png "Methods")
+![Methods](../images/pricing_treatments.png)
+>Pricing Methods
 
 Travel models applied for highway pricing and valuation are typically organized into the following classes; a summary of strenghts and weaknesses for evaluating pricing impacts is provided below :[7]
 
@@ -127,9 +135,9 @@ The C04 research discovered a strong non-linear relationship between houseold in
 
 [ CO4 recommendations](SHRP2_C04_-_Improving_Our_Understanding_of_How_Highway_Congestion_and_Pricing_Affect_Travel_Demand "wikilink"): Forecasting models typically use income either in a simplified linear form to scale travel costs or as a segmentation variable, with different cost coefficients in different income ranges. Neither approach seems entirely appropriate. The assumption of linearity with income seems too strong, particularly in higher income ranges, and the piecewise linear approach often results in strong nonlinearities or discontinuities in the effect of income that do not have a strong statistical or behavioral basis. The recommended approach is empirically justified across a wide body of evidence and provides a smooth response surface for forecasting.
 
-![](willingess_pay.png "willingess_pay.png")
+![](../images/willingess_pay.png)
 
-<sub>Proportion\\ of\\ payers\\ with\\ lognormal\\ distribution\\ for\\ VOT\\ for\\ a\\ toll\\ of\\ $20.</sub>
+<sub>Proportion of payers with lognormal distribution for VOT for a toll of $20.</sub>
 
 | Representing Value of Time in Travel Models [8]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
