@@ -4,7 +4,7 @@ module.exports = {
       'link',
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Raleway:400,700',
+        href: 'https://fonts.googleapis.com/css?family=Raleway:500,500i,700,700i&amp;subset=latin-ext',
       },
     ],
     ['link', { rel: 'icon', href: '/tiny-logo.png' }],
@@ -14,11 +14,14 @@ module.exports = {
     displayAllHeaders: false,
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
       { text: 'Topics', link: '/topics/' },
+      { text: 'Events', link: '/events/' },
       {
         text: 'Resources',
-        items: [{ text: 'Google', link: 'https://google.com' }, { text: 'Google2', link: 'https://google.com/' }],
+        items: [
+          { text: 'OG TF-Resource', link: 'http://tfresource.org' },
+          { text: 'Wikipedia Travel Forecasting', link: 'https://en.wikipedia.org/wiki/Transportation_forecasting' },
+        ],
       },
     ],
     sidebar: [

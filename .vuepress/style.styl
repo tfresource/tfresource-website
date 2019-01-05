@@ -1,10 +1,11 @@
 $sideBlue = #5f86b0;
 $pageColor = #eeeeeb;
-$accentColor = #a243a8;
+$textColor = #223;
+$accentColor = #7755aa;
 
 body,html
   background-color: $pageColor
-  font-family: Raleway,serif
+  font-family: Raleway,Lato,serif
 
 html.home
   background-color: $sideBlue
@@ -22,6 +23,9 @@ html.home
 
   .links
     padding-top: 5px
+
+.custom-block
+  text-align: left
 
 .header
     height: 200px
@@ -57,7 +61,6 @@ html.home
       max-width: 960px
       margin: auto
 
-
 .page
   .tip,.warning,.danger
     box-shadow: 2px 3px 3px rgba(0,0,0,0.2)
@@ -69,6 +72,13 @@ html.home
     max-width: 900px
     text-align: justify
 
+    .topic-card-detail
+      color: $textColor
+
+    .topic-card:hover
+      text-decoration: none
+      box-shadow: 2px 5px 8px rgba(20,0,80,0.4)
+
   .content h1,h2,h3
     color: #448
 
@@ -77,11 +87,12 @@ html.home
 
 .page-edit
     border-top: solid 1px #ccc
-    padding: 0.5rem 0rem
+    padding: 0.5rem 40px
 
 .sidebar
   background-color: $sideBlue
   padding-top: 20px
+  width: 18rem
 
   .sidebar-heading
     color: white
@@ -98,13 +109,17 @@ html.home
   a.sidebar-link:hover
     color: #ff4
 
-@media (max-width: 1000px)
+@media (max-width: 960px)
   .home
     .features
       margin: 2rem
     .content.custom
       margin: 2rem
-
+  .page
+    .content
+      text-align: left
+  .sidebar
+      width: 16rem
 
 @media (max-width: 500px)
   .navbar
