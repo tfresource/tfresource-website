@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: /seattle.jpg
-heroText: Travel Forecasting Resource
-tagline: Best practices in travel demand forecasting.
+heroImage: /bikes.jpg
+heroText: "Travel Forecasting, Explained"
+tagline: "A collection of best practices in travel demand forecasting and modeling."
 actionText: Get Started →
 actionLink: /guide/
 features:
@@ -13,7 +13,8 @@ features:
 - title: Contribute!
   details: "Make this site better by editing existing content or adding new pages. We welcome
   content from the entire travel forecasting community."
-footer: Copyright © 2019-present by the contributing authors.
+footer: "Copyright © 2016-present National Academy of Sciences and by the contributing authors. All
+rights reserved."
 ---
 
 This site is a technology experiment, for discussion by the TRB ADB45 committee.
