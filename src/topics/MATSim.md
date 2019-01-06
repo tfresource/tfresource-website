@@ -11,4 +11,3 @@ MATSim is an agent-based microsimulation framework for analyzing large-scale tra
 ## Getting Started
 
 Read the book.
-Finish the book.
