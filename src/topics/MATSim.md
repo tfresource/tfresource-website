@@ -6,7 +6,7 @@ tags: [model]
 
 # MATSim
 
-MATSim is an agent-based microsimulation framework for analyzing transportation.
+MATSim is an agent-based microsimulation framework for analyzing large-scale transportation systems.
 
 ## Getting Started
 
