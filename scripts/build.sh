@@ -1,21 +1,20 @@
 #!/usr/bin/env bash
 set -e
 
-npm i -g vuepress
-npm i -g surge
+npm i
 
-vuepress build
+npm run build
 
 export SITE=`mktemp -d`
 export TIMESTAMP=`date`
 
 # SURGE:
 # ------
-surge -d https://tfresource.surge.sh .vuepress/dist
+surge -d https://tfresource.surge.sh src/.vuepress/dist
 
 # GITHUB-PAGES:
 # -------------
-mv .vuepress/dist/* $SITE
+mv src/.vuepress/dist/* $SITE
 git checkout -b gh-pages
 rm -rf *
 mv $SITE/* .

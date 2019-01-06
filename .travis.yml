@@ -3,9 +3,9 @@ node_js:
     - "8"
 
 before_script:
- - chmod +x .vuepress/scripts/build.sh
+ - chmod +x scripts/build.sh
 
-script: .vuepress/scripts/build.sh
+script: scripts/build.sh
 
 # branch whitelist, only for GitHub Pages
 branches:
@@ -20,9 +20,9 @@ notifications:
 
 after_success: |
   if [ -n "$GITHUB_API_KEY" ]; then
-    cd "$TRAVIS_BUILD_DIR"
+    # cd "$TRAVIS_BUILD_DIR"
     # git -c user.name='Travis CI' -c user.email='travis' commit -m BUILD
-    git push -f -q https://billyc:$GITHUB_API_KEY@github.com/billyc/tfresource gh-pages &>/dev/null
+    # git push -f -q https://billyc:$GITHUB_API_KEY@github.com/billyc/tfresource gh-pages &>/dev/null
   fi
 
   #if [ -n "$SURGE_TOKEN" ]; then
