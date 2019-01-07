@@ -23,9 +23,8 @@ module.exports = {
             text: 'TFR Resources',
             items: [
               { text: 'Papers', link: '/resources/papers' },
-              { text: 'Presentations', link: '/resources/presentations' },
-              { text: 'Reports', link: '/resources/reports' },
-              { text: 'Webinars & Videos', link: '/resources/video' },
+              { text: 'Reports & Presentations', link: '/resources/presentations' },
+              { text: 'Webinars & Videos', link: '/resources/videos' },
             ],
           },
           {

@@ -9,7 +9,7 @@ The continued growth in travel demand, worsening congestion, coupled with signif
 
 ## Attributes of Pricing
 
-THIS PAGE will consider methods and strategies for incorporating both pricing and tolling in travel models. **Tolling strategies** involve the imposition of fees for the use of a roadway facility; examples include fixed fees that motorists pay—usually based on the numberof axles or vehicle weight—to cross a bridge or tunnel or drive on a tolled highway facility. Tolling strategies are used primarily as a revenue source to finance and expedite the implementation of needed transportation improvements.
+This page considers methods and strategies for incorporating both pricing and tolling in travel models. **Tolling strategies** involve the imposition of fees for the use of a roadway facility; examples include fixed fees that motorists pay—usually based on the numberof axles or vehicle weight—to cross a bridge or tunnel or drive on a tolled highway facility. Tolling strategies are used primarily as a revenue source to finance and expedite the implementation of needed transportation improvements.
 
 ::: tip
 Pricing regimens are invariably comprised of a combination of attributes.
