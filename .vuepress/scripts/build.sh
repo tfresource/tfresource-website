@@ -10,11 +10,11 @@ export TIMESTAMP=`date`
 
 # SURGE:
 # ------
-surge -d https://tfresource.surge.sh src/.vuepress/dist
+surge -d https://tfresource.surge.sh .vuepress/dist
 
 # GITHUB-PAGES:
 # -------------
-mv src/.vuepress/dist/* $SITE
+mv .vuepress/dist/* $SITE
 git checkout -b gh-pages
 rm -rf *
 mv $SITE/* .

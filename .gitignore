@@ -1,6 +1,6 @@
-src/.vuepress/dist
+.vuepress/dist
 node_modules
-src/diff
-src/last-diff.txt
+diff
+last-diff.txt
 
 

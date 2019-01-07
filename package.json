@@ -4,9 +4,9 @@
   "description": "ADB45 Travel Forecasting Resource Website",
   "main": "index.js",
   "scripts": {
-    "serve": "vuepress dev src",
-    "build": "vuepress build src",
-    "deploy": "vuepress build src && surge -d https://tfresource.surge.sh src/.vuepress/dist"
+    "serve": "vuepress dev",
+    "build": "vuepress build",
+    "deploy": "vuepress build && surge -d https://tfresource.surge.sh .vuepress/dist"
   },
   "repository": {
     "type": "git",
