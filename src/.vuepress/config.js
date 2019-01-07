@@ -1,4 +1,11 @@
 module.exports = {
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@images': '/images',
+      },
+    },
+  },
   head: [
     [
       'link',
@@ -41,7 +48,6 @@ module.exports = {
     ],
     lastUpdated: 'Last Updated',
     repo: 'billyc/tfresource',
-
     editLinks: true,
     editLinkText: 'Edit this page on Github',
   },

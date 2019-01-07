@@ -105,6 +105,33 @@ html.home
   a.sidebar-link:hover
     color: #ff4
 
+
+.del,.ins{ display: inline-block; margin-left: 0.5ex; }
+.del     { background-color: #fcc; }
+      .ins{ background-color: #cfc; }
+
+
+pre:first-of-type { width: 78%; margin-left: auto; margin-right: auto; }
+.file-start + p + pre,
+.file-start + pre { margin-left: 61.8%; }
+.file-start,
+.hunk-start{ text-align: right; }
+
+.file-start code{ font-size: inherit; }
+
+.file-start/*:not(:first-of-type)*/{
+    display: none;
+    font-size: 150%;
+    margin-top: 3rem;
+    border-bottom: 1ex solid #ccc;
+    padding-bottom: 1ex;
+}
+.hunk-start{
+    margin-top: 2ex;
+    border-bottom: 0.5ex dashed #ccc;
+    padding-bottom: 1ex;
+}
+
 @media (max-width: 960px)
   .home
     .features

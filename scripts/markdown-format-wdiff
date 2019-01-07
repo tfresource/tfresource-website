@@ -14,12 +14,3 @@ sed '
 s|\[-|<del class="del">|g; s|-]|</del>|g
 s|{+|<ins class="ins">|g; s|+}|</ins>|g
 '
-
-# attach a small stylesheet
-echo '
-<style>
-    .del,.ins{ display: inline-block; margin-left: 0.5ex; }
-    .del     { background-color: #fcc; }
-         .ins{ background-color: #cfc; }
-</style>
-'
