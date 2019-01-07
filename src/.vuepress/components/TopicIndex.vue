@@ -41,12 +41,12 @@ export default {
 }
 
 .topic-card:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   box-shadow: 2px 5px 8px rgba(20, 0, 80, 0.4);
 }
 
 a.topic-card:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .topic-card {
