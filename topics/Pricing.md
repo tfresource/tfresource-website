@@ -5,11 +5,11 @@ tags: [issue]
 
 # Pricing Travel
 
-The continued growth in travel demand, worsening congestion, coupled with significant reduction in transportation funding available from traditional sources has motivated agencies with planning and programing resposibilities to consider tolling and pricing solutions as a means of funding new capacity and better managing system operations.
+The continued growth in travel demand, worsening congestion, coupled with significant reduction in transportation funding available from traditional sources has motivated agencies with planning and programming responsibilities to consider tolling and pricing solutions as a means of funding new capacity and better managing system operations.
 
 ## Attributes of Pricing
 
-This page considers methods and strategies for incorporating both pricing and tolling in travel models. **Tolling strategies** involve the imposition of fees for the use of a roadway facility; examples include fixed fees that motorists pay—usually based on the numberof axles or vehicle weight—to cross a bridge or tunnel or drive on a tolled highway facility. Tolling strategies are used primarily as a revenue source to finance and expedite the implementation of needed transportation improvements.
+This page considers methods and strategies for incorporating both pricing and tolling in travel models. **Tolling strategies** involve the imposition of fees for the use of a roadway facility; examples include fixed fees that motorists pay—usually based on the number of axles or vehicle weight—to cross a bridge or tunnel or drive on a tolled highway facility. Tolling strategies are used primarily as a revenue source to finance and expedite the implementation of needed transportation improvements.
 
 ::: tip
 Pricing regimens are invariably comprised of a combination of attributes.
@@ -17,9 +17,9 @@ Pricing regimens are invariably comprised of a combination of attributes.
 
 Pricing specifically refers to strategies that vary toll rates by time of day or traffic volume level to manage congestion or use of that facility. Pricing is used as a tool to influence travel behavior, reduce congestion, maximize vehicle throughput and provide new transportation options.or use of that facility.
 
-**Pricing regimens** are invariably comprised of a combination of attributes. As they move through the different phases of the evaluation process, pricing concepts are normally defined at greater and greater levels of resolution. During early stages of planing, pricing concepts are likely to be described by a few basic characteristics. At advanced stages of planning and design, careful review of their effects on traffic services, projects revenues, implementation cost, and financial feasibility will typically be important.
+**Pricing regimens** are invariably comprised of a combination of attributes. As they move through the different phases of the evaluation process, pricing concepts are normally defined at greater and greater levels of resolution. During early stages of planning, pricing concepts are likely to be described by a few basic characteristics. At advanced stages of planning and design, careful review of their effects on traffic services, projects revenues, implementation cost, and financial feasibility will typically be important.
 
-This page will consider any analytical treatment of monetary cost in models, whether for revenue generation of congestion management, as relevant to the overall disucsison of pricing and valuation considerations in travel models.
+This page considers any analytical treatment of monetary cost in models, whether for revenue generation of congestion management, as relevant to the overall disucsison of pricing and valuation considerations in travel models.
 
 ### Forms of Pricing
 
@@ -43,19 +43,19 @@ Pricing is represented in travel models as changes in usage costs- including roa
 - Motorists tend to be particularly sensitive to road tolls and parking fees.
 - In general, people place a higher value on time savings that arise from reductions in congestion levels than on time savings from other types of system changes, such as the introduction of shorter-distance routes or closer destinations [3]
 
-Policy makers are often faced with difficult questions about the role that fuel taxes, parking fees, road toll and transit fare changes will have for achieving mobililty, revenue, and equity objectives. Consequently, methodological improvements - focused specifically on improved fidelity and sensitivity for pricing analysis - have emerged through research and model deployments. A number of noteworhy advancements are described below.
+Policy makers are often faced with difficult questions about the role that fuel taxes, parking fees, road toll and transit fare changes will have for achieving mobililty, revenue, and equity objectives. Consequently, methodological improvements - focused specifically on improved fidelity and sensitivity for pricing analysis - have emerged through research and model deployments. A number of noteworthy advancements are described below.
 
 #### Congestion and Road Pricing
 
-The number of agencies either planning or deploying pricing alternatives has increased dramatically. Pojects that rely on tolling (the assessment of a fixed fee for the use of a roadway) and/or pricing (varying toll, parking, and other components of transportation supply by time of day or volume of traffic) has increased substantially. Several states have enacted legislation that requires new capacity to be funded by revenues derived from tolling and/or pricing alternatives.
+The number of agencies either planning or deploying pricing alternatives has increased dramatically. Projects that rely on tolling (the assessment of a fixed fee for the use of a roadway) and/or pricing (varying toll, parking, and other components of transportation supply by time of day or volume of traffic) has increased substantially. Several states have enacted legislation that requires new capacity to be funded by revenues derived from tolling and/or pricing alternatives.
 
 Driver response to congestion and road pricing is an essential element to forecasting the future use of roadway systems and estimating the effect that pricing has on demand and route choice. Revenue studies are routinely done for proposed toll roads and offer a source for insight about the [behavioral basis](Travel_Behavior 'wikilink') for forecasts.
 
-Congestion pricing can be applied at a systems, corridor, or faility level. The identification fo suitable technical methods will depend on both the spatial and temporal extent of the pricing strategy. Illustrative examples of both sub-area and corridor-specific modeling methods are provided in the applications section below. .
+Congestion pricing can be applied at a systems, corridor, or faility level. The identification of suitable technical methods will depend on both the spatial and temporal extent of the pricing strategy. Illustrative examples of both sub-area and corridor-specific modeling methods are provided in the applications section below.
 
 Previous research identifies three major aspects of highway driving time that influence behavior and are perceived as important components of highway level of service (LOS):
 
-- quantity:duration of time in the vehicle
+- quantity: duration of time in the vehicle
 - quality: amount of stress or pleasure caused by the particular driving conditions
 - reliability: level of uncertainty with respect to travel time and congestion levels
 - and other things
@@ -74,7 +74,7 @@ Dozens of fare elasticity studies have been completed over the past view decases
 
 ### Travel Behavior
 
-Possible behavioral responses to network pricing can be categorized temporally, and encompass short term, medium, and long term adjustments in travel behavior. The extent to which modeling methods will need to acocunt for each level of behavior will typically vary based on the planning stage and impacts of highest interest for decision-making [5]
+Possible behavioral responses to network pricing can be categorized temporally, and encompass short term, medium, and long term adjustments in travel behavior. The extent to which modeling methods will need to account for each level of behavior will typically vary based on the planning stage and impacts of highest interest for decision-making [5]
 
 ![Traveler Responses](/images/Behavior.jpg)
 
@@ -88,11 +88,11 @@ While some model features that are absolutely essential to pricing studies in th
 
 > Pricing Methods
 
-Travel models applied for highway pricing and valuation are typically organized into the following classes; a summary of strenghts and weaknesses for evaluating pricing impacts is provided below :[7]
+Travel models applied for highway pricing and valuation are typically organized into the following classes; a summary of strengths and weaknesses for evaluating pricing impacts is provided below :[7]
 
 #### Aggregate Trip-Based Demand Models
 
-Although these [models](Trip-Based_Models 'wikilink') offer a limited framework for incorporating congestion and pricing effects, some of the main features of the highway utility function can be incorporated by including a generalized cost measure in the mode choice utilities for highway modes. The mode choice model should differentiate highway modes by three to four occupancy categories and toll or nontoll route,which would result in six to eight highway modes. After adequate segmentation by trip purpose, income groups, and time-of-day, several hundred trip tables may be generated; additional segmentation by using person, household, or land use characteristics or adding additional choice models is not possible.
+Although these [models](Trip-Based_Models 'wikilink') offer a limited framework for incorporating congestion and pricing effects, some of the main features of the highway utility function can be incorporated by including a generalized cost measure in the mode choice utilities for highway modes. The mode choice model should differentiate highway modes by three to four occupancy categories and toll or nontoll route, which would result in six to eight highway modes. After adequate segmentation by trip purpose, income groups, and time-of-day, several hundred trip tables may be generated; additional segmentation by using person, household, or land use characteristics or adding additional choice models is not possible.
 
 #### Activity-Based Models
 
@@ -175,10 +175,6 @@ More information can be found [here.](http://www.coloradodot.info/programs/high-
 ## References
 
 ## Related Content
-
-{{\#ask: [:+](:+ "wikilink") | format=ul }}
-
-[Category:Incubator topics](Category:Incubator_topics 'wikilink') [Category:Pricing and valuation](Category:Pricing_and_valuation 'wikilink') <Category:Pricing_and_valuation> [Category:Topic Circles](Category:Topic_Circles 'wikilink') [](Category:Pricing_and_valuation 'wikilink')
 
 [1] <sub>Asessing\\ Highway\\ Tolling\\ and\\ Pricing\\ Impacts,\\ NCHRP\\ Report\\ \#722,\\ v1</sub>
 
