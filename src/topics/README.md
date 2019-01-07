@@ -4,10 +4,6 @@ no_index: true
 editLink: false
 ---
 
-::: warning TIP
-in production, this page would also have tag-search, sort by recent, etc
-:::
-
 # Start Here: index of all topics
 
 The pages on TF Resource are loosely divided into sections on models, data, practical applications/use cases, and finally a glossary.

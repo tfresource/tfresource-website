@@ -1,11 +1,4 @@
 module.exports = {
-  configureWebpack: {
-    resolve: {
-      alias: {
-        '@images': '/images',
-      },
-    },
-  },
   head: [
     [
       'link',
@@ -26,9 +19,26 @@ module.exports = {
       {
         text: 'Resources',
         items: [
-          { text: 'TF-Resource OG', link: 'http://tfresource.org' },
-          { text: 'Wikipedia Travel Forecasting', link: 'https://en.wikipedia.org/wiki/Transportation_forecasting' },
-          { text: 'TFR on Github', link: 'https://github.com/billyc/tfresource' },
+          {
+            text: 'TFR Resources',
+            items: [
+              { text: 'Papers', link: '/resources/papers' },
+              { text: 'Presentations', link: '/resources/presentations' },
+              { text: 'Reports', link: '/resources/reports' },
+              { text: 'Webinars & Videos', link: '/resources/video' },
+            ],
+          },
+          {
+            text: 'Other Websites',
+            items: [
+              { text: 'TF-Resource OG', link: 'http://tfresource.org' },
+              {
+                text: 'Wikipedia Travel Forecasting',
+                link: 'https://en.wikipedia.org/wiki/Transportation_forecasting',
+              },
+              { text: 'TFR on Github', link: 'https://github.com/billyc/tfresource' },
+            ],
+          },
         ],
       },
     ],
@@ -43,7 +53,7 @@ module.exports = {
       },
       {
         title: 'Resources',
-        children: ['/topics/', '/topics/Pricing', '/topics/Trip Generation'],
+        children: ['/resources/papers', '/resources/presentations', '/resources/videos'],
       },
     ],
     lastUpdated: 'Last Updated',
