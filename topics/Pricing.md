@@ -176,18 +176,18 @@ More information can be found [here.](http://www.coloradodot.info/programs/high-
 
 ## Related Content
 
-[1] <sub>Asessing\\ Highway\\ Tolling\\ and\\ Pricing\\ Impacts,\\ NCHRP\\ Report\\ \#722,\\ v1</sub>
+[1] <sub>Asessing Highway Tolling and Pricing Impacts, NCHRP Report \#722, v1</sub>
 
-[2] <sub>Understanding\\ Transport\\ Demands\\ and\\ Elasticities,\\ Todd\\ Litman</sub>
+[2] <sub>Understanding Transport Demands and Elasticities, Todd Litman</sub>
 
-[3] <sub>Improving\\ Our\\ Understanding\\ of\\ How\\ Highway\\ Congestion\\ and\\ Pricing\\ Affect\\ Travel\\ Demand,\\ SHRPII\\ C04</sub>
+[3] <sub>Improving Our Understanding of How Highway Congestion and Pricing Affect Travel Demand, SHRPII C04</sub>
 
-[4] <sub>Fare\\ Easticity\\ and\\ It's\\ Application\\ for\\ Travel\\ Demand\\ Forecasting;\\ American\\ Transit\\ Association</sub>
+[4] <sub>Fare Easticity and It's Application for Travel Demand Forecasting; American Transit Association</sub>
 
-[5] <sub>Assessing\\ Highway\\ Tolling\\ and\\ Pricing\\ Options\\ and\\ Impacts,\\ Vol\\ 2;\\ NCHRP\\ 08-57</sub>
+[5] <sub>Assessing Highway Tolling and Pricing Options and Impacts, Vol 2; NCHRP 08-57</sub>
 
-[6] <sub>Asessing\\ Highway\\ Tolling\\ and\\ Pricing\\ Impacts,\\ NCHRP\\ Report\\ \#722,\\ v2</sub>
+[6] <sub>Asessing Highway Tolling and Pricing Impacts, NCHRP Report \#722, v2</sub>
 
-[7] <sub>Improving\\ Our\\ Understanding\\ of\\ How\\ Highway\\ Congestion\\ and\\ Pricing\\ Affect\\ Travel\\ Demand,\\ SHRPII\\ C04</sub>
+[7] <sub>Improving Our Understanding of How Highway Congestion and Pricing Affect Travel Demand, SHRPII C04</sub>
 
-[8] <sub>Improving\\ Our\\ Understanding\\ of\\ How\\ Highway\\ Congestion\\ and\\ Pricing\\ Affect\\ Travel\\ Demand,\\ SHRPII\\ C04</sub>
+[8] <sub>Improving Our Understanding of How Highway Congestion and Pricing Affect Travel Demand, SHRPII C04</sub>
