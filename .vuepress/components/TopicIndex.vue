@@ -76,6 +76,6 @@ a.topic-card:hover {
 .topic-index-content {
   display: grid;
   grid-gap: 0rem 1.5rem;
-  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-columns: repeat(auto-fill, 275px);
 }
 </style>
