@@ -10,9 +10,9 @@ script: .vuepress/scripts/build.sh
 # branch whitelist, only for GitHub Pages
 branches:
   only:
-  - master     # test the gh-pages branch
+  - master
 
-cache: npm # caching bundler gem packages will speed up build
+cache: npm # caching npm will speed up build
 
 # Optional: disable email notifications about the outcome of your builds
 notifications:
@@ -25,7 +25,3 @@ after_success: |
     # git push -f -q https://billyc:$GITHUB_API_KEY@github.com/billyc/tfresource gh-pages &>/dev/null
   fi
 
-  #if [ -n "$SURGE_TOKEN" ]; then
-  #  cd "$TRAVIS_BUILD_DIR"/.vuepress/dist
-  #  surge .
-  #fi 
