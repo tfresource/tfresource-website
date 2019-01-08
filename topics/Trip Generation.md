@@ -1,5 +1,5 @@
 ---
-description: 'Step two in traditional four-step demand models'
+description: 'Step one in traditional four-step demand models'
 tags: [model, fourstep, archive]
 ---
 
