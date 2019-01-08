@@ -1,6 +1,5 @@
 <template lang="pug">
 .topic-index-content
-
     .topics(v-for="topic in topics")
       router-link.topic-card(:to="topic.path")
         .topic-card.custom-block.tip
@@ -51,6 +50,7 @@ a.topic-card:hover {
 
 .topic-card {
   max-width: 300px;
+  margin-bottom: 0;
 }
 
 .card-container {
@@ -71,5 +71,11 @@ a.topic-card:hover {
   flex-direction: row;
   margin: -0.5rem -27px 1px auto;
   font-size: 0.7rem;
+}
+
+.topic-index-content {
+  display: grid;
+  grid-gap: 0rem 1.5rem;
+  grid-template-columns: repeat(auto-fill, 300px);
 }
 </style>

@@ -10,7 +10,3 @@ Trip generation is traditionally the first step in 4-step travel models. Trip ge
 One of the more popular methods of trip production calculation is cross-classification. Cross-classification is described in NCHRP Report 716, among many sources. A popular method of trip attraction calculation is by linear equations. Neither of these two methods use measures of mobility or [[Accessibilities|accessibility]]. Inputs consists entirely of forecasted socioeconomic or demographic characteristics of zones.
 
 A subsequent step, [[Spatial Interaction Models|trip distribution]], very often requires that the total of all productions equal the total of all attractions for each trip purpose. Consequently, an important part of trip generation is "balancing", where inconsistencies between productions and attractions are reconciled. Consistency can be achieved by holding productions constant and varying attractions or vice versa.
-
-## Cross classification models
-
-(To be added -- a description of the classical method)

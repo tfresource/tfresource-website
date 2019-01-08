@@ -4,13 +4,13 @@ no_index: true
 editLink: false
 ---
 
-# Start Here: index of all topics
-
-The pages on TF Resource are loosely divided into sections on models, data, practical applications/use cases, and finally a glossary.
-
-Sometimes it's hard for us to pick just one place for a page. So, we've also implemented a system of **category tags** (sometimes known as "Topic Circles"). These work just like tags on any regular blog: they help us to collect related pages into useful and overlapping groups.
+# START HERE &raquo; index of all topics
 
 Below is a summary of every page in the topics section. Soon we'll add tag/category search, sort by most recent updates, and other features as needed.
+
+The pages on TF Resource are loosely divided into sections on models, data, practical applications/use cases, and a glossary.
+
+Content is also tagged by "Topic Circles". These work just like tags on any regular blog: they help us to collect related pages into useful and overlapping groups.
 
 ## Topic Index
 
