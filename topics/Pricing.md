@@ -23,7 +23,7 @@ This page considers any analytical treatment of monetary cost in models, whether
 
 ### Forms of Pricing
 
-<span style="float:right; margin: 0 0 15px 15px">![Traveler Responses](/images/Pricing_forms.jpg 'Traveler Responses')
+<span style="float:right; margin: 0 0 15px 15px">![Traveler Responses](./images/Pricing_forms.jpg 'Traveler Responses')
 </span>
 
 Pricing level and structure are frequently the first set of considerations associated with any pricing initiative at early stages of decision-making. These considerations closely relate to the physical project alternatives. Second-order considerations involve further refinements such as pricing differentiation, eligibility by vehicle type and occupancy. These normally come into play at later stages of decisionmaking, when different pricing policies are examined for each physical design.
@@ -76,7 +76,7 @@ Dozens of fare elasticity studies have been completed over the past view decases
 
 Possible behavioral responses to network pricing can be categorized temporally, and encompass short term, medium, and long term adjustments in travel behavior. The extent to which modeling methods will need to account for each level of behavior will typically vary based on the planning stage and impacts of highest interest for decision-making [5]
 
-![Traveler Responses](/images/Behavior.jpg)
+![Traveler Responses](./images/Behavior.jpg)
 
 > Traveler Responses
 
@@ -84,7 +84,7 @@ Possible behavioral responses to network pricing can be categorized temporally, 
 
 While some model features that are absolutely essential to pricing studies in the very beginning of analysis, other more advanced features may be reserved for subsequent stages of project development (detailed feasibility and investment grade studies). The more advanced features, however, may become extremely relevant even early on, if a corresponding pricing strategy is included in the range of options included in the scope of the particular study, and a robust and consistent analysis of it is required to compare with other more easily modeled alternatives. Both essential and advanced modeling features may still belong in the category of short-term improvements and arenot explicitly distinguished here between 4-step (trip-based) and activity based frameworks in this classification. .[6]
 
-![Methods](/images/Pricing_treatments.png)
+![Methods](./images/Pricing_treatments.png)
 
 > Pricing Methods
 
@@ -140,7 +140,7 @@ The C04 research discovered a strong non-linear relationship between houseold in
 
 [ CO4 recommendations](SHRP2_C04_-_Improving_Our_Understanding_of_How_Highway_Congestion_and_Pricing_Affect_Travel_Demand 'wikilink'): Forecasting models typically use income either in a simplified linear form to scale travel costs or as a segmentation variable, with different cost coefficients in different income ranges. Neither approach seems entirely appropriate. The assumption of linearity with income seems too strong, particularly in higher income ranges, and the piecewise linear approach often results in strong nonlinearities or discontinuities in the effect of income that do not have a strong statistical or behavioral basis. The recommended approach is empirically justified across a wide body of evidence and provides a smooth response surface for forecasting.
 
-![](/images/Willingess_pay.png) -->
+![](./images/Willingess_pay.png) -->
 
 <sub>Proportion of payers with lognormal distribution for VOT for a toll of \$20.</sub>
 
