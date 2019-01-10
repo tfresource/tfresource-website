@@ -174,8 +174,6 @@ More information can be found [here.](http://www.coloradodot.info/programs/high-
 
 ## References
 
-## Related Content
-
 [1] <sub>Asessing Highway Tolling and Pricing Impacts, NCHRP Report \#722, v1</sub>
 
 [2] <sub>Understanding Transport Demands and Elasticities, Todd Litman</sub>
