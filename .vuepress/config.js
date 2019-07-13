@@ -7,6 +7,13 @@ module.exports = {
         href: 'https://fonts.googleapis.com/css?family=Raleway:500,500i,700,700i&amp;subset=latin-ext',
       },
     ],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Source+Serif+Pro:500,500i,700,700i&amp;subset=latin-ext',
+      },
+    ],
     ['link', { rel: 'icon', href: '/tiny-logo.png' }],
   ],
   title: 'tf resource',
