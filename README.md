@@ -11,7 +11,7 @@ features:
   - title: Vetted
     details: 'More than a wiki: many pages are written and reviewed by leaders in our industry, including members of the TRB ADB45 committee.'
   - title: Contribute!
-    details: 'We welcome content from the entire travel forecasting community. Typo corrections, case studies, even entire pages on new techniques.'
+    details: 'We welcome content from the entire travel forecasting community: everything from fixing typos, to case studies, to entire pages on new techniques.'
 footer: 'Copyright © 2019 National Academy of Sciences || website by Billy Charlton, Because LLC'
 ---
 
