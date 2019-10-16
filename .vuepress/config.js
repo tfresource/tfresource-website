@@ -4,21 +4,26 @@ module.exports = {
       'link',
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Raleway:500,500i,700,700i&amp;subset=latin-ext',
+        href: 'https://fonts.googleapis.com/css?family=Raleway:500,500i,700,700i&subset=latin-ext',
       },
     ],
     [
       'link',
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Source+Serif+Pro:500,500i,700,700i&amp;subset=latin-ext',
+        href: 'https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i&display=swap',
       },
     ],
     ['link', { rel: 'icon', href: '/tiny-logo.png' }],
   ],
   title: 'tf resource',
   themeConfig: {
+    repo: 'tfresource/tfresource.github.io',
+    docsBranch: 'source',
     displayAllHeaders: false,
+    editLinks: true,
+    editLinkText: 'Edit on Github',
+    lastUpdated: 'Last Updated',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Topics', link: '/topics/' },
@@ -62,9 +67,5 @@ module.exports = {
         children: ['/resources/papers', '/resources/presentations', '/resources/videos'],
       },
     ],
-    lastUpdated: 'Last Updated',
-    repo: 'billyc/tfresource',
-    editLinks: true,
-    editLinkText: 'Edit this page on Github',
   },
 }
