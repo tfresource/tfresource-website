@@ -3,6 +3,7 @@ $textColor = #223
 $sideBlue =  #246
 $pageColor = #ececec
 // $accentColor = #7755aa
+$mediumZoomZIndex = 10000
 
 body,html
   background-color: $pageColor
@@ -120,27 +121,10 @@ p
 .del     { background-color: #fcc; }
       .ins{ background-color: #cfc; }
 
-
-pre:first-of-type { width: 78%; margin-left: auto; margin-right: auto; }
-.file-start + p + pre,
-.file-start + pre { margin-left: 61.8%; }
-.file-start,
-.hunk-start{ text-align: right; }
-
-.file-start code{ font-size: inherit; }
-
-.file-start/*:not(:first-of-type)*/{
-    display: none;
-    font-size: 150%;
-    margin-top: 3rem;
-    border-bottom: 1ex solid #ccc;
-    padding-bottom: 1ex;
-}
-.hunk-start{
-    margin-top: 2ex;
-    border-bottom: 0.5ex dashed #ccc;
-    padding-bottom: 1ex;
-}
+@media (max-width: 1500px)
+  .page
+    .content
+      max-width: 900px
 
 @media (max-width: 960px)
   .home
@@ -171,12 +155,7 @@ pre:first-of-type { width: 78%; margin-left: auto; margin-right: auto; }
   .navbar
     .site-name
       color: $accentColor
-      background: url(/tiny-logo.png) left no-repeat
+      background: none
       padding-left: 50px
       padding-top: 10px
-
-@media (max-width: 1500px)
-  .page
-    .content
-      max-width: 780px
 

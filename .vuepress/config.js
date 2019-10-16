@@ -16,6 +16,18 @@ module.exports = {
     ],
     ['link', { rel: 'icon', href: '/tiny-logo.png' }],
   ],
+  plugins: [
+      [ 'vuepress-plugin-medium-zoom', {
+          selector: '.theme-default-content img',
+          delay: 500,
+          options: {
+            margin: 24,
+            background: '#246',
+            scrollOffset: 0,
+          },
+        },
+      ],
+  ],
   title: 'tf resource',
   themeConfig: {
     repo: 'tfresource/tfresource.github.io',
