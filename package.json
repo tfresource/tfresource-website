@@ -1,7 +1,7 @@
 {
   "name": "tf-resource",
   "version": "2.0.0",
-  "description": "ADB45 Travel Forecasting Resource Website",
+  "description": "Travel Forecasting Resource Website",
   "main": "index.js",
   "scripts": {
     "serve": "vuepress dev",
@@ -27,6 +27,6 @@
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "surge": "^0.20.1",
-    "vuepress": "^1.1.0"
+    "vuepress": "^1.2.0"
   }
 }
