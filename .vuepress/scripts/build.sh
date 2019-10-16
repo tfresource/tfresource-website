@@ -16,13 +16,13 @@ export TIMESTAMP=`date`
 
 # GITHUB-PAGES:
 # -------------
-mv .vuepress/dist/* $SITE
-git checkout -b $BUILD_BRANCH
-rm -rf *
-mv $SITE/* .
-
-git add .
-git commit -m "Build: $TIMESTAMP"
-
-git checkout $SOURCE_BRANCH
+#mv .vuepress/dist/* $SITE
+#git checkout -b $BUILD_BRANCH
+#rm -rf *
+#mv $SITE/* .
+#
+#git add .
+#git commit -m "Build: $TIMESTAMP"
+#
+#git checkout $SOURCE_BRANCH
 
