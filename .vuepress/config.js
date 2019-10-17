@@ -27,6 +27,14 @@ module.exports = {
           },
         },
       ],
+      [ 'vuepress-plugin-mathjax',
+         { target: 'svg',
+           cache: false,
+           macros: {
+               '*': '\\times',
+           },
+         },
+      ],
   ],
   title: 'tf resource',
   themeConfig: {
