@@ -17,24 +17,35 @@ module.exports = {
     ['link', { rel: 'icon', href: '/tiny-logo.png' }],
   ],
   plugins: [
-      [ 'vuepress-plugin-medium-zoom', {
-          selector: '.theme-default-content img',
-          delay: 500,
-          options: {
-            margin: 24,
-            background: '#246',
-            scrollOffset: 0,
-          },
+    [
+      'vuepress-plugin-medium-zoom',
+      {
+        selector: '.theme-default-content img',
+        delay: 500,
+        options: {
+          margin: 24,
+          background: '#246',
+          scrollOffset: 0,
         },
-      ],
-      [ 'vuepress-plugin-mathjax',
-         { target: 'svg',
-           cache: false,
-           macros: {
-               '*': '\\times',
-           },
-         },
-      ],
+      },
+    ],
+    [
+      'vuepress-plugin-mathjax',
+      {
+        target: 'svg',
+        cache: false,
+        macros: {
+          '*': '\\times',
+        },
+      },
+    ],
+    [
+      'vuepress-plugin-git-log',
+      {
+        additionalArgs: '--no-merge',
+      },
+    ],
+    ['vuepress-plugin-smooth-scroll'],
   ],
   title: 'tf resource',
   themeConfig: {

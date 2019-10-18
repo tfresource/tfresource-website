@@ -30,7 +30,9 @@
     "vuepress": "^1.2.0"
   },
   "dependencies": {
+    "vuepress-plugin-git-log": "^1.0.1",
     "vuepress-plugin-mathjax": "^1.2.8",
-    "vuepress-plugin-medium-zoom": "^1.1.5"
+    "vuepress-plugin-medium-zoom": "^1.1.5",
+    "vuepress-plugin-smooth-scroll": "^0.0.7"
   }
 }
