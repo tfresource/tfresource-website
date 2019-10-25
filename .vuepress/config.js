@@ -47,20 +47,19 @@ module.exports = {
     ],
     ['vuepress-plugin-smooth-scroll'],
   ],
-  title: 'tf resource',
+  title: 'tfr',
   themeConfig: {
     repo: 'tfresource/tfresource.github.io',
     docsBranch: 'source',
     displayAllHeaders: false,
     editLinks: true,
-    editLinkText: 'Edit on Github',
+    editLinkText: 'Edit This Page',
     lastUpdated: 'Last Updated',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Topics', link: '/topics/' },
-      { text: 'Events', link: '/events/' },
+      { text: 'TOPICS', link: '/topics/' },
+      { text: 'EVENTS', link: '/events/' },
       {
-        text: 'Resources',
+        text: 'RESOURCES',
         items: [
           {
             text: 'TFR Resources',
@@ -82,6 +81,10 @@ module.exports = {
             ],
           },
         ],
+      },
+      {
+        text: 'ABOUT',
+        items: [{ text: 'About TF-Resource', link: '/thing/' }, { text: 'How to Contribute', link: '/thing/' }],
       },
     ],
     sidebar: [

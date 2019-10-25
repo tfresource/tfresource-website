@@ -1,5 +1,12 @@
 <template>
   <div class="page-nav" v-if="prev || next">
+    <div class="last-updated" v-if="lastUpdated">
+      <span class="prefix">{{ lastUpdatedText }}:</span>
+      <span class="time">{{ lastUpdated }}</span>
+    </div>
+
+    <hr style="border-bottom: 1px dotted #246;" />
+
     <p class="inner">
       <span v-if="prev" class="prev">
         ←
@@ -7,8 +14,7 @@
       </span>
 
       <span v-if="next" class="next">
-        <router-link v-if="next" :to="next.path">{{ next.title || next.path }}</router-link>
-        →
+        <router-link v-if="next" :to="next.path">{{ next.title || next.path }}</router-link>→
       </span>
     </p>
   </div>
@@ -22,21 +28,35 @@ export default {
   name: 'PageNav',
   props: ['sidebarItems'],
   computed: {
-    prev () {
+    prev() {
       return resolvePageLink(LINK_TYPES.PREV, this)
     },
 
-    next () {
+    next() {
       return resolvePageLink(LINK_TYPES.NEXT, this)
-    }
-  }
+    },
+
+    lastUpdated() {
+      return this.$page.lastUpdated
+    },
+
+    lastUpdatedText() {
+      if (typeof this.$themeLocaleConfig.lastUpdated === 'string') {
+        return this.$themeLocaleConfig.lastUpdated
+      }
+      if (typeof this.$site.themeConfig.lastUpdated === 'string') {
+        return this.$site.themeConfig.lastUpdated
+      }
+      return 'Last Updated'
+    },
+  },
 }
 
-function resolvePrev (page, items) {
+function resolvePrev(page, items) {
   return find(page, items, -1)
 }
 
-function resolveNext (page, items) {
+function resolveNext(page, items) {
   return find(page, items, 1)
 }
 
@@ -44,19 +64,16 @@ const LINK_TYPES = {
   NEXT: {
     resolveLink: resolveNext,
     getThemeLinkConfig: ({ nextLinks }) => nextLinks,
-    getPageLinkConfig: ({ frontmatter }) => frontmatter.next
+    getPageLinkConfig: ({ frontmatter }) => frontmatter.next,
   },
   PREV: {
     resolveLink: resolvePrev,
     getThemeLinkConfig: ({ prevLinks }) => prevLinks,
-    getPageLinkConfig: ({ frontmatter }) => frontmatter.prev
-  }
+    getPageLinkConfig: ({ frontmatter }) => frontmatter.prev,
+  },
 }
 
-function resolvePageLink (
-  linkType,
-  { $themeConfig, $page, $route, $site, sidebarItems }
-) {
+function resolvePageLink(linkType, { $themeConfig, $page, $route, $site, sidebarItems }) {
   const { resolveLink, getThemeLinkConfig, getPageLinkConfig } = linkType
 
   // Get link config from theme
@@ -77,7 +94,7 @@ function resolvePageLink (
   }
 }
 
-function find (page, items, offset) {
+function find(page, items, offset) {
   const res = []
   flatten(items, res)
   for (let i = 0; i < res.length; i++) {
@@ -88,7 +105,7 @@ function find (page, items, offset) {
   }
 }
 
-function flatten (items, res) {
+function flatten(items, res) {
   for (let i = 0, l = items.length; i < l; i++) {
     if (items[i].type === 'group') {
       flatten(items[i].children || [], res)
@@ -99,19 +116,40 @@ function flatten (items, res) {
 }
 </script>
 <style lang="stylus">
-@require '../styles/wrapper.styl'
+@require '../styles/wrapper.styl';
 
-.page-nav
-  @extend $wrapper
-  padding-top 1rem
-  padding-bottom 0
-  .inner
-    min-height 2rem
-    margin-top 0
-    border-top 1px solid $borderColor
-    padding-top 1rem
-    overflow auto // clear float
-  .next
-    float right
+.page-nav {
+  @extend $wrapper;
+  padding-top: 1rem;
+  padding-bottom: 0;
 
+  .inner {
+    min-height: 2rem;
+    margin-top: 0;
+    border-top: 1px solid $borderColor;
+    padding-top: 1rem;
+    overflow: auto; // clear float
+  }
+
+  .next {
+    float: right;
+  }
+
+  .last-updated {
+    text-align: right;
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: 1rem;
+
+    .prefix {
+      font-weight: normal;
+      color: #888;
+    }
+
+    .time {
+      font-weight: bold;
+      color: #888;
+    }
+  }
+}
 </style>

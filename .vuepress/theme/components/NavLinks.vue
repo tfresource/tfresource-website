@@ -1,25 +1,12 @@
 <template>
-  <nav
-    class="nav-links"
-    v-if="userLinks.length || repoLink"
-  >
+  <nav class="nav-links" v-if="userLinks.length || repoLink">
     <!-- user links -->
-    <div
-      class="nav-item"
-      v-for="item in userLinks"
-      :key="item.link"
-    >
-      <DropdownLink
-        v-if="item.type === 'links'"
-        :item="item"
-      />
-      <NavLink
-        v-else
-        :item="item"
-      />
+    <div class="nav-item" v-for="item in userLinks" :key="item.link">
+      <DropdownLink v-if="item.type === 'links'" :item="item" />
+      <NavLink v-else :item="item" />
     </div>
 
-    <!-- repo link -->
+    <!-- repo link
     <a
       v-if="repoLink"
       :href="repoLink"
@@ -30,6 +17,7 @@
       {{ repoLabel }}
       <OutboundLink/>
     </a>
+    -->
   </nav>
 </template>
 
@@ -42,11 +30,11 @@ export default {
   components: { NavLink, DropdownLink },
 
   computed: {
-    userNav () {
+    userNav() {
       return this.$themeLocaleConfig.nav || this.$site.themeConfig.nav || []
     },
 
-    nav () {
+    nav() {
       const { locales } = this.$site
       if (locales && Object.keys(locales).length > 1) {
         const currentLink = this.$page.path
@@ -57,7 +45,7 @@ export default {
           ariaLabel: this.$themeLocaleConfig.ariaLabel || 'Select language',
           items: Object.keys(locales).map(path => {
             const locale = locales[path]
-            const text = themeLocales[path] && themeLocales[path].label || locale.lang
+            const text = (themeLocales[path] && themeLocales[path].label) || locale.lang
             let link
             // Stay on the current page
             if (locale.lang === this.$lang) {
@@ -71,32 +59,30 @@ export default {
               }
             }
             return { text, link }
-          })
+          }),
         }
         return [...this.userNav, languageDropdown]
       }
       return this.userNav
     },
 
-    userLinks () {
+    userLinks() {
       return (this.nav || []).map(link => {
         return Object.assign(resolveNavLinkItem(link), {
-          items: (link.items || []).map(resolveNavLinkItem)
+          items: (link.items || []).map(resolveNavLinkItem),
         })
       })
     },
 
-    repoLink () {
+    repoLink() {
       const { repo } = this.$site.themeConfig
       if (repo) {
-        return /^https?:/.test(repo)
-          ? repo
-          : `https://github.com/${repo}`
+        return /^https?:/.test(repo) ? repo : `https://github.com/${repo}`
       }
       return null
     },
 
-    repoLabel () {
+    repoLabel() {
       if (!this.repoLink) return
       if (this.$site.themeConfig.repoLabel) {
         return this.$site.themeConfig.repoLabel
@@ -112,40 +98,60 @@ export default {
       }
 
       return 'Source'
-    }
-  }
+    },
+  },
 }
 </script>
 
 <style lang="stylus">
-.nav-links
-  display inline-block
-  a
-    line-height 1.4rem
-    color inherit
-    &:hover, &.router-link-active
-      color $accentColor
-  .nav-item
-    position relative
-    display inline-block
-    margin-left 1.5rem
-    line-height 2rem
-    &:first-child
-      margin-left 0
-  .repo-link
-    margin-left 1.5rem
+.nav-links {
+  display: inline-block;
 
-@media (max-width: $MQMobile)
-  .nav-links
-    .nav-item, .repo-link
-      margin-left 0
+  a {
+    line-height: 1.4rem;
+    color: inherit;
 
-@media (min-width: $MQMobile)
-  .nav-links a
-    &:hover, &.router-link-active
-      color $textColor
-  .nav-item > a:not(.external)
-    &:hover, &.router-link-active
-      margin-bottom -2px
-      border-bottom 2px solid lighten($accentColor, 8%)
+    &:hover, &.router-link-active {
+      color: $accentColor;
+    }
+  }
+
+  .nav-item {
+    position: relative;
+    display: inline-block;
+    margin-left: 1.5rem;
+    line-height: 2rem;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .repo-link {
+    margin-left: 1.5rem;
+  }
+}
+
+@media (max-width: $MQMobile) {
+  .nav-links {
+    .nav-item, .repo-link {
+      margin-left: 0;
+    }
+  }
+}
+
+@media (min-width: $MQMobile) {
+  .nav-links a {
+    &:hover, &.router-link-active {
+      color: $textColor;
+    }
+  }
+
+  .nav-item > a:not(.external) {
+    &:hover, &.router-link-active {
+      margin-bottom: -2px;
+      border-bottom: 2px solid lighten($accentColor, 8%);
+    }
+  }
+}
 </style>

@@ -1,15 +1,11 @@
 <template>
-  <footer class="page-edit">
+  <header class="page-edit">
+    <div class="add-some-flair"></div>
     <div class="edit-link" v-if="editLink">
       <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
       <OutboundLink />
     </div>
-
-    <div class="last-updated" v-if="lastUpdated">
-      <span class="prefix">{{ lastUpdatedText }}:</span>
-      <span class="time">{{ lastUpdated }}</span>
-    </div>
-  </footer>
+  </header>
 </template>
 <script>
 import isNil from 'lodash/isNil'
@@ -18,11 +14,11 @@ import { endingSlashRE, outboundRE } from '../util'
 export default {
   name: 'PageEdit',
   computed: {
-    lastUpdated () {
+    lastUpdated() {
       return this.$page.lastUpdated
     },
 
-    lastUpdatedText () {
+    lastUpdatedText() {
       if (typeof this.$themeLocaleConfig.lastUpdated === 'string') {
         return this.$themeLocaleConfig.lastUpdated
       }
@@ -32,99 +28,92 @@ export default {
       return 'Last Updated'
     },
 
-    editLink () {
+    editLink() {
       const showEditLink = isNil(this.$page.frontmatter.editLink)
         ? this.$site.themeConfig.editLinks
         : this.$page.frontmatter.editLink
 
-      const {
-        repo,
-        docsDir = '',
-        docsBranch = 'master',
-        docsRepo = repo
-      } = this.$site.themeConfig
+      const { repo, docsDir = '', docsBranch = 'master', docsRepo = repo } = this.$site.themeConfig
 
       if (showEditLink && docsRepo && this.$page.relativePath) {
-        return this.createEditLink(
-          repo,
-          docsRepo,
-          docsDir,
-          docsBranch,
-          this.$page.relativePath
-        )
+        return this.createEditLink(repo, docsRepo, docsDir, docsBranch, this.$page.relativePath)
       }
       return null
     },
 
-    editLinkText () {
-      return (
-        this.$themeLocaleConfig.editLinkText
-        || this.$site.themeConfig.editLinkText
-        || `Edit this page`
-      )
-    }
+    editLinkText() {
+      return this.$themeLocaleConfig.editLinkText || this.$site.themeConfig.editLinkText || `Edit this page`
+    },
   },
 
   methods: {
-    createEditLink (repo, docsRepo, docsDir, docsBranch, path) {
+    createEditLink(repo, docsRepo, docsDir, docsBranch, path) {
       const bitbucket = /bitbucket.org/
       if (bitbucket.test(repo)) {
         const base = outboundRE.test(docsRepo) ? docsRepo : repo
         return (
-          base.replace(endingSlashRE, '')
-          + `/src`
-          + `/${docsBranch}/`
-          + (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '')
-          + path
-          + `?mode=edit&spa=0&at=${docsBranch}&fileviewer=file-view-default`
+          base.replace(endingSlashRE, '') +
+          `/src` +
+          `/${docsBranch}/` +
+          (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '') +
+          path +
+          `?mode=edit&spa=0&at=${docsBranch}&fileviewer=file-view-default`
         )
       }
 
-      const base = outboundRE.test(docsRepo)
-        ? docsRepo
-        : `https://github.com/${docsRepo}`
+      const base = outboundRE.test(docsRepo) ? docsRepo : `https://github.com/${docsRepo}`
       return (
-        base.replace(endingSlashRE, '')
-        + `/edit`
-        + `/${docsBranch}/`
-        + (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '')
-        + path
+        base.replace(endingSlashRE, '') +
+        `/edit` +
+        `/${docsBranch}/` +
+        (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '') +
+        path
       )
-    }
-  }
+    },
+  },
 }
 </script>
 <style lang="stylus">
-@require '../styles/wrapper.styl'
+@require '../styles/wrapper.styl';
 
-.page-edit
-  @extend $wrapper
-  padding-top 1rem
-  padding-bottom 1rem
-  overflow auto
+.add-some-flair {
+  height: 3rem;
+  background-color: #c74; // #42b983; // #c74; // orange;
+  margin-bottom: 2rem;
+}
 
-  .edit-link
-    display inline-block
-    a
-      color lighten($textColor, 25%)
-      margin-right 0.25rem
-  .last-updated
-    float right
-    font-size 0.9em
-    .prefix
-      font-weight 500
-      color lighten($textColor, 25%)
-    .time
-      font-weight 400
-      color #aaa
+.page-edit {
+  @extend $wrapper;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  overflow: auto;
+  text-align: right;
 
-@media (max-width: $MQMobile)
-  .page-edit
-    .edit-link
-      margin-bottom 0.5rem
-    .last-updated
-      font-size 0.8em
-      float none
-      text-align left
+  .edit-link {
+    display: inline-block;
 
+    a {
+      color: lighten(#246, 25%);
+      margin-right: 0.25rem;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: $MQMobile) {
+  .page-edit {
+    .edit-link {
+      margin-bottom: 0.5rem;
+    }
+
+    .last-updated {
+      font-size: 0.8em;
+      float: none;
+      text-align: left;
+    }
+  }
+}
 </style>
