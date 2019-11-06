@@ -1,19 +1,16 @@
 <template lang="pug">
-.topic-index-content
-    .topics(v-for="topic in topics")
-      router-link.topic-card(:to="topic.path")
-        .topic-card.custom-block.tip
-          .card-container
-            .left-stuff
-              p.custom-block-title {{ topic.frontmatter.title }}
-              p.topic-card-detail {{ topic.frontmatter.description }}
-              .badges
-                .badge-tag(v-for="tag in topic.frontmatter.tags" :key="topic.title+tag")
-                  Badge(
-                    :text="tag"
-                    :type="tag==='archive' ? 'warn':''"
-                    vertical="top"
-                  )
+.main-content
+  .category(v-for="category in categories" :key="category" )
+    h3 {{ category }}:
+    .topics(v-for="topic in topicCircle(category)" :key="topic.path")
+      .entry
+        router-link.link-text(:to="topic.path") {{ topic.frontmatter.title }}
+        Badge.badge(v-if="topic.frontmatter.categories.includes('Needs Review')"
+            text="Needs Review"
+            type="warn"
+            vertical="top")
+        p(v-if="topic.frontmatter.description") {{ topic.frontmatter.description }}
+
 
 </template>
 
@@ -31,26 +28,44 @@ export default {
         .sort((a, b) => a.frontmatter.title.localeCompare(b.frontmatter.title))
       // new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
     },
+    categories() {
+      const all = Object.keys(this.pageLookup)
+        .sort()
+        .filter(a => a != 'Needs Review')
+      return all
+    },
+  },
+  data: function() {
+    return {
+      pageLookup: {},
+    }
+  },
+  created: function() {
+    for (const page of this.$site.pages) {
+      if (!page.frontmatter || !page.frontmatter.categories) continue
+
+      for (const category of page.frontmatter.categories) {
+        if (!this.pageLookup[category]) this.pageLookup[category] = []
+        this.pageLookup[category].push(page)
+      }
+    }
+    console.log({ all: this.pageLookup })
+  },
+  methods: {
+    topicCircle: function(category) {
+      return this.pageLookup[category].sort((a, b) => (a.title < b.title ? -1 : 1))
+    },
   },
 }
 </script>
+
 <style scoped>
+.topic-card {
+  margin-right: 0.5rem;
+}
+
 .topic-card-detail {
   color: #223;
-}
-
-.topic-card:hover {
-  text-decoration: none !important;
-  box-shadow: 2px 5px 8px rgba(20, 0, 80, 0.4);
-}
-
-a.topic-card:hover {
-  text-decoration: none !important;
-}
-
-.topic-card {
-  max-width: 300px;
-  margin-bottom: 0;
 }
 
 .card-container {
@@ -58,24 +73,23 @@ a.topic-card:hover {
   flex-direction: row;
 }
 
-.left-stuff {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  font-size: 0.85rem;
-  margin-top: -0.5rem;
+.page-title {
+  margin: 0.25rem 0px;
 }
 
-.badges {
+.entry {
+  font-size: 1.1rem;
   display: flex;
   flex-direction: row;
-  margin: -0.5rem -27px 1px auto;
-  font-size: 0.7rem;
+  margin: 0.75rem 2rem;
 }
 
-.topic-index-content {
-  display: grid;
-  grid-gap: 0rem 1.5rem;
-  grid-template-columns: repeat(auto-fill, 275px);
+.badge {
+  padding-left: 1rem;
+}
+
+.link-text {
+  margin-top: 0.25rem;
+  margin-right: 0.5rem;
 }
 </style>
