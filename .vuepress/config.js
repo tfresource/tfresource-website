@@ -20,6 +20,7 @@ module.exports = {
   markdown: {
     extendMarkdown: md => {
       md.use(require('markdown-it-footnote'))
+      md.use(require('markdown-it-sub'))
     },
   },
   plugins: [

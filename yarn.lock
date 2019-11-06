@@ -4628,6 +4628,11 @@ markdown-it-footnote@^3.0.2:
   resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.2.tgz#1575ee7a093648d4e096aa33386b058d92ac8bc1"
   integrity sha512-JVW6fCmZWjvMdDQSbOT3nnOQtd9iAXmw7hTSh26+v42BnvXeVyGMDBm5b/EZocMed2MbCAHiTX632vY0FyGB8A==
 
+markdown-it-sub@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-sub/-/markdown-it-sub-1.0.0.tgz#375fd6026eae7ddcb012497f6411195ea1e3afe8"
+  integrity sha1-N1/WAm6ufdywEkl/ZBEZXqHjr+g=
+
 markdown-it-table-of-contents@^0.4.0:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/markdown-it-table-of-contents/-/markdown-it-table-of-contents-0.4.4.tgz#3dc7ce8b8fc17e5981c77cc398d1782319f37fbc"
