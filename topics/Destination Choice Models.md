@@ -1,10 +1,10 @@
 ---
 title: "Destination Choice Models"
 categories:
-   - Needs Review
-   - Destination Choice Models
-   - Spatial Interaction Models
-   - Topic Circles
+  - Needs Review
+  - Destination Choice Models
+  - Spatial Interaction Models
+  - Topic Circles
 ---
 
 Introduction

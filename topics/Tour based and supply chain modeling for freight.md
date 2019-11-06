@@ -1,11 +1,11 @@
 ---
 title: "Tour based and supply chain modeling for freight"
 categories:
-   - Needs Review
-   - Activity Based Models
-   - Freight Modeling
-   - Papers
-   - Resources
+  - Needs Review
+  - Activity Based Models
+  - Freight Modeling
+  - Papers
+  - Resources
 ---
 
 \_\_NOTOC\_\_

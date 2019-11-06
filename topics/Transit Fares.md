@@ -1,9 +1,9 @@
 ---
 title: "Transit Fares"
 categories:
-   - Needs Review
-   - Public Transport (Transit) Modeling
-   - Transportation Networks
+  - Needs Review
+  - Public Transport (Transit) Modeling
+  - Transportation Networks
 ---
 
 Transit Fares can be represented in numerous ways and are highly-dependent upon the commercial modeling system that is used. Fares can be represented as a flat fare, transfer discounts, Some systems can accurately represent all transfer combinations while others this has to be approximated.

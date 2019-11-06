@@ -1,8 +1,8 @@
 ---
 title: "Limitations in classic constraint based approaches"
 categories:
-   - Needs Review
-   - Activity Based Models
+  - Needs Review
+  - Activity Based Models
 ---
 
 Classic constraints-based approaches are characterized by some limitations:

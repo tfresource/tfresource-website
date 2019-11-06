@@ -1,7 +1,7 @@
 ---
 title: "Cellular Communications Data"
 categories:
-   - Needs Review
+  - Needs Review
 ---
 
 Cell phones regularly communicate with their networks through control channel messages. This cell-tower signaling can locate and track individual cell phones using trilateration and other inferences with signals sent between phones and towers. This was one of the first technologies harnessed to provide origin-destination (OD) [big data](Big_Data) on a large scale and remains widely used. Because this data is provided by cell phone service providers and they are particularly concerned for their customer privacy, they do not release disaggregate data, but only aggregated data products.

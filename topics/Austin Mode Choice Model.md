@@ -1,9 +1,9 @@
 ---
 title: "Austin Mode Choice Model"
 categories:
-   - Needs Review
-   - Papers
-   - Resources
+  - Needs Review
+  - Papers
+  - Resources
 ---
 
 \_\_NOTOC\_\_

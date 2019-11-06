@@ -1,8 +1,8 @@
 ---
 title: "User Equilibrium"
 categories:
-   - Needs Review
-   - Network Assignment
+  - Needs Review
+  - Network Assignment
 ---
 
 Summary

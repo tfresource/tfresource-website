@@ -1,12 +1,12 @@
 ---
 title: "Washington State Comprehensive Tolling Study Volume 1 Final Report"
 categories:
-   - Needs Review
-   - High Occupancy Vehicle Lanes
-   - Pricing Sudies
-   - Reports
-   - Resources
-   - Toll Facilities And Managed Lanes
+  - Needs Review
+  - High Occupancy Vehicle Lanes
+  - Pricing Sudies
+  - Reports
+  - Resources
+  - Toll Facilities And Managed Lanes
 ---
 
 \_\_NOTOC\_\_

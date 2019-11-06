@@ -1,8 +1,8 @@
 ---
 title: "Representations of Decision Making Behavior in Travel Modeling"
 categories:
-   - Needs Review
-   - Travel Behavior
+  - Needs Review
+  - Travel Behavior
 ---
 
 ### Rational Decision Making

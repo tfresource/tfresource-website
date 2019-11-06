@@ -1,7 +1,7 @@
 ---
 title: "Stepwise Model Calibration/Validation"
 categories:
-   - Needs Review
+  - Needs Review
 ---
 
 Stepwise model calibration/validation is a structured process by which travel models are calibrated to match base year conditions in a sequential manner. As each model is calibrated, the results are passed as input to the subsequent step in the modeling process. In this way, the impacts of error propagation are reduced throughout the modeling process, thus reducing the need to make wholesale changes to match, for example, total regionwide vehicle-miles of travel (VMT).

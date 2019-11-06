@@ -1,9 +1,9 @@
 ---
 title: "Pricing and valuation"
 categories:
-   - Needs Review
-   - Pricing And Valuation
-   - Topic Circles
+  - Needs Review
+  - Pricing And Valuation
+  - Topic Circles
 ---
 
 Learn more about this circle at [Pricing and valuation](Pricing_and_valuation).

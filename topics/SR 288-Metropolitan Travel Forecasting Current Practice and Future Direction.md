@@ -1,9 +1,9 @@
 ---
 title: "SR 288-Metropolitan Travel Forecasting Current Practice and Future Direction"
 categories:
-   - Needs Review
-   - Reports
-   - Resources
+  - Needs Review
+  - Reports
+  - Resources
 ---
 
 \_\_NOTOC\_\_

@@ -1,10 +1,10 @@
 ---
 title: "Dallas Case Study"
 categories:
-   - Needs Review
-   - Dynamic Network Models
-   - Reports
-   - Resources
+  - Needs Review
+  - Dynamic Network Models
+  - Reports
+  - Resources
 ---
 
 \_\_NOTOC\_\_

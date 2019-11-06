@@ -1,7 +1,7 @@
 ---
 title: "Future Development of TFR"
 categories:
-   - Needs Review
+  - Needs Review
 ---
 
 The wiki tfresource.org has faced challenges in the past to secure funding for server fees and maintenance. These issues led to ideas how we could make tfresource.org more resistant against shortcomings in funding. Here are some ideas under discussion.

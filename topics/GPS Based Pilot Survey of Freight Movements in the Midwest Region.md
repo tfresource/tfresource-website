@@ -1,10 +1,10 @@
 ---
 title: "GPS Based Pilot Survey of Freight Movements in the Midwest Region"
 categories:
-   - Needs Review
-   - Freight Modeling
-   - Reports
-   - Resources
+  - Needs Review
+  - Freight Modeling
+  - Reports
+  - Resources
 ---
 
 \_\_NOTOC\_\_

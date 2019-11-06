@@ -1,8 +1,8 @@
 ---
 title: "Community"
 categories:
-   - Needs Review
-   - Community
+  - Needs Review
+  - Community
 ---
 
 The TFResource is all about community and volunteers, this page and the associated pages describe the volunteers contributing to the website, the councils responsible for various aspects of the website, and the staff supporting the effort. Among the critical goals of the site are to keep its management as simple as possible and to keep its decision-making very transparent. The rules governing the volunteers and councils are designed to make sure that we acheive these goals.

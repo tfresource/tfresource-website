@@ -1,9 +1,9 @@
 ---
 title: "A model of complex travel behavior"
 categories:
-   - Needs Review
-   - Papers
-   - Resources
+  - Needs Review
+  - Papers
+  - Resources
 ---
 
 \_\_NOTOC\_\_

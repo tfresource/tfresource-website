@@ -1,7 +1,7 @@
 ---
 title: "Example of an autoregression model with Box-Cox transformation"
 categories:
-   - Needs Review
+  - Needs Review
 ---
 
 Introduction

@@ -1,7 +1,7 @@
 ---
 title: "Transit mode combinations"
 categories:
-   - Needs Review
+  - Needs Review
 ---
 
 **Main Mode:** The mode that you consider to be the most important in your trip. It is is fairly debatable as to what you would consider to be the main mode.

@@ -1,8 +1,8 @@
 ---
 title: "GPS-enabled surveys"
 categories:
-   - Needs Review
-   - Travel Survey Data
+  - Needs Review
+  - Travel Survey Data
 ---
 
 GPS-enabled [travel surveys](Travel_surveys) use GPS data logging devices to passively collect objective and accurate travel details with the additional goal of reducing respondent burden. The U.S. Federal Highway Administration sponsored the first test of a GPS-enabled survey in Lexington, Kentucky in 1996. The use of GPS in surveys today has become common practice, particularly for [household travel surveys](Household_travel_surveys).

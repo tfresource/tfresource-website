@@ -1,8 +1,8 @@
 ---
 title: "7th ITM Conference, Atlanta, Georgia (2018)"
 categories:
-   - Needs Review
-   - Innovations In Travel Modeling
+  - Needs Review
+  - Innovations In Travel Modeling
 ---
 
 ### Hyatt Buckhead | Atlanta, Georgia

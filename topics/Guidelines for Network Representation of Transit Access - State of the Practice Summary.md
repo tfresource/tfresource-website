@@ -1,10 +1,10 @@
 ---
 title: "Guidelines for Network Representation of Transit Access - State of the Practice Summary"
 categories:
-   - Needs Review
-   - Reports
-   - Resources
-   - Transportation Networks
+  - Needs Review
+  - Reports
+  - Resources
+  - Transportation Networks
 ---
 
 \_\_NOTOC\_\_

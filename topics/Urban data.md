@@ -1,17 +1,17 @@
 ---
 title: "Urban data"
 categories:
-   - Needs Review
-   - Activity Based Models
-   - Choice Models
-   - Land Use Transport Modeling
-   - Mode Choice
-   - Public Transport (Transit) Modeling
-   - Spatial Data
-   - Temporal Data
-   - Transportation Networks
-   - Travel Surveys
-   - Urban And Metropolitan Models
+  - Needs Review
+  - Activity Based Models
+  - Choice Models
+  - Land Use Transport Modeling
+  - Mode Choice
+  - Public Transport (Transit) Modeling
+  - Spatial Data
+  - Temporal Data
+  - Transportation Networks
+  - Travel Surveys
+  - Urban And Metropolitan Models
 ---
 
 As the world's population becomes increasingly urbanized, researchers and agencies have devoted increasing attention to understanding travel patterns in urban areas. Many of the existing data topics (temporal, spatial, travel survey) overlap with urban data as they are all various facets of the data needed for local governments and MPOs to make decisions about how to invest in infrastructure. The purpose of this page is to tie together some of the concepts of other data and models to bridge the gaps between the problems urban planners seek to solve, the models available to study these problems, and the data both necessary and available to answer questions related to urban travel.

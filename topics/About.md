@@ -1,8 +1,8 @@
 ---
 title: "About"
 categories:
-   - Needs Review
-   - About
+  - Needs Review
+  - About
 ---
 
 About the TFResource

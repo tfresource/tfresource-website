@@ -1,8 +1,8 @@
 ---
 title: "Stochastic Traffic Assignment"
 categories:
-   - Needs Review
-   - Network Assignment
+  - Needs Review
+  - Network Assignment
 ---
 
 Summary

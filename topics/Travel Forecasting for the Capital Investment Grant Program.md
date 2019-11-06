@@ -1,8 +1,8 @@
 ---
 title: "Travel Forecasting for the Capital Investment Grant Program"
 categories:
-   - Needs Review
-   - New Starts
+  - Needs Review
+  - New Starts
 ---
 
 For project evaluation in the Capital Investment Grant Program, FTA allows the use of region-wide travel models, incremental data-driven models, or FTA’s Simplified Trips-on-Project Software (STOPS). The choice is at the project sponsor’s option.

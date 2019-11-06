@@ -1,9 +1,9 @@
 ---
 title: "Toward a dynamic model of individual activity pattern formulation"
 categories:
-   - Needs Review
-   - Papers
-   - Resources
+  - Needs Review
+  - Papers
+  - Resources
 ---
 
 \_\_NOTOC\_\_

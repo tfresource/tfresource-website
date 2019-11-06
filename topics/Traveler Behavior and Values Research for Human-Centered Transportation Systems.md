@@ -1,9 +1,9 @@
 ---
 title: "Traveler Behavior and Values Research for Human-Centered Transportation Systems"
 categories:
-   - Needs Review
-   - Papers
-   - Resources
+  - Needs Review
+  - Papers
+  - Resources
 ---
 
 \_\_NOTOC\_\_

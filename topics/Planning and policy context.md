@@ -1,7 +1,7 @@
 ---
 title: "Planning and policy context"
 categories:
-   - Needs Review
+  - Needs Review
 ---
 
 The first step in the decision framework is to engage policymakers and planners at your agency and other stakeholders to better understand their concerns and questions about how CAV5s may impact your community as well as to solicit ideas as to how government may intervene to mitigate and/or shape these impacts. Some stakeholders may be interested in, for example, whether or not the jurisdiction should continue to invest in roadway widenings given the potential of CAV5s to effectively increase existing capacity via closer vehicle following. Others may be interested in how best to manage the interactions of CAV5s and bicycles on local streets. We suspect a wide ranging set of concerns and policy ideas will emerge from these discussions.

@@ -1,9 +1,9 @@
 ---
 title: "Transit Route"
 categories:
-   - Needs Review
-   - Public Transport (Transit) Modeling
-   - Transportation Networks
+  - Needs Review
+  - Public Transport (Transit) Modeling
+  - Transportation Networks
 ---
 
 Transit routes represent how [Transit Vehicles](Transit_Vehicles) traverse the network. Transit route characteristics include:

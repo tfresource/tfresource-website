@@ -1,8 +1,8 @@
 ---
 title: "Governance"
 categories:
-   - Needs Review
-   - About
+  - Needs Review
+  - About
 ---
 
 Members will be contacted when submissions are deleted and will be required to work one-on-one with the TF Resource [Administrators](Administrators) after the first violation. The second violation will result in demotion to a lower user role on the website. Demotions will be carefully considered and in consultation with the [TF Resource Volunteers](TF_Resource_Volunteers) related to the topic at hand. Demotion in extreme cases may be permanent, but will more often be for a cool down period with a set of conditions for reinstatement.

@@ -1,9 +1,9 @@
 ---
 title: "Traffic Analysis Zone"
 categories:
-   - Needs Review
-   - Destination Choice Models
-   - Trip Based Models
+  - Needs Review
+  - Destination Choice Models
+  - Trip Based Models
 ---
 
 A **traffic analysis zone** (TAZ) is the unit of geography most commonly used in conventional transportation planning models. The size of a zone varies, but for a typical metropolitan planning software, a zone of under 3000 people is common. The spatial extent of zones typically varies in models, ranging from very large areas in the exurb to as small as city blocks or buildings in central business districts. There is no technical reason zones cannot be as small as single buildings, however additional zones add to the computational burden.

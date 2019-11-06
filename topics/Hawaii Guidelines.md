@@ -1,9 +1,9 @@
 ---
 title: "Hawaii Guidelines"
 categories:
-   - Needs Review
-   - Reports
-   - Resources
+  - Needs Review
+  - Reports
+  - Resources
 ---
 
 \_\_NOTOC\_\_

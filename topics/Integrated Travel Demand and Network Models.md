@@ -1,11 +1,11 @@
 ---
 title: "Integrated Travel Demand and Network Models"
 categories:
-   - Needs Review
-   - Activity Based Models
-   - Dynamic Network Models
-   - Integrated Travel Demand And Network Models
-   - Model Integration
+  - Needs Review
+  - Activity Based Models
+  - Dynamic Network Models
+  - Integrated Travel Demand And Network Models
+  - Model Integration
 ---
 
 An integrated travel demand model that can serve various planning needs should include at least two primary components:

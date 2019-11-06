@@ -1,7 +1,7 @@
 ---
 title: "Market Segmentation"
 categories:
-   - Needs Review
+  - Needs Review
 ---
 
 Idea of market segmentation in [Choice Models](Choice_Models) is that there is variation in the value attributed to various factors that individuals weigh as part of the decision-making process. There is often variation in tastes across:

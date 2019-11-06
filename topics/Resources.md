@@ -1,7 +1,7 @@
 ---
 title: "Resources"
 categories:
-   - Needs Review
+  - Needs Review
 ---
 
 Welcome to the Resources section of the Travel Forecasting Resource. Do you have something that has been useful in your travel forecasting work? Please take a minute to create a Resource page and share it here!

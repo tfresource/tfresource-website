@@ -1,11 +1,11 @@
 ---
 title: "Alternative Futures for Integrated Transportation and Land-Use Models Contrasted with Trend-Delphi Models"
 categories:
-   - Needs Review
-   - Land Use Transport Modeling
-   - Papers
-   - Resources
-   - Sketch Planning Models
+  - Needs Review
+  - Land Use Transport Modeling
+  - Papers
+  - Resources
+  - Sketch Planning Models
 ---
 
 \_\_NOTOC\_\_

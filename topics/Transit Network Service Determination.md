@@ -1,7 +1,7 @@
 ---
 title: "Transit Network Service Determination"
 categories:
-   - Needs Review
+  - Needs Review
 ---
 
 The determination of the transit network service is undertaken sometime after transit networks are completed and before mode choice is evaluated. Although many commercial packages come with many default values, it can be one of the most time-consuming and artful components of [Public Transit modeling](Public_Transport_Modeling).

@@ -1,7 +1,7 @@
 ---
 title: "Prerequisites for travel modeling"
 categories:
-   - Needs Review
+  - Needs Review
 ---
 
 Transportation planners and modelers come from diverse backgrounds. No definitive survey of their academic backgrounds is known to exist, much less agreement about an ideal slate of courses. Many modelers are thought to have graduate degrees in civil engineering with coursework in travel demand forecasting. Others have degrees in urban planning, economics, or related field. Those without an engineering background sometimes struggle with the quantitative foundations of advanced models, and seek references that will expand their grasp of "prerequisites for travel modeling." Some of the foundational areas include:

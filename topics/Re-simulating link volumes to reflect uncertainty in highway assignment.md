@@ -1,8 +1,8 @@
 ---
 title: "Re-simulating link volumes to reflect uncertainty in highway assignment"
 categories:
-   - Needs Review
-   - Network Assignment
+  - Needs Review
+  - Network Assignment
 ---
 
 In the highway project prioritization process, congestion benefits of capacity-adding highway projects are often calculated by comparing Build and No-Build scenarios using a regional travel demand model, with the results presented as point estimates (i.e., one number) in the congestion scores and Benefit/Cost ratios. Although point estimates are easier to communicate and understand, they do not provide any information about the reliability of the results.

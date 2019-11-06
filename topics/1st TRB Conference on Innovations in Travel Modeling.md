@@ -1,9 +1,9 @@
 ---
 title: "1st TRB Conference on Innovations in Travel Modeling"
 categories:
-   - Needs Review
-   - Events
-   - Innovations In Travel Modeling
+  - Needs Review
+  - Events
+  - Innovations In Travel Modeling
 ---
 
 The First TRB Conference on Innovations in Travel Modeling (ITM2006) was held May 21-23, 2006 in Austin, Texas. The University of Texas at Austin and the North Central Texas Council of Governments served as co-hosts of the first conference. The inaugural conference of the ITM series was a grand success with more than 150 attendees, including leading academics, practitioners from private and public sector entities, and policy makers. The conference program included several presentations by leading researchers from around the world, thus offering a global perspective on innovations in travel modeling. Interactive sessions and informal networking events provided ample opportunities for attendees to learn from one another and discuss ways to transition advanced methods and algorithms into practice. There was considerable discussion related to the objectives, aims, and goals of the conference series and the type of work that would be presented at the conference. It was largely felt that the conference should focus on methods, algorithms, and modeling techniques in the research domain that show considerable promise for implementation in practice in the near-term.\

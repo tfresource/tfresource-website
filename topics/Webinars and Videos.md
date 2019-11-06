@@ -1,8 +1,8 @@
 ---
 title: "Webinars and Videos"
 categories:
-   - Needs Review
-   - Resources
+  - Needs Review
+  - Resources
 ---
 
 

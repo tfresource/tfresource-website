@@ -1,8 +1,8 @@
 ---
 title: "Tour-based models"
 categories:
-   - Needs Review
-   - Activity Based Models
+  - Needs Review
+  - Activity Based Models
 ---
 
 **Tour-based models** arrange travel into units called tours. Tours are travel events that start at one location and return to that same location. For example, when a person travels to work and returns home, this a home-based work tour. A tour can have two or more trips.

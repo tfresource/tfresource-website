@@ -1,8 +1,8 @@
 ---
 title: "Parking surveys"
 categories:
-   - Needs Review
-   - Travel Surveys
+  - Needs Review
+  - Travel Surveys
 ---
 
 **Parking surveys** have traditionally been conducted to address parking supply/demand, utilization, and turnover issues as part of the transportation planning process. However, as travel demand models have become increasingly sophisticated, parking surveys are also being used to provide additional travel behavior data for input into the modeling proc­ess. For example, parking generation surveys can improve the travel model calibration process by identifying and matching the demand and supply of vehicle trips generated to and from parking facilities located within specific traffic analysis zones (TAZs). Parking pricing surveys can also provide a more sophisticated understanding of the price elasticities of parking costs that greatly affect mode choice and consequently, travel behavior.

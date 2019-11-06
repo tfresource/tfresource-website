@@ -1,8 +1,8 @@
 ---
 title: "Activity-Travel Planning and Decision Making Behaviors"
 categories:
-   - Needs Review
-   - Travel Behavior
+  - Needs Review
+  - Travel Behavior
 ---
 
 ### Introduction

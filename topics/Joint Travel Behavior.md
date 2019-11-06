@@ -1,8 +1,8 @@
 ---
 title: "Joint Travel Behavior"
 categories:
-   - Needs Review
-   - Travel Behavior
+  - Needs Review
+  - Travel Behavior
 ---
 
 **Joint Travel Behavior** refers to how people choose to travel when considering the travel of other household members or persons in their social networks. Children under driving age need to be driven to activities by parents, which requires coordination of household schedules. Household members often need to decide how to share vehicles to conduct daily activities. Some activities are more likely to be conducted with other people, like eating a meal or socializing, whereas other activities are more likely to be conducted alone like commuting to work.

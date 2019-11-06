@@ -1,8 +1,8 @@
 ---
 title: "Choice Model Development in Practice"
 categories:
-   - Needs Review
-   - Destination Choice Models
+  - Needs Review
+  - Destination Choice Models
 ---
 
 There are a few items that are useful to keep in mind when developing a choice model for use within a larger travel model framework that might not be applicable or on the radar for modelers developing specifications for use in research.

@@ -1,9 +1,9 @@
 ---
 title: "Sketch planning models"
 categories:
-   - Needs Review
-   - Sketch Planning Models
-   - Topic Circles
+  - Needs Review
+  - Sketch Planning Models
+  - Topic Circles
 ---
 
 Learn more about this circle at [Sketch planning models](Sketch_planning_models).

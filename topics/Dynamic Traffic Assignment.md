@@ -1,9 +1,9 @@
 ---
 title: "Dynamic Traffic Assignment"
 categories:
-   - Needs Review
-   - Activity Based Models
-   - Network Assignment
+  - Needs Review
+  - Activity Based Models
+  - Network Assignment
 ---
 
 Dynamic network assignment models (also referred to as dynamic traffic assignment models or DTA) capture the changes in network performance by detailed time-of-day, and can be used to generate time varying measures of this performance. They occupy the middle ground between static macroscopic traffic assignment and microscopic traffic simulation models. The same level of network and zonal resolution used in regional travel models are often used in DTA models, but at a much finer level of temporal detail. Because they typically employ link-based simulation models they produce more robust estimates of link flows and travel times. DTA models are often used for both small and large-scale traffic studies, but traditionally have not been used with regional travel models. That is rapidly changing, as the integration of DTA and [Activity-Based\_Models](Activity-Based_Models) is a hot topic in travel forecasting.

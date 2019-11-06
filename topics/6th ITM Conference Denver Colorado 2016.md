@@ -1,8 +1,8 @@
 ---
 title: "6th ITM Conference, Denver, Colorado (2016)"
 categories:
-   - Needs Review
-   - Innovations In Travel Modeling
+  - Needs Review
+  - Innovations In Travel Modeling
 ---
 
 For complete information about the 6th ITM Conference, please visit the [TRB ITM2016 Conference Website](http://www.cvent.com/events/innovations-in-travel-modeling/event-summary-b5513a90f03e41cb8bb94047c1a4e53e.aspx)

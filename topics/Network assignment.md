@@ -1,9 +1,9 @@
 ---
 title: "Network assignment"
 categories:
-   - Needs Review
-   - Topic Circles
-   - Trip Based Models
+  - Needs Review
+  - Topic Circles
+  - Trip Based Models
 ---
 
 What is Network Assignment?

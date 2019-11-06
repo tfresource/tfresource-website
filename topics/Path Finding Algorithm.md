@@ -1,7 +1,7 @@
 ---
 title: "Path Finding Algorithm"
 categories:
-   - Needs Review
+  - Needs Review
 ---
 
 **Summary**

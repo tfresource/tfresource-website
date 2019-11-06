@@ -1,10 +1,10 @@
 ---
 title: "Population Synthesis For Microsimulating Travel Behavior"
 categories:
-   - Needs Review
-   - Activity Based Models
-   - Papers
-   - Resources
+  - Needs Review
+  - Activity Based Models
+  - Papers
+  - Resources
 ---
 
 \_\_NOTOC\_\_

@@ -1,7 +1,7 @@
 ---
 title: "Multiple Discrete-Continuous Extreme Value (MDCEV) Model"
 categories:
-   - Needs Review
+  - Needs Review
 ---
 
 Introduction

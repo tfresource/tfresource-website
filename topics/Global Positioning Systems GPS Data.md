@@ -1,7 +1,7 @@
 ---
 title: "Global Positioning Systems (GPS) Data"
 categories:
-   - Needs Review
+  - Needs Review
 ---
 
 GPS data is derived from on-board vehicle devices or integrated systems, personal navigational devices, and (in some cases) personal mobile devices. GPS is generally the only type of origin-destination (OD) [big data](Big_Data) that can provide information specific to vehicle classes (e.g., trucks).

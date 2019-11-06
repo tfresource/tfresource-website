@@ -1,7 +1,7 @@
 ---
 title: "Refining vehicle class forecasts for evaluation in project-level traffic forecasting"
 categories:
-   - Needs Review
+  - Needs Review
 ---
 
 Several of the methods for project level traffic forecasting depend upon having good vehicle class forecasts. Very often forecasts are done for all vehicles together or for aggregations of vehicle classes. Forecasts may be “refined” as to their vehicle classes by using a technique from NCHRP Report 255 (Chapter 11 of the “Users Guide”) and NCHRP Report 765 (Section 9.3). See [Vehicle mix refinements](Vehicle_mix_refinements_in_project-level_traffic_forecasting) for a brief introduction. Essentially, this technique employs data from recent classification counts in order to factor broad truck (or total vehicle) categories into narrower truck categories. Classification data from the exact highway being analyzed are preferred to data from similar locations or data from regional-wide averages. The analyst should follow these steps (as an expansion and application of Step 4 from [Vehicle mix refinements](Vehicle_mix_refinements_in_project-level_traffic_forecasting)).

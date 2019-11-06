@@ -1,8 +1,8 @@
 ---
 title: "Benefits of dynamic network models"
 categories:
-   - Needs Review
-   - Dynamic Network Models
+  - Needs Review
+  - Dynamic Network Models
 ---
 
 Traditional user equilibrium highway assignment models predict the effects of congestion and the routing changes of traffic as a result of that congestion. They neglect, however, many of the details of real-world traffic operations, such as queuing, shock waves, and signalization. Such operational details are important both to reflect reality and to evaluate policies associated with improving traffic operations. Examples of such policies might include ramp metering, signal co-ordination, or targeted improvements at choke points.

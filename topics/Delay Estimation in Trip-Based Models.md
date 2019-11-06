@@ -1,8 +1,8 @@
 ---
 title: "Delay Estimation in Trip-Based Models"
 categories:
-   - Needs Review
-   - Trip Based Models
+  - Needs Review
+  - Trip Based Models
 ---
 
 Summary

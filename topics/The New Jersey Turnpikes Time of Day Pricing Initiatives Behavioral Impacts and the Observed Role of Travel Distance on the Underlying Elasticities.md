@@ -1,9 +1,9 @@
 ---
 title: "The New Jersey Turnpike’s Time of Day Pricing Initiative’s Behavioral Impacts and the Observed Role of Travel Distance on the Underlying Elasticities"
 categories:
-   - Needs Review
-   - Papers
-   - Resources
+  - Needs Review
+  - Papers
+  - Resources
 ---
 
 \_\_NOTOC\_\_

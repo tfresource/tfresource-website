@@ -1,8 +1,8 @@
 ---
 title: "Transit networks"
 categories:
-   - Needs Review
-   - Transportation Networks
+  - Needs Review
+  - Transportation Networks
 ---
 
 Transit networks are a spatial representation of bus, rail, and other types of transit routes available in a region. In a transit network, each transit route is coded with links representing the path it follows and nodes representing the stops along the path. Further detail about each route often includes route fares, schedules, headways, and speeds.

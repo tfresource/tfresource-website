@@ -1,8 +1,8 @@
 ---
 title: "Average Annual Daily Traffic"
 categories:
-   - Needs Review
-   - Transportation Networks
+  - Needs Review
+  - Transportation Networks
 ---
 
 Average annual daily traffic (AADT) is the estimate of typical daily traffic on a road segment for all days of the week, Sunday through Saturday, over the period of 1 year. A true AADT is developed by utilizing a full year of traffic count data, such as data generated from a permanent traffic counter; however, for the purposes of the guidelines presented herein, the term AADT is used to show a factored ADT. The AADT adjustment factors include daily factors, weekly factors, seasonal adjustment factors, and axle correction factors developed from automatic traffic recorders (ATRs) that collect data continuously throughout the year. The AADT is the best measure of the total use of a road because it includes all traffic for an entire year.
