@@ -4,7 +4,10 @@
 
     <PageEdit />
 
-    <Content class="theme-default-content" />
+    <div class="theme-default-content">
+      <h1>{{ $page.title}}</h1>
+      <Content />
+    </div>
 
     <PageNav v-bind="{ sidebarItems }" />
 

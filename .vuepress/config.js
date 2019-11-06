@@ -1,4 +1,5 @@
 module.exports = {
+  evergreen: true,
   head: [
     [
       'link',
@@ -16,7 +17,13 @@ module.exports = {
     ],
     ['link', { rel: 'icon', href: '/tiny-logo.png' }],
   ],
+  markdown: {
+    extendMarkdown: md => {
+      md.use(require('markdown-it-footnote'))
+    },
+  },
   plugins: [
+    // ['vuepress-plugin-smooth-scroll'],
     [
       'vuepress-plugin-medium-zoom',
       {
@@ -45,19 +52,19 @@ module.exports = {
         additionalArgs: '--no-merge',
       },
     ],
-    ['vuepress-plugin-smooth-scroll'],
   ],
-  title: 'tfr',
+  title: 'TFR',
   themeConfig: {
     repo: 'tfresource/tfresource.github.io',
     docsBranch: 'source',
     displayAllHeaders: false,
     editLinks: true,
-    editLinkText: 'Edit This Page',
+    editLinkText: 'Edit This Page »',
     lastUpdated: 'Last Updated',
     nav: [
       { text: 'TOPICS', link: '/topics/' },
       { text: 'EVENTS', link: '/events/' },
+      /*
       {
         text: 'RESOURCES',
         items: [
@@ -82,16 +89,21 @@ module.exports = {
           },
         ],
       },
+      */
       {
         text: 'ABOUT',
-        items: [{ text: 'About TF-Resource', link: '/thing/' }, { text: 'How to Contribute', link: '/thing/' }],
+        items: [
+          { text: 'About TF-Resource', link: '/topics/' },
+          // , { text: 'How to Contribute', link: '/thing/' }
+        ],
       },
     ],
     sidebar: [
       {
         title: 'Modeling Topics',
-        children: ['/topics/', '/topics/Pricing', '/topics/Trip Generation'],
+        children: ['/topics/'], // , '/topics/Pricing Travel', '/topics/Trip Generation'],
       },
+      /*
       {
         title: 'Data Topics',
         children: ['/topics/', '/topics/Pricing', '/topics/Trip Generation'],
@@ -100,6 +112,7 @@ module.exports = {
         title: 'Resources',
         children: ['/resources/papers', '/resources/presentations', '/resources/videos'],
       },
+      */
     ],
   },
 }

@@ -30,6 +30,7 @@
     "vuepress": "^1.2.0"
   },
   "dependencies": {
+    "markdown-it-footnote": "^3.0.2",
     "vuepress-plugin-git-log": "^1.0.1",
     "vuepress-plugin-mathjax": "^1.2.8",
     "vuepress-plugin-medium-zoom": "^1.1.5",
