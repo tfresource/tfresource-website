@@ -1,6 +1,8 @@
 ---
 title: "Trip interchange"
-categories: "!Needs Review,Trip Based Models"
+categories:
+   - Needs Review
+   - Trip Based Models
 ---
 
 Summary

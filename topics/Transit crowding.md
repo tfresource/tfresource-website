@@ -1,6 +1,7 @@
 ---
 title: "Transit crowding"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Transit crowding is an important consideration in urban areas where the core transit network cannot accommodate demand. There are several ways that transit crowding has been addressed:

@@ -1,6 +1,7 @@
 ---
 title: "MPO model documentation"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Summary

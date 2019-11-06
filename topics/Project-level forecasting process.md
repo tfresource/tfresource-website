@@ -1,6 +1,8 @@
 ---
 title: "Project-level forecasting process"
-categories: "!Needs Review,Project Level Traffic Forecasting"
+categories:
+   - Needs Review
+   - Project Level Traffic Forecasting
 ---
 
 Go to [Project-level traffic forecasting](Project-level_traffic_forecasting) topic page.

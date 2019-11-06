@@ -1,6 +1,7 @@
 ---
 title: "Version Control"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 TODO

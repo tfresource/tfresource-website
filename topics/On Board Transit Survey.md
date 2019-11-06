@@ -1,6 +1,8 @@
 ---
 title: "On Board Transit Survey"
-categories: "!Needs Review,Travel Survey Data"
+categories:
+   - Needs Review
+   - Travel Survey Data
 ---
 
 TODO

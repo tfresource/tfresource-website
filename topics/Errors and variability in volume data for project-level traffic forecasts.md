@@ -1,6 +1,8 @@
 ---
 title: "Errors and variability in volume data for project-level traffic forecasts"
-categories: "!Needs Review,Project Level Traffic Forecasting"
+categories:
+   - Needs Review
+   - Project Level Traffic Forecasting
 ---
 
 Go to the [Project-level traffic forecasting](Project-level_traffic_forecasting) topic page.

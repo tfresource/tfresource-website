@@ -1,6 +1,7 @@
 ---
 title: "Measures of effectiveness and performance measures in project-level traffic forecasting"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Guidelines

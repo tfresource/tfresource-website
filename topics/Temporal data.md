@@ -1,6 +1,9 @@
 ---
 title: "Temporal data"
-categories: "!Needs Review,Temporal Data,Topic Circles"
+categories:
+   - Needs Review
+   - Temporal Data
+   - Topic Circles
 ---
 
 Learn more about this circle at [temporal data](Temporal_Data).

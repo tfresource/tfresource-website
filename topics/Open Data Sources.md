@@ -1,6 +1,7 @@
 ---
 title: "Open Data Sources"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Open Data and Tools

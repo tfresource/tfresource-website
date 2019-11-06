@@ -1,6 +1,8 @@
 ---
 title: "External surveys"
-categories: "!Needs Review,Travel Surveys"
+categories:
+   - Needs Review
+   - Travel Surveys
 ---
 
 Introduction to External Surveys

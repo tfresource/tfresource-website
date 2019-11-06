@@ -1,6 +1,8 @@
 ---
 title: "Quality assurance and validation standards in project-level traffic forecasting"
-categories: "!Needs Review,Project Level Traffic Forecasting"
+categories:
+   - Needs Review
+   - Project Level Traffic Forecasting
 ---
 
 Go to [Project-level traffic forecasting](Project-level_traffic_forecasting) topic page.

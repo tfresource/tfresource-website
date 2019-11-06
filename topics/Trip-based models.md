@@ -1,6 +1,10 @@
 ---
 title: "Trip-based models"
-categories: "!Needs Review,Network Assignment,Topic Circles,Trip Based Models"
+categories:
+   - Needs Review
+   - Network Assignment
+   - Topic Circles
+   - Trip Based Models
 ---
 
 Learn more about this circle at [trip-based models](Trip-Based_Models).

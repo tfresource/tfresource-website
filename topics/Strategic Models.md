@@ -1,6 +1,7 @@
 ---
 title: "Strategic Models"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Strategic Level Planning

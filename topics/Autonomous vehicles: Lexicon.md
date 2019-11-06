@@ -1,6 +1,7 @@
 ---
 title: "Autonomous vehicles: Lexicon"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 There are several terms used to describe how automation and control will be incorporated into vehicles in the future. Several modifiers are used interchangeably in the press and literature:

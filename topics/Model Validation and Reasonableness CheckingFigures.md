@@ -1,6 +1,7 @@
 ---
 title: "Model Validation and Reasonableness Checking/Figures"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 List of Model Validation and Reasonableness Checking Figures

@@ -1,6 +1,7 @@
 ---
 title: "Trip distribution"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 The trip distribution step (within trip-based models) determines where trips go, spatially. Trip distribution allocates trips to pairs of [traffic analysis zones](Traffic_Analysis_Zones) (TAZs), from the production (P) end to the attraction (A) end. The result is a PA table, which describes the numbers of person trips between zones (usually over a 24-hour period of time) but does not describe the actual direction of travel. Inputs to the trip distribution step come principally from the trip generation step. There is also a requirement for calibrated parameters. The number of these parameters depends upon the model formulation.

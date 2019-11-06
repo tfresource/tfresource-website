@@ -1,6 +1,7 @@
 ---
 title: "Model Transferability"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Summary

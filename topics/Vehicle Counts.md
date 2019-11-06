@@ -1,6 +1,7 @@
 ---
 title: "Vehicle Counts"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Data Requirement

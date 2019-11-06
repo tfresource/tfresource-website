@@ -1,6 +1,7 @@
 ---
 title: "Safety Data"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 SAFETY DATA

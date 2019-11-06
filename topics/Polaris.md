@@ -1,6 +1,7 @@
 ---
 title: "Polaris"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 POLARIS – Transportation Systems Modeling Suite

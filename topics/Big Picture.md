@@ -1,6 +1,11 @@
 ---
 title: "Big Picture"
-categories: "!Needs Review,Activity Based Models,Statewide Models,Trip Based Models,Urban And Metropolitan Models"
+categories:
+   - Needs Review
+   - Activity Based Models
+   - Statewide Models
+   - Trip Based Models
+   - Urban And Metropolitan Models
 ---
 
 Departments of Transportation (DOT), Metropolitan Planning Organizations (MPO), local governments and transportation providers rely on travel forecasts to support transportation plans and to prioritize investment policies.

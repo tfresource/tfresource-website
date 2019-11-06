@@ -1,6 +1,8 @@
 ---
 title: "Establishment surveys"
-categories: "!Needs Review,Travel Surveys"
+categories:
+   - Needs Review
+   - Travel Surveys
 ---
 
 **Establishment surveys** (also known as **workplace surveys**) ...

@@ -1,6 +1,8 @@
 ---
 title: "Travel Forecasting Resource"
-categories: "!Needs Review,Incubator Topics"
+categories:
+   - Needs Review
+   - Incubator Topics
 ---
 
 \_\_NOTOC\_\_

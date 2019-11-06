@@ -1,6 +1,7 @@
 ---
 title: "Refining speeds for evaluation in project-level traffic forecasting"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Guidelines

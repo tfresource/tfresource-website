@@ -1,6 +1,11 @@
 ---
 title: "Big Data"
-categories: "!Needs Review,Model Calibration And Validation,Spatial Data,Temporal Data,Travel Survey Data"
+categories:
+   - Needs Review
+   - Model Calibration And Validation
+   - Spatial Data
+   - Temporal Data
+   - Travel Survey Data
 ---
 
 The technology consultancy [Gartner defines](http://www.gartner.com/it-glossary/big-data/) "Big Data" as

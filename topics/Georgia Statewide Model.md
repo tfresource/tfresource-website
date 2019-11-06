@@ -1,6 +1,8 @@
 ---
 title: "Georgia Statewide Model"
-categories: "!Needs Review,Statewide Models"
+categories:
+   - Needs Review
+   - Statewide Models
 ---
 
 Introduction

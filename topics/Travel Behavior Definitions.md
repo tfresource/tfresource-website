@@ -1,6 +1,7 @@
 ---
 title: "Travel Behavior Definitions"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 ### Travel Time Budgets

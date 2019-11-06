@@ -1,6 +1,11 @@
 ---
 title: "Autonomous vehicles"
-categories: "!Needs Review,Activity Based Models,Autonomous Vehicles,Topic Circles,Trip Based Models"
+categories:
+   - Needs Review
+   - Activity Based Models
+   - Autonomous Vehicles
+   - Topic Circles
+   - Trip Based Models
 ---
 
 Introduction

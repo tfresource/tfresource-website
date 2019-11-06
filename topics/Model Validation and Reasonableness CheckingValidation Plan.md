@@ -1,6 +1,7 @@
 ---
 title: "Model Validation and Reasonableness Checking/Validation Plan"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 ### Validation Plan Specification

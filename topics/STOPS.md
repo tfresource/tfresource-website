@@ -1,6 +1,8 @@
 ---
 title: "STOPS"
-categories: "!Needs Review,New Starts"
+categories:
+   - Needs Review
+   - New Starts
 ---
 
 The Federal Transit Administration's Simplified Trips-on-Project Software (STOPS) was released in September 2013. The latest version is 1.50, which was released May 6, 2015. It is a limited implementation of the conventional “4-step” travel model[^1]. Official STOPS information from FTA can be found [here](http://www.fta.dot.gov/grants/15682.html).

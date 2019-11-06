@@ -1,6 +1,13 @@
 ---
 title: "Skim Matrix"
-categories: "!Needs Review,Activity Based Models,Land Use Transport Modeling,Public Transport (Transit) Modeling,Transportation Networks,Trip Based Models,Urban And Metropolitan Models"
+categories:
+   - Needs Review
+   - Activity Based Models
+   - Land Use Transport Modeling
+   - Public Transport (Transit) Modeling
+   - Transportation Networks
+   - Trip Based Models
+   - Urban And Metropolitan Models
 ---
 
 Introduction

@@ -1,6 +1,8 @@
 ---
 title: "Evaluation and performance"
-categories: "!Needs Review,Topic Circles"
+categories:
+   - Needs Review
+   - Topic Circles
 ---
 
 

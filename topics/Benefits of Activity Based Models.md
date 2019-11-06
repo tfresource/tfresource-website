@@ -1,6 +1,8 @@
 ---
 title: "Benefits of Activity Based Models"
-categories: "!Needs Review,Activity Based Models"
+categories:
+   - Needs Review
+   - Activity Based Models
 ---
 
 The benefit of activity-based modeling (ABM) in travel forecasting comes from its capacity to provide a full range of quantitative dimensions to represent travel-inducing activity and choices. The question of whether to pursue an activity-based model in practice often arises when both modelers and planners in the jurisdiction concur that current analysis tools (typically traditional trip-based models) are not sufficiently sensitive to new and emerging policy and policy questions.

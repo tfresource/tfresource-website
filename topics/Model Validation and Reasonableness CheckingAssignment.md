@@ -1,6 +1,7 @@
 ---
 title: "Model Validation and Reasonableness Checking/Assignment"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Assignment Procedures

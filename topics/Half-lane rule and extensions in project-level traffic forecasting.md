@@ -1,6 +1,8 @@
 ---
 title: "Half-lane rule and extensions in project-level traffic forecasting"
-categories: "!Needs Review,Project Level Traffic Forecasting"
+categories:
+   - Needs Review
+   - Project Level Traffic Forecasting
 ---
 
 Go to the [Project-level traffic forecasting](Project-level_traffic_forecasting) topic page.

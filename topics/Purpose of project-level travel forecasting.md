@@ -1,6 +1,8 @@
 ---
 title: "Purpose of project-level travel forecasting"
-categories: "!Needs Review,Project Level Traffic Forecasting"
+categories:
+   - Needs Review
+   - Project Level Traffic Forecasting
 ---
 
 <span style="background:lightgrey;padding:10px;border-left: thick double #0000aa;"> This page is part of the Category \[.</span>

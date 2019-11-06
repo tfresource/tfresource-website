@@ -1,6 +1,7 @@
 ---
 title: "Modal hierarchy"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Modal hierarchy is useful in being able to "name" the "main mode" that a person has taken when they have taken multiple modes to complete a trip.

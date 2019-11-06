@@ -1,6 +1,7 @@
 ---
 title: "Working with vehicle re-identification data in project-level traffic forecasting"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Objective

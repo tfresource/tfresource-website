@@ -1,6 +1,7 @@
 ---
 title: "Long range transportation plan"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 **Long Range Transportation Plan**

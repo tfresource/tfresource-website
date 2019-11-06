@@ -1,6 +1,10 @@
 ---
 title: "Destination Choice: Data Sources"
-categories: "!Needs Review,Destination Choice Models,Land Use Transport Modeling,Spatial Interaction Models"
+categories:
+   - Needs Review
+   - Destination Choice Models
+   - Land Use Transport Modeling
+   - Spatial Interaction Models
 ---
 
 <span style="background:lightgrey;padding:10px;border-left: thick double #0000aa;"> This page is part of the Category \[.</span>

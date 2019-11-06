@@ -1,6 +1,9 @@
 ---
 title: "Urban and metropolitan models"
-categories: "!Needs Review,Topic Circles,Urban And Metropolitan Models"
+categories:
+   - Needs Review
+   - Topic Circles
+   - Urban And Metropolitan Models
 ---
 
 Learn more about this circle at [Urban and metropolitan models](Urban_and_Metropolitan_Models).

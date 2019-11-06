@@ -1,6 +1,7 @@
 ---
 title: "Box-Cox transformations in project-level traffic forecasting"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Objective

@@ -1,6 +1,11 @@
 ---
 title: "Open Matrix Format"
-categories: "!Needs Review,Model Integration,Spatial Data,Temporal Data,Transportation Networks"
+categories:
+   - Needs Review
+   - Model Integration
+   - Spatial Data
+   - Temporal Data
+   - Transportation Networks
 ---
 
 Summary

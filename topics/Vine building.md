@@ -1,6 +1,8 @@
 ---
 title: "Vine building"
-categories: "!Needs Review,Network Assignment"
+categories:
+   - Needs Review
+   - Network Assignment
 ---
 
 Rationale for Vine Building

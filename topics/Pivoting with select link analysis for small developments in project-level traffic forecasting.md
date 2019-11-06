@@ -1,6 +1,7 @@
 ---
 title: "Pivoting with select link analysis for small developments in project-level traffic forecasting"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Objective

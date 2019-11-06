@@ -1,6 +1,9 @@
 ---
 title: "Commercial vehicle surveys"
-categories: "!Needs Review,Freight Modeling,Travel Surveys"
+categories:
+   - Needs Review
+   - Freight Modeling
+   - Travel Surveys
 ---
 
 Introduction to Commercial Vehicle Surveys

@@ -1,6 +1,7 @@
 ---
 title: "Software Development For Travel Modeling"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Challenges in Travel Model Software Development

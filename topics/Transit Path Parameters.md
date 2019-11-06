@@ -1,6 +1,7 @@
 ---
 title: "Transit Path Parameters"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Transit path building parameters are segmented by each transit user class.

@@ -1,6 +1,9 @@
 ---
 title: "Transportation networks"
-categories: "!Needs Review,Topic Circles,Transportation Networks"
+categories:
+   - Needs Review
+   - Topic Circles
+   - Transportation Networks
 ---
 
 Learn more about this circle at [Transportation networks](Transportation_networks).

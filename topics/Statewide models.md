@@ -1,6 +1,9 @@
 ---
 title: "Statewide models"
-categories: "!Needs Review,Statewide Models,Topic Circles"
+categories:
+   - Needs Review
+   - Statewide Models
+   - Topic Circles
 ---
 
 Introduction

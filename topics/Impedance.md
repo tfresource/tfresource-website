@@ -1,6 +1,8 @@
 ---
 title: "Impedance"
-categories: "!Needs Review,Destination Choice Models"
+categories:
+   - Needs Review
+   - Destination Choice Models
 ---
 
 **----------------------------------------------------------------------------------------------------------------------------------------------------------------**

@@ -1,6 +1,8 @@
 ---
 title: "Validating Input Data"
-categories: "!Needs Review,Model Calibration And Validation"
+categories:
+   - Needs Review
+   - Model Calibration And Validation
 ---
 
 Summary

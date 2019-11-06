@@ -1,6 +1,8 @@
 ---
 title: "Dynamic network models"
-categories: "!Needs Review,Topic Circles"
+categories:
+   - Needs Review
+   - Topic Circles
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 title: "Mode Choice Behavior"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Mode Choice Behavior

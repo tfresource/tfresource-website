@@ -1,6 +1,7 @@
 ---
 title: "Linear models with explanatory variables in project-level traffic forecasting"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Objective

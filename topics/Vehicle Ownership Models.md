@@ -1,6 +1,7 @@
 ---
 title: "Vehicle Ownership Models"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Introduction

@@ -1,6 +1,8 @@
 ---
 title: "Travel surveys"
-categories: "!Needs Review,Topic Circles"
+categories:
+   - Needs Review
+   - Topic Circles
 ---
 
 **Travel surveys** have been conducted for over 50 years. At the beginning of the 1950s the field of transportation planning had begun evolving into the regional type of planning performed today, and it was quickly realized that roadside surveys alone were not sufficient for regional planning purposes. Hence, the household travel survey was developed and quickly became industry standard. In the early days of household travel surveys, large data sets were collected using face-to-face home interviews with sample sizes that were often as big as 1–3% of the population.

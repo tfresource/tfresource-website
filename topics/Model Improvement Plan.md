@@ -1,6 +1,7 @@
 ---
 title: "Model Improvement Plan"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Some considerations for planning for model improvements include:

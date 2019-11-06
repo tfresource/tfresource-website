@@ -1,6 +1,8 @@
 ---
 title: "Highway networks"
-categories: "!Needs Review,Transportation Networks"
+categories:
+   - Needs Review
+   - Transportation Networks
 ---
 
 Highway networks provide a representation of individual, connected links between intersections through the use of **links** and **nodes**. The network may include thousands of nodes and links.

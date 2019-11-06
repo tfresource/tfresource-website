@@ -1,6 +1,8 @@
 ---
 title: "Stated-preference surveys"
-categories: "!Needs Review,Travel Surveys"
+categories:
+   - Needs Review
+   - Travel Surveys
 ---
 
 Introduction

@@ -1,6 +1,9 @@
 ---
 title: "Traffic simulation models"
-categories: "!Needs Review,Network Assignment,Trip Based Models"
+categories:
+   - Needs Review
+   - Network Assignment
+   - Trip Based Models
 ---
 
 Traffic simulation models have been used for several decades to conduct detailed analyses of roadway designs and operational plans. Individual vehicles traverse detailed networks in very short time steps (typically 0.5 to 5 second intervals) in these models, and they explicitly model driver behavior such as lane changing and car following. Initially developed about the same time as the first [Trip-Based Models](Trip-Based_Models), they likewise were initially executed on mainframe computers. However, whereas trip-based models went on to become institutionalized in the urban planning process under strong federal leadership, traffic simulation models progressed at a slower rate. Over the past several decades traffic simulation models have caught up with travel demand models in terms of sophistication, quality of software, experience in practice, and to some extent, suitability for large-scale planning studies. Current platforms excel at visualization. Once in the domain of different specialists (traffic engineers and transportation modelers) that seldom collaborated, the two streams are converging as they are being used more in combination.

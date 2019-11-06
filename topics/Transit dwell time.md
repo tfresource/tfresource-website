@@ -1,6 +1,7 @@
 ---
 title: "Transit dwell time"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Dwell time can be a significant component of the overall travel time for transit. In San Francisco, about half of the bus travel time is taken up by the servicing of passengers or by the bus either pulling in or out of a stop.

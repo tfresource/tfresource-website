@@ -1,6 +1,7 @@
 ---
 title: "Temporal resolution in project-level traffic forecasting"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Guidelines

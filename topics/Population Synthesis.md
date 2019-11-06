@@ -1,6 +1,9 @@
 ---
 title: "Population Synthesis"
-categories: "!Needs Review,Activity Based Models,Land Use Transport Modeling"
+categories:
+   - Needs Review
+   - Activity Based Models
+   - Land Use Transport Modeling
 ---
 
 Summary

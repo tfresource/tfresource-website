@@ -1,6 +1,7 @@
 ---
 title: "Current trends in travel behavior"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 ### Effect of telecommuncations on travel behavior

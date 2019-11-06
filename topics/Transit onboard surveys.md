@@ -1,6 +1,8 @@
 ---
 title: "Transit onboard surveys"
-categories: "!Needs Review,Travel Surveys"
+categories:
+   - Needs Review
+   - Travel Surveys
 ---
 
 Introduction to Transit on-board surveys

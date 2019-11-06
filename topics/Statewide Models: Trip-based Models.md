@@ -1,6 +1,9 @@
 ---
 title: "Statewide Models: Trip-based Models"
-categories: "!Needs Review,Destination Choice Models,Statewide Models"
+categories:
+   - Needs Review
+   - Destination Choice Models
+   - Statewide Models
 ---
 
 <span style="background:lightgrey;padding:10px;border-left: thick double #0000aa;"> This page is part of the Category \[.</span>

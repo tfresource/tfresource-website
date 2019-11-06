@@ -1,6 +1,8 @@
 ---
 title: "Transit Vehicles"
-categories: "!Needs Review,Public Transport (Transit) Modeling"
+categories:
+   - Needs Review
+   - Public Transport (Transit) Modeling
 ---
 
 Some characteristics of transit vehicles within [Public Transport Modeling](Public_Transport_Modeling) include:

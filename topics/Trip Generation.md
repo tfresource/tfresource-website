@@ -1,6 +1,7 @@
 ---
 title: "Trip Generation"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Summary

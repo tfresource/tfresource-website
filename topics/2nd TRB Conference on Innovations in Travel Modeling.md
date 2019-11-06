@@ -1,6 +1,9 @@
 ---
 title: "2nd TRB Conference on Innovations in Travel Modeling"
-categories: "!Needs Review,Events,Innovations In Travel Modeling"
+categories:
+   - Needs Review
+   - Events
+   - Innovations In Travel Modeling
 ---
 
 The 2nd TRB Conference on Innovations in Travel Modeling (ITM2008) was held June 22-24, 2008 at University Place, Portland State University in Portland, Oregon. This particular event was called Innovations in Transport Modeling. The conference had more than 200 attendees with presentations by leading academics and practitioners drawn from industry and public agencies. Numerous professionals from outside the United States were in attendance, offering perspectives and presentations on modeling methods and advances around the world. The conference included a mix of workshops, plenary sessions, and parallel sessions.

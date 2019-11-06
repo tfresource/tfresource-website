@@ -1,6 +1,8 @@
 ---
 title: "Accessibilities"
-categories: "!Needs Review,Land Use Transport Modeling"
+categories:
+   - Needs Review
+   - Land Use Transport Modeling
 ---
 
 Summary

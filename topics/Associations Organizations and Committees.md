@@ -1,6 +1,7 @@
 ---
 title: "Associations, Organizations and Committees"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 The travel forecasting community is supported by a small number of organizations, agencies, programs and committees. These groups contribute to the community, and often to the TFResource, in a variety of ways, including identifying research needs, conducting research, holding peer exchanges and other events to encourage the advancement of the state-of-the-practice, organizing conferences, and much more.

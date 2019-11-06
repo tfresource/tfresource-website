@@ -1,6 +1,7 @@
 ---
 title: "Travel Time Speed and Reliability Data"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 <big>**TRAVEL TIME SPEED AND RELIABILITY DATA**</big>

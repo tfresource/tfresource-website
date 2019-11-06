@@ -1,6 +1,8 @@
 ---
 title: "Autonomous vehicles: planning and policy context"
-categories: "!Needs Review,Autonomous Vehicles"
+categories:
+   - Needs Review
+   - Autonomous Vehicles
 ---
 
 <span style="background:lightgrey;padding:10px;border-left: thick double #0000aa;"> This page is part of the Category \[.</span>

@@ -1,6 +1,7 @@
 ---
 title: "Urban Big Data"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 URBAN BIG DATA

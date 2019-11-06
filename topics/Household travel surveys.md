@@ -1,6 +1,8 @@
 ---
 title: "Household travel surveys"
-categories: "!Needs Review,Travel Surveys"
+categories:
+   - Needs Review
+   - Travel Surveys
 ---
 
 Introduction to Household Travel Surveys

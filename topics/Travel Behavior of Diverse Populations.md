@@ -1,6 +1,8 @@
 ---
 title: "Travel Behavior of Diverse Populations"
-categories: "!Needs Review,Travel Behavior"
+categories:
+   - Needs Review
+   - Travel Behavior
 ---
 
 ### Elderly

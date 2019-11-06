@@ -1,6 +1,7 @@
 ---
 title: "Travel Forecasting Results Report"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 FTA requires documentation of the travel forecasts for projects applying for Section 5309 New Starts funding. This documentation is focused on the forecasts, not the forecasting methods. It consists of a succinct narrative of the benefits of the project and the impacted travel markets, as well as a series of summary tabulations.

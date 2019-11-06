@@ -1,6 +1,8 @@
 ---
 title: "Response bias"
-categories: "!Needs Review,Travel Survey Data"
+categories:
+   - Needs Review
+   - Travel Survey Data
 ---
 
 In travel surveys, a response bias is a systematic tendency to respond to a range of questionnaire items on some basis other than the specific item content. Response bias is sometimes used synonymously with non-response bias.

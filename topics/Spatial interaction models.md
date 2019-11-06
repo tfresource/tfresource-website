@@ -1,6 +1,10 @@
 ---
 title: "Spatial interaction models"
-categories: "!Needs Review,Destination Choice Models,Spatial Interaction Models,Topic Circles"
+categories:
+   - Needs Review
+   - Destination Choice Models
+   - Spatial Interaction Models
+   - Topic Circles
 ---
 
 Learn more about this circle at [Spatial Interaction Models](Spatial_Interaction_Models).

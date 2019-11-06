@@ -1,6 +1,7 @@
 ---
 title: "Pedestrian Route Choice"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 TODO

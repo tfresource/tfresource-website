@@ -1,6 +1,7 @@
 ---
 title: "Data Development"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 One of the most labor-intensive, tedious and potentially troublesome aspects of travel forecasting is the management and control of numerical data. A well-designed and elegantly executed modeling algorithm is of no value if the data resources upon which it feeds are inadequate, incomplete or incorrect. Data resources used in travel modeling are substantial in volume and widely variable in their application. There is no single construct that can describe the complete relationship between all of the required data inputs and their corresponding model outputs. Therefore, demonstrating a travel forecast's validity and integrity is often substanially reliant on clear documentation of how data resources were managed and controlled in its execution.

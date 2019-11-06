@@ -1,6 +1,9 @@
 ---
 title: "Spatial data"
-categories: "!Needs Review,Spatial Data,Topic Circles"
+categories:
+   - Needs Review
+   - Spatial Data
+   - Topic Circles
 ---
 
 Learn more about this circle at [Spatial Data](Spatial_Data).

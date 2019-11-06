@@ -1,6 +1,8 @@
 ---
 title: "Long-distance Travel"
-categories: "!Needs Review,Statewide Models"
+categories:
+   - Needs Review
+   - Statewide Models
 ---
 
 <span style="background:lightgrey;padding:10px;border-left: thick double #0000aa;"> This page is part of the Category \[.</span>

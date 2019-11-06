@@ -1,6 +1,7 @@
 ---
 title: "Special reporting requirements in project-level traffic forecasting"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Go to the [Project-level traffic forecasting](Project-level_traffic_forecasting) topic page.

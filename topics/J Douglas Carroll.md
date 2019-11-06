@@ -1,6 +1,11 @@
 ---
 title: "J. Douglas Carroll"
-categories: "!Needs Review,Travel Behavior,Travel Survey Data,Trip Based Models,Urban And Metropolitan Models"
+categories:
+   - Needs Review
+   - Travel Behavior
+   - Travel Survey Data
+   - Trip Based Models
+   - Urban And Metropolitan Models
 ---
 
 ![](JDouglasCarroll.png "fig:") --&gt;

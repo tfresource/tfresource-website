@@ -1,6 +1,9 @@
 ---
 title: "Destination Choice Set Formation"
-categories: "!Needs Review,Choice Models,Destination Choice Models"
+categories:
+   - Needs Review
+   - Choice Models
+   - Destination Choice Models
 ---
 
 <span style="background:lightgrey;padding:10px;border-left: thick double #0000aa;"> This page is part of the Category \[.</span>

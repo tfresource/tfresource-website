@@ -1,6 +1,7 @@
 ---
 title: "Autoregressive with explanatory variables (ARX or SAR) models in project-level traffic forecasting"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Objective

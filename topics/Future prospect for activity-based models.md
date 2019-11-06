@@ -1,6 +1,8 @@
 ---
 title: "Future prospect for activity-based models"
-categories: "!Needs Review,Activity Based Models"
+categories:
+   - Needs Review
+   - Activity Based Models
 ---
 
 Integrated across days of the week

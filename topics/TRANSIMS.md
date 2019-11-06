@@ -1,6 +1,8 @@
 ---
 title: "TRANSIMS"
-categories: "!Needs Review,Dynamic Network Models"
+categories:
+   - Needs Review
+   - Dynamic Network Models
 ---
 
 Summary

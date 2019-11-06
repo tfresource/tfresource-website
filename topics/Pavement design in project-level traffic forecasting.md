@@ -1,6 +1,7 @@
 ---
 title: "Pavement design in project-level traffic forecasting"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Guidelines for ESALs Computations

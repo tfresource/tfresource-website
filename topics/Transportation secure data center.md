@@ -1,6 +1,10 @@
 ---
 title: "Transportation secure data center"
-categories: "!Needs Review,Spatial Data,Temporal Data,Travel Surveys"
+categories:
+   - Needs Review
+   - Spatial Data
+   - Temporal Data
+   - Travel Surveys
 ---
 
 ### **Transportation Secure Data Center:**

@@ -1,6 +1,7 @@
 ---
 title: "Path Finding Algorithm"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 **Summary**

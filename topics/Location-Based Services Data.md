@@ -1,6 +1,7 @@
 ---
 title: "Location-Based Services Data"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Location-based Service (LBS) data is aggregated from smartphone and other mobile device applications (“apps”). LBS data is not based on a single technology such as cell-tower signaling or GPS; rather, these data represent the best location available to mobile apps at a particular point in time, which could come from GPS, Wi-Fi or Bluetooth beacons, or cell-tower signaling under various circumstances (although its reliance on the last is limited). LBS data is the newest type of origin-destination (OD) [big data](Big_Data) and has only recently become available for widespread use in transportation analysis as of 2017.

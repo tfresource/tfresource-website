@@ -1,6 +1,8 @@
 ---
 title: "Visitor surveys"
-categories: "!Needs Review,Travel Surveys"
+categories:
+   - Needs Review
+   - Travel Surveys
 ---
 
 Introduction to Visitor Surveys

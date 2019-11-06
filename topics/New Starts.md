@@ -1,6 +1,9 @@
 ---
 title: "New Starts"
-categories: "!Needs Review,New Starts,Topic Circles"
+categories:
+   - Needs Review
+   - New Starts
+   - Topic Circles
 ---
 
 Capital Investment Grant Program (a.k.a. “New Starts Program”)

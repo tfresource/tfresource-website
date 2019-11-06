@@ -1,6 +1,8 @@
 ---
 title: "Design principles of land use models"
-categories: "!Needs Review,Land Use Transport Modeling"
+categories:
+   - Needs Review
+   - Land Use Transport Modeling
 ---
 
 **Summary**

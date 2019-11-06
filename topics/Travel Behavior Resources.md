@@ -1,6 +1,8 @@
 ---
 title: "Travel Behavior Resources"
-categories: "!Needs Review,Travel Behavior"
+categories:
+   - Needs Review
+   - Travel Behavior
 ---
 
 Resources

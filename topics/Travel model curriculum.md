@@ -1,6 +1,7 @@
 ---
 title: "Travel model curriculum"
-categories: "!Needs Review"
+categories:
+   - Needs Review
 ---
 
 Summary
