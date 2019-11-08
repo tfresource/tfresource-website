@@ -1,12 +1,12 @@
 ---
 title: "UrbanDataResources"
+noTOC: true
 categories:
   - Needs Review
   - Resources
   - Travel Behavior
 ---
 
-\_\_NOTOC\_\_
 
 *Urban Data Resources*
 
@@ -15,6 +15,8 @@ categories:
 Nancy McGuckin
 
 #### Publication Date
+
+2016-01-08
 
 Demographic Trends and Resources
 ================================
@@ -60,5 +62,5 @@ Urban Livability and Accessibility
 
 ------------------------------------------------------------------------
 
-<comments />
+
 

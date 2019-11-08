@@ -68,6 +68,6 @@ This type of problem is known as a "cliff" because when the transit availability
 References
 ==========
 
-[Content Charrette: Destination Choice Models](Content_Charrette:_Destination_Choice_Models)
+[Content Charrette: Destination Choice Models](Content_Charrette_Destination_Choice_Models)
 
 
