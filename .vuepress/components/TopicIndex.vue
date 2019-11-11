@@ -29,9 +29,8 @@ export default {
       // new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
     },
     categories() {
-      const all = Object.keys(this.pageLookup)
-        .sort()
-        .filter(a => a != 'Needs Review')
+      const all = Object.keys(this.pageLookup).sort()
+      // .filter(a => a != 'Needs Review')
       return all
     },
   },
@@ -49,7 +48,7 @@ export default {
         this.pageLookup[category].push(page)
       }
     }
-    console.log({ all: this.pageLookup })
+    // console.log({ all: this.pageLookup })
   },
   methods: {
     topicCircle: function(category) {
