@@ -1,20 +1,19 @@
 ---
-title: "ALBATROSS"
+title: 'ALBATROSS'
 categories:
   - Needs Review
   - Activity Based Models
 ---
 
-Introduction
-------------
+## Introduction
 
 Albatross, acronym for A Learning Based Transportation Oriented Simulation System, was developed for the Dutch Ministry of Transportation, who decided to develop an activity-based model alongside their state-of-the-art tour- based model LMS. Albatross uses a sequential decision process to generate daily activity schedules of individuals in the context of a household. [Decision tree](Decision_tree) is the formalism to do that. Generated activity schedules describe for a given day which activities are conducted, when (start time), for how long (duration), where (location), with whom, and, if travelling is involved, the transport mode used and chaining of trips.
 
 Albatross consists of various components that perform specialized functions in the scheduling and schedule execution process. Figure below portrays the different parts of system.
 
-![](Architcture of system.JPG "Architcture of system.JPG")
+![Architecture](Architcture_of_system.JPG 'Architecture of system')
 
-*Architecture of Albatross*
+_Architecture of Albatross_
 
 ### 1.The Scheduling Engine
 
@@ -34,5 +33,4 @@ Inference System consists of a collection of built-in analytical and logic-based
 The data includes two layer. First layer has scheduled schedule during the previous steps of processing which will be used as input for the successive decisions. Onother set of data is static constraints that could be choice sets or time range. and the last item of the first layer is observed se to determine goodness of fit.
 The second layer includes information about the study area in terms of attributes of populations of households, the land use patterns and transportation system. The land use system is described in terms of opening hours, number of employees in different activities in different locations. Transport system includes distance and travel time
 
-------------------------------------------------------------------------
-
+---

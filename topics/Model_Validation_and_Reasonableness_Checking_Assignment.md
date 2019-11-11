@@ -1,13 +1,10 @@
 ---
-title: "Model Validation and Reasonableness Checking/Assignment"
+title: 'Model Validation and Reasonableness Checking/Assignment'
 categories:
   - Needs Review
 ---
 
-Assignment Procedures
----------------------
-
-\_\_TOC\_\_
+## Assignment Procedures
 
 Assignment is often viewed as the culmination of any modeling process, be it a traditional four-step modeling process or an activity-based modeling process.&nbsp; Many models now include feedback loops to "equilibrate" assigned travel speeds with travel speeds used for prior modeling steps such as [trip distribution](Spatial_Interaction_Models), [destination choice](Destination_Choice_Models), and mode choice.&nbsp; Nevertheless, the modeling process typically ends with the assignment step.
 
@@ -17,7 +14,7 @@ Assignment validation is generally inseparable from the rest of the modeling pro
 
 Assignment validation is an important step in validating not only the assignment process but the entire modeling process.&nbsp; Assignment validation typically benefits from a wealth of independent validation data including traffic counts and transit boardings collected independently of household or other survey data used for model estimation and, increasingly, from independent traffic speed and travel time studies.&nbsp; In addition, due to established traffic and transit counting programs in many regions, traffic and transit count data can be used for temporal validation of travel models (see [Temporal Validation and Sensitivity](Model_Validation_and_Reasonableness_Checking_Temporal_And_Sensitivity)).
 
-Unfortunately, as the culmination of the modeling process and due to the wealth of independent validation data, the assignment of trips to the network often becomes the primary basis for validating the a travel model's ability to replicate observed travel.&nbsp; In effect, assignment validation becomes a "super" data point defining a successful validation for many modelers and planners.&nbsp; While it is important that assignment validation be reasonable, highly accurate traffic and transit assignments in terms of matching observed traffic and transit volumes are *not* sufficient for proving the validity of travel models.&nbsp; In some cases, the over-emphasis on matching observed traffic volumes and transit boardings has led to poor model adjustments such as link specific changes to the network speeds and capacities and "fine-tuning" of connector links for better match between modeled and observed traffic volumes or transit boardings.
+Unfortunately, as the culmination of the modeling process and due to the wealth of independent validation data, the assignment of trips to the network often becomes the primary basis for validating the a travel model's ability to replicate observed travel.&nbsp; In effect, assignment validation becomes a "super" data point defining a successful validation for many modelers and planners.&nbsp; While it is important that assignment validation be reasonable, highly accurate traffic and transit assignments in terms of matching observed traffic and transit volumes are _not_ sufficient for proving the validity of travel models.&nbsp; In some cases, the over-emphasis on matching observed traffic volumes and transit boardings has led to poor model adjustments such as link specific changes to the network speeds and capacities and "fine-tuning" of connector links for better match between modeled and observed traffic volumes or transit boardings.
 
 Since assignment techniques are not wedded to a specific modeling process, this chapter will be structure slightly differently from the other chapters in this manual.&nbsp; Specifically, it will focus first on traffic assignment validation and then on transit assignment validation.
 
@@ -44,8 +41,7 @@ In light of the above, the development of a validation database is a significant
 The variation of the count data should also be a concern in the development of the traffic count validation database.&nbsp; A traffic count for a facility is, in effect, a single sample of the set of daily traffic counts that occur on the link over a period of time.&nbsp; Thus, a single traffic count or a set of traffic counts for a single facility represent a sample for the link subject to sampling error.&nbsp; In 1981, the U.S. Department of Transportation published the Guide to Urban Traffic Counting, which included a figure depicting the expected coefficient of variation in daily counts.&nbsp; In 1997, a study of the variability of traffic count data included information from 21 permanent traffic recording (PTR) stations in Florida.[32](#fn32) The curve depicting the original estimation of coefficient in variation of traffic counts and the observed data from Florida are shown in [Figure 9.1](#Figure9-1).
 
 <div id="Figure9-1">
-![**Figure 9.1&nbsp; Expected Coefficient of Variation in Daily Count Volume and Observed Coefficients from Florida Permanent Traffic Recorders**](VandR-Fig9-1.jpg "Figure 9.1&nbsp; Expected Coefficient of Variation in Daily Count Volume and Observed Coefficients from Florida Permanent Traffic Recorders")
-
+![Figure 9.1 Expected Coefficient of Variation in Daily Count Volume and Observed Coefficients from Florida Permanent Traffic Recorders](VandR-Fig9-1.jpg "Figure 9.1 Expected Coefficient of Variation in Daily Count Volume and Observed Coefficients from Florida Permanent Traffic Recorders")
 </div>
 Sources:&nbsp;&nbsp;&nbsp;&nbsp; U.S. Department of Transportation, Guide to Urban Traffic Counting, 1981; and Wright, Tommy, et al., *Variability in Traffic Monitoring Data, Final Summary Report*, prepared for Oak Ridge National Laboratory, August 1997, Table 5, Page 10.\
 Since coefficient of variation is defined as the standard deviation divided by the mean, the standard deviation of an observed traffic volume can be easily estimated.&nbsp; Approximately 95 percent of the randomly collected counts for a facility should fall within &plusmn;1.96 standard deviations of the mean.&nbsp; [Figure 9.2](#Figure9-2) shows the error ranges (&plusmn;1.96 standard deviations) for the Florida data along with lines representing &plusmn;20 percent of the average traffic count.&nbsp; As can be seen in [Figure 9.2](#Figure9-2), substantial variation in daily traffic counts should be assumed.&nbsp; This suggests that traffic count data based on one or two day counts may be substantially different than the "true" average daily traffic for a link, even when the traffic count data are adjusted for day of week and seasonal variation.&nbsp; These results suggest that link counts for subclassifications such as time-of-day or vehicle classification are also subject to substantial variation.
@@ -61,9 +57,9 @@ Source:&nbsp; Wright, Tommy, et al., *Variability in Traffic Monitoring Data, Fi
 
 Regional vehicle-miles of travel (VMT) are estimated from traffic counts for the HPMS.&nbsp; The regional VMT estimates can provide a target for modeled VMT.&nbsp; However, prior to using the observed regional VMT based on the HPMS data, the consistency of the HPMS data and the modeled data should be verified.&nbsp; The consistency checks should include:
 
--   The HPMS area covered versus area covered by the travel model;
--   The facilities included in HPMS VMT (e.g., local street VMT) versus facilities included in model; and
--   Whether VMT estimates are based on average annual daily traffic or average annual weekday traffic.
+- The HPMS area covered versus area covered by the travel model;
+- The facilities included in HPMS VMT (e.g., local street VMT) versus facilities included in model; and
+- Whether VMT estimates are based on average annual daily traffic or average annual weekday traffic.
 
 ##### Travel Time and Speed Studies
 
@@ -81,10 +77,10 @@ A good approach to the validation of the traffic assignment procedure is to star
 
 As mentioned previously, assignment is the culmination of the modeling process and, in effect, validates the entire modeling process.&nbsp; The aggregate [VMT](#Vehicle-Miles_Of_Travel) and [Volume-to-Count Ratio](#Volume-to-Count_Ratio) checks provide this overall modeling process check more than subsequent tests that will be described later in this chapter.&nbsp; Different information regarding the modeling process can be inferred from each level of the summaries:
 
--   Regional summaries provide an indication of the reasonableness of the overall level of travel.&nbsp; The results help confirm that the trip generation, trip distribution, and mode choice models, or their activity-based modeling corollaries, as well as the assignment process, are performing reasonably.
--   Summaries by facility type provide an overall indication of the operation of the assignment procedures.&nbsp; These results of these summaries might indicate issues with free-flow speeds, link capacities, or volume-delay functions.
--   Summaries by geographic area may be useful for uncovering geographic biases in the modeling process.&nbsp; These biases might relate to previous steps in the modeling process.&nbsp; GIS plots of errors or percent errors by geographic area may facilitate this analysis.
--   Summaries by combinations of the above strata may provide additional diagnostic information if one of the above summaries indicates a validation problem.
+- Regional summaries provide an indication of the reasonableness of the overall level of travel.&nbsp; The results help confirm that the trip generation, trip distribution, and mode choice models, or their activity-based modeling corollaries, as well as the assignment process, are performing reasonably.
+- Summaries by facility type provide an overall indication of the operation of the assignment procedures.&nbsp; These results of these summaries might indicate issues with free-flow speeds, link capacities, or volume-delay functions.
+- Summaries by geographic area may be useful for uncovering geographic biases in the modeling process.&nbsp; These biases might relate to previous steps in the modeling process.&nbsp; GIS plots of errors or percent errors by geographic area may facilitate this analysis.
+- Summaries by combinations of the above strata may provide additional diagnostic information if one of the above summaries indicates a validation problem.
 
 ##### Vehicle-Miles Of Travel
 
@@ -93,45 +89,44 @@ As noted in [HPMS Data](#HPMS_Data), the base year VMT produced by the model can
 The VMT checks should be made for the region and by market segment.&nbsp; Markets may include facility type, area type, or geographic subdivision (e.g., county or super-district).&nbsp; It is important when comparing VMT estimates to ensure that the lane miles covered by the model are consistent with lane miles from HPMS, and the total lane miles for each region and market segment should be reported along with the VMT statistics.&nbsp; [Table 9.1 (a)](#Table-t9-1a) provides an example of VMT summaries by facility type.
 
 <div id="Table-t9-1a">
-<center>
+
 **Table 9.1 (a)&nbsp; Example VMT Validation Summary by Facility Type**
 
-</center>
 </div>
 |                     |                |                                          |                                         |                  |
 |---------------------|----------------|------------------------------------------|-----------------------------------------|------------------|
-| <center>            
- **Facility Type**    
-                      
- </center>            | <center>       
-                       **Lane Miles**  
-                                       
-                       </center>       | <center>                                 
-                                        **VMT**                                   
-                                                                                  
-                                        </center>                                 | <center>                                
-                                                                                   **Error**                                
-                                                                                                                            
-                                                                                   </center>                                | <center>         
-                                                                                                                             **Distribution**  
-                                                                                                                                               
-                                                                                                                             </center>         |
-| &nbsp;              | &nbsp;         | <center>                                 
-                                        **Estimated** ([a](#t9-1a_a))  
-                                                                                  
-                                        </center>                                 | <center>                                
-                                                                                   **Observed** ([b](#t9-1a_b))  
-                                                                                                                            
-                                                                                   </center>                                | <center>         
-                                                                                                                             **Difference**    
-                                                                                                                                               
-                                                                                                                             </center>         |
-| Freeways            | 112            | 23,342,838                               | 24,078,537                              | -735,699         |
-| Expressways         | 33             | 3,477,618                                | 3,306,422                               | 171,196          |
-| Principal Arterials | 264            | 19,508,011                               | 18,578,391                              | 929,620          |
-| Minor Arterials     | 351            | 7,125,530                                | 7,257,875                               | -132,345         |
-| Collectors          | 399            | 8,911,433                                | 9,178,980                               | -267,547         |
-| Total               | 1159           | 62,365,430                               | 62,400,204                              | -34,774          |
+|
+ **Facility Type**
+             |
+                       **Lane Miles**
+                              |
+                                        **VMT**
+
+                                                                      |
+                                                                                   **Error**
+
+                                                                                                                  |
+                                                                                                                             **Distribution**
+
+                                                                                                                                    |
+
+| &nbsp; | &nbsp; |
+**Estimated** ([a](#t9-1a_a))
+
+                                                                       |
+                                                                                   **Observed** ([b](#t9-1a_b))
+
+                                                                                                                |
+                                                                                                                             **Difference**
+
+                                                                                                                                    |
+
+| Freeways | 112 | 23,342,838 | 24,078,537 | -735,699 |
+| Expressways | 33 | 3,477,618 | 3,306,422 | 171,196 |
+| Principal Arterials | 264 | 19,508,011 | 18,578,391 | 929,620 |
+| Minor Arterials | 351 | 7,125,530 | 7,257,875 | -132,345 |
+| Collectors | 399 | 8,911,433 | 9,178,980 | -267,547 |
+| Total | 1159 | 62,365,430 | 62,400,204 | -34,774 |
 
 <div id="t9-1a_a">
 a&nbsp;Estimated is the VMT produced by the model.
@@ -139,15 +134,13 @@ a&nbsp;Estimated is the VMT produced by the model.
 </div>
 <div id="t9-1a_b">
 b&nbsp;Observed is from the HPMS estimates of VMT.
-
 </div>
-\
 
 ##### Volume-to-Count Ratio
 
 One limitation of the [VMT](#Vehicle-Miles_Of_Travel) aggregate checks is that the HPMS data used as a target is generally collected on a rolling basis over a number of years and assembled to a consistent basis using a variety of interpolation strategies (see the FHWA Traffic Monitoring Guide, <http://www.fhwa.dot.gov/policyinformation/travelmonitoring.cfm>, and the HPMS Field Manual, <http://www.fhwa.dot.gov/policyinformation/hpms/fieldmanual/>, for details). Many agencies feel that because of the intrinsic "fuzziness" in HPMS data, the performance of the model is better evaluated by limiting aggregate comparisons to locations for which counts have been collected in the model base year (or over a period that better reflects the detailed conditions the base year model is designed to reproduce).
 
-While it may seem intuitive to perform a VMT comparison on just the links with quality counts (taking the observed and modeled counts, multiplying each by the link length on which the count was collected, and adding up the resultant "VMT"), the resulting statistics prove to be a poor basis for evaluating model performance. The difficulty lies in the fact that there is no independent standard for deciding what the "correct" link length should be (or, in other words, how many lane miles the count should be applied to). Note that when validating against VMT from HPMS, there *is* an independent standard - specifically the inventory of lane miles maintained in HPMS itself.
+While it may seem intuitive to perform a VMT comparison on just the links with quality counts (taking the observed and modeled counts, multiplying each by the link length on which the count was collected, and adding up the resultant "VMT"), the resulting statistics prove to be a poor basis for evaluating model performance. The difficulty lies in the fact that there is no independent standard for deciding what the "correct" link length should be (or, in other words, how many lane miles the count should be applied to). Note that when validating against VMT from HPMS, there _is_ an independent standard - specifically the inventory of lane miles maintained in HPMS itself.
 
 Practically, the difficulty with "partial VMT" is that if the same modeled and observed counts are evaluated with different sets of link lengths, the resulting statistics can be very different (even though the model is performing equivalently in both cases). To illustrate with a concrete example, consider a case where several river bridge crossings are each coded as a single long link, versus the same model with the bridges each divided into two shorter links (as might happen if a jurisdiction boundary follows the river and the model is required to produced VMT estimates by jurisdiction). If the model is doing a relatively poor job on cross-river trip distribution, the error will be magnified (relative to the other links that are aggregated into the result) if the bridge is coded as one long link, and minimized if the bridge is coded as two links but the count only placed on one link. Note that while one might attempt to get equivalent results by placing the same count on both links, doing so will wreak havoc with the link based statistics such as %RMSE described in [Traffic Volume-Related Checks](#Traffic_Volume-Related_Checks).
 
@@ -158,42 +151,43 @@ Checks of Volume-to-Count ratio should be made for the region and by market segm
 [Table 9.1 (b)](#Table-t9-1b) provides an example of Volume-to-Count summaries by facility type.\
 
 <div id="Table-t9-1b">
-<center>
+
 **Table 9.1 (b)&nbsp; Example Volume-to-Count Validation Summary by Facility Type**
 
-</center>
 </div>
 |                     |                                        |                                         |                                                |
 |---------------------|----------------------------------------|-----------------------------------------|------------------------------------------------|
-| <center>            
- **Facility Type**    
-                      
- </center>            | <center>                               
-                       **Volumes**                             
-                                                               
-                       </center>                               | <center>                                
-                                                                **Error**                                
-                                                                                                         
-                                                                </center>                                | <center>                                       
-                                                                                                          **Count Locations**                             
-                                                                                                                                                          
-                                                                                                          </center>                                       |
-| &nbsp;              | <center>                               
-                       **Modeled** ([a](#t9-1b_a))  
-                                                               
-                       </center>                               | <center>                                
-                                                                **Observed** ([b](#t9-1b_b))  
-                                                                                                         
-                                                                </center>                                | <center>                                       
-                                                                                                          **Mean Difference** ([c](#t9-1b_c))  
-                                                                                                                                                          
-                                                                                                          </center>                                       |
-| Freeways            | 2,623,122                              | 2,705,795                               | -1,687                                         |
-| Expressways         | 379,816                                | 361,118                                 | 2,337                                          |
-| Principal Arterials | 1,724,786                              | 1,642,594                               | 2,005                                          |
-| Minor Arterials     | 515,707                                | 525,286                                 | -639                                           |
-| Collectors          | 368,211                                | 379,266                                 | -582                                           |
-| Total               | 5,611,642                              | 5,614,059                               | -18                                            |
+|
+ **Facility Type**
+
+             |
+                       **Volumes**
+
+                                                    |
+                                                                **Error**
+
+                                                                                               |
+                                                                                                          **Count Locations**
+
+                                                                                                                                                |
+
+| &nbsp; |
+**Modeled** ([a](#t9-1b_a))
+
+                                                      |
+                                                                **Observed** ([b](#t9-1b_b))
+
+                                                                                               |
+                                                                                                          **Mean Difference** ([c](#t9-1b_c))
+
+                                                                                                                                               |
+
+| Freeways | 2,623,122 | 2,705,795 | -1,687 |
+| Expressways | 379,816 | 361,118 | 2,337 |
+| Principal Arterials | 1,724,786 | 1,642,594 | 2,005 |
+| Minor Arterials | 515,707 | 525,286 | -639 |
+| Collectors | 368,211 | 379,266 | -582 |
+| Total | 5,611,642 | 5,614,059 | -18 |
 
 <div id="t9-1b_a">
 a&nbsp;Estimated is the sum of model volumes at count locations on that facility type.
@@ -221,15 +215,15 @@ The traffic volume related checks described in this chapter focus on traditional
 
 RMSE and %RMSE for a set of links can be calculated using the following formulae:
 
-![](VandR-Eq9-1-2-1.jpg "fig:VandR-Eq9-1-2-1.jpg")
+![](VandR-Eq9-1-2-1.jpg 'fig:VandR-Eq9-1-2-1.jpg')
 and
-![](VandR-Eq9-1-2-2.jpg "fig:VandR-Eq9-1-2-2.jpg")
+![](VandR-Eq9-1-2-2.jpg 'fig:VandR-Eq9-1-2-2.jpg')
 
 Where:
 
--   Count~i~ = The observed traffic count for link *i*;
--   Model~i~ = The modeled traffic volume for link *i*; and
--   N = The number of links ([33](#fn33)) in the group of links including link *i*.
+- Count~i~ = The observed traffic count for link _i_;
+- Model~i~ = The modeled traffic volume for link _i_; and
+- N = The number of links ([33](#fn33)) in the group of links including link _i_.
 
 RMSE and %RMSE are both measures of accuracy of the traffic assignment measuring the average error between the observed and modeled traffic volumes on links with traffic counts.&nbsp; As such, RMSE and %RMSE should be summarized by facility type (or functional class) or by link volume group.&nbsp; Summarizing the measures by geography can provide good validation information, especially if the measures continue to be stratified by facility type or volume group.&nbsp; While the measures can be calculated for more aggregate groups or the region as a whole, the measure becomes less useful for determining the quality of the assignment process.&nbsp; In effect, at too gross a level of aggregation, the RMSE or %RMSE measures can easily be interpreted as pass-fail measures:&nbsp; "The regional %RMSE is 32 percent so, obviously, the model is…"&nbsp; Such statements have little validity or usefulness for model validation.
 
@@ -239,15 +233,15 @@ If the traffic assignment process used for a region uses a look-up table to esti
 
 Pearson's product-moment correlation coefficient (R) is a standard statistical measure available in spreadsheet programs and other readily available statistical software packages.&nbsp; R is a dimensionless index that ranges from -1.0 to 1.0 inclusive that reflects the extent of a linear relationship between two data sets.&nbsp; It is calculated as follows:
 
-![](VandR-Eq9-1-2-3.jpg "VandR-Eq9-1-2-3.jpg")
+![](VandR-Eq9-1-2-3.jpg 'VandR-Eq9-1-2-3.jpg')
 
-Where *Count~i~*, *Model~i~*, and *N* are as defined for the calculation of RMSE.
+Where _Count~i~_, _Model~i~_, and _N_ are as defined for the calculation of RMSE.
 
 The coefficient of determination, R2, which is simply the square of R, is typically interpreted as the proportion of the variance in a dependent variable, y, attributable to the variance in an independent variable, x.&nbsp; This traditional interpretation does not hold for traffic assignment validation since the modeled traffic assignment is not dependent on the traffic count, or vice-versa.
 
 These two measures have been frequently used in the past in validation.&nbsp; They measure the strength of the (linear) relationship between the assigned volumes and traffic counts.&nbsp; In effect, R2 has been assumed to be a measure of the amount of variation in traffic counts "explained" by the model.&nbsp; The measures must be used with caution.&nbsp; An R2 for all links in the region simply says that links with high capacities (e.g., freeways) can, and usually do, carry more traffic than links with low capacities (e.g., local streets).&nbsp; As such, R2 probably tells more about the coding of facility type and number of lanes than about how the model and assignment is performing.&nbsp; Thus, achieving a regional R2 of 0.88, as has been suggested as a "standard" for determining a model's validity, has little if any meaning.
 
-If used carefully, R2 can be a useful measure for comparing model results to other iterations when calibrating travel models and traffic assignments since the bases (i.e., the sets of links considered) for calculating the measure should be the same between iterations.&nbsp; The R2 statistics should be calculated for links with similar characteristics such as facility type or volume group.&nbsp; As an example, if the R2 statistics for each facility type were consistently higher for Iteration "X" of a travel model calibration as compared to the results for other iterations, the model used for Iteration X *might* be considered to be the best.&nbsp; Of course, all modifications made to the model for Iteration X should be considered prior to ranking the final results of the various iterations.
+If used carefully, R2 can be a useful measure for comparing model results to other iterations when calibrating travel models and traffic assignments since the bases (i.e., the sets of links considered) for calculating the measure should be the same between iterations.&nbsp; The R2 statistics should be calculated for links with similar characteristics such as facility type or volume group.&nbsp; As an example, if the R2 statistics for each facility type were consistently higher for Iteration "X" of a travel model calibration as compared to the results for other iterations, the model used for Iteration X _might_ be considered to be the best.&nbsp; Of course, all modifications made to the model for Iteration X should be considered prior to ranking the final results of the various iterations.
 
 ##### Scatterplots
 
@@ -273,7 +267,7 @@ Analysis of outliers can be a good method for finding and correcting network or 
 
 Comparison of modeled volumes to observed counts for critical links (see the detailed discussion in [Volume-to-Count Ratio](#Volume-to-Count_Ratio)), especially along screenlines, cutlines, and cordon lines, is useful for assessing model quality:
 
--   Screenlines extend completely across the modeled area from boundary cordon to boundary cordon.&nbsp; Screenlines are often associated with physical barriers such as rivers or railroads, although jurisdictional boundaries such as county lines that extend through the study area may also be used as screenlines.&nbsp; [Figure 9.4](#Figure9-4) shows example screenlines for a region.
+- Screenlines extend completely across the modeled area from boundary cordon to boundary cordon.&nbsp; Screenlines are often associated with physical barriers such as rivers or railroads, although jurisdictional boundaries such as county lines that extend through the study area may also be used as screenlines.&nbsp; [Figure 9.4](#Figure9-4) shows example screenlines for a region.
 
 <div id="Figure9-4">
 !['''Figure 9.4&nbsp; Example Screenlines](VandR-Fig9-4.jpg "'''Figure 9.4&nbsp; Example Screenlines")
@@ -281,7 +275,7 @@ Comparison of modeled volumes to observed counts for critical links (see the det
 </div>
 \
 
--   Cutlines extend across a corridor containing multiple facilities.&nbsp; They should be used to intercept travel along only one axis.&nbsp; [Figure 9.5](#Figure9-5) shows example cutlines for multiple corridors a region.&nbsp; Cutlines 3, 6, 7, and 8 might be also considered screenlines if the entire modeling area is shown in [Figure 9.5](#Figure9-5).
+- Cutlines extend across a corridor containing multiple facilities.&nbsp; They should be used to intercept travel along only one axis.&nbsp; [Figure 9.5](#Figure9-5) shows example cutlines for multiple corridors a region.&nbsp; Cutlines 3, 6, 7, and 8 might be also considered screenlines if the entire modeling area is shown in [Figure 9.5](#Figure9-5).
 
 <div id="Figure9-5">
 !['''Figure 9.5&nbsp; Example Cutlines](VandR-Fig9-5.jpg "'''Figure 9.5&nbsp; Example Cutlines")
@@ -289,7 +283,7 @@ Comparison of modeled volumes to observed counts for critical links (see the det
 </div>
 \
 
--   Cordon lines completely encompass a designated area.&nbsp; For example, a cordon around the central business district is useful in validating the "ins and outs" of the CBD related traffic demand.&nbsp; Over or under estimates of trips bound for the CBD could indicate errors in the socioeconomic data (employment data for the CBD) or errors in the trip distribution or mode choice model.
+- Cordon lines completely encompass a designated area.&nbsp; For example, a cordon around the central business district is useful in validating the "ins and outs" of the CBD related traffic demand.&nbsp; Over or under estimates of trips bound for the CBD could indicate errors in the socioeconomic data (employment data for the CBD) or errors in the trip distribution or mode choice model.
 
 ##### Detailed Difference Plots
 
@@ -312,8 +306,8 @@ It is somewhat more difficult to define validation tests focused on speeds than 
 
 An initial validation check of modeled speeds can be prepared by producing scatterplots of modeled versus observed speeds.&nbsp; The scatterplots might look like the examples shown in [Figure 9.3](#Figure9-3) with "Observed Speed" and "Modeled Speed" replacing "Traffic Count" and "Modeled Volume."&nbsp; The scatterplots should be produced by facility type and, if possible, by link volume group within the facility type grouping.&nbsp; The stratification by volume group would address two primary issues:
 
--   It is probably more desirable to match traffic speeds on high volume links than on low volume links; and
--   Speeds on low volume links should be close to free-flow speeds; if the free-flow speeds do not match reasonably, the veracity of the volume delay functions or the free-flow speed inputs can be questioned especially if the speeds for high volume links match closely.
+- It is probably more desirable to match traffic speeds on high volume links than on low volume links; and
+- Speeds on low volume links should be close to free-flow speeds; if the free-flow speeds do not match reasonably, the veracity of the volume delay functions or the free-flow speed inputs can be questioned especially if the speeds for high volume links match closely.
 
 ##### Speed Versus Volume/Capacity Ratio Comparison Plots
 
@@ -351,75 +345,87 @@ In the Peer Exchange on Travel Model Validation Practices held in Washington, D.
 
 There was some agreement that setting validation standards for matching traffic counts, transit boardings, and screenline crossings can be a double-edged sword.&nbsp; While standards can be used to help determine relative model accuracy, they also can encourage over-manipulation to meet the standards.&nbsp; This can be especially true if project rankings or construction funds are based on absolute values rather than relative results.&nbsp; While almost any travel model can be manipulated to attain a specified validation standard, it is important to emphasize the use of appropriate methods to meet the standard.&nbsp; Methods used to achieve a reasonable match between modeled and observed traffic volumes can be as important as the reasonableness of the match itself.&nbsp; Therefore, model validation should focus on the acceptability of modeling practices in addition to attaining specified standards.&nbsp; A model validation that matches specified trip assignment standards within a reasonable range using valid modeling procedures is better that a model that matches observed volumes with a tighter tolerance using questionable modeling procedures. ([34](#fn34))
 
-Based on the above, this chapter reports some guidelines that have been used by various states and agencies.&nbsp; Specifically, [Table 9.2](#Table-t9-2) lists some example guidelines used for the match between modeled and observed VMT for Ohio and Florida.&nbsp; [Figure 9.8](#Figure9-8) summarizes %RMSE guidelines used in Ohio, Florida, and Oregon.&nbsp; The Michigan Department of Transportation (MDOT) has targets of 5 percent and 10 percent for screenlines and cutlines, respectively, for percent differences in observed and estimated volumes by screenline.&nbsp; [Figure 9.9](#Figure9-9) shows the maximum desirable deviation in total screenline volumes according to the observed screenline volume originally cited in *Calibration and Adjustment of System Planning Models*, produced by the FHWA in December 1990, and referenced in a number of documents, including the NCHRP Report 255, and the 1997 version of this manual.&nbsp; **The guidelines in this section should *not* be construed as standards; matching or exceeding the guidelines is *not* sufficient to determine the validity of a model.**
+Based on the above, this chapter reports some guidelines that have been used by various states and agencies.&nbsp; Specifically, [Table 9.2](#Table-t9-2) lists some example guidelines used for the match between modeled and observed VMT for Ohio and Florida.&nbsp; [Figure 9.8](#Figure9-8) summarizes %RMSE guidelines used in Ohio, Florida, and Oregon.&nbsp; The Michigan Department of Transportation (MDOT) has targets of 5 percent and 10 percent for screenlines and cutlines, respectively, for percent differences in observed and estimated volumes by screenline.&nbsp; [Figure 9.9](#Figure9-9) shows the maximum desirable deviation in total screenline volumes according to the observed screenline volume originally cited in _Calibration and Adjustment of System Planning Models_, produced by the FHWA in December 1990, and referenced in a number of documents, including the NCHRP Report 255, and the 1997 version of this manual.&nbsp; **The guidelines in this section should _not_ be construed as standards; matching or exceeding the guidelines is _not_ sufficient to determine the validity of a model.**
 
 <div id="Table-t9-2">
-<center>
+
 **Table 9.2&nbsp;&nbsp;&nbsp;&nbsp; Example VMT Guidelines by Functional Class and Area Type**
 
-</center>
 </div>
 |                          |                                   |
 |--------------------------|-----------------------------------|
-| <center>                 
- **Stratification**        
-                           
- </center>                 | <center>                          
-                            **Modeled Versus Observed VMT**    
-                                                               
-                            </center>                          |
-| &nbsp;                   | <center>                          
-                            '''Ohio ([a](#t9-2_a))  
-                                                               
-                            </center>                          |
-| <center>                 
- **Functional Class**      
-                           
- </center>                 |                                   |
-| <center>                 
- **Freeways/Expressways**  
-                           
- </center>                 | &plusmn;7%                        |
-| <center>                 
- **Principal Arterials**   
-                           
- </center>                 | &plusmn;10%                       |
-| <center>                 
- **Minor Arterials**       
-                           
- </center>                 | &plusmn;10%                       |
-| <center>                 
- **Collectors**            
-                           
- </center>                 | &plusmn;15%                       |
-| <center>                 
- **All Links**             
-                           
- </center>                 |                                   |
-| <center>                 
- **Area Type**             
-                           
- </center>                 |                                   |
-| <center>                 
- **CBD**                   
-                           
- </center>                 | &plusmn;10%                       |
-| <center>                 
- **Fringe**                
-                           
- </center>                 | &plusmn;10%                       |
-| <center>                 
- **Urban**                 
-                           
- </center>                 | &plusmn;10%                       |
-| <center>                 
- **Suburban**              
-                           
- </center>                 | &plusmn;10%                       |
-| <center>                 
- **Rural**                 
-                           
- </center>                 | &plusmn;10%                       |
+|
+ **Stratification**
+
+                  |
+                            **Modeled Versus Observed VMT**
+
+                                                   |
+
+| &nbsp; |
+'''Ohio ([a](#t9-2_a))
+
+                                                  |
+
+|
+**Functional Class**
+
+                |                                   |
+
+|
+**Freeways/Expressways**
+
+                | &plusmn;7%                        |
+
+|
+**Principal Arterials**
+
+                | &plusmn;10%                       |
+
+|
+**Minor Arterials**
+
+              | &plusmn;10%                       |
+
+|
+**Collectors**
+
+                 | &plusmn;15%                       |
+
+|
+**All Links**
+
+               |                                   |
+
+|
+**Area Type**
+
+                |                                   |
+
+|
+**CBD**
+
+                | &plusmn;10%                       |
+
+|
+**Fringe**
+
+                | &plusmn;10%                       |
+
+|
+**Urban**
+
+                | &plusmn;10%                       |
+
+|
+**Suburban**
+
+                | &plusmn;10%                       |
+
+|
+**Rural**
+
+                | &plusmn;10%                       |
 
 \
 
@@ -433,7 +439,7 @@ Based on the above, this chapter reports some guidelines that have been used by 
 </div>
 <div id="t9-2_c">
 (c)&nbsp;&nbsp; The FHWA Travel Model Improvement Program Workshop over the Web, The Travel Model Development Series:&nbsp; Part I–Travel Model Estimation, prepared by Cambridge Systematics, Inc., June 9, 2009, Slide 11, [http://tmip.fhwa.dot.gov/‌sites/‌default/‌files/‌presentation\_8\_‌with\_‌notes](http://tmip.fhwa.dot.gov/‌sites/‌default/‌files/‌presentation_8_‌with_‌notes).‌pdf, accessed November 29, 2009.\
-
+</div>
 <div id="Figure9-8">
 ![**Figure 9.8&nbsp; Example %RMSE Guidelines**](VandR-Fig9-8.jpg "Figure 9.8&nbsp; Example %RMSE Guidelines")
 
@@ -457,89 +463,84 @@ Reasonable ranges of VMT per household are 40 to 60 miles per day for large urba
 
 Traffic assignment techniques vary from region to region.&nbsp; Based on a review of the model documentation of assignment procedures used by 40 different MPOs throughout the country:
 
--   About 70 percent use time-of-day traffic assignment procedures;
--   75 to 80 percent perform class-based assignment techniques; and
--   20 to 30 percent perform speed equilibration for some of the assigned time periods.
+- About 70 percent use time-of-day traffic assignment procedures;
+- 75 to 80 percent perform class-based assignment techniques; and
+- 20 to 30 percent perform speed equilibration for some of the assigned time periods.
 
 [Table 9.3](#Table-t9-3) summarizes the ranges of coefficients and exponents of BPR-like volume delay functions as reported by 18 of the MPOs.&nbsp; The BPR-like function estimates the congested travel time on a link using the following formula:
 
-![](VandR-Eq9-1-5-1.jpg "VandR-Eq9-1-5-1.jpg")
+![](VandR-Eq9-1-5-1.jpg 'VandR-Eq9-1-5-1.jpg')
 
 Where:
 
--   *Time~final~* is the final, congested travel time on a link;
--   *Time~initial~* is the initial, or free-flow, travel time on a link;
--   *V* is the assigned volume on a link;
--   *C* is the capacity of the link (at level of service E); and
--   *&alpha;* and *&beta;* are model coefficients
+- _Time~final~_ is the final, congested travel time on a link;
+- _Time~initial~_ is the initial, or free-flow, travel time on a link;
+- _V_ is the assigned volume on a link;
+- _C_ is the capacity of the link (at level of service E); and
+- _&alpha;_ and _&beta;_ are model coefficients
 
 \
 
 <div id="Table-t9-3">
-<center>
+
 **Table 9.3&nbsp; Range of Reported BPR-Like Assignment Parameters (18 MPOs)**
 
-</center>
 </div>
 |                   |             |             |
 |-------------------|-------------|-------------|
-| <center>          
- **Facility Type**  
-                    
- </center>          | <center>    
-                     **&alpha;**  
-                                  
-                     </center>    | <center>    
-                                   **&beta;**   
-                                                
-                                   </center>    |
-| &nbsp;            | <center>    
-                     **Minimum**  
-                                  
-                     </center>    | <center>    
-                                   **Maximum**  
-                                                
-                                   </center>    |
-| Freeways          | 0.10        | 1.20        |
-| Arterials         | 0.15        | 1.00        |
+|
+ **Facility Type**
+
+         |
+                     **&alpha;**
+
+                      |
+                                   **&beta;**
+
+                                     |
+
+| &nbsp; |
+**Minimum**
+
+                     |
+                                   **Maximum**
+
+                                     |
+
+| Freeways | 0.10 | 1.20 |
+| Arterials | 0.15 | 1.00 |
 
 \
 Sensitivity testing of traffic assignment procedures can be performed by making changes to the networks or input trip tables used for assignment.&nbsp; Several approaches are as follows:
 
--   **Regional sensitivity** - Check reasonableness in change in VMT to changes in total trips.&nbsp; Increase (factor) trips by a factor (e.g., 1.5) and check to see that total VMT changes by a similar factor.&nbsp; If there is little congestion in the region, VMT should increase by a similar factor.&nbsp; If there is substantial congestion, VMT should increase by more than the factor.
--   **Localized sensitivity** - Modify key network elements and review assignment results for changes and reaction to network elements (using a fixed trip table).&nbsp; For example, remove a key bridge or limited access facility and review the impact on traffic using volume difference plots between the original and modified alternatives.
--   **Over-sensitivity** - For congested networks, make a minor change to a network (e.g., add a lane of traffic to a minor arterial link) and reassign a fixed trip table using same number of iterations and closure criteria.&nbsp; Review the impact on traffic using volume difference plots between the original and modified alternatives.&nbsp; Traffic impacts should be very localized.
+- **Regional sensitivity** - Check reasonableness in change in VMT to changes in total trips.&nbsp; Increase (factor) trips by a factor (e.g., 1.5) and check to see that total VMT changes by a similar factor.&nbsp; If there is little congestion in the region, VMT should increase by a similar factor.&nbsp; If there is substantial congestion, VMT should increase by more than the factor.
+- **Localized sensitivity** - Modify key network elements and review assignment results for changes and reaction to network elements (using a fixed trip table).&nbsp; For example, remove a key bridge or limited access facility and review the impact on traffic using volume difference plots between the original and modified alternatives.
+- **Over-sensitivity** - For congested networks, make a minor change to a network (e.g., add a lane of traffic to a minor arterial link) and reassign a fixed trip table using same number of iterations and closure criteria.&nbsp; Review the impact on traffic using volume difference plots between the original and modified alternatives.&nbsp; Traffic impacts should be very localized.
 
 #### Troubleshooting Strategies (Highway)
 
 Since traffic assignment is the culmination of the modeling process, issues can easily be related to previous steps in the modeling process.&nbsp; It is, however, always valid to start the troubleshooting with the traffic assignment step and work backwards through the modeling process.&nbsp; [Table 9.4](#Table-t9-4) provides some troubleshooting strategies for common issues that might occur with a traffic assignment.
 
 <div id="Table-t9-4">
-<center>
+
 **Table 9.4&nbsp; Troubleshooting Strategies for Issues with Traffic Assignment**
 
-</center>
 </div>
 |                                                                                         |                                                                                                                                                                                 |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <center>                                                                                
- **Issue**                                                                                
-                                                                                          
- </center>                                                                                | <center>                                                                                                                                                                        
-                                                                                           **Potential Troubleshooting Strategies**                                                                                                                                         
-                                                                                                                                                                                                                                                                            
-                                                                                           </center>                                                                                                                                                                        |
-| 1\. Low, high, or unrealistic base year modeled link volumes compared to traffic counts | -   Check network coding (speeds, capacities, etc.) on these links, nearby/adjacent links, and links on competing paths                                                         
-                                                                                           -   Check TAZ connections and loading at centroids                                                                                                                               
-                                                                                           -   Check traffic count data                                                                                                                                                     |
-| 2\. Uneven facility loading on parallel competing routes                                | -   Review centroid connections                                                                                                                                                 
-                                                                                           -   Review facility and area type coding and input starting speeds for assignments                                                                                               
-                                                                                           -   Review zone structure and number of zones – may need to have finer spatial resolution                                                                                        
-                                                                                           -   Review final congested speeds and volume-delay functions                                                                                                                     |
-| 3\. Travel times not representative of observed data                                    | -   Review facility and area type coding and input starting speeds for assignments                                                                                              
-                                                                                           -   Review final congested speeds and volume-delay functions                                                                                                                     |
-| 4\. Links with zero assigned volume                                                     | -   Check network coding (including nearby or competing links) for continuity, stub links, centroid connector locations, and attributes such as free-flow speeds and capacities |
-| 5\. Links with very high assigned volume/‌capacity ratios                               | -   Check network coding (including nearby or competing links) for centroid connector locations and attributes such as free-flow speeds and capacities                          |
+|
+ **Issue**
+
+                                                                                 |
+                                                                                           **Potential Troubleshooting Strategies**
+
+                                                                                                                                                                                                                                                                   |
+
+| 1\. Low, high, or unrealistic base year modeled link volumes compared to traffic counts | - Check network coding (speeds, capacities, etc.) on these links, nearby/adjacent links, and links on competing paths - Check TAZ connections and loading at centroids - Check traffic count data |
+| 2\. Uneven facility loading on parallel competing routes | - Review centroid connections - Review facility and area type coding and input starting speeds for assignments - Review zone structure and number of zones – may need to have finer spatial resolution - Review final congested speeds and volume-delay functions |
+| 3\. Travel times not representative of observed data | - Review facility and area type coding and input starting speeds for assignments - Review final congested speeds and volume-delay functions |
+| 4\. Links with zero assigned volume | - Check network coding (including nearby or competing links) for continuity, stub links, centroid connector locations, and attributes such as free-flow speeds and capacities |
+| 5\. Links with very high assigned volume/‌capacity ratios | - Check network coding (including nearby or competing links) for centroid connector locations and attributes such as free-flow speeds and capacities |
 
 \
 ==== Forecast Checks (Highway) ====
@@ -547,16 +548,16 @@ The forecast year validation checks for traffic assignment should concentrate on
 
 The main comparisons are similar to the comparisons previously done between base year model results and observed data.&nbsp; These may include regional, subregional, and corridor specific checks.&nbsp; Examples of regional and subregional checks include:
 
--   VMT per capita;
--   Total VMT by functional class;
--   Average congested speeds by functional class;
--   Changes in VMT by functional class; and
--   Changes in volumes crossing screenlines, cutlines, and cordon lines.
+- VMT per capita;
+- Total VMT by functional class;
+- Average congested speeds by functional class;
+- Changes in VMT by functional class; and
+- Changes in volumes crossing screenlines, cutlines, and cordon lines.
 
 Examples of corridor-level checks include:
 
--   Difference plots of future versus base year traffic; and
--   Comparisons of speeds on facilities.
+- Difference plots of future versus base year traffic; and
+- Comparisons of speeds on facilities.
 
 Traffic for specific facilities should not always be expected to increase.&nbsp; Facilities that are congested in the base year may not be able to handle significantly more traffic in the future or capacity improvements or new roadways in other areas might minimize increases in traffic on specific facilities.
 
@@ -616,6 +617,7 @@ If detailed boarding and alighting data are available, it is possible to constru
 
 <div id="Figure9-10">
 ![**Figure 9.10&nbsp;&nbsp; Example Route Profile**](VandR-Fig9-10.jpg "fig:Figure 9.10&nbsp;&nbsp; Example Route Profile")\
+</div>
 Line profiles can be used to determine observed transit riders on transit screenlines, cutlines, and cordon lines.&nbsp; Comparison of modeled transit volumes on screenlines, cutlines, and cordon lines resulting from the assignment of modeled trip tables to observed volumes is useful in determining the quality of the trip distribution and mode choice procedures.&nbsp; If transit volumes resulting from the assignment of observed trip tables are compared to the observed volumes, the results might demonstrate improper diversions to alternative transit paths in robust transit systems.&nbsp; Such results might lead to modifications of the transit path-building and assignment parameters or the transit network coding.
 
 Modeled PMT for the region, by line, by mode, by access mode, or by time-of-day can be compared to observed PMT when detailed boarding and alighting counts are available.
@@ -633,72 +635,78 @@ The reported trips should be compared to transit paths build using procedures co
 Comparison of modeled to reported transit paths can be used to prepare prediction success tables of the transit path-builder and path-building parameters used for the assignment process.&nbsp; While modeled paths could be compared to reported paths and the results summarized in "pass-fail" form, such an approach could be extremely time consuming.&nbsp; The process can be automated to summarize key variables.&nbsp; [Table 9.5](#Table-t9-5) is an example of a prediction success table for modeled to reported boardings on individual transit paths and [Table 9.6](#Table-t9-6) shows a summary of the results.
 
 <div id="Table-t9-5">
-<center>
+
 **Table 9.5&nbsp; Example Prediction Success Table for Transit Assignment**
 
-</center>
 </div>
 |                                        |                                                 |
 |----------------------------------------|-------------------------------------------------|
-| &nbsp;                                 | <center>                                        
-                                          **Skimmed Boardings for Reported Interchanges**  
-                                                                                           
-                                          </center>                                        |
-| &nbsp;                                 | <center>                                        
-                                          **No Path**                                      
-                                                                                           
-                                          </center>                                        |
-| <center>                               
- **On-Board Survey Reported Boardings**  
-                                         
- </center>                               | &nbsp;                                          |
-| &nbsp;                                 | <center>                                        
-                                          **No Path**                                      
-                                                                                           
-                                          </center>                                        |
-| &nbsp;                                 | <center>                                        
-                                          **1**                                            
-                                                                                           
-                                          </center>                                        |
-| &nbsp;                                 | <center>                                        
-                                          **2**                                            
-                                                                                           
-                                          </center>                                        |
-| &nbsp;                                 | <center>                                        
-                                          **3+**                                           
-                                                                                           
-                                          </center>                                        |
+| &nbsp;                                 |
+                                          **Skimmed Boardings for Reported Interchanges**
+
+                                                                                  |
+
+| &nbsp; |
+**No Path**
+
+                                                                                  |
+
+|
+**On-Board Survey Reported Boardings**
+
+                                | &nbsp;                                          |
+
+| &nbsp; |
+**No Path**
+
+                                                                                  |
+
+| &nbsp; |
+**1**
+
+                                                                                  |
+
+| &nbsp; |
+**2**
+
+                                                                                  |
+
+| &nbsp; |
+**3+**
+
+                                                                                  |
 
 \
 
 <div id="Table-t9-6">
-<center>
+
 **Table 9.6&nbsp; Example Prediction Success Table Summary for Transit Assignment**
 
-</center>
 </div>
 |                |                              |                                     |
 |----------------|------------------------------|-------------------------------------|
-| <center>       
- **Assignment**  
-                 
- </center>       | <center>                     
-                  **Number of Linked Trips**    
-                                                
-                  </center>                     | <center>                            
-                                                 **Percent with Skimmed Boardings:**  
-                                                                                      
-                                                 </center>                            |
-| &nbsp;         | <center>                     
-                  **Equal Reported Boardings**  
-                                                
-                  </center>                     | <center>                            
-                                                 **Greater Than Reported Boardings**  
-                                                                                      
-                                                 </center>                            |
-| Walk Access    | 854                          | 67%                                 |
-| Drive Access   | 424                          | 67%                                 |
-| All Trips      | 1,278                        | 67%                                 |
+|
+ **Assignment**
+
+        |
+                  **Number of Linked Trips**
+
+                                       |
+                                                 **Percent with Skimmed Boardings:**
+
+                                                                             |
+
+| &nbsp; |
+**Equal Reported Boardings**
+
+                                       |
+                                                 **Greater Than Reported Boardings**
+
+                                                                             |
+
+| Walk Access | 854 | 67% |
+| Drive Access | 424 | 67% |
+| All Trips | 1,278 | 67% |
 
 \
 
@@ -706,7 +714,7 @@ Comparison of modeled to reported transit paths can be used to prepare predictio
 
 ##### Aggregate Validation Checks
 
-The same caveat regarding setting guidelines for aggregate traffic assignment validation checks can be made for aggregate transit validation checks.&nbsp; Setting guidelines is double-edged sword that may lead to over-manipulation of transit assignment procedures.&nbsp; Consequently, this chapter reports some guidelines that have been used by various states and agencies.&nbsp; **The guidelines in this section should *not* be construed as standards; matching or exceeding the guidelines is *not* sufficient to determine the validity of a model.**
+The same caveat regarding setting guidelines for aggregate traffic assignment validation checks can be made for aggregate transit validation checks.&nbsp; Setting guidelines is double-edged sword that may lead to over-manipulation of transit assignment procedures.&nbsp; Consequently, this chapter reports some guidelines that have been used by various states and agencies.&nbsp; **The guidelines in this section should _not_ be construed as standards; matching or exceeding the guidelines is _not_ sufficient to determine the validity of a model.**
 
 It should be noted that the FTA does not specify guidelines for the New Starts program other than that the overall modeling process should "tell a coherent story."&nbsp; The FTA focus is on reasonable reproduction of the transit network and transit travel times and reasonableness of predicted changes between current and future ridership coupled with reasonableness of changes between future base and future build alternatives.
 
@@ -721,137 +729,161 @@ PMT for transit assignment is analogous to VMT for traffic assignment.&nbsp; As 
 There are no specific criteria guidelines associated with disaggregate transit assignment checks described above.
 
 <div id="Table-t9-7">
-<center>
+
 **Table 9.7 Example Transit Validation Results for Sacramento Region**
 
-</center>
 </div>
 |                                                                 |                                            |                   |                       |
 |-----------------------------------------------------------------|--------------------------------------------|-------------------|-----------------------|
-| <center>                                                        
- **Type of Trip or Boarding**                                     
-                                                                  
- </center>                                                        | <center>                                   
-                                                                   '''1999 Observed ([a](#t9-7_a))  
-                                                                                                               
-                                                                   </center>                                   | <center>          
-                                                                                                                **SACMET01 2000**  
-                                                                                                                                   
-                                                                                                                </center>          | <center>              
-                                                                                                                                    **Validation Ratios**  
-                                                                                                                                                           
-                                                                                                                                    </center>              |
-| <center>                                                        
- **Peak**                                                         
-                                                                  
- </center>                                                        | <center>                                   
-                                                                   **Off-Peak**                                
-                                                                                                               
-                                                                   </center>                                   | <center>          
-                                                                                                                **Total**          
-                                                                                                                                   
-                                                                                                                </center>          | <center>              
-                                                                                                                                    **Peak**               
-                                                                                                                                                           
-                                                                                                                                    </center>              |
-| <center>                                                        
- **Transit Linked Trips**                                         
-                                                                  
- </center>                                                        |                                            |
-| <center>                                                        
- **Walk (RT Only)**                                               
-                                                                  
- </center>                                                        | 26,258                                     | 22,890            | 49,148                |
-| <center>                                                        
- **Drive (RT Only)**                                              
-                                                                  
- </center>                                                        | 8,738                                      | 2,331             | 11,069                |
-| <center>                                                        
- **RT Subtotal**                                                  
-                                                                  
- </center>                                                        | 34,996                                     | 25,221            | 60,217                |
-| <center>                                                        
- '''Other Bus ([b](#t9-7_b), [c](#t9-7_c))  
-                                                                  
- </center>                                                        | N/A                                        | N/A               | 5,583                 |
-| <center>                                                        
- **Total**                                                        
-                                                                  
- </center>                                                        | N/A                                        | N/A               | 65,800                |
-| <center>                                                        
- **Transit Boardings by Bus/LRT**                                 
-                                                                  
- </center>                                                        |                                            |
-| <center>                                                        
- **LRT**                                                          
-                                                                  
- </center>                                                        | 15,244                                     | 11,673            | 26,917                |
-| <center>                                                        
- **RT Bus**                                                       
-                                                                  
- </center>                                                        | 33,081                                     | 25,442            | 58,523                |
-| <center>                                                        
- **RT Subtotal**                                                  
-                                                                  
- </center>                                                        | 48,325                                     | 37,115            | 85,440                |
-| <center>                                                        
- '''Other Bus ([b](#t9-7_b))                           
-                                                                  
- </center>                                                        | N/A                                        | N/A               | 6,978                 |
-| <center>                                                        
- **Total**                                                        
-                                                                  
- </center>                                                        | N/A                                        | N/A               | 92,418                |
-| <center>                                                        
- **LRT Boardings (By Access Mode at Production End of Trip)**     
-                                                                  
- </center>                                                        |                                            |
-| <center>                                                        
- **Transfer**                                                     
-                                                                  
- </center>                                                        | 4,332                                      | 4,404             | 8,736                 |
-| <center>                                                        
- **Walk**                                                         
-                                                                  
- </center>                                                        | 4,006                                      | 5,394             | 9,400                 |
-| <center>                                                        
- **Drive**                                                        
-                                                                  
- </center>                                                        | 6,905                                      | 1,876             | 8,781                 |
-| <center>                                                        
- **Total LRT Boardings**                                          
-                                                                  
- </center>                                                        | 15,243                                     | 11,674            | 26,917                |
-| <center>                                                        
- **Bus Boardings (By Access Mode at Production End of Trip)**     
-                                                                  
- </center>                                                        |                                            |
-| <center>                                                        
- **Transfer (RT Only)**                                           
-                                                                  
- </center>                                                        | 8,997                                      | 7,491             | 16,488                |
-| <center>                                                        
- **Walk (RT Only)**                                               
-                                                                  
- </center>                                                        | 22,252                                     | 17,496            | 39,748                |
-| <center>                                                        
- **Drive (RT Only)**                                              
-                                                                  
- </center>                                                        | 1,833                                      | 455               | 2,288                 |
-| <center>                                                        
- **RT Subtotal**                                                  
-                                                                  
- </center>                                                        | 24,085                                     | 17,951            | 58,524                |
-| <center>                                                        
- '''Other Bus ([b](#t9-7_b))                           
-                                                                  
- </center>                                                        | N/A                                        | N/A               | 6,978                 |
-| <center>                                                        
- **Total Bus Boardings**                                          
-                                                                  
- </center>                                                        | N/A                                        | N/A               | 65,502                |
+|
+ **Type of Trip or Boarding**
 
-Sources:&nbsp;&nbsp;&nbsp;&nbsp; DKS Associates, 2002; and *Sacramento Regional Travel Demand Model Version 2001 (SACMET 01)*, prepared by DKS Associates for Sacramento Association of Governments, prepared by DKS Associates, March 8, 2002, Table 43.
+                                                         |
+                                                                   '''1999 Observed ([a](#t9-7_a))
+
+                                                                                                      |
+                                                                                                                **SACMET01 2000**
+
+                                                                                                                          |
+                                                                                                                                    **Validation Ratios**
+
+                                                                                                                                                  |
+
+|
+**Peak**
+
+                                                         |
+                                                                   **Off-Peak**
+
+                                                                                                      |
+                                                                                                                **Total**
+
+                                                                                                                          |
+                                                                                                                                    **Peak**
+
+                                                                                                                                                  |
+
+|
+**Transit Linked Trips**
+
+                                                         |                                            |
+
+|
+**Walk (RT Only)**
+
+                                                         | 26,258                                     | 22,890            | 49,148                |
+
+|
+**Drive (RT Only)**
+
+                                                         | 8,738                                      | 2,331             | 11,069                |
+
+|
+**RT Subtotal**
+
+                                                         | 34,996                                     | 25,221            | 60,217                |
+
+|
+'''Other Bus ([b](#t9-7_b), [c](#t9-7_c))
+
+                                                         | N/A                                        | N/A               | 5,583                 |
+
+|
+**Total**
+
+                                                         | N/A                                        | N/A               | 65,800                |
+
+|
+**Transit Boardings by Bus/LRT**
+
+                                                         |                                            |
+
+|
+**LRT**
+
+                                                         | 15,244                                     | 11,673            | 26,917                |
+
+|
+**RT Bus**
+
+                                                         | 33,081                                     | 25,442            | 58,523                |
+
+|
+**RT Subtotal**
+
+                                                         | 48,325                                     | 37,115            | 85,440                |
+
+|
+'''Other Bus ([b](#t9-7_b))
+
+                                                         | N/A                                        | N/A               | 6,978                 |
+
+|
+**Total**
+
+                                                         | N/A                                        | N/A               | 92,418                |
+
+|
+**LRT Boardings (By Access Mode at Production End of Trip)**
+
+                                                         |                                            |
+
+|
+**Transfer**
+
+                                                         | 4,332                                      | 4,404             | 8,736                 |
+
+|
+**Walk**
+
+                                                         | 4,006                                      | 5,394             | 9,400                 |
+
+|
+**Drive**
+
+                                                         | 6,905                                      | 1,876             | 8,781                 |
+
+|
+**Total LRT Boardings**
+
+                                                         | 15,243                                     | 11,674            | 26,917                |
+
+|
+**Bus Boardings (By Access Mode at Production End of Trip)**
+
+                                                         |                                            |
+
+|
+**Transfer (RT Only)**
+
+                                                         | 8,997                                      | 7,491             | 16,488                |
+
+|
+**Walk (RT Only)**
+
+                                                         | 22,252                                     | 17,496            | 39,748                |
+
+|
+**Drive (RT Only)**
+
+                                                         | 1,833                                      | 455               | 2,288                 |
+
+|
+**RT Subtotal**
+
+                                                         | 24,085                                     | 17,951            | 58,524                |
+
+|
+'''Other Bus ([b](#t9-7_b))
+
+                                                         | N/A                                        | N/A               | 6,978                 |
+
+|
+**Total Bus Boardings**
+
+                                                         | N/A                                        | N/A               | 65,502                |
+
+Sources:&nbsp;&nbsp;&nbsp;&nbsp; DKS Associates, 2002; and _Sacramento Regional Travel Demand Model Version 2001 (SACMET 01)_, prepared by DKS Associates for Sacramento Association of Governments, prepared by DKS Associates, March 8, 2002, Table 43.
 
 <div id="t9-7_a">
 a&nbsp;&nbsp; RT numbers based on 1999 On-Board Surveys conducted by RT and SACOG for RT system only.&nbsp; Other bus operators based on total boardings estimates provided by operators.
@@ -868,171 +900,158 @@ c&nbsp;&nbsp; Trips for other bus computed from boardings, using data from 1994 
 \
 
 <div id="Table-t9-8">
-<center>
+
 **Table 9.8&nbsp; Example Transit Validation Results for Seattle Region**
 
-</center>
 </div>
 |                                       |                            |                             |
 |---------------------------------------|----------------------------|-----------------------------|
-| <center>                              
- **Transit Operator**                   
-                                        
- </center>                              | <center>                   
-                                         **2000 Modeled Boardings**  
-                                                                     
-                                         </center>                   | <center>                    
-                                                                      **2000 Observed Boardings**  
-                                                                                                   
-                                                                      </center>                    |
-| &nbsp;                                | <center>                   
-                                         **AM**                      
-                                                                     
-                                         </center>                   | <center>                    
-                                                                      **MD**                       
-                                                                                                   
-                                                                      </center>                    |
-| King County Metro                     | 92,940                     | 77,627                      |
-| Pierce Transit                        | 9,987                      | 11,440                      |
-| Community Transit and Everett Transit | 10,070                     | 7,662                       |
-| Kitsap Transit                        | 4,403                      | 3,967                       |
-| Washington State Ferries              | 11,372                     | 2,114                       |
-| Sound Transit                         | 10,006                     | 8,900                       |
-| Total                                 | 138,778                    | 111,710                     |
+|
+ **Transit Operator**
 
-Source:&nbsp;&nbsp;&nbsp;&nbsp; *PSRC Travel Model Documentation (for Version 1.0) – Updated for Congestion Relief Analysis*, prepared by Cambridge Systematics, Inc., for Washington State Department of Transportation and Puget Sound Regional Council, September 2007.
+                               |
+                                         **2000 Modeled Boardings**
 
-<Notes:&nbsp>;&nbsp;&nbsp;&nbsp;&nbsp; Observed boardings are from the National Transit Database (NTD).&nbsp; Sound Transit boardings were reported in NTD under other operators, King County Metro, Pierce Transit, and Community Transit.\
+                                                            |
+                                                                      **2000 Observed Boardings**
+
+                                                                                          |
+
+| &nbsp; |
+**AM**
+
+                                                            |
+                                                                      **MD**
+
+                                                                                          |
+
+| King County Metro | 92,940 | 77,627 |
+| Pierce Transit | 9,987 | 11,440 |
+| Community Transit and Everett Transit | 10,070 | 7,662 |
+| Kitsap Transit | 4,403 | 3,967 |
+| Washington State Ferries | 11,372 | 2,114 |
+| Sound Transit | 10,006 | 8,900 |
+| Total | 138,778 | 111,710 |
+
+Source:&nbsp;&nbsp;&nbsp;&nbsp; _PSRC Travel Model Documentation (for Version 1.0) – Updated for Congestion Relief Analysis_, prepared by Cambridge Systematics, Inc., for Washington State Department of Transportation and Puget Sound Regional Council, September 2007.
+
+Notes: &nbsp;&nbsp;&nbsp;&nbsp; Observed boardings are from the National Transit Database (NTD).&nbsp; Sound Transit boardings were reported in NTD under other operators, King County Metro, Pierce Transit, and Community Transit.\
 
 <div id="Table-t9-9">
-<center>
+
 **Table 9.9&nbsp; Example Transit Assignment Validation Guideline for State of Florida**
 
-</center>
 </div>
 |                                                            |                |
 |------------------------------------------------------------|----------------|
-| <center>                                                   
- **Validation Statistic**                                    
-                                                             
- </center>                                                   | <center>       
-                                                              **Benchmarks**  
-                                                                              
-                                                              </center>       |
-| &nbsp;                                                     | <center>       
-                                                              **Acceptable**  
-                                                                              
-                                                              </center>       |
-| Regional Estimated-over-Observed Transit Trips (Boardings) | &plusmn; 9%    |
-| Transit Screenlines                                        | &plusmn;20%    |
-| Transit Line Ridership:&nbsp; &lt;1,000 Passengers/Day     | &plusmn;150%   |
-| Transit Line Ridership:&nbsp; 1,000-2,000 Passengers/Day   | &plusmn; 100%  |
-| Transit Line Ridership:&nbsp; 2,000-5,000 Passengers/Day   | &plusmn; 65%   |
-| Transit Line Ridership:&nbsp; 5,000-10,000 Passengers/Day  | &plusmn; 35%   |
-| Transit Line Ridership:&nbsp; 10,000-20,000 Passengers/Day | &plusmn; 25%   |
-| Transit Line Ridership:&nbsp; &gt;20,000 Passengers/Day    | &plusmn; 20%   |
+|
+ **Validation Statistic**
 
-Source:&nbsp; *FSUTMS-Cube Framework Phase II – Model Calibration and Validation Standards:&nbsp; Model Validation Guidelines and Standards*, prepared by Cambridge Systematics, Inc., for Florida Department of Transportation Systems Planning Office, December 31, 2007.\
+                                                    |
+                                                              **Benchmarks**
+
+                                                                     |
+
+| &nbsp; |
+**Acceptable**
+
+                                                                     |
+
+| Regional Estimated-over-Observed Transit Trips (Boardings) | &plusmn; 9% |
+| Transit Screenlines | &plusmn;20% |
+| Transit Line Ridership:&nbsp; &lt;1,000 Passengers/Day | &plusmn;150% |
+| Transit Line Ridership:&nbsp; 1,000-2,000 Passengers/Day | &plusmn; 100% |
+| Transit Line Ridership:&nbsp; 2,000-5,000 Passengers/Day | &plusmn; 65% |
+| Transit Line Ridership:&nbsp; 5,000-10,000 Passengers/Day | &plusmn; 35% |
+| Transit Line Ridership:&nbsp; 10,000-20,000 Passengers/Day | &plusmn; 25% |
+| Transit Line Ridership:&nbsp; &gt;20,000 Passengers/Day | &plusmn; 20% |
+
+Source:&nbsp; _FSUTMS-Cube Framework Phase II – Model Calibration and Validation Standards:&nbsp; Model Validation Guidelines and Standards_, prepared by Cambridge Systematics, Inc., for Florida Department of Transportation Systems Planning Office, December 31, 2007.\
 
 <div id="Table-t9-10">
-<center>
+
 **Table 9.10&nbsp; Example Transit Screenline Results for Seattle Region**
 
-</center>
 </div>
 |                                   |                   |                  |                |                        |
 |-----------------------------------|-------------------|------------------|----------------|------------------------|
-| <center>                          
- **Screenline Location**            
-                                    
- </center>                          | <center>          
-                                     **1999 Observed**  
-                                                        
-                                     </center>          | <center>         
-                                                         **2000 Modeled**  
-                                                                           
-                                                         </center>         | <center>       
-                                                                            **Difference**  
-                                                                                            
-                                                                            </center>       | <center>               
-                                                                                             **Percent Difference**  
-                                                                                                                     
-                                                                                             </center>               |
-| 132nd SW, Snohomish County        | 5,825             | 6,883            | 1,058          | 18%                    |
-| Snohomish County Line West        | 10,590            | 11,449           | 859            | 8%                     |
-| Snohomish County Line East        | 2,010             | 1,582            | -428           | -21%                   |
-| Ship Canal Bridges                | 65,970            | 56,160           | -9,810         | -15%                   |
-| Lake Washington Bridges           | 20,670            | 21,999           | 1,329          | 6%                     |
-| Newport Eastside                  | 3,430             | 4,948            | 1,518          | 44%                    |
-| South Spokane Street              | 60,100            | 32,347           | -27,753        | -46%                   |
-| West Seattle Bridges              | 21,500            | 20,752           | -748           | -3%                    |
-| South 188th Street, King County   | 21,170            | 10,703           | -10,467        | -49%                   |
-| Pierce County Line                | 6,860             | 4,780            | -2,080         | -30%                   |
-| 40th Street, Tacoma               | 9,300             | 2,544            | -6,756         | -73%                   |
-| Eastside, North of I‑90           | 9,850             | 3,916            | -5,934         | -60%                   |
-| Eastside, East of I‑405 (E-W      | 2,760             | 2,258            | -502           | -18%                   |
-| Eastside, North of Kirkland       | 8,100             | 6,602            | -1,498         | -18%                   |
-| Eastside, North of Renton         | 2,630             | 3,209            | 579            | 22%                    |
-| South King County (E-W Movements) | 10,260            | 3,433            | -6,827         | -67%                   |
-| Subtotals                         | &nbsp;            | &nbsp;           | &nbsp;         | &nbsp;                 |
-| King County – Seattle             | 199,670           | 145,394          | -54,276        | -27%                   |
-| King County – Eastside            | 26,770            | 20,932           | -5,838         | -22%                   |
-| Pierce County                     | 16,160            | 7,324            | -8,836         | -55%                   |
-| Snohomish County                  | 18,425            | 19,914           | 1,489          | 8%                     |
-| All Screenlines                   | 261,025           | 193,564          | -67,461        | -26%                   |
+|
+ **Screenline Location**
 
-Source:&nbsp; *PSRC Travel Model Documentation (for Version 1.0) – Updated for Congestion Relief Analysis*, prepared by Cambridge Systematics, Inc., for Washington State Department of Transportation and Puget Sound Regional Council, September 2007.\
+                           |
+                                     **1999 Observed**
+
+                                               |
+                                                         **2000 Modeled**
+
+                                                                  |
+                                                                            **Difference**
+
+                                                                                   |
+                                                                                             **Percent Difference**
+
+                                                                                                            |
+
+| 132nd SW, Snohomish County | 5,825 | 6,883 | 1,058 | 18% |
+| Snohomish County Line West | 10,590 | 11,449 | 859 | 8% |
+| Snohomish County Line East | 2,010 | 1,582 | -428 | -21% |
+| Ship Canal Bridges | 65,970 | 56,160 | -9,810 | -15% |
+| Lake Washington Bridges | 20,670 | 21,999 | 1,329 | 6% |
+| Newport Eastside | 3,430 | 4,948 | 1,518 | 44% |
+| South Spokane Street | 60,100 | 32,347 | -27,753 | -46% |
+| West Seattle Bridges | 21,500 | 20,752 | -748 | -3% |
+| South 188th Street, King County | 21,170 | 10,703 | -10,467 | -49% |
+| Pierce County Line | 6,860 | 4,780 | -2,080 | -30% |
+| 40th Street, Tacoma | 9,300 | 2,544 | -6,756 | -73% |
+| Eastside, North of I‑90 | 9,850 | 3,916 | -5,934 | -60% |
+| Eastside, East of I‑405 (E-W | 2,760 | 2,258 | -502 | -18% |
+| Eastside, North of Kirkland | 8,100 | 6,602 | -1,498 | -18% |
+| Eastside, North of Renton | 2,630 | 3,209 | 579 | 22% |
+| South King County (E-W Movements) | 10,260 | 3,433 | -6,827 | -67% |
+| Subtotals | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+| King County – Seattle | 199,670 | 145,394 | -54,276 | -27% |
+| King County – Eastside | 26,770 | 20,932 | -5,838 | -22% |
+| Pierce County | 16,160 | 7,324 | -8,836 | -55% |
+| Snohomish County | 18,425 | 19,914 | 1,489 | 8% |
+| All Screenlines | 261,025 | 193,564 | -67,461 | -26% |
+
+Source:&nbsp; _PSRC Travel Model Documentation (for Version 1.0) – Updated for Congestion Relief Analysis_, prepared by Cambridge Systematics, Inc., for Washington State Department of Transportation and Puget Sound Regional Council, September 2007.\
 
 #### Reasonableness and Sensitivity Testing (Transit)
 
 Perhaps the best reasonableness test that can be applied to transit assignment results is the application of the "tell a coherent story" philosophy to the transit assignment.&nbsp; In effect, the transit assignment process should "tell a coherent story" regarding how transit riders behave.&nbsp; Beyond that suggestion, there are several reasonableness checks that can be made:
 
--   Are the transit path-building parameters used for the transit assignment consistent with the mode choice model coefficients?
--   Does the number of boardings per linked trip (or transfer rate) make sense?&nbsp; Boardings per linked trip are typically in the range of 1.2 to 1.6 with the higher rates in regions with grid-based bus systems and fixed guideway transit modes (e.g., light rail, heavy rail, or bus rapid transit).
--   Do maximum load point locations make sense (even if observed locations for maximum load points are not available)?&nbsp; For example, maximum load points for radial transit lines focused on a central business district or some other major generator should be reasonably near the major generator.&nbsp; For cross-town routes, the maximum load point should probably be closer to the central portion of the route.
+- Are the transit path-building parameters used for the transit assignment consistent with the mode choice model coefficients?
+- Does the number of boardings per linked trip (or transfer rate) make sense?&nbsp; Boardings per linked trip are typically in the range of 1.2 to 1.6 with the higher rates in regions with grid-based bus systems and fixed guideway transit modes (e.g., light rail, heavy rail, or bus rapid transit).
+- Do maximum load point locations make sense (even if observed locations for maximum load points are not available)?&nbsp; For example, maximum load points for radial transit lines focused on a central business district or some other major generator should be reasonably near the major generator.&nbsp; For cross-town routes, the maximum load point should probably be closer to the central portion of the route.
 
 Sensitivity testing of transit assignment procedures can be performed by making changes to the networks or input trip tables used for assignment.&nbsp; Some approaches include:
 
--   '''Regional sensitivity – '''Check the reasonableness in changes in total boardings to changes in total trips.&nbsp; Increase trips by a factor (e.g., 1.5) and check to see that total boardings change by a similar factor.
--   '''Localized sensitivity – '''Modify speeds or headways on selected routes and observe the changes in boardings (especially in areas where there is "competition" among transit routes).&nbsp; Do faster or more frequent routes attract more riders?&nbsp; Remove routes and observe change in ridership on other routes.
--   '''Mode sensitivity – '''If walk to rail (or walk to premium transit) is assigned separately from walk to local bus, increase rail trips on specific interchanges that must use background bus to access rail by a known number of linked trips.&nbsp; Verify that rail boardings increase by at least (or exactly) the increase in the number of linked trips.
+- '''Regional sensitivity – '''Check the reasonableness in changes in total boardings to changes in total trips.&nbsp; Increase trips by a factor (e.g., 1.5) and check to see that total boardings change by a similar factor.
+- '''Localized sensitivity – '''Modify speeds or headways on selected routes and observe the changes in boardings (especially in areas where there is "competition" among transit routes).&nbsp; Do faster or more frequent routes attract more riders?&nbsp; Remove routes and observe change in ridership on other routes.
+- '''Mode sensitivity – '''If walk to rail (or walk to premium transit) is assigned separately from walk to local bus, increase rail trips on specific interchanges that must use background bus to access rail by a known number of linked trips.&nbsp; Verify that rail boardings increase by at least (or exactly) the increase in the number of linked trips.
 
 #### Troubleshooting Strategies (Transit)
 
 Transit assignment, like traffic assignment, is the culmination of the modeling process.&nbsp; As a result, issues can easily be related to previous steps in the modeling process.&nbsp; However, unlike traffic assignment, it might be possible to isolate transit assignment issues to the transit assignment process if an observed transit trip table from an on-board survey is available.&nbsp; [Table 9.11](#Table-t9-11) provides some troubleshooting strategies for common issues that might occur with a traffic assignment.&nbsp; Also refer to [Table 7.6](Model_Validation_and_Reasonableness_Checking_Mode_Choice#Table-t7-6), which presents the analogous strategies for the mode choice model.
 
 <div id="Table-t9-11">
-<center>
+
 **Table 9.11&nbsp;&nbsp; Troubleshooting Strategies for Issues with Transit Assignment**
 
-</center>
 </div>
 |                                                                      |                                                                                                                    |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| <center>                                                             
- **Issue**                                                             
-                                                                       
- </center>                                                             | <center>                                                                                                           
-                                                                        **Potential Troubleshooting Strategies**                                                                            
-                                                                                                                                                                                            
-                                                                        </center>                                                                                                           |
-| 1\. Low or high boardings/ridership compared to route/stop boardings | -   Check network coding (stops, etc.) on the affected routes/stops, nearby/adjacent routes, and competing routes  
-                                                                        -   Check transit access links                                                                                      
-                                                                        -   Check run times, speeds, and/or dwell times for routes                                                          
-                                                                        -   Check level of zonal resolution and transit walk access percentages                                             
-                                                                        -   Check trip tables for consistency between trips in corridor and observed boardings                              
-                                                                        -   Modify path-building/assignment parameters                                                                      
-                                                                        -   If using multi-path assignment procedures, investigate changes in route "combination" factors                   
-                                                                        -   Investigate changes to transfer penalties                                                                       
-                                                                        -   Investigate changes to relationships between wait time, out-of-vehicle time, in-vehicle time, and transit cost  |
-| 2\. Low or high boardings per linked trip                            | -   Review walk network assumptions                                                                                
-                                                                        -   Investigate changes to transfer penalties                                                                       
-                                                                        -   Modify assignment procedures                                                                                    
-                                                                        -   Increase market segmentation                                                                                    
-                                                                        -   Modify path-building/assignment parameters                                                                      
-                                                                        -   If using multi-path assignment procedures, investigate changes in route "combination" factors                   
-                                                                        -   Investigate changes to transfer penalties                                                                       
-                                                                        -   Investigate changes to relationships between wait time, out-of-vehicle time, in-vehicle time, and transit cost  |
+|
+ **Issue**
+
+                                                              |
+                                                                        **Potential Troubleshooting Strategies**
+
+                                                                                                                                                                                   |
+
+| 1\. Low or high boardings/ridership compared to route/stop boardings | - Check network coding (stops, etc.) on the affected routes/stops, nearby/adjacent routes, and competing routes - Check transit access links - Check run times, speeds, and/or dwell times for routes - Check level of zonal resolution and transit walk access percentages - Check trip tables for consistency between trips in corridor and observed boardings - Modify path-building/assignment parameters - If using multi-path assignment procedures, investigate changes in route "combination" factors - Investigate changes to transfer penalties - Investigate changes to relationships between wait time, out-of-vehicle time, in-vehicle time, and transit cost |
+| 2\. Low or high boardings per linked trip | - Review walk network assumptions - Investigate changes to transfer penalties - Modify assignment procedures - Increase market segmentation - Modify path-building/assignment parameters - If using multi-path assignment procedures, investigate changes in route "combination" factors - Investigate changes to transfer penalties - Investigate changes to relationships between wait time, out-of-vehicle time, in-vehicle time, and transit cost |
 
 \
 
@@ -1043,57 +1062,55 @@ Certain basic statistics such as the number of boardings per linked trip and PMT
 The FTA has suggested a number of checks that should be used when producing ridership forecasts for a Section 5309 New Starts analysis, but these suggestions would be applicable for any future transit assignment (regardless of whether it is for a New Starts project).&nbsp; Figures 9.11a and 9.11b summarize the FTA suggestions for forecast checks.
 
 <div id="Figure9-11">
-<center>
+
 **Figure 9.11&nbsp;&nbsp;&nbsp; FTA New Starts-Based Forecasting Checks**
 
-</center>
 </div>
 \
 
-<center>
 **(a)&nbsp;Demonstrating Reasonable Predictions of Change**
 
-</center>
 \
 \* Models should provide reasonable predictions of change
 
--   -   Between today and a future no-build condition
-    -   Between a future no-build condition and a realistic alternative (i.e., a change in the transportation system)
--   To be useful, tests of reaction to change must be done through applications of the model in full production mode
-    -   Findings can highlight problems not prevalent in base year conditions
+- - Between today and a future no-build condition
+  - Between a future no-build condition and a realistic alternative (i.e., a change in the transportation system)
+- To be useful, tests of reaction to change must be done through applications of the model in full production mode
+  - Findings can highlight problems not prevalent in base year conditions
 
-<center>
 **(b)&nbsp;Common Tests for Reasonable Forecasts**
 
-</center>
 \
 
-|           |                                 |                           |                                                            |                                                                  |
-|-----------|---------------------------------|---------------------------|------------------------------------------------------------|------------------------------------------------------------------|
-| <center>  
- **No.**    
-            
- </center>  | <center>                        
-             **Compare model results from…**  
-                                              
-             </center>                        | <center>                  
-                                               **…to the results from…**  
-                                                                          
-                                               </center>                  | <center>                                                   
-                                                                           **This compares the…**                                      
-                                                                                                                                       
-                                                                           </center>                                                   | <center>                                                         
-                                                                                                                                        **The results are different because of …**                        
-                                                                                                                                                                                                          
-                                                                                                                                        </center>                                                         |
-| 1         | Previously validated year       | Base year validation      | Past to the present                                        | Changes in demographics and employment and transportation supply |
-| 2         | Base year validation            | Future year no-build      | Present to the future                                      | Demographic and employment forecasts                             |
-| 3         | Future year no-build            | Future year TSM           | The future to a modestly-changed future                    | Transportation supply (modest)                                   |
-| 4         | Future year TSM                 | Future year Build         | The modestly-changed future to a future with a big project | Transportation supply (major)                                    |
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
 
-Source:&nbsp;*Shining a Light Inside the Black Box (2):&nbsp; Model Testing*, Travel Model Improvement Program Webinar, March 11, 2008, presentation slides 33 and 34, <http://tmip.fhwa.dot.gov/sites/tmip.fhwa.dot.gov/files/presentation_bb2.pdf>, accessed October 5, 2009.
 
-------------------------------------------------------------------------
+|
+**No.**
+
+|
+**Compare model results from…**
+
+                                     |
+                                               **…to the results from…**
+
+                                                                 |
+                                                                           **This compares the…**
+
+                                                                                                                              |
+                                                                                                                                        **The results are different because of …**
+
+                                                                                                                                                                                                 |
+
+| 1 | Previously validated year | Base year validation | Past to the present | Changes in demographics and employment and transportation supply |
+| 2 | Base year validation | Future year no-build | Present to the future | Demographic and employment forecasts |
+| 3 | Future year no-build | Future year TSM | The future to a modestly-changed future | Transportation supply (modest) |
+| 4 | Future year TSM | Future year Build | The modestly-changed future to a future with a big project | Transportation supply (major) |
+
+Source:&nbsp;_Shining a Light Inside the Black Box (2):&nbsp; Model Testing_, Travel Model Improvement Program Webinar, March 11, 2008, presentation slides 33 and 34, <http://tmip.fhwa.dot.gov/sites/tmip.fhwa.dot.gov/files/presentation_bb2.pdf>, accessed October 5, 2009.
+
+---
 
 <div id="fn31">
 31&nbsp;The use of observed transit trip tables for transit assignment validation is covered in this chapter.&nbsp; However, it is also important for validating transit networks (see [Model Inputs](Model_Validation_and_Reasonableness_Checking_Model_Inputs)) and for inputs for validating trip distribution ([Distribution](Model_Validation_and_Reasonableness_Checking_Distribution)) and mode choice ([Mode Choice](Model_Validation_and_Reasonableness_Checking_Mode_Choice)).
@@ -1112,5 +1129,4 @@ Source:&nbsp;*Shining a Light Inside the Black Box (2):&nbsp; Model Testing*, Tr
 
 </div>
 
-------------------------------------------------------------------------
-
+---
