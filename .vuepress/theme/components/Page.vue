@@ -9,7 +9,7 @@
 
       <div class="div-links" v-if="$page.frontmatter.links">
         <p>
-          <b>ATTACHED FILES:</b>
+          <b>ATTACHED LINKS:</b>
         </p>
         <table class="table-links">
           <tr v-for="link in $page.frontmatter.links" :key="link.label">
