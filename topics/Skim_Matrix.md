@@ -1,7 +1,6 @@
 ---
 title: 'Skim Matrix'
 categories:
-  - Needs Review
   - Activity Based Models
   - Land Use Transport Modeling
   - Public Transport (Transit) Modeling
@@ -22,7 +21,7 @@ _Example: Skim Table with time, distance and toll for SOV (Single-Occupancy Vehi
 
 ## Transit Skims
 
-Transit skims provide information on travel between all zones by transit modes. Such skims often include information on travel time, fare, number of transfers, and many [further attributes](Transit_networks#Values_Skimmed_on_the_Transit_Network). For more advanced [mode choice models](Mode_Choice), travel time is provided for each mode of transit separately, as some transit modes (particularly rail) are commonly evaluated more favorably than others. This way, a trip requiring 10 min by rail and 20 min by bus may be deemed less attractive than a trip that needs 20 min by rail and 10 min by bus.
+Transit skims provide information on travel between all zones by transit modes. Such skims often include information on travel time, fare, number of transfers, and many [further attributes](Transit_networks#Values_Skimmed_on_the_Transit_Network). For more advanced [mode choice models](Mode_choice), travel time is provided for each mode of transit separately, as some transit modes (particularly rail) are commonly evaluated more favorably than others. This way, a trip requiring 10 min by rail and 20 min by bus may be deemed less attractive than a trip that needs 20 min by rail and 10 min by bus.
 
 ## Logsums
 
@@ -35,5 +34,3 @@ where _U_ is the logsum (or utility) to travel from _i_ to _j_ for purpose _k_ a
 $$u_{i,j,mode}=\alpha \cdot time_{i,j,mode}+\beta \cdot costs_{i,j,mode} + \gamma \cdot transfers_{i,j,mode} + \ldots + c$$
 
 where _V_ is the impedance for a given mode that may include a mode-specific constant _α_, travel time _T_ multiplied with a travel time coefficient _β_, travel costs _C_ multiplied with a travel costs coefficient _γ_. Depending on the model design, further parameters could be added for selected modes, such as number of transfers, average wait time, access or egress time, etc.
-
----
