@@ -7,7 +7,7 @@ categories:
 
 ## Introduction
 
-Albatross, acronym for A Learning Based Transportation Oriented Simulation System, was developed for the Dutch Ministry of Transportation, who decided to develop an activity-based model alongside their state-of-the-art tour- based model LMS. Albatross uses a sequential decision process to generate daily activity schedules of individuals in the context of a household. [Decision tree](Decision_tree) is the formalism to do that. Generated activity schedules describe for a given day which activities are conducted, when (start time), for how long (duration), where (location), with whom, and, if travelling is involved, the transport mode used and chaining of trips.
+Albatross, acronym for A Learning Based Transportation Oriented Simulation System, was developed for the Dutch Ministry of Transportation, who decided to develop an activity-based model alongside their state-of-the-art tour- based model LMS. Albatross uses a sequential decision process to generate daily activity schedules of individuals in the context of a household. A "decision tree" is the formalism to do that. Generated activity schedules describe for a given day which activities are conducted, when (start time), for how long (duration), where (location), with whom, and, if travelling is involved, the transport mode used and chaining of trips.
 
 Albatross consists of various components that perform specialized functions in the scheduling and schedule execution process. Figure below portrays the different parts of system.
 
