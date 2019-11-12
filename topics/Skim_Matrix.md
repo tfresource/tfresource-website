@@ -17,7 +17,7 @@ An open-source format to store matrices called [open matrix](Open_Matrix_Format)
 
 A skim matrix provides travel time, distance, costs, or a combination thereof (called Generalized Costs) for each origin-destination zone-pair. Often, skims distinguish travel for single-occupancy vehicles (who may not use HOV lanes, and therefore, may experience different travel times), shared-ride 2 and shared-ride 3+. This distinction, however, is only of value if the network contains links that are limited to shared-ride 2 or shared-ride 3+ vehicles. The graphic below shows a snapshot of a skim table.
 
-![](skimTable.png 'fig:skimTable.png')
+![](SkimTable.png 'Example Skim Table')
 _Example: Skim Table with time, distance and toll for SOV (Single-Occupancy Vehicles) and HOV (High-Occupancy Vehicles) and time and distance for trucks_
 
 ## Transit Skims
