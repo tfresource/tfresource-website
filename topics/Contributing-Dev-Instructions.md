@@ -30,10 +30,12 @@ In addition, you will need a good Markdown text editor. We recommend using the f
 
 ## 2. Set up your local copy of the site
 
-Now create a copy of the site on your computer, and install all important dependencies using the following commands:
+- On Github, create your personal fork the repo if you haven't already, with the 'Fork' button in the upper right
+
+Now "clone" (download a copy) of the site on your computer, and install all important dependencies using the following commands:
 
 ```bash
-git clone https://github.com/tfresource/tfresource.github.io.git tfresource
+git clone https://github.com/[your-github-name]/tfresource.github.io.git tfresource
 cd tfresource
 npm install yarn
 npx yarn install
