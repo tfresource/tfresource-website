@@ -54,5 +54,13 @@ Now you are ready to build the site (i.e., convert the markdown and page templat
 ## 4. Creating a pull request
 
 When you're happy with your set of changes to one or multiple files, push them to Github and create a pull request.
+```bash
+git add topics/*
+git commit -m "Description of my changes"
+git push
+```
+
+You then go back to the Github website to create the pull request.
+
 
 ... to be added...
