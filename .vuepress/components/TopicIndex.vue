@@ -30,6 +30,7 @@ export default {
     },
     categories() {
       const all = Object.keys(this.pageLookup).sort()
+      // all.splice(0, 0, 'Uncategorized')
       // .filter(a => a != 'Needs Review')
       return all
     },
@@ -40,6 +41,16 @@ export default {
     }
   },
   created: function() {
+    // uncategorized:
+    /*
+    const uncategorized = this.$site.pages.filter(p => p.frontmatter && p.frontmatter.categories === ['Needs Review'])
+    for (const page of uncategorized) {
+      page.frontmatter.categories = ['!Uncategorized', 'Needs Review']
+    }
+    */
+
+    this.pageLookup['*Uncategorized'] = []
+
     for (const page of this.$site.pages) {
       if (!page.frontmatter || !page.frontmatter.categories) continue
 
@@ -47,7 +58,13 @@ export default {
         if (!this.pageLookup[category]) this.pageLookup[category] = []
         this.pageLookup[category].push(page)
       }
+
+      if (page.frontmatter.categories.length == 1) {
+        this.pageLookup['*Uncategorized'].push(page)
+      }
     }
+
+    delete this.pageLookup['Needs Review']
     // console.log({ all: this.pageLookup })
   },
   methods: {
