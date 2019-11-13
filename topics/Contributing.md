@@ -37,15 +37,15 @@ Be sure to **REMOVE the 'Needs Review'** category line from the top of a page --
 Thank you!!!
 :::
 
-- Click the _Edit this Page_ link at the top of any page to create your own copy of the page and start editing.
+1. Click the _Edit this Page_ link at the top of any page to create your own copy of the page and start editing.
   - If you are not logged into Github, you will be asked to log in or create a new (free) account
   - If this is the first time you are editing, you will be asked to **Fork this repository.** Yes, fork the repository. That means you are creating your own personal copy of the site, on which you can make whatever changes you wish.
-- You'll be taken to a page with the full text of that page in an editor window. Make changes as you see fit.
+2. You'll be taken to a page with the full text of that page in an editor window. Make changes as you see fit.
   - Page text is in [Markdown format](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), with standard Github-flavored extensions for tables and LaTeX/MathJax equations.
-- You can review your changes in the **Preview Changes** tab, but be warned that some content such as math equations and complex tables may not preview correctly. I wish I knew how to fix this! If you are doing lots of editing, you might want to [build locally](Contributing-Dev-Instructions) instead of using the web editor to get around this.
-- When you are happy with your edits, save the file using the **Propose file change** button. You can add a description to the edits if you like.
-- After proposing the changes, create the pull request and sit back.
-- Someone at TF Resource will review your changes and either approve, reject, or suggest further edits to your submission.
+3. You can review your changes in the **Preview Changes** tab, but be warned that some content such as math equations and complex tables may not preview correctly. I wish I knew how to fix this! If you are doing lots of editing, you might want to [build locally](Contributing-Dev-Instructions) instead of using the web editor to get around this.
+4. When you are happy with your edits, save the file using the **Propose file change** button. You can add a description to the edits if you like. 
+5. Github will take you to a confirmation page which shows a "diff" of the lines you changed. If everything looks good, click **Create Pull Request** and sit back.
+6. Someone at TF Resource will review your changes and either approve, reject, or suggest further edits to your submission.
 
 ## Creating a new page
 
