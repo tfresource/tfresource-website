@@ -44,7 +44,7 @@ npx yarn install
 Now you are ready to build the site (i.e., convert the markdown and page templates to an HTML website) and run a local development web server to review the site.
 
 - Start a local web server which builds and serves the site (this command will take a minute or two):
-  - `yarn serve`
+  - `npx yarn serve`
 - Open a browser to `https://localhost:8080` to view your local copy of the site
 - Edit any pages in the `tfresource/topics` subfolder
 - Changes should hot-reload / show up automatically in the web browser, but if you don't see your changes you can click reload.
