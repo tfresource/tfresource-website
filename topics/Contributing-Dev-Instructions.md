@@ -30,7 +30,7 @@ In addition, you will need a good Markdown text editor. We recommend using the f
 
 ## 2. Set up your local copy of the site
 
-- On Github, create your personal fork the repo if you haven't already, with the 'Fork' button in the upper right
+- On Github, create your personal fork of the repo if you haven't already, using the 'Fork' button in the upper right
 
 Now "clone" (download a copy) of the site on your computer, and install all important dependencies using the following commands:
 
