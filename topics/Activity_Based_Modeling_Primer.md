@@ -2,7 +2,6 @@
 title: "Activity Based Modeling Primer"
 noTOC: true
 categories:
-  - Needs Review
   - Activity Based Models
   - Reports
   - Resources
@@ -12,8 +11,6 @@ links:
     url: http://onlinepubs.trb.org/onlinepubs/shrp2/SHRP2_C46.pdf
 ---
 
-
-*Resource Title*
 
 #### Author
 
@@ -31,10 +28,9 @@ Copyright 2015 National Academy of Sciences.
 
 #### Publication Date
 
-Draft: 2014|6|30}}
+Draft: 2014-Jun-30
 Final: 2015
 
-------------------------------------------------------------------------
 
 
 
