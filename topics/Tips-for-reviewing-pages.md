@@ -8,7 +8,7 @@ Hello TF Resource volunteers!! Here are some common problems in the raw imported
 
 - Markdown format [cheat-sheet here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-The best way to see what a page is _supposed_ to look like is to open up the old http://tfresource.org website, and navigate to the page with the same name. (Use the search bar to get there quickly). Having that page open side-by-side will help you figure out what needs to be done.
+The best way to see what a page is _supposed_ to look like is to open up the old <http://tfresource.org> website, and navigate to the page with the same name. (Use the search bar to get there quickly). Having that page open side-by-side will help you figure out what needs to be done.
 
 ## Page Junk
 
