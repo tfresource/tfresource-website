@@ -49,7 +49,7 @@ export default {
     }
     */
 
-    this.pageLookup['*Uncategorized'] = []
+    this.pageLookup['Uncategorized'] = []
 
     for (const page of this.$site.pages) {
       if (!page.frontmatter || !page.frontmatter.categories) continue
@@ -60,7 +60,7 @@ export default {
       }
 
       if (page.frontmatter.categories.length == 1) {
-        this.pageLookup['*Uncategorized'].push(page)
+        this.pageLookup['Uncategorized'].push(page)
       }
     }
 

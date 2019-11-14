@@ -1,7 +1,6 @@
 ---
-title: 'Developer Instructions: Building TF-Resource Locally'
+title: '**Developer Instructions: Building TF-Resource Locally'
 categories:
-  - Needs Review
   - About
 ---
 
