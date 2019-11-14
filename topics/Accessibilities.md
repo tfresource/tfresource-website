@@ -55,15 +55,15 @@ The four maps visualize the impact of the two parameters $\alpha$ and $\beta$.
 
 |                                                               |                                                               |
 |---------------------------------------------------------------|---------------------------------------------------------------|
-| Low impact of travel time, low impact of urban centers\       
- $(\alpha = 1.0; \beta = -0.3)$                                 | High impact of travel time, low impact of urban centers\      
+| Low impact of travel time, low impact of urban centers\
+ $(\alpha = 1.0; \beta = -0.3)$                                 | High impact of travel time, low impact of urban centers\
                                                                  $(\alpha = 1.0; \beta = -0.5)$                                 |
-| ![](accessibilities1.png "accessibilities1.png") | ![](accessibilities2.png "accessibilities2.png") |
+| ![](accessibilities1.png "Accessibilities1.png") | ![](Accessibilities2.png "accessibilities2.png") |
 | \                                                             | \                                                             |
-| Low impact of travel time, high impact of urban centers\      
- $(\alpha = 1.5; \beta = -0.3)$                                 | High impact of travel time, high impact of urban centers\     
+| Low impact of travel time, high impact of urban centers\
+ $(\alpha = 1.5; \beta = -0.3)$                                 | High impact of travel time, high impact of urban centers\
                                                                  $(\alpha = 1.5; \beta = -0.5)$                                 |
-| ![](accessibilities4.png "accessibilities4.png") | ![](accessibilities5.png "accessibilities5.png") |
+| ![](accessibilities4.png "Accessibilities4.png") | ![](Accessibilities5.png "accessibilities5.png") |
 
 References
 ----------
