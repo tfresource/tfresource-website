@@ -28,6 +28,7 @@ Many TF Resource page names got changed because of spaces, capitalization, etc. 
 
 - Pages now begin with an initial capital letter, and all spaces have been changed to under_scores.
 - e.g. a link pointing to `temporal data` would now be `Temporal_data`
+- Note you DO NOT NEED the `.md` extension to link to a page name: just use its full exact name _before_ the .md extension.
 
 ## Missing Images
 

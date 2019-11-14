@@ -4,6 +4,15 @@ categories:
   - About
 ---
 
+::: tip HI TFR REVIEWERS!
+TF Resource volunteers! Thanks for reviewing content for us!
+
+Be sure to **REMOVE the 'Needs Review'** category line from the top of a page -- after you have verified it and made any necessary updates! :-)
+
+Also check out the [Tips for Reviewers](Tips-for-reviewing-pages) for some quick fixes to common problems.
+Thank you!!!
+:::
+
 This website serves as a community resource for travel forecasting research and practice. We welcome your participation!
 
 This community is comprised of [Volunteers](TF_Resource_Volunteers), many of whom are affiliated with the Transportation Research Board's ADB45 Committee on Travel Forecasting Resources.
@@ -27,14 +36,6 @@ For larger changes, we recommend following the detailed setup instructions to cr
 This will reduce the number of "round trips" while saving and publishing -- which will save you a lot of time.
 
 ## Editing a page
-
-::: tip HI TFR REVIEWERS!
-TF Resource volunteers! Thanks for reviewing content for us!
-
-Be sure to **REMOVE the 'Needs Review'** category line from the top of a page -- after you have verified it and made any necessary updates! :-)
-
-Thank you!!!
-:::
 
 1. Click the _Edit this Page_ link at the top of any page to create your own copy of the page and start editing.
 
