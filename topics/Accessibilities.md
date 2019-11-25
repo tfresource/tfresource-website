@@ -49,9 +49,6 @@ $${ A }_{ i }=\sum _{ J }^{ }{ W }_{ j }^\alpha \cdot \exp(-\beta \cdot { t }_{ 
 Auto peak travel time was used as the [impedance](Impedance) ${ t }_{ ij }$.
 The four maps visualize the impact of the two parameters $\alpha$ and $\beta$.
 
-|     |     |
-| --- | --- |
-
 
 | Low impact of travel time, low impact of urban centers\
  $(\alpha = 1.0; \beta = -0.3)$ | High impact of travel time, low impact of urban centers\
