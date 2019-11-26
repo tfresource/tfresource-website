@@ -30,7 +30,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Acceptable practical experience model standard in project-level traffic forecasting](Acceptable_practical_experience_model_standard_in_project_level_traffic_forecasting) | | | |
 | [Air quality estimation in project-level traffic forecasting](Air_quality_estimation_in_project_level_traffic_forecasting) | | | |
 | [Associations, Organizations and Committees](Associations_Organizations_and_Committees) | | | |
-| [Autonomous vehicles: Lexicon](Autonomous_vehicles_Lexicon) | | | |
+| [Autonomous vehicles: Lexicon](Autonomous_vehicles_Lexicon) | Brice Nichols | | |
 | [Autoregressive with explanatory variables (ARX or SAR) models in project-level traffic forecasting](Autoregressive_with_explanatory_variables_ARX_or_SAR_models_in_project_level_traffic_forecasting) | | | |
 | [Best practical experience model standard in project-level traffic forecasting](Best_practical_experience_model_standard_in_project_level_traffic_forecasting) | | | |
 | [Box-Cox transformations in project-level traffic forecasting](Box_Cox_transformations_in_project_level_traffic_forecasting) | | | |
@@ -159,9 +159,9 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Limitations in classic constraint based approaches](Limitations_in_classic_constraint_based_approaches) | | | |
 | [Mode choice](Mode_choice) | | | |
 | [NCHRP Synthesis 406: Advanced Practices in Travel Forecasting - A Synthesis of Highway Practice](NCHRP_Synthesis_406_Advanced_Practices_in_Travel_Forecasting_A_Synthesis_of_Highway_Practice) | Rolf | | |
-| [Population Synthesis](Population_Synthesis) | | | |
-| [Population Synthesis For Microsimulating Travel Behavior](Population_Synthesis_For_Microsimulating_Travel_Behavior) | | | |
-| [Synthetic populations: review of the different approaches](Synthetic_populations_review_of_the_different_approaches) | | | |
+| [Population Synthesis](Population_Synthesis) | Brice Nichols | | |
+| [Population Synthesis For Microsimulating Travel Behavior](Population_Synthesis_For_Microsimulating_Travel_Behavior) | Brice Nichols | | |
+| [Synthetic populations: review of the different approaches](Synthetic_populations_review_of_the_different_approaches) | Brice Nichols | | |
 | [The ARC and SACOG Experience with Activity-Based Models - Synthesis and Lessons Learned](The_ARC_and_SACOG_Experience_with_Activity_Based_Models_Synthesis_and_Lessons_Learned) | | | |
 | [Tour-based models](Tour_based_models) | | | |
 | **Activity Based Models‏‎:** | --- | --- | --- |
@@ -170,14 +170,14 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [NCTCOG Path Towards Advanced Analytical Tools](NCTCOG_Path_Towards_Advanced_Analytical_Tools) | | | |
 | [SFCTA's Experience Using its SF-CHAMP Activity-Based Model](SFCTA's_Experience_Using_its_SF_CHAMP_Activity_Based_Model) | | | |
 | **Autonomous Vehicles:** | --- | --- | --- |
-| [Autonomous vehicles](Autonomous_vehicles) | | | |
-| [Autonomous vehicles: Behavioral considerations](Autonomous_vehicles_Behavioral_considerations) | | | |
-| [Autonomous vehicles: Early applications](Autonomous_vehicles_Early_applications) | | | |
-| [Autonomous vehicles: Forecasting](Autonomous_vehicles_Forecasting) | | | |
-| [Autonomous vehicles: Modeling frameworks](Autonomous_vehicles_Modeling_frameworks) | | | |
-| [Autonomous vehicles: planning and policy context](Autonomous_vehicles_planning_and_policy_context) | | | |
-| [Autonomous vehicles: use cases](Autonomous_vehicles_use_cases) | | | |
-| [Content Charrette: Autonomous Vehicles](Content_Charrette_Autonomous_Vehicles) | | | |
+| [Autonomous vehicles](Autonomous_vehicles) | Brice Nichols | | |
+| [Autonomous vehicles: Behavioral considerations](Autonomous_vehicles_Behavioral_considerations) | Brice Nichols | | |
+| [Autonomous vehicles: Early applications](Autonomous_vehicles_Early_applications) | Brice Nichols | | |
+| [Autonomous vehicles: Forecasting](Autonomous_vehicles_Forecasting) | Brice Nichols | | |
+| [Autonomous vehicles: Modeling frameworks](Autonomous_vehicles_Modeling_frameworks) | Brice Nichols | | |
+| [Autonomous vehicles: planning and policy context](Autonomous_vehicles_planning_and_policy_context) | Brice Nichols | | |
+| [Autonomous vehicles: use cases](Autonomous_vehicles_use_cases) | Brice Nichols | | |
+| [Content Charrette: Autonomous Vehicles](Content_Charrette_Autonomous_Vehicles) | Brice Nichols | | |
 | **Community:** | --- | --- | --- |
 | [Community](Community) | | | |
 | [Content and Membership Council](Content_and_Membership_Council) | | | |
