@@ -37,17 +37,17 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Bypasses of local scope in project-level traffic forecasting](Bypasses_of_local_scope_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Bypasses of regional scope in project-level traffic forecasting](Bypasses_of_regional_scope_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Cellular Communications Data](Cellular_Communications_Data) | | | |
-| [Current trends in travel behavior](Current_trends_in_travel_behavior) | | | |
+| [Current trends in travel behavior](Current_trends_in_travel_behavior) |Patricia Lavieri | | |
 | [Data Development](Data_Development) | | | |
 | [Data Visualization](Data_Visualization) | | | |
 | [Discussion of travel delay in acceptable models in project-level traffic forecasting](Discussion_of_travel_delay_in_acceptable_models_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Empirical Accuracy of Travel Forecasts](Empirical_Accuracy_of_Travel_Forecasts) | | | |
 | [Example of an autoregression model with Box-Cox transformation](Example_of_an_autoregression_model_with_Box_Cox_transformation) | Alan/Kermit | | |
-| [Explaining Activity-Based Models to a General Audience](Explaining_Activity_Based_Models_to_a_General_Audience) | | | |
+| [Explaining Activity-Based Models to a General Audience](Explaining_Activity_Based_Models_to_a_General_Audience) |Patricia Lavieri | | |
 | [Format Testing](Format_Testing) | | | Rolf: Can this page be deleted?|
 | [Freight modeling](Freight_modeling) | | | |
 | [Future Development of TFR](Future_Development_of_TFR) | | | Rolf: Page needs to be deleted |
-| [Global Positioning Systems (GPS) Data](Global_Positioning_Systems_(GPS)_Data) | | | |
+| [Global Positioning Systems (GPS) Data](Global_Positioning_Systems_(GPS)_Data) |Patricia Lavieri | | |
 | [Health and Transportation Data](Health_and_Transportation_Data) | Patrick Singleton | | |
 | [Highway noise analysis in project-level traffic forecasting](Highway_noise_analysis_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Hybrid models in project-level traffic forecasting](Hybrid_models_in_project_level_traffic_forecasting) | Alan/Kermit | | |
@@ -60,12 +60,12 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Location-Based Services Data](Location_Based_Services_Data) | | | |
 | [Long range transportation plan](Long_range_transportation_plan) | | | |
 | [MPO model documentation](MPO_model_documentation) | Patrick Singleton | | |
-| [Market Segmentation](Market_Segmentation) | | | |
+| [Market Segmentation](Market_Segmentation) |Patricia Lavieri | | |
 | [Measures of effectiveness and performance measures in project-level traffic forecasting](Measures_of_effectiveness_and_performance_measures_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Modal hierarchy](Modal_hierarchy) | | | |
 | [Mode Choice Behavior](Mode_Choice_Behavior) | | | |
 | [Model Improvement Plan](Model_Improvement_Plan) | | | |
-| [Model Transferability](Model_Transferability) | | | |
+| [Model Transferability](Model_Transferability) |Patricia Lavieri | | |
 | [Model Validation and Reasonableness Checking/Amount Of Travel](Model_Validation_and_Reasonableness_Checking/Amount_Of_Travel) | | | |
 | [Model Validation and Reasonableness Checking/Assignment](Model_Validation_and_Reasonableness_Checking/Assignment) | | | |
 | [Model Validation and Reasonableness Checking/Distribution](Model_Validation_and_Reasonableness_Checking/Distribution) | | | |
@@ -84,7 +84,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Modelers](Modelers) | | | |
 | [Multiple Discrete-Continuous Extreme Value (MDCEV) Model](Multiple_Discrete_Continuous_Extreme_Value_(MDCEV)_Model) |Rajesh Paleti | | |
 | [OD table refinements in project-level traffic forecasting](OD_table_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Open Data Sources](Open_Data_Sources) | | | |
+| [Open Data Sources](Open_Data_Sources) |Patricia Lavieri | | |
 | [Path Choice Mode choice Consistency](Path_Choice_Mode_choice_Consistency) | | | |
 | [Path Finding Algorithm](Path_Finding_Algorithm) | | | |
 | [Pavement design in project-level traffic forecasting](Pavement_design_in_project_level_traffic_forecasting) | Alan/Kermit | | |
@@ -92,7 +92,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Pivoting with select link analysis for small developments in project-level traffic forecasting](Pivoting_with_select_link_analysis_for_small_developments_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Planning and policy context](Planning_and_policy_context) | | | |
 | [Polaris](Polaris) | | | |
-| [Policy relevance of transportation models](Policy_relevance_of_transportation_models) | | | |
+| [Policy relevance of transportation models](Policy_relevance_of_transportation_models) |Patricia Lavieri | | |
 | [Prerequisites for travel modeling](Prerequisites_for_travel_modeling) | | | |
 | [Puget Sound Regional Council](Puget_Sound_Regional_Council) | | | |
 | [Refining speeds for evaluation in project-level traffic forecasting](Refining_speeds_for_evaluation_in_project_level_traffic_forecasting) | Alan/Kermit | | |
@@ -130,12 +130,12 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Travel Forecasting Results Report](Travel_Forecasting_Results_Report) | | | |
 | [Travel Time Speed and Reliability Data](Travel_Time_Speed_and_Reliability_Data) | | | |
 | [Travel model curriculum](Travel_model_curriculum) | | | |
-| [Travel survey data](Travel_survey_data) | | | |
+| [Travel survey data](Travel_survey_data) |Patricia Lavieri | | |
 | [Trend models in project-level traffic forecasting](Trend_models_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Trip Generation](Trip_Generation) |Rajesh Paleti | | |
 | [Trip distribution](Trip_distribution) |Rajesh Paleti | | |
 | [Turning movement refinements in project-level traffic forecasting](Turning_movement_refinements_in_project_level_traffic_forecasting) | | Alan/Kermit | |
-| [Urban Big Data](Urban_Big_Data) | | | |
+| [Urban Big Data](Urban_Big_Data) |Patricia Lavieri | | |
 | [User benefits in project-level traffic forecasting](User_benefits_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Using policy to affect travel behavior](Using_policy_to_affect_travel_behavior) | | | |
 | [Utility](Utility) | | | |
@@ -316,9 +316,9 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Alternative Futures for Integrated Transportation and Land-Use Models Contrasted with Trend-Delphi Models](Alternative_Futures_for_Integrated_Transportation_and_Land_Use_Models_Contrasted_with_Trend_Delphi_Models) | | | |
 | [Sketch planning models](Sketch_planning_models) | | | |
 | **Spatial Data:** | --- | --- | --- |
-| [Big Data](Big_Data) | | | |
-| [Spatial data](Spatial_data) | | | |
-| [Urban data](Urban_data) | | | |
+| [Big Data](Big_Data) |Patricia Lavieri | | |
+| [Spatial data](Spatial_data) |Patricia Lavieri | | |
+| [Urban data](Urban_data) |Patricia Lavieri | | |
 | **Statewide Models:** | --- | --- | --- |
 | [Current Status of Statewide Models](Current_Status_of_Statewide_Models) | M.Bina | | |
 | [Georgia Statewide Model](Georgia_Statewide_Model) | Rolf | | |
@@ -355,15 +355,15 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | **Travel Behavior:** | --- | --- | --- |
 | [A historical perspective of innovations in travel modeling](A_historical_perspective_of_innovations_in_travel_modeling) | Patrick Singleton | | |
 | [Activity-Travel Planning and Decision Making Behaviors](Activity_Travel_Planning_and_Decision_Making_Behaviors) | | | |
-| [Joint Travel Behavior](Joint_Travel_Behavior) | | | |
-| [Representations of Decision Making Behavior in Travel Modeling](Representations_of_Decision_Making_Behavior_in_Travel_Modeling) | | | |
+| [Joint Travel Behavior](Joint_Travel_Behavior) |Patricia Lavieri | | |
+| [Representations of Decision Making Behavior in Travel Modeling](Representations_of_Decision_Making_Behavior_in_Travel_Modeling) |Patricia Lavieri | | |
 | [Travel Behavior Resources](Travel_Behavior_Resources) | Patrick Singleton | | |
 | [Travel Behavior of Diverse Populations](Travel_Behavior_of_Diverse_Populations) | M.Bina | | |
 | [Travel behavior](Travel_behavior) | | | |
 | [UrbanDataResources](UrbanDataResources) | | | |
 | **Travel Survey Data:** | --- | --- | --- |
 | [Bibliography No. 11: Origin-Destination Surveys and Traffic Volume Studies](Bibliography_No_11_Origin_Destination_Surveys_and_Traffic_Volume_Studies) | | | |
-| [GPS-enabled surveys](GPS_enabled_surveys) | | | |
+| [GPS-enabled surveys](GPS_enabled_surveys) |Patricia Lavieri | | |
 | [J. Douglas Carroll](J_Douglas_Carroll) | Patrick Singleton | | |
 | [NCHRP 775: Applying GPS Data to Understand Travel Behavior](NCHRP_775_Applying_GPS_Data_to_Understand_Travel_Behavior) | | | |
 | [On Board Transit Survey](On_Board_Transit_Survey) | | | |
@@ -371,7 +371,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | **Travel Surveys:** | --- | --- | --- |
 | [Establishment surveys](Establishment_surveys) | | | |
 | [External surveys](External_surveys) | | | |
-| [Household travel surveys](Household_travel_surveys) | | | |
+| [Household travel surveys](Household_travel_surveys) |Patricia Lavieri | | |
 | [Parking surveys](Parking_surveys) | | | |
 | [Stated-preference surveys](Stated_preference_surveys) |Rajesh Paleti | | |
 | [Transit onboard surveys](Transit_onboard_surveys) | | | |
