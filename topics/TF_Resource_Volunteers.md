@@ -20,6 +20,7 @@ After the wiki was transferred to Github in Markdown language, every page needs 
 The original layout can be found on the [TFResource Website](http://tfresource.org/Travel_Forecasting_Resource). Please compare the layout of the new website at [https://tfresource.github.io/](https://tfresource.github.io/) with the previous layout at [http://tfresource.org/](http://tfresource.org/) and correct missing figures, messed up tables, formatting issues, etc. Simple instructions for editing can be found [here](https://tfresource.github.io/topics/Contributing.html), and more advanced instructions are provided [here](https://tfresource.github.io/topics/Contributing-Dev-Instructions.html). You are also welcome to update or embellish the content of pages you review at the same time!
 
 Below is a list of all pages that belong to this wiki. If the link to the page is broken, you can find the page by typing the page title into the search field at the top. Once you completed your review, please do the following steps:
+
 1. Remove the tag "- Needs Review" under the Category section at the top of the page you have reviewed
 2. Mark the page as reviewed in the table below
 3. Mark any issues you encountered (such as "still messed up because I didn't know how to fix it", "The content of this page needs to be updated", ...)
@@ -109,11 +110,11 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Stepwise Model Calibration/Validation](Stepwise_Model_Calibration/Validation) | | | |
 | [Strategic Models](Strategic_Models) | | | |
 | [Subarea focusing in project-level traffic forecasting](Subarea_focusing_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [TMIP](TMIP) | | | |
+| [TMIP](TMIP) | Julie Dunbar| | |
 | [Temporal refinements and directional split refinements in project-level traffic forecasting](Temporal_refinements_and_directional_split_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Temporal resolution in project-level traffic forecasting](Temporal_resolution_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Time of Day Factoring](Time_of_Day_Factoring) | | | |
-| [Topic Circles](Topic_Circles) | | | |
+| [Topic Circles](Topic_Circles) | JUlie Dunbar| | |
 | [Traffic Data](Traffic_Data) | | | |
 | [Traffic dynamics in project-level traffic forecasting](Traffic_dynamics_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Traffic microsimulation in project-level traffic forecasting](Traffic_microsimulation_in_project_level_traffic_forecasting) | Alan/Kermit | | |
@@ -146,10 +147,10 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Windowing with OD table estimation from traffic counts in project-level traffic forecasting](Windowing_with_OD_table_estimation_from_traffic_counts_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Working with vehicle re-identification data in project-level traffic forecasting](Working_with_vehicle_re_identification_data_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | **About:** | --- | --- | --- |
-| [About](About) | | | |
+| [About](About) || | |
 | [Contributing to the Travel Forecasting Resource](Contributing) | | | |
 | [Developer Instructions: Building TF-Resource Locally](Contributing-Dev-Instructions) | | | |
-| [Governance](Governance) | | | |
+| [Governance](Governance) | JUlie Dunbar| | |
 | **Activity Based Models:** | --- | --- | --- |
 | [ALBATROSS](ALBATROSS) | | | |
 | [Activity Based Modeling Primer](Activity_Based_Modeling_Primer) |Rajesh Paleti | | |
@@ -179,8 +180,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Autonomous vehicles: use cases](Autonomous_vehicles_use_cases) | Brice Nichols | | |
 | [Content Charrette: Autonomous Vehicles](Content_Charrette_Autonomous_Vehicles) | Brice Nichols | | |
 | **Community:** | --- | --- | --- |
-| [Community](Community) | | | |
-| [Content and Membership Council](Content_and_Membership_Council) | | | |
+| [Community](Community) |JUlie dunbar | | |
+| [Content and Membership Council](Content_and_Membership_Council) | JUlie Dunbar| | |
 | **Destination Choice Models:** | --- | --- | --- |
 | [Choice Model Development in Practice](Choice_Model_Development_in_Practice) | Venu Garikapati | | |
 | [Choice Models with Aggregate Choices](Choice_Models_with_Aggregate_Choices) | Venu Garikapati | | |
@@ -237,8 +238,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [User Equilibrium](User_Equilibrium) | | | |
 | [Vine building](Vine_building) | | | |
 | **New Starts:** | --- | --- | --- |
-| [New Starts](New_Starts) | | | |
-| [STOPS](STOPS) | | | |
+| [New Starts](New_Starts) |JUlie Dunbar | | |
+| [STOPS](STOPS) |Julie Dunbar | | |
 | [Travel Forecasting for the Capital Investment Grant Program](Travel_Forecasting_for_the_Capital_Investment_Grant_Program) | | | |
 | **Papers:** | --- | --- | --- |
 | [A model of complex travel behavior](A_model_of_complex_travel_behavior) | | | |
@@ -338,7 +339,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Activity-based models](Activity_based_models) | Venu Garikapati | | |
 | [Dynamic network models](Dynamic_network_models) | | | |
 | [Evaluation and performance](Evaluation_and_performance) | | | |
-| [Innovations in Travel Modeling](Innovations_in_Travel_Modeling) | | | |
+| [Innovations in Travel Modeling](Innovations_in_Travel_Modeling) |Julie Dunbar | | |
 | [Model calibration and validation](Model_calibration_and_validation) | | | |
 | [Model integration](Model_integration) | | | |
 | [Travel surveys](Travel_surveys) | | | |
@@ -348,8 +349,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Design Hourly Volume](Design_Hourly_Volume) | | | |
 | [Guidelines for Network Representation of Transit Access - State of the Practice Summary](Guidelines_for_Network_Representation_of_Transit_Access_State_of_the_Practice_Summary) | | | |
 | [Highway networks](Highway_networks) | | | |
-| [Transit Route](Transit_Route) | | | |
-| [Transit networks](Transit_networks) | | | |
+| [Transit Route](Transit_Route) |Julie Dunbar | | |
+| [Transit networks](Transit_networks) |JUlie Dunbar | | |
 | [Transportation networks](Transportation_networks) | | | |
 | [Two-Lane Highways](Two_Lane_Highways) | | | |
 | **Travel Behavior:** | --- | --- | --- |
@@ -378,7 +379,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Transportation secure data center](Transportation_secure_data_center) |Venu Garikapati | | |
 | [Visitor surveys](Visitor_surveys) | | | |
 | **Trip Based Models:** | --- | --- | --- |
-| [Big Picture](Big_Picture) | | | |
+| [Big Picture](Big_Picture) |Julie Dunbar | | |
 | [Delay Estimation in Trip-Based Models](Delay_Estimation_in_Trip_Based_Models) | | | |
 | [Network assignment](Network_assignment) | | | |
 | [Origin-Destination](Origin_Destination) | | | |
