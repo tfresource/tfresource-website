@@ -184,19 +184,19 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | **Destination Choice Models:** | --- | --- | --- |
 | [Choice Model Development in Practice](Choice_Model_Development_in_Practice) | | | |
 | [Choice Models with Aggregate Choices](Choice_Models_with_Aggregate_Choices) | | | |
-| [Choice models](Choice_models) |Rajesh Paleti | | |
-| [Content Charrette: Destination Choice Models](Content_Charrette_Destination_Choice_Models) | | | |
+| [Choice models](Choice_models) | Rajesh Paleti | | |
+| [Content Charrette: Destination Choice Models](Content_Charrette_Destination_Choice_Models) | Taha | | |
 | [Data Driven Methods](Data_Driven_Methods) | | | |
-| [Destination Choice Set Formation](Destination_Choice_Set_Formation) | | | |
-| [Destination Choice: Calibration and Validation](Destination_Choice_Calibration_and_Validation) | | | |
-| [Destination Choice: Data Sources](Destination_Choice_Data_Sources) | | | |
-| [Destination Choice: Implementation and Application](Destination_Choice_Implementation_and_Application) | | | |
-| [Destination Choice: Mathematical Formulation](Destination_Choice_Mathematical_Formulation) |Rajesh Paleti | | |
-| [Destination Choice: Parameter Estimation](Destination_Choice_Parameter_Estimation) | | | |
-| [Destination Choice: Theoretical Foundations](Destination_Choice_Theoretical_Foundations) | | | |
-| [Factors Affecting Destination Choice](Factors_Affecting_Destination_Choice) | | | |
+| [Destination Choice Set Formation](Destination_Choice_Set_Formation) | Taha | | |
+| [Destination Choice: Calibration and Validation](Destination_Choice_Calibration_and_Validation) | Taha | | |
+| [Destination Choice: Data Sources](Destination_Choice_Data_Sources) | Taha | | |
+| [Destination Choice: Implementation and Application](Destination_Choice_Implementation_and_Application) | Taha | | |
+| [Destination Choice: Mathematical Formulation](Destination_Choice_Mathematical_Formulation) |Rajesh Paleti | Taha | |
+| [Destination Choice: Parameter Estimation](Destination_Choice_Parameter_Estimation) | Taha | | |
+| [Destination Choice: Theoretical Foundations](Destination_Choice_Theoretical_Foundations) | Taha | | |
+| [Factors Affecting Destination Choice](Factors_Affecting_Destination_Choice) | Taha | | |
 | [Impedance](Impedance) | Rolf | | |
-| [Joint / Conditional Destination Choices](Joint_/_Conditional_Destination_Choices) | | | |
+| [Joint / Conditional Destination Choices](Joint_/_Conditional_Destination_Choices) | Taha | | |
 | [Spatial interaction models](Spatial_interaction_models) | | | |
 | **Dynamic Network Models:** | --- | --- | --- |
 | [Benefits of dynamic network models](Benefits_of_dynamic_network_models) | | | |
