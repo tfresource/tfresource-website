@@ -322,10 +322,10 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | **Statewide Models:** | --- | --- | --- |
 | [Current Status of Statewide Models](Current_Status_of_Statewide_Models) | M.Bina | | |
 | [Georgia Statewide Model](Georgia_Statewide_Model) | Rolf | | |
-| [Long-distance Travel](Long_distance_Travel) | | | |
+| [Long-distance Travel](Long_distance_Travel) | Rob Bostrom | | |
 | [Maryland Statewide Transportation Model](Maryland_Statewide_Transportation_Model) | Rolf | | |
 | [Statewide Modeling Case Studies](Statewide_Modeling_Case_Studies) | M.Bina | | |
-| [Statewide Modeling Subcommittee ADA10(2)](Statewide_Modeling_Subcommittee_ADA10(2)) | | | |
+| [Statewide Modeling Subcommittee ADA10(2)](Statewide_Modeling_Subcommittee_ADA10(2)) | Rob Bostrom | | |
 | [Statewide Models: Activity-based Models](Statewide_Models_Activity_based_Models) | M.Bina | | |
 | [Statewide Models: ODME Models](Statewide_Models_ODME_Models) | M.Bina | | |
 | [Statewide Models: Special Models](Statewide_Models_Special_Models) | M.Bina | | |
