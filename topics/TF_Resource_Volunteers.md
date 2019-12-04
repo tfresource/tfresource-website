@@ -154,16 +154,16 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [ALBATROSS](ALBATROSS) | | | |
 | [Activity Based Modeling Primer](Activity_Based_Modeling_Primer) |Rajesh Paleti | | |
 | [Benefits of Activity Based Models](Benefits_of_Activity_Based_Models) |Rajesh Paleti | | |
-| [Future prospect for activity-based models](Future_prospect_for_activity_based_models) | | | |
+| [Future prospect for activity-based models](Future_prospect_for_activity_based_models) | Venu Garikapati | | |
 | [Integrated Travel Demand and Network Models](Integrated_Travel_Demand_and_Network_Models) | | | |
-| [Limitations in classic constraint based approaches](Limitations_in_classic_constraint_based_approaches) | | | |
+| [Limitations in classic constraint based approaches](Limitations_in_classic_constraint_based_approaches) |Venu Garikapati | | |
 | [Mode choice](Mode_choice) |Rajesh Paleti | | |
 | [NCHRP Synthesis 406: Advanced Practices in Travel Forecasting - A Synthesis of Highway Practice](NCHRP_Synthesis_406_Advanced_Practices_in_Travel_Forecasting_A_Synthesis_of_Highway_Practice) | Rolf | | |
 | [Population Synthesis](Population_Synthesis) | Brice Nichols | | |
 | [Population Synthesis For Microsimulating Travel Behavior](Population_Synthesis_For_Microsimulating_Travel_Behavior) | Brice Nichols | | |
 | [Synthetic populations: review of the different approaches](Synthetic_populations_review_of_the_different_approaches) | Brice Nichols | | |
 | [The ARC and SACOG Experience with Activity-Based Models - Synthesis and Lessons Learned](The_ARC_and_SACOG_Experience_with_Activity_Based_Models_Synthesis_and_Lessons_Learned) | | | |
-| [Tour-based models](Tour_based_models) | | | |
+| [Tour-based models](Tour_based_models) |Venu Garikapati | | |
 | **Activity Based Models‏‎:** | --- | --- | --- |
 | [ARC's Experience Using its CT-RAMP Activity-Based Model](ARC's_Experience_Using_its_CT_RAMP_Activity_Based_Model) | | | |
 | [DRCOG's Experience Using its FOCUS Activity-Based Model](DRCOG's_Experience_Using_its_FOCUS_Activity_Based_Model) | | | |
@@ -182,11 +182,11 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Community](Community) | | | |
 | [Content and Membership Council](Content_and_Membership_Council) | | | |
 | **Destination Choice Models:** | --- | --- | --- |
-| [Choice Model Development in Practice](Choice_Model_Development_in_Practice) | | | |
-| [Choice Models with Aggregate Choices](Choice_Models_with_Aggregate_Choices) | | | |
+| [Choice Model Development in Practice](Choice_Model_Development_in_Practice) | Venu Garikapati | | |
+| [Choice Models with Aggregate Choices](Choice_Models_with_Aggregate_Choices) | Venu Garikapati | | |
 | [Choice models](Choice_models) | Rajesh Paleti | | |
 | [Content Charrette: Destination Choice Models](Content_Charrette_Destination_Choice_Models) | Taha | | |
-| [Data Driven Methods](Data_Driven_Methods) | | | |
+| [Data Driven Methods](Data_Driven_Methods) | Venu Garikapati | | |
 | [Destination Choice Set Formation](Destination_Choice_Set_Formation) | Taha | | |
 | [Destination Choice: Calibration and Validation](Destination_Choice_Calibration_and_Validation) | Taha | | |
 | [Destination Choice: Data Sources](Destination_Choice_Data_Sources) | Taha | | |
@@ -335,7 +335,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Open Matrix Format](Open_Matrix_Format) | | | |
 | [Temporal data](Temporal_data) | | | |
 | **Topic Circles:** | --- | --- | --- |
-| [Activity-based models](Activity_based_models) | | | |
+| [Activity-based models](Activity_based_models) | Venu Garikapati | | |
 | [Dynamic network models](Dynamic_network_models) | | | |
 | [Evaluation and performance](Evaluation_and_performance) | | | |
 | [Innovations in Travel Modeling](Innovations_in_Travel_Modeling) | | | |
@@ -359,8 +359,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Representations of Decision Making Behavior in Travel Modeling](Representations_of_Decision_Making_Behavior_in_Travel_Modeling) |Patricia Lavieri | | |
 | [Travel Behavior Resources](Travel_Behavior_Resources) | Patrick Singleton | | |
 | [Travel Behavior of Diverse Populations](Travel_Behavior_of_Diverse_Populations) | M.Bina | | |
-| [Travel behavior](Travel_behavior) | | | |
-| [UrbanDataResources](UrbanDataResources) | | | |
+| [Travel behavior](Travel_behavior) | Venu Garikapati | | |
+| [UrbanDataResources](UrbanDataResources) | Venu Garikapati | | |
 | **Travel Survey Data:** | --- | --- | --- |
 | [Bibliography No. 11: Origin-Destination Surveys and Traffic Volume Studies](Bibliography_No_11_Origin_Destination_Surveys_and_Traffic_Volume_Studies) | | | |
 | [GPS-enabled surveys](GPS_enabled_surveys) |Patricia Lavieri | | |
@@ -375,7 +375,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Parking surveys](Parking_surveys) | | | |
 | [Stated-preference surveys](Stated_preference_surveys) |Rajesh Paleti | | |
 | [Transit onboard surveys](Transit_onboard_surveys) | | | |
-| [Transportation secure data center](Transportation_secure_data_center) | | | |
+| [Transportation secure data center](Transportation_secure_data_center) |Venu Garikapati | | |
 | [Visitor surveys](Visitor_surveys) | | | |
 | **Trip Based Models:** | --- | --- | --- |
 | [Big Picture](Big_Picture) | | | |
@@ -384,8 +384,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Origin-Destination](Origin_Destination) | | | |
 | [Skim Matrix](Skim_Matrix) | Rolf | | |
 | [Traffic Analysis Zone](Traffic_Analysis_Zone) | Rolf | | |
-| [Trip interchange](Trip_interchange) | | | |
-| [Trip-based models](Trip_based_models) | | | |
+| [Trip interchange](Trip_interchange) |Venu Garikapati | | |
+| [Trip-based models](Trip_based_models) | Venu Garikapati | | |
 | **Urban And Metropolitan Models:** | --- | --- | --- |
 | [Regulatory framework for metropolitan modeling](Regulatory_framework_for_metropolitan_modeling) | | | |
 | [Urban and metropolitan models](Urban_and_metropolitan_models) | | | |
