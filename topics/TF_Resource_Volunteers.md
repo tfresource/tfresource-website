@@ -114,7 +114,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Temporal refinements and directional split refinements in project-level traffic forecasting](Temporal_refinements_and_directional_split_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Temporal resolution in project-level traffic forecasting](Temporal_resolution_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Time of Day Factoring](Time_of_Day_Factoring) | | | |
-| [Topic Circles](Topic_Circles) | JUlie Dunbar| | |
+| [Topic Circles](Topic_Circles) | Julie Dunbar| | |
 | [Traffic Data](Traffic_Data) | | | |
 | [Traffic dynamics in project-level traffic forecasting](Traffic_dynamics_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Traffic microsimulation in project-level traffic forecasting](Traffic_microsimulation_in_project_level_traffic_forecasting) | Alan/Kermit | | |
