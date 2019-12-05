@@ -15,7 +15,7 @@ Some impedance measures combine different level-of-service variables as generali
 
 $$Impedance = time_{InVehicle} + \beta_{1} * time_{OutOfVehicle} + beta_2 * costs$$
 
-The parameters \beta_k are either estimated in a mode choice model or asserted based on information from other models. In the equation above, \beta_1 represents the weight at which travelers value out-of-vehicle time relative to in-vehicle time (typically by a factor of 2 to 4 worse) and 1/\beta_2 represents the monetary value of in-vehicle time.
+The parameters $$\inline\beta_k$$ are either estimated in a mode choice model or asserted based on information from other models. In the equation above, $$\inline\beta_1$$ represents the weight at which travelers value out-of-vehicle time relative to in-vehicle time (typically by a factor of 2 to 4 worse) and $$\inline1/\beta_2$$ represents the monetary value of in-vehicle time.
 
 ![]( ImpedanceFunction.png "fig: ImpedanceFunction.png")\
 *Common representation of the impedance function*
