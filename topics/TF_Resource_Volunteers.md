@@ -196,7 +196,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Destination Choice: Parameter Estimation](Destination_Choice_Parameter_Estimation) | Taha | | |
 | [Destination Choice: Theoretical Foundations](Destination_Choice_Theoretical_Foundations) | Taha | | |
 | [Factors Affecting Destination Choice](Factors_Affecting_Destination_Choice) | Taha | | |
-| [Impedance](Impedance) | Rolf | | |
+| [Impedance](Impedance) | Rolf | 5 Dec. 2019 | |
 | [Joint / Conditional Destination Choices](Joint_/_Conditional_Destination_Choices) | Taha | | |
 | [Spatial interaction models](Spatial_interaction_models) | | | |
 | **Dynamic Network Models:** | --- | --- | --- |
