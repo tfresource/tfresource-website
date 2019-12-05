@@ -46,7 +46,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Example of an autoregression model with Box-Cox transformation](Example_of_an_autoregression_model_with_Box_Cox_transformation) | Alan/Kermit | | |
 | [Explaining Activity-Based Models to a General Audience](Explaining_Activity_Based_Models_to_a_General_Audience) |Patricia Lavieri | | |
 | [Format Testing](Format_Testing) | | | Rolf: Can this page be deleted?|
-| [Freight modeling](Freight_modeling) | | | |
+| [Freight modeling](Freight_modeling) | Rick Donnelly | | |
 | [Future Development of TFR](Future_Development_of_TFR) | | | Rolf: Page needs to be deleted |
 | [Global Positioning Systems (GPS) Data](Global_Positioning_Systems_(GPS)_Data) |Patricia Lavieri | | |
 | [Health and Transportation Data](Health_and_Transportation_Data) | Patrick Singleton | | |
@@ -80,8 +80,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Model Validation and Reasonableness Checking/Temporal And Sensitivity](Model_Validation_and_Reasonableness_Checking/Temporal_And_Sensitivity) | Josie Kressner | | |
 | [Model Validation and Reasonableness Checking/Time Of Day](Model_Validation_and_Reasonableness_Checking/Time_Of_Day) | Josie Kressner | | |
 | [Model Validation and Reasonableness Checking/Validation Plan](Model_Validation_and_Reasonableness_Checking/Validation_Plan) | Josie Kressner | | |
-| [Model calibration](Model_calibration) | | | |
-| [Model estimation](Model_estimation) | | | |
+| [Model calibration](Model_calibration) | Rick Donnelly | | |
+| [Model estimation](Model_estimation) | Rick Donnelly | | |
 | [Modelers](Modelers) | | | |
 | [Multiple Discrete-Continuous Extreme Value (MDCEV) Model](Multiple_Discrete_Continuous_Extreme_Value_(MDCEV)_Model) |Rajesh Paleti | | |
 | [OD table refinements in project-level traffic forecasting](OD_table_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | | |
@@ -94,7 +94,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Planning and policy context](Planning_and_policy_context) | Lisa Zorn | | |
 | [Polaris](Polaris) | | | |
 | [Policy relevance of transportation models](Policy_relevance_of_transportation_models) |Patricia Lavieri | | |
-| [Prerequisites for travel modeling](Prerequisites_for_travel_modeling) | | | |
+| [Prerequisites for travel modeling](Prerequisites_for_travel_modeling) | Rick Donnelly | | |
 | [Puget Sound Regional Council](Puget_Sound_Regional_Council) | | | |
 | [Refining speeds for evaluation in project-level traffic forecasting](Refining_speeds_for_evaluation_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Refining vehicle class forecasts for evaluation in project-level traffic forecasting](Refining_vehicle_class_forecasts_for_evaluation_in_project_level_traffic_forecasting) | Alan/Kermit | | |
@@ -108,7 +108,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Special reporting requirements in project-level traffic forecasting](Special_reporting_requirements_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Speed and travel time refinements in project-level traffic forecasting](Speed_and_travel_time_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Stepwise Model Calibration/Validation](Stepwise_Model_Calibration/Validation) | | | |
-| [Strategic Models](Strategic_Models) | | | |
+| [Strategic Models](Strategic_Models) | Rick Donnelly | | |
 | [Subarea focusing in project-level traffic forecasting](Subarea_focusing_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [TMIP](TMIP) | Julie Dunbar| | |
 | [Temporal refinements and directional split refinements in project-level traffic forecasting](Temporal_refinements_and_directional_split_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | | |
@@ -130,7 +130,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Travel Demand and Network Model Integration Schemas](Travel_Demand_and_Network_Model_Integration_Schemas) | | | |
 | [Travel Forecasting Results Report](Travel_Forecasting_Results_Report) | | | |
 | [Travel Time Speed and Reliability Data](Travel_Time_Speed_and_Reliability_Data) | | | |
-| [Travel model curriculum](Travel_model_curriculum) | | | |
+| [Travel model curriculum](Travel_model_curriculum) | Rick Donnelly | | |
 | [Travel survey data](Travel_survey_data) |Patricia Lavieri | | |
 | [Trend models in project-level traffic forecasting](Trend_models_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Trip Generation](Trip_Generation) |Rajesh Paleti | | |
