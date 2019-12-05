@@ -150,7 +150,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [About](About) || | |
 | [Contributing to the Travel Forecasting Resource](Contributing) | | | |
 | [Developer Instructions: Building TF-Resource Locally](Contributing-Dev-Instructions) | | | |
-| [Governance](Governance) | JUlie Dunbar| | |
+| [Governance](Governance) | Julie Dunbar| | |
 | **Activity Based Models:** | --- | --- | --- |
 | [ALBATROSS](ALBATROSS) | | | |
 | [Activity Based Modeling Primer](Activity_Based_Modeling_Primer) |Rajesh Paleti | | |
@@ -180,8 +180,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Autonomous vehicles: use cases](Autonomous_vehicles_use_cases) | Brice Nichols | | |
 | [Content Charrette: Autonomous Vehicles](Content_Charrette_Autonomous_Vehicles) | Brice Nichols | | |
 | **Community:** | --- | --- | --- |
-| [Community](Community) |JUlie dunbar | | |
-| [Content and Membership Council](Content_and_Membership_Council) | JUlie Dunbar| | |
+| [Community](Community) |Julie dunbar | | |
+| [Content and Membership Council](Content_and_Membership_Council) | Julie Dunbar| | |
 | **Destination Choice Models:** | --- | --- | --- |
 | [Choice Model Development in Practice](Choice_Model_Development_in_Practice) | Venu Garikapati | | |
 | [Choice Models with Aggregate Choices](Choice_Models_with_Aggregate_Choices) | Venu Garikapati | | |
@@ -238,7 +238,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [User Equilibrium](User_Equilibrium) | | | |
 | [Vine building](Vine_building) | | | |
 | **New Starts:** | --- | --- | --- |
-| [New Starts](New_Starts) |JUlie Dunbar | | |
+| [New Starts](New_Starts) |Julie Dunbar | | |
 | [STOPS](STOPS) |Julie Dunbar | | |
 | [Travel Forecasting for the Capital Investment Grant Program](Travel_Forecasting_for_the_Capital_Investment_Grant_Program) | | | |
 | **Papers:** | --- | --- | --- |
@@ -350,7 +350,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Guidelines for Network Representation of Transit Access - State of the Practice Summary](Guidelines_for_Network_Representation_of_Transit_Access_State_of_the_Practice_Summary) | | | |
 | [Highway networks](Highway_networks) | | | |
 | [Transit Route](Transit_Route) |Julie Dunbar | | |
-| [Transit networks](Transit_networks) |JUlie Dunbar | | |
+| [Transit networks](Transit_networks) |Julie Dunbar | | |
 | [Transportation networks](Transportation_networks) | | | |
 | [Two-Lane Highways](Two_Lane_Highways) | | | |
 | **Travel Behavior:** | --- | --- | --- |
