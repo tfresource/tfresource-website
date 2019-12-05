@@ -118,9 +118,9 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Traffic Data](Traffic_Data) | | | |
 | [Traffic dynamics in project-level traffic forecasting](Traffic_dynamics_in_project_level_traffic_forecasting) | Alan/Kermit | | |
 | [Traffic microsimulation in project-level traffic forecasting](Traffic_microsimulation_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Transit Data](Transit_Data) | | | |
-| [Transit Network Assignment](Transit_Network_Assignment) | | | |
-| [Transit Network Service Determination](Transit_Network_Service_Determination) | | | |
+| [Transit Data](Transit_Data) | Lisa Zorn | | |
+| [Transit Network Assignment](Transit_Network_Assignment) | Lisa Zorn | | |
+| [Transit Network Service Determination](Transit_Network_Service_Determination) | Lisa Zorn | | |
 | [Transit Path Parameters](Transit_Path_Parameters) | | | |
 | [Transit crowding](Transit_crowding) | | | |
 | [Transit dwell time](Transit_dwell_time) | | | |
