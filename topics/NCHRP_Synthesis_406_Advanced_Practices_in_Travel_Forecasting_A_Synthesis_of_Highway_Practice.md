@@ -2,8 +2,8 @@
 title: "NCHRP Synthesis 406: Advanced Practices in Travel Forecasting - A Synthesis of Highway Practice"
 noTOC: true
 categories:
-  - Needs Review
   - Activity Based Models
+  - Land Use Modeling
   - Freight Modeling
   - Reports
   - Resources
@@ -16,7 +16,7 @@ links:
 
 #### Authors
 
-Parsons Brinckerhoff, Inc. (Rick Donnelly, Greg Erhardt, Rolf Moeckel & William A. Davidson)
+Rick Donnelly, Greg Erhardt, Rolf Moeckel & William A. Davidson (Parsons Brinckerhoff, Inc.)
 
 #### Source
 
@@ -32,7 +32,7 @@ Once advanced models were applied and implementation obstacles overcome, most ag
 
 #### Publication Date
 
-2010-2-1
+February 1st, 2010
 
 ------------------------------------------------------------------------
 
