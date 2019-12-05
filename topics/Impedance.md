@@ -1,27 +1,21 @@
 ---
 title: "Impedance"
 categories:
-  - Needs Review
   - Destination Choice Models
 ---
 
-**----------------------------------------------------------------------------------------------------------------------------------------------------------------**
+The impedance describes how difficult it is to get from one place to another place. The impedance is commonly calculated as travel time, travel distance, travel costs, or a combination thereof called generalized costs.
 
-This page is part of the Category \[.
-
-**----------------------------------------------------------------------------------------------------------------------------------------------------------------**
-The impedance describes how difficult it is to get from one place to another place. The impedance is commonly calculated as travel time, travel costs, or a combination of both called generalized costs.
-
-Travel costs may include parking, the costs for gasoline, maintenance costs, or the transit fare. For transit, access time, egress time, wait time and number of transit often is added to a generalized costs term (generally referred to as "level of service" variables).
+Travel costs may include parking, the costs for fuel, maintenance costs and transit fares. For transit, access time, egress time, wait time and number of transfers often is added to a generalized costs term (generally referred to as "level of service" variables).
 
 Mathematical Formulation
 ------------------------
 
-Some impedance measures combine different level of service variables for the same mode (e.g., auto). This is usually done through a linear combination of the component level of service variables, in the same way that utility functions are developed for mode choice models. For example:
+Some impedance measures combine different level-of-service variables as generalized costs. This is usually done through a linear combination of the component level-of-service variables, similarly to the calculation of utility calculations for mode choice models. For example:
 
-Impedance = In-Vehicle Time + B~1~ &times; Out-of-Vehicle Time + B~2~ &times; Cost
+$$Impedance = time_{InVehicle} + \beta_{1} * time_{OutOfVehicle} + beta_2 * costs$$
 
-The parameters B~k~ are estimated in the mode choice model or asserted based on information from other models. In the equation above, B~1~ represents the weight at which travelers value out-of-vehicle time relative to in-vehicle time (typically 2 to 4) and 1/B~2~ represents the monetary value of in-vehicle time.
+The parameters \beta_k are either estimated in a mode choice model or asserted based on information from other models. In the equation above, \beta_1 represents the weight at which travelers value out-of-vehicle time relative to in-vehicle time (typically by a factor of 2 to 4 worse) and 1/\beta_2 represents the monetary value of in-vehicle time.
 
 ![]( ImpedanceFunction.png "fig: ImpedanceFunction.png")\
 *Common representation of the impedance function*
