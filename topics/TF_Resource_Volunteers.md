@@ -215,11 +215,11 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Statewide Freight Modeling](Statewide_Freight_Modeling) | | | |
 | [Tour based and supply chain modeling for freight](Tour_based_and_supply_chain_modeling_for_freight) | | | |
 | **Innovations In Travel Modeling:** | --- | --- | --- |
-| [1st TRB Conference on Innovations in Travel Modeling](1st_TRB_Conference_on_Innovations_in_Travel_Modeling) | Greg | | |
-| [2nd TRB Conference on Innovations in Travel Modeling](2nd_TRB_Conference_on_Innovations_in_Travel_Modeling) | Greg | | |
-| [3rd TRB Conference on Innovations in Travel Modeling](3rd_TRB_Conference_on_Innovations_in_Travel_Modeling) | Greg | | |
-| [6th ITM Conference, Denver, Colorado (2016)](6th_ITM_Conference_Denver_Colorado_2016) | Greg | | |
-| [7th ITM Conference, Atlanta, Georgia (2018)](7th_ITM_Conference_Atlanta_Georgia_2018) | Greg | | |
+| [1st TRB Conference on Innovations in Travel Modeling](1st_TRB_Conference_on_Innovations_in_Travel_Modeling) | Greg | Greg | |
+| [2nd TRB Conference on Innovations in Travel Modeling](2nd_TRB_Conference_on_Innovations_in_Travel_Modeling) | Greg | Greg | |
+| [3rd TRB Conference on Innovations in Travel Modeling](3rd_TRB_Conference_on_Innovations_in_Travel_Modeling) | Greg | Greg | |
+| [6th ITM Conference, Denver, Colorado (2016)](6th_ITM_Conference_Denver_Colorado_2016) | Greg | Greg | |
+| [7th ITM Conference, Atlanta, Georgia (2018)](7th_ITM_Conference_Atlanta_Georgia_2018) | Greg | Greg | |
 | **Land Use Transport Modeling:** | --- | --- | --- |
 | [Accessibilities](Accessibilities) | Rolf | | |
 | [Design principles of land use models](Design_principles_of_land_use_models) | Rolf | | |
