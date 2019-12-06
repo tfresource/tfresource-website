@@ -1,8 +1,9 @@
 ---
 title: "Modelers"
 categories:
-  - Needs Review
 ---
+
+>The content on this page is derived from notes that were taken during the Modeling Meta session at the 2014 Innovations in Travel Modeling Conference in Baltimore.
 
 Finding and training great modelers is always a challenge: both at consulting firms and at public agencies. The skill set required to be a great modeler is in high demand in other industries and it can be difficult to compete.
 
@@ -37,11 +38,3 @@ The most common degree for travel modelers is transportation/civil engineering. 
 -   Physics
 -   Mathematics
 -   Statistics
-
-References
-----------
-
-Much of the initial content on this page is derived from notes that were taken during the Modeling Meta session at the 2014 Innovations in Travel Modeling Conference in Baltimore.
-
-------------------------------------------------------------------------
-

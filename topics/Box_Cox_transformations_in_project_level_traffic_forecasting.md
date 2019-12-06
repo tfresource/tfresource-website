@@ -19,7 +19,7 @@ Guidelines
 
 A Box-Cox transformation uses the following formulas to stabilize the amount of variation in a data series.
 
-$${ T }_{ \beta }^{ }=\frac { { T }_{ }^{ \beta }-1 }{ \beta } ,\quad \beta &gt;0$$
+$${ T }_{ \beta }^{ }=\frac { { T }_{ }^{ \beta }-1 }{ \beta } ,\quad \beta >;0$$
 
 or
 
@@ -27,7 +27,7 @@ $${ T }_{ \beta }^{ }=\ln { T } ,\quad \beta =0$$
 
 where β is a constant to be selected by the analyst, T is the original variable and T~β~ is the transformed variable. Each item in the data series of the dependent variable (e.g., traffic count) is so transformed prior to the regression analysis. Subsequently, the estimates from a regression equation must be inversely transformed with these formulas.
 
-$$T={ \left( 1+\beta { T }_{ \beta }^{ } \right) }^{ \frac { 1 }{ \beta } },\quad \beta &gt;0$$
+$$T={ \left( 1+\beta { T }_{ \beta }^{ } \right) }^{ \frac { 1 }{ \beta } },\quad \beta >;0$$
 
 or
 
