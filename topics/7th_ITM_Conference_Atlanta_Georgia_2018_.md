@@ -1,24 +1,15 @@
 ---
 title: "7th ITM Conference, Atlanta, Georgia (2018)"
 categories:
-  - Needs Review
   - Innovations In Travel Modeling
 ---
 
-### Hyatt Buckhead | Atlanta, Georgia
+### Hyatt Buckhead | Atlanta, Georgia 2018
 
-2018|6|24}} -
-
-The Transportation Research Board (TRB) Innovations in Travel Modeling (ITM) conference series has become the leading venue for researchers and practitioners to come together and discuss, debate, and share information about advances in travel analysis and modeling methods. The ITM conference series is intended to bridge the gap between research and practice and help accelerate the deployment of new methods, tools, technologies, and algorithms in freight and passenger travel forecasting model systems.
-
-The conference series was launched in 2006 and is held every other year, with the seventh edition scheduled to take place in Atlanta, Georgia during June 24-27, 2018. Registration and Program details are [here](http://www.cvent.com/events/7th-trb-innovations-in-travel-modeling-conference/event-summary-4bb3bd199b894528aba85ddc0102452f.aspx)
-
-Want to learn more about the ITM Conference Series? Past conference details are available \[
+The Transportation Research Board (TRB) Innovations in Travel Modeling (ITM) conference series has become the leading venue for researchers and practitioners to come together and discuss, debate, and share information about advances in travel analysis and modeling methods. The ITM conference series is intended to bridge the gap between research and practice and help accelerate the deployment of new methods, tools, technologies, and algorithms in freight and passenger travel forecasting model systems. The conference series was launched in 2006 and is held every other year, with the seventh edition occuring in Atlanta, Georgia during June 24-27, 2018.
 
 A compendium of research briefs from the conference is available for download
-[**here**](https://www.dropbox.com/s/62ag9py950uuww3/ITM2018_ResearchBriefs_Compendium.pdf?dl=0)
-
-Individual research briefs and presentations can be view and downloaded from the table below
+[**here**](https://www.dropbox.com/s/62ag9py950uuww3/ITM2018_ResearchBriefs_Compendium.pdf?dl=0), and individual research briefs and presentations can be downloaded from the table below.
 
 | Title                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Primary Author       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
@@ -74,4 +65,3 @@ Individual research briefs and presentations can be view and downloaded from the
 | When Neutral Responses on a Likert Scale Do Not Mean Opinion Neutrality: Accounting for Unsure Responses in a Hybrid Choice Modeling Framework [Paper](https://www.dropbox.com/s/j6y5ev1fyoocg3y/Sheela_etal_ITM2018_WhenNeutralResponsesOnALikertScaleDoNotMeanOpinionNeutralityAccountingForUnsureResponsesInAHybridChoiceModelingFramework.pdf?dl=0) [Presentation](http://onlinepubs.trb.org/onlinepubs/Conferences/2018/ITM/MManess.pdf)                                                | Michael Maness       |
 
 [category:Innovations in Travel Modeling](category_Innovations_in_Travel_Modeling)
-
