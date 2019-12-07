@@ -8,12 +8,13 @@
 
 <style lang="stylus">
 .sidebar-button
+  color white
   cursor pointer
   display none
   width 1.25rem
   height 1.25rem
   position absolute
-  padding 0.6rem
+  padding 0.3rem
   top 0.6rem
   left 1rem
   .icon

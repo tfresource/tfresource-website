@@ -1,30 +1,22 @@
 body,html
   background-color: $pageColor
-  font-family: Raleway,Lato,serif
-  font-size: 16px
+  font-family: Roboto,sans-serif
+  font-size: 20px
 
 p
-  line-height: 24px
+  line-height: 28px
+
+ul, ol, li {
+    line-height: 1.5;
+    margin-top: 1rem;
+}
 
 h1,h2,h3,h4,h5,h6
+  font-family: Oswald,sans-serif
   text-align: left
 
 h1,h2,h3
   padding-top: 1rem
-
-.navbar
-  height: 4.5rem
-  box-shadow: 0px 0px 6px rgba(0,0,0,0.4)
-  background-color: white
-
-  .site-name
-    background: url(/tfr-logo.png) left no-repeat
-    color: #00000000
-    padding-left:275px
-    padding-top: 15px
-
-  .links
-    padding-top: 5px
 
 .custom-block
   text-align: left
@@ -44,7 +36,6 @@ h1,h2,h3
   .hero img
     object-fit: none
     object-position: center
-    height: 250px
     width: 100%
     margin: 0
 
@@ -93,10 +84,10 @@ h1,h2,h3
     color: #448
 
   .theme-default-content h1
-    background: url(/tiny-logo.png) left no-repeat
+    background: url(/tfr-logo-very-tiny.png) bottom left no-repeat
     padding-top: 1rem;
-    padding-left: 60px
-    margin-left: -60px
+    padding-left: 70px
+    margin-left: -70px
 
   .theme-default-content h2
     border-bottom: solid 1px #aac
@@ -107,23 +98,11 @@ h1,h2,h3
 
 .sidebar
   background-color: $sideBlue
-  padding-top: 50px
-  width: 18rem
+  padding-top: 20px
+  width: 16rem
 
-  .sidebar-heading
-    color: white
-    font-weight: normal
-
-  .sidebar-heading.open
-    color: white
-
-  .sidebar-link
-    color: #eed
-  .sidebar-link.active
-    color: #ff4
-    border-left-color: #ff4
-  a.sidebar-link:hover
-    color: #ff4
+.sidebar ul,ol,li
+  margin-top: 0px;
 
 .del,.ins{ display: inline-block; margin-left: 0.5ex; }
 .del     { background-color: #fcc; }
@@ -156,6 +135,12 @@ h1,h2,h3
   .page
     .content
       text-align: left
+
+    .theme-default-content h1
+      background: none
+      padding-left: 0px
+      margin-left: 0px
+
   .sidebar
       width: 16rem
 
@@ -167,3 +152,5 @@ h1,h2,h3
       padding-left: 50px
       padding-top: 10px
 
+  .page .theme-default-content h1
+    background: none

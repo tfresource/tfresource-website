@@ -1,6 +1,5 @@
 <template>
   <header class="page-edit">
-    <div class="add-some-flair"></div>
     <div class="edit-link" v-if="editLink">
       <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
       <OutboundLink />
@@ -76,15 +75,9 @@ export default {
 <style lang="stylus">
 @require '../styles/wrapper.styl';
 
-.add-some-flair {
-  height: 3rem;
-  background-color: #c74; // #42b983; // #c74; // orange;
-  margin-bottom: 2rem;
-}
-
 .page-edit {
   @extend $wrapper;
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-bottom: 1rem;
   overflow: auto;
   text-align: right;

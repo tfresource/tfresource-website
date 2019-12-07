@@ -84,25 +84,29 @@ function css(el, property) {
 </script>
 
 <style lang="stylus">
-$navbar-vertical-padding = 0.7rem;
+$navbar-vertical-padding = 0.5rem;
 $navbar-horizontal-padding = 1.5rem;
+$navbar-bg = #258;
 
 .navbar {
   padding: $navbar-vertical-padding $navbar-horizontal-padding;
   line-height: $navbarHeight - 1.4rem;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.3)
+  background-color: $navbar-bg
 
   a, span, img {
     display: inline-block;
   }
 
   .logo {
-    height: $navbarHeight - 1.4rem;
+    height: $navbarHeight - 0.9rem;
     min-width: $navbarHeight - 1.4rem;
     margin-right: 0.8rem;
     vertical-align: top;
   }
 
   .site-name {
+    display: none;
     font-size: 1.3rem;
     font-weight: 600;
     color: white;
@@ -110,9 +114,9 @@ $navbar-horizontal-padding = 1.5rem;
   }
 
   .links {
+    color: white;
     padding-left: 1.5rem;
     box-sizing: border-box;
-    background-color: white;
     white-space: nowrap;
     font-size: 0.9rem;
     position: absolute;
@@ -121,9 +125,20 @@ $navbar-horizontal-padding = 1.5rem;
     display: flex;
 
     .search-box {
+      margin-right: 1.5rem;
       flex: 0 0 auto;
       vertical-align: top;
     }
+
+    .search-box input {
+      background-color: #246;
+      color: white;
+      border-color: #246;
+    }
+    .search-box input:hover {
+      background-color: #135;
+    }
+
   }
 }
 

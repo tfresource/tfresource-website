@@ -5,14 +5,14 @@ module.exports = {
       'link',
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Raleway:500,500i,700,700i&subset=latin-ext',
+        href: 'https://fonts.googleapis.com/css?family=Roboto:300,300i,600,600i&display=swap&subset=latin-ext',
       },
     ],
     [
       'link',
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i&display=swap',
+        href: 'https://fonts.googleapis.com/css?family=Oswald:400,400i,700,700i&display=swap',
       },
     ],
     ['link', { rel: 'icon', href: '/tiny-logo.png' }],
@@ -54,7 +54,7 @@ module.exports = {
       },
     ],
   ],
-  title: 'TFR',
+  title: 'tfr',
   themeConfig: {
     repo: 'tfresource/tfresource.github.io',
     docsBranch: 'source',
@@ -62,9 +62,10 @@ module.exports = {
     editLinks: true,
     editLinkText: 'Edit This Page »',
     lastUpdated: 'Last Updated',
+    logo: '/tfr-logo-title.png',
     nav: [
-      { text: 'TOPICS', link: '/topics/' },
-      { text: 'EVENTS', link: '/events/' },
+      { text: 'Topics', link: '/topics/' },
+      { text: 'Events', link: '/events/' },
       /*
       {
         text: 'RESOURCES',
@@ -92,9 +93,9 @@ module.exports = {
       },
       */
       {
-        text: 'ABOUT',
+        text: 'About',
         items: [
-          { text: 'About TF-Resource', link: '/topics/' },
+          { text: 'About TF-Resource', link: '/topics/About' },
           // , { text: 'How to Contribute', link: '/thing/' }
         ],
       },

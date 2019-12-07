@@ -8,6 +8,6 @@ The pages on TF Resource are loosely divided into sections on models, data, prac
 
 Browse below, or use the search box up above to find something specific.
 
-## Pages by Category:
+## Pages by Category
 
 <TopicIndex />
