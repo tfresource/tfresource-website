@@ -1,11 +1,8 @@
 ---
 title: "Mode Choice Behavior"
 categories:
-  - Needs Review
 ---
 
-Mode Choice Behavior
-====================
 
 [Mode choice](Mode_choice) is a key aspect of travel demand modeling. The choice of travel mode is a complicated behavioral process and as such is a core focus in [Travel Behavior](Travel_Behavior). More detail about [Mode choice](Mode_choice) modeling, as opposed to [Mode Choice Behavior](Mode_Choice_Behavior) can be found in the [Mode choice](Mode_choice) topic circle.
 
@@ -28,7 +25,6 @@ Transit
 Ride-sharing
 ------------
 
-------------------------------------------------------------------------
 
 References
 ----------
@@ -36,4 +32,3 @@ References
 [^1]: T. Litman, "Short and Sweet: Analysis of Shorter Trips Using National Personal Travel Survey Data," Victoria Transport Institute, Victoria, BC, 2012.
 
 [^2]: D. M.-S. Dawn Royal, "Volume II: Findings Report National Survey of Bicyclists and Pedestrian Attitudes and Behavior," U.S. Department of Transportation National Highway Traffic Safety Administration, Washington, D.C., 2008.
-

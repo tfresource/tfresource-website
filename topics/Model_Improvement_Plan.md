@@ -1,9 +1,9 @@
 ---
 title: "Model Improvement Plan"
 categories:
-  - Needs Review
 ---
 
+This page contains notes and comments from the the "Modeling Meta" session at the 2014 Innovations in Travel Modeling Conference in Baltimore, MD.
 Some considerations for planning for model improvements include:
 
 -   How will I build support and pay for improvements
@@ -22,7 +22,7 @@ How are model improvements funded?
 -   Grants from state and Feds
 -   Project planning budget
 -   Charge jurisdictions/member agencies that use the model
--   Exploitation of interns and research parternships
+-   Exploitation of interns and research partnerships
 -   Spare nights and weekends
 
 Examples for building support include:
@@ -64,11 +64,3 @@ What type of improvements should we do?
 
 -   prioritize improvements that will respond to user-needs
 -   make a list of every time you can't answer a question that you are asked, and select improvements that will allow you to respond to the most.
-
-References
-----------
-
-Note that the initial content on this page is from notes from the "Modeling Meta" session from the 2014 Innovations in Travel Modeling Conference in Baltimore, MD.
-
-------------------------------------------------------------------------
-
