@@ -1,7 +1,7 @@
 <template lang="pug">
 .main-content
   .category(v-for="category in categories" :key="category" )
-    h3 {{ category }}:
+    h2 {{ category }}:
     .topics(v-for="topic in topicCircle(category)" :key="topic.path")
       .entry
         router-link.link-text(:to="topic.path") {{ topic.frontmatter.title }}

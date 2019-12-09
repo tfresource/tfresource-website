@@ -5,7 +5,7 @@ module.exports = {
       'link',
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Roboto:300,300i,600,600i&display=swap&subset=latin-ext',
+        href: 'https://fonts.googleapis.com/css?family=Roboto:300,300i,700,700i&display=swap&subset=latin-ext',
       },
     ],
     [
@@ -24,7 +24,6 @@ module.exports = {
     },
   },
   plugins: [
-    // ['vuepress-plugin-smooth-scroll'],
     [
       'vuepress-plugin-medium-zoom',
       {

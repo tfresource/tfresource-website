@@ -31,10 +31,7 @@
 
     <Home v-if="$page.frontmatter.home"/>
 
-    <Page
-      v-else
-      :sidebar-items="sidebarItems"
-    >
+    <Page v-else :sidebar-items="sidebarItems">
       <slot
         name="page-top"
         #top
@@ -44,6 +41,7 @@
         #bottom
       />
     </Page>
+
   </div>
 </template>
 

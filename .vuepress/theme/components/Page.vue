@@ -2,6 +2,15 @@
   <main class="page">
     <slot name="top" />
 
+
+    <div class="nav-headings" v-if="$page.headers && $page.headers.length > 1">
+      <span v-for="header in $page.headers" :key="header.title">
+        <p v-if="header.level <= 3" :class="{'lev3': header.level==3}">
+           <a :href="'#' + header.slug"> {{ header.title }}</a>
+        </p>
+      </span>
+    </div>
+
     <PageEdit />
 
     <div class="theme-default-content">
@@ -42,7 +51,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style scoped lang="stylus">
 @require '../styles/wrapper.styl';
 
 .page {
@@ -67,4 +76,36 @@ export default {
   padding: 0px 0px;
   border: 1px dotted #24a;
 }
+
+.nav-headings {
+  position: sticky;
+  flex: 0 0 240px;
+  top: 8rem;
+  right: 1rem;
+  display: block;
+  width: 20%;
+  float: right;
+  border-left: 1px solid #ccc;
+  padding-left: 1rem;
+}
+
+.nav-headings p,a {
+  font-size: 0.8rem;
+  line-height: 1.3;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.nav-headings a:hover {
+  color: #060;
+}
+
+.lev3 { margin-left: 1rem;}
+
+@media (max-width: 85rem) {
+  .nav-headings {
+    display: none;
+  }
+}
+
 </style>
