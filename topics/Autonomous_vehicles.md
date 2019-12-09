@@ -1,7 +1,6 @@
 ---
 title: "Autonomous vehicles"
 categories:
-  - Needs Review
   - Activity Based Models
   - Autonomous Vehicles
   - Topic Circles
@@ -11,7 +10,7 @@ categories:
 Introduction
 ------------
 
-Connected and autonomous vehicles (CAV) are a rapidly evolving mode of travel, and one of several [emerging megatrends in transport planning](emerging_megatrends_in_transport_planning) that will profoundly change travel behavior and patterns over the coming decades. There are several CAV definitions in the literature and press. There are enough that we have created a [lexicon](Autonomous_vehicles_Lexicon) to define our terminology. We follow the [SAE definitions](https://www.sae.org/misc/pdfs/automated_driving.pdf), which include six levels of automation ranging from none at all to fully connected and autonomous vehicles, with the latter including a high level of system-level control of the transport network. The discussion that follows assumes a fully automated future (SAE level 5), which we make explicit with the acronym <b>CAV</b>. Some of the concepts discussed may be applicable to lower levels of automation, but the focus here is upon CAV futures.
+Connected and autonomous vehicles (CAV) are a rapidly evolving mode of travel, and one of several emerging megatrends in transport planning that will profoundly change travel behavior and patterns over the coming decades. There are several CAV definitions in the literature and press. There are enough that we have created a [lexicon](Autonomous_vehicles_Lexicon) to define our terminology. We follow the [SAE definitions](https://www.sae.org/misc/pdfs/automated_driving.pdf), which include six levels of automation ranging from none at all to fully connected and autonomous vehicles, with the latter including a high level of system-level control of the transport network. The discussion that follows assumes a fully automated future (SAE level 5), which we make explicit with the acronym <b>CAV</b>. Some of the concepts discussed may be applicable to lower levels of automation, but the focus here is upon CAV futures.
 
 CAVs will influence all types of travel, from local commuting to long-distance travel. The discussion that follows applies to personal travel, primarily in the metropolitan settings. The parallel advances in [freight and commercial CAVs](https://link.springer.com/content/pdf/10.1007/978-3-662-48847-8_18.pdf) are not addressed here, nor are related technologies such as [delivery drones](https://en.wikipedia.org/wiki/Delivery_drone) or [hyperloops](https://www.technologyreview.com/s/601417/the-unbelievable-reality-of-the-impossible-hyperloop/). The design of specific models is not addressed in this discussion. Rather, the context, behavioral foundations, modeling mindsets and methods, success stories from elsewhere are profiled.
 
@@ -19,7 +18,7 @@ Simulating CAV effects will require fundamentally rethinking how most transport 
 
 This collection of pages proposes a *recipe* illustrated below. The recipe begins with the modeler understanding the policy decisions the model will inform, and then a consideration of which transportation behaviors will be affected by these policies. Only then should the modeler consider which adjustments, if any, need to be applied to the model.
 
-![Recipe to consider the impact of CAVs.](Av modeling recipe.png "Recipe to consider the impact of CAVs.")
+![Recipe to consider the impact of CAVs.](Av_modeling_recipe.png "Recipe to consider the impact of CAVs.")
 
 Planning and policy context
 ---------------------------
