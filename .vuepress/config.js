@@ -62,6 +62,7 @@ module.exports = {
     editLinkText: 'Edit This Page »',
     lastUpdated: 'Last Updated',
     logo: '/tfr-logo-title.png',
+    sidebarDepth: 0,
     nav: [
       { text: 'Topics', link: '/topics/' },
       { text: 'Events', link: '/events/' },
@@ -101,19 +102,20 @@ module.exports = {
     ],
     sidebar: [
       {
+        title: 'Introduction',
+        children: [
+          '/topics/Big_Picture',
+          '/topics/TF_Resource_Volunteers',
+          '/topics/'
+        ],
+      },
+      {
         title: 'Modeling Topics',
-        children: ['/topics/'], // , '/topics/Pricing Travel', '/topics/Trip Generation'],
+        children: [
+          '/topics/Activity_based_models',
+          '/topics/Trip_based_models.html'
+        ]
       },
-      /*
-      {
-        title: 'Data Topics',
-        children: ['/topics/', '/topics/Pricing', '/topics/Trip Generation'],
-      },
-      {
-        title: 'Resources',
-        children: ['/resources/papers', '/resources/presentations', '/resources/videos'],
-      },
-      */
     ],
   },
 }
