@@ -94,10 +94,10 @@ export default {
 }
 
 .entry {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   display: flex;
   flex-direction: row;
-  margin: 0.75rem 2rem;
+  margin: 0.75rem 0rem;
 }
 
 .badge {
