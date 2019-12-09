@@ -2,7 +2,6 @@
   <main class="page">
     <slot name="top" />
 
-
     <div class="nav-headings" v-if="$page.headers && $page.headers.length > 1">
       <span v-for="header in $page.headers" :key="header.title">
         <p v-if="header.level <= 3" :class="{'lev3': header.level==3}">
