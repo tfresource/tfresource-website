@@ -106,7 +106,8 @@ module.exports = {
         children: [
           '/topics/Big_Picture',
           '/topics/TF_Resource_Volunteers',
-          '/topics/'
+          '/topics/',
+          '/topics/Tips-for-reviewing-pages',
         ],
       },
       {
