@@ -86,7 +86,6 @@ function css(el, property) {
 <style lang="stylus">
 $navbar-vertical-padding = 0.5rem;
 $navbar-horizontal-padding = 1.5rem;
-$navbar-bg = #258;
 
 .navbar {
   padding: $navbar-vertical-padding $navbar-horizontal-padding;

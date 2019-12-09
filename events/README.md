@@ -4,7 +4,7 @@ heroImage: /seattle.jpg
 heroText: 'Innovations in Travel Modeling 2020'
 tagline: 'Join us in Seattle, Washington.'
 actionText: Register Now →
-actionLink: /register/
+actionLink: "http://itmconference.com/"
 footer: 'Copyright © 2016-present National Academy of Sciences and by the contributing authors. All rights reserved.'
 ---
 
