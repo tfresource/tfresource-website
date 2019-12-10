@@ -102,19 +102,21 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: 'Introduction',
+        title: 'For Reviewers',
         children: [
-          '/topics/Big_Picture',
-          '/topics/TF_Resource_Volunteers',
           '/topics/',
+          '/topics/TF_Resource_Volunteers',
+          '/topics/Contributing',
           '/topics/Tips-for-reviewing-pages',
+          '/topics/Contributing-Dev-Instructions',
         ],
       },
       {
         title: 'Modeling Topics',
         children: [
+          '/topics/Big_Picture',
           '/topics/Activity_based_models',
-          '/topics/Trip_based_models.html'
+          '/topics/Trip_based_models'
         ]
       },
     ],
