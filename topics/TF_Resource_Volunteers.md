@@ -40,9 +40,9 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Cellular Communications Data](Cellular_Communications_Data) | | | |
 | [Current trends in travel behavior](Current_trends_in_travel_behavior) |Patricia Lavieri | | |
 | [Data Development](Data_Development) | Lisa Zorn | Lisa Zorn | |
-| [Data Visualization](Data_Visualization) | Lisa Zorn | | |
+| [Data Visualization](Data_Visualization) | Lisa Zorn | Lisa Zorn | Currently this is lacking in content, more of a stub page |
 | [Discussion of travel delay in acceptable models in project-level traffic forecasting](Discussion_of_travel_delay_in_acceptable_models_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Empirical Accuracy of Travel Forecasts](Empirical_Accuracy_of_Travel_Forecasts) | Lisa Zorn | | |
+| [Empirical Accuracy of Travel Forecasts](Empirical_Accuracy_of_Travel_Forecasts) | Lisa Zorn | Lisa Zorn | |
 | [Example of an autoregression model with Box-Cox transformation](Example_of_an_autoregression_model_with_Box_Cox_transformation) | Alan/Kermit | | |
 | [Explaining Activity-Based Models to a General Audience](Explaining_Activity_Based_Models_to_a_General_Audience) |Patricia Lavieri | | |
 | [Format Testing](Format_Testing) | | | Rolf: Can this page be deleted?|
