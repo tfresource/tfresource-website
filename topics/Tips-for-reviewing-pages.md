@@ -1,5 +1,5 @@
 ---
-title: '**Tips for Reviewing Pages'
+title: 'Tips for Reviewing Pages'
 categories:
   - About
 ---

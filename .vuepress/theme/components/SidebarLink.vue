@@ -104,8 +104,8 @@ a.sidebar-link
   display inline-block
   color $textColor
   border-left 0.25rem solid transparent
-  padding 0.2rem 1rem 0rem 1.25rem
-  line-height 1.4
+  padding 0.3rem 1rem 0rem 1.25rem
+  line-height 1.3
   width: 100%
   box-sizing: border-box
   &:hover

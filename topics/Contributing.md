@@ -1,5 +1,5 @@
 ---
-title: '**Contributing to the Travel Forecasting Resource'
+title: 'Contributing to the Travel Forecasting Resource'
 categories:
   - About
 ---
