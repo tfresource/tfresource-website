@@ -221,7 +221,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [6th ITM Conference, Denver, Colorado (2016)](6th_ITM_Conference_Denver_Colorado_2016) | Greg | Greg | |
 | [7th ITM Conference, Atlanta, Georgia (2018)](7th_ITM_Conference_Atlanta_Georgia_2018) | Greg | Greg | |
 | **Land Use Transport Modeling:** | --- | --- | --- |
-| [Accessibilities](Accessibilities) | Rolf | | |
+| [Accessibilities](Accessibilities) | Rolf | 13 Dec. 2019 | |
 | [Design principles of land use models](Design_principles_of_land_use_models) | Rolf | | |
 | [Land use-transport modeling](Land_use_transport_modeling) | Rolf | | |
 | **Model Calibration And Validation:** | --- | --- | --- |
