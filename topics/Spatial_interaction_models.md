@@ -7,11 +7,10 @@ categories:
   - Topic Circles
 ---
 
-Learn more about this circle at [Spatial Interaction Models](Spatial_interaction_models).
 
 Spatial interaction models predict the amount or likelihood of people or goods (or services or information) moving between two locations in space. Generally, the model predicts the interchange of goods or people between all the members of a discrete set of locations or zones resulting in a square matrix of movements or flows from each zone to each zone. However, sometimes spatial interaction models, particularly disaggregate applications, may instead produce a list of interactions or movements rather than a sparse matrix.
 
-In the context of travel forecasting, spatial interaction models have traditionally been called “trip distribution” or simply “distribution” models. Trip distribution was the second step of the [four-step modeling process](Trip_Based_Models), following trip generation and preceding mode choice and assignment. Distribution models continue to play a critical role in advanced models, such as tour-based or activity-based models; however, in this context, they are frequently referred to as “\[” or “location choice” models since they are formulated in terms of the underlying behavioral choice of a location (given a reference location).
+In the context of travel forecasting, spatial interaction models have traditionally been called “trip distribution” or simply “distribution” models. Trip distribution was the second step of the [four-step modeling process](Trip_based_models), following trip generation and preceding mode choice and assignment. Distribution models continue to play a critical role in advanced models, such as tour-based or activity-based models; however, in this context, they are frequently referred to as “\[” or “location choice” models since they are formulated in terms of the underlying behavioral choice of a location (given a reference location).
 
 Both common experience as well as academic research[^1] have found that spatial distribution models are the largest source of error in travel forecasting. Despite the development of more advanced alternatives, the most common spatial interaction model in travel forecasting remains the \[.[^2]
 
