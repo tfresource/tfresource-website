@@ -1,7 +1,6 @@
 ---
 title: "Spatial interaction models"
 categories:
-  - Needs Review
   - Destination Choice Models
   - Spatial Interaction Models
   - Topic Circles
@@ -21,15 +20,15 @@ Most spatial interaction models attempt to predict the movement of people or goo
 
 -   the distance, travel time or more generally, [impedance](Impedance) between the two locations and
     </li>
--   the [size](Attractions_and_Size_Variables) or some measure or prediction of the total amount of people or goods attracted to each candidate destination (see Attractions and Size Variables).
+-   the size or some measure or prediction of the total amount of people or goods attracted to each candidate destination (see Attractions and Size Variables).
 
 Additional explanatory variables that have been incorporated in more complex models include:
 
 -   [Accessibilities](Accessibilities), to capture spatial autocorrelation and/or agglomeration effects, convenience or centrality,
--   [Psychological Boundaries](Psychological_Boundaries), such as rivers, ridge lines, railroad tracks or even major highways which decrease the probability of interaction,
+-   Psychological Boundaries, such as rivers, ridge lines, railroad tracks or even major highways which decrease the probability of interaction,
 -   Demographic Attributes, such as the income, age or employment status of travelers,
 -   Destination Qualities (other than its size or the number of attractions) such as its walkability, diversity of land uses, etc., and
--   [K-Factors and Other Spatial Bias Factors](K_Factors_and_Other_Spatial_Bias_Factors), which are not explanatory variables, but fixed factors to account for unexplained patterns.
+-   K-Factors and Other Spatial Bias Factors, which are not explanatory variables, but fixed factors to account for unexplained patterns.
 
 Types of Models
 ===============
@@ -49,7 +48,7 @@ Destination Choice Models
 Pivoting, Growth Factor and Data-Driven Models
 ----------------------------------------------
 
-Another fairly common class of [models](Pivoting_Growth_Factor_and_Data_Driven_Spatial_Models) goes by several names including “data-driven”, “pivoting”, “growth factor” and “Fratar” models. These models are most commonly used for distributing trucks and, more recently, public transit trips but are also used with some regularity for forecasting automobile trips as well. The defining element of these models is their reliance on a “prior” or “seed” matrix. The prior or seed matrix may be actual data on origin-destination patterns observed at some point in time (data-driven approach) or synthesized, most commonly using some method of [origin-destination matrix estimation from traffic counts](Origin_Destination_Matrix_Estimation_from_Traffic_Counts). Although used from the beginning of travel forecasting in the 1950s,[^6] these techniques have recently enjoyed a new wave of popularity, particularly for transit forecasting, and is now required for modeling in the UK and receiving more attention in Europe.[^7]
+Another fairly common class of models goes by several names including “data-driven”, “pivoting”, “growth factor” and “Fratar” models. These models are most commonly used for distributing trucks and, more recently, public transit trips but are also used with some regularity for forecasting automobile trips as well. The defining element of these models is their reliance on a “prior” or “seed” matrix. The prior or seed matrix may be actual data on origin-destination patterns observed at some point in time (data-driven approach) or synthesized, most commonly using some method of origin-destination matrix estimation from traffic counts. Although used from the beginning of travel forecasting in the 1950s,[^6] these techniques have recently enjoyed a new wave of popularity, particularly for transit forecasting, and is now required for modeling in the UK and receiving more attention in Europe.[^7]
 
 Intervening Opportunities Models
 --------------------------------
@@ -66,20 +65,20 @@ Combined distribution and assignment models have been shown to be equivalent to 
 Combined Models and Feedback
 ============================
 
-Originally, spatial interaction models were applied using impedance measures based on free-flow or uncongested travel times. In this case the travel times on which the spatial distribution of trips is based are generally inconsistent with the travel times predicted by assignment. [Combined distribution models](Combined_Distribution_Assignment_Models) were formulated and the practice of “feedback” developed to address this problem, especially to support emissions modeling which requires realistic travel times or speeds. In the context of travel forecasting, feedback generally refers to iterating the entire or several steps of the travel demand, network modeling system. At minimum, it generally means the feedback of travel times from assignment in distribution. It was eventually recognized and proved that feedback models are equivalent to and can be formulated as combined distribution-assignment models.
+Originally, spatial interaction models were applied using impedance measures based on free-flow or uncongested travel times. In this case the travel times on which the spatial distribution of trips is based are generally inconsistent with the travel times predicted by assignment. Combined distribution models were formulated and the practice of “feedback” developed to address this problem, especially to support emissions modeling which requires realistic travel times or speeds. In the context of travel forecasting, feedback generally refers to iterating the entire or several steps of the travel demand, network modeling system. At minimum, it generally means the feedback of travel times from assignment in distribution. It was eventually recognized and proved that feedback models are equivalent to and can be formulated as combined distribution-assignment models.
 
 The process is common, and can be required under certain air quality conformity conditions, but is not universal. Although incorporating feedback to distribution is now quite common, there is little consistency in the details of how this feedback is implemented.
 
 The key development in recent years with regard to feedback was the recognition that “naïve” feedback without any averaging of flows or travel times across iterations may not converge.
 
-Although incorporating feedback to distribution is now quite common, there is little consistency in the details of how this feedback is implemented. Feedback can and has been implemented by feeding back trip tables or flow matrices, travel time or skim matrices, link flows or link travel times. Averaging can be done using the [method of successive averages](Method_of_Successive_Averages) (MSA) or fixed factor methods. There are even more different criteria in use to measure the convergence of feedback loops or combined model systems.
+Although incorporating feedback to distribution is now quite common, there is little consistency in the details of how this feedback is implemented. Feedback can and has been implemented by feeding back trip tables or flow matrices, travel time or skim matrices, link flows or link travel times. Averaging can be done using the method of successive averages (MSA) or fixed factor methods. There are even more different criteria in use to measure the convergence of feedback loops or combined model systems.
 
 Constraints and Balancing
 =========================
 
-In one way or another, spatial interaction models generally must reconcile estimates of supply and demand or the production and attraction or consumption of trips or goods. For example, predictions of the number of work trips in a future year will typically be made based both on projections of the number of resident workers and independently from projections of employment. These estimates may come from different agencies and, especially in the future, may vary considerably. Models differ in whether the estimates are scaled ([balancing](Balancing)) to be consistent and in whether they are [singly-constrained](Singly_and_Doubly_Constrained_Spatial_Models) to be consistent with exogenous estimates of supply or demand or [doubly-constrained](Singly_and_Doubly_Constrained_Spatial_Models) to both. Models also vary in whether or not they include endogenous estimation of demand.
+In one way or another, spatial interaction models generally must reconcile estimates of supply and demand or the production and attraction or consumption of trips or goods. For example, predictions of the number of work trips in a future year will typically be made based both on projections of the number of resident workers and independently from projections of employment. These estimates may come from different agencies and, especially in the future, may vary considerably. Models differ in whether the estimates are scaled (balancing) to be consistent and in whether they are singly-constrained to be consistent with exogenous estimates of supply or demand or doubly-constrained to both. Models also vary in whether or not they include endogenous estimation of demand.
 
-Models have considerably different response properties and can produce considerably different forecasts depending on whether they are singly- or doubly-constrained and how balancing is handled. For instance, singly-constrained models may observe the infamous [Independence of Irrelevant Alternatives (IIA)](Independence_of_Irrelevant_Alternatives_IIA)) property while doubly-constrained models do not.
+Models have considerably different response properties and can produce considerably different forecasts depending on whether they are singly- or doubly-constrained and how balancing is handled. For instance, singly-constrained models may observe the infamous Independence of Irrelevant Alternatives (IIA) property while doubly-constrained models do not.
 
 Development
 ===========
@@ -91,9 +90,9 @@ Data Sources
 
 Spatial interaction models rely on a variety of data sources. They typically rely on three types of data:
 
--   [spatial data](Spatial_Data), typically the amount of population, employment, etc., within a zone system;
+-   [spatial data](Spatial_data), typically the amount of population, employment, etc., within a zone system;
 -   the distance, travel time or more generally, [impedance](Impedance) between the two locations;
--   [spatial interaction data](Spatial_Interaction_Data) or actual observations of spatial interactions.
+-   spatial interaction data or actual observations of spatial interactions.
 
 Spatial data and impedances are common data types used in a variety of travel forecasting processes. However, spatial interaction data is particular to spatial interaction modeling and so deserves a brief treatment here.
 
@@ -101,12 +100,12 @@ Spatial data and impedances are common data types used in a variety of travel fo
 
 Spatial interaction data is required to inform spatial interaction models, whether in the form of prior matrices or through the estimation of structural parameters. Given the fairly specialized nature of this data, there are typically a limited number of sources for it:
 
--   [Household travel surveys](Travel_Survey_Data) which record the movements of travelers within a household between locations in space are the most common source of spatial interaction data.
--   [Business establishment surveys](Travel_Survey_Data) are less common but are also sometimes conducted, in part to collect data on truck and other commercial vehicle movements.
--   The [Census Transportation Planning Package (CTPP)](Census_Transportation_Planning_Package_CTPP)) periodically (roughly every 5-10 years) produces estimates of journey to work flows at various geographies including counties and Census [TAZs](Traffic_Analysis_Zones) based on the [American Communities Survey (ACS)](American_Communities_Survey_ACS)).
--   The [Longitudinal Employer-Household Dynamics (LEHD)](Longitudinal_Employer_Household_Dynamics_LEHD)) Origin-Destination Employment Statistics (LODES) is also produced by the Census Bureau in collaboration with the Bureau of Labor Statistics based on their [Quarterly Census of Earning and Wages (QCEW)](Quarterly_Census_of_Earning_and_Wages_QCEW)).
+-   [Household travel surveys](Travel_survey_data) which record the movements of travelers within a household between locations in space are the most common source of spatial interaction data.
+-   [Business establishment surveys](Travel_survey_data) are less common but are also sometimes conducted, in part to collect data on truck and other commercial vehicle movements.
+-   The [Census Transportation Planning Package (CTPP)](Destination_choice_data_sources) periodically (roughly every 5-10 years) produces estimates of journey to work flows at various geographies including counties and Census [TAZs](Traffic_analysis_zones) based on the American Communities Survey (ACS).
+-   The Longitudinal Employer-Household Dynamics (LEHD) Origin-Destination Employment Statistics (LODES) is also produced by the Census Bureau in collaboration with the Bureau of Labor Statistics based on their Quarterly Census of Earning and Wages (QCEW).
 -   Passive data collection is also now beginning to provide spatial interaction data based on tracking of cell-phones, GPS and other devices (for instance, the American Transportation Research Institute has GPS-based data on truck movements).
--   Commodity flow matrices are produced by FHWA as part of its [Freight Analysis Framework (FAF)](Freight_Analysis_Framework_FAF)) based on the Bureau of Transportation Statistic’s [Commodity Flow Survey](Commodity_Flow_Survey). Synthetic commodity flow matrices are also commercially available based on the application of doubly-constrained gravity models to inter-regional input-output data.
+-   Commodity flow matrices are produced by FHWA as part of its Freight Analysis Framework (FAF) based on the Bureau of Transportation Statistic’s Commodity Flow Survey. Synthetic commodity flow matrices are also commercially available based on the application of doubly-constrained gravity models to inter-regional input-output data.
 
 Estimation, Calibration and Validation
 --------------------------------------
@@ -129,7 +128,7 @@ In addition to the size of the problem and the limited number of explanatory var
 Aggregation Bias vs. Computational Burden
 -----------------------------------------
 
-One aspect of the MAUP is spatial aggregation bias which is simply the spatial form of [aggregation bias](Aggregation_Bias) common to nonlinear models. The fewer zones used to represent a given amount of space, the more bias can be introduced into key parameters, such as the [willingness-to-travel or distance decay parameter(s)](Willingness_to_Travel_and_Distance_Decay_Parameters). However, the use of many zones presents computation challenges for most spatial interaction models because their computational burden and memory requirements are typically related to the number of zones squared.
+One aspect of the MAUP is spatial aggregation bias which is simply the spatial form of aggregation bias common to nonlinear models. The fewer zones used to represent a given amount of space, the more bias can be introduced into key parameters, such as the willingness-to-travel or distance decay parameter(s). However, the use of many zones presents computation challenges for most spatial interaction models because their computational burden and memory requirements are typically related to the number of zones squared.
 
 References
 ==========
@@ -141,12 +140,6 @@ Bhat et al., 1998
 
 Related Content
 ---------------
-
-{{\#ask: [_](_)
-| format=ul
-}}
-
-------------------------------------------------------------------------
 
 [^1]: Zhao, Y. and K. Kockelman (2002) 'The Propagation of Uncertainty through Travel Demand Models', *Annals of Regional Science* 36 (1), pp.145-163
 
