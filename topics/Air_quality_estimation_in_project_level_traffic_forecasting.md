@@ -11,7 +11,7 @@ Otherwise, for guidance on estimating GHG emissions from HPMS data or from trave
 As of this writing, there is an ongoing NCHRP project NCHRP 25-25/Task 96, "Quick Reference Guide for Traffic Modelers for Generating Traffic and Activity Data for Project-Level Air Quality Analyses", which should provide additional advice on this subject.
 
 References
-==========
+----------
 
 FHWA, “Handbook for Estimating Transportation Greenhouse Gas Emissions for Integration into the Planning Process”
 
