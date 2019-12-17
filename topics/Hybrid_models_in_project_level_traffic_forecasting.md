@@ -5,17 +5,17 @@ categories:
 ---
 
 Objective
-=========
+---------
 
 Hybrid models combine the best aspects of a regional-type travel model with the best aspects of a traffic microsimulation in order to provide a high level of spatial and temporal detail for project forecasts. Hybrid models work best for projects where the microsimulation covers a small subarea of the region. NCHRP Report 765 illustrates hybrid modeling by showing how OD tables may be transferred from a regional model to a microsimulation of a whole freeway system for a large city. However, a true hybrid model should contain two-way feedback between its two components, so that consistency can be maintained throughout the hierarchy.
 
 Background
-==========
+----------
 
 NCHRP Report 765 contains an overview of hybrid modeling, but the report lacks specific guidance. Regional-type travel models, even those with dynamic traffic assignments, are inherently macroscopic in their estimates of delay. Microsimulation techniques are now regarded as being superior to macroscopic techniques for accurately depicting a traffic system. However, traffic microsimulations are often very difficult to set up, and their execution times can be long. Therefore, it is usually practical only to apply a microsimulation to a small portion of the whole traffic network. This section emphasizes the use of hybrid models as an enhanced form of subarea focusing. Software products for implementing hybrid models are not yet mature, so the implementation of hybrid models requires considerable expertise and lead-time.
 
 Guidelines
-==========
+----------
 
 Hybrid models are recommended only for high profile or expensive projects, such as a reconstructed freeway-to-freeway interchange, and for other high-impact situations for which traditional modeling methods are considered to be inaccurate.
 Microsimulations are composed of random events, so results can vary from run to run. It may be necessary to repeat a microsimulation many times to achieve suitable reliability.
@@ -37,7 +37,7 @@ The microsimulation deals only with the interchange in isolation from the rest o
 For subareas with internal trip generation, there is a need to include links, representing centroid connectors, to all locations at the cordon of the subarea.
 
 Advice
-======
+------
 
 More comprehensive hybrid models, where the microsimulation covers a large portion of the travel network, are less readily implementable at this time.
 Traffic assignments should be equilibrium. Because of the random results from the microsimulation and the inability to define a closed-form travel-time/volume function for the OD links, chose MSA as the equilibrium traffic assignment method. MSA will tend to smooth out variations in link volumes owing to random variations in OD travel times. The microsimulation should be repeated at least once at each equilibrium iteration.
@@ -45,7 +45,7 @@ Traffic assignments should be equilibrium. Because of the random results from th
 Consider performing several runs of the microsimulation so that random variations in OD travel times can be smoothed by taking an average.
 
 Items to Report
-===============
+---------------
 
 -   Traffic volumes in and around the hybrid subarea
 -   Traffic speeds in and around the hybrid subarea
@@ -55,7 +55,7 @@ Items to Report
 -   OD travel times for the subarea
 
 References
-==========
+----------
 
 NCHRP Report 765
 
