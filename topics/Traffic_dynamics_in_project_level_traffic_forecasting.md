@@ -5,7 +5,7 @@ categories:
 ---
 
 Background
-==========
+----------
 
 An excellent source of information on DTA is the “Dynamic Traffic Assignment: A Primer”. This document goes well beyond the basics and is a good starting point for anyone interested in implementing or interpreting a DTA. A quick introduction to DTA may be found in the topic [Dynamic Traffic Assignment](Dynamic_Traffic_Assignment) on this site.
 
@@ -15,7 +15,7 @@ DTAs are recommended for projects where traffic is likely to be congested or sub
 -   Dynamic paths. Link impedances are established as the packet reaches the link. Dynamic paths represent a driver who is very knowledgeable about the trip, either because the driver has experienced a similar trip before or because the driver has excellent en route information.
 
 Guidelines
-==========
+----------
 
 DTAs for travel forecasting in urban areas should use dynamic paths. In addition, DTAs for travel forecasting in urban areas should be run to achieve equilibrium conditions.
 
@@ -26,5 +26,5 @@ The duration of a time slice for a DTA may range from only a few minutes to a fu
 It is most convenient, but not essential, that the DTA be integrated with the travel forecasting modeling software package.
 
 References
-==========
+----------
 
