@@ -20,5 +20,5 @@ Measures of Effectiveness (MOEs)
 Aggregated results have comparatively less uncertainty than disaggregated results, due to cancelling of random errors. Therefore, the use of measures of effectiveness (MOEs) are encouraged to the extent that they provide useful information to the decision processes. MOEs include such items as vehicle-miles-traveled (VMT), vehicle-hours-traveled (VHT), average speed, percent delay and total fuel consumption.
 
 References
-==========
+----------
 
