@@ -24,5 +24,5 @@ Asserting Parameter Values
 Many forecasting techniques contain estimated parameters. All parameter values must be reasonable. If a parameter value is found to be unreasonable, it is permissible to “assert” a value of the parameter by adopting a value from one or more other studies where the parameter value is both reasonable and has been established to a good degree of certainty with well-regarded methods.
 
 References
-==========
+----------
 
