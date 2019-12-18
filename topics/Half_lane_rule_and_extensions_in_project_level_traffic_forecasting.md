@@ -32,5 +32,5 @@ This standard applies to forecast results after refinement, if any. This standar
 For the default parameters on this table, the confidence interval is ±0.6745 of the standard error from the mean, where the standard error may be estimated as the root-mean-square error ([RMSE](https://en.wikipedia.org/wiki/Root-mean-square_deviation)).
 
 References
-==========
+----------
 
