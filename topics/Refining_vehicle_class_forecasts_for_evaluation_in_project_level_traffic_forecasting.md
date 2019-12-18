@@ -53,7 +53,7 @@ For this example, the QRFM forecast is refined by the computations shown in the 
 The QRFM forecast for Highway AA gives traffic volumes for four vehicle classes: automobiles = 8257 vpd; 4-tire trucks = 2550 vpd; single-unit trucks = 944 vpd; and combination trucks = 472 vpd. There is no need to disaggregate 4-tire trucks since all of them will be combined with automobiles in Step 7. Single-unit trucks must be disaggregated into 2-axle, 3-axle, and 4-axle trucks (FHWA classes 5, 6 and7). A similar disaggregation needs to occur for combination trucks (FHWA classes 8, 9, 10, 11, 12 and 13). As the last step, similar FHWA vehicle classes (7+8 and 12+13) are aggregated.
 
 References
-==========
+----------
 
 NCHRP Report 255 and NCHRP Report 765
 
