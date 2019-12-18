@@ -5,21 +5,21 @@ categories:
 ---
 
 Objective
-=========
+---------
 
 A Box-Cox transformation is used to stabilize the amount of variation in a time series.
 
 Background
-==========
+----------
 
 Linear regression assumes that the statistical distribution of data across a time series is roughly constant (technically called “homoscedastic”). For example, the amount of variation early in a time series should be similar to the amount of variation late in a time series. In places where traffic is growing over time, this assumption is often violated. Such violations are said to be “heteroscedastic”. A Box-Cox transformation creates a new data series, which potentially has better statistical properties. After a model has been estimated, results must be inversely transformed back to the units of the original data series.
 
 Guidelines
-==========
+----------
 
 A Box-Cox transformation uses the following formulas to stabilize the amount of variation in a data series.
 
-$${ T }_{ \beta }^{ }=\frac { { T }_{ }^{ \beta }-1 }{ \beta } ,\quad \beta >;0$$
+$${ T }_{ \beta }^{ }=\frac { { T }_{ }^{ \beta }-1 }{ \beta } ,\quad \beta >0$$
 
 or
 
@@ -27,7 +27,7 @@ $${ T }_{ \beta }^{ }=\ln { T } ,\quad \beta =0$$
 
 where β is a constant to be selected by the analyst, T is the original variable and T~β~ is the transformed variable. Each item in the data series of the dependent variable (e.g., traffic count) is so transformed prior to the regression analysis. Subsequently, the estimates from a regression equation must be inversely transformed with these formulas.
 
-$$T={ \left( 1+\beta { T }_{ \beta }^{ } \right) }^{ \frac { 1 }{ \beta } },\quad \beta >;0$$
+$$T={ \left( 1+\beta { T }_{ \beta }^{ } \right) }^{ \frac { 1 }{ \beta } },\quad \beta >0$$
 
 or
 
@@ -53,7 +53,7 @@ $$SE=\sigma \sqrt { \frac { n }{ n-k-1 } }$$
 where σ is the population standard deviation of the residuals, n is the number of periods in the data, and k is the number of independent variables.
 
 Advice
-======
+------
 
 Box-Cox transformations are optional. Box-Cox transformations may be skipped when:
 
@@ -64,11 +64,11 @@ Box-Cox transformations are optional. Box-Cox transformations may be skipped whe
 As a rule of thumb, a Box-Cox transformation should be seriously considered when there is a factor of two difference between the early-third standard deviation and the late-third standard deviation.
 
 Items to Report
-===============
+---------------
 
 -   All reportable items from the linear regression or AR analysis.
 -   Standard deviation of the inversely transformed residuals.
 
 References
-==========
+----------
 
