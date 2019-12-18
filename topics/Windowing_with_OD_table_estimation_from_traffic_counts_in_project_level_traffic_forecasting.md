@@ -5,17 +5,17 @@ categories:
 ---
 
 Objective
-=========
+---------
 
 Windowing is a fairly old network coding method for highway projects that has only recently become practical due to the development of new techniques for finding a synthetic OD table from traffic counts. A “window” is a small, compact portion of a much larger network. The major challenge of building a good window is in finding a set of flows for those trips that pass entirely through the window.
 
 Background
-==========
+----------
 
 The notion of windowing was first popularized in NCHRP Report 187, but its applicability was limited to very small areas. The recent availability of software for synthetic O-D table estimation has permitted larger windows by eliminating a tedious trial-and-error process to calculate traffic demand.
 
 Guidelines
-==========
+----------
 
 Windowing is a method for short-term travel forecasting. It can be used for assessing site developments, new roads, road widenings, and other actions where the O-D patterns are relatively constant.
 
@@ -36,7 +36,7 @@ Windowing should follow these steps, in the absence of a vehicle re-identificati
 A vehicle re-identification survey can provide all or some of an OD table for a window without internal zones, after some processing. (See [Working with vehicle re-identification data](Working_with_vehicle_re_identification_data_in_project_level_traffic_forecasting) for details.)
 
 Advice
-======
+------
 
 The Milwaukee/Mitchell window that is described in NCHRP Report 765 should be considered a fairly large window. This window covers about 13 square miles and contains 25 internal zones, 39 external stations and 288 street links (one-way or two-way). See below for an image of the Milwaukee/Mitchell window.
 
@@ -53,7 +53,7 @@ It is possible to implement a dynamic traffic assignment (DTA) for a window. To 
 It is important to carefully inspect the paths that vehicles must take to reach any zone or external station, especially those at the edge of the window. It is possible to inadvertently omit important road segments that are just outside the window, but carry substantial amounts of traffic from within the window.
 
 Items to Report
-===============
+---------------
 
 -   Traffic volumes
 -   Traffic speeds
@@ -61,7 +61,7 @@ Items to Report
 -   Measures of Effectiveness
 
 References
-==========
+----------
 
 NCHRP Report 765 (in particular, see the windowing case study in Chapter 11).
 
