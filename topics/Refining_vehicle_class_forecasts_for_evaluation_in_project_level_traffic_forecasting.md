@@ -18,15 +18,15 @@ The table below illustrates this concept on a hypothetical Highway AA where the 
 
 | FHWA Vehicle Class Description | FHWA Vehicle Type | QRFM Category (Step 2) | Hawaii Pavement Category (Step 3) | Percent of Truck + Bus (Step 4) | Percent of QRFM Category (Step 5) |
 |--------------------------------|-------------------|------------------------|-----------------------------------|---------------------------------|-----------------------------------|
-| Motorcycle                     | 1                 | 80%                    |                                   |                                 | -                                 |
+| Motorcycle                     | 1                 |                        |                                   |                                 | NA                                |
 | Automobile                     | 2                 | Automobile             | Automobile                        |                                 | 100.00                            |
 | Pickup, Panel, Van             | 3                 | 4-Tire                 | Automobile                        |                                 | 100.00                            |
-| Bus                            | 4                 |                        | Bus                               | 7.06                            | -                                 |
+| Bus                            | 4                 |                        | Bus                               | 7.06                             | NA                                |
 | 2 Axle Truck, Single Unit      | 5                 | Single Unit            | 2 Axle                            | 42.04                           | 75.41                             |
 | 3 Axle Truck, Single Unit      | 6                 | Single Unit            | 3 Axle                            | 13.46                           | 24.14                             |
 | 4+ Axle Truck, Single Unit     | 7                 | Single Unit            | 4-Axle                            | 0.25                            | 0.45                              |
-| 3,4 Axle Truck, 1 Trailer      | 8                 | Combination            | 4-Axle                            | 12.22                           | 39.23                             |
-| 5 Axle Truck, 1 Trailer        | 9                 | Combination            | 5 Axle                            | 15.01                           | 48.19                             |
+| 3,4 Axle Truck, 1 Trailer      | 8                 | Combination            | 4-Axle                            | 12.22                          | 39.23                             |
+| 5 Axle Truck, 1 Trailer        | 9                 | Combination            | 5 Axle                            | 15.01                          | 48.19                             |
 | 6+ Axle Truck, 1 Trailer       | 10                | Combination            | 6 Axle                            | 2.31                            | 7.41                              |
 | 5 Axle Truck, 2+ Trailer       | 11                | Combination            | 5 Axle                            | 0.00                            | 0.00                              |
 | 6 Axle Truck, 2+ Trailer       | 12                | Combination            | 6 Axle                            | 0.05                            | 0.16                              |
@@ -42,7 +42,7 @@ For this example, the QRFM forecast is refined by the computations shown in the 
 | Bus                            | Bus                               | \*                                |                           |                                         |                                |
 | 2 Axle Truck, Single Unit      | 2 Axle                            | 75.41                             |                           | 712                                     | 712                            |
 | 3 Axle Truck, Single Unit      | 3 Axle                            | 24.14                             | 944                       | 228                                     | 228                            |
-| | 4+ Axle Truck, Single Unit   | 4-Axle                            | 0.45                              |                           | 4                                       | 189                            |
+| 4+ Axle Truck, Single Unit     | 4-Axle                            | 0.45                              |                           | 4                                         | 189                            |
 | 3,4 Axle Truck, 1 Trailer      | 4-Axle                            | 39.23                             |                           | 185                                     |                                |
 | 5 Axle Truck, 1 Trailer        | 5 Axle                            | 48.19                             |                           | 227                                     | 227                            |
 | 6+ Axle Truck, 1 Trailer       | 6 Axle                            | 7.41                              | 472                       | 35                                      | 35                             |
