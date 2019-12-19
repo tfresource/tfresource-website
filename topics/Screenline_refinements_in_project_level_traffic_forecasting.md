@@ -5,17 +5,17 @@ categories:
 ---
 
 Objective
-=========
+---------
 
 Some traffic assignment methods are poor at forecasting traffic volumes on smaller highways that are operating well under capacity. It is possible that traffic intended for such small roads may be inadvertently allocated to parallel highways. It is also possible for a travel forecasting model to overestimate the amount of traffic on less-traveled highways because capacity restraints are ineffective, especially when the travel forecasting model is using elementary VDFs (volume-delay functions) for travel time estimates. Screenline refinement techniques reallocate traffic across approximately parallel roads in accordance with historical data.
 
 Background
-==========
+----------
 
 Screenline refinement techniques were first introduced by NCHRP Report 255. These techniques were abridged for NCHRP Report 765. A spreadsheet is available for performing direct screenline refinements by adjusting volumes. These guidelines further abridge what is presented in NCHRP Report 765 and introduce certain enhancements.
 
 Guidelines
-==========
+----------
 
 Screenline volumes should be adjusted using synthetic O-D table estimation, rather than direct adjustment of volumes, where possible. See [OD table refinements](OD_table_refinements_in_project_level_traffic_forecasting) for details.
 
@@ -34,14 +34,14 @@ $$RA{ f }_{ i }^{ }=A{ f }_{ i }^{ }-\left( { C }_{ i }^{ }-{ Ab }_{ i }^{ } \ri
 
 And, in order to make a multiplicative adjustment for highway i, then
 
-$$RA{ f }_{ i }^{ }=A{ f }_{ i }^{ }\frac { { C }_{ i }^{ } }{ { Ab }_{ i }^{ } } $$ .
+$$RA{ f }_{ i }^{ }=A{ f }_{ i }^{ }\frac{ { C }_{ i }^{ } }{ { Ab }_{ i }^{ } } $$ .
 
 There is no absolute requirement that total screenline volume for a future year be held constant throughout the refinement. However, controlling the total refined volume so that it matches total screenline future year volume may be necessary when there is a strong desire to maintain consistency with the travel forecasting model. Controlling for total forecast year volume simply involves factoring all screenline refined volumes by the ratio of total forecast year volume to the total of screenline refined volume.
 
 Refined screenline volumes should be reported to the nearest whole vehicle.
 
 Advice
-======
+------
 
 Where long parallel routes exist, where those route connect essentially the same origins and destination, where congestion exists and where drivers have a reasonable choice between routes, Wardrop’s first principle suggests that the travel times for the same O-D pair are close-to-equal regardless of the chosen route. Thus, travel times between various points on either side of a screenline should be calculated to determine whether Wardrop’s first principle is approximately satisfied. Judgment can be used to adjust screenline volumes to better match Wardrop’s first principle, where warranted. Travel time estimation should be done with operational analysis procedures from the 2010 Highway Capacity Manual or similar quality methods. Simple volume-delay functions should be avoided.
 
@@ -58,7 +58,7 @@ The analyst must determine whether an additive or a multiplicative adjustment is
 The analyst should exercise judgment when there are substantial changes in land use near the screenline. Select link analysis may be helpful in determining how adjustments may be made.
 
 Example
-=======
+-------
 
 Highway AA crosses a screenline along with Highway BB and Highway CC. These three highways are roughly parallel to each other and are spaced about 1 mile apart. Thus, under congested conditions, they would each serve as a relief road for the others. Highway AA is now a two-lane road, and both Highways BB and CC are four-lane roads. Capacity is constrained by signals along the three roads, where each approach at each intersection has roughly equal priority. Highway AA is slated to be rebuilt as a four-lane road. Highways AA, BB and CC will get modest access management treatments. The first table contains data acquired for the base and forecast years and the second table contains the necessary calculations.
 
@@ -82,15 +82,15 @@ Highway AA crosses a screenline along with Highway BB and Highway CC. These thre
 | Reallocated Peak Hour Volume       | 97         | -234       | 137        | 234   |
 | Future Year Peak Hour Forecast     | 1310       | 1900       | 1864       |       |
 
-This example assumes that the base year for the forecast is the same as the year of the counts. The counts and the forecast volumes for the base year are compared by taking their ratios and their differences. It is assumed that the base-year counts are perfect and the base-year forecast volumes are inaccurate, and it is assumed that this same inaccuracy will also be present in the future-year forecast. All differences between counts and base-year forecast volumes fall under the “maximum desirable deviation” curve (see [Half-lane rule and extensions](Half_lane_rule_and_extensions_in_project_level_traffic_forecasting)). There is a total screenline error of about 10%, which also falls under this curve. There are no obvious reasons for choosing ratios instead of differences for the remainder of the procedure. Ratios could be problematic if any particular forecast volume was very small (or zero). Differences could be problematic if any particular count was very small. In this case, the analyst chose ratios. Applying the base-year ratios to the future year raw forecast gives the adjusted forecast for the future year. Those future year forecasts need to be checked against capacity for any peak or near-peak hour. Today, when the roads are only lightly congested in the peak hour, the time-of-day adjustment factor (K) is 0.73 for all roads. Applying this factor gives the estimated hourly future-year forecast volumes. Highway BB has too much traffic. This excess traffic is reallocated to Highways AA and CC in proportion to their already forecasted hourly volume. The last line of the second table gives the final forecast for the whole screenline during the peak hour.
+This example assumes that the base year for the forecast is the same as the year of the counts. The counts and the forecast volumes for the base year are compared by taking their ratios and their differences. It is assumed that the base-year counts are perfect and the base-year forecast volumes are inaccurate, and it is assumed that this same inaccuracy will also be present in the future-year forecast. All differences between counts and base-year forecast volumes fall under the “maximum desirable deviation” curve (see [Half-lane rule and extensions](Half_lane_rule_and_extensions_in_project_level_traffic_forecasting)). There is a total screenline error of about 10%, which also falls under this curve. There are no obvious reasons for choosing ratios instead of differences for the remainder of the procedure. Ratios could be problematic if any particular forecast volume was very small (or zero). Differences could be problematic if any particular count was very small. In this case, the analyst chose ratios. Applying the base-year ratios to the future year raw forecast gives the adjusted forecast for the future year. Those future year forecasts need to be checked against capacity for any peak or near-peak hour. Today, when the roads are only lightly congested in the peak hour, the time-of-day adjustment factor (K) is 0.073 for all roads. Applying this factor gives the estimated hourly future-year forecast volumes. Highway BB has too much traffic. This excess traffic is reallocated to Highways AA and CC in proportion to their already forecasted hourly volume. The last line of the second table gives the final forecast for the whole screenline during the peak hour.
 
 Items to Report
-===============
+---------------
 
 -   Adjusted future year volumes on all highways crossing the screenline.
 
 References
-==========
+----------
 
 NCHRP Report 765.
 
