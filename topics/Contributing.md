@@ -60,6 +60,7 @@ This will reduce the number of "round trips" while saving and publishing -- whic
 ## Uploading files and media
 
 - For now, store all images and other attachments in the `.vuepress/public/topics` folder. We're working on finding a better place for these items.
+  - After you've forked the repo, navigate to the `.vuepress/public/topics` folder in your repo, and click the `Upload Files` button to upload images.
 - You can then refer to images using the syntax\
   `![Image description](name_of_my_file.jpg "Optional Tooltip Text")`
 
