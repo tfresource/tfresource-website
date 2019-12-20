@@ -45,7 +45,7 @@ Scenarios are difficult to introduce into trend forecasts, so scenarios are usua
 
 The analyst needs to be aware of the state of land use development near the highway segment when assessing how well a linear equation will forecast into into the distant future. Traffic growth could be accelerating or decelerating depending upon the degree to which land has been saturated. The figure below, originally published in the Guidebook on Statewide Travel Forecasting, illustrates how the rate of traffic growth can vary.
 
-![](TrafficLandDevelopment_jpg "TrafficLandDevelopment_jpg")
+![](TrafficLandDevelopment.jpg "TrafficLandDevelopment.jpg")
 
 Items to Report
 ---------------
