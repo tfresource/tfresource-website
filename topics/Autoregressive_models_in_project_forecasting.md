@@ -29,7 +29,8 @@ T<sub>n</sub>=a<sub>0</sub>+a<sub>1</sub> T<sub>(n-1)</sub>+a<sub>2</sub> T<sub>
 
 The second example is typical of AR models for forecasting monthly traffic counts.  Ideally, lags should be chosen both statistically and logically.
 
-=Guidelines=
+## Guidelines
+
 Traffic data have certain qualities that are well understood, so the lags for AR models are often logically selected.  There needs to be one lag for each cyclical pattern in the traffic count time series.  In addition, there needs to be at least one lag to the most recent earlier traffic count, so that the period-to-period trend can be established.
 
 Statistical packages with built-in ARIMA capabilities routinely give two series of statistics that are helpful in choosing lags:  autocorrelations and partial autocorrelations.  Of these two, the autocorrelation is most understandable and most compatible with logical selection of variables for an AR model.  An autocorrelation is a Pearson’s correlation coefficient, r, of the series with itself at a given lag.  Thus, there can be many autocorrelations.  A large autocorrelation (in magnitude, that is near -1 or +1) at a specific lag would suggest that the lag be included in the AR model.  Autocorrelations can also be created on a spreadsheet.  A partial autocorrelation is a Person’s correlation coefficient of the series with itself, but after all smaller (e.g., more recent) lags have been accounted for in a regression equation.  There are also many partial autocorrelations.  While partial autocorrelations can theoretically be calculated on a spreadsheet, the calculation process is tedious and, therefore, not recommended for routine analyses.
