@@ -62,7 +62,7 @@ Note on estimating a simple AR model on a spreadsheet.  An AR model may be estim
 - Forecasted traffic volume for the design year.
 - The range associated with the 50% error in the forecast.
 
-=References=
+## References
 
 - Guidebook on Statewide Travel Forecasting Models
 - NCHRP Report 765.
