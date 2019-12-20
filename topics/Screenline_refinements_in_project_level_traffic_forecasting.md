@@ -34,7 +34,7 @@ $$RA{ f }_{ i }^{ }=A{ f }_{ i }^{ }-\left( { C }_{ i }^{ }-{ Ab }_{ i }^{ } \ri
 
 And, in order to make a multiplicative adjustment for highway i, then
 
-$$RA{ f }_{ i }^{ }=A{ f }_{ i }^{ }\frac{ { C }_{ i }^{ } }{ { Ab }_{ i }^{ } } $$ .
+$$RA{ f }_{ i }^{ }=A{ f }_{ i }^{ }\frac{ { C }_{ i }^{ } }{ { Ab }_{ i }^{ } }$$
 
 There is no absolute requirement that total screenline volume for a future year be held constant throughout the refinement. However, controlling the total refined volume so that it matches total screenline future year volume may be necessary when there is a strong desire to maintain consistency with the travel forecasting model. Controlling for total forecast year volume simply involves factoring all screenline refined volumes by the ratio of total forecast year volume to the total of screenline refined volume.
 
