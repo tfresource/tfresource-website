@@ -5,12 +5,12 @@ categories:
 ---
 
 Introduction
-============
+------------
 
 The following example was developed from the same original data used in NCHRP Report 765 that was first published by Savage (1997). The example in this section goes beyond what is contained in NCHRP Report 765 by using more years of data and including an optional Box-Cox transformation within the autoregression. This example was developed entirely within Excel using its Analysis ToolPak. This section illustrates the most sophisticated analysis that can be accomplished within these guidelines.
 
 Data
-====
+----
 
 Table 1 shows monthly ferry ridership counts over a six year period of time.
 
@@ -31,12 +31,12 @@ Table 1 Ferry Traffic Count Data (Savage, 1997)
 | November  | 4744   | 4428   | 4095   | 4737   | 5322   | 5605   |
 | December  | 3500   | 4673   | 4288   | 4665   | 5040   | 5241   |
 
-Visual observations of the time series (Figure 2 7) would suggest that there is a yearly cycle to the data and that the variation within a year is growing slowly over time. These observations imply that an autoregressive model would need at least two lag terms and that there might be some advantage to a Box-Cox transformation.
+Visual observations of the time series would suggest that there is a yearly cycle to the data and that the variation within a year is growing slowly over time. These observations imply that an autoregressive model would need at least two lag terms and that there might be some advantage to a Box-Cox transformation.
 
-[px600](File_FerryData_jpg)
+![](FerryData.jpg "FerryData.jpg")
 
 Transformations
-===============
+---------------
 
 The count data series is divided into thirds (two full years in each), transformed, and checked for similarity of standard deviations. Table 2 shows the results of five different values of β (1.0, 0.8, 0.5, 0.3, 0.0). For example, the transformation for a value of β = 0.5 for the very first month (January of Year 1) is accomplished by this calculation:
 
@@ -59,7 +59,7 @@ Table 2 Standard Deviations of the Count Data Series Transformations
 The most consistent standard deviations occur with a value of β = 0.3, but none of the inconstancies are obviously bad to the point where they will distort the forecast. The use of a Box-Cox transformation could be bypassed for these data; however, a transformation with a value of β = 0.3 will be continued throughout this example in order to further illustrate the concept.
 
 Analysis
-========
+--------
 
 Table 3 lists the autocorrelations for the transformed counts at the first 14 lags. A single lag is a one month offset. The autocorrelations confirm what can be gleaned from graph of counts. The highest autocorrelation is with lag 12 (exactly one full year earlier) with fairly strong autocorrelations also at lags 11 and 13. There is a strong autocorrelation at lag 1, as is typical of count data, and there is another strong, but negative, autocorrelation at lag 6. The reasons for these autocorrelations seem fairly obvious. The graph does not suggest a need to do smoothing, so there are only a few possibilities for sets of independent variables in an AR model, such as:
 
@@ -110,7 +110,7 @@ T~n~=0.8479+0.27214T~n-1~+0.9130T~n-12~-0.1940T~n-13~
 All the lag terms are statistically significant except for the lag at 13 in the AR(3) model. Not only is that term insignificant, but it also has the wrong sign. Thus, the AR(3) model can be discarded. The AR(1) model with a lag of 1 has inferior goodness-of-fit as indicated by the R-square, so it can be discarded, too. Lastly, the AR(2) model with lags at 1 and 12 has a slightly superior R-square to the AR(1) model with a lag at 12, only.
 The AR(2) model (with lags at 1 and 12) will be selected for forecasting. Figure 2 shows the output from Excel’s regression tool. The t-statistics shows that the lag at 1 is significant at the 90% confidence level, but the lag at 12 is significant well beyond the 95% level. The model is judged to be suitable for short-range forecasting.
 
-[px600](File_AutoregressionExampleDetails_jpg)
+![](AutoregressionExampleDetails.jpg "AutoregressionExampleDetails.jpg")
 
 Figure 2 Output from Excel’s Regression Tool for an AR(2) Model of Ferry Traffic with Lags at 1 and 12
 
@@ -142,7 +142,7 @@ Table 4 Transformed Data for Year 6 and Transformed Forecasts for Years 7 and 8
 | April     | 40.3221 | 40.6047 | 40.8982 |
 | May       | 43.7037 | 43.9853 | 44.2682 |
 | June      | 48.3353 | 48.5020 | 48.6797 |
-| July      | 51.4607 | 51.7609 | 52.0497 |
+| Jul       | 51.4607 | 51.7609 | 52.0497 |
 | August    | 52.0045 | 52.5615 | 53.0936 |
 | September | 48.2266 | 49.2134 | 50.1580 |
 | October   | 44.1355 | 45.1897 | 46.2342 |
@@ -158,5 +158,5 @@ And applying an inverse transformation to this transformed forecast gives a resu
 E~50~=±0.6745\*569=±384
 
 References
-==========
+----------
 
