@@ -5,17 +5,17 @@ categories:
 ---
 
 Objective
-=========
+---------
 
-A subarea focused model resembles a regional model in structure and data, but it varies the level of spatial detail depending distance to the project. Subarea focusing may be accomplished by building a new model from scratch or adapting an existing regional model by adding detail near the project.
+A subarea focused model resembles a regional model in structure and data, but it varies the level of spatial detail depending upon distance to the project. Subarea focusing may be accomplished by building a new model from scratch or adapting an existing regional model by adding detail near the project.
 
 Background
-==========
+----------
 
 Subarea focusing was originally thought to be a sketch planning methodology to reduce computational effort and data requirements. More recently subarea focusing is thought to be a methodology for creating highly detailed networks for the area of influence of a project. The subarea network may contain items not seen in a typical regional models, such as roads of lower functional classes, private roads and driveways, explicit traffic controls, and small zones. For projects involving new development sites, zones may be even be smaller than a city block.
 
 Guidelines
-==========
+----------
 
 There are three variations of this method, but all of these methods are similar in the level of detail contained within the subarea of the network.
 
@@ -24,7 +24,7 @@ There are three variations of this method, but all of these methods are similar 
 -   *Special Site Impact Assessment Model.* This method is similar to a custom subarea model, but only trips to and from the site are simulated. Networks developed for this type of model may omit links that are unlikely to be used by drivers coming and going from the site. The site may be represented by one or more zones, often one zone per parking lot driveway. Assessments of levels-of-service can be accomplished by adding site traffic to existing traffic levels.
 
 Advice
-======
+------
 
 There are advantages to each subarea model type.
 
@@ -37,7 +37,7 @@ Any of these model types can be used for site impact assessment. Site impact ass
 The zone structures for custom networks could be adopted from a regional model or could be delineated specifically for the project. Census boundaries of various details (places, tracks, block groups) often work well when TAZs and unavailable or undesirable.
 
 Enhanced Regional Models
-========================
+------------------------
 
 A complete methodology for enhancing regional models is found in NCHRP Report 765; this section will provide general and local-optional guidelines. An enhanced regional model may be used for highway project or for site impact assessments. Subareas for site impact assessments have these elements:
 
@@ -54,7 +54,7 @@ Subareas for site impact assessments have these elements:
 -   If the project involves surface arterial streets, then the network should be upgraded within the subarea to correctly represent traffic controls, particularly signals, two-way stops, and all-way stops. Delays within the subarea should be calculated according to good traffic engineering principles, such as those in the Highway Capacity Manual.
 
 Custom Subarea Focused Models
-=============================
+-----------------------------
 
 A complete methodology for custom subarea focused models is found in NCHRP Report 765; this section will provide general and local-optional guidelines. Custom subarea focused models serve the same purposes as enhanced regional models, so guidelines are similar (refer to previous section.) In addition, the following items are characteristics of a good custom subarea focused model.
 
@@ -64,7 +64,7 @@ A complete methodology for custom subarea focused models is found in NCHRP Repor
 -   Links within the subarea should be capacity restrained. Delays on roads and at intersections within the subarea should be calculated according to good traffic engineering principles, such as those from the Highway Capacity Manual.
 
 Special Site Impact Models
-==========================
+--------------------------
 
 A complete methodology for special site impact models is found in NCHRP Report 765; this section will provide general and local-optional guidelines. A special site impact model has these required or desirable elements.
 
@@ -85,14 +85,14 @@ A complete methodology for special site impact models is found in NCHRP Report 7
 -   One optional iteration of “iterative capacity restraint traffic assignment” may reveal the tendency for rerouting of traffic due to delays from site traffic. Once site traffic has been assigned to the network, this procedure requires that turning movement delays incorporate both site and background traffic. An AON assignment with these combined delays will reveal whether there will be significant rerouting of site traffic due to the addition of site traffic to the street system. It is not usually possible to do an effective equilibrium traffic assignment while only allowing site traffic to change routes, which is the situation with this type of model.
 
 Items to Report
-===============
+---------------
 
 -   Traffic volumes on all streets surrounding the project or site.
 -   Turning movements at all major intersections near the project or site.
 -   Anticipated delays at all major intersections near the project or site.
 
 References
-==========
+----------
 
 NCHRP Report 765 and ITE Trip Generation, NCHRP Report 365, NCHRP Report 716.
 
