@@ -8,7 +8,7 @@ categories:
 links:
   - type: Report (PDF)
     label: 'Link'
-    url: https://rosap.ntl.bts.gov/view/dot/3146
+    url: https://rosap.ntl.bts.gov/view/dot/31466
 ---
 
 _Guidelines for Project-Level Traffic Forecasting Hawaii Department of Transportation_
