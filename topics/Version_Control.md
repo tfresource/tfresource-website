@@ -4,8 +4,6 @@ categories:
   - Needs Review
 ---
 
-TODO
-
 Overview
 --------
 
@@ -35,8 +33,8 @@ Version control is the way these different versions are stored, tracked, and pre
 
 #### Example Implementations
 
--   SANDAG: [github_com_sandag](github_com_sandag)
--   SFCTA's DTA Anyway: [dta_googlecode_com](dta_googlecode_com)
+-   SANDAG
+-   SFCTA's DTA Anyway
 
 ------------------------------------------------------------------------
 
