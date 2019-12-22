@@ -24,17 +24,17 @@ To the extent possible these guidelines are consistent with national standards a
 -   FHWA’s “[Travel Model Validation and Reasonableness Checking Manual II](Model_Validation_and_Reasonableness_Checking)”
 -   TRB’s "[2010 Highway Capacity Manual](Highway_Capacity_Manual)"
 -   FHWA’s [“Interim Guidance on the Application of Travel and Land Use Forecasting in NEPA](https://www.environment.fhwa.dot.gov/projdev/travel_landUse.asp)”
--   ITE’s [“Trip Generation”](http://www.ite.org/tripgeneration/trippubs.asp)
+-   ITE’s [“Trip Generation”](https://www.ite.org/technical-resources/topics/trip-and-parking-generation/)
 -   FHWA’s [“Traffic Monitoring Guide”](https://www.fhwa.dot.gov/policyinformation/tmguide/)
 -   FHWA’s [“Manual on Uniform Traffic Control Devices”](https://mutcd.fhwa.dot.gov/index.htm)
--   FHWA’s [“Quick Response Freight Manual”, 1st and 2nd editions](https://ops.fhwa.dot.gov/freight/publications/qrfm2/index.htm)
+-   FHWA’s [“Quick Response Freight Methods](https://ops.fhwa.dot.gov/publications/fhwahop19057/fhwahop19057.pdf)
 
 These source reports are considered essential for fully describing procedures and techniques; therefore, key sections of these source reports are incorporated into these guidelines by reference.
 In addition the guidelines benefit from a review of state DOT travel forecasting guidelines, especially:
 
--   ["Florida Project Traffic Forecasting Handbook”](https://www.fdot.gov/planning/statistics/trafficdata/ptf.pdf)
--   \[<https://www.dot.state.oh.us/>.../Documents/OH\_Cert\_Traffic\_Manual.pdf “Ohio Certified Traffic Manual”\]
--   [“North Carolina Project-Level Traffic Forecasting”](https://connect.ncdot.gov/projects/planning/TPB%20Systems%20Planning/Traffic%20Forecasting%20-%20Administrative%20Procedures%20Handbook%20.pdf)
+-   ["Florida Project Traffic Forecasting Handbook”](https://www.fdot.gov/planning/systems/programs/sm/ptf/default.shtm)
+-   [“Ohio Certified Traffic Manual”](http://www.dot.state.oh.us/Divisions/Planning/SPR/ModelForecastingUnit/Documents/OH_Cert_Traffic_Manual.pdf)
+-   [“North Carolina Project-Level Traffic Forecasting”](http://digital.ncdcr.gov/cdm/ref/collection/p16062coll9/id/141275)
 -   [“Oregon Analysis Procedure Model”](https://www.oregon.gov/ODOT/Planning/Documents/APMv1.pdf)
 
 Additional back ground material on conventional or advanced travel forecasting may be found in:
@@ -54,7 +54,7 @@ A project-level traffic forecast for a highway project consists primarily of tra
 
 A “do nothing” alternative is not neglectful. This alternative includes any low-cost improvements that would be undertaken as part of normal operations and maintenance. Sometimes agencies refer to the “do-nothing” alternative as the [Transportation Systems Management Alternative (TSM).](http://www.sdforward.com/pdfs/DraftAppendixE-TransportationSystemAndDemandManagementProgramsAndEmergingTechnologies.pdf)
 
-Traffic volumes and traffic speeds may require interpretation. Often this interpretation is handled by post-processors that can accept traffic volumes and speeds as inputs and give impact indicators as outputs. Indicators may include a variety of items, such as [Levels of Service (LOS)](Levels_of_Service_LOS)), queue lengths, benefit-cost ratios, pavement conditions and noise levels.
+Traffic volumes and traffic speeds may require interpretation. Often this interpretation is handled by post-processors that can accept traffic volumes and speeds as inputs and give impact indicators as outputs. Indicators may include a variety of items, such as [Levels of Service (LOS)](http://www.trb.org/Main/Blurbs/175169.aspx), queue lengths, benefit-cost ratios, pavement conditions and noise levels.
 
 Project types
 -------------
@@ -93,10 +93,10 @@ Definition of Analysis Years (Source: “Interim Guidance on the Application of 
 | Base model year      | The calibration year for the travel model                                                                                                      |
 | Base project year    | This could be different from the base model year; it is an updated base year that is validated and is as close as possible to the current year |
 | Forecast Years       |                                                                                                                                                |
+|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | Open‐to‐traffic year | Expected future year that the project will open; in the case of phased projects this might be a sequence of intermediate forecast years        |
 | Plan horizon year    | A future forecast year that often corresponds with the long-range plan horizon                                                                 |
 | Design year          | An alternative future forecast year for the project that may be earlier or further into the future than the forecast year                      |
-||
 
 A forecast for the base model year or project year is required for validation purposes. In addition, forecast years should be further categorized as to whether fundamental inputs to the forecasting process might vary significantly. These categories were defined in [NCHRP Report 765](NCHRP_Report_765):
 
@@ -124,7 +124,7 @@ The choice of forecasting technique also depends upon the expanse of the impact 
 
 -   Site. A site contains one or more trip generators in a single development. A site has no significant internal traffic and no through traffic, thus all trips are exclusively I-E or E-I. A site is most conveniently represented within a modeling context as consisting of one or more parking lots.
 -   Corridor. A corridor is focused on a single street, as represented by one or more highway segments strung end-to-end. Similar to a site, a corridor has no significant internal traffic. Traffic can move through, in or out of a corridor in a variety of directions, depending upon the type and variety of cross-streets. Trips may be assumed to be I-E, E-I or E-E. An individual road segment is classified as a corridor. Small corridors, such as single street segments, may be assumed to have only E-E traffic, if the number and sizes of adjacent trip generators are small.
--   Small area. A small area encompasses sizeable tracks of land, which can generate traffic; however, traffic volumes on streets within a small area a dominated by external flows (E-E, E-I or I-E), but may contain moderate amounts of strictly internal traffic (I-I).
+-   Small area. A small area encompasses sizeable tracks of land, which can generate traffic; however, traffic volumes on streets within a small area are dominated by external flows (E-E, E-I or I-E), but may contain moderate amounts of strictly internal traffic (I-I).
 -   Wide area. A wide area covers a large enough expanse that internal traffic (I-I) is a significant percentage of all traffic and needs to be carefully modeled. Wide area models are similar in structure to regional models, but may not necessarily cover a whole region. In addition, any project for which internal traffic is important (such as some access management projects), should be considered wide area, regardless of the actual expanse of the impact area.
 
 ### Level of detail required in the analysis
