@@ -2,21 +2,19 @@
 title: "Synthetic populations: review of the different approaches"
 noTOC: true
 categories:
-  - Needs Review
   - Activity Based Models
   - Papers
   - Resources
 links:
   - type: Paper (PDF)
     label: "Link"
-    url: http://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;frm=1&amp;source=web&amp;cd=1&amp;cad=rja&amp;ved=0CCwQFjAA&amp;url=http%3A%2F%2Fwww.ceps.lu%2Fpubli_viewer.cfm%3Ftmp%3D1847&amp;ei=LVD9UqXcFqmMygHPkoCICg&amp;usg=AFQjCNH9Zw83-IZKwe-ipKgAAHDOEi7rqw&amp;sig2=KrrsmWVFIxUBK65tr2C-IA
+    url: https://ro.uow.edu.au/cgi/viewcontent.cgi?article=7804&context=eispapers
 ---
 
 
 #### Author
 
-Johan BARTHELEMY, Eric CORNELIS
-FUNDP - University of Namur, Belgium
+Johan Barthelemy, Eric Cornelis
 
 #### Source
 
@@ -32,7 +30,7 @@ CEPS/INSTEAD Working Papers are intended to make research findings available and
 
 #### Publication Date
 
-2012-3-27
+2012
 
 ------------------------------------------------------------------------
 
