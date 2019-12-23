@@ -2,7 +2,6 @@
 title: "NCHRP 775: Applying GPS Data to Understand Travel Behavior"
 noTOC: true
 categories:
-  - Needs Review
   - Reports
   - Resources
   - Travel Survey Data
