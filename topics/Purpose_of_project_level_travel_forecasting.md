@@ -92,8 +92,7 @@ Definition of Analysis Years (Source: “Interim Guidance on the Application of 
 |----------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | Base model year      | The calibration year for the travel model                                                                                                      |
 | Base project year    | This could be different from the base model year; it is an updated base year that is validated and is as close as possible to the current year |
-| Forecast Years       |                                                                                                                                                |
-|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b>Forecast Years</b>       |                                                                                                                                                |
 | Open‐to‐traffic year | Expected future year that the project will open; in the case of phased projects this might be a sequence of intermediate forecast years        |
 | Plan horizon year    | A future forecast year that often corresponds with the long-range plan horizon                                                                 |
 | Design year          | An alternative future forecast year for the project that may be earlier or further into the future than the forecast year                      |
@@ -152,9 +151,7 @@ Tools for project-level forecasts are selected mainly on the basis of the techni
 -   Recent speeds or travel times
 -   Historical traffic counts
 -   Existing and proposed geometry
-
-• Network data
-
+-   Network data
 -   Demographic data organized by zones, districts, block groups, or places
 
 It should be noted that some of these resources could be obtained as part of the forecasting effort, with sufficient lead time and budget.
