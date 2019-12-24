@@ -28,41 +28,41 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | Page | Your Name |Review Done | Comments (optional) |
 | --- | --- | --- | --- |
 | **Uncategorized (Needs a category!)** | --- | --- | --- |
-| [Acceptable practical experience model standard in project-level traffic forecasting](Acceptable_practical_experience_model_standard_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Air quality estimation in project-level traffic forecasting](Air_quality_estimation_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Acceptable practical experience model standard in project-level traffic forecasting](Acceptable_practical_experience_model_standard_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Air quality estimation in project-level traffic forecasting](Air_quality_estimation_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Associations, Organizations and Committees](Associations_Organizations_and_Committees) | | | |
 | [Autonomous vehicles: Lexicon](Autonomous_vehicles_Lexicon) | Brice Nichols | | |
-| [Autoregressive with explanatory variables (ARX or SAR) models in project-level traffic forecasting](Autoregressive_with_explanatory_variables_ARX_or_SAR_models_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Best practical experience model standard in project-level traffic forecasting](Best_practical_experience_model_standard_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Box-Cox transformations in project-level traffic forecasting](Box_Cox_transformations_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Bypasses of local scope in project-level traffic forecasting](Bypasses_of_local_scope_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Bypasses of regional scope in project-level traffic forecasting](Bypasses_of_regional_scope_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Autoregressive with explanatory variables (ARX or SAR) models in project-level traffic forecasting](Autoregressive_with_explanatory_variables_ARX_or_SAR_models_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Best practical experience model standard in project-level traffic forecasting](Best_practical_experience_model_standard_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Box-Cox transformations in project-level traffic forecasting](Box_Cox_transformations_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Bypasses of local scope in project-level traffic forecasting](Bypasses_of_local_scope_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Bypasses of regional scope in project-level traffic forecasting](Bypasses_of_regional_scope_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Cellular Communications Data](Cellular_Communications_Data) | | | |
 | [Current trends in travel behavior](Current_trends_in_travel_behavior) |Patricia Lavieri | | |
 | [Data Development](Data_Development) | Lisa Zorn | Lisa Zorn | |
 | [Data Visualization](Data_Visualization) | Lisa Zorn | | |
-| [Discussion of travel delay in acceptable models in project-level traffic forecasting](Discussion_of_travel_delay_in_acceptable_models_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Discussion of travel delay in acceptable models in project-level traffic forecasting](Discussion_of_travel_delay_in_acceptable_models_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Empirical Accuracy of Travel Forecasts](Empirical_Accuracy_of_Travel_Forecasts) | Lisa Zorn | | |
-| [Example of an autoregression model with Box-Cox transformation](Example_of_an_autoregression_model_with_Box_Cox_transformation) | Alan/Kermit | | |
+| [Example of an autoregression model with Box-Cox transformation](Example_of_an_autoregression_model_with_Box_Cox_transformation) | Alan/Kermit | Alan 12/24/19 | |
 | [Explaining Activity-Based Models to a General Audience](Explaining_Activity_Based_Models_to_a_General_Audience) |Patricia Lavieri | | |
 | [Format Testing](Format_Testing) | | | Rolf: Can this page be deleted?|
 | [Freight modeling](Freight_modeling) | Rick Donnelly | | |
 | [Future Development of TFR](Future_Development_of_TFR) | | | Rolf: Page needs to be deleted |
 | [Global Positioning Systems (GPS) Data](Global_Positioning_Systems_(GPS)_Data) |Patricia Lavieri | | |
 | [Health and Transportation Data](Health_and_Transportation_Data) | Patrick Singleton | | |
-| [Highway noise analysis in project-level traffic forecasting](Highway_noise_analysis_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Hybrid models in project-level traffic forecasting](Hybrid_models_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Ideal travel model standard in project-level traffic forecasting](Ideal_travel_model_standard_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Highway noise analysis in project-level traffic forecasting](Highway_noise_analysis_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Hybrid models in project-level traffic forecasting](Hybrid_models_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Ideal travel model standard in project-level traffic forecasting](Ideal_travel_model_standard_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Including TRB-sponsored research on this wiki](Including_TRB_sponsored_research_on_this_wiki) | | | |
-| [Interpolation between forecast years in project-level traffic forecasting](Interpolation_between_forecast_years_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Land use models in project-level traffic forecasting](Land_use_models_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Linear models with explanatory variables in project-level traffic forecasting](Linear_models_with_explanatory_variables_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Interpolation between forecast years in project-level traffic forecasting](Interpolation_between_forecast_years_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Land use models in project-level traffic forecasting](Land_use_models_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Linear models with explanatory variables in project-level traffic forecasting](Linear_models_with_explanatory_variables_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [List of Model User Groups](List_of_Model_User_Groups) | Tom Rossi | | |
 | [Location-Based Services Data](Location_Based_Services_Data) | Greg | Greg | |
 | [Long range transportation plan](Long_range_transportation_plan) | | | |
 | [MPO model documentation](MPO_model_documentation) | Patrick Singleton | | |
 | [Market Segmentation](Market_Segmentation) |Patricia Lavieri | | |
-| [Measures of effectiveness and performance measures in project-level traffic forecasting](Measures_of_effectiveness_and_performance_measures_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Measures of effectiveness and performance measures in project-level traffic forecasting](Measures_of_effectiveness_and_performance_measures_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Modal hierarchy](Modal_hierarchy) | Pooya | | |
 | [Mode Choice Behavior](Mode_Choice_Behavior) | Greg | Greg | |
 | [Model Improvement Plan](Model_Improvement_Plan) | Greg | Greg | |
@@ -84,40 +84,40 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Model estimation](Model_estimation) | Greg | Greg | |
 | [Modelers](Modelers) | Greg | Greg | |
 | [Multiple Discrete-Continuous Extreme Value (MDCEV) Model](Multiple_Discrete_Continuous_Extreme_Value_(MDCEV)_Model) |Rajesh Paleti | | |
-| [OD table refinements in project-level traffic forecasting](OD_table_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [OD table refinements in project-level traffic forecasting](OD_table_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Open Data Sources](Open_Data_Sources) |Patricia Lavieri | | |
 | [Path Choice Mode choice Consistency](Path_Choice_Mode_choice_Consistency) | Lisa Zorn | | |
 | [Path Finding Algorithm](Path_Finding_Algorithm) | Lisa Zorn | | |
-| [Pavement design in project-level traffic forecasting](Pavement_design_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Pavement design in project-level traffic forecasting](Pavement_design_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Pedestrian Route Choice](Pedestrian_Route_Choice) | Patrick Singleton | | |
-| [Pivoting with select link analysis for small developments in project-level traffic forecasting](Pivoting_with_select_link_analysis_for_small_developments_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Pivoting with select link analysis for small developments in project-level traffic forecasting](Pivoting_with_select_link_analysis_for_small_developments_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Planning and policy context](Planning_and_policy_context) | Lisa Zorn | | |
 | [Polaris](Polaris) | Tom Rossi | | |
 | [Policy relevance of transportation models](Policy_relevance_of_transportation_models) |Patricia Lavieri | | |
 | [Prerequisites for travel modeling](Prerequisites_for_travel_modeling) | Rick Donnelly | | |
 | [Puget Sound Regional Council](Puget_Sound_Regional_Council) | Tom Rossi | | |
-| [Refining speeds for evaluation in project-level traffic forecasting](Refining_speeds_for_evaluation_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Refining vehicle class forecasts for evaluation in project-level traffic forecasting](Refining_vehicle_class_forecasts_for_evaluation_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Refining speeds for evaluation in project-level traffic forecasting](Refining_speeds_for_evaluation_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Refining vehicle class forecasts for evaluation in project-level traffic forecasting](Refining_vehicle_class_forecasts_for_evaluation_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Resources](Resources) | Pooya | | |
 | [Safety Data](Safety_Data) | Patrick Singleton | | |
 | [Scenario Forecasting for Travel Demand Modeling](Scenario_Forecasting_for_Travel_Demand_Modeling) | Pooya | | |
-| [Screenline refinements in project-level traffic forecasting](Screenline_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Smoothing in project-level traffic forecasting](Smoothing_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Screenline refinements in project-level traffic forecasting](Screenline_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Smoothing in project-level traffic forecasting](Smoothing_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Software Development For Travel Modeling](Software_Development_For_Travel_Modeling) | Lisa Zorn | | |
 | [Solution Algorithm](Solution_Algorithm) | Tom Rossi | | |
-| [Special reporting requirements in project-level traffic forecasting](Special_reporting_requirements_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Speed and travel time refinements in project-level traffic forecasting](Speed_and_travel_time_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Special reporting requirements in project-level traffic forecasting](Special_reporting_requirements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Speed and travel time refinements in project-level traffic forecasting](Speed_and_travel_time_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Stepwise Model Calibration/Validation](Stepwise_Model_Calibration/Validation) | Tom Rossi | | |
 | [Strategic Models](Strategic_Models) | Rick Donnelly | | |
-| [Subarea focusing in project-level traffic forecasting](Subarea_focusing_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Subarea focusing in project-level traffic forecasting](Subarea_focusing_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [TMIP](TMIP) | Julie Dunbar| | |
-| [Temporal refinements and directional split refinements in project-level traffic forecasting](Temporal_refinements_and_directional_split_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Temporal resolution in project-level traffic forecasting](Temporal_resolution_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Temporal refinements and directional split refinements in project-level traffic forecasting](Temporal_refinements_and_directional_split_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Temporal resolution in project-level traffic forecasting](Temporal_resolution_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Time of Day Factoring](Time_of_Day_Factoring) | Pooya | | |
 | [Topic Circles](Topic_Circles) | Julie Dunbar| | |
 | [Traffic Data](Traffic_Data) | Tom Rossi | | |
-| [Traffic dynamics in project-level traffic forecasting](Traffic_dynamics_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Traffic microsimulation in project-level traffic forecasting](Traffic_microsimulation_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Traffic dynamics in project-level traffic forecasting](Traffic_dynamics_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Traffic microsimulation in project-level traffic forecasting](Traffic_microsimulation_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Transit Data](Transit_Data) | Lisa Zorn | | |
 | [Transit Network Assignment](Transit_Network_Assignment) | Lisa Zorn | | |
 | [Transit Network Service Determination](Transit_Network_Service_Determination) | Lisa Zorn | | |
@@ -132,20 +132,20 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Travel Time Speed and Reliability Data](Travel_Time_Speed_and_Reliability_Data) | Pooya | | |
 | [Travel model curriculum](Travel_model_curriculum) | Rick Donnelly | | |
 | [Travel survey data](Travel_survey_data) |Patricia Lavieri | | |
-| [Trend models in project-level traffic forecasting](Trend_models_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Trend models in project-level traffic forecasting](Trend_models_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Trip Generation](Trip_Generation) |Rajesh Paleti | | |
 | [Trip distribution](Trip_distribution) |Rajesh Paleti | | |
-| [Turning movement refinements in project-level traffic forecasting](Turning_movement_refinements_in_project_level_traffic_forecasting) | | Alan/Kermit | |
+| [Turning movement refinements in project-level traffic forecasting](Turning_movement_refinements_in_project_level_traffic_forecasting) | Alan | Alan 12/24/19 | |
 | [Urban Big Data](Urban_Big_Data) |Patricia Lavieri | | |
-| [User benefits in project-level traffic forecasting](User_benefits_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [User benefits in project-level traffic forecasting](User_benefits_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Using policy to affect travel behavior](Using_policy_to_affect_travel_behavior) |Chiara Calastri | | |
 | [Utility](Utility) | Greg | Greg | Greg |
 | [Vehicle Counts](Vehicle_Counts) | Tom Rossi | | |
 | [Vehicle Ownership Models](Vehicle_Ownership_Models) |Rajesh Paleti | | |
 | [Vehicle mix refinements in project-level traffic forecasting](Vehicle_mix_refinements_in_project_level_traffic_forecasting) | Pooya | | |
-| [Version Control](Version_Control) | Alan/Kermit | | |
-| [Windowing with OD table estimation from traffic counts in project-level traffic forecasting](Windowing_with_OD_table_estimation_from_traffic_counts_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Working with vehicle re-identification data in project-level traffic forecasting](Working_with_vehicle_re_identification_data_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Version Control](Version_Control) | Alan/Kermit | Alan 12/24/19 | |
+| [Windowing with OD table estimation from traffic counts in project-level traffic forecasting](Windowing_with_OD_table_estimation_from_traffic_counts_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Working with vehicle re-identification data in project-level traffic forecasting](Working_with_vehicle_re_identification_data_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | **About:** | --- | --- | --- |
 | [About](About) || | |
 | [Contributing to the Travel Forecasting Resource](Contributing) | | | |
@@ -254,19 +254,19 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Pricing and Travel Time Reliability Enhancements in the SANDAG Activity-Based Travel Model: Final Report](Pricing_and_Travel_Time_Reliability_Enhancements_in_the_SANDAG_Activity_Based_Travel_Model_Final_Report) | | | |
 | [Pricing and valuation](Pricing_and_valuation) | | | |
 | **Project Level Traffic Forecasting:** | --- | --- | --- |
-| [Choice of techniques in project-level traffic forecasts](Choice_of_techniques_in_project_level_traffic_forecasts) | Alan/Kermit | | |
-| [Documentation standards in project-level traffic forecasting](Documentation_standards_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Errors and variability in volume data for project-level traffic forecasts](Errors_and_variability_in_volume_data_for_project_level_traffic_forecasts) | Alan/Kermit | | |
-| [Half-lane rule and extensions in project-level traffic forecasting](Half_lane_rule_and_extensions_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Limited role of judgment in project-level traffic forecasting](Limited_role_of_judgment_in_project_level_traffic_forecasting) | | | |
-| [NCHRP Report 765](NCHRP_Report_765) | Alan/Kermit | | |
-| [National guidelines for use in project-level traffic forecasting](National_guidelines_for_use_in_project_level_traffic_forecasting) | | | |
-| [Project-level forecasting process](Project_level_forecasting_process) | Alan/Kermit | | |
-| [Project-level traffic forecasting](Project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Purpose of project-level travel forecasting](Purpose_of_project_level_travel_forecasting) | Alan/Kermit | | |
-| [Quality assurance and validation standards in project-level traffic forecasting](Quality_assurance_and_validation_standards_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Reporting of reasonable bounds on forecast values in project-level traffic forecasting](Reporting_of_reasonable_bounds_on_forecast_values_in_project_level_traffic_forecasting) | Alan/Kermit | | |
-| [Scenario/sensitivity testing in project-level traffic forecasting](Scenario/sensitivity_testing_in_project_level_traffic_forecasting) | Alan/Kermit | | |
+| [Choice of techniques in project-level traffic forecasts](Choice_of_techniques_in_project_level_traffic_forecasts) | Alan/Kermit | Alan 12/24/19 | |
+| [Documentation standards in project-level traffic forecasting](Documentation_standards_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Errors and variability in volume data for project-level traffic forecasts](Errors_and_variability_in_volume_data_for_project_level_traffic_forecasts) | Alan/Kermit | Alan 12/24/19 | |
+| [Half-lane rule and extensions in project-level traffic forecasting](Half_lane_rule_and_extensions_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Limited role of judgment in project-level traffic forecasting](Limited_role_of_judgment_in_project_level_traffic_forecasting) | Alan | Alan 12/24/19 | |
+| [NCHRP Report 765](NCHRP_Report_765) | Alan/Kermit | Alan 12/24/19 | |
+| [National guidelines for use in project-level traffic forecasting](National_guidelines_for_use_in_project_level_traffic_forecasting) | Alan 12/24/19 | Alan 12/24/19 | |
+| [Project-level forecasting process](Project_level_forecasting_process) | Alan/Kermit | Alan 12/24/19 | |
+| [Project-level traffic forecasting](Project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Purpose of project-level travel forecasting](Purpose_of_project_level_travel_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Quality assurance and validation standards in project-level traffic forecasting](Quality_assurance_and_validation_standards_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Reporting of reasonable bounds on forecast values in project-level traffic forecasting](Reporting_of_reasonable_bounds_on_forecast_values_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
+| [Scenario/sensitivity testing in project-level traffic forecasting](Scenario/sensitivity_testing_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | **Public Transport (Transit) Modeling:** | --- | --- | --- |
 | [Public transport (transit) modeling](Public_transport_(transit)_modeling) | | | |
 | [Transit Fares](Transit_Fares) | | | |
