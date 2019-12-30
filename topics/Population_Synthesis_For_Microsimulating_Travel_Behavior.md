@@ -2,7 +2,6 @@
 title: "Population Synthesis For Microsimulating Travel Behavior"
 noTOC: true
 categories:
-  - Needs Review
   - Activity Based Models
   - Papers
   - Resources
@@ -29,7 +28,7 @@ For the purpose of activity-based travel demand forecasting, the representativen
 
 #### Publication Date
 
-2007--
+2007
 
 ------------------------------------------------------------------------
 

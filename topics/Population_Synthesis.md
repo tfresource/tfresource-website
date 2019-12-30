@@ -1,7 +1,6 @@
 ---
 title: "Population Synthesis"
 categories:
-  - Needs Review
   - Activity Based Models
   - Land Use Transport Modeling
 ---
@@ -9,7 +8,7 @@ categories:
 Summary
 -------
 
-A Synthetic Population describes socio-economic data microscopically. For example, instead of providing the number of households by zone (as common in [trip-based models](Trip_Based_Models)), a synthetic population provides information for every household separately (as commonly required in [activity-based models](Activity_Based_Models)). Microscopic [land use models](Land_Use_Transport_Modeling#Land_Use_Model_Types) require a synthetic population as well. Usually, such information is provided in list format, where every row describes a single household. Synthetic populations may be created for many objects, including households, persons, vehicles, firms, dwelling, nonresidential floorspace, etc.
+A Synthetic Population describes socio-economic data microscopically. For example, instead of providing the number of households by zone (as common in [trip-based models](Trip_based_models)), a synthetic population provides information for every household separately (as commonly required in [activity-based models](Activity_based_models)). Microscopic land use models require a synthetic population as well. Usually, such information is provided in list format, where every row describes a single household. Synthetic populations may be created for many objects, including households, persons, vehicles, firms, dwelling, nonresidential floorspace, etc.
 
 In travel forecasting, *population synthesis* refers to the task of expanding a representative sample of persons—ascribed with variable attributes such as gender, age and ethnicity—into a fully enumerated census of the population under study. Because each individual’s combination of attributes varies, it is not appropriate to have that person represent a larger subset of the population based on any single attribute. Instead, a typical population synthesis will iterate through a set of attributes for each person in the sample, assigning and adjusting their expansion weights, until a prescribed total for each attribute representing the population is achieved.
 
