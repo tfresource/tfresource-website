@@ -7,10 +7,9 @@ categories:
 Overview
 --------
 
-### Parent Page and Resources
+### Parent Page
 
-<http://tfresource.org/Urban_data>
-<http://tfresource.org/UrbanDataResources>
+<https://tfresource.github.io/topics/Urban_data.html>
 
 ### Contributors
 
