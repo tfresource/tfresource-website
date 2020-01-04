@@ -6,7 +6,7 @@ categories:
 
 # POLARIS – Transportation Systems Modeling Suite
 
-[polaris.es.anl.gov](http://polaris.es.anl.gov)
+[polaris.es.anl.gov](https://www.anl.gov/es/polaris-transportation-system-simulation-tool)
 
 ## Project Overview
 
@@ -46,6 +46,6 @@ Another component provided in the base POLARIS framework (i.e., independent of a
 
 ## POLARIS Project Website
 
-For more information and access to the POLARIS codebase, see the Polaris project website at: <http://polaris.es.anl.gov>
+For more information and access to the POLARIS codebase, see the Polaris project website at: https://www.anl.gov/es/polaris-transportation-system-simulation-tool
 
 ---
