@@ -1,8 +1,7 @@
 ---
 title: "Highway networks"
 categories:
-  - Needs Review
-  - Transportation Networks
+   - Transportation Networks
 ---
 
 Highway networks provide a representation of individual, connected links between intersections through the use of **links** and **nodes**. The network may include thousands of nodes and links.
@@ -15,23 +14,16 @@ Links
 
 Several typical *primary attributes* can be identified as critical to the performance of the travel demand model, and *secondary attributes* provide more information about the roadways.
 
-|                        |                          |
-|------------------------|--------------------------|
-| <center>               
- **Primary Attributes**  
-                         
- </center>               | <center>                 
-                          **Secondary Attributes**  
-                                                    
-                          </center>                 |
-| Length/distance        | Lane type                |
-| Speed                  | Median type              |
-| Number of lanes        | Linear reference system  |
-| Use                    | Parking                  |
-| Facility type          | School zones             |
-| Area type              | Advisory speeds          |
-| Directionality         |                          |
-| Capacity               |                          |
+| Primary Attributes| Secondary Attributes|
+|--|--|
+| Length/distance | Lane type |
+| Speed | Median type|
+| Number of lanes | Linear reference system  |
+| Use | Parking|
+| Facility type| School zones|
+| Area type| Advisory speeds|
+| Directionality| |
+| Capacity |  |
 
 Nodes
 -----
