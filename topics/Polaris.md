@@ -4,8 +4,6 @@ categories:
   - Needs Review
 ---
 
-# POLARIS – Transportation Systems Modeling Suite
-
 [polaris.es.anl.gov](https://www.anl.gov/es/polaris-transportation-system-simulation-tool)
 
 The POLARIS suite is developed at Argonne National Laboratory under contract with the Federal Highway Administration (FHWA). The work encompasses the development of new and improved tools for creating integrated, interoperable, and extensible model systems to address new transportation management and operations policies. The Transportation Research and Analysis Computing Center (TRACC) are pursuing three major research directions: agent-based modeling, infrastructure design for traffic management centers and intelligent transportation systems (ITS), and software engineering techniques.\
