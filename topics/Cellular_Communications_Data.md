@@ -22,5 +22,5 @@ Expansion
 Cell-based data is typically pre-expanded by the provider based on proprietary estimates of service provider market share at imputed residence locations. This residence- or population-based expansion can be helpful in addressing demographic biases related to market shares. However, this type of expansion does not address systematic biases that can arise in the data when people travel to and from locations with poor coverage or when trip-length bias arises from the varying frequency of observations which has been documented in this type of data.
 
 References
-==========
+----------
 
