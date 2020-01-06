@@ -21,9 +21,8 @@ links:
 
 
 
-}}
 
-Have you ever wondered what it's like to have an Activity-Based Model in your day-to-day toolbox... • How many people does it really take? • How big are the computers? • What do you do with all of that data? • How does it actually help decision-making? • How hard are they to maintain? • How do you deal with all that code? The first half of the session will focus on how SFCTA has modified and applied SF-CHAMP to answer the questions being asked by planners and decision-makers. The second half will focus on what resources, tools and tricks have aided their success.
+Have you ever wondered what it's like to have an Activity-Based Model in your day-to-day toolbox... How many people does it really take? How big are the computers? What do you do with all of that data? How does it actually help decision-making? How hard are they to maintain? How do you deal with all that code? The first half of the session will focus on how SFCTA has modified and applied SF-CHAMP to answer the questions being asked by planners and decision-makers. The second half will focus on what resources, tools and tricks have aided their success.
 
 #### Source
 
