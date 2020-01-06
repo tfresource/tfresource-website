@@ -1,7 +1,6 @@
 ---
 title: "Transit onboard surveys"
 categories:
-  - Needs Review
   - Travel Surveys
 ---
 
@@ -23,6 +22,6 @@ In many transit on-board surveys, the transit operator will be a sponsor or co-s
 References
 ==========
 
-This introduction is from Chapter 16 of the Travel Survey Manual, authored by Arash Mirzaei, Patrick Bonnel and Ken Cervenka and more recently updated by Guy Rousseau. The original material draws from Chapter 8 of the FHWA Travel Survey Manual.
+This introduction is from [Chapter 16 of the Travel Survey Manual](http://www.travelsurveymanual.org/Chapter-16.html), authored by Arash Mirzaei, Patrick Bonnel and Ken Cervenka and more recently updated by Guy Rousseau. The original material draws from Chapter 8 of the FHWA Travel Survey Manual.
 
 
