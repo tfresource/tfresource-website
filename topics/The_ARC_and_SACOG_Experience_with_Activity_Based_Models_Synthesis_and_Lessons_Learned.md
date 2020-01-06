@@ -34,7 +34,7 @@ This report represents the second phase of a study commissioned by the Associati
 
 #### Publication Date
 
-2012}}
+2012
 
 ------------------------------------------------------------------------
 
