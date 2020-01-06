@@ -13,7 +13,7 @@ Introduction
 
 \[ often take the form of multinomial logit (MNL) based discrete \[. Choice set formation is a critical step in the specification, estimation, and application of discrete choice models. As noted by [Thill (1992)](http://journals.sagepub.com/doi/abs/10.1177/030913259201600303?journalCode=phgb), the misspecification of choice sets can have adverse effects on parameter estimates and resultant computations of predicted choice probabilities. The accurate definition of the destination choice set has been an issue of much interest to the profession and a variety of approaches have been developed and adopted in research and practice. The problem is of acute significance in the context of destination choice modeling because the number of elemental alternatives can be very large. With many travel demand model systems comprising thousands of [zones](Traffic_Analysis_Zone), destination choice sets can prove to be extremely large. On the one hand, methodological and computational advances allow the use of the universe of locations as the destination choice set. On the other hand, the use of universal set of destinations as the choice set may compromise the behavioral representativeness of destination choice models. The analyst needs to consider the pros and cons of alternative approaches carefully when defining destination choice sets.
 
-A summary of approaches is presented in this page.
+A summary of approaches with some additional explanations are presented in this page.
 
 Rule-based Approaches
 ---------------------
