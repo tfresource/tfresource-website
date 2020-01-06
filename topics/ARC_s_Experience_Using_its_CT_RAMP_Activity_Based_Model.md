@@ -21,7 +21,6 @@ links:
 
 
 
-}}
 
 The Atlanta Regional Commission (ARC) has worked methodically and incrementally within the past 10 years to develop an activity-based modeling system (ABM). ARC chose a “dual-track” model development and implementation strategy whereby the agency has maintained and improved their trip-based model (TBM) alongside their ABM. ARC is utilizing the CT-RAMP ABM modeling platform. This presentation will focus on ARC’s original stated impetus for the development of an ABM, which was to enhance the theoretical integrity of their travel demand forecasting system. Specifically, ARC desired greater sensitivities to demographic shifts (particularly the aging of the population), and to pricing policies. Related to this, ARC desired to leverage the disaggregate nature of CT-RAMP to improve the visualization of model results. Finally, as with all trip-based models, ARC had concerns that their trip-based model was somewhat insensitive to trip chaining and contained inconsistencies for a given individual and across individuals in the same household. This presentation will provide an historical perspective on ARC’s ABM development efforts, as well as some recent in-house applications, results, and ABM uses in guiding policy decisions and formulating a vision for future plan updates.
 
