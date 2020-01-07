@@ -2,7 +2,6 @@
 title: "SFCTA's Experience Using its SF-CHAMP Activity-Based Model"
 noTOC: true
 categories:
-  - Needs Review
   - Activity Based Models‏‎
   - Resources
   - Webinars And Videos

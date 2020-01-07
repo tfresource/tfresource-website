@@ -2,7 +2,6 @@
 title: "SHRP2 C04 - Improving Our Understanding of How Highway Congestion and Pricing Affect Travel Demand"
 noTOC: true
 categories:
-  - Needs Review
   - Dynamic Network Models
   - Network Assignment
   - Pricing And Valuation
