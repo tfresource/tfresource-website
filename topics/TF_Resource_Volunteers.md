@@ -118,7 +118,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Traffic Data](Traffic_Data) | Tom Rossi | | |
 | [Traffic dynamics in project-level traffic forecasting](Traffic_dynamics_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Traffic microsimulation in project-level traffic forecasting](Traffic_microsimulation_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
-| [Transit Data](Transit_Data) | Lisa Zorn | | |
+| [Transit Data](Transit_Data) | Lisa Zorn | Lisa 1/7/2020 | |
 | [Transit Network Assignment](Transit_Network_Assignment) | Lisa Zorn | | |
 | [Transit Network Service Determination](Transit_Network_Service_Determination) | Lisa Zorn | | |
 | [Transit Path Parameters](Transit_Path_Parameters) | Tom Rossi | | |

@@ -1,22 +1,21 @@
 ---
 title: "Transit Data"
 categories:
-  - Needs Review
+  - Public Transport (Transit) Modeling
+  - Transportation Networks
 ---
 
-Overview
-========
+## Overview
 
 ### Parent Page and Resources
 
-<http://tfresource.org/Urban_data>
-<http://tfresource.org/UrbanDataResources>
+- [Urban Data](Urban_data)
+- [Urban Data Resources](UrbanDataResources)
 
 ### Contributors
 
-Pat Coleman, AECOM
-
-Charlotte Frei, DemandTrans Solutions, Inc.
+- Pat Coleman, AECOM
+- Charlotte Frei, DemandTrans Solutions, Inc.
 
 | Section | Category         | Item                         | Summary and Other Pages on TFResource                                                                         |
 |---------|------------------|------------------------------|---------------------------------------------------------------------------------------------------------------|
@@ -26,12 +25,11 @@ Charlotte Frei, DemandTrans Solutions, Inc.
 | Data    | Operations       | AVAS/AVL                     | External cross ref or another site on TF Resource                                                             |
 | Data    | Schedule Data    | GTFS and GTFS-Flex           | Cross-reference (add a row on Trapeze, Hastus sched?)                                                         |
 | Tools   | Travel Forecasts | Regional MPO Models          | Link to Forecasting main pages on TFResource                                                                  |
-| Tools   | Forecast         | FTA STOPS                    | Cross ref.                                                                                                    |
+| Tools   | Forecast         | FTA STOPS                    | [STOPS](STOPS)                                                                                                    |
 | Trends  | Data use         | Open Source Planning Tools   | [AVAIL](http://www.albany.edu/avail/)                                                                         |
 | Trends  | Planning         | Interoperability             | [Consortium Approach to Interoperability](https://trilliumtransit.com/2017/01/10/consortium-approach-to-itd/) |
 
-Data
-====
+## Data
 
 ### Ridership Data Sources
 
@@ -47,22 +45,22 @@ Buses and rail cars may be equipped with devices that count each passenger who b
 
 #### Travel Surveys
 
-In addition to fare data and counters on vehicles, travel surveys can provide specific origin, destination and route choice information for transit modes if specific questions are included in the survey.
+In addition to fare data and counters on vehicles, [travel surveys](Travel_Surveys) can provide specific origin, destination and route choice information for transit modes if specific questions are included in the survey.
 
 ##### On-board Surveys
 
-Typically obtained directly from transit providers. These surveys are often conducted by consulting firms in partnership with agencies as part of a specific project or objective.
+Typically obtained directly from transit providers. [On-board surveys](On_Board_Transit_Survey) are often conducted by consulting firms in partnership with agencies as part of a specific project or objective.
 
 ##### Household Travel Surveys
 
-Used as a secondary data source. Usually obtained from a region’s Metropolitan Planning Organization (MPO) or sometimes a Department of Transportation. These surveys are useful if there are in “diary” or tour format since On Board surveys are typically trips based. The National Household Travel Survey (NHTS) “add on” data can also be considered: <http://nhts.ornl.gov/download.shtml>. Several agencies and regions are beginning to use e-diaries for regional household travel surveys (CITE),
+Used as a secondary data source. Usually obtained from a region’s Metropolitan Planning Organization (MPO) or sometimes a Department of Transportation. [Household travel surveys](Household_travel_surveys) are useful if there are in “diary” or tour format since On Board surveys are typically trips based. The [National Household Travel Survey (NHTS)](http://nhts.ornl.gov/download.shtml) “add on” data can also be considered. Several agencies and regions are beginning to use [GPS-enabled travel surveys](GPS_enabled_surveys).
 
 #### Other Travel Flow Data
 
 Other (mainly) Federal data sources are also useful:
 
-US Census: Census Transportation Planning Package (CTPP): <http://ctpp.transportation.org> and the more recent American Community Survey (ACS): <https://www.census.gov/programs-surveys/acs/>
-Longitudinal Employer Household Data (LEHD): <https://lehd.ces.census.gov/>
+- [US Census: Census Transportation Planning Package (CTPP)](http://ctpp.transportation.org) and the more recent [American Community Survey (ACS)](https://www.census.gov/programs-surveys/acs/)
+- [Longitudinal Employer Household Data (LEHD)](https://lehd.ces.census.gov/)
 
 ### Operations Data Sources
 
@@ -82,32 +80,26 @@ It is often useful to compare scheduled bus data to actual operations data. Over
 
 The General Transit Feed Specification (formerly Google Transit Feed Specification) is a format for transit data which is transferable across agencies. This enables application developers, including Google, to provide information regarding bus and train arrivals. As of January 2016, Google is working with researchers and practitioners to develop GTFS Flex specification – which will allow improved real-time arrival prediction (as opposed to reporting arrivals based on schedule) for both fixed and flexible (i.e. demand response) services. For demand response services, this will improve planning, scheduling, and customer information.
 
-Tools
-=====
+## Tools
 
-Mapping and Spatial analysis
-----------------------------
+### Mapping and Spatial analysis
 
 TBD - cross references and text.
 
-Modeling and Forecasting
-------------------------
+### Modeling and Forecasting
 
 ### Regional Travel Forecasting Models
 
 These are typically available from Metropolitan Planning Organizations and in some cases the transit providers. These models must be validated to regional and study corridor conditions before forecasts can be prepared.
 
-### Federal Transit Administration (FTA) System Trips on Project Software (STOPS) Model System
+### Federal Transit Administration (FTA) Simplified Trips-on-Project Software
 
-This modeling package is available from FTA and includes guidelines for system calibration and study area validation. It uses GTFS and Census data as inputs. A few useful links are below:
+The [STOPS](STOPS) modeling package is available from FTA and includes guidelines for system calibration and study area validation. It uses GTFS and Census data as inputs. A few useful links are below:
 
--   STOPS: <https://www.transit.dot.gov/funding/grant-programs/capital-investments/stops>
--   GTFS: <https://www.transit.dot.gov/funding/grant-programs/capital-investments/stops-%E2%80%93-general-transit-feed-specification-gtfs-data>
--   Census: <https://www.transit.dot.gov/funding/grant-programs/capital-investments/stops-data-census>
+-   [STOPS](https://www.transit.dot.gov/funding/grant-programs/capital-investments/stops)
+-   [STOPS - General Transit Feed Specification (GTFS) Data](https://www.transit.dot.gov/funding/grant-programs/capital-investments/stops-%E2%80%93-general-transit-feed-specification-gtfs-data)
+-   [STOPS – Data from the Census](https://www.transit.dot.gov/funding/grant-programs/capital-investments/stops-data-census)
 
-Trends
-======
+## Trends
 
-References
-==========
-
+## References
