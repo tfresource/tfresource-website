@@ -1,12 +1,10 @@
 ---
 title: "Transit onboard surveys"
 categories:
-  - Needs Review
   - Travel Surveys
 ---
 
-Introduction to Transit on-board surveys
-========================================
+## Introduction to Transit on-board surveys
 
 Transit on-board surveys are conducted to collect data for scheduling and operations planning, long-range planning and design, performance analy­sis, preparation of statistics and reports, and market evaluations. In many areas, transit ridership is a small percentage of total person trips, and data collected in a household travel survey may not have enough responses to adequately represent the trip patterns of transit users. A well designed transit on-board survey provides detailed information, such as ridership and demographic profiles by route, transfer characteristics and fare-class utilization, as well as accurate sample counts of boardings by station or stop.
 
@@ -20,9 +18,8 @@ Boarding and alighting counts taken at stations or bus stops, or on-board checks
 
 In many transit on-board surveys, the transit operator will be a sponsor or co-sponsor of the survey and will therefore be part of the survey team. Even when the operator is not a survey sponsor, it is advantageous to include the operator as part of the team. This will greatly assist in obtaining data from the agency, coordinating with drivers, etc.
 
-References
-==========
+## References
 
-This introduction is from Chapter 16 of the Travel Survey Manual, authored by Arash Mirzaei, Patrick Bonnel and Ken Cervenka and more recently updated by Guy Rousseau. The original material draws from Chapter 8 of the FHWA Travel Survey Manual.
+This introduction is from [Chapter 16 of the Travel Survey Manual](http://www.travelsurveymanual.org/Chapter-16.html), authored by Arash Mirzaei, Patrick Bonnel and Ken Cervenka and more recently updated by Guy Rousseau. The original material draws from Chapter 8 of the FHWA Travel Survey Manual.
 
 
