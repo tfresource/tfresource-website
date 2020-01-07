@@ -188,8 +188,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Choice models](Choice_models) | Rajesh Paleti | | |
 | [Content Charrette: Destination Choice Models](Content_Charrette_Destination_Choice_Models) | Taha | | |
 | [Data Driven Methods](Data_Driven_Methods) | Venu Garikapati | | |
-| [Destination Choice Set Formation](Destination_Choice_Set_Formation) | Taha | | |
-| [Destination Choice: Calibration and Validation](Destination_Choice_Calibration_and_Validation) | Taha | | |
+| [Destination Choice Set Formation](Destination_Choice_Set_Formation) | Taha | Taha 06/01| |
+| [Destination Choice: Calibration and Validation](Destination_Choice_Calibration_and_Validation) | Taha | Taha 07/01 | |
 | [Destination Choice: Data Sources](Destination_Choice_Data_Sources) | Taha | | |
 | [Destination Choice: Implementation and Application](Destination_Choice_Implementation_and_Application) | Taha | | |
 | [Destination Choice: Mathematical Formulation](Destination_Choice_Mathematical_Formulation) |Rajesh Paleti | Taha | |
