@@ -14,7 +14,6 @@ links:
 ---
 
 
-*Resource Title*
 
 #### Author
 
@@ -44,7 +43,7 @@ The report explores the effect on demand and route choice of demographic charact
 
 #### Publication Date
 
-2013|April}}
+2013|April
 
 ------------------------------------------------------------------------
 
