@@ -4,28 +4,26 @@ categories:
   - Needs Review
 ---
 
-**Main Mode:** The mode that you consider to be the most important in your trip. It is is fairly debatable as to what you would consider to be the main mode.
+There are important considerations that affect how trips that include multiple transit modes are modeled.  Modst models use the following terms to describe the modes that constitute certain parts of the overall trip:
 
-The most common way to determine the main mode is through a [modal hierarchy](modal_hierarchy), but other possible ways to determine the main mode are using the mode that takes either the longest time, covers the longest distance, or costs the most.
+**Main Mode:** The mode that is considered to be the most important in a multi-mode transit trip. There is disagreement about how to define the main mode for multi-mode trips.
+
+The most common way to determine the main mode is through a [modal hierarchy](Modal_hierarchy), but there are other possible ways to define the main mode, including the following:
+-   The mode with the highest percentage of time on the trip,
+-   The mode that covers the longest distance on the trip, or 
+-   The mode with the highest monetary cost.
 
 **Access Mode:** A mode used to get from a trip origin to a "main mode"
+
 **Egress Mode:** A mode used to get from the "main mode" to the trip destination.
 
-Common access and egress modes to transit include walk and drive, sometimes broken out into park-and-ride and kiss-and ride. Recently, there has been more interest in including bike as a transit access mode. If one transit mode is used to access another main mode, it can also be considered an access mode (i.e. using local bus to get to commuter rail).
+Traditionally, access and egress modes to and from transit have included walk and drive (auto), sometimes broken out into park-and-ride and kiss-and ride. Recently, there has been more interest in including bike as a transit access or egress mode. If one transit mode is used to access another main mode, it can also be considered an access mode (i.e. using local bus to get to commuter rail).
+
+The rapid increase in the availability of shared mobility modes has generated substantial interest in their uses for transit access and egress.  Transportation network companies (TNCs), bikesharing, and micromobility (such as e-scooters) have expanded transit access and egress possibilities for travelers who may not own autos or bicycles or who may wish to use these modes for transit egress, where their personal vehicles are unavailable.  Some models now include bike access and egress and/or TNC access and egress.
 
 ### Modal Aggregation
 
-The number of transit modes to consider as separate choices in [Mode Choice](Mode_Choice) is an important design consideration for the modeling process. On one end of the spectrum, all route choices that use transit could be considered a singular "transit" mode. On the other end of the spectrum, one could consider every possible [transit sub-mode](transit_sub_mode) as separate, also possibly diversified by access and egress mode.
-
-Common combinations include:
-
-Aggregate transit mode used as a catch-all for all transit in the mode choice model:
-
--   Transit
-
-Very Disaggregate access/transit/egress mode choices, each considered a separate choice in the mode choice model:
-
-Main Mode:
+The number of transit modes to consider as separate choices in [Mode Choice](Mode_Choice) is an important design consideration for the modeling process. On one end of the spectrum, all route choices that use transit could be considered a singular "transit" mode, often with separte walk and auto access modes (or possibley separate egress modes). On the other end of the spectrum, one could consider every possible [transit sub-mode](transit_sub_mode) as separate, also possibly diversified by access and egress mode.  Common definitions for the main mode include:
 
 -   Local Bus
 -   Express/Premium Bus
@@ -33,15 +31,6 @@ Main Mode:
 -   Ferry
 -   Subway
 -   Light Rail
-
-Also diversified by....
-
-Access/Egress Modes:
-
--   Walk
--   Park and Ride
--   Kiss and Ride
--   Bike
 
 ### Considerations
 

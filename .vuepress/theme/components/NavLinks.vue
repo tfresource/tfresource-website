@@ -109,18 +109,22 @@ export default {
 
   a {
     line-height: 1.4rem;
-    color: inherit;
+    color: white;
 
     &:hover, &.router-link-active {
       color: $accentColor;
     }
   }
 
+  .nav-dropdown .dropdown-item a {
+      color: #464;
+  }
+
   .nav-item {
     position: relative;
     display: inline-block;
     margin-left: 1.5rem;
-    line-height: 2rem;
+    line-height: 2.1rem;
 
     &:first-child {
       margin-left: 0;
@@ -143,7 +147,7 @@ export default {
 @media (min-width: $MQMobile) {
   .nav-links a {
     &:hover, &.router-link-active {
-      color: $textColor;
+      color: white;
     }
   }
 

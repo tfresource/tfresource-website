@@ -5,14 +5,14 @@ categories:
 ---
 
 Objective
-=========
+---------
 
 Alternatively to trend models, future traffic volumes may be strongly related to socioeconomic and demographic conditions rather than simple time. Regression equations that model traffic volumes using one or more explanatory variable may be more useful than simple trend models during scenario testing. Variables that have been related to traffic levels in previous studies include total personal income (as a proxy for local GDP), population and employment.
 
 Traffic is often referred to as a derived demand. Traffic occurs because of personal and business activities. If traffic counts can be related to amounts of such activities, then it would be possible to forecast future volumes given changes in the amounts of these activities. With the use of any explanatory variable, it is important to make sure that a causal relationship exists and that the direction of causality make sense. A high correlation between variables suggests causality, but a high correlation does not assure causality.
 
 Background
-==========
+----------
 
 A linear model with explanatory variables has the form:
 
@@ -38,7 +38,7 @@ When choosing explanatory variables, it is important to remember that a traffic 
 Explanatory variables with the correct causality should have a direct, indisputable relationship to one of these three effects.
 
 Guidelines
-==========
+----------
 
 Explanatory variables should be kept simple. They should be, for the most part, well-recognized socioeconomic or demographic characteristics.
 An explanatory variable may be interpolated between years to replace missing data in the time series, provided that visual inspection of the time series shows that it is reasonably smooth and interpolation will not introduce distortions of the variable.
@@ -59,7 +59,7 @@ It is important to avoid multicollinearity within the regression equation that i
 The use of “stepwise” regression to select among many explanatory variables should be avoided. Variables should be selected logically on their merits.
 
 Advice
-======
+------
 
 It is best if explanatory variables have already been forecasted by the state, a local MPO or another organization. County-level socioeconomic and demographic forecasts are available by purchase from private companies. Linear trend models may be used for forecasting explanatory variables as a last resort.
 
@@ -69,13 +69,13 @@ Time should be avoided as an explanatory variable.
 When considering a models with many explanatory variables, it is best to have fewer variables (according to the Principle of Parsimony) than more variables, so long as the model explains the dependent variable well. The inclusion of many, weakly significant terms, without good theoretical rationale should be discouraged.
 
 Items to Report
-===============
+---------------
 
 -   Forecasts of explanatory variables.
--   Regression statistics, including R^2^, standard error of the estimate, and the t-score for all coefficients on explanatory variables.
+-   Regression statistics, including R<sup>2</sup>, standard error of the estimate, and the t-score for all coefficients on explanatory variables.
 -   Forecasted traffic volume for the design year.
 -   The range associated with the 50% error in the forecast.
 
 References
-==========
+----------
 

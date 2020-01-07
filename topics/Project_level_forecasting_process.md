@@ -10,7 +10,7 @@ Go to [Project-level traffic forecasting](Project_level_traffic_forecasting) top
 Requesting a forecast
 ---------------------
 
-The form shown below may be used for requesting a forecast and is typical. The request must contain the following information (adapted from the [“Ohio Certified Traffic Manual”](https://www.dot.state.oh.us/Divisions/Planning/SPR/ModelForecastingUnit/Documents/OH_Cert_Traffic_Manual.pdf) and Hawaii’s “Traffic Assignment Work Order” form):
+The form shown below may be used for requesting a forecast and is typical. The request must contain the following information (adapted from the [“Ohio Certified Traffic Manual”](http://www.dot.state.oh.us/Divisions/Planning/SPR/ModelForecastingUnit/Documents/OH_Cert_Traffic_Manual.pdf) and Hawaii’s “Traffic Assignment Work Order” form):
 
 -   Project identifier;
 -   Description of the project;
@@ -36,5 +36,5 @@ The figure below summarizes the major steps in the project-level traffic forecas
 ![](ProjectLevelProcess.jpg "ProjectLevelProcess.jpg")
 
 References
-==========
+----------
 

@@ -1,11 +1,9 @@
 ---
 title: "Autonomous vehicles: Forecasting"
 categories:
-  - Needs Review
   - Autonomous Vehicles
 ---
 
-<span style="background:lightgrey;padding:10px;border-left: thick double #0000aa;"> This page is part of the Category \[.</span>
 
 Since much of the technology and adoption of autonomous vehicles is highly unknown, confidently forecasting future impacts will be extremely hard, if not impossible. There are some assumptions and extrapolations that can be explored for certain models, but much of the work of preparing for a CAV future likely requires a different approach to traditional forecasting that pivots from today’s reality, in reaction to slight and predictable changes in demand and network supply. Given the numerous unknown impacts of CAVs, in terms of vehicle adoption, pricing, efficiency, policies, and behavioral response, a simple pivoting framework may no longer be valid.
 

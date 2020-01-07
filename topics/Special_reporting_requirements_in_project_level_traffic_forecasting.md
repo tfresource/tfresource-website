@@ -7,14 +7,14 @@ categories:
 Go to the [Project-level traffic forecasting](Project_level_traffic_forecasting) topic page.
 
 Guidelines for Performance Measures
-===================================
+-----------------------------------
 
 MOEs are often more aggregated than individual traffic volumes, so percent of random error in any MOE may be less than the percent of random error in a single traffic volume forecast. However, the amount of error in any MOE is difficult to estimate, so there is no expectation that error ranges be reported for MOEs.
 
 Reporting requirements differ across MOEs. At a minimum, the analyst should report the name and version of any software product, the nature of any travel forecasting inputs, the source of any parameters, a description of any assumptions, and a succinct statement of the MOEs, preferably in tabular form.
 
 Guidelines for Refinement
-=========================
+-------------------------
 
 The nature of all refinement steps should be indicated. Citations should be made to these guidelines or to NCHRP Report 765, where appropriate.
 Unrefined forecast data need not be reported. Validation tests for unrefined forecast data need not be reported, so long as the unrefined forecast data meets minimum quality standards as stated in these guidelines.
@@ -28,7 +28,7 @@ Results of any refinement that supports project decision making should be report
 If results from a travel forecasting model are being used, without a refinement step, then reference should be made to any previous validation tests for this model. The base year and any forecast years for the original travel model must be indicated. Any interpolation between years should be described. Any adjustments due to select link analysis should be described.
 
 Guidelines for Windowing and Subarea Focusing
-=============================================
+---------------------------------------------
 
 This section describes special reporting requirements for project forecasts that involve windowing or subarea focusing.
 
@@ -39,7 +39,7 @@ Traffic volumes, travel times, speeds and performance measures outside of the su
 If a windowed network is exhibiting incorrect volumes at the edges of the network as a consequence of deleting highway segments just outside the window, then it is permissible to further focus upon those areas nearest the project when reporting results.
 
 Guidelines for Time Series Models
-=================================
+---------------------------------
 
 Reports of statistical model estimations and forecasts should contain these elements, at a minimum:
 
@@ -62,5 +62,5 @@ A graph of the trend line, with additional lines to indicate confidence interval
 Details of the forecast that are of limited value to the public or that are unnecessary for archival purposes may be omitted. Such details include the software used, specifics of how the software was set up, or variables that were tried and rejected.
 
 References
-==========
+----------
 

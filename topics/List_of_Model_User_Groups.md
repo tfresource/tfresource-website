@@ -11,7 +11,7 @@ Arizona Modeling Users Group (AZMUG)
 
 Contact: Keith Killough, ADOT
 
-[Website](https://www.azdot.gov/planning/DataandAnalysis/travel-demand-modeling)
+[Website](https://azdot.gov/planning/transportation-analysis/modeling-and-forecasting)
 
 Atlanta Model User Group (AMUG)
 -------------------------------
@@ -65,7 +65,7 @@ Midwest Travel Model User Group (MTMUG)
 
 Contact: Kyle Durant, Iowa Northland Regional Council of Governments
 
-[Website](http://www.mtmug.org/)
+[Website](https://mtmug.iowadot.gov/index.htm)
 
 MnDOT Travel Demand Modeling Coordinating Committee
 ---------------------------------------------------
@@ -91,14 +91,14 @@ Ohio Travel Demand Model Users Group (OTDMUG)
 
 Contact: Greg Giaimo, Ohio Department of Transportation
 
-[Website](https://www.otdmug.org/wordpress/)
+[Website](https://www.otdmug.org/)
 
 Oregon Modeling Users Group (OMUG)
 ----------------------------------
 
 Contact: Kyle Hauger, Oregon Metro
 
-[Website](http://www.dot.ca.gov/hq/tpp/offices/omsp/statewide_modeling/cstdm_user_group.html)
+[Website](https://www.oregonmodels.org/)
 
 Puget Sound Regional Model Users Group
 --------------------------------------

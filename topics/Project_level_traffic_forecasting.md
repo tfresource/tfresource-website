@@ -56,7 +56,7 @@ Evaluation
 
 [Highway noise analysis](Highway_noise_analysis_in_project_level_traffic_forecasting)
 
-[Safety analysis](Safety_analysis_in_project_level_traffic_forecasting)
+[Safety analysis](Safety_Analysis)
 
 [User benefits](User_benefits_in_project_level_traffic_forecasting)
 
@@ -93,7 +93,7 @@ Within a single scenario, there is still the possibility of uncertainty in a for
 
 [Hybrid models](Hybrid_models_in_project_level_traffic_forecasting)
 
-[Multi-resolution models](Multi_resolution_models_in_project_level_traffic_forecasting)
+[Multi-resolution models](Multi_resolution_models)
 
 ### Improving Temporal Detail
 
@@ -120,7 +120,7 @@ Time Series Methods
 
 ### Box-Jenkins/ARIMA Methods
 
-[Autoregressive (AR) models](Autoregressive_AR)_models_in_project-level_traffic_forecasting)
+[Autoregressive (AR) models](Autoregressive_models_in_project_forecasting)
 
 [Autoregressive with explanatory variables (ARX or SAR) models](Autoregressive_with_explanatory_variables_ARX_or_SAR)_models_in_project-level_traffic_forecasting)
 
@@ -133,3 +133,4 @@ Time Series Methods
 Case Studies
 ------------
 
+Numerous case studies may be found in NCHRP Report 765 and in the Hawaii report.

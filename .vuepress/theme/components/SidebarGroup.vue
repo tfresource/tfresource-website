@@ -100,10 +100,10 @@ export default {
   color $textColor
   transition color .15s ease
   cursor pointer
-  font-size 1.1em
-  font-weight bold
+  font-size 1rem
+  font-weight normal
   // text-transform uppercase
-  padding 0.35rem 1.5rem 0.35rem 1.25rem
+  padding 0.35rem 1.5rem 0.15rem 1.25rem
   width 100%
   box-sizing border-box
   margin 0

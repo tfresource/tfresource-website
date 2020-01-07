@@ -5,14 +5,14 @@ module.exports = {
       'link',
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Raleway:500,500i,700,700i&subset=latin-ext',
+        href: 'https://fonts.googleapis.com/css?family=Roboto:300,300i,700,700i&display=swap&subset=latin-ext',
       },
     ],
     [
       'link',
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i&display=swap',
+        href: 'https://fonts.googleapis.com/css?family=Oswald:400,400i,700,700i&display=swap',
       },
     ],
     ['link', { rel: 'icon', href: '/tiny-logo.png' }],
@@ -24,7 +24,6 @@ module.exports = {
     },
   },
   plugins: [
-    // ['vuepress-plugin-smooth-scroll'],
     [
       'vuepress-plugin-medium-zoom',
       {
@@ -54,7 +53,7 @@ module.exports = {
       },
     ],
   ],
-  title: 'TFR',
+  title: 'tfr',
   themeConfig: {
     repo: 'tfresource/tfresource.github.io',
     docsBranch: 'source',
@@ -62,9 +61,11 @@ module.exports = {
     editLinks: true,
     editLinkText: 'Edit This Page »',
     lastUpdated: 'Last Updated',
+    logo: '/tfr-logo-title.png',
+    sidebarDepth: 0,
     nav: [
-      { text: 'TOPICS', link: '/topics/' },
-      { text: 'EVENTS', link: '/events/' },
+      { text: 'Topics', link: '/topics/' },
+      { text: 'Events', link: '/events/' },
       /*
       {
         text: 'RESOURCES',
@@ -92,28 +93,32 @@ module.exports = {
       },
       */
       {
-        text: 'ABOUT',
+        text: 'About',
         items: [
-          { text: 'About TF-Resource', link: '/topics/' },
+          { text: 'About TF-Resource', link: '/topics/About' },
           // , { text: 'How to Contribute', link: '/thing/' }
         ],
       },
     ],
     sidebar: [
       {
+        title: 'For Reviewers',
+        children: [
+          '/topics/',
+          '/topics/TF_Resource_Volunteers',
+          '/topics/Contributing',
+          '/topics/Tips-for-reviewing-pages',
+          '/topics/Contributing-Dev-Instructions',
+        ],
+      },
+      {
         title: 'Modeling Topics',
-        children: ['/topics/'], // , '/topics/Pricing Travel', '/topics/Trip Generation'],
+        children: [
+          '/topics/Big_Picture',
+          '/topics/Activity_based_models',
+          '/topics/Trip_based_models'
+        ]
       },
-      /*
-      {
-        title: 'Data Topics',
-        children: ['/topics/', '/topics/Pricing', '/topics/Trip Generation'],
-      },
-      {
-        title: 'Resources',
-        children: ['/resources/papers', '/resources/presentations', '/resources/videos'],
-      },
-      */
     ],
   },
 }

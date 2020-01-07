@@ -21,7 +21,6 @@ links:
 
 
 
-}}
 
 Mr. Sabina and Mr. Rossi will discuss DRCOG’s Focus activity-based travel model, covering topics ranging from the development of the initial vision for the project, the design of the model’s theoretical and software structures, the calibration and validation of the model, to DRCOG’s uses of the model during the two years since completion of its initial version.
 

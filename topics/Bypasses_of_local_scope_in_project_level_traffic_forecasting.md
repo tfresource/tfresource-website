@@ -40,5 +40,5 @@ Long trips logically had a destination of some significance within the triangula
 So from this table, it can be deduced that all of the “short trips” would have used the bypass, had it been available, and all of the “long trips” would have stayed on the original route. Since both O-D tables are almost symmetrical, it is possible to determine the fraction of traffic for the bypass in either direction by just comparing the total of short trips to the total of long trips. There are 345 short trips and 108 long trips, so the bypass will have approximately 76% of all traffic (345/(345 + 108)), as long as it remains uncongested.
 
 References
-==========
+----------
 

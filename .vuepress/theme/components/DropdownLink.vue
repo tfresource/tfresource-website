@@ -116,7 +116,7 @@ export default {
     background transparent
     border none
     font-weight 500
-    color $textColor
+    color white
     &:hover
       border-color transparent
     .arrow

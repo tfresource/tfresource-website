@@ -5,21 +5,21 @@ categories:
 ---
 
 Objective
-=========
+---------
 
 The objective of temporal refinement is to reduce the length of the forecast period, often from a 24-hour forecast to an hourly forecast, down to an interval that is more suitable for project-level evaluation. There are two ways of accomplishing this refinement: pre-assignment and post-assignment. Pre-assignment time-of-day factors must be applied within travel forecasting software, but post-assignment time-of-day factors may be applied after a travel model run has been completed. Time-of-day factors may also be used in adjusting traffic counts to a specific time period for an OD table estimation. Dynamic traffic assignments (DTAs) and traffic microsimulations may require O-D tables that are factored into time periods of less than one hour.
 
 Directional split refinements are intended to improve upon directional splits from a regional travel forecasting model or to convert bidirectional volumes to directional volumes.
 
 Background
-==========
+----------
 
 Many travel forecasting models are set up to provide forecasts for a full 24 hours or for multihour peak periods. However, projects are often evaluated by how well they perform over a single hour, either a design hour or a weekday peak hour. More than thirty years ago, time of day factors were published in NCHRP Report 255 (post-assignment) and NCHRP Report 187 (pre-assignment). The factors have been recently updated in NCHRP Report 765 (post-assignment) and NCHRP Report 716 (pre-assignment). Local factors are preferred to national defaults. Time-of-day factors can also be obtained from ITE’s “Trip Generation Manual”; these factors should be considered to apply post-assignment for site-specific traffic.
 
 Default directional split factors are available from NCHRP 255, but these factors are old.
 
 Guidelines
-==========
+----------
 
 The following guidelines relate to time-of-day factoring.
 
@@ -43,12 +43,12 @@ Some states (e.g., Hawaii) do not maintain default K and D tables, preferring in
 3.  Average these hourly percentages together across years, directionally (i.e., each direction separately) and bidirectionally (i.e., both directions together).
 4.  The hour starting between 6:00 AM and 11:30 AM with the highest bidirectional average percentage shall be chosen to be the “AM peak hour”. The hour starting between 11:45 AM and 5:30 PM with the highest bidirectional average percentage shall be chosen to be the “PM peak hour”.
 5.  The AM K factor is the average bidirectional percentage in the AM peak hour. Similarly, the PM K factor is the average bidirectional percentage in the PM peak hour. These factors shall be reported to the nearest tenth of one percent.
-6.  The ratio of the directional factors or a single hour is the directional split for that hour. The directional split shall be reported to the nearest whole percentage for each direction of travel. The directional split is relative to a specific direction and should not be considered to be valid for both directions of travel.
+6.  The ratio of the directional factors for a single hour is the directional split for that hour. The directional split shall be reported to the nearest whole percentage for each direction of travel. The directional split is relative to a specific direction and should not be considered to be valid for both directions of travel.
 7.  Compare the K factor values (time-of-day) to those from NCHRP Report 765 as a check for reasonableness.
 8.  Compare the D factor values (directional split) to similar sites as a check for reasonableness.
 
 Advice
-======
+------
 
 Day-of-week factors may be useful in translating a forecast from a typical weekday to a specific weekday. However, day-of-week factors cannot be established with data from coverage counts. NCHRP Report 765 contains national default day-of-week factors. Day-of-week factors may also be used to convert weekday counts to a specific weekday, with caution.
 
@@ -57,14 +57,14 @@ Day-of-week factors (which are available in NCHRP Report 765) should not be used
 The growing interest in DTA suggests that in the future time-of-day factors should be computed in time increments of less than one hour, such as 15 minutes, from count data.
 
 Items to Report
-===============
+---------------
 
 -   Hourly factors
 -   Hourly directional splits
 -   Factored counts or factored volumes
 
 References
-==========
+----------
 
 NCHRP Report 716 and NCHRP Report 765
 ITE Trip Generation Manual

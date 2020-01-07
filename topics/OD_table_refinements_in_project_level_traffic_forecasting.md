@@ -5,14 +5,14 @@ categories:
 ---
 
 Objective
-=========
+---------
 
 An O-D table refinement improves the fit of a traffic model to ground counts in the base year by making systematic empirical adjustments to an O-D table that had been previously computed from behavioral principles or obtained through a survey. An O-D table refinement has the potential to smooth-out irregularities in traffic counts while achieving a perfectly balanced set of forecasted volumes. There are a large number of methods for refining an O-D table. Refinements can be in the form of additive adjustments or multiplicative adjustments. When creating refinements it is important to preserve as much of the underlying structure of the original O-D table as possible.
 
 This technique applies to short-term and interim forecasts. The technique applies to corridor, small-area and wide area geographical scopes.
 
 Background
-==========
+----------
 
 O-D table refinement uses the concept of O-D table estimation with traffic counts. Refinements may be static or dynamic; this section emphasizes static refinements. There are many different methods in the published literature, but they all share certain common elements. An O-D table estimation from traffic counts requires three important data items.
 
@@ -22,17 +22,17 @@ O-D table refinement uses the concept of O-D table estimation with traffic count
 
 The estimation process attempts to find a balance between distortions to the seed O-D table and mismatches to the traffic counts. One way of achieving this balance is through a minimization process, such as illustrated in this equation:
 
-$$min\quad P\quad =\sum _{ a=1 }^{ A }{ { w }_{ }^{ a }{ \left( { c }_{ }^{ a }-s\sum _{ i=1 }^{ N }{ \sum _{ j=1 }^{ N }{ { p }_{ ij }^{ a }{ T }_{ ij }^{ } } } \right) }_{ }^{ 2 } } +z\sum _{ i=1 }^{ N }{ \sum _{ j=1 }^{ N }{ { \left( { T }_{ ij }^{ * }-s{ T }_{ ij }^{ } \right) }_{ }^{ 2 } } }$$
+$$min\quad P\quad =\sum _{ a=1 }^{ A }{ { w }_{ }^{ a }{ \left( { c }_{ }^{ a }-s\sum _{ i=1 }^{ N }{ \sum _{ j=1 }^{ N }{ { p }_{ ij }^{ a }{ T }_{ ij }^{ } } } \right) }_{ }^{ 2 } } +z\sum _{ i=1 }^{ N }{ \sum _{ j=1 }^{ N }{ { \left( { T }_{ ij }^{ o }-s{ T }_{ ij }^{ } \right) }_{ }^{ 2 } } }$$
 
-where w^a^ are link weights, z is a O-D table weight, s is a scale factor, ${ T }_{ ij }^{ * }$ is the seed O-D table, ${ T }_{ ij }^{   }$ is the estimated O-D table, and everything else has been defined previously. Estimated O-D flows are constrained to be non-negative. Link weights allow the analyst to emphasize or deemphasize certain counts, perhaps because counts can be uneven in terms of quality. The OD table weight is used to control the amount of distortion in the O-D table, which influences the closeness of fit to the ground counts.
+where w<sup>a</sup> are link weights, z is a O-D table weight, s is a scale factor, ${ T }_{ ij }^{ o }$ is the seed O-D table, ${ T }_{ ij }^{   }$ is the estimated O-D table, and everything else has been defined previously. Estimated O-D flows are constrained to be non-negative. Link weights allow the analyst to emphasize or deemphasize certain counts, perhaps because counts can be uneven in terms of quality. The OD table weight is used to control the amount of distortion in the O-D table, which influences the closeness of fit to the ground counts.
 
 Once the estimated O-D table has been found, corrections can be expressed additively,
 
-$${ R }_{ ij }^{ }={ T }_{ ij }^{ }-{ T }_{ ij }^{ * }$$
+$${ R }_{ ij }^{ }={ T }_{ ij }^{ }-{ T }_{ ij }^{ o }$$
 
 or multiplicatively,
 
-$${ K }_{ ij }^{ }=\frac { { T }_{ ij }^{ } }{ { T }_{ ij }^{ * } }$$
+$${ K }_{ ij }^{ }=\frac { { T }_{ ij }^{ } }{ { T }_{ ij }^{ o } }$$
 
 After performing a forecast with a travel forecasting model, refinements can be reintroduced into the forecast by modifying the forecasted O-D additively or multiplicatively.
 
@@ -41,7 +41,7 @@ Dynamic refinements are similar, but add the time dimension to a static table. D
 An important detail with O-D table refinements is the need for feedback between equilibrium traffic assignment and the estimation process. This is often referred to in the literature as a “bilevel optimization”, since some equilibrium traffic assignment methods also use optimization theory. Practically speaking, “bilevel optimization” increases the computational burden of the estimation process, but does not place any significant additional requirement on the analyst.
 
 Guidelines
-==========
+----------
 
 Since O-D table refinements, for the most part, require specialized software, the software documentation should be consulted to determine input requirements and interpretations of outputs. However, there are several guidelines for O-D table estimation that generally apply.
 
@@ -56,7 +56,7 @@ Since O-D table refinements, for the most part, require specialized software, th
 -   The resulting O-D table needs to be inspected for reasonableness. Volumes on links without counts, in particular, need to be inspected for reasonableness. Average trip length should be inspected for reasonableness. If available, delays and queue lengths could be inspected for reasonableness.
 
 Advice
-======
+------
 
 O-D table refinements are preferred over screenline refinements, because they can involve many more traffic counts, and thus, the adjusted screenline volumes are based on a more comprehensive set of information.
 
@@ -65,7 +65,7 @@ Large O-D table refinements can be very computational. It may take hours or days
 It is recommended that old refinements be updated at intervals of no more than five years.
 
 Items to Report
-===============
+---------------
 
 -   Refinement adjustments (computer file)
 -   Refinement table (computer file)
@@ -73,7 +73,7 @@ Items to Report
 -   Goodness of fit to ground counts
 
 References
-==========
+----------
 
 NCHRP Report 765.
 

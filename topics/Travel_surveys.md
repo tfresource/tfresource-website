@@ -46,7 +46,7 @@ The most common types of travel surveys include:
 Generic Survey Process
 ======================
 
-Backstrom and Hursh-Cesar (1981)[^1] divided the generic survey implementation process into the 20 steps. These 20 steps can be classified into five general stages: (1) survey planning, (2) survey design, (3) field implementation, (4) data preparation, and (5) data analysis. The follow figure breaks down each of the general stages into the collective 20 steps.
+Backstrom and Hursh-Cesar (1981)[^1] divided the generic survey implementation process into the 20 steps. These 20 steps can be classified into five general stages: (1) survey planning, (2) survey design, (3) field implementation, (4) data preparation, and (5) data analysis. 
 
 Survey Planning
 ---------------
@@ -71,9 +71,10 @@ Sample sizes have dropped considerably in the last few decades due to rising cos
 Recent Methods
 ==============
 
-Several methods have been adopted to augment the traditional, diary-based household travel surveys. Some of these methods include [GPS-enabled surveys](GPS_enabled_surveys) and [longitudinal surveys](longitudinal_surveys). See [Household travel surveys: Where are we going?](Household_travel_surveys_Where_are_we_going_3F) for an overview. In this paper, Stopher and Greaves (2007) talk about GPS-enabled surveys and longitudinal surveys. They also review a study which tests the use of [synthetic travel data](synthetic_travel_data), which was constructed using census data and a national household travel survey.
+Several methods have been adopted to augment the traditional, diary-based household travel surveys. Some of these methods include [GPS-enabled surveys](GPS_enabled_surveys) and longitudinal surveys. See  the paper "Household travel surveys: Where are we going?"[^2] for an overview. In this paper, Stopher and Greaves (2007) talk about GPS-enabled surveys and longitudinal surveys. They also review a study which tests the use of synthetic_travel_data, which was constructed using census data and a national household travel survey.
 
-'''Gamified Web-Based surveys
+Gamified Web-Based surveys
+--------------------------
 
 Why a gamified survey?
 Gamified web-based surveys are becoming more common in market research to encourage response. The main problem we face with online research is motivating people to take part in surveys and give us their full attention during the time they are completing them. The key reason for this problem is simply that surveys are generally seen as being boring.
@@ -82,7 +83,7 @@ A ‘gamified’ web-based surveys is useful when there already is information a
 
 Gamified approaches are considered when the in the following cases::
 
-1\. The target sample was a “hard to reach’ population
+1\. The target sample was a “hard to reach" population
 
 2\. Need to increase interest and engagement (perhaps previous surveys had a lot of drop-outs)
 
@@ -132,4 +133,8 @@ References
 The [Online Travel Survey Manual](Online_Travel_Survey_Manual) provides a comprehensive overview of travel surveys. It is curated by Transportation Research Board’s Travel Survey Methods Committee (ABJ40).
 
 [^1]: Backstrom, Charles and Gerald Hursh-Cesar. (1981) Survey Research, 2nd edition, John Wiley & Sons.
+
+[^2]: Stopher, P. R., & Greaves, S. P. (2007). Household travel surveys: Where are we going?. Transportation Research Part A: Policy and Practice, 41(5), 367-381.
+Chicago	
+
 

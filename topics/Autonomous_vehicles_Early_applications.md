@@ -1,11 +1,9 @@
 ---
 title: "Autonomous vehicles: Early applications"
 categories:
-  - Needs Review
   - Autonomous Vehicles
 ---
 
-<span style="background:lightgrey;padding:10px;border-left: thick double #0000aa;"> This page is part of the Category \[.</span>
 
 Several agencies have already begun to integrate connected and autonomous vehicles into their travel forecasting process. All are "works in progress," such that the descriptions below are likely to evolve over the next year in response to changing analytical needs, knowledge is gained about social and behavioral responses to CAVs, and best practices emerge. Some examples of these early applications are described below, organized by broad category of models.
 
@@ -13,7 +11,7 @@ Several agencies have already begun to integrate connected and autonomous vehicl
 
 It is important to note that none of the modeling frameworks described here are necessarily better than the other when it comes to accommodating the uncertain future of CAV. Whether it is the overall lack of behavioral data that exists when considering CAV impacts or the caveat of imposed changes intended to represent expected behavioral changes from widespread deployment of CAV, there remains much to be learned. However, some experimentation has been done and is reported here to begin to provide some understanding of the complexities and challenges to be faced.
 
-These examples are divided into 3 categories. Those using :
+These examples are divided into 3 categories. Those using:
 
 -   Trip Based Models
 -   Activity Based Models, and
@@ -83,15 +81,13 @@ The second phase of MTC autonomous vehicle testing was performed by a former Sta
 
 The ability to explicitly represent CAV demand and impacts was recently added to Ontario's provincial model. The modeling system, known as the Transport and Regional Economic Simulation of Ontario (TRESO), is a microsimulation-based modeling system that integrates local and long-distance resident, visitors, and commercial vehicle travel models with a space-time traffic assignment operating at two levels of network resolution. The specific enhancements relevant to modeling connected and autonomous vehicles include:
 
--   Vehicles are added to the [synthetic population](Population_Synthesis) (household and persons) based upon user-specified rules of CAV5 adoption by market segment. The possibilities include conventional and autonomous vehicles by [SAE automation level](https://www.sae.org/misc/pdfs/automated_driving.pdf) that are either privately owned or shared. The latter are intentionally vaguely defined to enable travelers to choose the service or mode with highest utility during mode choice. The markets can be segmented by income, household structure, area type, or other household or person attributes.
+-   Vehicles are added to the [synthetic population](Population_Synthesis) (household and persons) based upon user-specified rules of CAV5 adoption by market segment. The possibilities include conventional and autonomous vehicles by [SAE automation level](https://www.sae.org/news/press-room/2018/12/sae-international-releases-updated-visual-chart-for-its-%E2%80%9Clevels-of-driving-automation%E2%80%9D-standard-for-self-driving-vehicles) that are either privately owned or shared. The latter are intentionally vaguely defined to enable travelers to choose the service or mode with highest utility during mode choice. The markets can be segmented by income, household structure, area type, or other household or person attributes.
 -   CAVs and mobility services (e.g., Lyft, Uber) have been added to the mode choice model, both as top-level choices as well as access and egress modes for various transit submodes.
 -   A ride-pairing module has been added to match inter-household trips by user-defined criteria and market shares to reflect potentially increased ride-sharing in both CAV and traditional vehicles. The matches are often made for similar travelers moving between the same origin and destination within a given time slice, which can vary by origin and/or destination region or accessibility levels at the origin or destination.
--   The capacities in traffic assignment are adjusted based upon the degree of market penetration by CAVs implied during vehicle synthesis. The adjustments are based upon a methodology advanced by [Levin & Boyles (2015)](http://trrjournalonline.trb.org/doi/abs/10.3141/2493-04) and traffic flow and vehicular considerations shared by [Mahmassani (2016)](http://pubsonline.informs.org/doi/abs/10.1287/trsc.2016.0712).
+-   The capacities in traffic assignment are adjusted based upon the degree of market penetration by CAVs implied during vehicle synthesis. The adjustments are based upon a methodology advanced by Levin & Boyles (2015)[^6] and traffic flow and vehicular considerations shared by Mahmassani (2016)[^7].
 
 The enhancements intentionally require the analyst to explicit code assumptions about the future instead of relying upon estimated or asserted model parameters. Thus, the capabilities sacrifice rigor for ability to specify a wide range of alternatives. The intention is to run the TRESO system with a bundle of assumptions, enabling scores of different combinations of assumptions to be compared through the mining of model outputs.
 
-Visioning (strategic) modeling systems
---------------------------------------
 
 References
 ==========
@@ -100,11 +96,15 @@ References
 
 [^1]: [NCHRP Report 20-102(9) Providing Support to the Introduction of CV/AV Impacts into Regional Transportation Planning and Modeling Tools](http://apps.trb.org/cmsfeed/TRBNetProjectDisplay.asp?ProjectID=4008)
 
-[^2]: Zmud, Johanna and Ipek Sener, Jason Wagner. Consumer Acceptance and Travel Behavior Impacts of Automated Vehicles, Texas A&M Transportation Institute, Transportation Policy Research Center, 2015
+[^2]: [Zmud, Johanna and Ipek Sener, Jason Wagner. Consumer Acceptance and Travel Behavior Impacts of Automated Vehicles, Texas A&M Transportation Institute, Transportation Policy Research Center, 2015.](https://static.tti.tamu.edu/tti.tamu.edu/documents/PRC-15-49-F.pdf)
 
-[^3]: Childress, S., B. Nichols, B. Charlton, S. Coe (2015). Using an Activity-Based Model to Explore Possible Impacts of Automated Vehicles. Submitted for presentation at the 2015 TRB Annual Conference, Washington, D.C.[1](https://psrc.github.io/attachments/2014/TRB-2015-Automated-Vehicles-Rev2.pdf)
+[^3]: [Childress, S., B. Nichols, B. Charlton, S. Coe (2015). Using an Activity-Based Model to Explore Possible Impacts of Automated Vehicles. Submitted for presentation at the 2015 TRB Annual Conference, Washington, D.C.](https://psrc.github.io/attachments/2014/TRB-2015-Automated-Vehicles-Rev2.pdf)
 
-[^4]: Travel Model Development: Sensitivity Testing; DRAFT Technical Report; Metropolitan Transportation Commission with Parsons Brinckerhoff, Inc.; June 27, 2013 (2013)[2](http://analytics.mtc.ca.gov/foswiki/pub/Main/Documents/2013_06_27_RELEASE_DRAFT_Sensitivity_Testing.pdf)
+[^4]: [Travel Model Development: Sensitivity Testing; DRAFT Technical Report; Metropolitan Transportation Commission with Parsons Brinckerhoff, Inc.; June 27, 2013 (2013)](http://analytics.mtc.ca.gov/foswiki/pub/Main/Documents/2013_06_27_RELEASE_DRAFT_Sensitivity_Testing.pdf)
 
-[^5]: Gucwa, M. (2014, July 14). Retrieved from [Gucwa 2014](https://higherlogicdownload.s3.amazonaws.com/AUVSI/c2a3ac12-b178-4f9c-a654-78576a33e081/UploadedImages/documents/pdfs/7-16-14%20AVS%20presentations/Michael%20Gucwa.pdf).
+[^5]: [Gucwa, M. (2014, July 14). Retrieved from Gucwa 2014](https://higherlogicdownload.s3.amazonaws.com/AUVSI/c2a3ac12-b178-4f9c-a654-78576a33e081/UploadedImages/documents/pdfs/7-16-14%20AVS%20presentations/Michael%20Gucwa.pdf).
 
+[^6]: [Levin, M. and S. Boyles (2015) Effects of autonomous vehicle ownership on trip, mode,
+and route choice, *Transportation Research Board 94th Annual Meeting*, no. 15-2147.](https://sboyles.github.io/research/levinboylesav.pdf).
+
+[^7]: [Mahmassani, Hani. (2016). Autonomous Vehicles and Connected Vehicle Systems: Flow and Operations Considerations, *Transportation Sceience* (50):4](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2016.0712).
