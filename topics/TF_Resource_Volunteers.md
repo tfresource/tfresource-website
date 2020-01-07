@@ -91,7 +91,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Pavement design in project-level traffic forecasting](Pavement_design_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Pedestrian Route Choice](Pedestrian_Route_Choice) | Patrick Singleton | | |
 | [Pivoting with select link analysis for small developments in project-level traffic forecasting](Pivoting_with_select_link_analysis_for_small_developments_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
-| [Planning and policy context](Planning_and_policy_context) | Lisa Zorn | | |
+| [Planning and policy context](Planning_and_policy_context) | Lisa Zorn | Lisa 1/6/2020 | Deleted - this is a duplicate of [Autonomous vehicles: planning and policy context](Autonomous_vehicles_planning_and_policy_context) |
 | [Polaris](Polaris) | Tom Rossi | | |
 | [Policy relevance of transportation models](Policy_relevance_of_transportation_models) |Patricia Lavieri | | |
 | [Prerequisites for travel modeling](Prerequisites_for_travel_modeling) | Rick Donnelly | | |
