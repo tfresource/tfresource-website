@@ -7,7 +7,7 @@ categories:
 
 For project evaluation in the Capital Investment Grant Program, FTA allows the use of region-wide travel models, incremental data-driven models, or FTA’s Simplified Trips-on-Project Software (STOPS). The choice is at the project sponsor’s option.
 
-Region-wide travel models are for an entire city or metropolitan area. For more information on these types of models, please see TFResource's [urban and metropolitan model page](http://tfresource.org/Urban_and_Metropolitan_Models)\].
+Region-wide travel models are for an entire city or metropolitan area. For more information on these types of models, please see TFResource's [urban and metropolitan model page](Urban_and_Metropolitan_Models).
 
 Incremental data-driven models are compelled by data rather than by models. They provide a straightforward approach to representing predictable project situations. The types of transit travel data used for these types of models are boarding-to-alighting, origin/destination, or station-to-station flows. Service level changes are applied to the flow data. These changes reflect the improvements and impacts of the proposed project. The changes in service levels are then applied to flow data via elasticities, arithmetic representations of how sensitive transit trips are to changes in the service level variables. The elasticities are transferable across different urban areas if the type of data is also consistent. Data-driven models can be developed in a spreadsheet program, or applied in regular travel modeling software. They generally require few resources to set up and execute.
 
@@ -66,8 +66,7 @@ The plausibility of the forecasts can be confirmed if they are found to be simil
 
 1.  Travel Forecasting Results Report
 
-References
-----------
+### References
 
 [^1]: FTA's page on STOPS, <http://www.fta.dot.gov/grants/15682.html>
 
