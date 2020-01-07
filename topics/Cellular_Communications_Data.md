@@ -1,6 +1,7 @@
 ---
 title: "Cellular Communications Data"
-categories: Spatial Data
+categories: 
+  - Spatial Data
 
 ---
 
