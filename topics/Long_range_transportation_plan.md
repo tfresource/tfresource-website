@@ -1,7 +1,7 @@
 ---
 title: "Long range transportation plan"
 categories:
-  - Needs Review
+
 ---
 
 **Long Range Transportation Plan**
@@ -12,6 +12,8 @@ Long-range transportation plans take place at a variety of geographic levels:
 -   Statewide, conducted by State DOTs
 -   Regional, a key function of [Metropolitan Planning Organizations](Metropolitan_Planning_Organization)
 -   Local, less common, but can be conducted by counties, cities, or other local jurisdictions
+
+## References
 
 <http://www.fhwa.dot.gov/planning>
 

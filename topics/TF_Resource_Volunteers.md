@@ -37,7 +37,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Box-Cox transformations in project-level traffic forecasting](Box_Cox_transformations_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Bypasses of local scope in project-level traffic forecasting](Bypasses_of_local_scope_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Bypasses of regional scope in project-level traffic forecasting](Bypasses_of_regional_scope_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
-| [Cellular Communications Data](Cellular_Communications_Data) | | | |
+| [Cellular Communications Data](Cellular_Communications_Data) | Matt Stratton | Matt 1/7/2020 | |
 | [Current trends in travel behavior](Current_trends_in_travel_behavior) |Patricia Lavieri | | |
 | [Data Development](Data_Development) | Lisa Zorn | Lisa Zorn | |
 | [Data Visualization](Data_Visualization) | Lisa Zorn | | |
@@ -59,7 +59,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Linear models with explanatory variables in project-level traffic forecasting](Linear_models_with_explanatory_variables_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [List of Model User Groups](List_of_Model_User_Groups) | Tom Rossi | | |
 | [Location-Based Services Data](Location_Based_Services_Data) | Greg | Greg | |
-| [Long range transportation plan](Long_range_transportation_plan) | | | |
+| [Long range transportation plan](Long_range_transportation_plan) | Matt Stratton | Matt 1/7/2020 | |
 | [MPO model documentation](MPO_model_documentation) | Patrick Singleton | | |
 | [Market Segmentation](Market_Segmentation) |Patricia Lavieri | | |
 | [Measures of effectiveness and performance measures in project-level traffic forecasting](Measures_of_effectiveness_and_performance_measures_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
@@ -156,20 +156,19 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Activity Based Modeling Primer](Activity_Based_Modeling_Primer) |Rajesh Paleti | | |
 | [Benefits of Activity Based Models](Benefits_of_Activity_Based_Models) |Rajesh Paleti | | |
 | [Future prospect for activity-based models](Future_prospect_for_activity_based_models) | Venu Garikapati | | |
-| [Integrated Travel Demand and Network Models](Integrated_Travel_Demand_and_Network_Models) | | | |
+| [Integrated Travel Demand and Network Models](Integrated_Travel_Demand_and_Network_Models) | Matt Stratton | | |
 | [Limitations in classic constraint based approaches](Limitations_in_classic_constraint_based_approaches) |Venu Garikapati | | |
 | [Mode choice](Mode_choice) |Rajesh Paleti | | |
 | [NCHRP Synthesis 406: Advanced Practices in Travel Forecasting - A Synthesis of Highway Practice](NCHRP_Synthesis_406_Advanced_Practices_in_Travel_Forecasting_A_Synthesis_of_Highway_Practice) | Rolf | 5 Dec 2019 | |
 | [Population Synthesis](Population_Synthesis) | Brice Nichols | | |
 | [Population Synthesis For Microsimulating Travel Behavior](Population_Synthesis_For_Microsimulating_Travel_Behavior) | Brice Nichols | | |
 | [Synthetic populations: review of the different approaches](Synthetic_populations_review_of_the_different_approaches) | Brice Nichols | | |
-| [The ARC and SACOG Experience with Activity-Based Models - Synthesis and Lessons Learned](The_ARC_and_SACOG_Experience_with_Activity_Based_Models_Synthesis_and_Lessons_Learned) | | | |
+| [The ARC and SACOG Experience with Activity-Based Models - Synthesis and Lessons Learned](The_ARC_and_SACOG_Experience_with_Activity_Based_Models_Synthesis_and_Lessons_Learned) | Matt Stratton | Matt 1/7/2020 | media.tmiponline.org link broken |
 | [Tour-based models](Tour_based_models) |Venu Garikapati | | |
-| **Activity Based Models‏‎:** | --- | --- | --- |
-| [ARC's Experience Using its CT-RAMP Activity-Based Model](ARC's_Experience_Using_its_CT_RAMP_Activity_Based_Model) | | | |
-| [DRCOG's Experience Using its FOCUS Activity-Based Model](DRCOG's_Experience_Using_its_FOCUS_Activity_Based_Model) | Tom Rossi | | |
-| [NCTCOG Path Towards Advanced Analytical Tools](NCTCOG_Path_Towards_Advanced_Analytical_Tools) | | | |
-| [SFCTA's Experience Using its SF-CHAMP Activity-Based Model](SFCTA's_Experience_Using_its_SF_CHAMP_Activity_Based_Model) | | | |
+| [ARCs Experience Using its CT-RAMP Activity-Based Model](ARC_s_Experience_Using_its_CT_RAMP_Activity_Based_Model) | Matt Stratton | Matt 1/7/2020 | |
+| [DRCOGs Experience Using its FOCUS Activity-Based Model](DRCOG_s_Experience_Using_its_FOCUS_Activity_Based_Model) | Tom Rossi | | |
+| [NCTCOG Path Towards Advanced Analytical Tools](NCTCOG_Path_Towards_Advanced_Analytical_Tools) | Matt Stratton | Matt 1/7/2020 | media.tmiponline.org links are broken |
+| [SFCTAs Experience Using its SF-CHAMP Activity-Based Model](SFCTA_s_Experience_Using_its_SF_CHAMP_Activity_Based_Model) | Matt Stratton | Matt 1/7/2020 | media.tmiponline.org links are broken |
 | **Autonomous Vehicles:** | --- | --- | --- |
 | [Autonomous vehicles](Autonomous_vehicles) | Brice Nichols | | |
 | [Autonomous vehicles: Behavioral considerations](Autonomous_vehicles_Behavioral_considerations) | Brice Nichols | | |
@@ -188,8 +187,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Choice models](Choice_models) | Rajesh Paleti | | |
 | [Content Charrette: Destination Choice Models](Content_Charrette_Destination_Choice_Models) | Taha | | |
 | [Data Driven Methods](Data_Driven_Methods) | Venu Garikapati | | |
-| [Destination Choice Set Formation](Destination_Choice_Set_Formation) | Taha | | |
-| [Destination Choice: Calibration and Validation](Destination_Choice_Calibration_and_Validation) | Taha | | |
+| [Destination Choice Set Formation](Destination_Choice_Set_Formation) | Taha | Taha 06/01| |
+| [Destination Choice: Calibration and Validation](Destination_Choice_Calibration_and_Validation) | Taha | Taha 07/01 | |
 | [Destination Choice: Data Sources](Destination_Choice_Data_Sources) | Taha | | |
 | [Destination Choice: Implementation and Application](Destination_Choice_Implementation_and_Application) | Taha | | |
 | [Destination Choice: Mathematical Formulation](Destination_Choice_Mathematical_Formulation) |Rajesh Paleti | Taha | |
@@ -231,8 +230,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Validating Input Data](Validating_Input_Data) | Tom Rossi | | |
 | **Network Assignment:** | --- | --- | --- |
 | [Dynamic Traffic Assignment](Dynamic_Traffic_Assignment) | Pooya | | |
-| [Re-simulating link volumes to reflect uncertainty in highway assignment](Re_simulating_link_volumes_to_reflect_uncertainty_in_highway_assignment) | | | |
-| [SHRP2 C04 - Improving Our Understanding of How Highway Congestion and Pricing Affect Travel Demand](SHRP2_C04_Improving_Our_Understanding_of_How_Highway_Congestion_and_Pricing_Affect_Travel_Demand) | | | |
+| [Re-simulating link volumes to reflect uncertainty in highway assignment](Re_simulating_link_volumes_to_reflect_uncertainty_in_highway_assignment) | Matt Stratton | Matt 1/7/2020 | |
+| [SHRP2 C04 - Improving Our Understanding of How Highway Congestion and Pricing Affect Travel Demand](SHRP2_C04_Improving_Our_Understanding_of_How_Highway_Congestion_and_Pricing_Affect_Travel_Demand) | Matt Stratton | Matt 1/7/2020 | |
 | [Stochastic Traffic Assignment](Stochastic_Traffic_Assignment) | | | |
 | [Traffic simulation models](Traffic_simulation_models) | | | |
 | [User Equilibrium](User_Equilibrium) | | | |
@@ -240,7 +239,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | **New Starts:** | --- | --- | --- |
 | [New Starts](New_Starts) |Julie Dunbar | | |
 | [STOPS](STOPS) |Julie Dunbar | | |
-| [Travel Forecasting for the Capital Investment Grant Program](Travel_Forecasting_for_the_Capital_Investment_Grant_Program) | | | |
+| [Travel Forecasting for the Capital Investment Grant Program](Travel_Forecasting_for_the_Capital_Investment_Grant_Program) | Matt Stratton | Matt 1/7/2020 | |
 | **Papers:** | --- | --- | --- |
 | [A model of complex travel behavior](A_model_of_complex_travel_behavior) | | | |
 | [Austin Mode Choice Model](Austin_Mode_Choice_Model) | | | |
@@ -249,7 +248,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [TMIP Activity Based Model Webinar Series Instructor Manual](TMIP_Activity_Based_Model_Webinar_Series_Instructor_Manual) | | | |
 | [The Chicago Area Transportation Study: Creating the First Plan (1955-1962)](The_Chicago_Area_Transportation_Study_Creating_the_First_Plan_(1955_1962)) | Patrick Singleton | | |
 | [Toward a dynamic model of individual activity pattern formulation](Toward_a_dynamic_model_of_individual_activity_pattern_formulation) | | | |
-| [Traveler Behavior and Values Research for Human-Centered Transportation Systems](Traveler_Behavior_and_Values_Research_for_Human_Centered_Transportation_Systems) | | | |
+| [Traveler Behavior and Values Research for Human-Centered Transportation Systems](Traveler_Behavior_and_Values_Research_for_Human_Centered_Transportation_Systems) | Matt Stratton | Matt 1/7/2020 | |
 | **Pricing And Valuation:** | --- | --- | --- |
 | [Pricing and Travel Time Reliability Enhancements in the SANDAG Activity-Based Travel Model: Final Report](Pricing_and_Travel_Time_Reliability_Enhancements_in_the_SANDAG_Activity_Based_Travel_Model_Final_Report) | | | |
 | [Pricing and valuation](Pricing_and_valuation) | | | |

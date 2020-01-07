@@ -2,7 +2,6 @@
 title: "The ARC and SACOG Experience with Activity-Based Models - Synthesis and Lessons Learned"
 noTOC: true
 categories:
-  - Needs Review
   - Activity Based Models
   - Reports
   - Resources
@@ -34,7 +33,7 @@ This report represents the second phase of a study commissioned by the Associati
 
 #### Publication Date
 
-2012}}
+2012
 
 ------------------------------------------------------------------------
 
