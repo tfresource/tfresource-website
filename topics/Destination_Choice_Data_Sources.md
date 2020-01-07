@@ -14,7 +14,8 @@ The flexibility of destination choice models comes at a cost. While it is possib
 Observed Choice Data
 --------------------
 
-![](DestinationChoiceArrows.png "fig:DestinationChoiceArrows.png")Observed Choice Data describe actually chosen origin-destination pairs. Usually provided at a zone-to-zone resolution, these data provide at a minimum the origin and destination of individual trips. For [tour-based](Tour_based_models) or [activity-based models](Activity_Based_Models), an entire trip chain is provided, such as going from home to work, from work to a restaurant and the restaurant back home. Often, such data are stratified by trip purpose, mode, time of day and various socio-demographic characteristics of the traveler.
+![](DestinationChoiceArrows.png "fig:DestinationChoiceArrows.png")
+Observed Choice Data describe actually chosen origin-destination pairs. Usually provided at a zone-to-zone resolution, these data provide at a minimum the origin and destination of individual trips. For [tour-based](Tour_based_models) or [activity-based models](Activity_Based_Models), an entire trip chain is provided, such as going from home to work, from work to a restaurant and the restaurant back home. Often, such data are stratified by trip purpose, mode, time of day and various socio-demographic characteristics of the traveler.
 
 ### Household Travel Surveys
 
@@ -55,7 +56,8 @@ The most common attractor used in destination choice modeling are [socio-economi
 
 ### Accessibilities
 
-![](AccessibilityMunich.png "fig:AccessibilityMunich.png")[Accessibilities](Accessibilities) are an aggregate measure that describes how easily from a given zone other destinations are accessible. The most commonly used definition of accessibilities are number of jobs that can be reached within a given time (such as 30 minutes), or the Potential Accessibility[^5] that discounts the size of destinations by their distance. Zones with higher accessibilities are generally assumed to attract larger number of travelers, all other things being equal. Zones with higher accessibilities tend to be located in neighborhoods that offer many trip attractions, and thereby, allow to link trips more easily.
+![](AccessibilityMunich.png "fig:AccessibilityMunich.png")
+[Accessibilities](Accessibilities) are an aggregate measure that describes how easily from a given zone other destinations are accessible. The most commonly used definition of accessibilities are number of jobs that can be reached within a given time (such as 30 minutes), or the Potential Accessibility[^5] that discounts the size of destinations by their distance. Zones with higher accessibilities are generally assumed to attract larger number of travelers, all other things being equal. Zones with higher accessibilities tend to be located in neighborhoods that offer many trip attractions, and thereby, allow to link trips more easily.
 
 A special form of accessibilities are [mode choice logsums](Skim_Matrix#Logsums) that do not only take into account travel time by one mode, but combine travel times by various modes. Modes may be weighted by the share they are used by a particular user class, which allows to better represent the relevance of transit access for low-income households.
 
