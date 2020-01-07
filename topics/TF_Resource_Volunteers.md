@@ -39,10 +39,10 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Bypasses of regional scope in project-level traffic forecasting](Bypasses_of_regional_scope_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Cellular Communications Data](Cellular_Communications_Data) | | | |
 | [Current trends in travel behavior](Current_trends_in_travel_behavior) |Patricia Lavieri | | |
-| [Data Development](Data_Development) | Lisa Zorn | Lisa Zorn | |
-| [Data Visualization](Data_Visualization) | Lisa Zorn | Lisa Zorn | |
+| [Data Development](Data_Development) | Lisa Zorn | Lisa 12/6/2019 | |
+| [Data Visualization](Data_Visualization) | Lisa Zorn | Lisa 12/9/2019 | Marked as Stub |
 | [Discussion of travel delay in acceptable models in project-level traffic forecasting](Discussion_of_travel_delay_in_acceptable_models_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
-| [Empirical Accuracy of Travel Forecasts](Empirical_Accuracy_of_Travel_Forecasts) | Lisa Zorn | Lisa Zorn | |
+| [Empirical Accuracy of Travel Forecasts](Empirical_Accuracy_of_Travel_Forecasts) | Lisa Zorn | Lisa 12/9/2019 | |
 | [Example of an autoregression model with Box-Cox transformation](Example_of_an_autoregression_model_with_Box_Cox_transformation) | Alan/Kermit | Alan 12/24/19 | |
 | [Explaining Activity-Based Models to a General Audience](Explaining_Activity_Based_Models_to_a_General_Audience) |Patricia Lavieri | | |
 | [Format Testing](Format_Testing) | | | Rolf: Can this page be deleted?|
@@ -86,7 +86,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Multiple Discrete-Continuous Extreme Value (MDCEV) Model](Multiple_Discrete_Continuous_Extreme_Value_(MDCEV)_Model) |Rajesh Paleti | | |
 | [OD table refinements in project-level traffic forecasting](OD_table_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Open Data Sources](Open_Data_Sources) |Patricia Lavieri | | |
-| [Path Choice Mode choice Consistency](Path_Choice_Mode_choice_Consistency) | Lisa Zorn | | |
+| [Path Choice Mode choice Consistency](Path_Choice_Mode_choice_Consistency) | Lisa Zorn | Lisa 1/6/2020 | |
 | [Path Finding Algorithm](Path_Finding_Algorithm) | Lisa Zorn | | |
 | [Pavement design in project-level traffic forecasting](Pavement_design_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Pedestrian Route Choice](Pedestrian_Route_Choice) | Patrick Singleton | | |
