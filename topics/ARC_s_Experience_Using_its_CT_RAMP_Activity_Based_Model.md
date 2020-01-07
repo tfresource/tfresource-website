@@ -2,7 +2,6 @@
 title: "ARC's Experience Using its CT-RAMP Activity-Based Model"
 noTOC: true
 categories:
-  - Needs Review
   - Activity Based Models‏‎
   - Resources
   - Webinars And Videos
