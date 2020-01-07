@@ -1,7 +1,6 @@
 ---
 title: "Parking surveys"
 categories:
-  - Needs Review
   - Travel Surveys
 ---
 
@@ -28,7 +27,7 @@ The following types of parking facilities should be targeted for surveying in or
 References
 ==========
 
-1.  Tierney et al.’s FHWA Manual Chapter 12 (Cambridge Systematics 1994).
+1.  Tierney et al.’s [FHWA Manual](https://rosap.ntl.bts.gov/view/dot/13222) Chapter 12 (Cambridge Systematics 1994).
 2.  Jesse Simon and Chris Simek. [Online Travel Survey Manual](http://www.travelsurveymanual.org/Chapter-20.html). Chapter 12.
 
 
