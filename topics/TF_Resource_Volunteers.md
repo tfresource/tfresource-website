@@ -152,11 +152,11 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Developer Instructions: Building TF-Resource Locally](Contributing-Dev-Instructions) | | | |
 | [Governance](Governance) | Julie Dunbar| | |
 | **Activity Based Models:** | --- | --- | --- |
-| [ALBATROSS](ALBATROSS) | | | |
+| [ALBATROSS](ALBATROSS) | Josh | | |
 | [Activity Based Modeling Primer](Activity_Based_Modeling_Primer) |Rajesh Paleti | | |
 | [Benefits of Activity Based Models](Benefits_of_Activity_Based_Models) |Rajesh Paleti | | |
 | [Future prospect for activity-based models](Future_prospect_for_activity_based_models) | Venu Garikapati | | |
-| [Integrated Travel Demand and Network Models](Integrated_Travel_Demand_and_Network_Models) | Matt Stratton | | |
+| [Integrated Travel Demand and Network Models](Integrated_Travel_Demand_and_Network_Models) | Josh | | |
 | [Limitations in classic constraint based approaches](Limitations_in_classic_constraint_based_approaches) |Venu Garikapati | | |
 | [Mode choice](Mode_choice) |Rajesh Paleti | | |
 | [NCHRP Synthesis 406: Advanced Practices in Travel Forecasting - A Synthesis of Highway Practice](NCHRP_Synthesis_406_Advanced_Practices_in_Travel_Forecasting_A_Synthesis_of_Highway_Practice) | Rolf | 5 Dec 2019 | |
@@ -207,7 +207,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Plausibility Assessment of a Travel Forecast](Plausibility_Assessment_of_a_Travel_Forecast) | Chiara Calastri | | |
 | [T-PICS: Transportation Project Impact Case Studies](T_PICS_Transportation_Project_Impact_Case_Studies) | Chiara Calastri | | |
 | **Freight Modeling:** | --- | --- | --- |
-| [Commercial vehicle surveys](Commercial_vehicle_surveys) | | | |
+| [Commercial vehicle surveys](Commercial_vehicle_surveys) | Josh | | |
 | [GPS Based Pilot Survey of Freight Movements in the Midwest Region](GPS_Based_Pilot_Survey_of_Freight_Movements_in_the_Midwest_Region) | | | |
 | [Goods Movement Study in Illinois: Application to Freight Transportation and Logistics](Goods_Movement_Study_in_Illinois_Application_to_Freight_Transportation_and_Logistics) | | | |
 | [Highway Research Board Special Report 120: Urban Commodity Flow](Highway_Research_Board_Special_Report_120_Urban_Commodity_Flow) | | | |
@@ -233,8 +233,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Re-simulating link volumes to reflect uncertainty in highway assignment](Re_simulating_link_volumes_to_reflect_uncertainty_in_highway_assignment) | Matt Stratton | Matt 1/7/2020 | |
 | [SHRP2 C04 - Improving Our Understanding of How Highway Congestion and Pricing Affect Travel Demand](SHRP2_C04_Improving_Our_Understanding_of_How_Highway_Congestion_and_Pricing_Affect_Travel_Demand) | Matt Stratton | Matt 1/7/2020 | |
 | [Stochastic Traffic Assignment](Stochastic_Traffic_Assignment) | | | |
-| [Traffic simulation models](Traffic_simulation_models) | | | |
-| [User Equilibrium](User_Equilibrium) | | | |
+| [Traffic simulation models](Traffic_simulation_models) | Josh | | |
+| [User Equilibrium](User_Equilibrium) | Josh | | |
 | [Vine building](Vine_building) | | | |
 | **New Starts:** | --- | --- | --- |
 | [New Starts](New_Starts) |Julie Dunbar | | |
@@ -332,7 +332,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Statewide Models: Trip-based Models](Statewide_Models_Trip_based_Models) | M.Bina | | |
 | [Statewide models](Statewide_models) | M.Bina | | |
 | **Temporal Data:** | --- | --- | --- |
-| [Open Matrix Format](Open_Matrix_Format) | | | |
+| [Open Matrix Format](Open_Matrix_Format) | Josh | | |
 | [Temporal data](Temporal_data) | | | |
 | **Topic Circles:** | --- | --- | --- |
 | [Activity-based models](Activity_based_models) | Venu Garikapati | | |
@@ -372,11 +372,11 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Establishment surveys](Establishment_surveys) | | | |
 | [External surveys](External_surveys) | | | |
 | [Household travel surveys](Household_travel_surveys) |Patricia Lavieri | | |
-| [Parking surveys](Parking_surveys) | | | |
+| [Parking surveys](Parking_surveys) | Josh | | |
 | [Stated-preference surveys](Stated_preference_surveys) |Rajesh Paleti | | |
-| [Transit onboard surveys](Transit_onboard_surveys) | | | |
+| [Transit onboard surveys](Transit_onboard_surveys) | Josh | | |
 | [Transportation secure data center](Transportation_secure_data_center) |Venu Garikapati | | |
-| [Visitor surveys](Visitor_surveys) | | | |
+| [Visitor surveys](Visitor_surveys) | Josh | | |
 | **Trip Based Models:** | --- | --- | --- |
 | [Big Picture](Big_Picture) |Julie Dunbar | | |
 | [Delay Estimation in Trip-Based Models](Delay_Estimation_in_Trip_Based_Models) | | | |
