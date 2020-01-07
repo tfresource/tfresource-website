@@ -87,7 +87,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [OD table refinements in project-level traffic forecasting](OD_table_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Open Data Sources](Open_Data_Sources) |Patricia Lavieri | | |
 | [Path Choice Mode choice Consistency](Path_Choice_Mode_choice_Consistency) | Lisa Zorn | Lisa 1/6/2020 | |
-| [Path Finding Algorithm](Path_Finding_Algorithm) | Lisa Zorn | | |
+| [Path Finding Algorithm](Path_Finding_Algorithm) | Lisa Zorn | Lisa 1/6/2020 | |
 | [Pavement design in project-level traffic forecasting](Pavement_design_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Pedestrian Route Choice](Pedestrian_Route_Choice) | Patrick Singleton | | |
 | [Pivoting with select link analysis for small developments in project-level traffic forecasting](Pivoting_with_select_link_analysis_for_small_developments_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
