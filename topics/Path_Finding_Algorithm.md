@@ -1,7 +1,7 @@
 ---
 title: "Path Finding Algorithm"
 categories:
-  - Needs Review
+  - Network Assignment
 ---
 
 **Summary**
@@ -12,9 +12,11 @@ Path finding problem
 --------------------
 
 To assign traffic volumes to a highway network (compare [Network Assignment](Network_assignment)), a path needs to be chosen for every origin-destination pair. A path consists of a series of links that minimize travel costs from an origin to a destination.
-See an example from Open Street Map below.\
-![](Pathfinding.png "fig:Pathfinding.png")\
-(Source: \[<http://www.openstreetmap.org/#map=16/38.9033/-77.0461>| OpenStreetMap.org\])\
+See an example from Open Street Map below.
+
+![Map of a small section of Washington DC, showing a path from from an origin to a destination.](Pathfinding.png "Map with path from origin to destination")
+
+(Source: [OpenStreetMap.org](http://www.openstreetmap.org/#map=16/38.9033/-77.0461) )
 
 Travel costs
 ------------
@@ -41,10 +43,10 @@ For the human eye, it is trivial to find the shortest path on a simple network. 
 -   Travel speed on various links may be different, which may make a visually longer path using highways shorter in travel time than using local roads.
 -   Adding more vehicles to a link increases congestion, and thereby, slows down travel speed. A detour that avoids the worst congestion may be the fastest path.
 
-In travel demand modeling, a path finding algorithm is used to select the shortest path that minimizes travel costs.\
-\
-![](PathFinding01.jpeg "fig:PathFinding01.jpeg")A simple example visualizes how the path with minimum travel costs is chosen. While this is a simplistic example, the same concept applies to complicated networks. For a more complex example, [this website has a good visualization](http://www.nealbohling.com/code/dijkstra/) of how Dijkstra's works with a grid network.\
-\
+In travel demand modeling, a path finding algorithm is used to select the shortest path that minimizes travel costs.
+
+![Graph with nodes labeled S, A, B, C, D and distances on links](PathFinding01.jpeg "Graph with nodes and distances on links") A simple example visualizes how the path with minimum travel costs is chosen. While this is a simplistic example, the same concept applies to complicated networks. For a more complex example, [this website has a good visualization](http://www.nealbohling.com/code/dijkstra/) of how Dijkstra's works with a grid network.
+
 This graphic shows a network with five nodes and six links. The blue numbers represent travel time in minutes, the only costs considered in this path-finding example. The task is to identify the shortest path from start node S to destination node D.
 
 ### Step 1
@@ -61,7 +63,7 @@ Initially, create a list of distances between the origin S and all other nodes. 
 
 ### Step 2
 
-![](PathFinding02.jpg "fig:PathFinding02.jpg")
+![Full graph from above on left, tree structure of path so far on right](PathFinding02.jpg "Diagram showing Step 2")
 Next, create a tree that shows all nodes that are linked directly to Origin S (here, this is nodes A and B). For each node, look up the travel costs (here, 2 and 4 minutes).
 
 Based on this tree, you need to update the distance list. The new distance list will be:
@@ -97,7 +99,7 @@ Select the first node from the loose-end table (here node A).
 | <s>Node A</s>   |
 | Node B          |
 
-![](PathFinding3.jpg "fig:PathFinding3.jpg") Using the network, find the next link that connects to node A (here the link from A to D). Add this link to the tree structure shown on the right. Update the predecessor list by adding the predecessor for D:
+![Full graph from above on left, tree structure of path so far on right](PathFinding3.jpg "Diagram showing Step 3") Using the network, find the next link that connects to node A (here the link from A to D). Add this link to the tree structure shown on the right. Update the predecessor list by adding the predecessor for D:
 
 | Predecessor list |
 |------------------|
@@ -126,7 +128,7 @@ Select the next node from the loose-end table (here node B).
 | <s>Node A</s>   |
 | <s>Node B</s>   |
 
-![](PathFinding04.jpg "fig:PathFinding04.jpg") Using the network, find the links that connects to node B (here the link from B to C and the link from B to D). Add these links to the tree structure as shown on the right. Update the predecessor list by adding the predecessor for C:
+![Full graph from above on left, on right, tree structure of path so far on right](PathFinding04.jpg "Diagram showing Step 4") Using the network, find the links that connects to node B (here the link from B to C and the link from B to D). Add these links to the tree structure as shown on the right. Update the predecessor list by adding the predecessor for C:
 
 | Predecessor list |
 |------------------|
@@ -165,7 +167,7 @@ Select the next node from the loose-end table (here node C).
 | <s>Node B</s>   |
 | <s>Node C</s>   |
 
-![](PathFinding05.jpg "fig:PathFinding05.jpg") Using the network, find the next link that connects to node C (here the link from C to D). Add this links to the tree structure shown on the right.
+![Full graph from above on left, on right, tree structure of path so far on right](PathFinding05.jpg "Diagram showing Step 5") Using the network, find the next link that connects to node C (here the link from C to D). Add this links to the tree structure shown on the right.
 
 Calculate the distance list from S via B and C to D (4 + 3 + 2 = 9 minutes) by following the tree structure. The distance S-to-B-to-C-to-D is shorter than the distance S-to-A-to-D (which was 10 minutes). Therefore, the distance list is updated:
 
@@ -201,4 +203,3 @@ References
 [^1]: E.F. Moore (1957) The shortest path through a maze. In: Proceedings of an International Symposium on the Theory of Switching, 2–5 April 1957. Also published in: <i>Annals of the Computation Laboratory of Harvard University</i>, 1959, Volume 30, Pages 285–292.
 
 [^2]: E. W. Dijkstra (1959): A note on two problems in connexion with graphs. In: <i>Numerische Mathematik</i>, December 1959, Volume 1, Issue 1, Pages 269–271.
-

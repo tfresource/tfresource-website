@@ -1,7 +1,7 @@
 ---
 title: "Software Development For Travel Modeling"
 categories:
-  - Needs Review
+  - Stub
 ---
 
 Challenges in Travel Model Software Development
@@ -9,7 +9,7 @@ Challenges in Travel Model Software Development
 
 Travel model development presents a unique set of challenges in software development, including:
 
--   the need to interface with other software like [land use models](Land_Use_Transport_Modeling), dynamic traffic assignment, air quality models, and simulation
+-   the need to interface with other software like [land use models](Land_use_transport_modeling), dynamic traffic assignment, air quality models, and simulation
 -   reading and writing large matrix datasets
 -   teams including members throughout government, consulting, and academia, located all over the world
 -   the need to recode estimation variables into application code, often between two languages

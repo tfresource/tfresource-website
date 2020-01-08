@@ -39,10 +39,10 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Bypasses of regional scope in project-level traffic forecasting](Bypasses_of_regional_scope_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Cellular Communications Data](Cellular_Communications_Data) | Matt Stratton | Matt 1/7/2020 | |
 | [Current trends in travel behavior](Current_trends_in_travel_behavior) |Patricia Lavieri | | |
-| [Data Development](Data_Development) | Lisa Zorn | Lisa Zorn | |
-| [Data Visualization](Data_Visualization) | Lisa Zorn | | |
+| [Data Development](Data_Development) | Lisa Zorn | Lisa 12/6/2019 | |
+| [Data Visualization](Data_Visualization) | Lisa Zorn | Lisa 12/9/2019 | Marked as Stub |
 | [Discussion of travel delay in acceptable models in project-level traffic forecasting](Discussion_of_travel_delay_in_acceptable_models_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
-| [Empirical Accuracy of Travel Forecasts](Empirical_Accuracy_of_Travel_Forecasts) | Lisa Zorn | | |
+| [Empirical Accuracy of Travel Forecasts](Empirical_Accuracy_of_Travel_Forecasts) | Lisa Zorn | Lisa 12/9/2019 | |
 | [Example of an autoregression model with Box-Cox transformation](Example_of_an_autoregression_model_with_Box_Cox_transformation) | Alan/Kermit | Alan 12/24/19 | |
 | [Explaining Activity-Based Models to a General Audience](Explaining_Activity_Based_Models_to_a_General_Audience) |Patricia Lavieri | | |
 | [Format Testing](Format_Testing) | | | Rolf: Can this page be deleted?|
@@ -86,12 +86,12 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Multiple Discrete-Continuous Extreme Value (MDCEV) Model](Multiple_Discrete_Continuous_Extreme_Value_(MDCEV)_Model) |Rajesh Paleti | | |
 | [OD table refinements in project-level traffic forecasting](OD_table_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Open Data Sources](Open_Data_Sources) |Patricia Lavieri | | |
-| [Path Choice Mode choice Consistency](Path_Choice_Mode_choice_Consistency) | Lisa Zorn | | |
-| [Path Finding Algorithm](Path_Finding_Algorithm) | Lisa Zorn | | |
+| [Path Choice Mode choice Consistency](Path_Choice_Mode_choice_Consistency) | Lisa Zorn | Lisa 1/6/2020 | |
+| [Path Finding Algorithm](Path_Finding_Algorithm) | Lisa Zorn | Lisa 1/6/2020 | |
 | [Pavement design in project-level traffic forecasting](Pavement_design_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Pedestrian Route Choice](Pedestrian_Route_Choice) | Patrick Singleton | | |
 | [Pivoting with select link analysis for small developments in project-level traffic forecasting](Pivoting_with_select_link_analysis_for_small_developments_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
-| [Planning and policy context](Planning_and_policy_context) | Lisa Zorn | | |
+| [Planning and policy context](Planning_and_policy_context) | Lisa Zorn | Lisa 1/6/2020 | Deleted - this is a duplicate of [Autonomous vehicles: planning and policy context](Autonomous_vehicles_planning_and_policy_context) |
 | [Polaris](Polaris) | Tom Rossi | | |
 | [Policy relevance of transportation models](Policy_relevance_of_transportation_models) |Patricia Lavieri | | |
 | [Prerequisites for travel modeling](Prerequisites_for_travel_modeling) | Rick Donnelly | | |
@@ -103,7 +103,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Scenario Forecasting for Travel Demand Modeling](Scenario_Forecasting_for_Travel_Demand_Modeling) | Pooya | | |
 | [Screenline refinements in project-level traffic forecasting](Screenline_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Smoothing in project-level traffic forecasting](Smoothing_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
-| [Software Development For Travel Modeling](Software_Development_For_Travel_Modeling) | Lisa Zorn | | |
+| [Software Development For Travel Modeling](Software_Development_For_Travel_Modeling) | Lisa Zorn | Lisa 1/6/2020 | Marked as Stub |
 | [Solution Algorithm](Solution_Algorithm) | Tom Rossi | | |
 | [Special reporting requirements in project-level traffic forecasting](Special_reporting_requirements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Speed and travel time refinements in project-level traffic forecasting](Speed_and_travel_time_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
@@ -118,9 +118,9 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Traffic Data](Traffic_Data) | Tom Rossi | | |
 | [Traffic dynamics in project-level traffic forecasting](Traffic_dynamics_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Traffic microsimulation in project-level traffic forecasting](Traffic_microsimulation_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
-| [Transit Data](Transit_Data) | Lisa Zorn | | |
-| [Transit Network Assignment](Transit_Network_Assignment) | Lisa Zorn | | |
-| [Transit Network Service Determination](Transit_Network_Service_Determination) | Lisa Zorn | | |
+| [Transit Data](Transit_Data) | Lisa Zorn | Lisa 1/7/2020 | |
+| [Transit Network Assignment](Transit_Network_Assignment) | Lisa Zorn | Lisa 1/7/2020 | |
+| [Transit Network Service Determination](Transit_Network_Service_Determination) | Lisa Zorn | Lisa 1/7/2020 | |
 | [Transit Path Parameters](Transit_Path_Parameters) | Tom Rossi | | |
 | [Transit crowding](Transit_crowding) | Tom Rossi | | |
 | [Transit dwell time](Transit_dwell_time) | Tom Rossi | | |

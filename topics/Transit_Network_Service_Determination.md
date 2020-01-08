@@ -1,21 +1,22 @@
 ---
 title: "Transit Network Service Determination"
 categories:
-  - Needs Review
+  - Network Assignment
+  - Public Transport (Transit) Modeling
+  - Transportation Networks
+  - Urban And Metropolitan Models
 ---
 
-The determination of the transit network service is undertaken sometime after transit networks are completed and before mode choice is evaluated. Although many commercial packages come with many default values, it can be one of the most time-consuming and artful components of [Public Transit modeling](Public_Transport_Modeling).
+The determination of the transit network service is undertaken sometime after transit networks are completed and before mode choice is evaluated. Although many commercial packages come with many default values, it can be one of the most time-consuming and artful components of [public transit modeling](Public_transport_transit_modeling).
 
 There are generally two steps to determining the quality of transit service between an origin and destination:
 
 1.  Route Enumeration / Building Routes: "what paths are out there?"
 2.  Route Evaluation: "how good/bad are those paths?"
 
-Transit Route Enumeration
--------------------------
+## Transit Route Enumeration
 
-Transit Route Evaluation
-------------------------
+## Transit Route Evaluation
 
 Network Skimming is the process of determining an attribute that one would experiences when traveling from point A to B. Network skimming is often segmented by travel mode and time of day, but can also be segmented by trip purpose or any other variable that would cause a difference in the experienced value.
 
@@ -31,12 +32,11 @@ Variables typically skimmed for network performance for transit modes include:
 -   access and egress drive time, distance, quality, and costs
 -   in vehicle time (sometimes segmented seated or crowded in vehicle time)
 
-Implementation Considerations
------------------------------
+## Implementation Considerations
 
 It is important to understand that each commercial travel modeling package has a wide variety of methodologies that they use to build transit paths. It is one of the biggest areas of differences among the packages. Understanding the defaults and methodologies of one package will not likely translate to another package.
 
--   Calibration of [Transit path parameters](Transit_Path_Parameters), often using an [on-board survey](on_board_survey)
+-   Calibration of [Transit path parameters](Transit_Path_Parameters), often using an [on-board survey](On_Board_Transit_Survey)
 -   Multi-path (stochastic) versus best-path
 -   Schedule-based versus headway-based versus combination
 
