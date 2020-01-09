@@ -36,7 +36,7 @@ Three theoretical approaches are distinguished in the construction of activity b
 
 ### Constraint-based models
 
-This is the first generation of activity based models. The main goal of these models is to examine whether an individual \[activity agenda\] is feasible within particular space-time constraints. Examples include [PESASP (Lenntorp, 1976)](PESASP_Lenntorp_1976)), CARLA (Jones et al. 1983), BSP (Huigen, 1986), MAGIC (Dijst, 1995; Dijst and Vidakovic, 1997), and GISICAS (Kwan, 1997). There are some [limitations in classic constraint based approaches](limitations_in_classic_constraint_based_approaches)
+This is the first generation of activity based models. The main goal of these models is to examine whether an individual \[activity agenda\] is feasible within particular space-time constraints. Examples include [PESASP (Lenntorp, 1976)](PESASP_Lenntorp_1976)), CARLA (Jones et al. 1983), BSP (Huigen, 1986), MAGIC (Dijst, 1995; Dijst and Vidakovic, 1997), and GISICAS (Kwan, 1997). There are some [limitations in classic constraint based approaches](Limitations_in_classic_constraint_based_approaches.html).
 
 ### Utility-maximizing models
 
