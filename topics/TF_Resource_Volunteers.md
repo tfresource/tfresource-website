@@ -110,11 +110,11 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Stepwise Model Calibration/Validation](Stepwise_Model_Calibration/Validation) | Tom Rossi | | |
 | [Strategic Models](Strategic_Models) | Rick Donnelly | | |
 | [Subarea focusing in project-level traffic forecasting](Subarea_focusing_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
-| [TMIP](TMIP) | Julie Dunbar| | |
+| [TMIP](TMIP) | Julie Dunbar|Julie 1/9/20 | |
 | [Temporal refinements and directional split refinements in project-level traffic forecasting](Temporal_refinements_and_directional_split_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Temporal resolution in project-level traffic forecasting](Temporal_resolution_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Time of Day Factoring](Time_of_Day_Factoring) | Pooya | | |
-| [Topic Circles](Topic_Circles) | Julie Dunbar| | |
+| [Topic Circles](Topic_Circles) | Julie Dunbar| Julie 1/9/20 - delete this| |
 | [Traffic Data](Traffic_Data) | Tom Rossi | | |
 | [Traffic dynamics in project-level traffic forecasting](Traffic_dynamics_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Traffic microsimulation in project-level traffic forecasting](Traffic_microsimulation_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
@@ -150,7 +150,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [About](About) || | |
 | [Contributing to the Travel Forecasting Resource](Contributing) | | | |
 | [Developer Instructions: Building TF-Resource Locally](Contributing-Dev-Instructions) | | | |
-| [Governance](Governance) | Julie Dunbar| | |
+| [Governance](Governance) | Julie Dunbar| Julie 1/9/20| delete or re-write once trb decides what to do|
 | **Activity Based Models:** | --- | --- | --- |
 | [ALBATROSS](ALBATROSS) | Josh | | |
 | [Activity Based Modeling Primer](Activity_Based_Modeling_Primer) |Rajesh Paleti | | |
@@ -179,8 +179,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Autonomous vehicles: use cases](Autonomous_vehicles_use_cases) | Brice Nichols | | |
 | [Content Charrette: Autonomous Vehicles](Content_Charrette_Autonomous_Vehicles) | Brice Nichols | | |
 | **Community:** | --- | --- | --- |
-| [Community](Community) |Julie dunbar | | |
-| [Content and Membership Council](Content_and_Membership_Council) | Julie Dunbar| | |
+| [Community](Community) |Julie dunbar |JD 1/9/20 |delete or rewrite after trb |
+| [Content and Membership Council](Content_and_Membership_Council) | Julie Dunbar|JD 1/9/20 |delelte |
 | **Destination Choice Models:** | --- | --- | --- |
 | [Choice Model Development in Practice](Choice_Model_Development_in_Practice) | Venu Garikapati | | |
 | [Choice Models with Aggregate Choices](Choice_Models_with_Aggregate_Choices) | Venu Garikapati | | |
@@ -237,8 +237,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [User Equilibrium](User_Equilibrium) | Josh | | |
 | [Vine building](Vine_building) | | | |
 | **New Starts:** | --- | --- | --- |
-| [New Starts](New_Starts) |Julie Dunbar | | |
-| [STOPS](STOPS) |Julie Dunbar | | |
+| [New Starts](New_Starts) |Julie Dunbar |JD 1/9/20 | |
+| [STOPS](STOPS) |Julie Dunbar | JD 1/9/20| Need FTA input|
 | [Travel Forecasting for the Capital Investment Grant Program](Travel_Forecasting_for_the_Capital_Investment_Grant_Program) | Matt Stratton | Matt 1/7/2020 | |
 | **Papers:** | --- | --- | --- |
 | [A model of complex travel behavior](A_model_of_complex_travel_behavior) | | | |
@@ -338,7 +338,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Activity-based models](Activity_based_models) | Venu Garikapati | | |
 | [Dynamic network models](Dynamic_network_models) | Eric Pihl | | |
 | [Evaluation and performance](Evaluation_and_performance) | Eric Pihl | | |
-| [Innovations in Travel Modeling](Innovations_in_Travel_Modeling) |Julie Dunbar | | |
+| [Innovations in Travel Modeling](Innovations_in_Travel_Modeling) |Julie Dunbar |JD1/9/20 |still needs work - links to presentations for 2018 and 2016 are broken and 2014 and 2012 are missing from trb.org|
 | [Model calibration and validation](Model_calibration_and_validation) | | | |
 | [Model integration](Model_integration) | | | |
 | [Travel surveys](Travel_surveys) | Chiara Calastri | 16 Dec. 2019 | Page incomplete |
@@ -348,8 +348,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Design Hourly Volume](Design_Hourly_Volume) | | | |
 | [Guidelines for Network Representation of Transit Access - State of the Practice Summary](Guidelines_for_Network_Representation_of_Transit_Access_State_of_the_Practice_Summary) | | | |
 | [Highway networks](Highway_networks) | Eric Pihl | | |
-| [Transit Route](Transit_Route) |Julie Dunbar | | |
-| [Transit networks](Transit_networks) |Julie Dunbar | | |
+| [Transit Route](Transit_Route) |Julie Dunbar |jd 1/9/20 | |
+| [Transit networks](Transit_networks) |Julie Dunbar | jd 1/9/20| |
 | [Transportation networks](Transportation_networks) | Eric Pihl | | |
 | [Two-Lane Highways](Two_Lane_Highways) | | | |
 | **Travel Behavior:** | --- | --- | --- |
@@ -378,7 +378,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Transportation secure data center](Transportation_secure_data_center) |Venu Garikapati | | |
 | [Visitor surveys](Visitor_surveys) | Josh | | |
 | **Trip Based Models:** | --- | --- | --- |
-| [Big Picture](Big_Picture) |Julie Dunbar | | |
+| [Big Picture](Big_Picture) |Julie Dunbar |JD 1/9/20 |still need to replace links to other pages |
 | [Delay Estimation in Trip-Based Models](Delay_Estimation_in_Trip_Based_Models) | | | |
 | [Network assignment](Network_assignment) | Eric Pihl | | |
 | [Origin-Destination](Origin_Destination) | Eric Pihl| | |
