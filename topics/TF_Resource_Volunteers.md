@@ -189,9 +189,9 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Data Driven Methods](Data_Driven_Methods) | Venu Garikapati | | |
 | [Destination Choice Set Formation](Destination_Choice_Set_Formation) | Taha | Taha 06/01| |
 | [Destination Choice: Calibration and Validation](Destination_Choice_Calibration_and_Validation) | Taha | Taha 07/01 | |
-| [Destination Choice: Data Sources](Destination_Choice_Data_Sources) | Taha | | |
-| [Destination Choice: Implementation and Application](Destination_Choice_Implementation_and_Application) | Taha | | |
-| [Destination Choice: Mathematical Formulation](Destination_Choice_Mathematical_Formulation) |Rajesh Paleti | Taha | |
+| [Destination Choice: Data Sources](Destination_Choice_Data_Sources) | Taha | Taha 07/01 | |
+| [Destination Choice: Implementation and Application](Destination_Choice_Implementation_and_Application) | Taha | Taha 08/01 | |
+| [Destination Choice: Mathematical Formulation](Destination_Choice_Mathematical_Formulation) |Rajesh Paleti | Taha | Taha 09/01 |
 | [Destination Choice: Parameter Estimation](Destination_Choice_Parameter_Estimation) | Taha | | |
 | [Destination Choice: Theoretical Foundations](Destination_Choice_Theoretical_Foundations) | Taha | | |
 | [Factors Affecting Destination Choice](Factors_Affecting_Destination_Choice) | Taha | | |
