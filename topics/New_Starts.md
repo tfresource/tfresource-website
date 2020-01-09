@@ -9,7 +9,7 @@ categories:
 Capital Investment Grant Program (a.k.a. “New Starts Program”)
 --------------------------------------------------------------
 
-The “New Starts” Program is the federal government’s primary funding program for major capital transit projects. It effectively began in 1976 through a revision of [Chapter 49, Section 5309](http://www.fta.dot.gov/documents/chapter53redlineMAP21.pdf) of the United States Code although it existed in various forms prior to that date. The project is administered by [the Federal Transit Administration (FTA)](http://www.fta.dot.gov/12304.html). Policy adjustments occur via legislation passed by Congress and signed by the President. The most recent such example is [Moving Ahead for Progress in the 21st Century (MAP-21)](http://www.fta.dot.gov/map21.html), which was signed into law in 2012.
+The “New Starts” Program is the federal government’s primary funding program for major capital transit projects. It effectively began in 1976 through a revision of [Chapter 49, Section 5309](http://www.fta.dot.gov/documents/chapter53redlineMAP21.pdf) of the United States Code although it existed in various forms prior to that date. The project is administered by [the Federal Transit Administration (FTA)](http://www.fta.dot.gov/12304.html). Policy adjustments occur via legislation passed by Congress and signed by the President. The most recent such example is [Fixing America's Surface Transportation (FAST) Act](https://www.transit.dot.gov/fast), which was signed into law in 2015.
 
 The Capital Investment Grant Program is a discretionary funding source, which means that the administrative agency has the authority to decide which projects receive funding. To accomplish this task, the FTA continually evaluates projects according to criteria provided by Congress and specified through FTA rule-making. Project evaluation is performed by assigning ratings for each project across a variety of categories as well as an overall rating. Ratings are among the most rigorous in the federal government. Project ratings are submitted to Congress each year, typically around February and coinciding with the President’s budget proposal to Congress. Sufficiently high ratings are required for a project to progress through project development.
 
@@ -27,7 +27,7 @@ Other Resources
 ---------------
 
 1.  FTA’s [Capital Investment Grant Program Fact Sheet](http://www.fta.dot.gov/documents/MAP-21_Fact_Sheet_-_Fixed_Guideway_Capital_Investment_Grants.pdf) is very useful to get summary information of the New Starts program, planning process, and project ratings.
-2.  FTA released its [Final Rule](http://www.gpo.gov/fdsys/pkg/FR-2013-01-09/pdf/2012-31540.pdf) on the Capital Investment Grant Program on January 9, 2013. The [Policy Guidance](http://www.fta.dot.gov/documents/NS-SS_Final_PolicyGuidance_August_2013.pdf) was released in August 2013.
+2.  FTA released its [Final Rule](http://www.gpo.gov/fdsys/pkg/FR-2013-01-09/pdf/2012-31540.pdf) on the Capital Investment Grant Program on January 9, 2013. The [Interim Policy Guidance](https://www.transit.dot.gov/funding/grant-programs/capital-investments/final-capital-investment-grant-program-interim-policy) was released in 2016.
 3.  FTA’s [Annual Reports on Funding Recommendations to Congress](http://www.fta.dot.gov/12304_2618.html), which contains project summaries and evaluation results.
 
 Related Content
