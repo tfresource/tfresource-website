@@ -10,7 +10,7 @@ links:
   - type: PDF
     label: "Report PDF"
     url: http://tfresource.org/images/5/59/H-GAC_ABM-Model_Validation_Plan.Final.pdf
-
+---
 
 #### Author
 
@@ -31,6 +31,3 @@ provided by Cambridge Systematics, Inc. with permission from H-GAC
 #### Publication Date
 
 August 2013
-
-------------------------------------------------------------------------
-
