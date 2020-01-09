@@ -19,7 +19,7 @@ Trip-based models represent the current standard of practice in regional transpo
 1.  [trip generation](Trip_Generation),
 2.  [trip distribution](Trip_distribution),
 3.  [mode choice](mode_choice), and
-4.  \[.
+4.  [network assignment](Network_assignment)
 
 (A trip distribution step is a form of a [spatial interaction models](Spatial_Interaction_Models).) The procedures themselves are borrowed from a variety of disciplines including statistics, physics, geography, economics and engineering. The procedures were assembled beginning in the 1950s to quantifiably predict demand for proposed transportation facilities. At the time, the primary inquiry was to understand the predicted use of new interstate highways in urban areas, but trip-based model application quickly spread to interpreting the share of demand between highway and transit facilities. Data versatility and computational transparency soon made trip-based models popular for both general transportation system planning and studying any transportation project involving a change in capacity or level-of-service.
 
