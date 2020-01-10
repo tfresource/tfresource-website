@@ -185,18 +185,18 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Choice Model Development in Practice](Choice_Model_Development_in_Practice) | Venu Garikapati | | |
 | [Choice Models with Aggregate Choices](Choice_Models_with_Aggregate_Choices) | Venu Garikapati | | |
 | [Choice models](Choice_models) | Rajesh Paleti | | |
-| [Content Charrette: Destination Choice Models](Content_Charrette_Destination_Choice_Models) | Taha | | |
+| [Content Charrette: Destination Choice Models](Content_Charrette_Destination_Choice_Models) | Taha | Taha 10/01| |
 | [Data Driven Methods](Data_Driven_Methods) | Venu Garikapati | | |
 | [Destination Choice Set Formation](Destination_Choice_Set_Formation) | Taha | Taha 06/01| |
 | [Destination Choice: Calibration and Validation](Destination_Choice_Calibration_and_Validation) | Taha | Taha 07/01 | |
 | [Destination Choice: Data Sources](Destination_Choice_Data_Sources) | Taha | Taha 07/01 | |
 | [Destination Choice: Implementation and Application](Destination_Choice_Implementation_and_Application) | Taha | Taha 08/01 | |
 | [Destination Choice: Mathematical Formulation](Destination_Choice_Mathematical_Formulation) |Rajesh Paleti | Taha | Taha 09/01 |
-| [Destination Choice: Parameter Estimation](Destination_Choice_Parameter_Estimation) | Taha | | |
-| [Destination Choice: Theoretical Foundations](Destination_Choice_Theoretical_Foundations) | Taha | | |
-| [Factors Affecting Destination Choice](Factors_Affecting_Destination_Choice) | Taha | | |
+| [Destination Choice: Parameter Estimation](Destination_Choice_Parameter_Estimation) | Taha | Taha 10/01| |
+| [Destination Choice: Theoretical Foundations](Destination_Choice_Theoretical_Foundations) | Taha | Taha 10/01| |
+| [Factors Affecting Destination Choice](Factors_Affecting_Destination_Choice) | Taha |Taha 10/01 | |
 | [Impedance](Impedance) | Rolf | 5 Dec. 2019 | |
-| [Joint / Conditional Destination Choices](Joint_/_Conditional_Destination_Choices) | Taha | | |
+| [Joint / Conditional Destination Choices](Joint_/_Conditional_Destination_Choices) | Taha |Taha 10/01 | |
 | [Spatial interaction models](Spatial_interaction_models) | Chiara Calastri| | |
 | **Dynamic Network Models:** | --- | --- | --- |
 | [Benefits of dynamic network models](Benefits_of_dynamic_network_models) | Pooya | | |
