@@ -1,36 +1,30 @@
 ---
 title: "MPO model documentation"
 categories:
-  - Needs Review
 ---
 
-Summary
--------
+# Summary
 
 Planning agencies generally produce documentation for their regional travel demand models that outline the structure of the model along with the model calibration report, though the two may be separate documents.
 
-References and examples of MPO documentation
---------------------------------------------
+# References and examples of MPO documentation
 
-[Atlanta Regional Commission](http://www.atlantaregional.com/File%20Library/Transportation/Travel%20Demand%20Model/tp_arcmodeldocumentation_022212.pdf)
+[Atlanta Regional Commission](https://atlantaregional.org/transportation-mobility/modeling/modeling/)
 
-[Chicago Metropolitan Agency for Planning](http://www.cmap.illinois.gov/data/transportation/modeling)
+[Chicago Metropolitan Agency for Planning](https://www.cmap.illinois.gov/data/transportation/modeling)
 
-[Metropolitan Washington Council of Governments](http://www.mwcog.org/transportation/activities/models/documentation.asp)
+[Metropolitan Washington Council of Governments](https://www.mwcog.org/transportation/data-and-tools/modeling/model-documentation/)
 
-[Metropolitan Transportation Commission](http://www.mtc.ca.gov/maps_and_data/datamart/forecast/BAYCAST%20Travel%20Models%20Tech%20Summary.pdf) (San Francisco)
+[Metropolitan Transportation Commission](https://github.com/BayAreaMetro/modeling-website/wiki) (San Francisco)
 
-[New York Metropolitan Transportation Council](http://www.nymtc.org/project/bpm/bpmmodel.html)
+[New York Metropolitan Transportation Council](https://www.nymtc.org/Data-and-Modeling/New-York-Best-Practice-Model-NYBPM)
 
-[North Central Texas Council of Governments](http://www.nctcog.org/trans/modeling/documentation/DFWRTMModelDescription.pdf) (Dallas-Fort Worth)
+[North Central Texas Council of Governments](https://www.nctcog.org/trans/data/tdm) (Dallas-Fort Worth)
 
-[Portland Metro](http://library.oregonmetro.gov/files/model_documentation_ivan_march08.pdf)
+[Portland Metro](https://www.oregonmetro.gov/sites/default/files/2015/04/16/trip-based_travel_demand_model_methodology.pdf)
 
-[Puget Sound Regional Council](http://www.psrc.org/assets/1511/model_doc_final_.pdf) (Seattle)
+[Puget Sound Regional Council](https://www.psrc.org/activity-based-travel-model-soundcast) (Seattle)
 
-[Sacramento Area Council of Governments](http://www.sacog.org/2035/files/MTP-SCS/appendices/C-4%20SACSIM%20Documentation.pdf)
+[Sacramento Area Council of Governments](https://www.sacog.org/modeling)
 
 [Southern California Association of Governments](http://www.scag.ca.gov/DataAndTools/Pages/DataTools/Modeling.aspx) (Los Angeles)
-
-------------------------------------------------------------------------
-
