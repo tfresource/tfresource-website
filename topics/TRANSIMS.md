@@ -1,7 +1,6 @@
 ---
 title: "TRANSIMS"
 categories:
-  - Needs Review
   - Dynamic Network Models
 ---
 
@@ -10,7 +9,7 @@ Summary
 
 Dissatisfaction with the four-step modeling paradigm led David Albright, then director of research at the New Mexico DOT, to approach experts in the field of large-scale simulation at Los Alamos National Laboratory (LANL) in 1991. His challenge to them was to start from the requirements of the newly enacted ISTEA and Clean Air Act Amendments and to design, from first principles and without recourse to practices in use, a systems dynamics approach to modeling urban transportation systems. The resulting white paper, long since lost, formed the basis for a proposal to the DOE that eventually funded the TRANSIMS initiative.
 
-The Los Alamos team made significant strides in the development of the population synthesizer ([Beckman et al. 1996](https://www.sciencedirect.com/science/article/pii/0965856496000043)) and began work on the route planner and traffic microsimulator. This was in contrast to the work of others, such as [Kitamura (1996)](http://media.tmiponline.org/clearinghouse/abtf/kitamura.pdf) and other early researchers in activity-based modeling, who focused on the demand side of the equation and largely ignored the supply side of the model. Regrettably, the two camps never collaborated to their strengths, largely as a result of the differences in opinion over how the overall framework would be structured or developed.
+The Los Alamos team made significant strides in the development of the population synthesizer ([Beckman et al. 1996](https://www.sciencedirect.com/science/article/pii/0965856496000043)) and began work on the route planner and traffic microsimulator. This was in contrast to the work of others, such as [Kitamura (1996)](https://link.springer.com/article/10.1007/BF00165705) and other early researchers in activity-based modeling, who focused on the demand side of the equation and largely ignored the supply side of the model. Regrettably, the two camps never collaborated to their strengths, largely as a result of the differences in opinion over how the overall framework would be structured or developed.
 
 By early 1995, the LANL team implemented a cellular automata microsimulator and the distributed computer infrastructure (hardware and software) necessary to implement it. Tests on small prototype networks revealed promising emergent traffic flow properties ([Wagner et al. 1997](https://www.sciencedirect.com/science/article/pii/S0378437196003081?np=y)). The first TRANSIMS case study was carried out in partnership with the North Central Texas Council of Governments in 1996–1998. Because the activity generator had not been attempted, static demand from the Council’s regional travel model was sliced into small time intervals, from which trips and tour were synthesized. The entire Dallas–Fort Worth region was included in the model at a coarse level, with North Dallas being modeled in great detail. The [Dallas Case Study](Dallas_Case_Study) sought to prove the concept was viable, and the test was widely viewed as successful.
 
