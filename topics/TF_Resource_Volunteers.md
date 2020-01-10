@@ -49,7 +49,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Freight modeling](Freight_modeling) | Rick Donnelly | | |
 | [Future Development of TFR](Future_Development_of_TFR) | | | Rolf: Page needs to be deleted |
 | [Global Positioning Systems (GPS) Data](Global_Positioning_Systems_(GPS)_Data) |Patricia Lavieri | | |
-| [Health and Transportation Data](Health_and_Transportation_Data) | Patrick Singleton | | |
+| [Health and Transportation Data](Health_and_Transportation_Data) | Patrick Singleton | Patrick 01/09/2020 | |
 | [Highway noise analysis in project-level traffic forecasting](Highway_noise_analysis_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Hybrid models in project-level traffic forecasting](Hybrid_models_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Ideal travel model standard in project-level traffic forecasting](Ideal_travel_model_standard_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
@@ -60,7 +60,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [List of Model User Groups](List_of_Model_User_Groups) | Tom Rossi | | |
 | [Location-Based Services Data](Location_Based_Services_Data) | Greg | Greg | |
 | [Long range transportation plan](Long_range_transportation_plan) | Matt Stratton | Matt 1/7/2020 | |
-| [MPO model documentation](MPO_model_documentation) | Patrick Singleton | | |
+| [MPO model documentation](MPO_model_documentation) | Patrick Singleton | Patrick 01/09/2020 | Add more links? |
 | [Market Segmentation](Market_Segmentation) |Patricia Lavieri | | |
 | [Measures of effectiveness and performance measures in project-level traffic forecasting](Measures_of_effectiveness_and_performance_measures_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Modal hierarchy](Modal_hierarchy) | Pooya | | |
@@ -89,7 +89,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Path Choice Mode choice Consistency](Path_Choice_Mode_choice_Consistency) | Lisa Zorn | Lisa 1/6/2020 | |
 | [Path Finding Algorithm](Path_Finding_Algorithm) | Lisa Zorn | Lisa 1/6/2020 | |
 | [Pavement design in project-level traffic forecasting](Pavement_design_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
-| [Pedestrian Route Choice](Pedestrian_Route_Choice) | Patrick Singleton | | |
+| [Pedestrian Route Choice](Pedestrian_Route_Choice) | Patrick Singleton | Patrick 01/09/2020 | Stub |
 | [Pivoting with select link analysis for small developments in project-level traffic forecasting](Pivoting_with_select_link_analysis_for_small_developments_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Planning and policy context](Planning_and_policy_context) | Lisa Zorn | Lisa 1/6/2020 | Deleted - this is a duplicate of [Autonomous vehicles: planning and policy context](Autonomous_vehicles_planning_and_policy_context) |
 | [Polaris](Polaris) | Tom Rossi | | |
@@ -99,7 +99,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Refining speeds for evaluation in project-level traffic forecasting](Refining_speeds_for_evaluation_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Refining vehicle class forecasts for evaluation in project-level traffic forecasting](Refining_vehicle_class_forecasts_for_evaluation_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Resources](Resources) | Pooya | | |
-| [Safety Data](Safety_Data) | Patrick Singleton | | |
+| [Safety Data](Safety_Data) | Patrick Singleton | Patrick 01/09/2020 | Needs additional information |
 | [Scenario Forecasting for Travel Demand Modeling](Scenario_Forecasting_for_Travel_Demand_Modeling) | Pooya | | |
 | [Screenline refinements in project-level traffic forecasting](Screenline_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Smoothing in project-level traffic forecasting](Smoothing_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
@@ -125,7 +125,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Transit crowding](Transit_crowding) | Tom Rossi | | |
 | [Transit dwell time](Transit_dwell_time) | Tom Rossi | | |
 | [Transit mode combinations](Transit_mode_combinations) | Tom Rossi | | |
-| [Travel Behavior Definitions](Travel_Behavior_Definitions) | Patrick Singleton | | |
+| [Travel Behavior Definitions](Travel_Behavior_Definitions) | Patrick Singleton | Patrick 01/09/2020 | Expand or delete (only 2) |
 | Travel Cost | Greg | Greg | Deleted an empty page|
 | [Travel Demand and Network Model Integration Schemas](Travel_Demand_and_Network_Model_Integration_Schemas) | Rolf Moeckel | | |
 | [Travel Forecasting Results Report](Travel_Forecasting_Results_Report) | Chiara Calastri | | |
@@ -246,7 +246,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [High Occupancy Toll Lanes: Potential for Implementation in the Atlanta Region](High_Occupancy_Toll_Lanes_Potential_for_Implementation_in_the_Atlanta_Region) | | | |
 | [SFCTA Paper incorporating crowding](SFCTA_Paper_incorporating_crowding) | | | |
 | [TMIP Activity Based Model Webinar Series Instructor Manual](TMIP_Activity_Based_Model_Webinar_Series_Instructor_Manual) | | | |
-| [The Chicago Area Transportation Study: Creating the First Plan (1955-1962)](The_Chicago_Area_Transportation_Study_Creating_the_First_Plan_(1955_1962)) | Patrick Singleton | | |
+| [The Chicago Area Transportation Study: Creating the First Plan (1955-1962)](The_Chicago_Area_Transportation_Study_Creating_the_First_Plan_1955_1962_) | Patrick Singleton | Patrick 01/09/2020 | |
 | [Toward a dynamic model of individual activity pattern formulation](Toward_a_dynamic_model_of_individual_activity_pattern_formulation) | | | |
 | [Traveler Behavior and Values Research for Human-Centered Transportation Systems](Traveler_Behavior_and_Values_Research_for_Human_Centered_Transportation_Systems) | Matt Stratton | Matt 1/7/2020 | |
 | **Pricing And Valuation:** | --- | --- | --- |
@@ -281,7 +281,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [TCRP Report 95: Chapter 13 – Parking Pricing and Fares: Traveler Response to Transportation System Changes](TCRP_Report_95_Chapter_13_Parking_Pricing_and_Fares_Traveler_Response_to_Transportation_System_Changes) | | | |
 | [TCRP Report 95: Chapter 14 – Road Value Pricing: Traveler Response to Transportation System Changes](TCRP_Report_95_Chapter_14_Road_Value_Pricing_Traveler_Response_to_Transportation_System_Changes) | | | |
 | [TCRP Synthesis 63](TCRP_Synthesis_63) | | | |
-| [The Transportation Planning Process - Key Issues](The_Transportation_Planning_Process_Key_Issues) | Patrick Singleton | | |
+| [The Transportation Planning Process - Key Issues](The_Transportation_Planning_Process_Key_Issues) | Patrick Singleton | Patrick 01/09/2020 | Updated document |
 | [Tolling and Public-Private Partnerships in Texas Separating Myth from Fact](Tolling_and_Public_Private_Partnerships_in_Texas_Separating_Myth_from_Fact) | | | |
 | [Transportation Elasticities: How Prices and Other Factors Affect Travel Behavior](Transportation_Elasticities_How_Prices_and_Other_Factors_Affect_Travel_Behavior) | | | |
 | [Travel Behaviour: A review of recent literature](Travel_Behaviour_A_review_of_recent_literature) | | | |
@@ -353,18 +353,18 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Transportation networks](Transportation_networks) | Eric Pihl | | |
 | [Two-Lane Highways](Two_Lane_Highways) | | | |
 | **Travel Behavior:** | --- | --- | --- |
-| [A historical perspective of innovations in travel modeling](A_historical_perspective_of_innovations_in_travel_modeling) | Patrick Singleton | | |
+| [A historical perspective of innovations in travel modeling](A_historical_perspective_of_innovations_in_travel_modeling) | Patrick Singleton | Patrick 01/09/2020 | |
 | [Activity-Travel Planning and Decision Making Behaviors](Activity_Travel_Planning_and_Decision_Making_Behaviors) | Chiara Calastri | 23 Dec. 2019 | Page incomplete |
 | [Joint Travel Behavior](Joint_Travel_Behavior) |Patricia Lavieri | | |
 | [Representations of Decision Making Behavior in Travel Modeling](Representations_of_Decision_Making_Behavior_in_Travel_Modeling) |Patricia Lavieri | | |
-| [Travel Behavior Resources](Travel_Behavior_Resources) | Patrick Singleton | | |
+| [Travel Behavior Resources](Travel_Behavior_Resources) | Patrick Singleton | Patrick 01/09/2020 | |
 | [Travel Behavior of Diverse Populations](Travel_Behavior_of_Diverse_Populations) | M.Bina | | |
 | [Travel behavior](Travel_behavior) | Venu Garikapati | | |
 | [UrbanDataResources](UrbanDataResources) | Venu Garikapati | | |
 | **Travel Survey Data:** | --- | --- | --- |
 | [Bibliography No. 11: Origin-Destination Surveys and Traffic Volume Studies](Bibliography_No_11_Origin_Destination_Surveys_and_Traffic_Volume_Studies) | | | |
 | [GPS-enabled surveys](GPS_enabled_surveys) |Patricia Lavieri | | |
-| [J. Douglas Carroll](J_Douglas_Carroll) | Patrick Singleton | | |
+| [J. Douglas Carroll](J_Douglas_Carroll) | Patrick Singleton | Patrick 01/09/2020 | |
 | [NCHRP 775: Applying GPS Data to Understand Travel Behavior](NCHRP_775_Applying_GPS_Data_to_Understand_Travel_Behavior) |Chiara Calastri | | |
 | [On Board Transit Survey](On_Board_Transit_Survey) | | | |
 | [Response bias](Response_bias) |Chiara Calastri | | |
