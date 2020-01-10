@@ -2,7 +2,6 @@
 title: "DTA Primer"
 noTOC: true
 categories:
-  - Needs Review
   - Dynamic Network Models
   - Reports
   - Resources
