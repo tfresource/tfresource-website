@@ -1,7 +1,6 @@
 ---
 title: "Benefits of dynamic network models"
 categories:
-  - Needs Review
   - Dynamic Network Models
 ---
 
@@ -32,7 +31,7 @@ It is expected that the various types of dynamic network models will converge at
 Source
 ------
 
-[NCHRP Synthesis 406: Advanced Practices in Travel Forecasting - A Synthesis of Highway Practice](NCHRP_Synthesis_406_Advanced_Practices_in_Travel_Forecasting__A_Synthesis_of_Highway_Practice)
+[NCHRP Synthesis 406: Advanced Practices in Travel Forecasting - A Synthesis of Highway Practice](https://tfresource.github.io/topics/NCHRP_Synthesis_406_Advanced_Practices_in_Travel_Forecasting_A_Synthesis_of_Highway_Practice.html)
 
 
 
