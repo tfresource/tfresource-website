@@ -2,7 +2,6 @@
 title: "Dallas Case Study"
 noTOC: true
 categories:
-  - Needs Review
   - Dynamic Network Models
   - Reports
   - Resources
@@ -35,7 +34,7 @@ This publication is in the public domain.
 
 #### Publication Date
 
-1999|1}}
+January 1999
 
 ------------------------------------------------------------------------
 
