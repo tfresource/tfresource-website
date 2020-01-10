@@ -21,7 +21,7 @@ On May 24-25, 2017 the following individuals gathered for the express purpose of
 
 The following pages were generated during this two day workshop:
 
--   \[
+
 -   [Destination Choice: Theoretical Foundations](Destination_Choice_Theoretical_Foundations)
 -   [Choice Models with Aggregate Choices](Choice_Models_with_Aggregate_Choices)
 -   [Destination Choice: Mathematical Formulation](Destination_Choice_Mathematical_Formulation)
