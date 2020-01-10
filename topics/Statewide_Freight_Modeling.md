@@ -1,12 +1,10 @@
 ---
 title: "Statewide Freight Modeling"
 categories:
-  - Needs Review
   - Freight Modeling
   - Statewide Models
 ---
 
-<span style="background:lightgrey;padding:10px;border-left: thick double #0000aa;"> This page is part of the Category \[.</span>
 
 [Freight modeling](Freight_modeling) can take many forms - in terms of the type of model and it's placement as a component of a larger statewide model or a stand-alone statewide model. There is a considerable amount of literature devoted to freight modeling at several levels of resolution, ranging from urban truck models to inter-regional commodity flow models, to international trade forecasts. Most can be classified as either truck or commodity flow models, and local versus long-distance.
 
