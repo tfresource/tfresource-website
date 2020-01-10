@@ -54,7 +54,7 @@ Substituting (2) into (3) and solving for k yields:
 
 $${k}={X_{j'}}{f_{ij'}}$$
 or
-$${T_{ij}}= \over{{∑_{j'}}{X_{j'}}{f_{ij'}}}}$$
+$${T_{ij}}= \frac { {O_{i}}{X_{j}}{f_{ij}} }{ {∑_{j'}}{X_{j'}}{f_{ij'}} }$$
 
 Equation (4) is called a singly-constrained gravity model, since only a single constraint (equation (3)) has been imposed on the model. Very many examples of singly-constrained destination choice models exist, in a variety of applications. In particular, note that instead of constraining the predicted trips to match predetermined trip origin totals (an origin-constrained model), it would have been possible to constrain the trips to sum to predetermined trip destination totals instead (a destination constrained model).
 
@@ -70,7 +70,7 @@ Imposing both constraints (3) and (5) on the model results in a doubly-constrain
 
 $${T_{ij}}= \frac { { { O }_{ i } } { { X }_{ j } } { { f }_{ ij } } }{ \sum _{ j' }^{ }{ X }_{ j' } { f }{ ij' }  }$$
 
-where ${D_{j}}^{*}$ is a modified attraction term that is iteratively defined so that constraint (5) is satisfied for all destinations j.
+where ${D_{j}}^{\ast}$ is a modified attraction term that is iteratively defined so that constraint (5) is satisfied for all destinations j.
 
 Entropy Maximization Models
 ---------------------------
@@ -87,7 +87,7 @@ subject to known constraints. In the case of a doubly-constrained model, at a mi
 
 $$\frac { \sum _{ i }^{ }{ \sum _{ j }^{ }{ { T }_{ ij } } { t }_{ ij } } }{ T } =\bar { t }\qquad \qquad { \forall }_{ i,j }$$
 
-where T is the (known) total number of trips in the system, and t ̅ is the observed average travel time. In other words, equation (8) states that a feasible predicted trip matrix is one in which the predicted average travel time (the left-hand side of (8) equals the observed average travel time).
+where T is the (known) total number of trips in the system, and  $\bar { t }$ is the observed average travel time. In other words, equation (8) states that a feasible predicted trip matrix is one in which the predicted average travel time (the left-hand side of (8) equals the observed average travel time).
 
 Solving this mathematical program yields the following trip distribution model:
 
@@ -109,7 +109,8 @@ It can be shown that $B_j$$D_j$ = ${D^\ast}_j$, the “modified attraction term�
 
 (11)
 
-$${T_{ij}}= \frac {  {O_{ i }}{D_{ j }^\ast}{e^{ẞt_{ij}}}  }{ \sum_{ j' }^{ }{D_{ j' }^\ast}{e^{ẞt_{ij'}}}   }   $$
+$${T_{ij}}=\frac { {O_{i}}{D_{j}^{\ast}}{e^{ẞt_{ij}}}  }{\sum_{j'}^{ }{D_{j'}^{\ast}}{e^{ẞt_{ij'}}}   }   $$
+
 
 This is exactly the doubly-constrained gravity model (equation (6)) with the specific impedance function $f_{ij}$ = $e^{{βt}_{ij}}$. In other words, the “ad hoc” gravity model, “properly specified” is the statistically most likely model of a trip O-D matrix, given known constraints. This provides very strong theoretical support for “gravity-like” spatial interaction models. Other important points to note include:
 
@@ -146,13 +147,13 @@ But, as Daly (1982),[^2] first observed, gravity models can be shown to be a spe
 
 As a simple illustration of this, equation (4) can be rearranged to yield:
 
-$${T_{ij}}={O_i}{[\frac { {X_{ j }}{f_{ ij }   }{ \sum_{j'}{ }{X_{j'}}{f_{ij'}  } ]}={O_{i}{P_{j\i}}$$
+$${T_{ij}}={O_i}{[\frac { {X_{ j }}{f_{ ij }   }{ \sum_{j'}{ }{X_{j'}}{f_{ij'}  }} ]}={O_{i}}{P_{j|i}}$$
 
 where:
 
 (13)
 
-$${P_{j|i}}= \frac { {X_{ j }}{f_{ ij }   }{ \sum_{j'}{ }{X_{j'}}{f_{ij'}  }=\frac { {e^{ln{X_{j}}+{lnf_{ij}}} }{ \sum_{j'}^{ }{e^{ln{X_{j'}}+{lnf_{ij'}}} } $$
+$${P_{j|i}}= \frac { {X_{ j }}{f_{ ij }}   }{ \sum_{j'}{ }{X_{j'}}{f_{ij'}}  }=\frac { { e^{ {lnX_{j}}+{lnf_{ij}} } } }{ \sum_{j'}^{ }{e^{{lnX_{j'}}+{lnf_{ij'}}}} } $$
 
 
 
@@ -162,7 +163,7 @@ then equation (13) becomes:
 
 (14)
 
-$${P_{j|i}}= \frac { {e^{ln{X_{j}}+{ẞt_{ij}}} }{ \sum_{j'}^{ }{e^{ln{X_{j'}}+{ẞt_{ij'}}} } $$
+$${P_{j|i}}= \frac { {e^{ln{X_{j}}+{ẞt_{ij}}}} }{ \sum_{j'}^{ }{e^{ln{X_{j'}}+{ẞt_{ij'}}}} } $$
 
 Equation (14) is a simple logit destination choice model.
 
@@ -338,13 +339,13 @@ Substituting (34) into (33) yields:
 
 (35)
 
-$${T_{ij}}=\frac { {O_i}{e^{μ{CBD}_{j}+γln{F_{j}}+{βt}_{ij}}}   }{ \sum_{j'}{O_i}{e^{μ{CBD}_{j'}+γln{F_{j'}}+{βt}_{ij'}}} } $$
+$${T_{ij}}=\frac { {O_i}{ e^{ μ{CBD}_{j}+γln{F_{j}}+{βt}_{ij} } }   }{ \sum_{j'}{ e^{ μ{CBD}_{j'}+γln{F_{j'}}+{βt}_{ij'} } } }$$
 
 Equation (35) is the desired singly-constrained entropy trip destination model. Note that it can be rewritten as:
 
 (36)
 
-$${T_{ij}}=\frac { {O_i}{F_j}^{γ}{e^{μ{CBD}_{j}+{βt}_{ij}}}   }{ \sum_{j'} {O_i}{F_j'}^{γ}{e^{μ{CBD}_{j'}+{βt}_{ij'}}}  } $$
+$${T_{ij}}=\frac { {O_i}{F_j}^{γ}{e^{μ{CBD}_{j}+{βt}_{ij}}}   }{ \sum_{j'} {O_i}{F_j'}^{γ}{e^{μ{CBD}_{j'}+{βt}_{ij'}}}  }$$
 
 which is often the format used for “gravity” models.
 
