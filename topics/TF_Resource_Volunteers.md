@@ -155,16 +155,16 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [ALBATROSS](ALBATROSS) | Josh | | |
 | [Activity Based Modeling Primer](Activity_Based_Modeling_Primer) |Rajesh Paleti | | |
 | [Benefits of Activity Based Models](Benefits_of_Activity_Based_Models) |Rajesh Paleti | | |
-| [Future prospect for activity-based models](Future_prospect_for_activity_based_models) | Venu Garikapati | | |
+| [Future prospect for activity-based models](Future_prospect_for_activity_based_models) | Venu Garikapati |Venu 01/09 | |
 | [Integrated Travel Demand and Network Models](Integrated_Travel_Demand_and_Network_Models) | Josh | | |
-| [Limitations in classic constraint based approaches](Limitations_in_classic_constraint_based_approaches) |Venu Garikapati | | |
+| [Limitations in classic constraint based approaches](Limitations_in_classic_constraint_based_approaches) |Venu Garikapati |Venu 01/10 | |
 | [Mode choice](Mode_choice) |Rajesh Paleti | | |
 | [NCHRP Synthesis 406: Advanced Practices in Travel Forecasting - A Synthesis of Highway Practice](NCHRP_Synthesis_406_Advanced_Practices_in_Travel_Forecasting_A_Synthesis_of_Highway_Practice) | Rolf | 5 Dec 2019 | |
 | [Population Synthesis](Population_Synthesis) | Brice Nichols | | |
 | [Population Synthesis For Microsimulating Travel Behavior](Population_Synthesis_For_Microsimulating_Travel_Behavior) | Brice Nichols | | |
 | [Synthetic populations: review of the different approaches](Synthetic_populations_review_of_the_different_approaches) | Brice Nichols | | |
 | [The ARC and SACOG Experience with Activity-Based Models - Synthesis and Lessons Learned](The_ARC_and_SACOG_Experience_with_Activity_Based_Models_Synthesis_and_Lessons_Learned) | Matt Stratton | Matt 1/7/2020 | media.tmiponline.org link broken |
-| [Tour-based models](Tour_based_models) |Venu Garikapati | | |
+| [Tour-based models](Tour_based_models) |Venu Garikapati |Venu 01/09 | |
 | [ARCs Experience Using its CT-RAMP Activity-Based Model](ARC_s_Experience_Using_its_CT_RAMP_Activity_Based_Model) | Matt Stratton | Matt 1/7/2020 | |
 | [DRCOGs Experience Using its FOCUS Activity-Based Model](DRCOG_s_Experience_Using_its_FOCUS_Activity_Based_Model) | Tom Rossi | | |
 | [NCTCOG Path Towards Advanced Analytical Tools](NCTCOG_Path_Towards_Advanced_Analytical_Tools) | Matt Stratton | Matt 1/7/2020 | media.tmiponline.org links are broken |
@@ -182,7 +182,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Community](Community) |Julie dunbar |JD 1/9/20 |delete or rewrite after trb |
 | [Content and Membership Council](Content_and_Membership_Council) | Julie Dunbar|JD 1/9/20 |delelte |
 | **Destination Choice Models:** | --- | --- | --- |
-| [Choice Model Development in Practice](Choice_Model_Development_in_Practice) | Venu Garikapati | | |
+| [Choice Model Development in Practice](Choice_Model_Development_in_Practice) | Venu Garikapati |Venu 01/09 | |
 | [Choice Models with Aggregate Choices](Choice_Models_with_Aggregate_Choices) | Venu Garikapati | | |
 | [Choice models](Choice_models) | Rajesh Paleti | | |
 | [Content Charrette: Destination Choice Models](Content_Charrette_Destination_Choice_Models) | Taha | Taha 10/01| |
@@ -335,7 +335,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Open Matrix Format](Open_Matrix_Format) | Josh | | |
 | [Temporal data](Temporal_data) | | | |
 | **Topic Circles:** | --- | --- | --- |
-| [Activity-based models](Activity_based_models) | Venu Garikapati | | |
+| [Activity-based models](Activity_based_models) | Venu Garikapati |Venu 01/10 | |
 | [Dynamic network models](Dynamic_network_models) | Eric Pihl | | |
 | [Evaluation and performance](Evaluation_and_performance) | Eric Pihl | | |
 | [Innovations in Travel Modeling](Innovations_in_Travel_Modeling) |Julie Dunbar |JD1/9/20 |still needs work - links to presentations for 2018 and 2016 are broken and 2014 and 2012 are missing from trb.org|
@@ -384,7 +384,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Origin-Destination](Origin_Destination) | Eric Pihl| | |
 | [Skim Matrix](Skim_Matrix) | Rolf | | |
 | [Traffic Analysis Zone](Traffic_Analysis_Zone) | Rolf | | |
-| [Trip interchange](Trip_interchange) |Venu Garikapati | | |
+| [Trip interchange](Trip_interchange) |Venu Garikapati |Venu 01/09 | |
 | [Trip-based models](Trip_based_models) | Venu Garikapati | | |
 | **Urban And Metropolitan Models:** | --- | --- | --- |
 | [Regulatory framework for metropolitan modeling](Regulatory_framework_for_metropolitan_modeling) | | | |
