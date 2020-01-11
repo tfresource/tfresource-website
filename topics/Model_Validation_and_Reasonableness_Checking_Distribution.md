@@ -1,6 +1,7 @@
 ---
 title: "Model Validation and Reasonableness Checking/Distribution"
 categories:
+  - Model Calibration And Validation
   - Needs Review
 ---
 
@@ -17,7 +18,7 @@ Multinomial logit is also the most common form of regular workplace location cho
 
 In activity-based models, or models with components that consider trip chaining, destination choice models for intermediate stops are used. These are also multinomial logit models that use size variables, impedance measures, and potentially characteristics of the trip maker or production/attraction zones. The main difference is that a “detour” impedance measure is used, which is the additional impedance to stop at the attraction zone compared to the impedance to travel directly between the origin and primary activity location.
 
-This chapter is organized as follows: First, checks of the friction factors parameters that define the measure of separation in the gravity model (which is typically used for trip distribution in four-step models) are discussed in [Friction Factor Checks](#Friction_Factor_Checks). [19](#fn19) [Checks of Trip Distribution Model Results](#Checks_of_Trip_Distribution_Model_Results) presents the validation of the trip distribution model along with troubleshooting strategies that may be applied in the model estimation or calibration steps if model validation does not meet desired standards. Checks applicable to both four-step and activity-based trip distribution models are described in [Checks of Trip Distribution Model Results](#Checks_of_Trip_Distribution_Model_Results).
+This chapter is organized as follows: First, checks of the friction factors parameters that define the measure of separation in the gravity model (which is typically used for trip distribution in four-step models) are discussed in [Friction Factor Checks](#Friction_Factor_Checks) ([19](#fn19)). [Checks of Trip Distribution Model Results](#Checks_of_Trip_Distribution_Model_Results) presents the validation of the trip distribution model along with troubleshooting strategies that may be applied in the model estimation or calibration steps if model validation does not meet desired standards. Checks applicable to both four-step and activity-based trip distribution models are described in [Checks of Trip Distribution Model Results](#Checks_of_Trip_Distribution_Model_Results).
 
 ### Friction Factor Checks
 
@@ -27,7 +28,7 @@ Friction factors are used in the gravity model to represent the effects of trave
 
 *F* = *a* &times; *t*^b^ &times; **e**^*ct*^
 
-Where *F* is the friction factor; *t* is the travel impedance (usually time in minutes); *a*,*b*, *c* are model parameters; and **e** is the base of natural logarithms.
+Where *F* is the friction factor; *t* is the travel impedance (usually time in minutes); *a*, *b*, *c* are model parameters; and **e** is the base of natural logarithms.
 
 The gamma function reduces to two other commonly used functions for friction factors when either the b or c parameter is estimated to be zero. Specifically, the function reduces to the exponential function when the b parameter is zero, and to the power function when the c parameter is zero. As will be discussed below, both the b and c parameters should typically be negative (if nonzero), producing either a negative exponential function when the b parameter is zero or the inverse power function when the c parameter is zero.
 
@@ -41,94 +42,20 @@ The network data used for developing impedance measures are discussed in [Transp
 
 Friction factors should be monotonically decreasing from a peak that occurs at a very short travel time (e.g., five minutes or less) or its equivalent in nontime units. This assertion is based on the notion that, everything else being equal, travelers will try to reduce their travel time – traveling five minutes is more desirable than traveling six minutes if the need for travel can be satisfied at either time interval. If a formula such as the gamma function is used to compute the friction factors, this pattern is ensured if reasonable values for the parameters are chosen. The gamma function will be monotonically decreasing if both the b and c parameters are negative. If friction factors are derived directly from survey data, they should be checked to ensure monotonic decreases as travel times increase. While travel survey patterns usually show decreased trip frequency with high impedances, there may be places where the pattern is not “smooth.” Care should also be used to ensure that the minimum value for a friction factor is greater than zero; zero friction factors preclude any travel for the impedance range represented.
 
-Periodically, model estimation might result in a positive value for either the b or c parameter. This result might be acceptable in some cases. For example, if the trip distribution model distributes all person trips in motorized vehicles, the function might increase for very small impedance values, such as less than five minutes of travel time, and then monotonically decrease. In other cases, the model might monotonically decrease until an inflection point at a very large value of the impedance (see, for example, the nonhome-based function for “Large MPO 3” in [Table 6.1](#Table-t6-1)). If that value is substantially larger than would ever be expected in the applications of the model for the region, the positive value for the parameter might be acceptable.
+Periodically, model estimation might result in a positive value for either the b or c parameter. This result might be acceptable in some cases. For example, if the trip distribution model distributes all person trips in motorized vehicles, the function might increase for very small impedance values, such as less than five minutes of travel time, and then monotonically decrease. In other cases, the model might monotonically decrease until an inflection point at a very large value of the impedance. If that value is substantially larger than would ever be expected in the applications of the model for the region, the positive value for the parameter might be acceptable.
 
-Parameters of formulas such as the gamma function may be checked for reasonableness by comparing them to those used in other models. [Table 6.1](#Table-t6-1) presents the “b” and “c” parameters used by six MPOs of varying sizes. The parameters show a relatively large variation. Since friction factors can be scaled without impacting the distribution, the parameters shown in [Table 6.1](#Table-t6-1) were scaled to be 1,000,000 at one minute of travel time. The resulting friction factor curves for the home-based work, home-based nonwork, and nonhome-based trip purposes are shown in Figures [6.1 through 6.3](#Figure6-1).
+Parameters of formulas such as the gamma function may be checked for reasonableness by comparing them to those used in other models. Refer to *Travel Model Validation and Reasonableness Checking Manual* ([2](#fn2)).
 
-<div id="Table-t5-1">
-<center>
-Table 5.1 Example Home-Based Nonwork Trip Production Model
-
-</center>
-</div>
-<div id="Table-t6-1">
-<center>
-Table 6.1 Trip Distribution Gamma Function Parameters
-
-</center>
-</div>
-|                  |                     |                        |                    |
-|------------------|---------------------|------------------------|--------------------|
-|                  | <center>            
-                    **Home-Based Work**  
-                                         
-                    </center>            | <center>               
-                                          **Home-Based Nonwork**  
-                                                                  
-                                          </center>               | <center>           
-                                                                   **Nonhome- Based**  
-                                                                                       
-                                                                   </center>           |
-| <center>         
- **“b”**           
-                   
- </center>         | <center>            
-                    **“c”**              
-                                         
-                    </center>            | <center>               
-                                          **“b”**                 
-                                                                  
-                                          </center>               | <center>           
-                                                                   **“c”**             
-                                                                                       
-                                                                   </center>           |
-| <center>         
- **Large MPO 1**   
-                   
- </center>         | -0.503              | -0.078                 | -3.993             |
-| <center>         
- **Large MPO 2**   
-                   
- </center>         | -1.65               | -0.0398                | -1.51              |
-| <center>         
- **Large MPO 3**   
-                   
- </center>         | -0.156              | -0.045                 | -1.646             |
-| <center>         
- **Medium MPO 1**  
-                   
- </center>         | -0.81203            | -0.03715               | -1.95417           |
-| <center>         
- **Medium MPO 2**  
-                   
- </center>         | -0.388              | -0.117                 | -2.1               |
-| <center>         
- **Small MPO 1**   
-                   
- </center>         | -0.265              | -0.04                  | -1.017             |
-
-“Large MPO” population is greater than 1 million.
-
-“Medium MPO” population is between 200,000 and 1 million.
-
-“Small MPO” population is less than 200,000.
-
-Note that the gamma function parameters shown in these examples were calibrated based on good approximations of travel times, considering observed levels of congestion, in the various urban areas. Generally, in the larger, more congested areas, this requires feedback of travel times from the highway assignment step. In the smaller areas where congestion is infrequent, the free flow times are reasonable approximations of the travel times experienced on the highway system, and feedback may not be used.
+Note that the gamma function parameters shown in the examples were calibrated based on good approximations of travel times, considering observed levels of congestion, in the various urban areas. Generally, in the larger, more congested areas, this requires feedback of travel times from the highway assignment step. In the smaller areas where congestion is infrequent, the free flow times are reasonable approximations of the travel times experienced on the highway system, and feedback may not be used.
 
 These parameters and graphs are provided as examples and are not intended to provide recommended or transferable friction factors. Differences in urban area geography and other characteristics make it difficult to determine “correct” friction factors for any particular context.
 
-<div id="Figure6-1">
-![**Figure 6.1: Example Home-Based Work Friction Factors Based on Gamma Function**](VandR-Fig6-1.jpg "Figure 6.1: Example Home-Based Work Friction Factors Based on Gamma Function")
+![**Figure 6.1: Example Home-Based Work Friction Factors Based on Gamma Function**](VandR-Fig6-1.jpg)
 
-</div>
-<div id="Figure6-2">
-![**Figure 6.2: Example Home-Based Nonwork Friction Factors Based on Gamma Function**](VandR-Fig6-2.jpg "Figure 6.2: Example Home-Based Nonwork Friction Factors Based on Gamma Function")
+![**Figure 6.2: Example Home-Based Nonwork Friction Factors Based on Gamma Function**](VandR-Fig6-2.jpg)
 
-</div>
-<div id="Figure6-3">
-![**Figure 6.3: Example Nonhome-Based Friction Factors Based on Gamma Function**](VandR-Fig6-3.jpg "Figure 6.3: Example Nonhome-Based Friction Factors Based on Gamma Function")
+![**Figure 6.3: Example Nonhome-Based Friction Factors Based on Gamma Function**](VandR-Fig6-3.jpg)
 
-</div>
 #### Disaggregate Checks
 
 There are no applicable disaggregate checks friction factors.
@@ -143,26 +70,12 @@ Reasonableness checks have been presented as part of the aggregate checks presen
 
 #### Troubleshooting Strategies
 
-[Table 6.2](#Table-t6-2) shows some of the potential troubleshooting strategies for dealing with issues with friction factors.
+The list below shows some of the potential troubleshooting strategies for dealing with issues with friction factors.
 
-<div id="Table-t6-2">
-<center>
-Table 6.2 Troubleshooting Strategies for Issues with Friction Factors
-
-</center>
-</div>
-|                                                                                                  |                                                                                       |
-|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| <center>                                                                                         
- **Issue**                                                                                         
-                                                                                                   
- </center>                                                                                         | <center>                                                                              
-                                                                                                    **Potential Troubleshooting Strategies**                                               
-                                                                                                                                                                                           
-                                                                                                    </center>                                                                              |
-| Friction factors do not monotonically decrease from a peak occurring at a very short travel time | -   Check parameters of friction factor formula (e.g., gamma function)                
-                                                                                                    -   Check friction factor pattern for match with observed trip length frequency        
-                                                                                                    -   Check to ensure that “smoothed” observed data pattern is monotonically decreasing  |
+1. Friction factors do not monotonically decrease from a peak occurring at a very short travel time
+   - Check parameters of friction factor formula (e.g., gamma function)
+   - Check friction factor pattern for match with observed trip length frequency
+   - Check to ensure that “smoothed” observed data pattern is monotonically decreasing
 
 ### Checks of Trip Distribution Model Results
 
@@ -210,19 +123,15 @@ A more rigorous way of checking trip length frequency distributions is through t
 
 The procedure to calculate the coincidence of distributions is as follows:
 
-<div id="Equation6-2">
-![](VandR-Eq6-2.jpg "VandR-Eq6-2.jpg")
+![](VandR-Eq6-2.jpg)
 
-</div>
 where *CR* is the Coincidence Ratio; *PM~T~* is the proportion of modeled distribution in interval *T*; *PO~T~* is the proportion of observed distribution in interval *T*; and *T* is the histogram interval for time, distance, or other impedance measure (e.g., 0-4.9 minutes, 5.0-9.9 minutes, etc.)
 
-The coincidence ratio lies between 0 and 1.0, where a ratio of 1.0 indicates identical distributions. [Figure 6.4](#Figure6-4) shows an example application of the coincidence ratio.
+The coincidence ratio lies between 0 and 1.0, where a ratio of 1.0 indicates identical distributions. Figure 6.4 shows an example application of the coincidence ratio.
 
-<div id="Figure6-4">
-!['''Figure 6.4 Coincidence Ratio](VandR-Fig6-4.jpg "'''Figure 6.4 Coincidence Ratio")
+![Figure 6.4 Coincidence Ratio](VandR-Fig6-4.jpg)
 
-</div>
-Note: ATL = Average Trip Length.\
+Note: ATL = Average Trip Length.
 
 ##### Origin-Destination Pattern Checks
 
@@ -257,13 +166,12 @@ Ideally, disaggregate validation of a model should be performed using a data set
 
 Limited disaggregate validation can be performed using the same data set used for model estimation, but reporting the results by market segment. Logit model estimation software has the capability to apply the estimated model to a data set in the same form as the estimation data set. For example, a logit destination choice model could be applied to the data set used for estimation but the results may be reported by vehicle availability level. It might be found, for example, that zones in the CBD are not being chosen often enough in the model for households with zero vehicles.
 
-<div id="Figure6-5">
-![**Figure 6.5 Example Orientation Ratio GIS Maps**](VandR-Fig6-5.jpg "fig:Figure 6.5 Example Orientation Ratio GIS Maps")
-Source: *Shining a Light Inside the Black Box*, TMIP webinar, March 11, 2008.\
+![**Figure 6.5 Example Orientation Ratio GIS Maps**](VandR-Fig6-5.jpg)
+
+Source: *Shining a Light Inside the Black Box*, TMIP webinar, March 11, 2008.
+
 Note: This figure is not critical in understanding the concept of orientation maps.
 
-</div>
-\
 While it is good practice to perform disaggregate validation of logit destination choice models, it is often difficult to use the results. Since a destination choice model usually consists of zones, there are hundreds or thousands of alternatives, making the reports of the model application very long and time consuming to analyze. Furthermore, as discussed above, typically household survey sample sizes do not have large enough sample sizes to analyze results at the zone level. While disaggregate validation is a useful tool to identify systematic biases in the estimated models, there are often aggregate tests that are more practical. For example, model application results could be segmented by trip length category, but the aggregate trip length checks described in \[../FHWA-HEP-10-042/ch6.htm\#sect6-2-2 Section 6.2.2\] provide a much easier way of identifying whether modeled trip lengths are accurate.
 
 #### Criteria Guidelines
@@ -297,39 +205,29 @@ Due to a lack of experience with sensitivity testing for trip distribution model
 
 For scenarios where there are no observed data for comparison, model results must be checked by comparing them to another previously validated scenario such as the validated base year scenario, another forecast scenario, or a “no build” scenario associated with the alternative policy/project scenario.
 
-All of the checks listed previously in [Aggregate Checks](#Aggregate_Checks) can be used for these comparisons, including average trip lengths and trip length frequencies, district-level origin-destination flows, and orientation ratios. Orientation ratios can provide a good reasonableness and sensitivity check. Similar plots to those shown in [Figure 6.5](#Figure6-5) could be produced for trip distributions performed for base and alternative scenarios. Resulting changes in orientation ratios should be visible in a comparison of the plots.
+All of the checks listed previously in [Aggregate Checks](#Aggregate_Checks) can be used for these comparisons, including average trip lengths and trip length frequencies, district-level origin-destination flows, and orientation ratios. Orientation ratios can provide a good reasonableness and sensitivity check. Similar plots to those shown in Figure 6.5 could be produced for trip distributions performed for base and alternative scenarios. Resulting changes in orientation ratios should be visible in a comparison of the plots.
 
 The purpose of these comparisons is not to match the model results with those from the comparison scenario, but rather to determine whether the differences are reasonable. It is therefore important that those performing these checks include persons with knowledge of the modeled region as well as the models themselves.
 
 #### Troubleshooting Strategies
 
-Issues discovered during the model checks described in Sections [Aggregate Checks](#Aggregate_Checks), [Disaggregate Checks](#Disaggregate_Checks), and [Reasonableness and Sensitivity Testing](#Reasonableness_and_Sensitivity_Testing) may imply errors in trip distribution model parameters or input data (networks/skims or trip ends). [Table 6.3](#Table-t6-3) shows some of the typical problems that may be evident from these tests. Because it is a critical topic, one strategy, the use of K-factors, is discussed in more detail at the end of this chapter.
+Issues discovered during the model checks described in Sections [Aggregate Checks](#Aggregate_Checks), [Disaggregate Checks](#Disaggregate_Checks), and [Reasonableness and Sensitivity Testing](#Reasonableness_and_Sensitivity_Testing) may imply errors in trip distribution model parameters or input data (networks/skims or trip ends). The list below shows some of the typical problems that may be evident from these tests. Because it is a critical topic, one strategy, the use of K-factors, is discussed in more detail at the end of this chapter.
 
-<div id="Table-t6-3">
-<center>
-**Table 6.3 Troubleshooting Strategies for Issues with Trip Distribution Model Results**
-
-</center>
-</div>
-|                                                                                 |                                                                                                                     |
-|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| <center>                                                                        
- **Issue**                                                                        
-                                                                                  
- </center>                                                                        | <center>                                                                                                            
-                                                                                   **Potential Troubleshooting Strategies**                                                                             
-                                                                                                                                                                                                        
-                                                                                   </center>                                                                                                            |
-| 1\. Average trip lengths too long or short                                      | -   Recalibrate friction factors or adjust parameters of friction factor formula or logit utility equations         
-                                                                                   -   Recheck skim data and trip end inputs                                                                            
-                                                                                   -   Check distribution patterns (see below)                                                                          |
-| 2\. Coincidence ratio too low                                                   | -   Recalibrate friction factors or adjust parameters of friction factor formula or logit utility equations         |
-| 3\. District-level origin-destination patterns inaccurate for some interchanges | -   Check trip lengths (see above)                                                                                  
-                                                                                   -   Check travel impedances between affected districts                                                               
-                                                                                   -   Introduce or adjust K-factors                                                                                    
-                                                                                   -   Introduce impedance penalties on network links (e.g., bridge crossings)                                          |
-| 4\. Too may or few intrazonal trips                                             | -   Adjust intrazonal travel times for types of zones with this issue                                               |
-| 5\. Model too sensitive or insensitive to changes in level of service           | -   Adjust parameters for appropriate level of service variables in impedance/utility functions or friction factors |
+1. Average trip lengths too long or short
+   - Recalibrate friction factors or adjust parameters of friction factor formula or logit utility equations
+   - Recheck skim data and trip end inputs
+   - Check distribution patterns (see below)
+2. Coincidence ratio too low
+   - Recalibrate friction factors or adjust parameters of friction factor formula or logit utility equations
+3. District-level origin-destination patterns inaccurate for some interchanges
+   - Check trip lengths (see above)
+   - Check travel impedances between affected districts
+   - Introduce or adjust K-factors
+   - Introduce impedance penalties on network links (e.g., bridge crossings)
+4. Too may or few intrazonal trips
+   - Adjust intrazonal travel times for types of zones with this issue
+5. Model too sensitive or insensitive to changes in level of service
+   - Adjust parameters for appropriate level of service variables in impedance/utility functions or friction factors
 
 Tests described here are not intended to be performed in isolation, and an iterative approach to testing may be necessary. For example, consider an urban area that includes parts of two states. If the model is predicting too much travel between the two states, the model may not be sufficiently sensitive to the reasons why interstate travel might be avoided for some purposes, or it could simply be overestimating longer trips (which may be biased toward interstate trips). It is necessary to check the results of both the district-level origin-destination summaries and the trip length frequency distribution comparison to determine the most likely causes for these model results and to suggest the best calibration methods. The best method could be the introduction of interstate K-factors, changes to the friction factors, or some combination of both of these.
 
@@ -341,20 +239,18 @@ In a sense, K-factors are analogous to the alternative specific constants in log
 
 For this reason, K-factors must be used very cautiously. Because they can be used to provide nearly perfect matches between modeled and observed district-level origin-destination flows, it can be very tempting to apply K-factors to resolve differences in origin-destination flows without determining whether they are the best method to solve the problem at hand. The use of K-factors, therefore, should be considered “a last resort” after all other possible causes for error and calibration adjustments have been considered. Even when K-factors are introduced, they should be relatively small in magnitude – the closer to 1.0, the better.
 
-A valid use of K-factors may occur when it is necessary to “zero out” trips between groups of zones. Consider the example of a trip distribution model of external-internal trips for the region depicted in [Figure 6.5](#Figure-f6-5). Because of the geography of the modeled region boundary, it is unlikely that trips would occur between External Station 2 and the zones in District A. Trips from the area outside the modeled region as shown in [Figure 6.5](#Figure-f6-5) would likely enter the modeled region via External Station 1 to travel to zones included in District A. However, internal-external trip productions from the zone representing External Station 2 in the travel model would not be precluded from “traveling” to zones in District A in a typical trip distribution process. So, introducing a K-factor of zero between External Station 2 and the zones in District A would ensure that these unlikely trips would not occur in the model.
+A valid use of K-factors may occur when it is necessary to “zero out” trips between groups of zones. Consider the example of a trip distribution model of external-internal trips for the region depicted in Figure 6.5. Because of the geography of the modeled region boundary, it is unlikely that trips would occur between External Station 2 and the zones in District A. Trips from the area outside the modeled region as shown in Figure 6.5 would likely enter the modeled region via External Station 1 to travel to zones included in District A. However, internal-external trip productions from the zone representing External Station 2 in the travel model would not be precluded from “traveling” to zones in District A in a typical trip distribution process. So, introducing a K-factor of zero between External Station 2 and the zones in District A would ensure that these unlikely trips would not occur in the model.
 
-![**Figure 6.5 Example of K-Factor Use with External Stations**](VandR-Fig6-5b.jpg "Figure 6.5 Example of K-Factor Use with External Stations")
+![**Figure 6.5 Example of K-Factor Use with External Stations**](VandR-Fig6-5b.jpg)
 
 ------------------------------------------------------------------------
 
 <div id="fn19">
-19&nbsp;Friction factors define the measure of separation based on travel impedances between TAZs. Checks of travel impedance skims for travel time, travel distance, and travel cost are discussed in [Network Skims and Path Building](Model_Validation_and_Reasonableness_Checking_Model_Inputs#Network_Skims_and_Path_Building). Those basic travel impedance skims are used for both trip distribution and mode choice modeling.
-
+  19 Friction factors define the measure of separation based on travel impedances between TAZs. Checks of travel impedance skims for travel time, travel distance, and travel cost are discussed in [Network Skims and Path Building](Model_Validation_and_Reasonableness_Checking_Model_Inputs#Network_Skims_and_Path_Building). Those basic travel impedance skims are used for both trip distribution and mode choice modeling.
 </div>
-<div id="fn20">
-20&nbsp;Zone-level intrazonal percentages from the survey data set are not statistically significant in most cases.
 
+<div id="fn20">
+  20 Zone-level intrazonal percentages from the survey data set are not statistically significant in most cases.
 </div>
 
 ------------------------------------------------------------------------
-

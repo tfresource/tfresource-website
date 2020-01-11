@@ -1,12 +1,11 @@
 ---
 title: "Model Validation and Reasonableness Checking/Model Inputs"
 categories:
+  - Model Calibration And Validation
   - Needs Review
 ---
 
 ### Validating Model Inputs
-
-\_\_TOC\_\_
 
 There are two broad types of data required for any travel- or activity-based modeling process: socioeconomic data and transportation network data. These two broad types of data are the basic building blocks used along with the travel models to estimate or forecast travel in a region, ultimately expressed as traffic on roadways or riders on transit services. Good base year socioeconomic and network data impact model estimation, model calibration, and model validation. Reasonable future year travel forecasts require reasonable future year socioeconomic and network data forecasts. Thus, the success or failure of the modeling process rests on the input data. The old adage "garbage in, garbage out" is appropriate.
 
@@ -26,10 +25,10 @@ Table 3.1 Example Socioeconomic Data for Travel Models
 |----------------|-------------------------------------------------------------------------|
 | <center>       
  **Data Item**   
-                 
+
  </center>       | <center>                                                                
                   **Description/Use**                                                      
-                                                                                           
+
                   </center>                                                                |
 | TAZ            | Transportation Analysis Zone Identifier                                 |
 | DISTRICT       | District designation for summaries                                      |
@@ -55,10 +54,10 @@ Table 3.2 Example Input Roadway Network Data for Travel Models
 |----------------|------------------------------------------------------|
 | <center>       
  **Data Item**   
-                 
+
  </center>       | <center>                                             
                   **Description/Use**                                   
-                                                                        
+
                   </center>                                             |
 | ANODE          | From node of link                                    |
 | BNODE          | To node of link                                      |
@@ -144,17 +143,17 @@ Table 3.3 ACS Data Releases
 |------------------|---------------------------------------|-----------------------------|
 | <center>         
  **Data Product**  
-                   
+
  </center>         | <center>                              
                     **Population Threshold**               
-                                                           
+
                     </center>                              | <center>                    
                                                             **Planned Year of Release**  
-                                                                                         
+
                                                             </center>                    |
 | <span></span>    | <span></span>                         | <center>                    
                                                             **2009**                     
-                                                                                         
+
                                                             </center>                    |
 | 1-year Estimates | 65,000+                               | 2008                        |
 | 3-year estimates | 20,000+                               | 2006-2008                   |
@@ -222,17 +221,17 @@ Table 3.4 Summary of Demographic Trends from the NPTS
 |------------------------------|-----------|
 | <center>                     
  **Statistic**                 
-                               
+
  </center>                     | <center>  
                                 **Year**   
-                                           
+
                                 </center>  |
 | <center>                     
  **1969**                      
-                               
+
  </center>                     | <center>  
                                 **1977**   
-                                           
+
                                 </center>  |
 | Persons per household        | 3.16      |
 | Vehicles per household       | 1.16      |
@@ -252,17 +251,17 @@ Table 3.5 Percent of Households by Vehicles Available
 |------------------------|-----------|
 | <center>               
  **Vehicles Available**  
-                         
+
  </center>               | <center>  
                           **Year**   
-                                     
+
                           </center>  |
 | <center>               
  **1969**                
-                         
+
  </center>               | <center>  
                           **1977**   
-                                     
+
                           </center>  |
 | No vehicles            | 20.6%     |
 | One vehicle            | 48.4%     |
@@ -296,10 +295,10 @@ Table 3.6 Troubleshooting Strategies for Issues with Input Socioeconomic Data
 |-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <center>                                                                                                          
  **Issue**                                                                                                          
-                                                                                                                    
+
  </center>                                                                                                          | <center>                                                                                                                                              
                                                                                                                      **Potential Troubleshooting Strategies**                                                                                                               
-                                                                                                                                                                                                                                                                            
+
                                                                                                                      </center>                                                                                                                                              |
 | 1\. Aggregated socioeconomic data are significantly different from independent data sources                       | -   Check data aggregation procedures to ensure that TAZs were not skipped or double counted                                                          
                                                                                                                      -   Check for differences between coverage areas for socioeconomic data and independent data                                                           
@@ -331,84 +330,84 @@ Table 3.7 Average Annual Population Growth, 2000-2007, U.S. MSAs
 |----------------------------|----------------------|-----------------------|
 | <center>                   
  **Region**                  
-                             
+
  </center>                   | <center>             
                               **Population Range**  
-                                                    
+
                               </center>             | <center>              
                                                      **All**                
-                                                                            
+
                                                      </center>              |
 | <span></span>              | <center>             
                               **&gt; 1,000,000**    
-                                                    
+
                               </center>             | <center>              
                                                      **500,000-1,000,000**  
-                                                                            
+
                                                      </center>              |
 | <center>                   
  **Average Growth Rates**    
-                             
+
  </center>                   |                      |
 | <center>                   
  **California**              
-                             
+
  </center>                   | 1.3%                 | 2.0%                  |
 | <center>                   
  **Midwest**                 
-                             
+
  </center>                   | 0.7%                 | 0.6%                  |
 | <center>                   
  **Northeast**               
-                             
+
  </center>                   | 0.3%                 | 0.4%                  |
 | <center>                   
  **Other West**              
-                             
+
  </center>                   | 2.5%                 | 2.1%                  |
 | <center>                   
  **South Central**           
-                             
+
  </center>                   | 2.1%                 | 1.6%                  |
 | <center>                   
  **Southeast**               
-                             
+
  </center>                   | 1.5%                 | 2.0%                  |
 | <center>                   
  **All**                     
-                             
+
  </center>                   | 1.3%                 | 1.3%                  |
 | <center>                   
  **Ranges of Growth Rates**  
-                             
+
  </center>                   |                      |
 | <center>                   
  **California**              
-                             
+
  </center>                   | 0.2%–3.5%            | 0.8%–2.7%             |
 | <center>                   
  **Midwest**                 
-                             
+
  </center>                   | -0.3%–1.5%           | -0.7%–1.9%            |
 | <center>                   
  **Northeast**               
-                             
+
  </center>                   | -0.5%–1.4%           | -0.3%–1.2%            |
 | <center>                   
  **Other West**              
-                             
+
  </center>                   | 1.2%–4.5%            | 0.5%–3.6%             |
 | <center>                   
  **South Central**           
-                             
+
  </center>                   | 1.2%–3.8%            | 0.7%–3.4%             |
 | <center>                   
  **Southeast**               
-                             
+
  </center>                   | 0.7%–3.3%            | 0.8%–4.7%             |
 | <center>                   
  **All**                     
-                             
+
  </center>                   | -0.5%–4.5%           | -0.7%–4.7%            |
 
 It is also critical to check that growth rates for variables, such as population, households, workers, autos, and employment, are consistent with one another. The statistics shown in [Table 3.4](#Table-t3-4) can be computed and compared regionwide for the base and forecast years. Large differences should be checked; if correct, there should be some logical explanation for the difference. The growth rates for workers and employment should be very close, unless there is some mitigating factor (such as a combination of high growth in commercial development inside the modeled region and high growth in residential development outside the region).
@@ -442,29 +441,29 @@ Table 3.8 Example Regional Transit Network Coding Check
 |----------------------|-------------------------|-------------------------|--------------------------|
 | <center>             
  **Service Type**      
-                       
+
  </center>             | <center>                
                         **Daily Vehicle Trips**  
-                                                 
+
                         </center>                | <center>                
                                                   **Daily Service Miles**  
-                                                                           
+
                                                   </center>                | <center>                 
                                                                             **Average Route Length**  
-                                                                                                      
+
                                                                             </center>                 |
 | <center>             
  **Regional Summary**  
-                       
+
  </center>             | <center>                
                         **Model Results**        
-                                                 
+
                         </center>                | <center>                
                                                   **Regional Summary**     
-                                                                           
+
                                                   </center>                | <center>                 
                                                                             **Model Results**         
-                                                                                                      
+
                                                                             </center>                 |
 | Local                | 4,229                   | 4,197                   | 57,975                   |
 | Express              | 461                     | 470                     | 6,970                    |
@@ -513,10 +512,10 @@ Table 3.9 Troubleshooting Strategies for Issues with Input Transportation Networ
 |------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <center>                                                                                             
  **Issue**                                                                                             
-                                                                                                       
+
  </center>                                                                                             | <center>                                                                                                                                                                                                                          
                                                                                                         **Potential Troubleshooting Strategies**                                                                                                                                                                                           
-                                                                                                                                                                                                                                                                                                                                           
+
                                                                                                         </center>                                                                                                                                                                                                                          |
 | 1\. Aggregated transportation network data are significantly different from independent data sources | -   Check data aggregation procedures to ensure that coded network links were not skipped or double counted                                                                                                                       
                                                                                                         -   Check for differences between coverage areas for coded transportation network data and independent data                                                                                                                        
@@ -622,30 +621,30 @@ Table 3.11 Transit Path-Building Prediction Success Table
 |---------------------------------------------|-----------------------|
 | <center>                                    
  **PM Period Work Trips Using Walk to Rail**  
-                                              
+
  </center>                                    | <center>              
                                                **Modeled Boardings**  
-                                                                      
+
                                                </center>              |
 | <span></span>                               | <span></span>         |
 | <center>                                    
  **Reported Boardings**                       
-                                              
+
  </center>                                    | <center>              
                                                **No Path**            
-                                                                      
+
                                                </center>              |
 | <center>                                    
  **1**                                        
-                                              
+
  </center>                                    | 7                     |
 | <center>                                    
  **2**                                        
-                                              
+
  </center>                                    | 1                     |
 | <center>                                    
  **3+**                                       
-                                              
+
  </center>                                    | 0                     |
 
 Source: Kurth, et al., Transit Path-Building: "To Multipath or Not to Multipath," 11th TRB National Transportation Planning Applications Conference, Session 15, May 2007.
@@ -660,26 +659,26 @@ Table 3.12 Transit Path-Building Prediction Success Results – Simple Path-Buil
 |------------------|----------------------------|-------------------------------------|
 |                  | <center>                   
                     **Number of Linked Trips**  
-                                                
+
                     </center>                   | <center>                            
                                                  **Percent with Skimmed Boardings:**  
-                                                                                      
+
                                                  </center>                            |
 | <span></span>    | <span></span>              | <center>                            
                                                  **= Reported Boardings**             
-                                                                                      
+
                                                  </center>                            |
 | <center>         
  **All Trips**     
-                   
+
  </center>         | 1,278                      | 67%                                 |
 | <center>         
  **Walk Access**   
-                   
+
  </center>         | 854                        | 67%                                 |
 | <center>         
  **Drive Access**  
-                   
+
  </center>         | 424                        | 67%                                 |
 
 Source: Kurth, et al., Transit Path-Building: "To Multipath or Not to Multipath," 11th TRB National Transportation Planning Applications Conference, Session 15, May 2007.
@@ -706,10 +705,10 @@ Table 3.13 Troubleshooting Strategies for Issues with Highway Network Skims
 |------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | <center>                                                                                                         
  **Issue**                                                                                                         
-                                                                                                                   
+
  </center>                                                                                                         | <center>                                                                                                        
                                                                                                                     **Potential Troubleshooting Strategies**                                                                         
-                                                                                                                                                                                                                                     
+
                                                                                                                     </center>                                                                                                        |
 | 1\. Very long highway trip lengths for some zone interchanges                                                    | -   Check highway network for improperly coded link distances, times, or speeds (check that units are correct)  
                                                                                                                     -   Check paths for reasonableness                                                                               
@@ -728,10 +727,10 @@ Table 3.14 Troubleshooting Strategies for Issues with Transit Network Skims
 |-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | <center>                                                                            
  **Issue**                                                                            
-                                                                                      
+
  </center>                                                                            | <center>                                                                                                               
                                                                                        **Potential Troubleshooting Strategies**                                                                                
-                                                                                                                                                                                                               
+
                                                                                        </center>                                                                                                               |
 | 1\. Very long transit trip lengths for some zone interchanges                       | -   Check transit network for improperly coded link/route distances, times, or speeds (check that units are correct)   
                                                                                        -   Check paths for reasonableness                                                                                      
@@ -772,4 +771,3 @@ Table 3.14 Troubleshooting Strategies for Issues with Transit Network Skims
 </div>
 
 ------------------------------------------------------------------------
-
