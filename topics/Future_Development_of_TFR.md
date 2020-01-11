@@ -5,6 +5,10 @@ categories:
 
 The wiki tfresource.org has faced challenges in the past to secure funding for server fees and maintenance. These issues led to ideas how we could make tfresource.org more resistant against shortcomings in funding. Here are some ideas under discussion.
 
+## Options under consideration
+
+Based on ADB45 committee member discussion and feedback, the following options are considered:
+
 ### 1. Shut it down completely
 
 We would archive the content for future generations, but tfresrouce.org would go dark. The committee ADB45 might survive organizing the ITM conference, but half of the tasks for this committee would disappear.
