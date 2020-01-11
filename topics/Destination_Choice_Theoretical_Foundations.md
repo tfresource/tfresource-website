@@ -153,7 +153,7 @@ where:
 
 (13)
 
-$${P_{j|i}}= \frac { {X_{ j }}{f_{ ij }}   }{ \sum_{j'}{ }{X_{j'}}{f_{ij'}}  }=\frac { { e^{ {lnX_{j}}+{lnf_{ij}} } } }{ \sum_{j'}^{ }{e^{{lnX_{j'}}+{lnf_{ij'}}}} } $$
+$${P_{j|i}}= \frac { {X_{ j }}{f_{ ij }} }{ \sum_{j'}{ }{X_{j'}}{f_{ij'}}  }=\frac { { e^{ {lnX_{j}}+{lnf_{ij}} } } }{ \sum_{j'}^{ }{e^{{lnX_{j'}}+{lnf_{ij'}}}} }$$
 
 
 
