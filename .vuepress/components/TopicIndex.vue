@@ -1,8 +1,9 @@
 <template lang="pug">
 .main-content
-  .category(v-for="category in categories" :key="category" )
-    h2 {{ category }}:
-    .topics(v-for="topic in topicCircle(category)" :key="topic.path")
+  .category
+  h2 Main Categories (Topic Circles)
+  .category.boop
+    .topics(v-for="topic in topicCircle('Topic Circles')" :key="'tc+' + topic.path")
       .entry
         router-link.link-text(:to="topic.path") {{ topic.frontmatter.title }}
         Badge.badge(v-if="topic.frontmatter.categories.includes('Needs Review')"
@@ -11,6 +12,19 @@
             vertical="top")
         p(v-if="topic.frontmatter.description") {{ topic.frontmatter.description }}
 
+  hr
+  h2 Big List of all pages by category
+  .category(v-for="category in categories" :key="category" )
+    h3 {{ category }}:
+    .boop
+      .topics(v-for="topic in topicCircle(category)" :key="topic.path")
+        .entry(style="columns: 2;" )
+          router-link.link-text(:to="topic.path") {{ topic.frontmatter.title }}
+          Badge.badge(v-if="topic.frontmatter.categories.includes('Needs Review')"
+              text="Needs Review"
+              type="warn"
+              vertical="top")
+          p(v-if="topic.frontmatter.description") {{ topic.frontmatter.description }}
 
 </template>
 
@@ -108,4 +122,11 @@ export default {
   margin-top: 0.25rem;
   margin-right: 0.5rem;
 }
+
+.boop { columns: 2;}
+
+@media (max-width: 600px) {
+  .boop { columns: 1;}
+}
+
 </style>

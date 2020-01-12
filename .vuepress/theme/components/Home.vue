@@ -57,7 +57,7 @@ export default {
 
   .squish {
     padding: 1rem 2rem 2rem 2rem;
-    max-width: 50rem;
+    max-width: 45rem;
     margin: 0px auto;
     text-align: right;
     font-size: 1.25rem;
