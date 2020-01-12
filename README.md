@@ -5,7 +5,7 @@ heroText: 'Travel Forecasting, Explained'
 tagline: 'A collection of best practices for travel demand forecasting and modeling.'
 actionText: Get Started →
 actionLink: /topics/
-footer: 'Copyright © 2019 National Academy of Sciences'
+footer: 'Copyright © 2020 National Academy of Sciences'
 features:
   - title: State of the practice
     details: 'This site collects the latest and most practical methods and tools available for travel modelers.'
@@ -15,10 +15,10 @@ features:
     details: 'We welcome content from the entire travel forecasting community. Please help us keep the content fresh!'
 ---
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+# What is the Travel Forecasting Resource?
 
+This project came about due to a TRB research project designed to examine the state-of-the-practice in metropolitan travel forecasting.
+
+In the final report, *Metropolitan Travel Forecasting: Current Practice and Future Direction*, the committee identified many recommendations to improve travel demand forecasting, including a national travel forecasting handbook to be developed and kept current.
+
+This suggestion was taken up by the forecasting community, and this TFResource is that handbook! We hope you find it useful.

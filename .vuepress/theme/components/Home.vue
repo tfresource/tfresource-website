@@ -12,14 +12,16 @@
       </p>
     </header>
 
-    <div class="features" v-if="data.features && data.features.length">
-      <div class="feature" v-for="(feature, index) in data.features" :key="index">
-        <h2>{{ feature.title }}</h2>
-        <p>{{ feature.details }}</p>
+    <div class="feature-band">
+      <div class="features" v-if="data.features && data.features.length">
+        <div class="feature" v-for="(feature, index) in data.features" :key="index">
+          <h2>{{ feature.title }}</h2>
+          <p>{{ feature.details }}</p>
+        </div>
       </div>
     </div>
 
-    <Content class="theme-default-content custom" />
+    <Content class="theme-default-content custom squish" />
 
     <div class="footer" v-if="data.footer">{{ data.footer }}</div>
   </main>
@@ -52,6 +54,16 @@ export default {
   max-width: 100%;
   margin: 0px auto;
   display: block;
+
+  .squish {
+    padding: 1rem 2rem 2rem 2rem;
+    max-width: 50rem;
+    margin: 0px auto;
+    text-align: right;
+    font-size: 1.25rem;
+  }
+
+  .squish h1 { text-align: center;}
 
   .hero {
     text-align: center;
@@ -95,10 +107,15 @@ export default {
     }
   }
 
+  .feature-band {
+    margin: 5rem 0rem 0rem 0rem;
+    padding: 2rem 0rem;
+    background: white;
+  }
+
   .features {
-    border-top: 1px solid $borderColor;
+    border: none;
     padding: 1.2rem 0;
-    margin-top: 2.5rem;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -121,6 +138,7 @@ export default {
 
     p {
       color: lighten($textColor, 25%);
+      font-size: 1rem;
     }
   }
 
