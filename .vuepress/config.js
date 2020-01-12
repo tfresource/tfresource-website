@@ -112,15 +112,6 @@ module.exports = {
         ],
       },
       {
-        title: 'About TFR',
-        children: [
-          '/topics/About',
-          '/topics/Governance',
-          '/topics/Community',
-          '/topics/Content_and_Membership_Council',
-        ]
-      },
-      {
         title: 'Models and Modeling',
         children: [
           '/topics/Big_Picture',
@@ -147,7 +138,16 @@ module.exports = {
           '/topics/New_Starts',
           '/topics/Project_level_traffic_forecasting',
         ]
-      }
+      },
+      {
+        title: 'About TFR',
+        children: [
+          '/topics/About',
+          '/topics/Governance',
+          '/topics/Community',
+          '/topics/Content_and_Membership_Council',
+        ]
+      },
     ],
   },
 }
