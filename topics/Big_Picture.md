@@ -1,7 +1,6 @@
 ---
 title: "Big Picture"
 categories:
-  - Needs Review
   - Activity Based Models
   - Statewide Models
   - Trip Based Models
@@ -21,8 +20,7 @@ Travel forecasts, themselves, are the “outputs” of these models. They includ
 
 The above introduction describes the principal approach to travel forecasting as it has developed in the United States since the 1950s; and has since evolved in a variety of directions and degrees of complexity. If you are new to travel forecasting methods, we recommend that you follow-up by exploring the two primary approaches in practice today by public planning agencies in the US.
 
--   [Trip-Based Models](Trip_Based_Models)
--   [Activity-based Models](Activity_Based_Models)
+- [Trip-Based Models](Trip_Based_Models)
+- [Activity-based Models](Activity_Based_Models)
 
-Beyond these, this Travel Forecasting Resource wiki includes discussions of [many different types](Topic_Circles) of traffic forecasting methods at varying levels of complexity.
-
+Beyond these, this Travel Forecasting Resource includes discussions of [many different types](Topic_Circles) of traffic forecasting methods at varying levels of complexity.
