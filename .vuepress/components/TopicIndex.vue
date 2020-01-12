@@ -13,9 +13,9 @@
         p(v-if="topic.frontmatter.description") {{ topic.frontmatter.description }}
 
   hr
-  h2 Big List of all pages by category
+  h1 Big List of all pages by category
   .category(v-for="category in categories" :key="category" )
-    h3 {{ category }}:
+    h2 {{ category }}:
     .boop
       .topics(v-for="topic in topicCircle(category)" :key="topic.path")
         .entry(style="columns: 2;" )
