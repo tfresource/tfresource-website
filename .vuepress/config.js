@@ -121,153 +121,33 @@ module.exports = {
         ]
       },
       {
-        title: 'Activity Based Modeling',
+        title: 'Models and Modeling',
         children: [
+          '/topics/Big_Picture',
           '/topics/Activity_based_models',
-          '/topics/Tour_based_models',
-        ]
-      },
-      {
-        title: 'Autonomous Vehicles',
-        children: [
-          '/topics/Autonomous_vehicles',
-          '/topics/Autonomous_vehicles_Behavioral_considerations',
-          '/topics/Autonomous_vehicles_Early_applications',
-          '/topics/Autonomous_vehicles_Forecasting',
-          '/topics/Autonomous_vehicles_Lexicon',
-          '/topics/Autonomous_vehicles_Modeling_frameworks',
-          '/topics/Autonomous_vehicles_planning_and_policy_context',
-          '/topics/Autonomous_vehicles_use_cases',
-        ]
-      },
-      {
-        title: 'Choice Models',
-        children: [
-          '/topics/Destination_Choice_Set_Formation',
-          '/topics/Urban_data',
-          '/topics/Path_Choice_Mode_choice_Consistency',
-        ]
-      },
-      {
-        title: 'Destination Choice Models',
-        children: [
           '/topics/Destination_Choice_Models',
-        ]
-      },
-      {
-        title: 'Dynamic Network Models',
-        children: [
           '/topics/Benefits_of_dynamic_network_models',
-        ]
-      },
-      {
-        title: 'Evaluation and Performance',
-        children: [
-          '/topics/Evaluation_and_performance',
-          '/topics/Plausibility_Assessment_of_a_Travel_Forecast',
-          '/topics/Two_Lane_Highways',
-        ]
-      },
-      {
-        title: 'Freight Modeling',
-        children: [
           '/topics/Freight_modeling',
-          '/topics/Tour_based_and_supply_chain_modeling_for_freight',
-          '/topics/Statewide_Freight_Modeling',
-          '/topics/Commercial_vehicle_surveys',
-        ]
-      },
-      {
-        title: 'Land Use Transport Modeling',
-        children: [
           '/topics/Land_use_transport_modeling',
-          '/topics/Accessibilities',
-          '/topics/Population_Synthesis',
-          '/topics/Urban_data',
-        ]
-      },
-      {
-        title: 'Mode Choice',
-        children: [
           '/topics/Mode_Choice_Behavior',
-          '/topics/Path_Choice_Mode_choice_Consistency',
-        ]
-      },
-      {
-        title: 'Model Calibration and Validation',
-        children: [
-          '/topics/Model_calibration_and_validation',
-          '/topics/Empirical_Accuracy_of_Travel_Forecasts',
-        ]
-      },
-      {
-        title: 'Network Assignment',
-        children: [
           '/topics/Network_assignment',
-          '/topics/Path_Finding_Algorithm',
-          '/topics/Dynamic_Traffic_Assignment',
-          '/topics/Transit_Network_Assignment',
-          '/topics/User_Equilibrium',
-        ]
-      },
-      {
-        title: 'New Starts',
-        children: [
-          '/topics/New_Starts',
-          '/topics/STOPS',
-          '/topics/Dynamic_Traffic_Assignment',
-          '/topics/Transit_Network_Assignment',
-          '/topics/Travel_Forecasting_for_the_Capital_Investment_Grant_Program',
-        ]
-      },
-      {
-        title: 'Project-Level Traffic Forecasting',
-        children: [
-          '/topics/Project_level_traffic_forecasting',
-        ]
-      },
-      {
-        title: 'Public Transport (Transit) Modeling',
-        children: [
           '/topics/Public_transport_transit_modeling',
-          '/topics/Transit_Network_Assignment',
-          '/topics/Transit_Data',
-        ]
-      },
-      {
-        title: 'Sketch Planning Models',
-        children: [
           '/topics/Sketch_planning_models',
-        ]
-      },
-      {
-        title: 'Spatial Interaction Models',
-        children: [
           '/topics/Spatial_interaction_models',
-          '/topics/Destination_Choice_Models',
-        ]
-      },
-      {
-        title: 'Statewide Models',
-        children: [
           '/topics/Statewide_models',
-          '/topics/Current_Status_of_Statewide_Models',
-          '/topics/Long_distance_Travel',
-          '/topics/Statewide_Freight_Modeling'
-        ]
-      },
-      {
-        title: 'Travel Behavior',
-        children: [
           '/topics/Travel_behavior',
-        ]
-      },
-      {
-        title: 'Trip-Based Models',
-        children: [
           '/topics/Trip_based_models',
         ]
       },
+      {
+        title: 'Forecasting Topics',
+        children: [
+          '/topics/Autonomous_vehicles',
+          '/topics/Model_calibration_and_validation',
+          '/topics/New_Starts',
+          '/topics/Project_level_traffic_forecasting',
+        ]
+      }
     ],
   },
 }
