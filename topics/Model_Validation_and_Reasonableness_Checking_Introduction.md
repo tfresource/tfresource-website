@@ -1,15 +1,13 @@
 ---
 title: "Model Validation and Reasonableness Checking/Introduction"
 categories:
-  - Needs Review
+  - Model Calibration And Validation
 ---
 
 Introduction
 ------------
 
 Essentially, all models are wrong, but some are useful…the practical question is how wrong do they have to be to not be useful. ([1](#fn1))
-
-\_\_TOC\_\_
 
 ### Why Is Validation Important?
 
@@ -21,7 +19,7 @@ The original *Travel Model Validation and Reasonableness Checking Manual* ([2](#
 >
 > "…travel modeling process has undergone many changes in the past few years in order to evaluate more complex policy actions…tradeoff between increasing confidence in the level of accuracy of the models and the cost of data collection and effort required to validate models."
 
-Since the publication of the original manual, the need for quality model validation has increased. Resources for the construction of new facilities have become increasingly scarce, new funding mechanisms such as tolling have become popular, and new travel forecasting techniques focused more on the explanation of traveler behavior than travel patterns have been implemented in a number of regions. These issues have made well validated travel models increasingly important in order to provide decision-makers the assurance they need to confidently use the travel forecasts. However, as documented in the Transportation Research Board (TRB) Special Report 288, *Metropolitan Travel Forecasting, Current Practice and Future Direction* (*SR 288*),([3](#fn3)) the state of model validation has not necessarily kept pace with the need (*emphasis added*):
+Since the publication of the original manual, the need for quality model validation has increased. Resources for the construction of new facilities have become increasingly scarce, new funding mechanisms such as tolling have become popular, and new travel forecasting techniques focused more on the explanation of traveler behavior than travel patterns have been implemented in a number of regions. These issues have made well validated travel models increasingly important in order to provide decision-makers the assurance they need to confidently use the travel forecasts. However, as documented in the Transportation Research Board (TRB) Special Report 288, *Metropolitan Travel Forecasting, Current Practice and Future Direction* (*SR 288*) ([3](#fn3)), the state of model validation has not necessarily kept pace with the need (*emphasis added*):
 
 > **Validation Errors:** Validating the ability of a model to predict future behavior requires comparing its predictions with information other than that used in estimating the model. Perceived problems with model validation include *insufficient emphasis and effort* focused on the validation phase, the *unavailability of accurate and current data* for validation purposes, and the *lack of necessary documentation* The survey of Metropolitan Planning Organizations (MPOs) conducted for this study found that validation is hampered by a *dearth of independent data sources*.
 
@@ -67,17 +65,15 @@ Steps to verify the ability of the model system to make reasonable predictions o
 One confounding issue regarding model validation and reasonableness checking is the lack of a common definition of terms. The task referred to as model validation by one person might be referred to as model calibration by another. Throughout this manual, the following definitions will be employed:
 
 -   **Estimation** is the use of statistical analysis techniques and observed data to develop model parameters or coefficients. While model estimation typically occurs at a disaggregate level without bias or correction factors, model estimation may also use statistical analysis procedures to analyze more aggregate data.
--   '''Assertion '''is the declaration of model forms or parameters without the use of statistical analysis of observed data. Model transfer from one region to another is a form of model assertion.
+-   **Assertion** is the declaration of model forms or parameters without the use of statistical analysis of observed data. Model transfer from one region to another is a form of model assertion.
 -   **Calibration** is the adjustment of constants and other model parameters in estimated or asserted models in an effort to make the models replicate observed data for a base (calibration) year or otherwise produce more reasonable results. Model calibration is often incorrectly considered to be model validation.
--   '''Validation '''is the application of the calibrated models and comparison of the results against observed data. Ideally, the observed data are data *not* used for the model estimation or calibration but, practically, this is not always feasible. Validation data may include additional data collected for the same year as the estimation or calibration of the model or data collected for an alternative year. Validation should also include sensitivity testing.
--   '''Sensitivity testing '''is the application of the models and the model set using alternative input data or assumptions. Sensitivity testing of individual model components may include the estimation of the elasticities and cross-elasticities of model coefficients. However, sensitivity testing should also include the application of the entire model set using alternative assumptions regarding the input demographic data, socioeconomic data, or transportation system to determine if the model results are plausible and reasonable.
+-   **Validation** is the application of the calibrated models and comparison of the results against observed data. Ideally, the observed data are data *not* used for the model estimation or calibration but, practically, this is not always feasible. Validation data may include additional data collected for the same year as the estimation or calibration of the model or data collected for an alternative year. Validation should also include sensitivity testing.
+-   **Sensitivity testing** is the application of the models and the model set using alternative input data or assumptions. Sensitivity testing of individual model components may include the estimation of the elasticities and cross-elasticities of model coefficients. However, sensitivity testing should also include the application of the entire model set using alternative assumptions regarding the input demographic data, socioeconomic data, or transportation system to determine if the model results are plausible and reasonable.
 
-The travel model development, validation, and application processes defined above can be viewed as shown in ([Figure 1.1](#Figure1-1)). Model validation and sensitivity testing may reveal the need to return to the model estimation or model calibration steps. The application of the model using future year conditions and policy options requires checking the reasonableness of projections, and also might reveal a need to return to the model estimation or calibration steps. Issues uncovered during model application never lead directly back to the validation step since it is not possible to improve the model or model forecasts through additional validation. In some cases, however, additional model validation might be helpful in confirming the veracity of forecasts.
+The travel model development, validation, and application processes defined above can be viewed as shown in Figure 1.1 below. Model validation and sensitivity testing may reveal the need to return to the model estimation or model calibration steps. The application of the model using future year conditions and policy options requires checking the reasonableness of projections, and also might reveal a need to return to the model estimation or calibration steps. Issues uncovered during model application never lead directly back to the validation step since it is not possible to improve the model or model forecasts through additional validation. In some cases, however, additional model validation might be helpful in confirming the veracity of forecasts.
 
-<div id="Figure1-1">
-![**Figure 1.1 Overview of Model Development and Application Process**](VandR-Fig1-1.jpg "Figure 1.1 Overview of Model Development and Application Process")
+![**Figure 1.1 Overview of Model Development and Application Process**](VandR-Fig1-1.jpg)
 
-</div>
 The focus of this manual is the shaded model validation and sensitivity testing task. Some troubleshooting strategies will be provided for situations when satisfactory validations are not obtained. The troubleshooting strategies are applied as part of the model estimation or model calibration steps.
 
 #### Recommended Model Validation Approach
@@ -86,26 +82,21 @@ The focus of this manual is the shaded model validation and sensitivity testing 
 
 There are five primary model validation process elements that will be covered in this manual. Each of the elements is the subject of one or more chapters as outlined below:
 
-| <center>                                         
- **Validation Process Element**                    
-                                                   
- </center>                                         | <center>                                                                                                
-                                                    **Discussed in Manual Chapter(s)**                                                                       
-                                                                                                                                                             
-                                                    </center>                                                                                                |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 1\. Model Validation Plan Specification          | [Validation Plan](Model_Validation_and_Reasonableness_Checking_Validation_Plan)              |
-| 2\. Collection and Assessment of Validation Data | [Validation Plan](Model_Validation_and_Reasonableness_Checking_Validation_Plan)              |
-| 3\. Validation of Model Components               | [Model Inputs](Model_Validation_and_Reasonableness_Checking_Model_Inputs)                    |
-|                                                  | [SocioEconomic Models](Model_Validation_and_Reasonableness_Checking_Socioeconomic_Models)    |
-|                                                  | [Amount of Travel/Activity](Model_Validation_and_Reasonableness_Checking_Amount_Of_Travel)   |
-|                                                  | [Trip Distribution](Model_Validation_and_Reasonableness_Checking_Distribution)               |
-|                                                  | [Mode Choice](Model_Validation_and_Reasonableness_Checking_Mode_Choice)                      |
-|                                                  | [Time of Day](Model_Validation_and_Reasonableness_Checking_Time_Of_Day)                      |
-|                                                  | [Assignment Procedures](Model_Validation_and_Reasonableness_Checking_Assignment)             |
-| 4\. Validation of Model System                   | [Assignment Procedures](Model_Validation_and_Reasonableness_Checking_Assignment)             |
-|                                                  | [Temporal Validation](Model_Validation_and_Reasonableness_Checking_Temporal_And_Sensitivity) |
-| 5\. Documentation of Validation Results          | [Documentation](Model_Validation_and_Reasonableness_Checking_Documentation)                  |
+
+**Validation Process Element** | **Discussed in Manual Chapter(s)**
+------------- | -------------
+1\. Model Validation Plan Specification | [Validation Plan](Model_Validation_and_Reasonableness_Checking_Validation_Plan)
+2\. Collection and Assessment of Validation Data | [Validation Plan](Model_Validation_and_Reasonableness_Checking_Validation_Plan)
+3\. Validation of Model Components | [Model Inputs](Model_Validation_and_Reasonableness_Checking_Model_Inputs)
+| [SocioEconomic Models](Model_Validation_and_Reasonableness_Checking_Socioeconomic_Models)
+| [Amount of Travel/Activity](Model_Validation_and_Reasonableness_Checking_Amount_Of_Travel)
+| [Trip Distribution](Model_Validation_and_Reasonableness_Checking_Distribution)
+| [Mode Choice](Model_Validation_and_Reasonableness_Checking_Mode_Choice)
+| [Time of Day](Model_Validation_and_Reasonableness_Checking_Time_Of_Day)
+| [Assignment Procedures](Model_Validation_and_Reasonableness_Checking_Assignment)
+4\. Validation of Model System | [Assignment Procedures](Model_Validation_and_Reasonableness_Checking_Assignment)
+| [Temporal Validation](Model_Validation_and_Reasonableness_Checking_Temporal_And_Sensitivity)
+5\. Documentation of Validation Results |  [Documentation](Model_Validation_and_Reasonableness_Checking_Documentation)
 
 One or more of the above elements is too often skipped, which can lead to inadequate model validation. For example, without a good model validation plan, necessary data may not be available for proper validation of model components or the model system. This can lead to over-reliance on matching observed traffic counts or transit boardings for model validation. Likewise, documentation is often overlooked. Yet quality documentation is key to providing planners, engineers, and decision-makers with a better understanding of the reliability of forecasts and the methods used to reproduce "observed" travel.
 
@@ -123,8 +114,8 @@ Four broad categories of validation checks will be used in this manual:
 
 1.  **Comparisons of base year model results to observations** might be considered "traditional" validation. The comparisons might be of model results to disaggregate data such as data from a supplementary survey not used for model estimation or to aggregate data such as traffic counts or transit boardings. Comparing base year model results to different aggregations of the data used to estimate or calibrate a model is not as sound of a validation practice as comparing to independent data. However, for some validation tests, the data used for model estimation or calibration are the only data available.
 2.  **Temporal validation** is an important aspect of model validation since, by definition, it implies comparing model results to data not used in model estimation. Both backcasts and forecasts may be used for model validation. For example, if a model is estimated using 2007 survey data, the model could be used to backcast to 2000 conditions, and compared to year 2000 traffic counts, transit boardings, Census Transportation Planning Package (CTPP) data, or other historical data. Likewise, if a model was estimated or calibrated using 2005 survey data, a "forecast" validation could be performed against 2008 data.
-3.  '''Model sensitivity testing '''includes several important types of checks including both disaggregate and aggregate checks. Disaggregate checks, such as the determination of model elasticities, are performed during model estimation. Aggregate sensitivity testing results from temporal validation. Sensitivity testing can also include model application using alternative demographic, socioeconomic, transportation supply, or policy assumptions to determine the reasonableness of the resulting travel forecasts.
-4.  '''Reasonableness and logic checks '''include the types of checks that might be made under model sensitivity testing. These checks also include the comparison of estimated (or calibrated) model parameters against those estimated in other regions with similar models. Reasonableness and logic checks may also include "components of change" analyses and an evaluation of whether or not the models "tell a coherent story" as recommended by the FTA for New Starts analysis.
+3.  **Model sensitivity testing** includes several important types of checks including both disaggregate and aggregate checks. Disaggregate checks, such as the determination of model elasticities, are performed during model estimation. Aggregate sensitivity testing results from temporal validation. Sensitivity testing can also include model application using alternative demographic, socioeconomic, transportation supply, or policy assumptions to determine the reasonableness of the resulting travel forecasts.
+4.  **Reasonableness and logic checks** include the types of checks that might be made under model sensitivity testing. These checks also include the comparison of estimated (or calibrated) model parameters against those estimated in other regions with similar models. Reasonableness and logic checks may also include "components of change" analyses and an evaluation of whether or not the models "tell a coherent story" as recommended by the FTA for New Starts analysis.
 
 ### Validation Considerations
 
@@ -184,10 +175,10 @@ The second aggregation issue relates to the validation tests and data. There is 
 There are a number of sources of error impacting travel models, including:
 
 -   **Model specification error** is the error introduced by imperfect understanding or accounting for traveler behavior, traveler response to transportation system changes, and transportation supply.
--   '''Model aggregation error '''is the error introduced by the abstraction and aggregation inherent in travel models. Due to limitations in understanding and computer processing, models are aggregated over travelers (e.g., travelers may be aggregated over households or zones), traveler decisions (e.g., trip purposes), time periods, and transportation networks.
--   '''Model estimation data error '''is the error introduced through the collection and processing of data for model estimation. The error may be random error associated with the collection of survey data or it may be introduced through improper data collection, checking, or editing. Error introduced through improper data collection, checking, and editing may be correctable based on model validation findings and used to improve the model estimation or calibration.
--   '''Input data error '''includes mistakes in input data used by the models. This type of error may be reduced through the model validation process through the correction of transportation networks and network processing procedures, or through the correction of population and employment estimates.
--   '''Validation data error '''is similar to model estimation data error. As with model estimation data error introduced through improper data collection, checking, and editing, validation data error may be corrected based on model validation findings. However, correction of validation data error will not require a return to the model estimation or calibration.
+-   **Model aggregation error** is the error introduced by the abstraction and aggregation inherent in travel models. Due to limitations in understanding and computer processing, models are aggregated over travelers (e.g., travelers may be aggregated over households or zones), traveler decisions (e.g., trip purposes), time periods, and transportation networks.
+-   **Model estimation data error** is the error introduced through the collection and processing of data for model estimation. The error may be random error associated with the collection of survey data or it may be introduced through improper data collection, checking, or editing. Error introduced through improper data collection, checking, and editing may be correctable based on model validation findings and used to improve the model estimation or calibration.
+-   **Input data error** includes mistakes in input data used by the models. This type of error may be reduced through the model validation process through the correction of transportation networks and network processing procedures, or through the correction of population and employment estimates.
+-   **Validation data error** is similar to model estimation data error. As with model estimation data error introduced through improper data collection, checking, and editing, validation data error may be corrected based on model validation findings. However, correction of validation data error will not require a return to the model estimation or calibration.
 
 A major concern for validation of travel models is error inherent in the collection of input data or historical data used for validation. Problems with input data or validation data can lead to erroneous corrections to models that, ultimately, will damage model performance, credibility, and results. For example, if daily traffic counts collected at screenlines are low due to incorrect collection methods, an analyst may attempt to increase auto occupancy rates or lower trip rates in order to match the screenlines. Thus, a good course of action for models that do not validate satisfactorily is to check for errors in model input or validation data prior to returning to the model estimation or calibration steps.
 
@@ -231,38 +222,19 @@ The remainder of this manual is divided into the following chapters:
 -   **[Temporal Validation and Sensitivity](Model_Validation_and_Reasonableness_Checking_Temporal_And_Sensitivity)** discusses the roles of temporal validation and sensitivity testing in the model validation process.
 -   **[Documentation](Model_Validation_and_Reasonableness_Checking_Documentation)** discusses the importance of model validation documentation in the overall model validation process. This chapter includes suggestions regarding information to include in model validation documentation.
 
-You will also find a list of [Figures](Model_Validation_and_Reasonableness_Checking_Figures) and [Tables](Model_Validation_and_Reasonableness_Checking_Tables) that link you back to the page and location where those appear.
-
-### Acknowledgments
-
-The second edition of the Travel Model Validation and Reasonableness Checking Manual (2010) is the basis for the initial TF Resource pages on model validation and reasonableness checking. The Wikitext version of the manual is based on the [HTML version](http://media.tmiponline.org/clearinghouse/FHWA-HEP-10-042) and was transcribed into TF Resource by Jeremy Raw who also made a small number of edits and corrections to the original text. These wiki pages are open to the public for editing, and readers seeking the published text should consult either the [PDF version](http://media.tmiponline.org/clearinghouse/FHWA-HEP-10-042/FHWA-HEP-10-042.pdf) or the [HTML version](http://media.tmiponline.org/clearinghouse/FHWA-HEP-10-042).
-
-The second edition of the Travel Model Validation and Reasonableness Checking Manual (2010) updated the first edition published in 1997 ([4](#fn4)). The second edition was prepared by Cambridge Systematics under contract to FHWA. The work was performed under a task order administered by the Texas Transportation Institute (TTI), as part of its contract to provide outreach services for FHWA's Travel Model Improvement Program (TMIP).
-
-Thomas Rossi and David Kurth of Cambridge Systematics were the principal authors of the 2010 published report. Sarah Sun of FHWA oversaw the report's development, and Gary Thomas of TTI oversaw the task order.
-
-A panel of travel demand modeling practice experts reviewed the report and provided valuable comments to improve it. These experts included Paul Agnello of the Virginia Department of Transportation, Ken Cervenka of the Federal Transit Administration, Alan Horowitz of the University of Wisconsin, Milwaukee, Ken Kaltenbach of The Corradino Group, Guy Rousseau of the Atlanta Regional Commission, David Schmitt of AECOM, and Ed Weiner.
-
-The authors express their sincere thanks to all of those who contributed their time and expertise to this effort.
-
 ------------------------------------------------------------------------
 
 <div id="fn1">
-1&nbsp;George Box, Professor Emeritus of Statistics, University of Wisconsin, as quoted in *Project Traffic Forecasting, NCHRP 255 Review*, by Doug Laird, Travel Model Improvement Program (TMIP) Webinar on Project Planning Forecasts, September 25, 2008.
-
+  1 George Box, Professor Emeritus of Statistics, University of Wisconsin, as quoted in *Project Traffic Forecasting, NCHRP 255 Review*, by Doug Laird, Travel Model Improvement Program (TMIP) Webinar on Project Planning Forecasts, September 25, 2008.
 </div>
 <div id="fn2">
-2&nbsp;*Travel Model Validation and Reasonableness Checking Manual*, Travel Model Improvement Program, Federal Highway Administration, February 1997.
-
+  2 *Travel Model Validation and Reasonableness Checking Manual*, Travel Model Improvement Program, Federal Highway Administration, February 1997.
 </div>
 <div id="fn3">
-3&nbsp;Special Report 288, *Metropolitan Travel Forecasting, Current Practice and Future Direction*, Transportation Research Board (TRB), 2007.
-
+  3 Special Report 288, *Metropolitan Travel Forecasting, Current Practice and Future Direction*, Transportation Research Board (TRB), 2007.
 </div>
 <div id="fn4">
-4&nbsp; *Model Validation and Reasonableness Checking Manual*, prepared by Barton-Aschman Associates, Inc. and Cambridge Systematics, Inc. for Federal Highway Administration Travel Model Improvement Program, February 1997.
-
+  4 *Model Validation and Reasonableness Checking Manual*, prepared by Barton-Aschman Associates, Inc. and Cambridge Systematics, Inc. for Federal Highway Administration Travel Model Improvement Program, February 1997.
 </div>
 
 ------------------------------------------------------------------------
-

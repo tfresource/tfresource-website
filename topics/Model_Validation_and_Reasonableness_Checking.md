@@ -1,30 +1,22 @@
 ---
 title: "Model Validation and Reasonableness Checking"
 categories:
-  - Needs Review
   - Model Calibration And Validation
 ---
 
 Travel Model Validation and Reasonableness Checking
 ---------------------------------------------------
 
-The pages in this category are devoted to methods for validating travel models, and for checking that their performance
-is reasonable.
+The pages in this category are devoted to methods for validating travel models, and for checking that their performance is reasonable.
 
 Sources
 -------
 
-These pages were initially derived from the Travel Model Validation and Reasonableness Checking Manual, Second Edition,
-prepared by Cambridge Systematics, Inc., and published by the Federal Highway Administration Travel Model Improvement
-Program in September, 2010.
+These pages were initially derived from the Travel Model Validation and Reasonableness Checking Manual, Second Edition, prepared by Cambridge Systematics, Inc., and published by the Federal Highway Administration Travel Model Improvement Program in September, 2010.
 
-The original source document may be found on the web either as a PDF document or as HTML pages at the following links:
+The original source document may be found on the web either as a [PDF](http://media.tmiponline.org/clearinghouse/FHWA-HEP-10-042/FHWA-HEP-10-042.pdf) or as [HTML](http://media.tmiponline.org/clearinghouse/FHWA-HEP-10-042).
 
-([PDF version](http://media.tmiponline.org/clearinghouse/FHWA-HEP-10-042/FHWA-HEP-10-042.pdf))
-
-([HTML version](http://media.tmiponline.org/clearinghouse/FHWA-HEP-10-042))
-
-Manual Topics
+Topics
 -------------
 
 Originally presented in this order:
@@ -40,7 +32,3 @@ Originally presented in this order:
 9.  [Assignment Procedures](Model_Validation_and_Reasonableness_Checking_Assignment)
 10. [Temporal Validation and Sensitivity Testing](Model_Validation_and_Reasonableness_Checking_Temporal_And_Sensitivity)
 11. [Validation Documentation](Model_Validation_and_Reasonableness_Checking_Documentation)
-12. [List of Figures](Model_Validation_and_Reasonableness_Checking_Figures)
-13. [List of Tables](Model_Validation_and_Reasonableness_Checking_Tables)
-
-

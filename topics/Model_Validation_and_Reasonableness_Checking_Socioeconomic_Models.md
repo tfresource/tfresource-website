@@ -1,12 +1,11 @@
 ---
 title: "Model Validation and Reasonableness Checking/Socioeconomic Models"
 categories:
+  - Model Calibration And Validation
   - Needs Review
 ---
 
 ### Socioeconomic Models
-
-\_\_TOC\_\_
 
 As discussed in [Model Inputs](Model_Validation_and_Reasonableness_Checking_Model_Inputs), the main inputs to travel demand models are transportation network data and socioeconomic data. The socioeconomic data generally include employment by type and households classified by variables, such as numbers of persons, numbers of workers, income level, and/or numbers of vehicles. In aggregate models, these data are required to be identified for specific geographic subregions, typically TAZs, but in some models, may be required at a very disaggregate level such as parcels.
 
@@ -29,19 +28,17 @@ The best state of the practice for socioeconomic models is the use of a discrete
 
 Aggregate share socioeconomic models are used to classify households. The percentages of households in each category are estimated as a function of an average, usually at the zone level. For example, the numbers of households with zero vehicles, one vehicle, two vehicles, etc., are estimated from the average number of vehicles per household in the zone. These models are usually estimated from census data, with curves “smoothed” to produce reasonable results.
 
-[Figure 4.1](#Figure-f4-1) shows an example of an aggregate share vehicle availability model. This model is applied by reading the shares of each vehicle availability level associated with the average number of vehicles per household, shown along the horizontal axis. For example, if a zone has an average of 1.5 vehicles per household, the model estimates that approximately 9 percent of households own zero vehicles, 47 percent own one vehicle, 32 percent own two vehicles, and 12 percent own three or more vehicles. Note that the curves are estimated so that the sum of the percentages across all vehicle availability levels is 100 percent for each input zonal average vehicles per household.
+Figure 4.1 shows an example of an aggregate share vehicle availability model. This model is applied by reading the shares of each vehicle availability level associated with the average number of vehicles per household, shown along the horizontal axis. For example, if a zone has an average of 1.5 vehicles per household, the model estimates that approximately 9 percent of households own zero vehicles, 47 percent own one vehicle, 32 percent own two vehicles, and 12 percent own three or more vehicles. Note that the curves are estimated so that the sum of the percentages across all vehicle availability levels is 100 percent for each input zonal average vehicles per household.
 
 The discussion of model validation checks for socioeconomic models in this chapter is presented in terms of vehicle availability models. The results can be interpreted similarly for other types of socioeconomic models. For example, the aggregate checks of the numbers of households with zero vehicles, one vehicles, two vehicles, etc., within a subregion could be conducted and interpreted similarly for a model of the numbers of workers (households with zero workers, one worker, two workers, etc.), numbers of households by household size, or numbers of households by income group.
 
-<div id="Figure-f4-1">
-![**Figure 4.1 Example Aggregate Vehicle Availability Model**](VandR-Fig4-1.jpg "Figure 4.1 Example Aggregate Vehicle Availability Model")
+![Figure 4.1 Example Aggregate Vehicle Availability Model](VandR-Fig4-1.jpg)
 
-</div>
 #### 4.1.1 Sources of Data
 
 The main sources of data for validation include the following:
 
--   '''Household travel/activity survey – '''If such a survey is available, it is likely to have been the data source for a choice-based socioeconomic model estimation. It is the best source for information on local household characteristics. It can be expanded to represent the total population and households in a region and can be disaggregated to represent various population segments.
+-   **Household travel/activity survey –** If such a survey is available, it is likely to have been the data source for a choice-based socioeconomic model estimation. It is the best source for information on local household characteristics. It can be expanded to represent the total population and households in a region and can be disaggregated to represent various population segments.
 -   **Census data –** The decennial U.S. Census provides information on the full set of persons and households in the country and can be summarized at a fine level of geographic resolution, such as the zone level or below. The Census Transportation Planning Package (CTPP), until 2000 based on the “long form” of the census, includes information on a number of cross-classifications of households at the zone level, defined by the MPO or other planning agency. Since the long form was eliminated after the 2000 Census, the Census Bureau has developed the American Community Survey (ACS), which is conducted continuously, not only at the time of the decennial census, and will provide the information formerly provided by the long form.
 -   **National sources –** Besides the census, relevant national data sources may include the National Household Travel Survey (NHTS) and NCHRP Report 365, Travel Estimation Techniques for Urban Planning, which is being updated (the update is expected to be available in 2010).
 
@@ -49,9 +46,9 @@ The main sources of data for validation include the following:
 
 The initial checks of aggregate share models are to ensure that the models are internally consistent. For the model shown in [Figure 4.1](#Figure-f4-1), the sums of the percentages of households by vehicle ownership levels must be 100 percent for each input zonal average vehicles per household. In addition, the internal consistency checks should ensure that the implied output share matches the input share. For the example vehicle share model, the implied average number of vehicles per household resulting from the shares of households by vehicle ownership level for an input zonal average of 1.5 vehicles per household is:
 
-Average Vehicles/Household = (0 x 0.06) + (1 x 0.53) + (2 x 0.32) + (3.67 x 0.09)
-
-= 1.5
+```
+Average Vehicles/Household = (0 * 0.06) + (1 * 0.53) + (2 * 0.32) + (3.67 * 0.09) = 1.5
+```
 
 The value used for three or more vehicles in the above check should be reasonable. For example, if the regional average number of vehicles per household for households with three or more vehicles summarized from census data was 3.2, the 3.67 average used above might not be reasonable.
 
@@ -59,87 +56,27 @@ Subsequent to the internal consistency checks, the main aggregate checks of soci
 
 If a model has been estimated using local household survey data, the model results may be compared to the summaries from the expanded household survey data. Such a comparison can help identify errors in the model estimation and errors in the survey expansion (or differences to be checked between the household characteristics during the survey period compared to the model base year). However, any problems with the survey data set itself, other than in the expansion process, might not be identified since they would exist in both the survey data and the models estimated from the data. It is therefore a good idea to check the model results against census data as well.
 
-[Table 4.1](#Table-t4-1) shows an example of an aggregate check of a vehicle availability model. The percentage of vehicles by category and the average number of vehicles per household by county are compared to the observed census data. Some potential model issues can be noted from this comparison. Overall, vehicle ownership is overestimated by about 10 percent, in large part because zero-vehicle households are underestimated by about one third. The overestimation of vehicle ownership is most pronounced in Zeppo County, where the underestimation is about 20 percent. These findings would help the modeler identify how the model might be revised to improve the comparison. (Troubleshooting strategies are discussed in [Troubleshooting Strategies for Socioeconomic Models](#Troubleshooting_Strategies_for_Socioeconomic_Models).)
+Table 4.1 shows an example of an aggregate check of a vehicle availability model. The percentage of vehicles by category and the average number of vehicles per household by county are compared to the observed census data. Some potential model issues can be noted from this comparison. Overall, vehicle ownership is overestimated by about 10 percent, in large part because zero-vehicle households are underestimated by about one third. The overestimation of vehicle ownership is most pronounced in Zeppo County, where the underestimation is about 20 percent. These findings would help the modeler identify how the model might be revised to improve the comparison. (Troubleshooting strategies are discussed in [Troubleshooting Strategies for Socioeconomic Models](#Troubleshooting_Strategies_for_Socioeconomic_Models).)
 
-<div id="Table-t4-1">
-<center>
 Table 4.1 Vehicle Availability Model Results Compared to Observations at County Level
 
-</center>
-</div>
-|                                |               |
-|--------------------------------|---------------|
-| <center>                       
- **Variable**                    
-                                 
- </center>                       | <center>      
-                                  **County**     
-                                                 
-                                  </center>      |
-| <span></span>                  | <center>      
-                                  **Moe**        
-                                                 
-                                  </center>      |
-| <center>                       
- **Percent 0 Vehicles**          
-                                 
- </center>                       | <span></span> |
-| <center>                       
- **Observed**                    
-                                 
- </center>                       | 5%            |
-| <center>                       
- **Model**                       
-                                 
- </center>                       | 3%            |
-| <center>                       
- **Percent 1 Vehicle**           
-                                 
- </center>                       | <span></span> |
-| <center>                       
- **Observed**                    
-                                 
- </center>                       | 28%           |
-| <center>                       
- **Model**                       
-                                 
- </center>                       | 27%           |
-| <center>                       
- **Percent 2 Vehicles**          
-                                 
- </center>                       | <span></span> |
-| <center>                       
- **Observed**                    
-                                 
- </center>                       | 44%           |
-| <center>                       
- **Model**                       
-                                 
- </center>                       | 47%           |
-| <center>                       
- **Percent 3 Vehicles**          
-                                 
- </center>                       | <span></span> |
-| <center>                       
- **Observed**                    
-                                 
- </center>                       | 22%           |
-| <center>                       
- **Model**                       
-                                 
- </center>                       | 22%           |
-| <center>                       
- **Average Number of Vehicles**  
-                                 
- </center>                       | <span></span> |
-| <center>                       
- **Observed**                    
-                                 
- </center>                       | 1.86          |
-| <center>                       
- **Model**                       
-                                 
- </center>                       | 1.95          |
+**Variable** | Moe | Larry | Curly | Groucho | Chico | Harpo | Zeppo | Region
+ --- | --- | --- | --- | --- | --- | --- | --- | ---
+**Percent 0 Vehicles**
+Observed | 5%	| 13%	| 12%	| 7%	| 12%	| 7%	| 37%	| 17%
+Model | 3%	| 8%	| 8%	| 3%	| 5%	| 4%	| 24%	| 11%
+**Percent 1 Vehicle**
+Observed | 28%	| 35%	| 35%	| 31%	| 34%	| 33%	| 42%	| 35%
+Model | 27%	| 38%	| 38%	| 30%	| 34%	| 33%	| 49%	| 37%
+**Percent 2 Vehicles**
+Observed | 44%	| 37%	| 38%	| 44%	| 38%	| 43%	| 18%	| 34%
+Model | 47%	| 39%	| 39%	| 45%	| 43%	| 43%	| 21%	| 36%
+**Percent 3 Vehicles**
+Observed | 22%	| 14%	| 15%	| 18%	| 16%	| 17%	| 3%	| 13%
+Model | 22%	| 15%	| 15%	| 21%	| 18%	| 20%	| 5%	| 15%
+**Average Number of Vehicles**
+Observed | 1.86	| 1.55	| 1.57	| 1.78	| 1.58	| 1.74	| 0.88	| 1.44
+Model | 1.95	| 1.65	| 1.65	| 1.90	| 1.79	| 1.82	| 1.11	| 1.59
 
 Note that the type of check shown in [Table 4.1](#Table-t4-1) can be performed regardless of whether the socioeconomic model is an aggregate share model or a disaggregately estimated logit model.
 
@@ -155,38 +92,38 @@ Table 4.2 Check of Aggregate Share Vehicle Availability Model Results
 |---------------|----------------|---------------|----------------|-----------------|-----------|
 | <center>      
  **Range**      
-                
+
  </center>      | <center>       
                  **0 Vehicles**  
-                                 
+
                  </center>       | <center>      
                                   **1 Vehicle**  
-                                                 
+
                                   </center>      | <center>       
                                                   **2 Vehicles**  
-                                                                  
+
                                                   </center>       | <center>        
                                                                    **3+ Vehicles**  
-                                                                                    
+
                                                                    </center>        | <center>  
                                                                                      **Total**  
-                                                                                                
+
                                                                                      </center>  |
 | <span></span> | <center>       
                  **Obs.**        
-                                 
+
                  </center>       | <center>      
                                   **Model**      
-                                                 
+
                                   </center>      | <center>       
                                                   **Obs.**        
-                                                                  
+
                                                   </center>       | <center>        
                                                                    **Model**        
-                                                                                    
+
                                                                    </center>        | <center>  
                                                                                      **Obs.**   
-                                                                                                
+
                                                                                      </center>  |
 | 0.00–0.05     | 181            | 181           | 0              | 0               | 0         |
 | 0.05–0.15     | 0              | 0             | 0              | 0               | 0         |
@@ -248,93 +185,93 @@ Table 4.3 Disaggregate Vehicle Availability Model Check
 |-----------------------------------------------|---------------------|--------------------|
 | <span></span>                                 | <center>            
                                                  **Income Category**  
-                                                                      
+
                                                  </center>            | <center>           
                                                                        **All Households**  
-                                                                                           
+
                                                                        </center>           |
 | <span></span>                                 | <center>            
                                                  **Low**              
-                                                                      
+
                                                  </center>            | <center>           
                                                                        **Medium**          
-                                                                                           
+
                                                                        </center>           |
 | <center>                                      
  **0 Vehicles**                                 
-                                                
+
  </center>                                      | <span></span>       |
 | <center>                                      
  **Observed Vehicles**                          
-                                                
+
  </center>                                      | 340                 | 101                |
 | <center>                                      
  '''Standard Deviation [a](#t4-3_a)  
-                                                
+
  </center>                                      | 18                  | 14                 |
 | <center>                                      
  **Modeled Vehicles**                           
-                                                
+
  </center>                                      | **300**             | 105                |
 | <center>                                      
  **1 Vehicle**                                  
-                                                
+
  </center>                                      | <span></span>       |
 | <center>                                      
  **Observed Vehicles**                          
-                                                
+
  </center>                                      | 684                 | 592                |
 | <center>                                      
  '''Standard Deviation [a](#t4-3_a)  
-                                                
+
  </center>                                      | 32                  | 31                 |
 | <center>                                      
  **Modeled Vehicles**                           
-                                                
+
  </center>                                      | 653                 | 621                |
 | <center>                                      
  **2 Vehicles**                                 
-                                                
+
  </center>                                      | <span></span>       |
 | <center>                                      
  **Observed Vehicles**                          
-                                                
+
  </center>                                      | 255                 | 492                |
 | <center>                                      
  '''Standard Deviation [a](#t4-3_a)  
-                                                
+
  </center>                                      | 27                  | 27                 |
 | <center>                                      
  **Modeled Vehicles**                           
-                                                
+
  </center>                                      | **300**             | **455**            |
 | <center>                                      
  **3+ Vehicles**                                
-                                                
+
  </center>                                      | <span></span>       |
 | <center>                                      
  **Observed Vehicles**                          
-                                                
+
  </center>                                      | 66                  | 159                |
 | <center>                                      
  '''Standard Deviation [a](#t4-3_a)  
-                                                
+
  </center>                                      | 10                  | 20                 |
 | <center>                                      
  **Modeled Vehicles**                           
-                                                
+
  </center>                                      | **93**              | 163                |
 | <center>                                      
  **Total**                                      
-                                                
+
  </center>                                      | <span></span>       |
 | <center>                                      
  **Observed Vehicles**                          
-                                                
+
  </center>                                      | 1,346               | 1,344              |
 | <center>                                      
  **Modeled Vehicles**                           
-                                                
+
  </center>                                      | **1,346**           | **1,344**          |
 
 <div id="t4-3_a">
@@ -372,10 +309,10 @@ Table 4.4 Troubleshooting Strategies for Issues with Socioeconomic Model Results
 |------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <center>                                                                                                                           
  **Issue**                                                                                                                           
-                                                                                                                                     
+
  </center>                                                                                                                           | <center>                                                                                                                                                       
                                                                                                                                       **Potential Troubleshooting Strategies**                                                                                                                        
-                                                                                                                                                                                                                                                                                                      
+
                                                                                                                                       </center>                                                                                                                                                       |
 | 1\. Expanded survey data set for estimation and validation is significantly different from independent data sources (e.g., census) | -   Check survey expansion factors for consistency with data used for expansion (e.g., census)                                                                 
                                                                                                                                       -   Check for differences in socioeconomic data between survey and base years                                                                                   
@@ -493,10 +430,10 @@ Table 4.5 Troubleshooting Strategies for Population Synthesizers
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <center>                                                                             
  **Issue**                                                                             
-                                                                                       
+
  </center>                                                                             | <center>                                                                                                                                                           
                                                                                         **Potential Troubleshooting Strategies**                                                                                                                            
-                                                                                                                                                                                                                                                            
+
                                                                                         </center>                                                                                                                                                           |
 | 1\. Poor match between synthetic population and census data for some classifications | -   Check the seed distribution for accuracy                                                                                                                       
                                                                                         -   Check error levels for variables at the given geographic level of detail and consider aggregating the level of resolution                                       
@@ -521,4 +458,3 @@ The control totals for various socioeconomic variables that are used as inputs t
 &nbsp;Bowman, J., and G. Rousseau, “Validation of Atlanta, Georgia, Regional Commission Population Synthesizer,” **Innovations in Travel Demand Modeling, Summary of a Conference, Volume 2: Papers**, Transportation Research Board, Washington, D.C., 2008, pages 54-62.
 
 ------------------------------------------------------------------------
-
