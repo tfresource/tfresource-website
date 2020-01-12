@@ -1,7 +1,6 @@
 ---
 title: "Choice models"
 categories:
-  - Needs Review
   - Destination Choice Models
   - Land Use Transport Modeling
   - Topic Circles
@@ -22,7 +21,7 @@ Model Classes
 ### Binary and Multinomial Logit
 
 The simplest random utility maximizing model to analyze choices is the binary logit model (in the case of two alternatives) or the multinomial logit (MNL) model (in the case of more than two unordered alternatives). Most choices studies in transportation modeling correspond to unordered alternatives in that there is no intrinsic ordering implied by the alternatives.
-(insert mathematical form of multinomial logit here) Other examples of Multinomial Logit Models are [mode choice models](Mode_Choice), \[ and \[.
+(insert mathematical form of multinomial logit here) Other examples of Multinomial Logit Models are [mode choice models](Mode_Choice), [destination choice models](Destination_Choice_Models), and [land use models](Land_use_transport_modeling).
 
 #### Assumptions
 

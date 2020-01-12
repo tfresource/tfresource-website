@@ -1,7 +1,6 @@
 ---
 title: "Network assignment"
 categories:
-  - Needs Review
   - Topic Circles
   - Trip Based Models
 ---

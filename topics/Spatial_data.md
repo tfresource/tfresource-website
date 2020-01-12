@@ -1,7 +1,6 @@
 ---
 title: "Spatial data"
 categories:
-  - Needs Review
   - Spatial Data
   - Topic Circles
 ---
@@ -49,11 +48,11 @@ Highway networks may include thousands of nodes and links. Nodes often represent
 
 ##### Travel Survey Data
 
-[Travel Survey Data](Travel_Survey_Data) offers information about all of the trips and activities (usually outside the home) that individuals undertake over the course of a day or more (multiday travel surveys capture travel information for a number of days). Travel surveys are typically administered through the phone or internet (although mail-based surveys are still in existence), and technology is enabling the administration of travel surveys through mobile technology such as Smartphones. Global Positioning System (GPS) based travel surveys are gaining increasing acceptance in the transportation planning profession as they allow the passive tracking of travelers through networks while obtaining very detailed spatial and temporal information about all trips that an individual undertook over the course of a day ([Czerniak, 2002](http://onlinepubs.trb.org/onlinepubs/nchrp/nchrp_syn_301.pdf)). Regardless of the type of travel survey conducted, travel survey data sets include information about home locations for households, work and school locations for individuals, and origins and destinations of all trips. At the most detailed resolution, these locations may be identified by XY coordinates (latitude/longitude); when concerns about privacy need to be addressed or if such detailed point location information was not collected in the survey data, then locations in a travel survey data set may be geocoded to more aggregate spatial units such as a traffic analysis zone (TAZ), tract, zip code, block group, or block. Geocoded trip information allows tracing the movements of people through time and space, quantifying action spaces and time-space prisms, and visualizing trip chaining patterns. By combining land use data with travel survey data, it is possible to establish relationships between the built environment, network accessibility, and traveler behavior.
+[Travel Survey Data](Travel_surveys) offers information about all of the trips and activities (usually outside the home) that individuals undertake over the course of a day or more (multiday travel surveys capture travel information for a number of days). Travel surveys are typically administered through the phone or internet (although mail-based surveys are still in existence), and technology is enabling the administration of travel surveys through mobile technology such as Smartphones. Global Positioning System (GPS) based travel surveys are gaining increasing acceptance in the transportation planning profession as they allow the passive tracking of travelers through networks while obtaining very detailed spatial and temporal information about all trips that an individual undertook over the course of a day ([Czerniak, 2002](http://onlinepubs.trb.org/onlinepubs/nchrp/nchrp_syn_301.pdf)). Regardless of the type of travel survey conducted, travel survey data sets include information about home locations for households, work and school locations for individuals, and origins and destinations of all trips. At the most detailed resolution, these locations may be identified by XY coordinates (latitude/longitude); when concerns about privacy need to be addressed or if such detailed point location information was not collected in the survey data, then locations in a travel survey data set may be geocoded to more aggregate spatial units such as a traffic analysis zone (TAZ), tract, zip code, block group, or block. Geocoded trip information allows tracing the movements of people through time and space, quantifying action spaces and time-space prisms, and visualizing trip chaining patterns. By combining land use data with travel survey data, it is possible to establish relationships between the built environment, network accessibility, and traveler behavior.
 
 ![Sample Mapping of Locations of Trip Ends](LocationDataExample.jpg "Sample Mapping of Locations of Trip Ends")
 
-*Sources of Travel Survey Data*: National Household Travel Survey (NHTS), Metropolitan Travel Survey Archive (http://www.surveyarchive.org/), Transportation Secure Data Center (TSDC) of the National Renewable Energy Laboratory (http://www.nrel.gov/vehiclesandfuels/secure\_transportation\_data.html)
+*Sources of Travel Survey Data*: National Household Travel Survey (NHTS), Metropolitan Travel Survey Archive ( <http://www.surveyarchive.org/> ), Transportation Secure Data Center (TSDC) of the National Renewable Energy Laboratory (<http://www.nrel.gov/vehiclesandfuels/secure_transportation_data.html>)
 
 In most cases, it is necessary to contact the agency in charge of data collection to obtain the survey records with geocoded trip information. Data available at public websites is usually stripped of all geocoded information.
 
@@ -80,13 +79,3 @@ Lowe, J.C. (1998) [Patterns of spatial dispersion in metropolitan commuting](htt
 Miller, H.J. (1991) [Modelling accessibility using space-time prism concepts within geographical information systems](http://www.tandfonline.com/doi/abs/10.1080/02693799108927856#.Ujo2SNKsOSp). *International Journal of Geographical Information Systems*, **5(3)**, pp. 287-301.
 
 Wheeler, D.C. and A. Páez (2010) [Geographically Weighted Regression](http://link.springer.com/chapter/10.1007/978-3-642-03647-7_22). In M.M. Fischer and A. Getis, eds, Handbook of Applied Spatial Analysis, Springer, pp. 461-486.
-
-Related Content
----------------
-
-{{\#ask: [_](_)
-| format=ul
-}}
-
-------------------------------------------------------------------------
-

@@ -1,12 +1,9 @@
 ---
 title: "Temporal data"
 categories:
-  - Needs Review
   - Temporal Data
   - Topic Circles
 ---
-
-Learn more about this circle at [temporal data](Temporal_Data).
 
 Any data that incorporates the time dimension may be considered temporal data. In travel analysis, the time dimension is critical to understanding, explaining, and modeling travel demand. Congestion on a network is inherently related to the temporal concentration of travel demand at specific locations. Trends over time, often captured through the use of longitudinal data sets, constitute temporal data that is useful to understanding changes in patterns of development or behavior over time. Another form of temporal data is concerned with people's time use behavior, i.e., how people spend time over the course of a day, week, month, or year. Temporal data can be combined with [Spatial Data](Spatial_Data) to better understand and model time-space interactions that characterize and shape land use development patterns, demographic evolution, and activity-travel behavior.
 
@@ -15,7 +12,7 @@ Types of Temporal Data
 
 This section provides a brief description of the different types of temporal data that may be encountered and that may be of value in travel analysis.
 
-##### Trend Data
+#### Trend Data
 
 Trend data captures the changes in a phenomenon or behavior of interest over time (usually extended periods of time). Longitudinal observations of a phenomenon or behavior of interest yield trend data. Repeated cross-sectional data, time series data, and panel data sets are all examples of longitudinal data that provide information about trends over time. There are many examples of trends of interest in the travel analysis domain. Population and employment changes over time, changes in trip rates and mode choice over time, and changes in fuel prices and household income are all examples of trend data. The [Bureau of Transportation Statistics](http://www.bts.gov) (BTS) maintains an extensive amount of trend data for different modes of transportation.
 
@@ -54,8 +51,7 @@ Traffic data is critical for validating and running travel demand models. One of
 The other areas (data periods, equipment/technologies and screenline counts) are subsets of the above.
 It is important to mention that traffic data is used for many other purposes than providing data to travel demand models and for traffic forecasting. Some other uses of traffic data include: Pavement management, Construction management/lane closures, Locating businesses (restaurants), Determination of funding (use of VMT for allocating federal matches), Determining speed limits, Safety analysis, Crash analysis, Determination of level of service and other performance measures for highway facilities, Use for traffic impact studies, Use for signalizing intersections, Use for reporting highway conditions to Congress (VMT, VHT, etc.);Use by HPMS for assessing future highway demand (apart from similar efforts using travel demand models); and Use for air quality.
 
-Interested readers can find more information on this subject at:
-<http://tfresource.org/VehicleCounts>
+Interested readers can find more information on this subject at: [Vehicle Counts](Vehicle_Counts)
 
 Analysis of Temporal Data
 -------------------------
@@ -82,15 +78,4 @@ Woodward, W.A., H.L. Gray, and A. Elliott (2011) [Applied Time Series Analysis](
 Yamamoto, T. and R. Kitamura (1999) [An analysis of time allocation to in-home and out-of-home discretionary activities across working days and non- working days](http://link.springer.com/article/10.1023/A:1005167311075). *Transportation*, **26(2)**, pp. 231-250.
 
 Zeid, M.A., T.F. Rossi, and B. Gardner (2006) [Modeling time-of-day choice in context of tour and activity-based models](http://trb.metapress.com/content/ar31871041148332/). *Transportation Research Record: Journal of the Transportation Research Board* **1981**, pp. 42-49.
-
-Related Content
----------------
-
-{{\#ask: [_](_)
-| format=ul
-}}
-
-------------------------------------------------------------------------
-
-Learn more about this circle at [temporal data](Temporal_Data).
 

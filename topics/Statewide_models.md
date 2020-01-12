@@ -1,7 +1,6 @@
 ---
 title: "Statewide models"
 categories:
-  - Needs Review
   - Statewide Models
   - Topic Circles
 ---
@@ -11,12 +10,12 @@ Introduction
 
 Statewide travel forecasting models predict all travel in the state, potentially by all modes, for both goods and people. Logically included with statewide models are super-regional models that cover all or parts of multiple states, and possibly the whole US. The importance of statewide models stems directly from the amount of long-distance and intercity travel in the US. According to the 2001-02 NHTS just under one-third of all person miles are long-distance (as defined as more than 50 miles within the NHTS), and according to the 2002 Commodity Flow Survey the vast majority of freight ton-miles are long distance. Statewide models go beyond metropolitan models principally by including larger, if not all, portions of long distances trips and by explicitly including passenger and freight modes for intercity travel. The field of statewide modeling is still maturing, even though models have been deployed in Michigan and Kentucky for more than 40 years.
 
-The current status of statewide modeling in all states can be found here: [Current Status of Statewide Models](Current_Status_of_Statewide_Models).\
-![States with operational statewide transport models in 2016](States-with-operational-models-c.jpg "fig:States with operational statewide transport models in 2016")
+The current status as of 2016 of statewide modeling in all states can be found here: [Current Status of Statewide Models](Current_Status_of_Statewide_Models).
 
-''States with operational statewide transport models in 2016 (Copyright Transportation Research Board)
+![States with operational statewide transport models in 2016](States-with-operational-models-c.jpg "States with operational statewide transport models in 2016")
 
-\
+*States with operational statewide transport models in 2016 (Copyright Transportation Research Board)*
+
 Important documents and events in the dissemination of information on statewide model development are listed in the reference section.
 The initial motivation for information dissemination was to encourage the development of models in states that did not have them, but a more recent motivation has been to foster research and development to improve models across-the-board. Persistent dominant themes emerged from each of these sessions, conferences and reviews:
 
@@ -58,8 +57,8 @@ The first three sections summarize sections 2.1, 2.2 and 2.3 of [NCHRP Synthesis
 
 NCHRP Project 8-36C, Task 137 assesses the utility and costs of statewide travel demand models. This research builds on [NCHRP Synthesis 514](http://www.trb.org/Publications/Blurbs/176702.aspx) by performing interviews with statewide modeling practitioners. The model is built around the table shown below.
 
-\
-![Statewide Models Utility Cost](Stm utility cost.jpg "fig:Statewide Models Utility Cost")\
+![Statewide Models Utility Cost](Stm_utility_cost.jpg "Statewide Models Utility Cost")
+
 These two reports provide an excellent overview for the agency deciding to either “get in the statewide modeling game,” or an agency that wants to upgrade their existing model.
 
 Statewide Models: Types
@@ -226,18 +225,15 @@ This section contains a link to the Statewide Modeling Subcommittee and a link t
 
 [Statewide Modeling Case Studies](Statewide_Modeling_Case_Studies) is the link for all information on Statewide Modeling Case Studies.
 
-<h1>
-References
+## References
 
-</h1>
--   Cambridge Systematics, *National Travel Demand Forecasting Model Phase I Final Scope*, Transportation Research Board, Washington DC 2008. <http://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(70)_FR.pdf>
--   Cambridge Systematics, Global Insight, Cohen, H, Horowitz A.,& Pendyala,R., ''NCHRP Report 606, Forecasting Statewide Freight Toolkit", Transportation Research Board, Washington DC 2008. <http://www.trb.org/Publications/Blurbs/159781.aspxhttp://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(70)_FR.pdf>
--   Cambridge Systematics, *NCHRP 8-36B Task 91: Validation and Sensitivity Considerations for Statewide Models* , Transportation Research Board, Washington, DC, 2010. <http://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(91)_FR.pdf>
--   Donnelly, R. & Moeckel, *NCHRP Synthesis 514 Statewide and Megaregional Travel Forecasting Models*, Transportation Research Board, Washington, DC, 2017. <http://www.trb.org/NCHRP/Blurbs/176702.aspx>
--   Erhardt G, Tsang F & Francis B., *NCHRP Project 8-36C, Task 137, Assessing the Utility and Costs of Statewide Travel Demand Models,* TRB, Washington, DC, 2018.http://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(137)\_FR.pdf
--   Giaimo, G. & Schiffer, R., *Transportation Research Circular E-C075, Statewide Travel Demand Modeling, A Peer Exchange*, Transportation Research Board, Washington DC. 2005. <http://onlinepubs.trb.org/onlinepubs/circulars/ec075.pdf>
--   Horowitz, A.,*Guidebook on Statewide Travel Forecasting*, Federal Highway Administration, Washington, DC,1999. <https://www.fhwa.dot.gov/planning/processes/statewide/forecasting/swtravel.pdf>
--   Horowitz, A. *NCHRP Synthesis 358 Statewide Travel Forecasting Models*, Transportation Research Board, Washington, DC, 2006.http://onlinepubs.trb.org/onlinepubs/nchrp/nchrp\_syn\_358.pdf
--   Schiffer, R.,*NCHRP Report 735 Transferable Parameters for Long Distance and Rural Trip-making* Transportation Research Board, Washington, DC, 2012. <http://onlinepubs.trb.org/onlinepubs/nchrp/nchrp_rpt_735.pdf>
-
+- Cambridge Systematics, *National Travel Demand Forecasting Model Phase I Final Scope*, Transportation Research Board, Washington DC 2008. <http://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(70)_FR.pdf>
+- Cambridge Systematics, Global Insight, Cohen, H, Horowitz A.,& Pendyala,R., ''NCHRP Report 606, Forecasting Statewide Freight Toolkit", Transportation Research Board, Washington DC 2008. <http://www.trb.org/Publications/Blurbs/159781.aspxhttp://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(70)_FR.pdf>
+- Cambridge Systematics, *NCHRP 8-36B Task 91: Validation and Sensitivity Considerations for Statewide Models* , Transportation Research Board, Washington, DC, 2010. <http://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(91)_FR.pdf>
+- Donnelly, R. & Moeckel, *NCHRP Synthesis 514 Statewide and Megaregional Travel Forecasting Models*, Transportation Research Board, Washington, DC, 2017. <http://www.trb.org/NCHRP/Blurbs/176702.aspx>
+- Erhardt G, Tsang F & Francis B., *NCHRP Project 8-36C, Task 137, Assessing the Utility and Costs of Statewide Travel Demand Models,* TRB, Washington, DC, 2018. <http://onlinepubs.trb.org/onlinepubs/nchrp/docs/NCHRP08-36(137)\_FR.pdf>
+- Giaimo, G. & Schiffer, R., *Transportation Research Circular E-C075, Statewide Travel Demand Modeling, A Peer Exchange*, Transportation Research Board, Washington DC. 2005. <http://onlinepubs.trb.org/onlinepubs/circulars/ec075.pdf>
+- Horowitz, A.,*Guidebook on Statewide Travel Forecasting*, Federal Highway Administration, Washington, DC,1999. <https://www.fhwa.dot.gov/planning/processes/statewide/forecasting/swtravel.pdf>
+- Horowitz, A. *NCHRP Synthesis 358 Statewide Travel Forecasting Models*, Transportation Research Board, Washington, DC, 2006. <http://onlinepubs.trb.org/onlinepubs/nchrp/nchrp\_syn\_358.pdf>
+- Schiffer, R.,*NCHRP Report 735 Transferable Parameters for Long Distance and Rural Trip-making* Transportation Research Board, Washington, DC, 2012. <http://onlinepubs.trb.org/onlinepubs/nchrp/nchrp_rpt_735.pdf>
 

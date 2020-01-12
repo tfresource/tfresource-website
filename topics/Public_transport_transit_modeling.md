@@ -1,7 +1,6 @@
 ---
 title: "Public transport (transit) modeling"
 categories:
-  - Needs Review
   - Public Transport (Transit) Modeling
   - Topic Circles
 ---
@@ -113,27 +112,18 @@ What are planners and decision makers typically interested in learning when they
 
 **Use Cases**:
 
-1.  [Small Starts / New Starts](Capital_Investment_Grant_Program_aka_New_Starts))
+1.  [Small Starts / New Starts](New_Starts))
 2.  [Long range transportation plan](Long_range_transportation_plan)
-3.  [Project Prioritization](Project_Prioritization)
-4.  [Corridor Study](Corridor_Study)
-5.  Policy Study (i.e. cordon-based [congestion pricing](congestion_pricing))
+3.  Policy Study (i.e. cordon-based congestion pricing
 
 Application and Forecasting Considerations
 ------------------------------------------
+
+to be added.
 
 Research Avenues
 ----------------
 
 -   Person-based dynamic transit assignment
 -   Tour-based path evaluation for park and ride facilities
-
-Related Content
----------------
-
-{{\#ask: [_](_)
-| format=ul
-}}
-
-------------------------------------------------------------------------
 

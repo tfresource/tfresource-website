@@ -1,7 +1,6 @@
 ---
 title: "Innovations in Travel Modeling"
 categories:
-  - Needs Review
   - Topic Circles
 ---
 
@@ -12,8 +11,8 @@ The Innovations in Travel Modeling (ITM) conference series is the premier forum 
 -   [3rd ITM Conference, Tempe, Arizona (2010)](3rd_TRB_Conference_on_Innovations_in_Travel_Modeling)
 -   [4th ITM Conference, Tampa, Florida (2012)](http://www.cvent.com/events/4th-transportation-research-board-conference-on-innovations-in-travel-modeling-itm-/event-summary-092a2bae88ec4d3e8c752667802ba215.aspx)
 -   [5th ITM Conference, Baltimore, Maryland (2014)](http://www.cvent.com/events/innovations-in-travel-modeling/event-summary-477f7b8596454859ac120f90d9ebc56c.aspx)
--   [6th ITM Conference, Denver, Colorado (2016)](6th_ITM_Conference_Denver_Colorado_2016))
--   [7th ITM Conference, Atlanta, Georgia (2018)](7th_ITM_Conference_Atlanta_Georgia_2018))
+-   [6th ITM Conference, Denver, Colorado (2016)](6th_ITM_Conference_Denver_Colorado_2016)
+-   [7th ITM Conference, Atlanta, Georgia (2018)](7th_ITM_Conference_Atlanta_Georgia_2018)
 
 Each conference attempts to further build on the successes of the previous conferences to serve as a venue for the modeling community to exchange information on promising modeling methods to address emerging policy questions.
 

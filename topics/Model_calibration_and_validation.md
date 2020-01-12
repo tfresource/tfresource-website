@@ -1,7 +1,6 @@
 ---
 title: "Model calibration and validation"
 categories:
-  - Needs Review
   - Topic Circles
 ---
 
@@ -43,9 +42,7 @@ Additional Information
 
 See the following pages for additional information:
 
-:   
-
--   [Validating Input Data](Validating_Input_Data)
+- [Validating Input Data](Validating_Input_Data)
 
 ### Input Data
 
@@ -129,13 +126,13 @@ Another check of travel patterns is the amount of intrazonal trips. The modeled 
 
 #### Trip Assignment Models
 
-### Activity Based Models
+#### Activity Based Models
 
 #### [Population Synthesis](Population_Synthesis)
 
 #### Long Term Choice Models
 
-### Statewide Travel Models
+#### Statewide Travel Models
 
-### Model System Validation
+#### Model System Validation
 

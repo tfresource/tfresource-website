@@ -1,7 +1,7 @@
 ---
 title: "Travel surveys"
 categories:
-  - Needs Review
+  - Travel Surveys
   - Topic Circles
 ---
 
@@ -46,7 +46,7 @@ The most common types of travel surveys include:
 Generic Survey Process
 ======================
 
-Backstrom and Hursh-Cesar (1981)[^1] divided the generic survey implementation process into the 20 steps. These 20 steps can be classified into five general stages: (1) survey planning, (2) survey design, (3) field implementation, (4) data preparation, and (5) data analysis. 
+Backstrom and Hursh-Cesar (1981)[^1] divided the generic survey implementation process into the 20 steps. These 20 steps can be classified into five general stages: (1) survey planning, (2) survey design, (3) field implementation, (4) data preparation, and (5) data analysis.
 
 Survey Planning
 ---------------
@@ -135,6 +135,6 @@ The [Online Travel Survey Manual](Online_Travel_Survey_Manual) provides a compre
 [^1]: Backstrom, Charles and Gerald Hursh-Cesar. (1981) Survey Research, 2nd edition, John Wiley & Sons.
 
 [^2]: Stopher, P. R., & Greaves, S. P. (2007). Household travel surveys: Where are we going?. Transportation Research Part A: Policy and Practice, 41(5), 367-381.
-Chicago	
+Chicago
 
 

@@ -1,8 +1,6 @@
 ---
 title: "Land use-transport modeling"
 categories:
-  - Needs Review
-  - Established Topics
   - Land Use Transport Modeling
   - Topic Circles
 ---
@@ -50,7 +48,7 @@ A wide variety of land use models are in operation to date. The section [design 
 Enhanced Scenario Analysis
 --------------------------
 
-Adding a land use model to a travel demand model adds a large set of land use-related policy scenarios that can be tested. Such integrated model systems have been used extensively to model the impact of land-use policies, including the implementation of growth boundaries, development of new residential, transit-oriented development projects or tax incentives for promoting certain urban developments. If [air quality](Air_Quality_Modeling) or emissions in general are of interest, land use models allow adding emissions from dwellings and firms to traffic emissions. Oregon’s GreenSTEP model[^6] is an example for estimating emissions from fixed-point sources in a addition to vehicles' emissions.
+Adding a land use model to a travel demand model adds a large set of land use-related policy scenarios that can be tested. Such integrated model systems have been used extensively to model the impact of land-use policies, including the implementation of growth boundaries, development of new residential, transit-oriented development projects or tax incentives for promoting certain urban developments. If air quality or emissions in general are of interest, land use models allow adding emissions from dwellings and firms to traffic emissions. Oregon’s GreenSTEP model[^6] is an example for estimating emissions from fixed-point sources in a addition to vehicles' emissions.
 
 Implementing a land use model may also improve the travel demand models by reflecting the land use/transportation feedback cycle. If changes in land use are modeled explicitly, the quality of a base forecast as well as the responsiveness of the travel demand model to alternative policies may improve significantly. Finally, demographic changes, such as a higher share of seniors traveling or the trend towards smaller household sizes, is modeled explicitly.
 
@@ -139,7 +137,7 @@ References
 
 [^3]: Wegener, Michael (2004): Overview of Land use Transport Models. In: D. A. Hensher, K. J. Button, K. E. Haynes and P. R. Stopher (Eds.) *Handbook of Transport Geography And Spatial Systems*, vol. 5, Handbooks in Transport. Edited by D. A. Hensher and K. J. Button. Amsterdam: Elsevier. 127-146.
 
-[^4]: 
+[^4]:
 
 [^5]: Conder, Sonny and Keith Lawton (2002) Alternative Futures for Integrated Transportation and Land-Use Models Contrasted with Trend-Delphi Models. In: *Transportation Research Record: Journal of the Transportation Research Board* No. 1805. Pages 99-107.
 
