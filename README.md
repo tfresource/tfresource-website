@@ -19,6 +19,6 @@ features:
 
 This project came about due to a TRB research project designed to examine the state-of-the-practice in metropolitan travel forecasting.
 
-In the final report, *Metropolitan Travel Forecasting: Current Practice and Future Direction*, the committee identified many recommendations to improve travel demand forecasting, including a national travel forecasting handbook to be developed and kept current.
+In the final report, [Metropolitan Travel Forecasting: Current Practice and Future Direction](/topics/SR_288_Metropolitan_Travel_Forecasting_Current_Practice_and_Future_Direction), the committee identified many recommendations to improve travel demand forecasting, including a national travel forecasting handbook to be developed and kept current.
 
 This suggestion was taken up by the forecasting community, and this TFResource is that handbook! We hope you find it useful.
