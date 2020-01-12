@@ -20,7 +20,7 @@ In addition to the [Volunteers](TF_Resource_Volunteers), the website [Administra
 
 ### Wikipedia vs. TFResource - the similarities and the differences
 
-Wikipedia has changed the way we conduct research, find those pesky facts, and start to learn a topic. The TFResource
+Wikipedia has changed the way we conduct research, find those pesky facts, and start to learn a topic. Like Wikipedia, the TFResource relies on community contributors to develop and update articles. TF Resource also relies on editors within the community with subject matter expertise to assist with curating articles.
 
 ### Reference and Resources we consulted in developing the site
 
