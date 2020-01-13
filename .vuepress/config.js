@@ -53,7 +53,7 @@ module.exports = {
       },
     ],
   ],
-  title: 'tfr',
+  title: 'TF Resource',
   themeConfig: {
     repo: 'tfresource/tfresource.github.io',
     docsBranch: 'source',

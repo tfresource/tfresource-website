@@ -28,7 +28,7 @@
       <h1>Acknowledgements</h1>
       <p>Thank you to the Transportation Research Board and to the volunteers of the ADB45 Travel Forecasting Resources committee, without whom none of this content would exist.</p>
       <p>This website graciously funded by the<br/>Arizona State University <a href="https://transportation.asu.edu/">Transportation Center</a>.</p>
-      <p>Website design by Billy Charlton from <a href="https://okbecause.com">Because LLC</a> using <a href="https://vuepress.vuejs.org">VuePress</a></p>
+      <p>Website design by Billy Charlton from <a href="http://okbecause.com">Because LLC</a> using <a href="https://vuepress.vuejs.org">VuePress</a></p>
     </div></div>
 
     <div class="footer" v-if="data.footer">{{ data.footer }}</div>
