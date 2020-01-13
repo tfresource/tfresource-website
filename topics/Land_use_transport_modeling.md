@@ -1,9 +1,10 @@
 ---
 title: "Land use-transport modeling"
 categories:
-  - Land Use Transport Modeling
   - Topic Circles
 ---
+
+<CategoryList category="Land Use Transport Modeling" />
 
 **Summary**
 

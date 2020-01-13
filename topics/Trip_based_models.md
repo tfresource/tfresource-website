@@ -6,6 +6,8 @@ categories:
   - Trip Based Models
 ---
 
+<CategoryList category="Trip Based Models" />
+
 Trip-based models, also commonly known as **four-step models**, are so called because the primary unit of analysis is the [trip interchange](Trip_interchange) (i.e. origin-destination pair) between two geographic locations. The primary work done by trip-based models is to estimate all of the trips in a region, classify them by location and mode, and predict their use of transportation networks.
 
 Background

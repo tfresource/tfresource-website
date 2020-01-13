@@ -2,10 +2,11 @@
 title: "Autonomous vehicles"
 categories:
   - Activity Based Models
-  - Autonomous Vehicles
   - Topic Circles
   - Trip Based Models
 ---
+
+<CategoryList category="Autonomous Vehicles" />
 
 Introduction
 ------------

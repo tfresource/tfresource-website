@@ -1,9 +1,10 @@
 ---
 title: "Public transport (transit) modeling"
 categories:
-  - Public Transport (Transit) Modeling
   - Topic Circles
 ---
+
+<CategoryList category="Public Transport (Transit) Modeling" />
 
 Representation of public transport system in a travel model
 -----------------------------------------------------------

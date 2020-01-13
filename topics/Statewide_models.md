@@ -5,6 +5,8 @@ categories:
   - Topic Circles
 ---
 
+<CategoryList category="Statewide Models" />
+
 Introduction
 ------------
 

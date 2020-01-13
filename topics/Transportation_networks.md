@@ -6,6 +6,8 @@ categories:
   - Transportation Networks
 ---
 
+<CategoryList category="Transportation Networks" />
+
 Learn more about this circle at [Transportation networks](Transportation_networks).
 
 **Transportation networks** generally refer to a set of **links**, **nodes**, and **lines** that represent the infrastructure or supply side of the transportation. The links have characteristics such as speed and capacity for roadways; frequency and travel time data are defined on transit links or lines for the transit system. Transportation analysis zones are represented in the network by **centroids**, a subset of the nodes; and **centroid connectors** are links that provide access and egress to the system.
@@ -17,7 +19,7 @@ Highway and transit networks are a principal means by which the supply side of t
 
 While all models are representations of the 'real world', it should be noted that network models can be both very precise and accurate. The following quote puts this in perspective especially as it relates to the differences between the supply and demand side of models.
 
-:   
+:
 
     :   "Traffic modeling is frequently described as being part science, part art. Modelling the base year supply-side -- the representation of the highway network today -- is the science part. It is frequently modelled with, literally, military precision using mapping data from GPS satelittes. This level of precision does not extend to the representation of the demand-side of the travel economy..."[^1]
 
@@ -124,7 +126,7 @@ Related Content
 
 [^3]: [SR 288-Metropolitan Travel Forecasting Current Practice and Future Direction](SR_288_Metropolitan_Travel_Forecasting_Current_Practice_and_Future_Direction), Transportation Research Board, 2007.
 
-[^4]: 
+[^4]:
 
 [^5]: [Travel Model Validation and Reasonableness Checking Manual, Second Edition](Model_Validation_and_Reasonableness_Checking), Federal Highway Administration Travel Model Improvement Program, 2010.
 

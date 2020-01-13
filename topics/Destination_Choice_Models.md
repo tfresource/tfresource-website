@@ -1,10 +1,11 @@
 ---
 title: "Destination Choice Models"
 categories:
-  - Destination Choice Models
   - Spatial Interaction Models
   - Topic Circles
 ---
+
+<CategoryList category="Destination Choice Models" />
 
 Introduction
 ------------

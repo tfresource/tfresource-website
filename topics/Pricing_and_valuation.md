@@ -1,9 +1,10 @@
 ---
 title: "Pricing and valuation"
 categories:
-  - Pricing And Valuation
   - Topic Circles
 ---
+
+<CategoryList category="Pricing and Valuation" />
 
 Attributes of Pricing
 ---------------------

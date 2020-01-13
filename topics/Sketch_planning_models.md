@@ -5,6 +5,9 @@ categories:
   - Topic Circles
 ---
 
+
+<CategoryList category="Sketch Planning Models" />
+
 Summary
 -------
 

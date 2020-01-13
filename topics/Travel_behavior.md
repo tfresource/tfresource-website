@@ -5,6 +5,8 @@ categories:
   - Travel Behavior
 ---
 
+<CategoryList category="Travel Behavior" />
+
 ## Introduction
 
 [Trip-Based Models](Trip_Based_Models), [Activity-Based Models](Activity_Based_Models) and [Freight Models](Freight_modeling) rely upon assumptions about human travel behaviors conducted by individuals, groups, firms, or households. A fundamental assumption in travel behavior is that travel is a [derived demand](http://en.wikipedia.org/wiki/Derived_demand) resulting from the separation of desirable activity locations across space at their availability at specific times and is driven by the need for individuals to engage in activities at those locations to satisfy their own basic personal needs or desires. A common representation of these needs is given by Maslow[^1] as the [hierarchy of needs](http://en.wikipedia.org/wiki/Hierarchy_of_needs). These needs can generally be thought of as driving travel demand as individuals move through space and time engaging in activities like work (which satisfies the need for resources), socializing (belonging and esteem), recreation and leisure (self-actualization), etc. The process whereby individuals organize their day to satisfy these needs as best they can given space-time constraints, cognitive limitations, the needs of others, etc. can be thought of as [Travel Behavior](Travel_Behavior).
