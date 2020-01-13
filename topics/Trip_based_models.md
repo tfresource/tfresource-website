@@ -3,7 +3,6 @@ title: "Trip-based models"
 categories:
   - Network Assignment
   - Topic Circles
-  - Trip Based Models
 ---
 
 <CategoryList category="Trip Based Models" />

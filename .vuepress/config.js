@@ -119,7 +119,7 @@ module.exports = {
           '/topics/Destination_Choice_Models',
           '/topics/Freight_modeling',
           '/topics/Land_use_transport_modeling',
-          '/topics/Mode_Choice_Behavior',
+          '/topics/Mode_choice',
           '/topics/Network_assignment',
           '/topics/Public_transport_transit_modeling',
           '/topics/Sketch_planning_models',

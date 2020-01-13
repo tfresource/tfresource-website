@@ -2,7 +2,6 @@
 title: "Spatial interaction models"
 categories:
   - Destination Choice Models
-  - Spatial Interaction Models
   - Topic Circles
 ---
 

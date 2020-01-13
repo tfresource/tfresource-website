@@ -1,8 +1,7 @@
 ---
-title: "Travel behavior"
+title: "Travel Behavior"
 categories:
   - Topic Circles
-  - Travel Behavior
 ---
 
 <CategoryList category="Travel Behavior" />

@@ -1,7 +1,6 @@
 ---
 title: "Sketch planning models"
 categories:
-  - Sketch Planning Models
   - Topic Circles
 ---
 

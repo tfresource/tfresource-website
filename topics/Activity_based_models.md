@@ -1,7 +1,6 @@
 ---
 title: "Activity-based models"
 categories:
-  - Activity Based Models
   - Topic Circles
 ---
 

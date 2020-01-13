@@ -1,7 +1,6 @@
 ---
 title: "Spatial data"
 categories:
-  - Spatial Data
   - Topic Circles
 ---
 
