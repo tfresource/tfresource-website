@@ -1,7 +1,6 @@
 ---
 title: "Statewide models"
 categories:
-  - Statewide Models
   - Topic Circles
 ---
 
