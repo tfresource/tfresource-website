@@ -2,6 +2,7 @@
 title: "Dynamic network models"
 categories:
   - Topic Circles
+  - Network Assignment
 ---
 
-Placeholder page for this topic circle.
+See [Dynamic Traffic Assignment](Dynamic_Traffic_Assignment).

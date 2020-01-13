@@ -1,6 +1,7 @@
 ---
 title: "Dynamic Traffic Assignment"
 categories:
+  - Topic Circles
   - Activity Based Models
   - Network Assignment
 ---
