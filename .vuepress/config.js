@@ -117,7 +117,6 @@ module.exports = {
           '/topics/Big_Picture',
           '/topics/Activity_based_models',
           '/topics/Destination_Choice_Models',
-          '/topics/Benefits_of_dynamic_network_models',
           '/topics/Freight_modeling',
           '/topics/Land_use_transport_modeling',
           '/topics/Mode_Choice_Behavior',
@@ -134,6 +133,7 @@ module.exports = {
         title: 'Forecasting Topics',
         children: [
           '/topics/Autonomous_vehicles',
+          '/topics/Benefits_of_dynamic_network_models',
           '/topics/Model_calibration_and_validation',
           '/topics/New_Starts',
           '/topics/Project_level_traffic_forecasting',
