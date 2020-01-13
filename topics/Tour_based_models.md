@@ -7,7 +7,7 @@ categories:
 
 **Tour-based models** arrange travel into units called tours. Tours are travel events that start at one location and return to that same location. For example, when a person travels to work and returns home, this a home-based work tour. A tour can have two or more trips.
 
-[Activity-based models](Activity_Based_Models) are tour-based, but a model does not have to be activity-based to be tour-based.
+[Activity-based models](Activity_based_models) are tour-based, but a model does not have to be activity-based to be tour-based.
 
 Terminology
 ===========
