@@ -13,37 +13,21 @@ The most common types of travel surveys include:
 
 -   [Household travel surveys](Household_travel_surveys) which are used to track the travel behavior and/or activities of households, generally employing journal methods,
 
-<!-- -->
-
 -   [External surveys](External_surveys) which are used to understand vehicle travelers entering or leaving a study area, or crossing key screenlines within a study area,
-
-<!-- -->
 
 -   [Transit onboard surveys](Transit_onboard_surveys) which are used to track transit passengers as they travel,
 
-<!-- -->
-
 -   [Commercial vehicle surveys](Commercial_vehicle_surveys) which are surveys of taxi and truck owners, operators, or dispatchers that are designed to track commercial vehicle travel,
-
-<!-- -->
 
 -   [Establishment surveys](Establishment_surveys) which are taken at places of employment to develop trip attraction measures,
 
-<!-- -->
-
 -   [Visitor surveys](Visitor_surveys) which are specialized surveys designed to describe travel by visitors, and travel to and from special trip generators such as airports,
 
-<!-- -->
+-   [Parking surveys](Parking_surveys) which are used to understand parking behavior in specific locations or parking lots,
 
--   [Parking surveys](Parking_surveys) which are used to understand parking behavior in specific locations or parking lots, and
+-   [Stated-preference surveys](Stated_preference_surveys) which are used to ask questions about travel preferences, and
 
-<!-- -->
-
--   [Stated-preference surveys](Stated_preference_surveys) which are used to ask questions about travel preferences.
-
-<!-- -->
-
--   Gamified Web-based surveys can be used in special circumstances.(see added section)
+-   Gamified web-based surveys can be used in special circumstances.
 
 Generic Survey Process
 ======================
@@ -75,7 +59,7 @@ Recent Methods
 
 Several methods have been adopted to augment the traditional, diary-based household travel surveys. Some of these methods include [GPS-enabled surveys](GPS_enabled_surveys) and longitudinal surveys. See  the paper "Household travel surveys: Where are we going?"[^2] for an overview. In this paper, Stopher and Greaves (2007) talk about GPS-enabled surveys and longitudinal surveys. They also review a study which tests the use of synthetic_travel_data, which was constructed using census data and a national household travel survey.
 
-Gamified Web-Based surveys
+Gamified Web-Based Surveys
 --------------------------
 
 Why a gamified survey?
@@ -85,21 +69,16 @@ A ‘gamified’ web-based surveys is useful when there already is information a
 
 Gamified approaches are considered when the in the following cases::
 
-1\. The target sample was a “hard to reach" population
-
-2\. Need to increase interest and engagement (perhaps previous surveys had a lot of drop-outs)
-
-3\. There are quite a few options or paths for the respondent to consider. A gamified approach allows us to experiment with scenarios and barriers to link behavior in the game with stated motivations (such as in stated preference or stated response surveys)
+1. The target sample was a “hard to reach" population
+2. Need to increase interest and engagement (perhaps previous surveys had a lot of drop-outs)
+3. There are quite a few options or paths for the respondent to consider. A gamified approach allows us to experiment with scenarios and barriers to link behavior in the game with stated motivations (such as in stated preference or stated response surveys)
 
 Attributes of the ‘gamified’ survey:
 
-• Alternatives presented graphically with animation and a bit of humor
-
-• Set up as a quest or a mission
-
-• Respondents had to identify and play out a scenario
-
-• “Beat the clock” competition and prizes
+- Alternatives presented graphically with animation and a bit of humor
+- Set up as a quest or a mission
+- Respondents had to identify and play out a scenario
+- “Beat the clock” competition and prizes
 
 The game should be designed in detail before any graphics are developed. Every question, the complete questionnaire ‘flow’, and all response categories should be decided upon before graphic development. Other cautions:
 
@@ -136,7 +115,6 @@ The [Online Travel Survey Manual](Online_Travel_Survey_Manual) provides a compre
 
 [^1]: Backstrom, Charles and Gerald Hursh-Cesar. (1981) Survey Research, 2nd edition, John Wiley & Sons.
 
-[^2]: Stopher, P. R., & Greaves, S. P. (2007). Household travel surveys: Where are we going?. Transportation Research Part A: Policy and Practice, 41(5), 367-381.
-Chicago
+[^2]: Stopher, P. R., & Greaves, S. P. (2007). Household travel surveys: Where are we going? Transportation Research Part A: Policy and Practice, 41(5), 367-381. Chicago.
 
 
