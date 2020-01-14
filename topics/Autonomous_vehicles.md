@@ -34,8 +34,7 @@ The availability of AVs, either as privately-owned, shared, or hired vehicles, w
 Operational and network considerations
 --------------------------------------
 
-`   Under construction: [dead-heading, networks, AV technology, ...]`
-[Operational and network considerations](Autonomous_vehicles_operation_network) 
+The impacts of CAV operational characteristics are perhaps the most discussed in the industry to date. Much research has focused on the impact of connecting vehicles through DSRC into platoons of vehicles. The overall impact of better connected and more automated vehicles would be to increase capacity, dramatically shorten headway space and thereby improve coordinated acceleration and vehicle throughput, although operations that involve platoon formation and dissolution may decrease capacity. This section -- [Operational and network considerations](Autonomous_vehicles_operation_network)  -- discusses these and other impacts in more detail.
 
 Modeling frameworks
 -------------------
