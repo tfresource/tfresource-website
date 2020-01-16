@@ -47,12 +47,9 @@ The introduction of CAV technologies such as CACC that permit short following he
 
 Simulation studies have predicted that AVs and CAVs can increase safety and decrease the possibility and severity of accidents by eliminating human driving errors, smoothing the traffic and deterring shockwave formation and consequently stabilizing the traffic.  These studies have been based on use of simulations that do not represent safety-critical traffic situations and using Surrogate Safety Assessment Models that were derived from human responses rather than automated driving system responses, so the findings need to be viewed with great caution.  None of these analyses represents the new crashes that will be caused by failures of the automation systems.  The literature lacks evidence-based research on AV safety resulting from field test experiments since CAVs are not yet deployed widely on the road network, and the existing simulation studies are based on use of models that were designed to represent normal traffic flow, but not safety-critical situations. The dubious foundations of the available studies have included problems such as:
 
-•	Assuming perfection of the automation systems, not accounting for their inevitable design and implementation faults that will lead them to cause new crashes;
-
-•	Not accounting for the new crashes that are likely to arise because of the imperfect interactions between the CAVs and human drivers and other road users based on the fact that CAV behaviors do not match human behaviors and the expectations of the other road users (but of course in the absence of real-world data on these interactions this cannot be quantified yet);
-
-•	Applying surrogate safety measures that were defined based on human driving performance capabilities and limitations to automated driving systems that will have different performance capabilities and limitations, leading to different safety problems and crash rates.
-
+ - Assuming perfection of the automation systems, not accounting for their inevitable design and implementation faults that will lead them to cause new crashes;
+ - Not accounting for the new crashes that are likely to arise because of the imperfect interactions between the CAVs and human drivers and other road users based on the fact that CAV behaviors do not match human behaviors and the expectations of the other road users (but of course in the absence of real-world data on these interactions this cannot be quantified yet);
+ - Applying surrogate safety measures that were defined based on human driving performance capabilities and limitations to automated driving systems that will have different performance capabilities and limitations, leading to different safety problems and crash rates.
 
 <b>Value of Travel Time</b>
 
@@ -71,77 +68,14 @@ It is expected that CAVs will reduce fuel consumption and emissions due to their
 References
 ==========
 
-[Content Charrette: Autonomous Vehicles](Content_Charrette_Autonomous_Vehicles)
-
-Amoozadeh, M., Deng, H., Chuah, C. N., Zhang, H. M., & Ghosal, D. (2015). Platoon management with cooperative adaptive cruise control enabled by VANET. Vehicular Communications, 2(2), 110–123. https://doi.org/10.1016/j.vehcom.2015.03.004
-
-Arefizadeh, S., & Talebpour, A. (2018). A Platooning Strategy for Automated Vehicles in the Presence of Speed Limit Fluctuations. Transportation Research Record. https://doi.org/10.1177/0361198118784176
+CDM Smith (2019). CAV Traffic Simulation Literature Review
 
 Aria, E., Olstam, J., & Schwietering, C. (2016). Investigation of Automated Vehicle Effects on Driver’s Behavior and Traffic Performance. Transportation Research Procedia, 15, 761–770. https://doi.org/10.1016/j.trpro.2016.06.063
 
-Atkins. (2016). Research on the Impacts of CAVs on Traffic Flow - Summary Report, (May). Retrieved from https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/530091/impacts-of-connected-and-autonomous-vehicles-on-traffic-flow-summary-report.pdf
-
-Bailey, Rosenfield,  and Z. (2018). Attitudes Toward Effective Time Use in Autonomous Mobility-on-Demand Services in Singapore, 1–8.
-
-Bailey, N. K. (2016). Simulation and Queueing Network Model Formulation of Mixed and Non-automated Traffic in Urban Settings. Retrieved from https://dspace.mit.edu/bitstream/handle/1721.1/107069/971130623-MIT.pdf?sequence=1
-
-COWI-PTV Group 2019  The Oslo Study – How Autonomous Cars May Change Transport in Cities  Report to Ruter, the Oslo public transport company  April 2019
-
-de Looff, E., Correia Homem de Almeida, G., van Cranenburgh, S., Snelder, M., & van Arem, B. (2018). Potential changes in value of travel time as a result of vehicle automation: a casestudy in the Netherlands. TRB 97th Annual Meeting Compendium of Papers, 31(15).
-
-Eilbert, A., L. Jackson, G. Noel,  et al. (2018). A Framework for Evaluating Energy and Emissions Impacts of CCAV Traffic Microsimulations. Transportation Research Board 92th Annual Meeting, (5), 1–19. https://doi.org/10.1111/bcp.12106
-
-Guériau, M., Billot, R., El Faouzi, N.-E., & Monteil, J. (2018). Contribution to the Assessment Methodology for Connected and Automated Vehicles on Traffic. Retrieved from https://trid.trb.org/view/1495033
-
-Haboucha, C. J., Ishaq, R., & Shiftan, Y. (2017). User preferences regarding autonomous vehicles. Transportation Research Part C: Emerging Technologies, 78, 37–49. https://doi.org/10.1016/j.trc.2017.01.010
-
-ITF-OECD 2015   Urban Mobility System Upgrade:  how shared self-driving cars could change city traffic  International Transport Forum at the Organization for Economic Cooperation and Development  2015
-
-Ivanchev, J., Knoll, A., Zehe, D., Nair, S., & Eckhoff, D. (2017). Potentials and Implications of Dedicated Highway Lanes for Autonomous Vehicles, 1–12. Retrieved from http://arxiv.org/abs/1709.07658
-
-Kockelman, K., Avery, P., Bansal, P., Boyles, S. D., Bujanovic, P., Choudhary, T., … Stewart, D. (2016). Implications of Connected and Automated Vehicles on the Safety and Operations of Roadway Networks: A Final Report Implications of Connected and Automated Vehicles on the Safety and Operations of Roadway Networks: A Final Report. Fhwa/Tx-16/0-6849-1, 7. https://doi.org/FHWA/TX-16/0-6849-1
-
-Krueger, R., Rashidi, T. H., & Rose, J. M. (2016). Preferences for shared autonomous vehicles. Transportation Research Part C: Emerging Technologies, 69, 343–355. https://doi.org/10.1016/j.trc.2016.06.015
-
-Liu, H., Kan, X. (David), Shladover, S. E., Lu, X.-Y., & Ferlis, R. A. (2018a). Quantifying Influences of Cooperative Adaptive Cruise Control (CACC) Vehicle String Operation Strategies on Mixed Traffic Flow. Retrieved from https://trid.trb.org/view/1495866
-
-Liu, H., Kan, X. (David), Shladover, S. E., Lu, X. Y., & Ferlis, R. E. (2018b). Impact of cooperative adaptive cruise control on multilane freeway merge capacity. Journal of Intelligent Transportation Systems: Technology, Planning, and Operations, 22(3), 263–275. https://doi.org/10.1080/15472450.2018.1438275
-
-Liu, H., Kan, X. (David), Shladover, S. E., Lu, X. Y., & Ferlis, R. E. (2018c). Modeling impacts of Cooperative Adaptive Cruise Control on mixed traffic flow in multi-lane freeway facilities. Transportation Research Part C: Emerging Technologies, 95(December 2017), 261–279. https://doi.org/10.1016/j.trc.2018.07.027
-
-Mahmassani, H. (2017). Autonomous Vehicles and Traffic Physics: Framing the Questions, (July 2016). https://doi.org/10.13140/RG.2.2.35250.40647
-
-Makridis, M., Mattas, K., Ciuffo, B., Raposo, M. A., Toledo, T., & Thiel, C. (2018). Connected and Automated Vehicles on a freeway scenario. Effect on traffic congestion and network capacity. Retrieved from https://ec.europa.eu/jrc/sites/jrcsh/files/connected-automated-vehicles-traffic-congestion-network-capacity_111621.pdf
-
-McAuliffe, B., Lammert, M., Lu, X.-Y., Shladover, S. et al.,(2018)  “Influences on Energy Savings of Heavy Trucks Using Cooperative Adaptive Cruise Control,” SAE Technical Paper 2018-01-1181, doi:10.4271/2018-01-1181.
-
-Morando, M. M., Truong, L. T., & Vu, H. L. (2017). Investigating safety impacts of autonomous vehicles using traffic micro-simulation. Australasian Transport Research Forum 2017 Proceedings, (November), 1–6.
-
-Najm, W. G., Koopmann, J., Smith, J., & Brewer, J. (2010). Frequency of {Target} {Crashes} for {IntelliDrive} {Safety} {Systems}, (October). https://doi.org/10.1371/journal.pone.0181675
-
-Nazari, F., Noruzoliaee, M., & Mohammadian, A. (Kouros). (2018). Shared Mobility vs . Private Car Ownership: A Multivariate Analysis of Public Interest in Autonomous Vehicles. 97th Annual Meeting Transportation Research Board, 04289(18), 1–7.
-
-PTV, 2017. Autonomous vehicle lateral space - example description. PTV AG, Karlsruhe. 
-
-Rau, P., Yanagisawa, M., Najm, W.G., 2015. Target crash population of automated vehicles. 24th International Technical Conference on the Enhanced Safety of Vehicles (ESV), Gothenburg , Sweden.
-
-Ramezani, H., Lu, X.-Y. and Shladover, S. (2019), Calibration of Motor Vehicle Emission Simulator (MOVES) to Incorporate Effect of Truck Platooning, Transportation Research Board Annual Meeting, Paper No. 19-05831.
-
-Rios-torres, J., & Malikopoulos, A. A. (2017). Impact of Connected and Automated Vehicles on Traffic Flow. 2017 IEEE 20th International Conference on Intelligent Transportation Systems (ITSC). https://doi.org/10.1109/ITSC.2017.8317654
-
 Rodier, C. (2018). Travel Effects and Associated Greenhouse Gas Emissions of Automated Vehicles A White Paper from the National Center for Sustainable Transportation About the National Center for Sustainable Transportation, (April). Retrieved from https://ncst.ucdavis.edu/wp-content/uploads/2015/10/NCST_Rodier_Automated-Vehicles-White-Paper_APRIL-2018.pdf
-
-Steck, F., Kolarova, V., Bahamonde-Birke, F., Trommer, S., & Lenz, B. (2018). How Autonomous Driving May Affect the Value of Travel Time Savings for Commuting. Transportation Research Record. https://doi.org/10.1177/0361198118757980
-
-Talebpour, A., Mahmassani, H. S., & Elfar, A. (2017). Investigating the Effects of Reserved Lanes for Autonomous Vehicles on Congestion and Travel Time Reliability. Transportation Research Record: Journal of the Transportation Research Board, 2622, 1–12. https://doi.org/10.3141/2622-01
 
 Van Arem, B., Van Driel, C. J. G., & Visser, R. (2006). The impact of cooperative adaptive cruise control on traffic-flow characteristics. IEEE Transactions on Intelligent Transportation Systems, 7(4), 429–436. https://doi.org/10.1109/TITS.2006.884615
 
-Wan, N., Vahidi, A., & Luckow, A. (2016). Optimal speed advisory for connected vehicles in arterial roads and the impact on mixed traffic. Transportation Research Part C: Emerging Technologies, 69, 548–563. https://doi.org/10.1016/J.TRC.2016.01.011
+Zmud, Williams, Outwater, Bradley, Kalra, and Row (2018). Updating Regional Transportation Planning and Modeling Tools to Address Impacts of Connected and Automated Vehicles, Volume 2: Guidance, TRB’s NCHRP  Report 20-102(09)  25319
 
-Yap, M. D., Correia, G., & van Arem, B. (2016). Preferences of travellers for using automated vehicles as last mile public transport of multimodal train trips. Transportation Research Part A: Policy and Practice, 94, 1–16. https://doi.org/10.1016/j.tra.2016.09.003
-
-Yue, L., Abdel-Aty, M., & Wang, L. (2018). Assessment of the Safety Benefits of Connected Vehicle Technologies. Transportation Research Board 97th Annual Meeting, (407).
-
-Zhao, Y. ; K. M. K. (2017). Anticipating the Regional Impacts of Connected and Automated Vehicle Travel in Austin, TX, 1–13.
-
+[Content Charrette: Autonomous Vehicles](Content_Charrette_Autonomous_Vehicles)
