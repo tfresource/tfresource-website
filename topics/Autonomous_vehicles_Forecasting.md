@@ -30,21 +30,18 @@ Visioning and Strategic Planning
 
 Though they are not one and the same, visioning and strategic modeling are grouped together in this discussion because strategic planning often begins with visioning. In its simplest form, strategic planning begins with a (desirable) vision for the future, setting goals, outlining an approach, and designing a course of action to achieve that vision. In the urban and transportation planning context, visioning is the act of involving the public and other stakeholders in crafting a collectively agreed vision for the future. While visioning has existed as a concept in the literature for decades, there is little evidence that in practice the modeling of a desired future is effective in helping to bring about that vision as an outcome, particularly as (uncertain) environmental, technological, and societal forces impose themselves on the future (Minowitz, 2013).
 
-A process – a strategic plan – must complement the vision so that the goals, approach, and course of action evolve in anticipation of and in response to those emergent forces. There is a breadth of strategic planning models in the literature, but it is hard to make the case for their application in the context of CAV technology and the deep uncertainty it entails. Strategic planning is suitable in the context of metropolitan planning, where the MPO wields considerable influence over outcomes through the levers of funding, prioritization, and zoning. On the contrary, in the CAV context, the Ohio DOT is one of many actors playing a part in shaping the future with CAVs. What that future will look like will be decided in some part by other actors, including but not limited to auto, sensing, and communications manufacturers, standard-setting professional organizations like SAE International, regulatory bodies like the National Highway Traffic Safety Administration (NHTSA), and the public that ultimately will or will not accept or embrace a technology. These are the sources of deep uncertainty.
+A process – a strategic plan – must complement the vision so that the goals, approach, and course of action evolve in anticipation of and in response to those emergent forces. Strategic planning is suitable in the context of metropolitan planning, where the MPO wields considerable influence over outcomes through the levers of funding, prioritization, and zoning. On the contrary, in the CAV context, the MPO is one of many actors playing a part in shaping the future with CAVs. What that future will look like will be decided in some part by other actors, including but not limited to auto, sensing, and communications manufacturers, standard-setting professional organizations like SAE International, regulatory bodies like the National Highway Traffic Safety Administration (NHTSA), and the public that ultimately will or will not accept or embrace a technology. These are the sources of deep uncertainty.
 
-That being said, there may well be merit to choosing an approach to this uncertainty based on visioning and strategic planning if through the Drive Ohio initiative, ODOT is able to leverage the cooperation and coordination of the aforementioned stakeholders toward achieving a desired vision for the future. Additionally, if by proving through credible microsimulation modeling that one or more CAV concepts, strategies, or technologies can deliver compelling benefits (e.g. reduced delay), then it may be possible to incentivize the investment and research that will realize those concepts, strategies, or technologies.
+That being said, there may well be merit to choosing an approach to this uncertainty based on visioning and strategic planning if the MPO is able to leverage the cooperation and coordination of the aforementioned stakeholders toward achieving a desired vision for the future. Additionally, if by proving through credible microsimulation modeling that one or more CAV concepts, strategies, or technologies can deliver compelling benefits (e.g. reduced delay), then it may be possible to incentivize the investment and research that will realize those concepts, strategies, or technologies.
 
 Whether strategic planning is the selected approach, there are practices from strategic planning that should be a part of any approach to CAV uncertainty. These include:
 
-•	Collecting data: when data become available from published CAV studies or research, assimilate that data into existing models to improve their validity
+- Collecting data: when data become available from published CAV studies or research, assimilate that data into existing models to improve their validity
+- Staying current: update assumptions as new information about CAV operations emerges
+- Forecast based on trends: observe trends in collected data and the direction of change in updated assumptions to refine future assumptions 
+- Model frequently: as assumptions and models improve, run model(s) of the future, adjust approach and action plans accordingly to those outcomes that appear more likely
 
-•	Staying current: update assumptions as new information about CAV operations emerges
-
-•	Forecast based on trends: observe trends in collected data and the direction of change in updated assumptions to refine future assumptions 
-
-•	Model frequently: as assumptions and models improve, run model(s) of the future, adjust approach and action plans accordingly to those outcomes that appear more likely
-
-If stakeholders are continually involved and invested in the vision and in the strategic plan through this process, ODOT will be as well-positioned as it can be to manage and reduce uncertainty and to make better-informed decisions.
+If stakeholders are continually involved and invested in the vision and in the strategic plan through this process, the MPO will be as well-positioned as it can be to manage and reduce uncertainty and to make better-informed decisions.
 
 Scenario Planning
 -----------------
@@ -68,11 +65,9 @@ Exploratory Modeling and Analysis
 
 EMA has seen increasing interest across a multitude of disciplines over the past decade as an alternative to scenario planning where deep uncertainty is present in the system under study. One of the primary challenges in scenario planning is the difficulty in deciding a manageable number of scenarios that captures the full breadth of uncertainty. According to the Society for Decision Making under Deep Uncertainty (DMDU), deep uncertainty exists where there is no clear consensus among stakeholders about:
 
-•	the structure of the model that relates inputs and assumptions to outcomes,
-
-•	the probability distributions of the system variables about which the parties are uncertain, or
-
-•	which system behaviors are most important (DMDU Society, 2018).
+- the structure of the model that relates inputs and assumptions to outcomes,
+- the probability distributions of the system variables about which the parties are uncertain, or
+- which system behaviors are most important (DMDU Society, 2018).
 
 This is an apt description of the current stage of evolution of CAVs, where there is no clear agreement which CAV concepts, strategies, or technologies will be realized; how quickly or whether they will be adopted; or how they will operate in the field if or when they are adopted. Indeed, the literature research summarized in this report confirms that the future with CAVs amounts to little more than speculation as to the benefits, with the consensus surrounding only the inevitability of CAV technology in some form or fashion.
 
@@ -80,11 +75,10 @@ EMA seeks to structure the approach to scenario planning in a systematic way tha
 
 There is recent precedence of EMA in planning, specifically in relation to CAV uncertainty. The FHWA study described above used an integrated dynamic traffic assignment (DTA) model and activity-based model (ABM) to explore the relationships between AV adoption, traveler behavior, and the operational benefits of AVs and served as a demonstration of a framework for using EMA in regional transportation planning (Stabler, Bradley, Morgan, Slavin, & Haque, 2018).
 
-
 References
 ==========
 
-[Content Charrette: Autonomous Vehicles](Content_Charrette_Autonomous_Vehicles)
+CDM Smith (2019). CAV Traffic Simulation Literature Review
 
 Bankes, S. (1993, May-June). Exploratory Modeling for Policy Analysis. Operations Research, 41(3), 435-449.
 
@@ -98,6 +92,4 @@ Stabler, B., Bradley, M., Morgan, D., Slavin, H., & Haque, K. (2018). Volume 2: 
 
 Zegras, C., Sussman, J., & Conklin, C. (2004, March). Scenario Planning for Strategic Regional Transportation Planning. Journal of Urban Planning and Development, 130(1), 2-13.
 
-Zielinski, J., & Roy, S. (2017). TransFuture – Innovate the Future of Transportation. HDR.
-
-
+[Content Charrette: Autonomous Vehicles](Content_Charrette_Autonomous_Vehicles)
