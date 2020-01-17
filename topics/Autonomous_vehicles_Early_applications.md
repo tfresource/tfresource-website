@@ -15,7 +15,7 @@ These examples are divided into 3 categories. Those using:
 
 -   Trip Based Models
 -   Activity Based Models, and
--   Other Modeling Frameworks.
+-   Other Modeling Systems.
 
 Trip Based Modeling Systems
 ---------------------------
