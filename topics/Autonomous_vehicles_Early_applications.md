@@ -15,7 +15,7 @@ These examples are divided into 3 categories. Those using:
 
 -   Trip Based Models
 -   Activity Based Models, and
--   Other Modeling Frameworks.
+-   Other Modeling Systems.
 
 Trip Based Modeling Systems
 ---------------------------
@@ -88,11 +88,26 @@ The ability to explicitly represent CAV demand and impacts was recently added to
 
 The enhancements intentionally require the analyst to explicit code assumptions about the future instead of relying upon estimated or asserted model parameters. Thus, the capabilities sacrifice rigor for ability to specify a wide range of alternatives. The intention is to run the TRESO system with a bundle of assumptions, enabling scores of different combinations of assumptions to be compared through the mining of model outputs.
 
+Other modeling systems
+-------------------------------
+
+### Ohio DOT
+
+The Coordinated Travel-Regional Activity Modeling Platform (CT-RAMP) was developed as a sub-model to the Ohio 3C Model. In CT-RAMP, CAV impacts have been addressed in the levels of travel demand, vehicle routing (including empty trips), and network performance (Vovsha, Vyas, 2018)[^9]. One key innovation in this platform is a new sub-model that supplements trip and vehicle allocation at the household level with shared CAVs to meet unsatisfied travel demand. This sub-model leads to fewer trips that are foregone or rescheduled and accounts for the cost of parking and vehicle repositioning and the associated impact on demand. Network performance adjustments can also be made to evaluate segment capacity and speeds, with the ability to compare factors such as ideal speed and capacity curves against the impacts projected by researchers. The platform has also been adjusted for easy user manipulation of what-if scenarios. Across a wide range of scenarios, impacts include:
+ - Limited impacts may include modest growth in trip rates, trip length, and VMT
+ - Moderate impacts may include mode shifts from local transit to rapid transit trips with CAVs providing first-mile and last-mile service
+ - Substantial impacts may include congestion reduction, substantial growth in trips due to increased modal options, and less joint travel
+
+### Florida DOT
+
+Florida DOT developed a tool called TransFuture to look at emerging technologies and societal trends with CAV as a major factor. The tool is built on research of exogenous factors to apply to the regional travel demand models within the state and then uses probabilistic techniques to synthesize a range of potential impacts based on user specified factors, ranging from: CAV adoption, e-commerce, ride sharing, labor force impacts from automation, etc. The tool is a scenario planning decision support tool; due to its recent development, it has not been utilized in a published scenario planning exercise. Though the tool runs off data from regional travel demand models, its output is corridor-focused in nature. For further information, see TransFuture - Innovate the Future of Transportation, Florida Department of Transportation (2017)[^10].
+
+### Iowa DOT
+
+In conjunction with statewide planning for rural Interstate 80, Iowa DOT developed a scenario analysis using microsimulation tools customized to model a mixed fleet of vehicles between CAV and human-operated vehicles on representative freeway facilities. The scenarios ranged from near-term aggressive CAV adoption (25% by 2025) to both conservative (20%) and aggressive (85%) projections for future year 2040. The customized microsimulation model was used to develop a potential curve of lane-capacity to CAV adoption, showing estimated capacities near 3,000 vehicles per lane at 85% adoption. The model results showed an estimated net increase in peak-hour speeds of up to 2% above existing conditions and also a net decrease in demand to capacity ratio of 35% under twice the traffic volume present in existing conditions. For further information, see Interstate 80 Planning Study: Automated Corridors. Iowa Department of Transportation (2017)[^11].
 
 References
 ==========
-
-[Content Charrette: Autonomous Vehicles](Content_Charrette_Autonomous_Vehicles)
 
 [^1]: [NCHRP Report 20-102(9) Providing Support to the Introduction of CV/AV Impacts into Regional Transportation Planning and Modeling Tools](http://apps.trb.org/cmsfeed/TRBNetProjectDisplay.asp?ProjectID=4008)
 
@@ -108,3 +123,13 @@ References
 and route choice, *Transportation Research Board 94th Annual Meeting*, no. 15-2147.](https://sboyles.github.io/research/levinboylesav.pdf).
 
 [^7]: [Mahmassani, Hani. (2016). Autonomous Vehicles and Connected Vehicle Systems: Flow and Operations Considerations, *Transportation Sceience* (50):4](https://pubsonline.informs.org/doi/abs/10.1287/trsc.2016.0712).
+
+[^8]: CDM Smith (2019). CAV Traffic Simulation Literature Review
+
+[^9]: Vovsha, P. and G. Vyas. (WSP) (2018). “Incorporating AVs in Ohio 3C CT-RAMP2 Model.”
+
+[^10]: Florida Department of Transportation. (2017). TransFuture: Innovate the Future of Transportation
+
+[^11]: Iowa Department of Transportation. (2017). Interstate 80 Planning Study: Automated Corridors
+
+[Content Charrette: Autonomous Vehicles](Content_Charrette_Autonomous_Vehicles)
