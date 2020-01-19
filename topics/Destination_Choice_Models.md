@@ -5,7 +5,7 @@ categories:
   - Topic Circles
 ---
 
-<CategoryList category="Destination Choice Models" />
+<PagesInCategory category="Destination Choice Models" />
 
 Introduction
 ------------

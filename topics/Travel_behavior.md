@@ -4,7 +4,7 @@ categories:
   - Topic Circles
 ---
 
-<CategoryList category="Travel Behavior" />
+<PagesInCategory category="Travel Behavior" />
 
 ## Introduction
 

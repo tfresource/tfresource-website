@@ -4,7 +4,7 @@ categories:
   - Topic Circles
 ---
 
-<CategoryList category="Spatial Data" />
+<PagesInCategory category="Spatial Data" />
 
 Learn more about this circle at [Spatial Data](Spatial_Data).
 

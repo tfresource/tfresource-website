@@ -5,7 +5,7 @@ categories:
   - Trip Based Models
 ---
 
-<CategoryList category="Network Assignment" />
+<PagesInCategory category="Network Assignment" />
 
 What is Network Assignment?
 ---------------------------

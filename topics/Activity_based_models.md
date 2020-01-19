@@ -4,7 +4,7 @@ categories:
   - Topic Circles
 ---
 
-<CategoryList category="Activity Based Models" />
+<PagesInCategory category="Activity Based Models" />
 
 **Activity-based models** are based on the principle that [travel demand](http://en.wikipedia.org/wiki/Travel_behavior) is derived from people's daily activity patterns. Activity-based models predict which activities are conducted when, where, for how long, for and with whom, and the travel choices they will make to complete them. Having this type of detailed model at their disposal allows researchers, practitioners, and policy makers to evaluate the effect of alternative policies on individuals travel behavior at a high level of [temporal](Temporal_Data) and [spatial](Spatial_Data) resolution and select the best policy alternative considering a potential wide range of performance indicators. For a comprehensive introductory overview of this paradigm, consider reading the [Activity Based Modeling Primer](Activity_Based_Modeling_Primer) published under SHRP2 in 2014.
 

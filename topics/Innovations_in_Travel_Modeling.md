@@ -4,7 +4,7 @@ categories:
   - Topic Circles
 ---
 
-<CategoryList category="Innovations In Travel Modeling" />
+<PagesInCategory category="Innovations In Travel Modeling" />
 
 The Innovations in Travel Modeling (ITM) conference series is the premier forum for sharing the latest developments in travel modeling, networking with fellow professionals, and identifying research and implementation challenges and issues associated with deploying cutting-edge computational methods to meet evolving planning contexts. There have been six conferences so far in the series, with the seventh coming up in June 2018 in Atlanta, Georgia.
 

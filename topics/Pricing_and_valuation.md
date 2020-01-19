@@ -4,7 +4,7 @@ categories:
   - Topic Circles
 ---
 
-<CategoryList category="Pricing and Valuation" />
+<PagesInCategory category="Pricing and Valuation" />
 
 Attributes of Pricing
 ---------------------

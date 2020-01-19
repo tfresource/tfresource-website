@@ -5,7 +5,7 @@ categories:
 ---
 
 
-<CategoryList category="Sketch Planning Models" />
+<PagesInCategory category="Sketch Planning Models" />
 
 Summary
 -------

@@ -4,7 +4,7 @@ categories:
   - Topic Circles
 ---
 
-<CategoryList category="Statewide Models" />
+<PagesInCategory category="Statewide Models" />
 
 Introduction
 ------------

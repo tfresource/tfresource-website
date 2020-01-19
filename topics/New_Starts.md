@@ -4,7 +4,7 @@ categories:
   - Topic Circles
 ---
 
-<CategoryList category="New Starts" />
+<PagesInCategory category="New Starts" />
 
 ## Capital Investment Grant Program (a.k.a. “New Starts Program”)
 

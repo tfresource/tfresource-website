@@ -5,7 +5,7 @@ categories:
   - Topic Circles
 ---
 
-<CategoryList category="Temporal Data" />
+<PagesInCategory category="Temporal Data" />
 
 Any data that incorporates the time dimension may be considered temporal data. In travel analysis, the time dimension is critical to understanding, explaining, and modeling travel demand. Congestion on a network is inherently related to the temporal concentration of travel demand at specific locations. Trends over time, often captured through the use of longitudinal data sets, constitute temporal data that is useful to understanding changes in patterns of development or behavior over time. Another form of temporal data is concerned with people's time use behavior, i.e., how people spend time over the course of a day, week, month, or year. Temporal data can be combined with [Spatial Data](Spatial_Data) to better understand and model time-space interactions that characterize and shape land use development patterns, demographic evolution, and activity-travel behavior.
 

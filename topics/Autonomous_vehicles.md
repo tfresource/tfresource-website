@@ -6,7 +6,7 @@ categories:
   - Trip Based Models
 ---
 
-<CategoryList category="Autonomous Vehicles" />
+<PagesInCategory category="Autonomous Vehicles" />
 
 Introduction
 ------------

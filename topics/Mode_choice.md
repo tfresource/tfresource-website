@@ -6,7 +6,7 @@ categories:
   - Topic Circles
 ---
 
-<CategoryList category="Mode Choice" />
+<PagesInCategory category="Mode Choice" />
 
 Mode choice is the process where the means of traveling is determined. The means of travel is referred to the travel mode, which may be by private automobile, public transportation, walking, bicycling, or other means. How desirable a travel mode is usually is expressed by [utilities](Utility). In most travel models, mode choice is applied to travel that has already been estimated, meaning that mode choice is applied to a trip or tour, or group of trips or tours, where the origin and destination are already known.
 

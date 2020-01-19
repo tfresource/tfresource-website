@@ -5,7 +5,7 @@ categories:
   - Topic Circles
 ---
 
-<CategoryList category="Spatial Interaction Models" />
+<PagesInCategory category="Spatial Interaction Models" />
 
 Spatial interaction models predict the amount or likelihood of people or goods (or services or information) moving between two locations in space. Generally, the model predicts the interchange of goods or people between all the members of a discrete set of locations or zones resulting in a square matrix of movements or flows from each zone to each zone. However, sometimes spatial interaction models, particularly disaggregate applications, may instead produce a list of interactions or movements rather than a sparse matrix.
 
