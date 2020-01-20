@@ -25,7 +25,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 2. Mark the page as reviewed in the table below
 3. Mark any issues you encountered (such as "still messed up because I didn't know how to fix it", "The content of this page needs to be updated", ...)
 
-| Page | Your Name |Review Done | Comments (optional) |
+| Page | Your Name | Review Done | Comments (optional) |
 | --- | --- | --- | --- |
 | **Uncategorized (Needs a category!)** | --- | --- | --- |
 | [Acceptable practical experience model standard in project-level traffic forecasting](Acceptable_practical_experience_model_standard_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
@@ -391,5 +391,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Urban and metropolitan models](Urban_and_metropolitan_models) | | | |
 
 Here is a list of topics that should be added in the future. If you find topics that are missing, please add them to this list. 
-| **Topic** | Added By | Comment | Date Added |
-| ... | ... | .. | .. |
+
+| Topic | Added By | Comment | Date Added |
+| Machine Learning for Transport Modeling | Rolf | Has been used successfully for model calibration, there is a lot of interest in the modeling community to learn how to use machine learning | 20 January 2020 |
+| Mode Choice Modeling | Rolf | TFResource has some pages on mode choice modeling. Given this is a topic modelers tend to spend a lot of time on, it deserves the same level of detail as [Destination_Choice_Theoretical_Foundations](Destination Choice) | 20 January 2020 |
+| Synthetic Population | Rolf | ... | 20 January 2020 |
