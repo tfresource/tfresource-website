@@ -13,6 +13,8 @@ The most important committee's tasks include:
 - Manage wiki content on [tfresource.org](http://tfresource.org)
 - Organize, promote, and document TRB’s biennial [ITM Conference](http://itmconference.com/)
 
+The [bottom of this page](TF_Resource_Volunteers.html#major-topics-that-need-to-be-added-to-tfresource), a table is provided with ideas for topics that should be added to TFResource. Feel free to add topics that are missing or thus far insufficiently described.
+
 ### Wiki Review Tasks
 
 After the wiki was transferred to Github in Markdown language, every page needs to be reviewed manually. Some pages are good as they are. In some, the automated translations to Markdown language messed up format or content. Often, only small editorial revisions are necessary. In other cases, major surgery is necessary to bring the page back to the old content.
