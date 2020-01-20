@@ -389,3 +389,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | **Urban And Metropolitan Models:** | --- | --- | --- |
 | [Regulatory framework for metropolitan modeling](Regulatory_framework_for_metropolitan_modeling) | | | |
 | [Urban and metropolitan models](Urban_and_metropolitan_models) | | | |
+
+Here is a list of topics that should be added in the future. If you find topics that are missing, please add them to this list. 
+| **Topic** | Added By | Comment | Date Added |
+| ... | ... | .. | .. |
