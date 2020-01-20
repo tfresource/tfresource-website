@@ -394,6 +394,6 @@ Here is a list of topics that should be added in the future. If you find topics 
 
 | Topic | Added By | Comment | Date Added |
 | ---   | ---      | ---     | ---        |
-| Machine Learning for Transport Modeling | Rolf | Has been used successfully for model calibration, there is a lot of interest in the modeling community to learn how to use machine learning | 20 January 2020 |
+| Machine Learning for Transport Modeling | Rolf | Has been used successfully for model calibration, there is a lot of interest in the modeling community to learn how to use machine learning. There is a very small introduction on machine learning [here](Destination_Choice_Parameter_Estimation.html#metaheuristics-and-machine-learning) | 20 January 2020 |
 | Mode Choice Modeling | Rolf | TFResource has some pages on mode choice modeling. Given this is a topic modelers tend to spend a lot of time on, it deserves the same level of detail as [Destination Choice](Destination_Choice_Theoretical_Foundations) | 20 January 2020 |
-| Synthetic Population | Rolf | ... | 20 January 2020 |
+| Synthetic Population | Rolf | Synthetic populations are needed for activity-based models, agent-based assignment models and agent-based land use models. TFResource only provides a [reference](Synthetic_populations_review_of_the_different_approaches) on this topic, but no original (synthezising) content. | 20 January 2020 |
