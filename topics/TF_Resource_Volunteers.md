@@ -59,7 +59,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Interpolation between forecast years in project-level traffic forecasting](Interpolation_between_forecast_years_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Land use models in project-level traffic forecasting](Land_use_models_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Linear models with explanatory variables in project-level traffic forecasting](Linear_models_with_explanatory_variables_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
-| [List of Model User Groups](List_of_Model_User_Groups) | Tom Rossi | | |
+| [List of Model User Groups](List_of_Model_User_Groups) | Tom Rossi | Done | |
 | [Location-Based Services Data](Location_Based_Services_Data) | Greg | Greg | |
 | [Long range transportation plan](Long_range_transportation_plan) | Matt Stratton | Matt 1/7/2020 | |
 | [MPO model documentation](MPO_model_documentation) | Patrick Singleton | Patrick 01/09/2020 | Add more links? |
@@ -94,10 +94,10 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Pedestrian Route Choice](Pedestrian_Route_Choice) | Patrick Singleton | Patrick 01/09/2020 | Stub |
 | [Pivoting with select link analysis for small developments in project-level traffic forecasting](Pivoting_with_select_link_analysis_for_small_developments_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Planning and policy context](Planning_and_policy_context) | Lisa Zorn | Lisa 1/6/2020 | Deleted - this is a duplicate of [Autonomous vehicles: planning and policy context](Autonomous_vehicles_planning_and_policy_context) |
-| [Polaris](Polaris) | Tom Rossi | | |
+| [Polaris](Polaris) | Tom Rossi | Done | |
 | [Policy relevance of transportation models](Policy_relevance_of_transportation_models) |Patricia Lavieri | | |
 | [Prerequisites for travel modeling](Prerequisites_for_travel_modeling) | Rick Donnelly | | |
-| [Puget Sound Regional Council](Puget_Sound_Regional_Council) | Tom Rossi | | |
+| [Puget Sound Regional Council](Puget_Sound_Regional_Council) | Tom Rossi | Done | |
 | [Refining speeds for evaluation in project-level traffic forecasting](Refining_speeds_for_evaluation_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Refining vehicle class forecasts for evaluation in project-level traffic forecasting](Refining_vehicle_class_forecasts_for_evaluation_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Resources](Resources) | Pooya | | |
@@ -106,10 +106,10 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Screenline refinements in project-level traffic forecasting](Screenline_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Smoothing in project-level traffic forecasting](Smoothing_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Software Development For Travel Modeling](Software_Development_For_Travel_Modeling) | Lisa Zorn | Lisa 1/6/2020 | Marked as Stub |
-| [Solution Algorithm](Solution_Algorithm) | Tom Rossi | | |
+| [Solution Algorithm](Solution_Algorithm) | Tom Rossi | Done | |
 | [Special reporting requirements in project-level traffic forecasting](Special_reporting_requirements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Speed and travel time refinements in project-level traffic forecasting](Speed_and_travel_time_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
-| [Stepwise Model Calibration/Validation](Stepwise_Model_Calibration/Validation) | Tom Rossi | | |
+| [Stepwise Model Calibration/Validation](Stepwise_Model_Calibration/Validation) | Tom Rossi | Done | |
 | [Strategic Models](Strategic_Models) | Rick Donnelly | | |
 | [Subarea focusing in project-level traffic forecasting](Subarea_focusing_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [TMIP](TMIP) | Julie Dunbar|Julie 1/9/20 | |
@@ -117,16 +117,16 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Temporal resolution in project-level traffic forecasting](Temporal_resolution_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Time of Day Factoring](Time_of_Day_Factoring) | Pooya | | |
 | [Topic Circles](Topic_Circles) | Julie Dunbar| Julie 1/9/20 - delete this| |
-| [Traffic Data](Traffic_Data) | Tom Rossi | | |
+| [Traffic Data](Traffic_Data) | Tom Rossi | Done | |
 | [Traffic dynamics in project-level traffic forecasting](Traffic_dynamics_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Traffic microsimulation in project-level traffic forecasting](Traffic_microsimulation_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Transit Data](Transit_Data) | Lisa Zorn | Lisa 1/7/2020 | |
 | [Transit Network Assignment](Transit_Network_Assignment) | Lisa Zorn | Lisa 1/7/2020 | |
 | [Transit Network Service Determination](Transit_Network_Service_Determination) | Lisa Zorn | Lisa 1/7/2020 | |
-| [Transit Path Parameters](Transit_Path_Parameters) | Tom Rossi | | |
-| [Transit crowding](Transit_crowding) | Tom Rossi | | |
-| [Transit dwell time](Transit_dwell_time) | Tom Rossi | | |
-| [Transit mode combinations](Transit_mode_combinations) | Tom Rossi | | |
+| [Transit Path Parameters](Transit_Path_Parameters) | Tom Rossi | Done | |
+| [Transit crowding](Transit_crowding) | Tom Rossi | Done | |
+| [Transit dwell time](Transit_dwell_time) | Tom Rossi | Done | |
+| [Transit mode combinations](Transit_mode_combinations) | Tom Rossi | Done | |
 | [Travel Behavior Definitions](Travel_Behavior_Definitions) | Patrick Singleton | Patrick 01/09/2020 | Expand or delete (only 2) |
 | Travel Cost | Greg | Greg | Deleted an empty page|
 | [Travel Demand and Network Model Integration Schemas](Travel_Demand_and_Network_Model_Integration_Schemas) | Rolf Moeckel | | |
@@ -142,7 +142,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [User benefits in project-level traffic forecasting](User_benefits_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Using policy to affect travel behavior](Using_policy_to_affect_travel_behavior) |Chiara Calastri | | |
 | [Utility](Utility) | Greg | Greg | Greg |
-| [Vehicle Counts](Vehicle_Counts) | Tom Rossi | | |
+| [Vehicle Counts](Vehicle_Counts) | Tom Rossi | Done | |
 | [Vehicle Ownership Models](Vehicle_Ownership_Models) |Rajesh Paleti | | |
 | [Vehicle mix refinements in project-level traffic forecasting](Vehicle_mix_refinements_in_project_level_traffic_forecasting) | Pooya | | |
 | [Version Control](Version_Control) | Alan/Kermit | Alan 12/24/19 | |
@@ -168,7 +168,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [The ARC and SACOG Experience with Activity-Based Models - Synthesis and Lessons Learned](The_ARC_and_SACOG_Experience_with_Activity_Based_Models_Synthesis_and_Lessons_Learned) | Matt Stratton | Matt 1/7/2020 | media.tmiponline.org link broken |
 | [Tour-based models](Tour_based_models) |Venu Garikapati |Venu 01/09 | |
 | [ARCs Experience Using its CT-RAMP Activity-Based Model](ARC_s_Experience_Using_its_CT_RAMP_Activity_Based_Model) | Matt Stratton | Matt 1/7/2020 | |
-| [DRCOGs Experience Using its FOCUS Activity-Based Model](DRCOG_s_Experience_Using_its_FOCUS_Activity_Based_Model) | Tom Rossi | | |
+| [DRCOGs Experience Using its FOCUS Activity-Based Model](DRCOG_s_Experience_Using_its_FOCUS_Activity_Based_Model) | Tom Rossi | Done | |
 | [NCTCOG Path Towards Advanced Analytical Tools](NCTCOG_Path_Towards_Advanced_Analytical_Tools) | Matt Stratton | Matt 1/7/2020 | media.tmiponline.org links are broken |
 | [SFCTAs Experience Using its SF-CHAMP Activity-Based Model](SFCTA_s_Experience_Using_its_SF_CHAMP_Activity_Based_Model) | Matt Stratton | Matt 1/7/2020 | media.tmiponline.org links are broken |
 | **Autonomous Vehicles:** | --- | --- | --- |
@@ -226,10 +226,10 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Design principles of land use models](Design_principles_of_land_use_models) | Rolf | | |
 | [Land use-transport modeling](Land_use_transport_modeling) | Rolf | | |
 | **Model Calibration And Validation:** | --- | --- | --- |
-| [H-GAC Activity-Based Model – Model Validation Plan Report](H_GAC_Activity_Based_Model_–_Model_Validation_Plan_Report) | Rom Rossi | | |
+| [H-GAC Activity-Based Model – Model Validation Plan Report](H_GAC_Activity_Based_Model_–_Model_Validation_Plan_Report) | Tom Rossi | Done | |
 | [Model Validation and Reasonableness Checking](Model_Validation_and_Reasonableness_Checking) | Josie Kressner | Done | Consider simplifying into one summary page with link to PDF/HTML |
-| [Model validation plans](Model_validation_plans) | Tom Rossi | | |
-| [Validating Input Data](Validating_Input_Data) | Tom Rossi | | |
+| [Model validation plans](Model_validation_plans) | Tom Rossi | Done | |
+| [Validating Input Data](Validating_Input_Data) | Tom Rossi | Done | |
 | **Network Assignment:** | --- | --- | --- |
 | [Dynamic Traffic Assignment](Dynamic_Traffic_Assignment) | Pooya | | |
 | [Re-simulating link volumes to reflect uncertainty in highway assignment](Re_simulating_link_volumes_to_reflect_uncertainty_in_highway_assignment) | Matt Stratton | Matt 1/7/2020 | |
@@ -381,7 +381,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Visitor surveys](Visitor_surveys) | Josh | | |
 | **Trip Based Models:** | --- | --- | --- |
 | [Big Picture](Big_Picture) |Julie Dunbar |JD 1/9/20 |still need to replace links to other pages |
-| [Delay Estimation in Trip-Based Models](Delay_Estimation_in_Trip_Based_Models) | | | |
+| [Delay Estimation in Trip-Based Models](Delay_Estimation_in_Trip_Based_Models) | Tom Rossi | | |
 | [Network assignment](Network_assignment) | Eric Pihl | | |
 | [Origin-Destination](Origin_Destination) | Eric Pihl| | |
 | [Skim Matrix](Skim_Matrix) | Rolf | | |
@@ -389,8 +389,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Trip interchange](Trip_interchange) |Venu Garikapati |Venu 01/09 | |
 | [Trip-based models](Trip_based_models) | Venu Garikapati | | |
 | **Urban And Metropolitan Models:** | --- | --- | --- |
-| [Regulatory framework for metropolitan modeling](Regulatory_framework_for_metropolitan_modeling) | | | |
-| [Urban and metropolitan models](Urban_and_metropolitan_models) | | | |
+| [Regulatory framework for metropolitan modeling](Regulatory_framework_for_metropolitan_modeling) | Tom Rossi | | |
+| [Urban and metropolitan models](Urban_and_metropolitan_models) | Tom Rossi | | |
 
 ### Major topics that need to be added to TFResource
 
