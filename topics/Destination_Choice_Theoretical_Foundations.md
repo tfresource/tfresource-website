@@ -109,8 +109,7 @@ It can be shown that $B_j$$D_j$ = ${D^\ast}_j$, the “modified attraction term�
 
 (11)
 
-$${T_{ij}}=\frac { {O_{i}}{D_{j}^{\ast}}{e^{ẞt_{ij}}}  }{\sum_{j'}^{ }{D_{j'}^{\ast}}{e^{ẞt_{ij'}}}   }$$
-
+$${T_{ij}}=\frac{{O_{i}}{{D^\ast}_j}{e^{{\beta t}_{ij}}}}{\sum_{j'}^{ }{{D^\ast}_j'}{e^{{\beta t}_{ij'}}} }$$
 
 This is exactly the doubly-constrained gravity model (equation (6)) with the specific impedance function $f_{ij}$ = $e^{{βt}_{ij}}$. In other words, the “ad hoc” gravity model, “properly specified” is the statistically most likely model of a trip O-D matrix, given known constraints. This provides very strong theoretical support for “gravity-like” spatial interaction models. Other important points to note include:
 
@@ -147,7 +146,7 @@ But, as Daly (1982),[^2] first observed, gravity models can be shown to be a spe
 
 As a simple illustration of this, equation (4) can be rearranged to yield:
 
-$${T_{ij}}={O_i}{[\frac { {X_{ j }}{f_{ ij }}   }{ \sum_{j'}{ }{X_{j'}}{f_{ij'}}  } ]}={O_{i}}{P_{j|i}}$$
+$${T_{ij}}={O_i}{\frac { {X_{ j }}{f_{ ij }}   }{ \sum_{j'}{ }{X_{j'}}{f_{ij'}}  } }={O_{i}}{P_{j|i}}$$
 
 where:
 
@@ -163,7 +162,7 @@ then equation (13) becomes:
 
 (14)
 
-$${P_{j|i}}= \frac { {e^{ln{X_{j}}+{ẞt_{ij}}}} }{ \sum_{j'}^{ }{e^{ln{X_{j'}}+{ẞt_{ij'}}}} } $$
+$${P_{j|i}}= \frac { {e^{ln{X_{j}}+{{\beta t}_{ij}}}} }{ \sum_{j'}^{ }{e^{ln{X_{j'}}+{{\beta t}_{ij'}}}} }$$
 
 Equation (14) is a simple logit destination choice model.
 
