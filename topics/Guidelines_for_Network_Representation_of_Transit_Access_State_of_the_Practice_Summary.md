@@ -8,8 +8,8 @@ categories:
   - Transportation Networks
 links:
   - type: PDF
-    label: "Full Document"
-    url: http://isddc.dot.gov/OLPFiles/FHWA/011179.pdf
+    label: "Not Currently available for download" 
+    url:
 ---
 
 *Guidelines for Network Representation of Transit Access - State of the Practice Summary*
