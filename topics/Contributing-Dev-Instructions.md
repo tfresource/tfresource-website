@@ -34,7 +34,7 @@ In addition, you will need a good Markdown text editor. We recommend using the f
 Now "clone" (download a copy) of the site on your computer, and install all important dependencies using the following commands:
 
 ```bash
-git clone https://github.com/[your-github-name]/tfresource.github.io.git tfresource
+git clone https://github.com/[your-github-name]/website.git tfresource
 cd tfresource
 npm install yarn
 npx yarn install
