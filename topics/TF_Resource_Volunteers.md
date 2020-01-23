@@ -237,7 +237,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Stochastic Traffic Assignment](Stochastic_Traffic_Assignment) | Bhargava Sana | | |
 | [Traffic simulation models](Traffic_simulation_models) | Josh | | |
 | [User Equilibrium](User_Equilibrium) | Josh | | |
-| [Vine building](Vine_building) | | | |
+| [Vine building](Vine_building) | Alan | | |
 | **New Starts:** | --- | --- | --- |
 | [New Starts](New_Starts) |Julie Dunbar |JD 1/9/20 | |
 | [STOPS](STOPS) |Julie Dunbar | JD 1/9/20| Need FTA input|
