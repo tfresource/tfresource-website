@@ -55,7 +55,7 @@ module.exports = {
   ],
   title: 'TF Resource',
   themeConfig: {
-    repo: 'tfresource/tfresource.github.io',
+    repo: 'tfresource/website',
     docsBranch: 'source',
     displayAllHeaders: false,
     editLinks: true,
@@ -81,12 +81,12 @@ module.exports = {
           {
             text: 'Other Websites',
             items: [
-              { text: 'TF-Resource OG', link: 'http://tfresource.org' },
+              { text: 'TF-Resource OG', link: 'http://old.tfresource.org' },
               {
                 text: 'Wikipedia Travel Forecasting',
                 link: 'https://en.wikipedia.org/wiki/Transportation_forecasting',
               },
-              { text: 'TFR on Github', link: 'https://github.com/billyc/tfresource' },
+              { text: 'TFR on Github', link: 'https://github.com/tfresource' },
             ],
           },
         ],
