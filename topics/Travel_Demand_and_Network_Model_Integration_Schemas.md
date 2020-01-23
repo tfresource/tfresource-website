@@ -4,8 +4,8 @@ categories:
   - Needs Review
 ---
 
-{==Practical Integration Schemas==
-Four principal practical integration schemas arise as the consequence of two principal demand model structures (4-step and ABM) and two principal network model structures (Static Assignment and Dynamic Assignment that can be combined in all possible ways).
+### Practical Integration Schemas
+Four principal practical integration schemas exist as the consequence of two principal demand model structures ([Trip-based](Trip_based_models) and [Activity-based](Activity_based_models) models) and two principal network model structures ([Static Assignment](Network_assignment) and [Dynamic Assignment](Dynamic_Traffic_Assignment)) that can be combined in any possible way.
 
 |                     |                                               |                                                   |
 |---------------------|-----------------------------------------------|---------------------------------------------------|
