@@ -2,32 +2,31 @@
 title: "Inside the Black Box"
 noTOC: true
 categories:
-  - Needs Review
   - Reports
   - Resources
 links:
   - type: PDF
     label: "Full Document"
+    url: https://www4.uwm.edu/cuts/blackbox/blackbox.pdf
+  - type: PDF
+    label: "Modeling Primer"
     url: http://www4.uwm.edu/cuts/utp/models.pdf
-  - type: HTML
-    label: "HTML Version"
-    url: http://www4.uwm.edu/cuts/utp/models.html
 ---
 
-*Inside the Black Box - Making Transportation Models Work for Livable Communities*
+_Inside the Black Box: Making Transportation Models Work for Livable Communities_
 
-Author
-------
+#### Authors
 
-Edward A. Beimborn, PhD
+- Edward Beimborn
+- Rob Kennedy
+- William Schaefer
 
-Source
-------
+#### Source
 
-Environmental Defense Fund-publication 99215S
+- Citizens for a Better Environment
+- Environmental Defense Fund (Publication 99215S)
 
-Abstract
---------
+#### Abstract
 
 A classic document that explains the transportation planning process in simple terms, along with the interaction between transportation planning and travel forecasting. It was originally prepared in 1995 and subsequently updated in 2006.
 
@@ -35,7 +34,4 @@ This primer is intended to explain how the process works, the assumptions made a
 
 ### Publication Date
 
-2006-6-1
-
-------------------------------------------------------------------------
-
+2006-06-01
