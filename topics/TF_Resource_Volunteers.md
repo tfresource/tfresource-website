@@ -279,22 +279,22 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Characterizing Oregon's Supply Chains](Characterizing_Oregon_s_Supply_Chains) | | | |
 | [Development of Guidelines for TxDOT – Regional Toll Authority Cooperation and Coordination](Development_of_Guidelines_for_TxDOT_–_Regional_Toll_Authority_Cooperation_and_Coordination) | | | |
 | [Impacts of Time of Day Pricing on Travel Behavior: General Findings from the Port Authority of New York and New Jersey’s Initiative](Impacts_of_Time_of_Day_Pricing_on_Travel_Behavior_General_Findings_from_the_Port_Authority_of_New_York_and_New_Jersey’s_Initiative) | | | |
-| [Inside the Black Box](Inside_the_Black_Box) | | | |
+| [Inside the Black Box](Inside_the_Black_Box) | Patrick Singleton | 01/25/2020 | |
 | [TCRP Report 95: Chapter 13 – Parking Pricing and Fares: Traveler Response to Transportation System Changes](TCRP_Report_95_Chapter_13_Parking_Pricing_and_Fares_Traveler_Response_to_Transportation_System_Changes) | | | |
 | [TCRP Report 95: Chapter 14 – Road Value Pricing: Traveler Response to Transportation System Changes](TCRP_Report_95_Chapter_14_Road_Value_Pricing_Traveler_Response_to_Transportation_System_Changes) | | | |
 | [TCRP Synthesis 63](TCRP_Synthesis_63) | | | |
-| [The Transportation Planning Process - Key Issues](The_Transportation_Planning_Process_Key_Issues) | Patrick Singleton | Patrick 01/09/2020 | Updated document |
+| [The Transportation Planning Process - Key Issues](The_Transportation_Planning_Process_Key_Issues) | Patrick Singleton | 01/25/2020 | Updated document |
 | [Tolling and Public-Private Partnerships in Texas Separating Myth from Fact](Tolling_and_Public_Private_Partnerships_in_Texas_Separating_Myth_from_Fact) | | | |
 | [Transportation Elasticities: How Prices and Other Factors Affect Travel Behavior](Transportation_Elasticities_How_Prices_and_Other_Factors_Affect_Travel_Behavior) | | | |
-| [Travel Behaviour: A review of recent literature](Travel_Behaviour_A_review_of_recent_literature) | | | |
+| [Travel Behaviour: A review of recent literature](Travel_Behaviour_A_review_of_recent_literature) | Patrick Singleton | 01/25/2020 | |
 | [Twin Cities HOV Study - Final Report](Twin_Cities_HOV_Study_Final_Report) | | | |
 | [Washington State Comprehensive Tolling Study Volume 1 Final Report](Washington_State_Comprehensive_Tolling_Study_Volume_1_Final_Report) | | | |
 | **Resources:** | --- | --- | --- |
-| [Activity-Travel Behaviour Research: Conceptual Issues, State of the Art, and Emerging Perspectives on Behavioural Analysis and Simulation Modelling](Activity_Travel_Behaviour_Research_Conceptual_Issues_State_of_the_Art_and_Emerging_Perspectives_on_Behavioural_Analysis_and_Simulation_Modelling) | | | |
+| [Activity-Travel Behaviour Research: Conceptual Issues, State of the Art, and Emerging Perspectives on Behavioural Analysis and Simulation Modelling](Activity_Travel_Behaviour_Research_Conceptual_Issues_State_of_the_Art_and_Emerging_Perspectives_on_Behavioural_Analysis_and_Simulation_Modelling) | Patrick Singleton | 01/25/2020 | |
 | [Bridge and Tunnel Toll Elasticities in New York](Bridge_and_Tunnel_Toll_Elasticities_in_New_York) | | | |
 | [Changes in Travel Behavior/Demand Associated with Managed Lanes](Changes_in_Travel_Behavior_Demand_Associated_with_Managed_Lanes) | | | |
 | [Development of a New Toll Mode-Choice Modeling System for Florida's Turnpike Enterprise](Development_of_a_New_Toll_Mode_Choice_Modeling_System_for_Florida's_Turnpike_Enterprise) | | | |
-| [Emerging Issues in Travel Behavior Analysis](Emerging_Issues_in_Travel_Behavior_Analysis) | | | |
+| [Emerging Issues in Travel Behavior Analysis](Emerging_Issues_in_Travel_Behavior_Analysis) | Patrick Singleton | 01/25/2020 | |
 | [Hawaii Guidelines](Hawaii_Guidelines) | | | |
 | [Highway Capacity Manual](Highway_Capacity_Manual) | | | |
 | [Household travel surveys: Where are we going?](Household_travel_surveys_Where_are_we_going?) | | | |
@@ -310,7 +310,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Presentations](Presentations) | | | |
 | [Propositions for Modeling household decision-making](Propositions_for_Modeling_household_decision_making) | | | |
 | [Reports](Reports) | | | |
-| [SR 288-Metropolitan Travel Forecasting Current Practice and Future Direction](SR_288_Metropolitan_Travel_Forecasting_Current_Practice_and_Future_Direction) | | | |
+| [SR 288-Metropolitan Travel Forecasting Current Practice and Future Direction](SR_288_Metropolitan_Travel_Forecasting_Current_Practice_and_Future_Direction) | Patrick Singleton | 01/25/2020 | |
 | [TCRP Report 95: Chapter 12 – Transit Pricing and Fares: Traveler Response to Transportation System Changes](TCRP_Report_95_Chapter_12_Transit_Pricing_and_Fares_Traveler_Response_to_Transportation_System_Changes) | | | |
 | [The New Jersey Turnpike’s Time of Day Pricing Initiative’s Behavioral Impacts and the Observed Role of Travel Distance on the Underlying Elasticities](The_New_Jersey_Turnpike’s_Time_of_Day_Pricing_Initiative’s_Behavioral_Impacts_and_the_Observed_Role_of_Travel_Distance_on_the_Underlying_Elasticities) | | | |
 | [Webinars and Videos](Webinars_and_Videos) | | | |
