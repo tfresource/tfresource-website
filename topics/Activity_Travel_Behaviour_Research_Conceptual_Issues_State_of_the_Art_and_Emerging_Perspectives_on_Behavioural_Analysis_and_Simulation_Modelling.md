@@ -6,22 +6,20 @@ categories:
   - Resources
   - Activity Based Models
 links:
-  - type: Paper (PDF)
+  - type: Journal Article
     label: "requires subscription"
-    url: http://www.tandfonline.com/doi/full/10.1080/01441640600858649#.Ui39c8asiSo
+    url: https://doi.org/10.1080/01441640600858649
 ---
 
 
-#### Author
+#### Authors
 
-Ron N. Buliung
-
-Pavlos S. Kanaroglou
+- Ron N. Buliung
+- Pavlos S. Kanaroglou
 
 #### Source
 
-Transport Reviews: A Transnational Transdisciplinary Journal\
-Volume 27, Issue 2
+Transport Reviews: A Transnational Transdisciplinary Journal, Volume 27, Issue 2
 
 #### Abstract
 
@@ -33,9 +31,4 @@ Requires subscription
 
 #### Publication Date
 
-2007-2-4
-
-------------------------------------------------------------------------
-
-
-
+2007-02-04
