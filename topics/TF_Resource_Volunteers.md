@@ -237,7 +237,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Stochastic Traffic Assignment](Stochastic_Traffic_Assignment) | Bhargava Sana | | |
 | [Traffic simulation models](Traffic_simulation_models) | Josh | | |
 | [User Equilibrium](User_Equilibrium) | Josh | | |
-| [Vine building](Vine_building) | Alan | | |
+| [Vine building](Vine_building) | Alan | Alan 1/23/20 | |
 | **New Starts:** | --- | --- | --- |
 | [New Starts](New_Starts) |Julie Dunbar |JD 1/9/20 | |
 | [STOPS](STOPS) |Julie Dunbar | JD 1/9/20| Need FTA input|
@@ -347,13 +347,13 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | **Transportation Networks:** | --- | --- | --- |
 | [Average Annual Daily Traffic](Average_Annual_Daily_Traffic) | Eric Pihl | | |
 | [Average Daily Traffic](Average_Daily_Traffic) | Eric Pihl | | |
-| [Design Hourly Volume](Design_Hourly_Volume) | Alan | | |
-| [Guidelines for Network Representation of Transit Access - State of the Practice Summary](Guidelines_for_Network_Representation_of_Transit_Access_State_of_the_Practice_Summary) | Alan | | |
+| [Design Hourly Volume](Design_Hourly_Volume) | Alan | Alan 1/23/20 | |
+| [Guidelines for Network Representation of Transit Access - State of the Practice Summary](Guidelines_for_Network_Representation_of_Transit_Access_State_of_the_Practice_Summary) | Alan | 1/23/20 | |
 | [Highway networks](Highway_networks) | Eric Pihl | | |
 | [Transit Route](Transit_Route) |Julie Dunbar |jd 1/9/20 | |
 | [Transit networks](Transit_networks) |Julie Dunbar | jd 1/9/20| |
 | [Transportation networks](Transportation_networks) | Eric Pihl | | |
-| [Two-Lane Highways](Two_Lane_Highways) | Alan | | |
+| [Two-Lane Highways](Two_Lane_Highways) | Alan | Alan 1/23/20 | |
 | **Travel Behavior:** | --- | --- | --- |
 | [A historical perspective of innovations in travel modeling](A_historical_perspective_of_innovations_in_travel_modeling) | Patrick Singleton | Patrick 01/09/2020 | |
 | [Activity-Travel Planning and Decision Making Behaviors](Activity_Travel_Planning_and_Decision_Making_Behaviors) | Chiara Calastri | 23 Dec. 2019 | Page incomplete |
