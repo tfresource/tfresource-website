@@ -1,7 +1,6 @@
 ---
 title: "Regulatory framework for metropolitan modeling"
 categories:
-  - Needs Review
   - Urban And Metropolitan Models
 ---
 
