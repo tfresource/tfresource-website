@@ -2,14 +2,13 @@
 title: "GPS Based Pilot Survey of Freight Movements in the Midwest Region"
 noTOC: true
 categories:
-  - Needs Review
   - Freight Modeling
   - Reports
   - Resources
 links:
   - type: PDF
     label: "GPS Based Pilot Survey of Freight Movements in the Midwest Region"
-    url: http://tfresource.org/images/a/a9/GPSBased_PilotSurvey_ofFreight_Movementsin_theMidwestRegion.pdf
+    url: https://pdfs.semanticscholar.org/6cae/de96cce6ab9e8d3b15b4c0a312b5d1c6453a.pdf
 ---
 
 
@@ -33,7 +32,7 @@ Public Domain
 
 #### Publication Date
 
-2013|April|1}} Final Draft
+April 1, 2013 Final Draft
 
 ------------------------------------------------------------------------
 
