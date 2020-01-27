@@ -21,4 +21,5 @@ The workplace/establishment survey can incorporate up to five separate data coll
 
 ## References
 
-- Southworth F, Zhang Y, & Sharp J.  Travel Survey Manual, Chapter 18. Chapter 18 draws from FHWA Manual Chapter 10
+- Southworth F, Zhang Y, & Sharp J (2010).  [Travel Survey Manual, Chapter 18](https://trbtsm.wiki.zoho.com/Chapter-18.html).
+- Tierney, et al (1996).  [FHWA Travel Survey Manual](https://trid.trb.org/view/465304).
