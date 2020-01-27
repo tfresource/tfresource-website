@@ -335,7 +335,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Statewide models](Statewide_models) | M.Bina | | |
 | **Temporal Data:** | --- | --- | --- |
 | [Open Matrix Format](Open_Matrix_Format) | Josh | | |
-| [Temporal data](Temporal_data) | Matt Stratton | | |
+| [Temporal data](Temporal_data) | Matt Stratton | Matt 1/27/2020 | |
 | **Topic Circles:** | --- | --- | --- |
 | [Activity-based models](Activity_based_models) | Venu Garikapati |Venu 01/10 | |
 | [Dynamic network models](Dynamic_network_models) | Eric Pihl | | |
@@ -371,8 +371,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [On Board Transit Survey](On_Board_Transit_Survey) | | | |
 | [Response bias](Response_bias) |Chiara Calastri | | |
 | **Travel Surveys:** | --- | --- | --- |
-| [Establishment surveys](Establishment_surveys) | Matt Stratton | Matt 1/27/2020 | Links to references needed |
-| [External surveys](External_surveys) | Matt Stratton | Matt 1/27/2020 | Links to references needed |
+| [Establishment surveys](Establishment_surveys) | Matt Stratton | Matt 1/27/2020 | |
+| [External surveys](External_surveys) | Matt Stratton | Matt 1/27/2020 | |
 | [Household travel surveys](Household_travel_surveys) |Patricia Lavieri | | |
 | [Parking surveys](Parking_surveys) | Josh | | |
 | [Stated-preference surveys](Stated_preference_surveys) |Rajesh Paleti | | |
