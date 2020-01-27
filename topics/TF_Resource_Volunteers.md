@@ -210,11 +210,11 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [T-PICS: Transportation Project Impact Case Studies](T_PICS_Transportation_Project_Impact_Case_Studies) | Chiara Calastri | | |
 | **Freight Modeling:** | --- | --- | --- |
 | [Commercial vehicle surveys](Commercial_vehicle_surveys) | Josh | | |
-| [GPS Based Pilot Survey of Freight Movements in the Midwest Region](GPS_Based_Pilot_Survey_of_Freight_Movements_in_the_Midwest_Region) | | Bhargava Sana | |
-| [Goods Movement Study in Illinois: Application to Freight Transportation and Logistics](Goods_Movement_Study_in_Illinois_Application_to_Freight_Transportation_and_Logistics) | Bhargava Sana | | |
-| [Highway Research Board Special Report 120: Urban Commodity Flow](Highway_Research_Board_Special_Report_120_Urban_Commodity_Flow) | Bhargava Sana | | |
+| [GPS Based Pilot Survey of Freight Movements in the Midwest Region](GPS_Based_Pilot_Survey_of_Freight_Movements_in_the_Midwest_Region) | Bhargava Sana | 27 Jan 2020 | |
+| [Goods Movement Study in Illinois: Application to Freight Transportation and Logistics](Goods_Movement_Study_in_Illinois_Application_to_Freight_Transportation_and_Logistics) | Bhargava Sana | 27 Jan 2020 | |
+| [Highway Research Board Special Report 120: Urban Commodity Flow](Highway_Research_Board_Special_Report_120_Urban_Commodity_Flow) | Bhargava Sana | 27 Jan 2020 | |
 | [Statewide Freight Modeling](Statewide_Freight_Modeling) | Pooya | | |
-| [Tour based and supply chain modeling for freight](Tour_based_and_supply_chain_modeling_for_freight) | Bhargava Sana | | |
+| [Tour based and supply chain modeling for freight](Tour_based_and_supply_chain_modeling_for_freight) | Bhargava Sana | 27 Jan 2020 | |
 | **Innovations In Travel Modeling:** | --- | --- | --- |
 | [1st TRB Conference on Innovations in Travel Modeling](1st_TRB_Conference_on_Innovations_in_Travel_Modeling) | Greg | Greg | |
 | [2nd TRB Conference on Innovations in Travel Modeling](2nd_TRB_Conference_on_Innovations_in_Travel_Modeling) | Greg | Greg | |
