@@ -2,7 +2,6 @@
 title: "Tour based and supply chain modeling for freight"
 noTOC: true
 categories:
-  - Needs Review
   - Activity Based Models
   - Freight Modeling
   - Papers
@@ -10,7 +9,7 @@ categories:
 links:
   - type: Paper (PDF)
     label: "Link"
-    url: http://www.ingentaconnect.com/content/maney/hem
+    url: https://www.tandfonline.com/doi/abs/10.1179/1942786713Z.0000000009
 ---
 
 
@@ -47,7 +46,9 @@ This paper is part of a special issue on the Fourth Innovations in Travel Modeli
 
 #### Copyright & Usage Permissions
 
-This paper is part of a special issue on the Fourth Innovations in Travel Modeling Conference published online in Transportation Letters. The page numbering relates to the printed issue and is correct for citation purposes. The latest online content may be viewed at [Transporation Letters](http://www.ingentaconnect.com/content/maney/trl).
+This paper is part of a special issue on the Fourth Innovations in Travel Modeling Conference published online in Transportation Letters. The page numbering relates to the printed issue and is correct for citation purposes. The latest online content may be viewed at [Transporation Letters](https://www.tandfonline.com/doi/abs/10.1179/1942786713Z.0000000009).
+
+If you would like to request permissions directly from Taylor & Francis, please complete and submit a Permissions form. For more information please visit [Permissions](https://help.tandfonline.com/Librarian/s/article/Permissions) help page.
 
 Publishing, but may not be used for commercial purposes or posted on your individual website, that of your institution or within a subject-specific online repository, unless sponsored for open access publication in one of Maney Publishing’s MORE OpenChoice journals, and as denoted on the front page of the article.
 
@@ -55,7 +56,7 @@ For full information about how you may reuse versions of your work please see th
 
 #### Publication Date
 
-2013--
+2013
 
 ------------------------------------------------------------------------
 
