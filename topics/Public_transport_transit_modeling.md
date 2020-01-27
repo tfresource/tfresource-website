@@ -113,7 +113,7 @@ What are planners and decision makers typically interested in learning when they
 
 **Use Cases**:
 
-1.  [Small Starts / New Starts](New_Starts))
+1.  [Small Starts / New Starts](New_Starts)
 2.  [Long range transportation plan](Long_range_transportation_plan)
 3.  Policy Study (i.e. cordon-based congestion pricing
 
