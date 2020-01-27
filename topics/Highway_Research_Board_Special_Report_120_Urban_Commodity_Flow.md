@@ -2,7 +2,6 @@
 title: "Highway Research Board Special Report 120: Urban Commodity Flow"
 noTOC: true
 categories:
-  - Needs Review
   - Freight Modeling
   - Reports
   - Resources
@@ -49,7 +48,7 @@ Transportation Research Board (formerly Highway Research Board)
 
 #### Publication Date
 
-1971-January -1
+January 1, 1971
 
 ------------------------------------------------------------------------
 
