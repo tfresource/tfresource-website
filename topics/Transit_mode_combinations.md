@@ -1,7 +1,6 @@
 ---
 title: "Transit mode combinations"
 categories:
-  - Needs Review
 ---
 
 There are important considerations that affect how trips that include multiple transit modes are modeled.  Modst models use the following terms to describe the modes that constitute certain parts of the overall trip:
