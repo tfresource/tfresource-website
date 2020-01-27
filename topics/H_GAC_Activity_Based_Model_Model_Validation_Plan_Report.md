@@ -2,14 +2,13 @@
 title: "H-GAC Activity-Based Model – Model Validation Plan Report"
 noTOC: true
 categories:
-  - Needs Review
   - Model Calibration And Validation
   - Reports
   - Resources
 links:
   - type: PDF
     label: "Report PDF"
-    url: http://tfresource.org/images/5/59/H-GAC_ABM-Model_Validation_Plan.Final.pdf
+    url: http://old.tfresource.org/images/5/59/H-GAC_ABM-Model_Validation_Plan.Final.pdf
 ---
 
 #### Author
