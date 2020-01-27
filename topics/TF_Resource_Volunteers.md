@@ -371,8 +371,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [On Board Transit Survey](On_Board_Transit_Survey) | | | |
 | [Response bias](Response_bias) |Chiara Calastri | | |
 | **Travel Surveys:** | --- | --- | --- |
-| [Establishment surveys](Establishment_surveys) | Matt Stratton | | |
-| [External surveys](External_surveys) | Matt Stratton | | |
+| [Establishment surveys](Establishment_surveys) | Matt Stratton | Matt 1/27/2020 | Links to references needed |
+| [External surveys](External_surveys) | Matt Stratton | Matt 1/27/2020 | Links to references needed |
 | [Household travel surveys](Household_travel_surveys) |Patricia Lavieri | | |
 | [Parking surveys](Parking_surveys) | Josh | | |
 | [Stated-preference surveys](Stated_preference_surveys) |Rajesh Paleti | | |
