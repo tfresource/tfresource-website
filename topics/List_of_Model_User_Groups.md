@@ -1,7 +1,6 @@
 ---
 title: "List of Model User Groups"
 categories:
-  - Needs Review
 ---
 
 Many agencies around the United States have established Travel Model User Groups or MUGs that meet to share experiences and information on topics related to travel forecasting. Below is a list of known MUGs:
