@@ -27,7 +27,8 @@
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "surge": "^0.20.1",
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-minimal-analytics": "^0.1.4"
   },
   "dependencies": {
     "markdown-it-footnote": "^3.0.2",

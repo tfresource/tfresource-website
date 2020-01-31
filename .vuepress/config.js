@@ -52,6 +52,7 @@ module.exports = {
         additionalArgs: '--no-merge',
       },
     ],
+    ['minimal-analytics', {ga: 'UA-157455011-1'}]
   ],
   title: 'TF Resource',
   themeConfig: {
