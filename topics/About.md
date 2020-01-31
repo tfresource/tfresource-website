@@ -2,8 +2,10 @@
 title: "About"
 categories:
   - Needs Review
-  - About
+  - Topic Circles
 ---
+
+<PagesInCategory category="About" />
 
 About the TFResource
 --------------------
