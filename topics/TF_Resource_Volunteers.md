@@ -210,11 +210,11 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [T-PICS: Transportation Project Impact Case Studies](T_PICS_Transportation_Project_Impact_Case_Studies) | Chiara Calastri | | |
 | **Freight Modeling:** | --- | --- | --- |
 | [Commercial vehicle surveys](Commercial_vehicle_surveys) | Josh | | |
-| [GPS Based Pilot Survey of Freight Movements in the Midwest Region](GPS_Based_Pilot_Survey_of_Freight_Movements_in_the_Midwest_Region) | | Bhargava Sana | |
-| [Goods Movement Study in Illinois: Application to Freight Transportation and Logistics](Goods_Movement_Study_in_Illinois_Application_to_Freight_Transportation_and_Logistics) | Bhargava Sana | | |
-| [Highway Research Board Special Report 120: Urban Commodity Flow](Highway_Research_Board_Special_Report_120_Urban_Commodity_Flow) | Bhargava Sana | | |
+| [GPS Based Pilot Survey of Freight Movements in the Midwest Region](GPS_Based_Pilot_Survey_of_Freight_Movements_in_the_Midwest_Region) | Bhargava Sana | 27 Jan 2020 | |
+| [Goods Movement Study in Illinois: Application to Freight Transportation and Logistics](Goods_Movement_Study_in_Illinois_Application_to_Freight_Transportation_and_Logistics) | Bhargava Sana | 27 Jan 2020 | |
+| [Highway Research Board Special Report 120: Urban Commodity Flow](Highway_Research_Board_Special_Report_120_Urban_Commodity_Flow) | Bhargava Sana | 27 Jan 2020 | |
 | [Statewide Freight Modeling](Statewide_Freight_Modeling) | Pooya | | |
-| [Tour based and supply chain modeling for freight](Tour_based_and_supply_chain_modeling_for_freight) | Bhargava Sana | | |
+| [Tour based and supply chain modeling for freight](Tour_based_and_supply_chain_modeling_for_freight) | Bhargava Sana | 27 Jan 2020 | |
 | **Innovations In Travel Modeling:** | --- | --- | --- |
 | [1st TRB Conference on Innovations in Travel Modeling](1st_TRB_Conference_on_Innovations_in_Travel_Modeling) | Greg | Greg | |
 | [2nd TRB Conference on Innovations in Travel Modeling](2nd_TRB_Conference_on_Innovations_in_Travel_Modeling) | Greg | Greg | |
@@ -234,7 +234,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Dynamic Traffic Assignment](Dynamic_Traffic_Assignment) | Pooya | | |
 | [Re-simulating link volumes to reflect uncertainty in highway assignment](Re_simulating_link_volumes_to_reflect_uncertainty_in_highway_assignment) | Matt Stratton | Matt 1/7/2020 | |
 | [SHRP2 C04 - Improving Our Understanding of How Highway Congestion and Pricing Affect Travel Demand](SHRP2_C04_Improving_Our_Understanding_of_How_Highway_Congestion_and_Pricing_Affect_Travel_Demand) | Matt Stratton | Matt 1/7/2020 | |
-| [Stochastic Traffic Assignment](Stochastic_Traffic_Assignment) | Bhargava Sana | | |
+| [Stochastic Traffic Assignment](Stochastic_Traffic_Assignment) | Bhargava Sana | 27 Jan 2020 | |
 | [Traffic simulation models](Traffic_simulation_models) | Josh | | |
 | [User Equilibrium](User_Equilibrium) | Josh | | |
 | [Vine building](Vine_building) | Alan | Alan 1/23/20 | |
@@ -269,10 +269,10 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Reporting of reasonable bounds on forecast values in project-level traffic forecasting](Reporting_of_reasonable_bounds_on_forecast_values_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Scenario/sensitivity testing in project-level traffic forecasting](Scenario/sensitivity_testing_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | **Public Transport (Transit) Modeling:** | --- | --- | --- |
-| [Public transport (transit) modeling](Public_transport_(transit)_modeling) | Bhargava Sana | | |
-| [Transit Fares](Transit_Fares) | Bhargava Sana | | |
-| [Transit Route Frequency](Transit_Route_Frequency) | Bhargava Sana | | |
-| [Transit Vehicles](Transit_Vehicles) | Bhargava Sana | | |
+| [Public transport (transit) modeling](Public_transport_transit_modeling) | Bhargava Sana | 27 Jan 2020 | |
+| [Transit Fares](Transit_Fares) | Bhargava Sana | 27 Jan 2020 | |
+| [Transit Route Frequency](Transit_Route_Frequency) | Bhargava Sana | 27 Jan 2020 | |
+| [Transit Vehicles](Transit_Vehicles) | Bhargava Sana | 27 Jan 2020 | |
 | **Reports:** | --- | --- | --- |
 | [2012 Household Travel Survey Symposium: Conference Summary and Final Report](2012_Household_Travel_Survey_Symposium_Conference_Summary_and_Final_Report) | | | |
 | [Assessing Highway Tolling and Pricing Options and Impacts](Assessing_Highway_Tolling_and_Pricing_Options_and_Impacts) | | | |
@@ -315,8 +315,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [The New Jersey Turnpike’s Time of Day Pricing Initiative’s Behavioral Impacts and the Observed Role of Travel Distance on the Underlying Elasticities](The_New_Jersey_Turnpike’s_Time_of_Day_Pricing_Initiative’s_Behavioral_Impacts_and_the_Observed_Role_of_Travel_Distance_on_the_Underlying_Elasticities) | | | |
 | [Webinars and Videos](Webinars_and_Videos) | | | |
 | **Sketch Planning Models:** | --- | --- | --- |
-| [Alternative Futures for Integrated Transportation and Land-Use Models Contrasted with Trend-Delphi Models](Alternative_Futures_for_Integrated_Transportation_and_Land_Use_Models_Contrasted_with_Trend_Delphi_Models) | Bhargava Sana | | |
-| [Sketch planning models](Sketch_planning_models) | Bhargava Sana | | |
+| [Alternative Futures for Integrated Transportation and Land-Use Models Contrasted with Trend-Delphi Models](Alternative_Futures_for_Integrated_Transportation_and_Land_Use_Models_Contrasted_with_Trend_Delphi_Models) | Bhargava Sana | 27 Jan 2020 | |
+| [Sketch planning models](Sketch_planning_models) | Bhargava Sana | 27 Jan 2020 | |
 | **Spatial Data:** | --- | --- | --- |
 | [Big Data](Big_Data) |Patricia Lavieri | | |
 | [Spatial data](Spatial_data) |Patricia Lavieri | | |
@@ -335,7 +335,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Statewide models](Statewide_models) | M.Bina | | |
 | **Temporal Data:** | --- | --- | --- |
 | [Open Matrix Format](Open_Matrix_Format) | Josh | | |
-| [Temporal data](Temporal_data) | Matt Stratton | | |
+| [Temporal data](Temporal_data) | Matt Stratton | Matt 1/27/2020 | |
 | **Topic Circles:** | --- | --- | --- |
 | [Activity-based models](Activity_based_models) | Venu Garikapati |Venu 01/10 | |
 | [Dynamic network models](Dynamic_network_models) | Eric Pihl | | |
@@ -371,8 +371,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [On Board Transit Survey](On_Board_Transit_Survey) | | | |
 | [Response bias](Response_bias) |Chiara Calastri | | |
 | **Travel Surveys:** | --- | --- | --- |
-| [Establishment surveys](Establishment_surveys) | Matt Stratton | Matt 1/27/2020 | Links to references needed |
-| [External surveys](External_surveys) | Matt Stratton | Matt 1/27/2020 | Links to references needed |
+| [Establishment surveys](Establishment_surveys) | Matt Stratton | Matt 1/27/2020 | |
+| [External surveys](External_surveys) | Matt Stratton | Matt 1/27/2020 | |
 | [Household travel surveys](Household_travel_surveys) |Patricia Lavieri | | |
 | [Parking surveys](Parking_surveys) | Josh | | |
 | [Stated-preference surveys](Stated_preference_surveys) |Rajesh Paleti | | |

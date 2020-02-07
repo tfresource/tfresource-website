@@ -2,14 +2,13 @@
 title: "Goods Movement Study in Illinois: Application to Freight Transportation and Logistics"
 noTOC: true
 categories:
-  - Needs Review
   - Freight Modeling
   - Reports
   - Resources
 links:
   - type: PDF
     label: "Full Document Goods Movement Study in Illinois: Application to Freight Transportation and Logistics"
-    url: http://ict.illinois.edu/publications/report%20files/FHWA-ICT-13-010.pdf
+    url: https://www.ideals.illinois.edu/handle/2142/45785
 ---
 
 "Goods Movement Study in Illinois: Application to Freight Transportation and Logistics"
@@ -38,7 +37,7 @@ Public Domain
 
 #### Publication Date
 
-2013-March-
+March 2013
 
 ------------------------------------------------------------------------
 

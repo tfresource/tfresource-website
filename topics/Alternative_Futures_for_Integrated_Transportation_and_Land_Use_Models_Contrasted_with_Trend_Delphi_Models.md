@@ -2,7 +2,6 @@
 title: "Alternative Futures for Integrated Transportation and Land-Use Models Contrasted with Trend-Delphi Models"
 noTOC: true
 categories:
-  - Needs Review
   - Land Use Transport Modeling
   - Papers
   - Resources
@@ -10,7 +9,7 @@ categories:
 links:
   - type: Copyrighted material
     label: "TRR website"
-    url: http://trb.metapress.com/content/k3604n421qx5/?p=c58cff244eda43a3b6a19121c7a64a81&amp;pi=557
+    url: https://journals.sagepub.com/doi/10.3141/1805-12
 ---
 
 
@@ -34,7 +33,7 @@ Protected by copyright of the editor (National Academy of Science)
 
 #### Publication Date
 
-2002}}
+2002
 
 ------------------------------------------------------------------------
 

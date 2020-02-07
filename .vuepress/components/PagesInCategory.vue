@@ -28,7 +28,6 @@ export default {
     }
   },
   created: function() {
-    console.log({hey: this})
   },
   methods: {
   },
