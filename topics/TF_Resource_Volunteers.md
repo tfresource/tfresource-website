@@ -149,7 +149,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Windowing with OD table estimation from traffic counts in project-level traffic forecasting](Windowing_with_OD_table_estimation_from_traffic_counts_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Working with vehicle re-identification data in project-level traffic forecasting](Working_with_vehicle_re_identification_data_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | **About:** | --- | --- | --- |
-| [About](About) | Rolf | | |
+| [About](About) | Rolf | 10 Feb 2020 | |
 | [Contributing to the Travel Forecasting Resource](Contributing) | Rolf | | |
 | [Developer Instructions: Building TF-Resource Locally](Contributing-Dev-Instructions) | Rolf | | |
 | [Governance](Governance) | Julie Dunbar| Julie 1/9/20| delete or re-write once trb decides what to do |
