@@ -382,7 +382,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Visitor surveys](Visitor_surveys) | Josh | | |
 | **Trip Based Models:** | --- | --- | --- |
 | [Big Picture](Big_Picture) |Julie Dunbar |JD 1/9/20 |still need to replace links to other pages |
-| [Delay Estimation in Trip-Based Models](Delay_Estimation_in_Trip_Based_Models) | Tom Rossi | | |
+| [Delay Estimation in Trip-Based Models](Delay_Estimation_in_Trip_Based_Models) | Tom Rossi | Done | |
 | [Network assignment](Network_assignment) | Eric Pihl | | |
 | [Origin-Destination](Origin_Destination) | Eric Pihl| | |
 | [Skim Matrix](Skim_Matrix) | Rolf | | |
@@ -390,8 +390,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Trip interchange](Trip_interchange) |Venu Garikapati |Venu 01/09 | |
 | [Trip-based models](Trip_based_models) | Venu Garikapati | | |
 | **Urban And Metropolitan Models:** | --- | --- | --- |
-| [Regulatory framework for metropolitan modeling](Regulatory_framework_for_metropolitan_modeling) | Tom Rossi | | |
-| [Urban and metropolitan models](Urban_and_metropolitan_models) | Tom Rossi | | |
+| [Regulatory framework for metropolitan modeling](Regulatory_framework_for_metropolitan_modeling) | Tom Rossi | Done | |
+| [Urban and metropolitan models](Urban_and_metropolitan_models) | Tom Rossi | Done | |
 
 ### Major topics that need to be added to TFResource
 
