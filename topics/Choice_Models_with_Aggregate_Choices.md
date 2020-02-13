@@ -47,7 +47,7 @@ Relax Arbitrary Boundaries Assumption
 
 Relaxing the assumption of arbitrary boundaries puts *μ~nest~* back into the equation for *V~nest~*:
 
-  $$V_{nest} = \mu_{nest} \log( \sum_{i \in nest} \exp(V_{i}\mu_{nest}))=V_{i}+\mu_{nest}\log(N_{nest})$$
+$$V_{nest} = \mu_{nest} \log( \sum_{i \in nest} \exp{(V_{i} \mu_{nest} )}  ) =V_{i}+\mu_{nest}\log(N_{nest})$$
 
 The logsum parameter thus appears as a coefficient on *log(N~nest~)*. This may or may not be a good idea for transportation models. In an intra-urban model, if the boundaries of zones are at the TAZ level, which are small sectors drawn only for modelling purposes, relaxing this assumption probably doesn’t make sense. If the boundaries are aligned with political boundaries (counties, towns) that have differing taxing, administration, or other policies, it might be OK to relax this assumption. In a long distance travel model, if the boundaries are aligned with metropolitan areas, then it is certainly reasonable to relax the arbitrary bounds assumption.
 
@@ -58,7 +58,7 @@ Relaxing Homogeneity
 
 Another assumption we made was that the individual alternatives within a zone are homogeneous... but it is highly likely they are not. Variance in the systematic utilities, and in particular heteroskedastic variance (where the variance in different aggregates is different), can change the calculations. Consider the one dimensional destination choice depicted here:
 
-![](https://github.com/tfresource/website/blob/source/.vuepress/public/topics/Agg-choice-variance.png "Agg-choice-variance.png")
+![](/topics/Agg-choice-variance.png "Agg-choice-variance.png")
 
 The choice has been subdivided into three aggregation zones. The average utility of Zone A is lower than that of Zone B or Zone C, but the variance of utility in Zone A is much larger.
 
