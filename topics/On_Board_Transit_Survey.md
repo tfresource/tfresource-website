@@ -1,11 +1,10 @@
 ---
 title: "On Board Transit Survey"
 categories:
-  - Needs Review
   - Travel Survey Data
+  - Stub
 ---
 
-TODO
 
 A survey of transit riders.
 
@@ -23,4 +22,3 @@ Relevant Resources:
 -   [Travel Survey Manual Wiki Chapter 16](http://www.travelsurveymanual.org/Chapter-16.html)
 
 ------------------------------------------------------------------------
-
