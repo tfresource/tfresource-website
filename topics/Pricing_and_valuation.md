@@ -11,9 +11,11 @@ Attributes of Pricing
 
 The continued growth in travel demand, worsening congestion, coupled with significant reduction
 in transportation funding available from traditional sources has motivated agencies with planning
-and programing resposibilities to consider tolling and pricing solutions as a means of funding new capacity and better managing system operations.
+and programing responsibilities to consider tolling and pricing solutions as a means of funding new capacity and better managing system operations.
 
-This page will consider methods and strategies for incorporating both pricing and tolling in travel models. **Tolling strategies** involve the imposition of fees for the use of a roadway facility; examples include fixed fees that motorists pay—usually based on the numberof axles or vehicle weight—to cross a bridge or tunnel or drive on a tolled highway facility. Tolling strategies are used primarily as a revenue source to finance and
+This page will consider methods and strategies for incorporating both pricing and tolling in travel models.
+
+**Tolling strategies** involve the imposition of fees for the use of a roadway facility; examples include fixed fees that motorists pay—usually based on the number of axles or vehicle weight—to cross a bridge or tunnel or drive on a tolled highway facility. Tolling strategies are used primarily as a revenue source to finance and
 expedite the implementation of needed transportation improvements.
 
 Pricing specifically refers to strategies that vary toll rates by time of day or traffic volume level to manage congestion

@@ -254,7 +254,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Traveler Behavior and Values Research for Human-Centered Transportation Systems](Traveler_Behavior_and_Values_Research_for_Human_Centered_Transportation_Systems) | Matt Stratton | Matt 1/7/2020 | |
 | **Pricing And Valuation:** | --- | --- | --- |
 | [Pricing and Travel Time Reliability Enhancements in the SANDAG Activity-Based Travel Model: Final Report](Pricing_and_Travel_Time_Reliability_Enhancements_in_the_SANDAG_Activity_Based_Travel_Model_Final_Report) | | | |
-| [Pricing and valuation](Pricing_and_valuation) | | | |
+| [Pricing and valuation](Pricing_and_valuation) | Greg | Greg | Needs proofreading |
 | **Project Level Traffic Forecasting:** | --- | --- | --- |
 | [Choice of techniques in project-level traffic forecasts](Choice_of_techniques_in_project_level_traffic_forecasts) | Alan/Kermit | Alan 12/24/19 | |
 | [Documentation standards in project-level traffic forecasting](Documentation_standards_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
