@@ -7,33 +7,32 @@ categories:
 ### Practical Integration Schemas
 Four principal practical integration schemas exist as the consequence of two principal demand model structures ([Trip-based](Trip_based_models) and [Activity-based](Activity_based_models) models) and two principal network model structures ([Static Assignment](Network_assignment) and [Dynamic Assignment](Dynamic_Traffic_Assignment)) that can be combined in any possible way.
 
-|                     |                                               |                                                   |
-|---------------------|-----------------------------------------------|---------------------------------------------------|
-|                     | Static User Equilibrium                       | DTA                                               |
-| 4-step/trip-Based . | 1=Conventional well-explored                  | 3=Usual for DTA in practice (demand is stretched) |
-| Activity-Based      | 2=Usual for ABM in practice (UE is stretched) | 4=Most promising avenue (first attempts)          |
+|                | Static User Equilibrium Assignment | Dynamic Traffic Assignment (DTA)               |
+|----------------|------------------------------------|------------------------------------------------|
+| Trip-Based     | (1) Conventional, well-established | (3) Usual for DTA in practice                  |
+| Activity-Based | (2) Usual for ABM in practice      | (4) Most advanced integration (first attempts) |
 
-For more information, see [Travel Demand and Network Model Integration Schemas](Travel_Demand_and_Network_Model_Integration_Schemas)
 
-### Trip-based / Static network
+### (1) Trip-based / Static User Equilibrium Assignment
 
-Theory and practice of integrated demand-network models have a long history dated back to the fundamental works of Evans, 1976, Florian. 1977, and others. The basic idea of these integrated formulations was that that the demand part of the model can be expressed as a set of entropy-maximization terms (Wilson, 1970) while the network part of the model can be expressed as a set of link-based congestion terms (Beckman, 1956).
+Theory and practice of integrated demand-network models have a long history dated back to the fundamental works of Evans (1976), Florian (1977) and others. The basic idea of these integrated formulations was that that the demand part of the model can be expressed as a set of entropy-maximization terms (Wilson, 1970) while the network part of the model can be expressed as a set of link-based congestion terms (Beckman, 1956).
 
-### Trip-based / Dynamic network
+### (2) Trip-based / Dynamic Traffic Assignment
 
-Up to date, most applications of Dynamic Traffic Assignment were based on fixed demand inputs from either 4-step or Activity-Based Models. This partial (one-way) integration is possible but it requires some steps to be made to bring the 4-step model to a compatible temporal resolution with DTA. 4-step operates with broad time-of-day periods and fractional trips. DTA requires finer demand slices (15 min) and discrete trips. Split factors are normally applied (developed from household survey or traffic counts) with subsequent rounding up the number of trips as shown in the Figure below:
+Up to date, most applications of Dynamic Traffic Assignment (DTA) were based on fixed demand inputs from 4-step models. This partial (one-way) integration often requires steps to convert the trip-based model output to a compatible temporal and spatial resolution of the DTA. Commonly, trip-based models operate with few time-of-day periods (such as AM Peak, Midday, PM Peak, Night). Some models generate daily travel demand only. DTA requires finer demand slices (such as 15 min). Trip-based models generate travel demand in floating (real) numbers, while DTA require discrete trips (in integer numbers). Split factors are normally applied (developed from household travel surveys or traffic counts) with subsequent rounding as shown the Figure below:
 
-''Figure 5
-![](IntegerizingTripTables.jpg "fig:IntegerizingTripTables.jpg")
+[](IntegerizingTripTables.jpg "fig:IntegerizingTripTables.jpg")
+Figure 5: Conversion of trip-based model output to DTA model input
 
-### Activity-based / Static network
+
+### (3) Activity-based / Static network
 
 ABM brings several important differences compared to 4-step that have to be addressed. First, ABM is associated with a complicated chains of choices with structural changes in the list of agents instead of predetermined matrix of choices pertinent to a 4-step model. Secondly, entropy-maximizing formulation for demand terms that is the cornerstone of the 4-step model equilibrium is theoretically possible but impractical because of huge dimensionality of daily activity patterns. Thirdly, microsimulation of “crisp” choices instead of fractional probabilities principally affects the associated averaging strategies. Averaging can be applied simultaneously to several components of the model as shown in Figure below (Vovsha, et al, 2008).
 
 ''Figure 6
 ![](AveragingMethods.jpg "fig:AveragingMethods.jpg")
 
-### Activity-based / Dynamic network
+### (4) Activity-based / Dynamic Traffic Assignment
 
 This type of integrated models is in general recognized as the most important avenue in travel modeling. Recent research projects including SHRP 2 C10 and L04 as well as the Chicago ABM-DTA integration project explored several new ways for integration of microsimulation models that include a principally new notion of temporal equilibrium and individual schedule consistency that cannot be achieved with aggregate models. As shown in Figure 4, one of the possible solutions is to employ DTA to produce aggregate LOS matrices (the way they are produced by STA), and use these LOS variables to feed the demand model. This approach, in the aggregation of individual trajectories into LOS skims however, would lose most of the details associated with DTA and the advantages of individual microsimulation (for example, individual variation in Values of Time or other person characteristics). Essentially with this approach, the individual schedule consistency concept would be of very limited value because travel times will be very crude for each particular individual. Nevertheless, this approach has been adopted in many studies due to its inherent simplicity \[Bekhor et al, 2011; Castiglione, 2012\]. The emphasis in these studies was to use more disaggregation in the LOS skims – many more time periods, smaller zones, several VOT classes, etc. but at a certain point, that also becomes unmanageable because of the sheer amount of data.
 
