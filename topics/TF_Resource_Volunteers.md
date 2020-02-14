@@ -129,7 +129,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Transit mode combinations](Transit_mode_combinations) | Tom Rossi | Done | |
 | [Travel Behavior Definitions](Travel_Behavior_Definitions) | Patrick Singleton | Patrick 01/09/2020 | Expand or delete (only 2) |
 | Travel Cost | Greg | Greg | Deleted an empty page|
-| [Travel Demand and Network Model Integration Schemas](Travel_Demand_and_Network_Model_Integration_Schemas) | Rolf Moeckel | | |
+| [Travel Demand and Network Model Integration Schemas](Travel_Demand_and_Network_Model_Integration_Schemas) | Rolf Moeckel | | 14 Feb. 2020 |
 | [Travel Forecasting Results Report](Travel_Forecasting_Results_Report) | Chiara Calastri | | |
 | [Travel Time Speed and Reliability Data](Travel_Time_Speed_and_Reliability_Data) | Pooya | | |
 | [Travel model curriculum](Travel_model_curriculum) | Rick Donnelly | | |
