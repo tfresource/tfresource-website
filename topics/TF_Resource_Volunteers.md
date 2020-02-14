@@ -386,7 +386,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Network assignment](Network_assignment) | Eric Pihl | | |
 | [Origin-Destination](Origin_Destination) | Eric Pihl| | |
 | [Skim Matrix](Skim_Matrix) | Rolf | | |
-| [Traffic Analysis Zone](Traffic_Analysis_Zone) | Rolf | | |
+| [Traffic Analysis Zone](Traffic_Analysis_Zone) | Rolf | 14 Feb 2020 | |
 | [Trip interchange](Trip_interchange) |Venu Garikapati |Venu 01/09 | |
 | [Trip-based models](Trip_based_models) | Venu Garikapati | | |
 | **Urban And Metropolitan Models:** | --- | --- | --- |
