@@ -244,13 +244,13 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [STOPS](STOPS) |Julie Dunbar | JD 1/9/20| Need FTA input|
 | [Travel Forecasting for the Capital Investment Grant Program](Travel_Forecasting_for_the_Capital_Investment_Grant_Program) | Matt Stratton | Matt 1/7/2020 | |
 | **Papers:** | --- | --- | --- |
-| [A model of complex travel behavior](A_model_of_complex_travel_behavior) | | | |
-| [Austin Mode Choice Model](Austin_Mode_Choice_Model) | | | |
-| [High Occupancy Toll Lanes: Potential for Implementation in the Atlanta Region](High_Occupancy_Toll_Lanes_Potential_for_Implementation_in_the_Atlanta_Region) | | | |
-| [SFCTA Paper incorporating crowding](SFCTA_Paper_incorporating_crowding) | | | |
-| [TMIP Activity Based Model Webinar Series Instructor Manual](TMIP_Activity_Based_Model_Webinar_Series_Instructor_Manual) | | | |
+| [A model of complex travel behavior](A_model_of_complex_travel_behavior) | no review needed | page will be taken down | |
+| [Austin Mode Choice Model](Austin_Mode_Choice_Model) | no review needed | page will be taken down | |
+| [High Occupancy Toll Lanes: Potential for Implementation in the Atlanta Region](High_Occupancy_Toll_Lanes_Potential_for_Implementation_in_the_Atlanta_Region) | no review needed | page will be taken down | |
+| [SFCTA Paper incorporating crowding](SFCTA_Paper_incorporating_crowding) | no review needed | page will be taken down | |
+| [TMIP Activity Based Model Webinar Series Instructor Manual](TMIP_Activity_Based_Model_Webinar_Series_Instructor_Manual) | no review needed | page will be taken down | |
 | [The Chicago Area Transportation Study: Creating the First Plan (1955-1962)](The_Chicago_Area_Transportation_Study_Creating_the_First_Plan_1955_1962_) | Patrick Singleton | Patrick 01/09/2020 | |
-| [Toward a dynamic model of individual activity pattern formulation](Toward_a_dynamic_model_of_individual_activity_pattern_formulation) | | | |
+| [Toward a dynamic model of individual activity pattern formulation](Toward_a_dynamic_model_of_individual_activity_pattern_formulation) | no review needed | page will be taken down | |
 | [Traveler Behavior and Values Research for Human-Centered Transportation Systems](Traveler_Behavior_and_Values_Research_for_Human_Centered_Transportation_Systems) | Matt Stratton | Matt 1/7/2020 | |
 | **Pricing And Valuation:** | --- | --- | --- |
 | [Pricing and Travel Time Reliability Enhancements in the SANDAG Activity-Based Travel Model: Final Report](Pricing_and_Travel_Time_Reliability_Enhancements_in_the_SANDAG_Activity_Based_Travel_Model_Final_Report) | | | |
@@ -275,21 +275,21 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Transit Route Frequency](Transit_Route_Frequency) | Bhargava Sana | 27 Jan 2020 | |
 | [Transit Vehicles](Transit_Vehicles) | Bhargava Sana | 27 Jan 2020 | |
 | **Reports:** | --- | --- | --- |
-| [2012 Household Travel Survey Symposium: Conference Summary and Final Report](2012_Household_Travel_Survey_Symposium_Conference_Summary_and_Final_Report) | | | |
-| [Assessing Highway Tolling and Pricing Options and Impacts](Assessing_Highway_Tolling_and_Pricing_Options_and_Impacts) | | | |
-| [Characterizing Oregon's Supply Chains](Characterizing_Oregon_s_Supply_Chains) | | | |
-| [Development of Guidelines for TxDOT – Regional Toll Authority Cooperation and Coordination](Development_of_Guidelines_for_TxDOT_–_Regional_Toll_Authority_Cooperation_and_Coordination) | | | |
-| [Impacts of Time of Day Pricing on Travel Behavior: General Findings from the Port Authority of New York and New Jersey’s Initiative](Impacts_of_Time_of_Day_Pricing_on_Travel_Behavior_General_Findings_from_the_Port_Authority_of_New_York_and_New_Jersey’s_Initiative) | | | |
+| [2012 Household Travel Survey Symposium: Conference Summary and Final Report](2012_Household_Travel_Survey_Symposium_Conference_Summary_and_Final_Report) | no review needed | page will be taken down | |
+| [Assessing Highway Tolling and Pricing Options and Impacts](Assessing_Highway_Tolling_and_Pricing_Options_and_Impacts) | no review needed | page will be taken down | |
+| [Characterizing Oregon's Supply Chains](Characterizing_Oregon_s_Supply_Chains) | no review needed | page will be taken down | |
+| [Development of Guidelines for TxDOT – Regional Toll Authority Cooperation and Coordination](Development_of_Guidelines_for_TxDOT_–_Regional_Toll_Authority_Cooperation_and_Coordination) | no review needed | page will be taken down | |
+| [Impacts of Time of Day Pricing on Travel Behavior: General Findings from the Port Authority of New York and New Jersey’s Initiative](Impacts_of_Time_of_Day_Pricing_on_Travel_Behavior_General_Findings_from_the_Port_Authority_of_New_York_and_New_Jersey’s_Initiative) | no review needed | page will be taken down | |
 | [Inside the Black Box](Inside_the_Black_Box) | Patrick Singleton | 01/25/2020 | |
-| [TCRP Report 95: Chapter 13 – Parking Pricing and Fares: Traveler Response to Transportation System Changes](TCRP_Report_95_Chapter_13_Parking_Pricing_and_Fares_Traveler_Response_to_Transportation_System_Changes) | | | |
-| [TCRP Report 95: Chapter 14 – Road Value Pricing: Traveler Response to Transportation System Changes](TCRP_Report_95_Chapter_14_Road_Value_Pricing_Traveler_Response_to_Transportation_System_Changes) | | | |
-| [TCRP Synthesis 63](TCRP_Synthesis_63) | | | |
+| [TCRP Report 95: Chapter 13 – Parking Pricing and Fares: Traveler Response to Transportation System Changes](TCRP_Report_95_Chapter_13_Parking_Pricing_and_Fares_Traveler_Response_to_Transportation_System_Changes) | no review needed | page will be taken down | |
+| [TCRP Report 95: Chapter 14 – Road Value Pricing: Traveler Response to Transportation System Changes](TCRP_Report_95_Chapter_14_Road_Value_Pricing_Traveler_Response_to_Transportation_System_Changes) | no review needed | page will be taken down | |
+| [TCRP Synthesis 63](TCRP_Synthesis_63) | no review needed | page will be taken down | |
 | [The Transportation Planning Process - Key Issues](The_Transportation_Planning_Process_Key_Issues) | Patrick Singleton | 01/25/2020 | Updated document |
-| [Tolling and Public-Private Partnerships in Texas Separating Myth from Fact](Tolling_and_Public_Private_Partnerships_in_Texas_Separating_Myth_from_Fact) | | | |
-| [Transportation Elasticities: How Prices and Other Factors Affect Travel Behavior](Transportation_Elasticities_How_Prices_and_Other_Factors_Affect_Travel_Behavior) | | | |
+| [Tolling and Public-Private Partnerships in Texas Separating Myth from Fact](Tolling_and_Public_Private_Partnerships_in_Texas_Separating_Myth_from_Fact) | no review needed | page will be taken down | |
+| [Transportation Elasticities: How Prices and Other Factors Affect Travel Behavior](Transportation_Elasticities_How_Prices_and_Other_Factors_Affect_Travel_Behavior) | no review needed | page will be taken down | |
 | [Travel Behaviour: A review of recent literature](Travel_Behaviour_A_review_of_recent_literature) | Patrick Singleton | 01/25/2020 | |
-| [Twin Cities HOV Study - Final Report](Twin_Cities_HOV_Study_Final_Report) | | | |
-| [Washington State Comprehensive Tolling Study Volume 1 Final Report](Washington_State_Comprehensive_Tolling_Study_Volume_1_Final_Report) | | | |
+| [Twin Cities HOV Study - Final Report](Twin_Cities_HOV_Study_Final_Report) | no review needed | page will be taken down | |
+| [Washington State Comprehensive Tolling Study Volume 1 Final Report](Washington_State_Comprehensive_Tolling_Study_Volume_1_Final_Report) | no review needed | page will be taken down | |
 | **Resources:** | --- | --- | --- |
 | [Activity-Travel Behaviour Research: Conceptual Issues, State of the Art, and Emerging Perspectives on Behavioural Analysis and Simulation Modelling](Activity_Travel_Behaviour_Research_Conceptual_Issues_State_of_the_Art_and_Emerging_Perspectives_on_Behavioural_Analysis_and_Simulation_Modelling) | Patrick Singleton | 01/25/2020 | |
 | [Bridge and Tunnel Toll Elasticities in New York](Bridge_and_Tunnel_Toll_Elasticities_in_New_York) | | | |
