@@ -16,6 +16,10 @@ module.exports = {
       },
     ],
     ['link', { rel: 'icon', href: '/tiny-logo.png' }],
+    ['meta', { property: "og:title", content: "Travel Forecasting Resource" }],
+    ['meta', { property: "og:description", content: "Travel forecasting, explained. A collection of best practices and practical know-how for learning about, creating, and using travel forecasting models." }],
+    ['meta', { property: "og:image", content: "https://tfresource.org/og-image.jpg" }],
+    ['meta', { property: "og:url", content: "https://tfresource.org" }],
   ],
   markdown: {
     extendMarkdown: md => {
