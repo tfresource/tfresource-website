@@ -2,7 +2,6 @@
 title: "Changes in Travel Behavior/Demand Associated with Managed Lanes"
 noTOC: true
 categories:
-  - Needs Review
   - Reports
   - Resources
 links:
@@ -34,7 +33,7 @@ NCHRP
 
 #### Publication Date
 
-2006|October}}
+October 2006
 
 ------------------------------------------------------------------------
 
