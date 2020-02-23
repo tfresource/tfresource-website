@@ -65,7 +65,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [MPO model documentation](MPO_model_documentation) | Patrick Singleton | Patrick 01/09/2020 | Add more links? |
 | [Market Segmentation](Market_Segmentation) |Patricia Lavieri | | |
 | [Measures of effectiveness and performance measures in project-level traffic forecasting](Measures_of_effectiveness_and_performance_measures_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
-| [Modal hierarchy](Modal_hierarchy) | Pooya | | |
+| [Modal hierarchy](Modal_hierarchy) | Pooya | Done | |
 | [Mode Choice Behavior](Mode_Choice_Behavior) | Greg | Greg | |
 | [Model Improvement Plan](Model_Improvement_Plan) | Greg | Greg | |
 | [Model Transferability](Model_Transferability) |Patricia Lavieri | | |
@@ -100,9 +100,9 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Puget Sound Regional Council](Puget_Sound_Regional_Council) | Tom Rossi | Done | |
 | [Refining speeds for evaluation in project-level traffic forecasting](Refining_speeds_for_evaluation_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Refining vehicle class forecasts for evaluation in project-level traffic forecasting](Refining_vehicle_class_forecasts_for_evaluation_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
-| [Resources](Resources) | Pooya | | |
+| [Resources](Resources) | Pooya | Done | |
 | [Safety Data](Safety_Data) | Patrick Singleton | Patrick 01/09/2020 | Needs additional information |
-| [Scenario Forecasting for Travel Demand Modeling](Scenario_Forecasting_for_Travel_Demand_Modeling) | Pooya | | |
+| [Scenario Forecasting for Travel Demand Modeling](Scenario_Forecasting_for_Travel_Demand_Modeling) | Pooya | Done | |
 | [Screenline refinements in project-level traffic forecasting](Screenline_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Smoothing in project-level traffic forecasting](Smoothing_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Software Development For Travel Modeling](Software_Development_For_Travel_Modeling) | Lisa Zorn | Lisa 1/6/2020 | Marked as Stub |
@@ -115,7 +115,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [TMIP](TMIP) | Julie Dunbar|Julie 1/9/20 | |
 | [Temporal refinements and directional split refinements in project-level traffic forecasting](Temporal_refinements_and_directional_split_refinements_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Temporal resolution in project-level traffic forecasting](Temporal_resolution_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
-| [Time of Day Factoring](Time_of_Day_Factoring) | Pooya | | |
+| [Time of Day Factoring](Time_of_Day_Factoring) | Pooya | Done | |
 | [Topic Circles](Topic_Circles) | Julie Dunbar| Julie 1/9/20 - delete this| |
 | [Traffic Data](Traffic_Data) | Tom Rossi | Done | |
 | [Traffic dynamics in project-level traffic forecasting](Traffic_dynamics_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
@@ -131,7 +131,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | Travel Cost | Greg | Greg | Deleted an empty page|
 | [Travel Demand and Network Model Integration Schemas](Travel_Demand_and_Network_Model_Integration_Schemas) | Rolf Moeckel | | 14 Feb. 2020 |
 | [Travel Forecasting Results Report](Travel_Forecasting_Results_Report) | Chiara Calastri | | |
-| [Travel Time Speed and Reliability Data](Travel_Time_Speed_and_Reliability_Data) | Pooya | | |
+| [Travel Time Speed and Reliability Data](Travel_Time_Speed_and_Reliability_Data) | Pooya | Done | |
 | [Travel model curriculum](Travel_model_curriculum) | Rick Donnelly | | |
 | [Travel survey data](Travel_survey_data) |Patricia Lavieri | | |
 | [Trend models in project-level traffic forecasting](Trend_models_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
@@ -144,7 +144,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Utility](Utility) | Greg | Greg | Greg |
 | [Vehicle Counts](Vehicle_Counts) | Tom Rossi | Done | |
 | [Vehicle Ownership Models](Vehicle_Ownership_Models) |Rajesh Paleti | | |
-| [Vehicle mix refinements in project-level traffic forecasting](Vehicle_mix_refinements_in_project_level_traffic_forecasting) | Pooya | | |
+| [Vehicle mix refinements in project-level traffic forecasting](Vehicle_mix_refinements_in_project_level_traffic_forecasting) | Pooya | Done | |
 | [Version Control](Version_Control) | Alan/Kermit | Alan 12/24/19 | |
 | [Windowing with OD table estimation from traffic counts in project-level traffic forecasting](Windowing_with_OD_table_estimation_from_traffic_counts_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Working with vehicle re-identification data in project-level traffic forecasting](Working_with_vehicle_re_identification_data_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
@@ -202,10 +202,10 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Joint / Conditional Destination Choices](Joint_/_Conditional_Destination_Choices) | Taha |Taha 10/01 | |
 | [Spatial interaction models](Spatial_interaction_models) | Chiara Calastri| | |
 | **Dynamic Network Models:** | --- | --- | --- |
-| [Benefits of dynamic network models](Benefits_of_dynamic_network_models) | Pooya | | |
-| [DTA Primer](DTA_Primer) | Pooya | | |
-| [Dallas Case Study](Dallas_Case_Study) | Pooya | | |
-| [TRANSIMS](TRANSIMS) | Pooya | | |
+| [Benefits of dynamic network models](Benefits_of_dynamic_network_models) | Pooya | Done | |
+| [DTA Primer](DTA_Primer) | Pooya | Done | |
+| [Dallas Case Study](Dallas_Case_Study) | Pooya | Done | |
+| [TRANSIMS](TRANSIMS) | Pooya | Done | |
 | **Evaluation And Performance:** | --- | --- | --- |
 | [Plausibility Assessment of a Travel Forecast](Plausibility_Assessment_of_a_Travel_Forecast) | Chiara Calastri | | |
 | [T-PICS: Transportation Project Impact Case Studies](T_PICS_Transportation_Project_Impact_Case_Studies) | Chiara Calastri | | |
@@ -214,7 +214,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [GPS Based Pilot Survey of Freight Movements in the Midwest Region](GPS_Based_Pilot_Survey_of_Freight_Movements_in_the_Midwest_Region) | Bhargava Sana | 27 Jan 2020 | |
 | [Goods Movement Study in Illinois: Application to Freight Transportation and Logistics](Goods_Movement_Study_in_Illinois_Application_to_Freight_Transportation_and_Logistics) | Bhargava Sana | 27 Jan 2020 | |
 | [Highway Research Board Special Report 120: Urban Commodity Flow](Highway_Research_Board_Special_Report_120_Urban_Commodity_Flow) | Bhargava Sana | 27 Jan 2020 | |
-| [Statewide Freight Modeling](Statewide_Freight_Modeling) | Pooya | | |
+| [Statewide Freight Modeling](Statewide_Freight_Modeling) | Pooya | Done | |
 | [Tour based and supply chain modeling for freight](Tour_based_and_supply_chain_modeling_for_freight) | Bhargava Sana | 27 Jan 2020 | |
 | **Innovations In Travel Modeling:** | --- | --- | --- |
 | [1st TRB Conference on Innovations in Travel Modeling](1st_TRB_Conference_on_Innovations_in_Travel_Modeling) | Greg | Greg | |
@@ -232,7 +232,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Model validation plans](Model_validation_plans) | Tom Rossi | Done | |
 | [Validating Input Data](Validating_Input_Data) | Tom Rossi | Done | |
 | **Network Assignment:** | --- | --- | --- |
-| [Dynamic Traffic Assignment](Dynamic_Traffic_Assignment) | Pooya | | |
+| [Dynamic Traffic Assignment](Dynamic_Traffic_Assignment) | Pooya | Done | |
 | [Re-simulating link volumes to reflect uncertainty in highway assignment](Re_simulating_link_volumes_to_reflect_uncertainty_in_highway_assignment) | Matt Stratton | Matt 1/7/2020 | |
 | [SHRP2 C04 - Improving Our Understanding of How Highway Congestion and Pricing Affect Travel Demand](SHRP2_C04_Improving_Our_Understanding_of_How_Highway_Congestion_and_Pricing_Affect_Travel_Demand) | Matt Stratton | Matt 1/7/2020 | |
 | [Stochastic Traffic Assignment](Stochastic_Traffic_Assignment) | Bhargava Sana | 27 Jan 2020 | |
