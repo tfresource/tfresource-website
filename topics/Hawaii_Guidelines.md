@@ -2,7 +2,6 @@
 title: 'Hawaii Guidelines'
 noTOC: true
 categories:
-  - Needs Review
   - Reports
   - Resources
 links:
