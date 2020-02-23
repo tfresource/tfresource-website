@@ -293,11 +293,11 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | **Resources:** | --- | --- | --- |
 | [Activity-Travel Behaviour Research: Conceptual Issues, State of the Art, and Emerging Perspectives on Behavioural Analysis and Simulation Modelling](Activity_Travel_Behaviour_Research_Conceptual_Issues_State_of_the_Art_and_Emerging_Perspectives_on_Behavioural_Analysis_and_Simulation_Modelling) | Patrick Singleton | 01/25/2020 | |
 | [Bridge and Tunnel Toll Elasticities in New York](Bridge_and_Tunnel_Toll_Elasticities_in_New_York) | Tom Rossi | done 2/22/2020 | stub page to an old paper - suggest deleting|
-| [Changes in Travel Behavior/Demand Associated with Managed Lanes](Changes_in_Travel_Behavior_Demand_Associated_with_Managed_Lanes) | | | |
-| [Development of a New Toll Mode-Choice Modeling System for Florida's Turnpike Enterprise](Development_of_a_New_Toll_Mode_Choice_Modeling_System_for_Florida's_Turnpike_Enterprise) | | | |
+| [Changes in Travel Behavior/Demand Associated with Managed Lanes](Changes_in_Travel_Behavior_Demand_Associated_with_Managed_Lanes) | Tom Rossi | done 2/22/2020 | stub page to an NCHRP report - suggest deleting|
+| [Development of a New Toll Mode-Choice Modeling System for Florida's Turnpike Enterprise](Development_of_a_New_Toll_Mode_Choice_Modeling_System_for_Florida's_Turnpike_Enterprise) | Tom Rossi | done 2/22/2020 | stub page to a paper - suggest deleting|
 | [Emerging Issues in Travel Behavior Analysis](Emerging_Issues_in_Travel_Behavior_Analysis) | Patrick Singleton | 01/25/2020 | |
-| [Hawaii Guidelines](Hawaii_Guidelines) | | | |
-| [Highway Capacity Manual](Highway_Capacity_Manual) | | | |
+| [Hawaii Guidelines](Hawaii_Guidelines) | Tom Rossi | done 2/22/2020 | stub page to a report - suggest deleting|
+| [Highway Capacity Manual](Highway_Capacity_Manual) | Tom Rossi | done 2/22/2020 | Link labeled "HCM Home Page" is incorrect|
 | [Household travel surveys: Where are we going?](Household_travel_surveys_Where_are_we_going?) | | | |
 | [Managed Lanes: A Cross-Cutting Study](Managed_Lanes_A_Cross_Cutting_Study) | | | |
 | [MnPASS System Study](MnPASS_System_Study) | | | |
