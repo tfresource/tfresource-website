@@ -2,7 +2,6 @@
 title: "Highway Capacity Manual"
 noTOC: true
 categories:
-  - Needs Review
   - Reports
   - Resources
 links:
@@ -72,8 +71,7 @@ To order HCM 6, go to <http://www.trb.org/publications/hcm6e.aspx>
 
 #### Publication Date
 
-2010}}
-2016}}
+2010, 2016
 
 ------------------------------------------------------------------------
 
