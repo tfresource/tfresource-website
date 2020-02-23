@@ -2,7 +2,6 @@
 title: "Development of a New Toll Mode-Choice Modeling System for Florida's Turnpike Enterprise"
 noTOC: true
 categories:
-  - Needs Review
   - Papers
   - Resources
 links:
@@ -31,6 +30,6 @@ Transportation Research Board
 
 #### Publication Date
 
-2003}}
+2003
 
 ---
