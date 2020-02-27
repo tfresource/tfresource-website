@@ -292,7 +292,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Washington State Comprehensive Tolling Study Volume 1 Final Report](Washington_State_Comprehensive_Tolling_Study_Volume_1_Final_Report) | no review needed | page will be taken down | |
 | **Resources:** | --- | --- | --- |
 | Activity-Travel Behaviour Research: Conceptual Issues, State of the Art, and Emerging Perspectives on Behavioural Analysis and Simulation Modelling | Patrick Singleton | 01/25/2020 | Deleted, replaced with link |
-| [Bridge and Tunnel Toll Elasticities in New York](Bridge_and_Tunnel_Toll_Elasticities_in_New_York) | Tom Rossi | done 2/22/2020 | stub page to an old paper - suggest deleting|
+| Bridge and Tunnel Toll Elasticities in New York | Tom Rossi | done 2/22/2020 | stub page to an old paper - suggest deleting (Deleted)|
 | [Changes in Travel Behavior/Demand Associated with Managed Lanes](Changes_in_Travel_Behavior_Demand_Associated_with_Managed_Lanes) | Tom Rossi | done 2/22/2020 | stub page to an NCHRP report - suggest deleting|
 | [Development of a New Toll Mode-Choice Modeling System for Florida's Turnpike Enterprise](Development_of_a_New_Toll_Mode_Choice_Modeling_System_for_Florida's_Turnpike_Enterprise) | Tom Rossi | done 2/22/2020 | stub page to a paper - suggest deleting|
 | [Emerging Issues in Travel Behavior Analysis](Emerging_Issues_in_Travel_Behavior_Analysis) | Patrick Singleton | 01/25/2020 | |
