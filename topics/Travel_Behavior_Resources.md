@@ -28,7 +28,7 @@ Literature review of papers focusing on empirical analysis or conceptual modelin
 [Emerging Issues in Travel Behavior Analysis](Emerging_Issues_in_Travel_Behavior_Analysis)\
 A discussion of current important issues in travel behavior and implications for data collection in NHTS.
 
-[Activity-Travel Behaviour Research: Conceptual Issues, State of the Art, and Emerging Perspectives on Behavioural Analysis and Simulation Modelling](Activity_Travel_Behaviour_Research_Conceptual_Issues_State_of_the_Art_and_Emerging_Perspectives_on_Behavioural_Analysis_and_Simulation_Modelling)\
+[Activity-Travel Behaviour Research: Conceptual Issues, State of the Art, and Emerging Perspectives on Behavioural Analysis and Simulation Modelling](https://doi.org/10.1080/01441640600858649)\
 A general overview of the field of activity-travel behavior research.
 
 ### Framework and conceptual model papers
