@@ -297,7 +297,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | Development of a New Toll Mode-Choice Modeling System for Florida's Turnpike Enterprise | Tom Rossi | done 2/22/2020 | stub page to a paper - suggest deleting (deleted)|
 | Emerging Issues in Travel Behavior Analysis | Patrick Singleton | 01/25/2020 | Deleted |
 | Hawaii Guidelines| Tom Rossi | done 2/22/2020 | stub page to a report - suggest deleting (deleted)|
-| [Highway Capacity Manual](Highway_Capacity_Manual) | Tom Rossi | done 2/22/2020 | Link labeled "HCM Home Page" is incorrect|
+| [Highway Capacity Manual](Highway_Capacity_Manual) | Tom Rossi | done 2/22/2020 | Link labeled "HCM Home Page" is incorrect (corrected)|
 | [Household travel surveys: Where are we going?](Household_travel_surveys_Where_are_we_going?) | | | |
 | [Managed Lanes: A Cross-Cutting Study](Managed_Lanes_A_Cross_Cutting_Study) | | | |
 | [MnPASS System Study](MnPASS_System_Study) | | | |
