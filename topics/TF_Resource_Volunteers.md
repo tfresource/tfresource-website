@@ -302,7 +302,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | Managed Lanes: A Cross-Cutting Study| Greg | Greg | Deleted |
 | MnPASS System Study | Greg | Greg|Deleted |
 | NCHRP 191: Analysis of Managed Lanes on Freeway Facilities | Greg | Greg |Deleted |
-| [NCHRP Synthesis 364](NCHRP_Synthesis_364) | | | |
+| NCHRP Synthesis 364]| Greg|Greg | Greg|
 | [Online Travel Survey Manual](Online_Travel_Survey_Manual) | | | |
 | [Open Code Directory](Open_Code_Directory) | | | |
 | [PESASP (Lenntorp, 1976)](PESASP_(Lenntorp,_1976)) | | | |
