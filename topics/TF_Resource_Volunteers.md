@@ -299,7 +299,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | Hawaii Guidelines| Tom Rossi | done 2/22/2020 | stub page to a report - suggest deleting (deleted)|
 | [Highway Capacity Manual](Highway_Capacity_Manual) | Tom Rossi | done 2/22/2020 | Link labeled "HCM Home Page" is incorrect (corrected)|
 | Household travel surveys: Where are we going?| Greg | Greg  | Deleted |
-| [Managed Lanes: A Cross-Cutting Study](Managed_Lanes_A_Cross_Cutting_Study) | | | |
+| Managed Lanes: A Cross-Cutting Study| Greg | Greg | Deleted |
 | [MnPASS System Study](MnPASS_System_Study) | | | |
 | [NCHRP 191: Analysis of Managed Lanes on Freeway Facilities](NCHRP_191_Analysis_of_Managed_Lanes_on_Freeway_Facilities) | | | |
 | [NCHRP Synthesis 364](NCHRP_Synthesis_364) | | | |
