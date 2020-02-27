@@ -300,7 +300,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Highway Capacity Manual](Highway_Capacity_Manual) | Tom Rossi | done 2/22/2020 | Link labeled "HCM Home Page" is incorrect (corrected)|
 | Household travel surveys: Where are we going?| Greg | Greg  | Deleted |
 | Managed Lanes: A Cross-Cutting Study| Greg | Greg | Deleted |
-| [MnPASS System Study](MnPASS_System_Study) | | | |
+| [MnPASS System Study](MnPASS_System_Study) | Greg | Greg|Deleted |
 | [NCHRP 191: Analysis of Managed Lanes on Freeway Facilities](NCHRP_191_Analysis_of_Managed_Lanes_on_Freeway_Facilities) | | | |
 | [NCHRP Synthesis 364](NCHRP_Synthesis_364) | | | |
 | [Online Travel Survey Manual](Online_Travel_Survey_Manual) | | | |
