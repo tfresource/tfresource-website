@@ -1,12 +1,11 @@
 ---
 title: "Household travel surveys"
 categories:
-  - Needs Review
-  - Travel Surveys
+   - Travel Surveys
 ---
 
-Introduction to Household Travel Surveys
-========================================
+### Introduction to Household Travel Surveys
+
 
 Nine of the 26 chapters of the Travel Survey Manual are dedicated to the details associated with the design, conduct, and analysis of household travel surveys. These chapters draw from and update the FHWA Travel Survey Manual document and were authored by more than 20 individuals from the travel survey community. These chapters and associated authors include:
 
@@ -31,6 +30,7 @@ Nine of the 26 chapters of the Travel Survey Manual are dedicated to the details
 In addition, Chapter 23 details the use of GPS within the household travel survey design and Chapter 26 discusses recent advances in the use of smartphone technology in lieu of paper diaries.
 
 Key elements of a household travel survey include:
+
 **Design and Sampling Decisions** (Chapter 6)
 
 The survey design task requires planners of household travel/activity surveys to address a series of successively more detailed survey design issues, beginning with the determination of the survey’s role in the sponsoring agency’s long-term planning processes, and including the selection of the best survey methods and data collection techniques. Each survey design decision needs to be guided by the agency’s time and budget constraints and by the practical realities facing transportation agencies today.
@@ -47,7 +47,8 @@ However, the survey team should consider the analyses that will need to be perfo
 
 Closely related to the design of the survey is the need to organize and manage the effort. There are four key issues to consider:
 
-*1 Management of the Survey Effort*
+*1) Management of the Survey Effort*
+
 In almost all cases, the overall leadership role is provided by the sponsoring agency’s project manager. Increasingly, the day-to-day management of survey fieldwork is being left to survey contractors who are able to provide trained fieldwork staff and specialized facilities. The final management function is often provided by a combination of in-house staff and travel demand consultants.
 
 Proper management of the household travel survey effort consists in ensuring that the survey design captures the necessary data elements. A well managed household travel survey produces data that could be used to develop and calibrate travel demand models for use in travel forecasting, land use planning, and air quality planning. The resultant data set is adequate to fulfill the models’ functions of estimating trip generation and distribution, mode choice, and assignments. If properly managed, the survey and data set serves as the foundation for an entirely new generation of travel demand models.
@@ -56,29 +57,34 @@ The use of a peer review panel is highly recommended for household travel and ac
 <http://www.nymtc.org/project/surveys/WORKSHOP/survey_wrkshp08.html>
 <http://www.utrc2.org/events/events.php?viewid=188>
 
-*2 Staffing Needs*
+*2) Staffing Needs*
+
 In the early stages of the survey design process, the survey team should scope out the most likely approach to the household survey, and then make a preliminary estimate of the labor and skill requirements of the study. The results of that estimate can be used to determine to what extent the survey work can be performed in-house vs. outsourced to a firm that specializes in travel survey research. With the advancement in technologies used for household travel surveys today, combined with the time-frame between surveys (10+ years) most agencies rely on consultants to guide the survey design using best practices and survey research firms to carry out the designs using state-of-the-practice designs.
 
-*3 Agency Coordination*
+*3) Agency Coordination*
+
 Because the household survey is likely to be the most important survey effort performed in a region, and because household surveys are not (or at least have not been) done on a regular basis, it is essential that agencies work cooperatively on the design and implementation issues. Several recent large-scale survey efforts have been collaboratively designed and sponsored by multiple agencies in the same region.
 
 Regional Stakeholders should be briefed on the survey plans, and should be provided with the Statement of Goals for the survey. Representatives of these agencies should be invited to participate in the survey development process, and to identify ways in which the survey data could help their organizations’ planning efforts. Many household travel/activity surveys can be easily adapted to provide useful data to many different agencies. However, it is essential that potential data coordination activities be identified early in the survey design effort to minimize the disruption and amount of necessary re-design.
 
 It is important to obtain some "buy-in" from local planning partners and regional stakeholders, prior to undertaking the household travel survey, in order to ensure proper cooperation, coordination and collaboration throughout the duration of the survey. An oversight advisory board including stakeholders could be formed at the beginning of the survey conceptualization process, so that proper follow-up and management of the survey becomes a successful endeavor.
 
-*4 Publicity*
+*4) Publicity*
+
 Even the best designed survey instrument and materials are not enough to ensure participation. The survey designed needs to decide whether and how to publicize the household survey. Social media, agency websites, a project website, and traditional communications such as newspaper, radio and television should be considered for public outreach. Public outreach efforts should be developed in concert with the survey design and implementation and not an afterthought. Further, targeting approaches for "hard-to-reach" populations who have a lower propensity to participate in surveys should also be considered at the beginning of the project. These efforts may include specialized outreach to enlist the support of community leadership and media outreach including Public Service Announcements for TV and radio.
 
 Generally, telephone-based survey methods are helped by advance publicity. Potential respondents are more likely to believe that a telephone interviewer is legitimate if they have heard that the study would be going on. In addition, respondents are likely to attach a higher level of importance to a survey efforts that has been publicized, and therefore consider partiipating to be more important. Despite the fact that there are documented reports of theives posing as household/travel survey telephone and in-person interviewers, most agencies sponsoring recent household travel/activity surveys to publicize their efforts to improve cooperation rates.
 
 **Instrument Design** (Chapter 8)
 
-*1 Drafting and Constructing Household Travel/Activity Surveys*
+*1) Drafting and Constructing Household Travel/Activity Surveys*
+
 The household survey is probably the best travel survey for obtaining the most detailed data on respondents and their travel patterns. The household survey can include almost any type of survey question. In addition, the survey may include either interviews or self-administered questionnaires, or both.
 
 The first challenge for the survey team is to determine what data elements are needed from the household travel/activity survey. This determination must be based on the anticipated analyses and the survey goals, but the data elements of other recent household travel/activity surveys will help the survey team narrow its selection. Once the data elements are identified, they need to be developed into survey questions and response categories. At the same time, the survey team needs to identify the different survey instruments and materials that will be needed for the survey effort. The final product of this task will be the survey materials, which will be a combination of the products of the three steps.
 
-*2 Data Elements for Household Travel/Activity Surveys*
+*2) Data Elements for Household Travel/Activity Surveys*
+
 In most household survey designs, the survey team is in the position to obtain information on a great number of relevant topics. The analysis and travel demand modeling plans for the survey results and the survey’s overall goals will dictate what specific data elements need to be included, which data elements should be included, and which data elements could be included, if possible.
 
 Unfortunately, the surveyor does not have the luxury of including as many data items as possible in a household travel/activity survey because the length of the survey will affect the quality of responses and the level of non-response. The tradeoff between survey length and response quality is discussed below in the section describing the development of survey questions, but because it is almost always true that users of survey data would like more questions than can be asked, the survey team needs to determine the data elements of the most interest for the survey effort, and prioritize their inclusion in the final surveys.
@@ -92,7 +98,8 @@ c. Vehicle Data – Information on the type, ownership, and usage of private veh
 d. Travel and Activity Data – Diary or recall information about the travel and activities of one or more household members.
 e. Attitudinal, Opinion, Knowledge and Stated Preference Data – Information from respondents that provide surveyors and modelers with the respondents’ views, tastes, and concerns.
 
-*3 Translating Required Data Elements Into Questions and Response Categories*
+*3) Translating Required Data Elements Into Questions and Response Categories*
+
 Once the survey team and travel demand modeling staff have established the essential and optional data items to be included in the household travel/activity survey, survey questions need to be developed that will produce the data elements accurately and reliably.
 
 A survey question should be included in a household travel/activity survey interview or questionnaire if the following are true (Backstrom and Hursh-Cesar, 1981):
@@ -122,7 +129,8 @@ To meet these requirements, the survey team must successfully perform three task
 -   Develop the wording for questions and response categories; and
 -   Determine how questions should be sequenced.
 
-*4 Survey Instruments and Materials*
+*4) Survey Instruments and Materials*
+
 Because household travel/activity surveys are generally used to collect a wide range of detailed data, the survey team is likely to need to develop a number of different survey instruments and materials. The key questions in designing any of these materials are:
 
 `*Simply put, what is the purpose of the survey material or instrument?`\
@@ -135,16 +143,16 @@ It is important to remember that the answer to the latter question usually inclu
 Pretests and pilot surveys are the process of testing various aspects of the survey design, protocol, instruments, analysis, etc., on a small sample of the population prior to fielding the main survey. The intention of pretests and pilot surveys is to determine whether everything in the intended survey will work and produce the expected results. In some instances, pretests or pilot surveys may be conducted to compare two or more methods for some element of the survey process and to determine which to choose. In other cases, there is no comparison test involved, although it may be anticipated that some refinements to elements of the survey process will result.
 
 It is recommended that the terms pilot survey and pretest be defined as follows:
-1. Pilot Survey—a complete run through or dress rehearsal of the entire survey process, including drawing the sample, conducting the survey, coding the data, and performing basic analysis of the data. A pilot survey is conducted on a small sample of the same population that will be sampled for the main survey. As distinct from a pretest, the pilot survey involves a test of every element of the main survey, conducted in exactly the same way as is planned for the main survey. A pilot survey may also be used to test two or more different survey procedures and compare the results in order to assist in selection of one for the main survey. In such a case, each version to be tested is subjected to every step of the main survey.
+1) Pilot Survey—a complete run through or dress rehearsal of the entire survey process, including drawing the sample, conducting the survey, coding the data, and performing basic analysis of the data. A pilot survey is conducted on a small sample of the same population that will be sampled for the main survey. As distinct from a pretest, the pilot survey involves a test of every element of the main survey, conducted in exactly the same way as is planned for the main survey. A pilot survey may also be used to test two or more different survey procedures and compare the results in order to assist in selection of one for the main survey. In such a case, each version to be tested is subjected to every step of the main survey.
 
-2\. Pretest—a test of any element, or sequence of elements of a survey, but comprising less than the full survey execution. For example, the instrument may be pretested by having a small subsample of respondents complete the instrument and then reviewing limited aspects of the completed instruments to determine whether any design changes are warranted. Any aspect of survey design and implementation may be subjected to a pretest. Pretests may also be used to compare alternatives for an element or elements of a survey. The main distinction between a pretest and a pilot survey is that pretests do not involve testing all aspects of the planned main survey, but may be limited to subsets of the protocol, instrument, sampling, etc. During the design phase, several sequential pretests could be conducted to test various refinements of the instrument, protocol, sampling, etc.
+2) Pretest—a test of any element, or sequence of elements of a survey, but comprising less than the full survey execution. For example, the instrument may be pretested by having a small subsample of respondents complete the instrument and then reviewing limited aspects of the completed instruments to determine whether any design changes are warranted. Any aspect of survey design and implementation may be subjected to a pretest. Pretests may also be used to compare alternatives for an element or elements of a survey. The main distinction between a pretest and a pilot survey is that pretests do not involve testing all aspects of the planned main survey, but may be limited to subsets of the protocol, instrument, sampling, etc. During the design phase, several sequential pretests could be conducted to test various refinements of the instrument, protocol, sampling, etc.
 
 Second, it is recommended that one or more pretests and/or one or more pilot surveys should be an essential step in all transportation surveys unless there are specific circumstances that render such a step unnecessary and unlikely to produce useful information.
 
 It is further recommended that the following guidelines with respect to pilot tests and pretests be adopted:
-1. In any survey in which interviewers will interact with respondents, the pilot survey or pretest should include listening in to interviewers to determine how they interact with potential respondents, how well they keep to the script of the survey, and whether the script causes difficulties in conversational style.
-2. In any survey that uses interviewers or observers, there should be a debriefing with those used in the pilot survey or pretest to determine whether difficulties were experienced in handling survey procedures, questionnaires or other materials, scripts, etc.
-3. If it has been 10 years or more since the last time a survey was done, a pilot survey should always be undertaken because the changes in population that will have occurred will render any past experience irrelevant.
+1) In any survey in which interviewers will interact with respondents, the pilot survey or pretest should include listening in to interviewers to determine how they interact with potential respondents, how well they keep to the script of the survey, and whether the script causes difficulties in conversational style.
+2) In any survey that uses interviewers or observers, there should be a debriefing with those used in the pilot survey or pretest to determine whether difficulties were experienced in handling survey procedures, questionnaires or other materials, scripts, etc.
+3) If it has been 10 years or more since the last time a survey was done, a pilot survey should always be undertaken because the changes in population that will have occurred will render any past experience irrelevant.
 
 **Implementation** (Chapter 10)
 
@@ -152,15 +160,15 @@ Survey research organizations subscribe to minimum acceptable standards of condu
 
 Ethics reflect what all stakeholders may consider “fair” or “reasonable” conduct by those involved. In practical terms, the application of ethics involves implementation of precautions to protect those affected from adverse effects. Ethics protect the rights of individuals and groups including their privacy and serve to reduce public disapproval and criticism of what is done.
 After reviewing documents prepared by various associations on different aspects of ethical conduct in the execution of travel surveys, it is recommended that the following ethical conduct be observed in all future travel surveys:
-1. The anonymity of the persons surveyed, and the confidentiality of the information they provide, must be protected at all times;
-2. A survey respondent may not be sold anything or asked for money as part of the survey;
-3. Persons must be contacted at reasonable times to participate in the survey and must be allowed to reschedule participation in the survey to a different time if that is more convenient for them;
-4. Survey personnel must be prepared to divulge their own name, the identity of the research company they represent, the identity of the agency that commissioned the study, and the nature of the survey being conducted, if requested by a respondent;
-5. Children (age 15 and under) may not be interviewed without the consent of a parent or responsible adult;
-6. A respondent’s decision to refuse participation in a survey, not answer specific questions in the survey, or terminate an interview while in progress must be respected if that is the respondents’ firm decision;
-7. Respondents may not be surveyed or observed without their knowledge: methods of data collection such as the use of hidden tape recorders, cameras, one-way mirrors, invisible identifiers on mail questionnaires, global positioning systems, and RFID chips may only be used in a survey if the method has been fully disclosed to the respondent and the respondent agrees to its use.
-8. A research agency may not release research findings prior to the public release of the findings by the organization that commissioned the study, unless approval of the client organization is obtained to do so; and
-9. A research agency must ensure the reasonable safety of its fieldworkers during the execution of a survey.
+1) The anonymity of the persons surveyed, and the confidentiality of the information they provide, must be protected at all times;
+2) A survey respondent may not be sold anything or asked for money as part of the survey;
+3) Persons must be contacted at reasonable times to participate in the survey and must be allowed to reschedule participation in the survey to a different time if that is more convenient for them;
+4) Survey personnel must be prepared to divulge their own name, the identity of the research company they represent, the identity of the agency that commissioned the study, and the nature of the survey being conducted, if requested by a respondent;
+5) Children (age 15 and under) may not be interviewed without the consent of a parent or responsible adult;
+6) A respondent’s decision to refuse participation in a survey, not answer specific questions in the survey, or terminate an interview while in progress must be respected if that is the respondents’ firm decision;
+7) Respondents may not be surveyed or observed without their knowledge: methods of data collection such as the use of hidden tape recorders, cameras, one-way mirrors, invisible identifiers on mail questionnaires, global positioning systems, and RFID chips may only be used in a survey if the method has been fully disclosed to the respondent and the respondent agrees to its use.
+8) A research agency may not release research findings prior to the public release of the findings by the organization that commissioned the study, unless approval of the client organization is obtained to do so; and
+9) A research agency must ensure the reasonable safety of its fieldworkers during the execution of a survey.
 
 **Coding and Geocoding** (Chapter 11)
 
