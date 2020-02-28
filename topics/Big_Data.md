@@ -1,7 +1,6 @@
 ---
 title: "Big Data"
 categories:
-  - Needs Review
   - Model Calibration And Validation
   - Spatial Data
   - Temporal Data
