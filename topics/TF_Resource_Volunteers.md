@@ -133,7 +133,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Travel Forecasting Results Report](Travel_Forecasting_Results_Report) | Chiara Calastri | | |
 | [Travel Time Speed and Reliability Data](Travel_Time_Speed_and_Reliability_Data) | Pooya | Done | |
 | [Travel model curriculum](Travel_model_curriculum) | Rick Donnelly | Greg | Could use a citation to the referenced study|
-| [Travel survey data](Travel_survey_data) |Patricia Lavieri | 28/02/2020 | I suggest deleting this page because it is just a redirect |
+| [Travel survey data](Travel_survey_data) |Patricia Lavieri | 28/02/2020 | I suggest deleting this page because it is just a redirect (Deleted)|
 | [Trend models in project-level traffic forecasting](Trend_models_in_project_level_traffic_forecasting) | Alan/Kermit | Alan 12/24/19 | |
 | [Trip Generation](Trip_Generation) |Rajesh Paleti | | |
 | [Trip distribution](Trip_distribution) |Rajesh Paleti | | |
