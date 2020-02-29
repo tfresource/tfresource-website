@@ -1,7 +1,7 @@
 ---
 title: "Current trends in travel behavior"
 categories:
-  - Needs Review
+
 ---
 
 ### Effect of telecommuncations on travel behavior
@@ -16,12 +16,7 @@ One study found that part-time employees tend to telecommute more than full-time
 
 Recent studies have found trends of young adults preferring to live in more urban areas and travel shorter distances.
 
-------------------------------------------------------------------------
-
-&lt;
-
-<references>
-&gt;
+#### References
 
 [^1]: Mokhatrian, P.L. and Ory, D.T. “The Impact of Teleworking on Commute Time, Distance, and Speed of California Workers”. University of California-Davis: <http://repositories.cdlib.org/itsdavis/UCD-ITS-RR-05-23>
 
