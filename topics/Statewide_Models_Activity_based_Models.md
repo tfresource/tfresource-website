@@ -1,11 +1,9 @@
 ---
 title: "Statewide Models: Activity-based Models"
 categories:
-  - Needs Review
   - Statewide Models
 ---
 
-<span style="background:lightgrey;padding:10px;border-left: thick double #0000aa;"> This page is part of the Category \[.</span>
 
 *This page summarizes Section 6.2.2 of NCHRP Synthesis 514.*
 
@@ -14,7 +12,7 @@ categories:
 Current Models
 ==============
 
-A number of states have developed statewide tour- or activity-based models including [California](http://www.dot.ca.gov/hq/tpp/offices/omsp/statewide_modeling/cstdm.html) and [Ohio](http://www.dot.state.oh.us/Divisions/Planning/SPR/ModelForecastingUnit/Pages/TravelDemandModeling.aspx), and [Oregon](http://www.oregon.gov/ODOT/Planning/Pages/Technical-Tools.aspx). (Colorado currently has a statewide activity-based model under development.)
+A number of states have developed statewide tour- or activity-based models including [California](http://www.dot.ca.gov/hq/tpp/offices/omsp/statewide_modeling/cstdm.html) and [Ohio](http://www.dot.state.oh.us/Divisions/Planning/SPR/ModelForecastingUnit/Pages/TravelDemandModeling.aspx), [Oregon](http://www.oregon.gov/ODOT/Planning/Pages/Technical-Tools.aspx), and Colorado.
 
 The decisions in these states to pursue advanced person travel models were based upon analytical issues thought to be difficult to address with trip-based models. Moreover, each had a highly motivated and accomplished champion within the agency committed to the significant advances required to achieve such goals. Thus, there are too few statewide activity-based models from which to generalize development and data requirements and trends from, made more difficult by the fact that two of the three implement them within a larger (and even rarer) integrated economic-land use-transport modeling framework. However, lessons learned from the implementation of comparable models in urban areas, as well as their experiences, can be instructive.
 
