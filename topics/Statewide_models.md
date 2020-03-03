@@ -69,13 +69,13 @@ Statewide models can take many forms. The type of model developed is usually det
 
 ### Trip-based Models
 
-[Trip-based models](Trip_Based_Models), also commonly known as **four-step models**, are so called because the primary unit of analysis is the trip interchange (i.e. origin-destination pair) between two geographic locations. The primary work done by trip-based models is to estimate all of the trips in a region, classify them by location and mode, and predict their use of transportation networks.
+[Trip-based models](Trip_based_models), also commonly known as **four-step models**, are so called because the primary unit of analysis is the trip interchange (i.e. origin-destination pair) between two geographic locations. The primary work done by trip-based models is to estimate all of the trips in a region, classify them by location and mode, and predict their use of transportation networks.
 
 To learn more about Statewide trip-based models and their applications, click [here](Statewide_Models_Trip_based_Models).
 
 ### Activity-based Models
 
-[Tour-based](Tour_based_models) and [activity-based models](Activity_Based_Models) models predict which activities are conducted when, where, for how long, for and with whom, and the travel choices they will make to complete them. Having this type of detailed model provides many [benefits](Benefits_of_Activity_Based_Models). A number of states have developed statewide tour- or activity-based models including [California](http://www.dot.ca.gov/hq/tpp/offices/omsp/statewide_modeling/cstdm.html) and others.
+[Tour-based](Tour_based_models) and [Activity_based_models](Activity_Based_Models) models predict which activities are conducted when, where, for how long, for and with whom, and the travel choices they will make to complete them. Having this type of detailed model provides many [benefits](Benefits_of_Activity_Based_Models). A number of states have developed statewide tour- or activity-based models including [California](http://www.dot.ca.gov/hq/tpp/offices/omsp/statewide_modeling/cstdm.html) and others.
 
 To learn more about Statewide activity-based models and their applications, click [here](Statewide_Models_Activity_based_Models).
 
@@ -127,7 +127,6 @@ Key data include:
 -   Economic models: Regional Economic model (REMI);
 -   Other data: MPO data, origin-destination data.
 
-[Data](Statewide_Models_Data) contains more detailed information on statewide models data.
 
 ##### Statewide/urban model integration
 
@@ -222,7 +221,7 @@ Statewide Models: Resources
 
 This section contains a link to the Statewide Modeling Subcommittee and a link to Statewide Modeling Case Studies.
 
-[Statewide Modeling Subcommittee](Statewide_Modeling_Subcommittee_ADA10_2)) is the link for all information on the Statewide Modeling Subcommittee.
+[Statewide_Modeling_Subcommittee_ADA10_2_](Statewide_Modeling_Subcommittee_ADA10_2)) is the link for all information on the Statewide Modeling Subcommittee.
 
 [Statewide Modeling Case Studies](Statewide_Modeling_Case_Studies) is the link for all information on Statewide Modeling Case Studies.
 
