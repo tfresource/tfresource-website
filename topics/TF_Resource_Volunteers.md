@@ -323,17 +323,17 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Spatial data](Spatial_data) | Already reviewed | | |
 | [Urban data](Urban_data) |Patricia Lavieri | 28/02/2020 | |
 | **Statewide Models:** | --- | --- | --- |
-| [Current Status of Statewide Models](Current_Status_of_Statewide_Models) | M.Bina | | |
+| [Current Status of Statewide Models](Current_Status_of_Statewide_Models) | M.Bina | Done | |
 | [Georgia Statewide Model](Georgia_Statewide_Model) | Rolf | | |
 | [Long-distance Travel](Long_distance_Travel) | Rob Bostrom | | |
 | [Maryland Statewide Transportation Model](Maryland_Statewide_Transportation_Model) | Rolf | | |
-| [Statewide Modeling Case Studies](Statewide_Modeling_Case_Studies) | M.Bina | | |
+| [Statewide Modeling Case Studies](Statewide_Modeling_Case_Studies) | M.Bina | Done | |
 | [Statewide Modeling Subcommittee ADA10(2)](Statewide_Modeling_Subcommittee_ADA10(2)) | Rob Bostrom | | |
-| [Statewide Models: Activity-based Models](Statewide_Models_Activity_based_Models) | M.Bina | | |
-| [Statewide Models: ODME Models](Statewide_Models_ODME_Models) | M.Bina | | |
-| [Statewide Models: Special Models](Statewide_Models_Special_Models) | M.Bina | | |
-| [Statewide Models: Trip-based Models](Statewide_Models_Trip_based_Models) | M.Bina | | |
-| [Statewide models](Statewide_models) | M.Bina | | |
+| [Statewide Models: Activity-based Models](Statewide_Models_Activity_based_Models) | M.Bina | Done | |
+| [Statewide Models: ODME Models](Statewide_Models_ODME_Models) | M.Bina | Done | |
+| [Statewide Models: Special Models](Statewide_Models_Special_Models) | M.Bina | Done | |
+| [Statewide Models: Trip-based Models](Statewide_Models_Trip_based_Models) | M.Bina | Done | |
+| [Statewide models](Statewide_models) | M.Bina | Done | |
 | **Temporal Data:** | --- | --- | --- |
 | [Open Matrix Format](Open_Matrix_Format) | Josh | | |
 | [Temporal data](Temporal_data) | Matt Stratton | Matt 1/27/2020 | |
@@ -361,7 +361,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Joint Travel Behavior](Joint_Travel_Behavior) |Patricia Lavieri | 28/02/2020 | Page is incomplete |
 | [Representations of Decision Making Behavior in Travel Modeling](Representations_of_Decision_Making_Behavior_in_Travel_Modeling) |Patricia Lavieri | 28/02/2020 | Page is incomplete |
 | [Travel Behavior Resources](Travel_Behavior_Resources) | Patrick Singleton | Patrick 01/09/2020 | |
-| [Travel Behavior of Diverse Populations](Travel_Behavior_of_Diverse_Populations) | M.Bina | | |
+| [Travel Behavior of Diverse Populations](Travel_Behavior_of_Diverse_Populations) | M.Bina | Done | |
 | [Travel behavior](Travel_behavior) | Venu Garikapati | | |
 | [UrbanDataResources](UrbanDataResources) | Venu Garikapati | | |
 | **Travel Survey Data:** | --- | --- | --- |
