@@ -1,16 +1,14 @@
 ---
 title: "Statewide Models: Trip-based Models"
 categories:
-  - Needs Review
   - Destination Choice Models
   - Statewide Models
 ---
 
-<span style="background:lightgrey;padding:10px;border-left: thick double #0000aa;"> This page is part of the Category \[.</span>
 
 *This page summarizes Section 6.2.1 of NCHRP Synthesis 514.*
 
-[Trip-based models](Trip_Based_Models), also commonly known as **four-step models**, are a well established modeling approach, with well-known requirements for its development and deployment. Current and past statewide models range in terms of data requirements, costs, benefits, and implementation. Below are some examples of the stages of trip-based statewide models from the more basic to the more advanced.
+[Trip-based models](Trip_based_models), also commonly known as **four-step models**, are a well established modeling approach, with well-known requirements for its development and deployment. Current and past statewide models range in terms of data requirements, costs, benefits, and implementation. Below are some examples of the stages of trip-based statewide models from the more basic to the more advanced.
 
 Current Models
 ==============
