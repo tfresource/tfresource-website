@@ -1,7 +1,6 @@
 ---
 title: "Choice Models with Aggregate Choices"
 categories:
-  - Needs Review
   - Destination Choice Models
 ---
 
@@ -9,8 +8,7 @@ Sometimes, a discrete choice is made from a very large pool of possible choices.
 
 The aggregate choice in many ways represents a nested logit model, with the aggregations corresponding to the nests, except we only observe the choice at the nest level, not at the elemental alternative level.
 
-Basic Aggregate Models
-----------------------
+## Basic Aggregate Models
 
 To start with, we can make some assumptions:
 
@@ -42,8 +40,7 @@ One thing to be careful of in these models: the log likelihood at “zeros” mo
 
 In application, however, sometimes we want to relax some of the assumptions we outlined above, which can introduce some complications.
 
-Relax Arbitrary Boundaries Assumption
--------------------------------------
+## Relax Arbitrary Boundaries Assumption
 
 Relaxing the assumption of arbitrary boundaries puts *μ~nest~* back into the equation for *V~nest~*:
 
@@ -53,8 +50,7 @@ The logsum parameter thus appears as a coefficient on *log(N~nest~)*. This may o
 
 Relaxing this constraint doesn’t require any special methods beyond the standard MNL tools. All that is necessary is to relax the constraint on the parameter attached to *log(N~nest~)*, so that it no longer must exactly equal 1.0. Of course, we still need to ensure that the estimated parameter is in the interval (0,1\]. Also, for the log likelihood at “zeros” model we should still consider the default value of the parameter on *log(N~nest~)* equal to 1, not 0.
 
-Relaxing Homogeneity
---------------------
+## Relaxing Homogeneity
 
 Another assumption we made was that the individual alternatives within a zone are homogeneous... but it is highly likely they are not. Variance in the systematic utilities, and in particular heteroskedastic variance (where the variance in different aggregates is different), can change the calculations. Consider the one dimensional destination choice depicted here:
 
@@ -72,27 +68,25 @@ McFadden[^1] showed that, when the utilities in an aggregate are distributed nor
 
 Including the variance of utility as shown here introduces substantial non-linearities, as *μ~nest~* enters the utility function twice, once in the numerator and once in the denominator.
 
-Estimating N
-------------
+## Estimating N
 
 Sometimes, it is not obvious what *N* should be. Land area? Employment? Population? It might be different for different types of trips, even if the types of trips are not differentiated in the data.
 
 It is possible to build *N* as a linear combination of several component parts, so that you might have
 
-     *N~nest~ = γ~remp~RetailEmployment+γ~nemp~NonretailEmployment+γ~pop~Population*
+     *N~nest~ = γ~remp~RetailEmployment + γ~nemp~NonretailEmployment + γ~pop~Population*
 
 The *γ*'s then become new parameters to the model, in addition to the *β* and *μ* parameters.
 
 The size value *N~nest~* still needs to be strictly positive, as it represents the number of discrete alternatives in the zone or aggregation. Therefore, all the data values and all the parameters inside *N* also need to be positive (or, more precisely, they must all be non-negative and at least one pairing must both be strictly positive). Enforcing positive data is easy, by only choosing variables that reflect size attributes (like employment, population, area). Enforcing positive coefficients requires constraints on the *γ* parameters, or, more simply, a rewrite of the formulation of *N*:
 
-     ''N~nest~ = *exp(*γ́~remp~*)*RetailEmployment + *exp(*γ́~nemp~*)*NonretailEmployment + *exp(*γ́~pop~*)*Population''
+     *N~nest~ = exp(γ́~remp~)*RetailEmployment + exp(γ́~nemp~)*NonretailEmployment + exp(γ́~pop~)*Population****
 
 Then *γ́* can be unconstrained. (This form also has advantages in the calculation of derivatives[^2].)
 
 One of the issues with estimating *N* in this fashion is that the scale of *N*, like the scale of *V*, is not defined. Doubling the *N* size of all alternatives, by adding log(2) to all *γ́*, will not affect the probabilities. Therefore, one *γ́* needs to be arbitrarily fixed at zero. (In the non-estimated *N* case, this normalization occurs implicitly; there is no parameter inside the log term on *N*.)
 
-References
-==========
+## References
 
 [Content Charrette: Destination Choice Models](Content_Charrette_Destination_Choice_Models)
 [Source content](http://larch.readthedocs.io/en/latest/math/aggregate-choice.html)
