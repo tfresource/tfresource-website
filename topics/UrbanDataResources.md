@@ -2,13 +2,9 @@
 title: "UrbanDataResources"
 noTOC: true
 categories:
-  - Needs Review
   - Resources
   - Travel Behavior
 ---
-
-
-*Urban Data Resources*
 
 #### Author
 
@@ -18,8 +14,7 @@ Nancy McGuckin
 
 2016-01-08
 
-Demographic Trends and Resources
-================================
+## Demographic Trends and Resources
 
 -   Harmonized PUMS Data for Trend Analysis
     -   <https://usa.ipums.org/usa/>
@@ -28,14 +23,14 @@ Demographic Trends and Resources
 -   NCHRP Synthesis of MPO's Use of PUMS Data
     -   <http://onlinepubs.trb.org/onlinepubs/nchrp/nchrp_syn_434.pdf>
 -   Great Help with Untangling All Federal US Sources
-    -   <http://ciser.cornell.edu/ASPs/datasource.asp?CATEGORY=3>
+    -   <https://ciser.cornell.edu/data/>
 -   Easy Mapping of Economic Factors
     -   <http://www.bea.gov/>
 -   Easy to Access Trend Data on Time Use
     -   <https://www.atusdata.org/atus/>
 
-Sustainability Indicators
-=========================
+## Sustainability Indicators
+
 
 -   ODOT MOSAIC Least Cost Planning Tool has a number of good metrics
     -   <http://www.oregon.gov/ODOT/TD/TP/docs/lcp/indicatorlist.pdf>
@@ -44,8 +39,7 @@ Sustainability Indicators
 -   NCHRP Report 780 is a guidebook for performance measures related to sustainability:
     -   <http://onlinepubs.trb.org/onlinepubs/nchrp/nchrp_rpt_708.pdf>
 
-Urban Livability and Accessibility
-==================================
+## Urban Livability and Accessibility
 
 -   This resource from FHWA describes the role of transportation systems and management in advancing livability and sustainability:
     -   <http://www.fhwa.dot.gov/livability/case_studies/guidebook/>
@@ -60,7 +54,6 @@ Urban Livability and Accessibility
 -   USDOT had a number of initiatives related to livable communities:
     -   <http://www.dot.gov/livability>
 
-------------------------------------------------------------------------
 
 
 
