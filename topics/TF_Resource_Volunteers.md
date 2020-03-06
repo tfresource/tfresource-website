@@ -186,10 +186,10 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Content and Membership Council](Content_and_Membership_Council) | Julie Dunbar|JD 1/9/20 |delelte |
 | **Destination Choice Models:** | --- | --- | --- |
 | [Choice Model Development in Practice](Choice_Model_Development_in_Practice) | Venu Garikapati |Venu 01/09 | |
-| [Choice Models with Aggregate Choices](Choice_Models_with_Aggregate_Choices) | Venu Garikapati | | |
+| [Choice Models with Aggregate Choices](Choice_Models_with_Aggregate_Choices) | Venu Garikapati |Venu 03/06 | |
 | [Choice models](Choice_models) | Rajesh Paleti | | |
 | [Content Charrette: Destination Choice Models](Content_Charrette_Destination_Choice_Models) | Taha | Taha 10/01| |
-| [Data Driven Methods](Data_Driven_Methods) | Venu Garikapati | | |
+| [Data Driven Methods](Data_Driven_Methods) | Venu Garikapati |Venu 03/06 | |
 | [Destination Choice Set Formation](Destination_Choice_Set_Formation) | Taha | Taha 06/01| |
 | [Destination Choice: Calibration and Validation](Destination_Choice_Calibration_and_Validation) | Taha | Taha 07/01 | |
 | [Destination Choice: Data Sources](Destination_Choice_Data_Sources) | Taha | Taha 07/01 | |
@@ -362,8 +362,8 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Representations of Decision Making Behavior in Travel Modeling](Representations_of_Decision_Making_Behavior_in_Travel_Modeling) |Patricia Lavieri | 28/02/2020 | Page is incomplete |
 | [Travel Behavior Resources](Travel_Behavior_Resources) | Patrick Singleton | Patrick 01/09/2020 | |
 | [Travel Behavior of Diverse Populations](Travel_Behavior_of_Diverse_Populations) | M.Bina | Done | |
-| [Travel behavior](Travel_behavior) | Venu Garikapati | | |
-| [UrbanDataResources](UrbanDataResources) | Venu Garikapati | | |
+| [Travel behavior](Travel_behavior) | Venu Garikapati |Venu 03/06 | |
+| [UrbanDataResources](UrbanDataResources) | Venu Garikapati |Venu 03/06 | |
 | **Travel Survey Data:** | --- | --- | --- |
 | [Bibliography No. 11: Origin-Destination Surveys and Traffic Volume Studies](Bibliography_No_11_Origin_Destination_Surveys_and_Traffic_Volume_Studies) | | | |
 | [GPS-enabled surveys](GPS_enabled_surveys) |Patricia Lavieri | 28/02/2020 | |
@@ -378,7 +378,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Parking surveys](Parking_surveys) | Josh | | |
 | [Stated-preference surveys](Stated_preference_surveys) |Rajesh Paleti | | |
 | [Transit onboard surveys](Transit_onboard_surveys) | Josh | | |
-| [Transportation secure data center](Transportation_secure_data_center) |Venu Garikapati | | |
+| [Transportation secure data center](Transportation_secure_data_center) |Venu Garikapati |Venu 03/06 | |
 | [Visitor surveys](Visitor_surveys) | Josh | | |
 | **Trip Based Models:** | --- | --- | --- |
 | [Big Picture](Big_Picture) |Julie Dunbar |JD 1/9/20 |still need to replace links to other pages |
@@ -388,7 +388,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Skim Matrix](Skim_Matrix) | Rolf | | |
 | [Traffic Analysis Zone](Traffic_Analysis_Zone) | Rolf | 14 Feb 2020 | |
 | [Trip interchange](Trip_interchange) |Venu Garikapati |Venu 01/09 | |
-| [Trip-based models](Trip_based_models) | Venu Garikapati | | |
+| [Trip-based models](Trip_based_models) | Venu Garikapati |Venu 03/06 | |
 | **Urban And Metropolitan Models:** | --- | --- | --- |
 | [Regulatory framework for metropolitan modeling](Regulatory_framework_for_metropolitan_modeling) | Tom Rossi | Done | |
 | [Urban and metropolitan models](Urban_and_metropolitan_models) | Tom Rossi | Done | |
