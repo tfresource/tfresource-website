@@ -316,7 +316,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [The New Jersey Turnpike’s Time of Day Pricing Initiative’s Behavioral Impacts and the Observed Role of Travel Distance on the Underlying Elasticities](The_New_Jersey_Turnpike’s_Time_of_Day_Pricing_Initiative’s_Behavioral_Impacts_and_the_Observed_Role_of_Travel_Distance_on_the_Underlying_Elasticities) | | | |
 | [Webinars and Videos](Webinars_and_Videos) | | | |
 | **Sketch Planning Models:** | --- | --- | --- |
-| [Alternative Futures for Integrated Transportation and Land-Use Models Contrasted with Trend-Delphi Models](Alternative_Futures_for_Integrated_Transportation_and_Land_Use_Models_Contrasted_with_Trend_Delphi_Models) | Bhargava Sana | 27 Jan 2020 | |
+| [Alternative Futures for Integrated Transportation and Land-Use Models Contrasted with Trend-Delphi Models](Alternative_Futures_for_Integrated_Transportation_and_Land_Use_Models_Contrasted_with_Trend_Delphi_Models) | Bhargava Sana | 27 Jan 2020 | Deleted |
 | [Sketch planning models](Sketch_planning_models) | Bhargava Sana | 27 Jan 2020 | |
 | **Spatial Data:** | --- | --- | --- |
 | [Big Data](Big_Data) |Patricia Lavieri | 28/02/2020 | |
