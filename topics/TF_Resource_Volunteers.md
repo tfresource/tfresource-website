@@ -313,7 +313,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Reports](Reports) | | | |
 | [SR 288-Metropolitan Travel Forecasting Current Practice and Future Direction](SR_288_Metropolitan_Travel_Forecasting_Current_Practice_and_Future_Direction) | Patrick Singleton | 01/25/2020 | |
 | [TCRP Report 95: Chapter 12 – Transit Pricing and Fares: Traveler Response to Transportation System Changes](TCRP_Report_95_Chapter_12_Transit_Pricing_and_Fares_Traveler_Response_to_Transportation_System_Changes) | | | |
-| [The New Jersey Turnpike’s Time of Day Pricing Initiative’s Behavioral Impacts and the Observed Role of Travel Distance on the Underlying Elasticities](The_New_Jersey_Turnpike’s_Time_of_Day_Pricing_Initiative’s_Behavioral_Impacts_and_the_Observed_Role_of_Travel_Distance_on_the_Underlying_Elasticities) | | | |
+| [The New Jersey Turnpike’s Time of Day Pricing Initiative’s Behavioral Impacts and the Observed Role of Travel Distance on the Underlying Elasticities](The_New_Jersey_Turnpike’s_Time_of_Day_Pricing_Initiative’s_Behavioral_Impacts_and_the_Observed_Role_of_Travel_Distance_on_the_Underlying_Elasticities) | Greg| Greg|Deleted |
 | [Webinars and Videos](Webinars_and_Videos) | | | |
 | **Sketch Planning Models:** | --- | --- | --- |
 | [Alternative Futures for Integrated Transportation and Land-Use Models Contrasted with Trend-Delphi Models](Alternative_Futures_for_Integrated_Transportation_and_Land_Use_Models_Contrasted_with_Trend_Delphi_Models) | Bhargava Sana | 27 Jan 2020 | Deleted |
