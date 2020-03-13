@@ -4,10 +4,9 @@ categories:
   - Needs Review
 ---
 
-<h1>
 Background
+----------
 
-</h1>
 Quantified values of population, households and employment covering the 
 metropolitan area at a fine level of geographic detail are the principal 
 data elements in calculating locally generated person-travel demand over
@@ -74,10 +73,9 @@ scenario definition. This approach has the advantage of producing multi
 scenarios in shorter time, allows for systematic error-tracking, and is
 capable of being modified and replicated by others.
 
-<h1>
-<u>Defining Scenarios</u>
+Defining Scenarios
+------------------
 
-</h1>
 A variety of public and private sources should be inventoried to ascertain
 prevailing trends and influences relevant to the pattern of socioeconomic
 change in the study area. The sources of information will be drawn
@@ -98,10 +96,9 @@ impact of a broad economic assumption on a particular parcel of land.
 econometric relationships can be clearly documented, but the estimation and
 calibration of the terms in application are expected to be heuristic.
 
-<h1>
-<u>Market Constraints</u>
+Market Constraints
+------------------
 
-</h1>
 Once the menu of influences and interventions are in place, an objective
 assessment must be performed with respect to the land use constraints that
 would limit an econometrically derived calculation of growth potential.
@@ -112,12 +109,11 @@ stock. The inertia of a particular style, density and pattern of
 development is then built into the menu of influences that can be included
 in any or all future scenarios. To the extent that a radical change in land
 use has been specified (e.g. redevelopment), the constraint to such an
-outcome can be overridden.`
+outcome can be overridden.
 
-<h1>
-<u>Micro-Level Forecast Adjustments</u>
+Micro-Level Forecast Adjustments
+--------------------------------
 
-</h1>
 Up to this point, scenario-specific influences and interventions have been
 systematically applied through the use of spatial statistics and
 econometric equations. This produces a comprehensive and consistent result
