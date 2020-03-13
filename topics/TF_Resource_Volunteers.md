@@ -225,7 +225,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | **Land Use Transport Modeling:** | --- | --- | --- |
 | [Accessibilities](Accessibilities) | Rolf | 13 Dec. 2019 | |
 | [Design principles of land use models](Design_principles_of_land_use_models) | Rolf | 13 March 2020 | |
-| [Land use-transport modeling](Land_use_transport_modeling) | Rolf | | |
+| [Land use-transport modeling](Land_use_transport_modeling) | Rolf | 13 March 2020 | |
 | **Model Calibration And Validation:** | --- | --- | --- |
 | [H-GAC Activity-Based Model – Model Validation Plan Report](H_GAC_Activity_Based_Model_–_Model_Validation_Plan_Report) | Tom Rossi | Done | |
 | [Model Validation and Reasonableness Checking](Model_Validation_and_Reasonableness_Checking) | Josie Kressner | Done | Consider simplifying into one summary page with link to PDF/HTML |
