@@ -1,15 +1,15 @@
 ---
 title: "Activity-Travel Planning and Decision Making Behaviors"
 categories:
-  - Needs Review
   - Travel Behavior
+  - stub
 ---
 
 ### Introduction
 
 Activity-travel planning behaviors generally refers to the behavioral processes by which individuals plan, schedule and implement their day-to-day activity and travel plans. Activity-travel planning is a broad topic which encompasses many different traveler behaviors, from the activity conception or generation process, to the decision-making processes by which the activity plan is carried out. These behaviors are represented in many different ways in various conceptional models of activity planning behavior, and are implemented in most activity-based models to some extent.
 
-A good example of a conceptual model of activity-travel planning behavior including household-level decision making, can be found in the paper [Propositions for Modeling household decision-making](Propositions_for_Modeling_household_decision_making) by Miller (2002)[^1].
+A good example of a conceptual model of activity-travel planning behavior including household-level decision making, can be found in the paper [Propositions for Modeling household decision-making](https://doi.org/10.1108/9781786359520-002) by Miller (2005)[^1].
 
 ### Activity Planning Process
 
@@ -39,5 +39,4 @@ Joint Travel Behavior refers to how people choose to travel when considering the
 
 ------------------------------------------------------------------------
 
-[^1]: Miller, E.J. (2002). Propositions for Modeling household decision-making. Paper prepared for presentation at International Colloquium on the Behavioural Foundations of Integrated Land-use and Transportation Models: Assumptions and New Conceptual Frameworks Quebec City, June 16-19, 2002
-
+[^1]: Miller, E. (2005), "Propositions for Modelling Household Decision-Making", Lee-Gosselin, M. and Doherty, S. (Ed.) Integrated Land-Use and Transportation Models, Emerald Group Publishing Limited, pp. 21-59. https://doi.org/10.1108/9781786359520-002

@@ -309,7 +309,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Papers](Papers) | Greg | Greg | Deleted|
 | [Peer Review - Southern California Association of Governments (SCAG) - Meeting 1](Peer_Review_Southern_California_Association_of_Governments_(SCAG)_Meeting_1) | Greg |Greg |deleted |
 | [Presentations](Presentations) | Greg | Greg | deleted |
-| [Propositions for Modeling household decision-making](Propositions_for_Modeling_household_decision_making) | | | |
+| [Propositions for Modeling household decision-making](Propositions_for_Modeling_household_decision_making) |Greg |Greg | deleted|
 | [Reports](Reports) | | | |
 | [SR 288-Metropolitan Travel Forecasting Current Practice and Future Direction](SR_288_Metropolitan_Travel_Forecasting_Current_Practice_and_Future_Direction) | Patrick Singleton | 01/25/2020 | |
 | [TCRP Report 95: Chapter 12 – Transit Pricing and Fares: Traveler Response to Transportation System Changes](TCRP_Report_95_Chapter_12_Transit_Pricing_and_Fares_Traveler_Response_to_Transportation_System_Changes) | | | |
