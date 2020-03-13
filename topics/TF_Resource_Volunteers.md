@@ -307,7 +307,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Open Code Directory](Open_Code_Directory) | Greg |Greg | |
 | [PESASP (Lenntorp, 1976)](PESASP_(Lenntorp,_1976)) | Greg |Greg | Deleted|
 | [Papers](Papers) | Greg | Greg | Deleted|
-| [Peer Review - Southern California Association of Governments (SCAG) - Meeting 1](Peer_Review_Southern_California_Association_of_Governments_(SCAG)_Meeting_1) | | | |
+| [Peer Review - Southern California Association of Governments (SCAG) - Meeting 1](Peer_Review_Southern_California_Association_of_Governments_(SCAG)_Meeting_1) | Greg |Greg |deleted |
 | [Presentations](Presentations) | | | |
 | [Propositions for Modeling household decision-making](Propositions_for_Modeling_household_decision_making) | | | |
 | [Reports](Reports) | | | |
