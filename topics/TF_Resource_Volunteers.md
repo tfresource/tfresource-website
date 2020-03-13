@@ -152,7 +152,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [About](About) | Rolf | 10 Feb 2020 | |
 | [Administration](Administration) | Rolf | 10 Feb 2020 | New page, needs to be updated after reorganisation in Apr. 2020 |
 | [Contributing to the Travel Forecasting Resource](Contributing) | Rolf | 10 Feb 2020 | |
-| [Developer Instructions: Building TF-Resource Locally](Contributing-Dev-Instructions) | Rolf | | |
+| [Developer Instructions: Building TF-Resource Locally](Contributing-Dev-Instructions) | Rolf | 13 Mar 2020 | |
 | [Governance](Governance) | Julie Dunbar| Julie 1/9/20| delete or re-write once trb decides what to do |
 | **Activity Based Models:** | --- | --- | --- |
 | [ALBATROSS](ALBATROSS) | Josh | | |
