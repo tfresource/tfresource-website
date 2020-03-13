@@ -76,20 +76,21 @@ Regardless of whether firms or employees are modeled, non-residential floorspace
 
 ### Firmographic Change
 
-In line with the distinction between moves and demographics for households, employment modeling also tends to keep relocations separate from the demographic of firms, also called firmography. The benefit of this distinction lies in applying different modeling methods for the two. Employment relocation often is modeled by [Logit Models](Choice_Models), while firmographic changes are commonly modeled using transition probabilities in [Markov Models](Markov_Model).
+In line with the distinction between moves and demographics for households, employment modeling also tends to keep relocations separate from the demographic of firms, also called firmography. The benefit of this distinction is the application of different modeling methods for the two. Employment relocation often is modeled by [Logit Models](Choice_models), while firmographic changes are commonly modeled using transition probabilities in Markov models.
 
-Firmographic changes commonly represented include the following events:
+Firmographic changes often represented include the following events:
 
 | If *firms* are modeled      | If *employees* are modeled |
 |-----------------------------|----------------------------|
 | Establishment of a new firm | Employment growth          |
 | Closure of a firm           | Employment decline         |
-| Growth of a firm            | Immigration of employment  |
+| Growth of a firm            | Inmigration of employment  |
 | Decline of a firm           | Outmigration of employment |
-| Immigration of a firm       |                            |
+| Split of the firm to establish a new branch |            |
+| Inmigration of a firm       |                            |
 | Outmigration of a firm      |                            |
 
-Firmographic events are important to represent changes to the spatial distribution of employment. All events shown in the table above immediately affect the distribution of employment, and thereby, have an effect on person trips and truck trips.
+Firmographic events are important to represent the spatial distribution of employment. All events shown in the table above immediately affect the distribution of employment, and thereby, have an effect on person travel and freight flows.
 
 ### References
 
