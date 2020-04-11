@@ -6,8 +6,6 @@ categories:
 
 <PagesInCategory category="Spatial Data" />
 
-Learn more about this circle at [Spatial Data](Spatial_Data).
-
 Spatial data is largely comprised of data elements for which spatial or location coordinates exist, thus facilitating the development of spatial relationships across the elements that comprise the data set. Spatial data is critical to transportation planning and modeling because travel models are inherently concerned with analyzing behavioral phenomena that occur in space. This page provides an overview of the different types of spatial data that is encountered in transportation modeling along with a few possible sources for such data.
 
 Spatial data may come in a variety of forms:
