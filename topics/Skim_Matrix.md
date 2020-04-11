@@ -31,8 +31,8 @@ It is common in travel demand modeling to use a combined [impedance](Impedance) 
 
 $$logsum_{i\,j} = \ln \left(\sum_{mode} \exp(u_{i,j,mode})\right)$$
 
-where _U_ is the logsum (or utility) to travel from _i_ to _j_ for purpose _k_ at time _t_ and
+where §logsum_{i\,j}§ is the logsum (or utility) to travel from _i_ to _j_ for purpose _k_ at time _t_ and
 
-$$u_{i,j,mode}=\alpha \cdot time_{i,j,mode}+\beta \cdot costs_{i,j,mode} + \gamma \cdot transfers_{i,j,mode} + \ldots + c$$
+$$u_{i,j,mode}=c + \alpha \cdot time_{i,j,mode}+\beta \cdot costs_{i,j,mode} + \gamma \cdot transfers_{i,j,mode} + \ldots$$
 
-where _V_ is the impedance for a given mode that may include a mode-specific constant _α_, travel time _T_ multiplied with a travel time coefficient _β_, travel costs _C_ multiplied with a travel costs coefficient _γ_. Depending on the model design, further parameters could be added for selected modes, such as number of transfers, average wait time, access or egress time, etc.
+where $u_{i,j,mode}$ is the impedance for a given mode that may include a mode-specific constant _c_, travel time _time_ multiplied with a travel time coefficient _α_, travel costs _costs_ multiplied with a travel costs coefficient _β_. Depending on the model design, further parameters could be added for selected modes, such as number of transfers, average wait time, access or egress time, etc.
