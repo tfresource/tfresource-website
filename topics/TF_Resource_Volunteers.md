@@ -385,7 +385,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Delay Estimation in Trip-Based Models](Delay_Estimation_in_Trip_Based_Models) | Tom Rossi | Done | |
 | [Network assignment](Network_assignment) | Eric Pihl | | |
 | [Origin-Destination](Origin_Destination) | Eric Pihl| | |
-| [Skim Matrix](Skim_Matrix) | Rolf | | |
+| [Skim Matrix](Skim_Matrix) | Rolf | 11 Apr 2020 | |
 | [Traffic Analysis Zone](Traffic_Analysis_Zone) | Rolf | 14 Feb 2020 | |
 | [Trip interchange](Trip_interchange) |Venu Garikapati |Venu 01/09 | |
 | [Trip-based models](Trip_based_models) | Venu Garikapati |Venu 03/06 | |
