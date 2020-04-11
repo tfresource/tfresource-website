@@ -4,7 +4,8 @@ categories:
    - Land Use/Transport Modeling
 ---
 
-**Summary**
+Summary
+-------
 
 The design of land use models varies widely, however, there are a couple of common design principles found in most spatial land use models in operation to date. The introduction to [land use modeling](Land_use_transport_modeling) describes the more general concept of integrating land use models with travel demand models.
 
