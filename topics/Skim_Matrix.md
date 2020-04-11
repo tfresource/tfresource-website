@@ -9,6 +9,8 @@ categories:
   - Urban And Metropolitan Models
 ---
 
+## Summary
+
 A skim matrix is a matrix that provides [impedances](Impedance) between zones. Commonly, skim matrixes have the same number of rows and columns. All transportation modeling packages provide efficient ways of storing large skim files in compressed files.
 An open-source format to store matrices called [open matrix](Open_Matrix_Format) (or OMX) is also available and is a good option for moving matrices between packages and/or programming languages.
 
