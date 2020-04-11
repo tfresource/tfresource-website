@@ -7,7 +7,7 @@ categories:
 
 **Summary**
 
-Land use models can be integrated with travel demand models to reflect the interactions between the transportation system and land use development. Both households and businesses prefer locations with -everything else being equal- higher [accessibilities](Accessibilities), and therefore, are influenced by travel times that are an output of transportation models. The location choices of households, businesses and developers, in turn, influences the location and scale of travel demand that is calculated in the travel demand model. The integration of land use with transportation models has proven to improve the model sensitivities in scenario analyses. Common [design principles](Design_principles_of_land_use_models) show how different elements of land-use models work together.
+Land use models can be integrated with travel demand models to reflect the interactions between the transportation system and land use development. Both households and businesses prefer locations with -everything else being equal- higher [accessibilities](Accessibilities), and therefore, are influenced by travel times that are an output of transportation models. The location choices of households, businesses and developers, in turn, influences the location and scale of travel demand that is calculated by the travel demand model. The integration of land use with transportation models has proven to improve the model sensitivities in scenario analyses. Common [design principles](Design_principles_of_land_use_models) show how different elements of land-use models work together.
 
 Introduction
 ------------
