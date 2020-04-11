@@ -13,11 +13,11 @@ Land use models can be integrated with travel demand models to reflect the inter
 Introduction
 ------------
 
-Traditionally, transportation models use static forecasts of [socio-economic data](Spatial_Data#Land_Use/Demographic/Socio-economic_Data). The left side of the figure below visualizes the [traditional approach](Scenario_Forecasting_for_Travel_Demand_Modeling). The forecast of socio-economic data is static and represents the *most likely* future allocation of households, jobs and other zonal data. The allocation of growth in the future year is determined exogenously and is not affected by information calculated endogenously in the model, such as accessibility. Sometimes, an alternative growth scenario is calculated exogenously to the travel modeling process to test a different allocation (such as a high-growth scenario in addition to the base scenario).
+Traditionally, transportation models use static forecasts of [socio-economic data](Spatial_data). The left side of the figure below visualizes the [traditional approach](Scenario_Forecasting_for_Travel_Demand_Modeling). The forecast of socio-economic data is static and represents the *most likely* future allocation of households, jobs and other zonal data. The allocation of growth in the future year is determined exogenously and is not affected by information calculated endogenously in the model, such as accessibility. Sometimes, an alternative growth scenario is calculated exogenously to the travel modeling process to test a different allocation (such as a high-growth scenario in addition to the base scenario).
 
 ![](LutIntegration2.jpg "LutIntegration2.jpg")
 
-''Concept of traditional transportation (left) and integrated land use/transportation models (right)
+*Concept of traditional transportation (left) and integrated land use/transportation models (right)*
 
 Empirical research, however, has shown that the transportation systems influences land-use decisions (compare for example Hansen 1959[^1] or Kreibich 1978[^2]), and therefore, the allocation of socio-economic data. While the static land-use forecast may be appropriate in the base scenario (often called business-as-usual scenario), the forecast of population and employment may be unrealistic in a certain policy scenario. For example, if the model is used to test the expansion of a rail line, households may decide to relocate because the rail line may make certain suburbs more attractive. The right side of the figure above visualizes this concept. A land use model is used to update the allocation of socio-economic data for a given model run.
 
