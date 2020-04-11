@@ -16,14 +16,14 @@ An open-source format to store matrices called [open matrix](Open_Matrix_Format)
 
 ## Highway Skims
 
-A skim matrix provides travel time, distance, costs, or a combination thereof (called Generalized Costs) for each origin-destination zone-pair. Often, skims distinguish travel for single-occupancy vehicles (who may not use HOV lanes, and therefore, may experience different travel times), shared-ride 2 and shared-ride 3+. This distinction, however, is only of value if the network contains links that are limited to shared-ride 2 or shared-ride 3+ vehicles. The graphic below shows a snapshot of a skim table.
+A skim matrix provides travel time, distance, costs, or a combination thereof (called Generalized Costs) for each origin-destination zone pair. Often, skims distinguish travel for single-occupancy vehicles (who may not use HOV lanes, and therefore, may experience different travel times), shared-ride 2 and shared-ride 3+. This distinction, however, is only of value if the network contains links that are limited to shared-ride 2 or shared-ride 3+ vehicles. The graphic below shows a snapshot of a skim table.
 
 ![](SkimTable.png 'Example Skim Table')
-_Example: Skim Table with time, distance and toll for SOV (Single-Occupancy Vehicles) and HOV (High-Occupancy Vehicles) and time and distance for trucks_
+*Example: Skim Table with time, distance and toll for SOV (Single-Occupancy Vehicles) and HOV (High-Occupancy Vehicles) and time and distance for trucks*
 
 ## Transit Skims
 
-Transit skims provide information on travel between all zones by transit modes. Such skims often include information on travel time, fare, number of transfers, and many [further attributes](Transit_networks#Values_Skimmed_on_the_Transit_Network). For more advanced [mode choice models](Mode_choice), travel time is provided for each mode of transit separately, as some transit modes (particularly rail) are commonly evaluated more favorably than others. This way, a trip requiring 10 min by rail and 20 min by bus may be deemed less attractive than a trip that needs 20 min by rail and 10 min by bus.
+Transit skims provide information on travel between all zones by transit modes. Such skims often include information on travel time, fare, number of transfers, and many [further transit attributes](Transit_networks#Values_Skimmed_on_the_Transit_Network). For more advanced [mode choice models](Mode_choice), travel time is provided for each mode of transit separately, as some transit modes (particularly rail) are commonly evaluated more favorably than others. This way, a trip requiring 10 min by rail and 20 min by bus may be deemed less attractive than a trip that needs 20 min by rail and 10 min by bus.
 
 ## Logsums
 
