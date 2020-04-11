@@ -44,7 +44,7 @@ Starting at the bottom of the cycle (Land Use), the locations of population and 
 
 A well-documented example of the significance of integrating land use with transportation has been published by [Conder and Lawton (2002)][^5]. According to their research, a Delphi Panel initially suggested substantial demand for new housing north of the Columbia River near Portland, OR. Testing this scenario in an integrated land use/transportation model revealed that not quite as many households decided to move north of the Columbia River because congestion on the four bridges across the river made commute travel times prohibitively long. Thereby, the authors have provided a classic example of the land use/transportation feedback cycle. Increased density north of the Columbia River led to additional travel demand, but the congestion reduced the accessibility of neighborhoods north of the Columbia River, which in turn limited the attractiveness of those areas for additional development.
 
-A wide variety of land use models are in operation to date. The section [design principles of land use models](design_principles_of_land_use_models) provides an overview of the most common land use model structures.
+A wide variety of land use models are in operation to date. The section [design principles of land use models](Design_principles_of_land_use_models) provides an overview of the most common land use model structures.
 
 Enhanced Scenario Analysis
 --------------------------
