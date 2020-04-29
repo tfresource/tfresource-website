@@ -29,38 +29,29 @@ The most common types of travel surveys include:
 
 -   Gamified web-based surveys can be used in special circumstances.
 
-Generic Survey Process
-======================
+## Generic Survey Process
 
 Backstrom and Hursh-Cesar (1981)[^1] divided the generic survey implementation process into the 20 steps. These 20 steps can be classified into five general stages: (1) survey planning, (2) survey design, (3) field implementation, (4) data preparation, and (5) data analysis.
 
-Survey Planning
----------------
+### Survey Planning
 
-Survey Design
--------------
+### Survey Design
 
-Field Implementation
---------------------
+### Field Implementation
 
-Data Preparation
-----------------
+### Data Preparation
 
-Data Analysis
--------------
+### Data Analysis
 
-Current Concerns
-================
+## Current Concerns
 
 Sample sizes have dropped considerably in the last few decades due to rising costs with lower response rates. Surveys are now often in the range of 2500–10,000 households, which usually represents significantly less than 1% of households in the region. Because funding for travel surveys is decreasing as government budgets become tighter, travel data are also being collected less frequently.
 
-Recent Methods
-==============
+## Recent Methods
 
 Several methods have been adopted to augment the traditional, diary-based household travel surveys. Some of these methods include [GPS-enabled surveys](GPS_enabled_surveys) and longitudinal surveys. See  the paper "Household travel surveys: Where are we going?"[^2] for an overview. In this paper, Stopher and Greaves (2007) talk about GPS-enabled surveys and longitudinal surveys. They also review a study which tests the use of synthetic_travel_data, which was constructed using census data and a national household travel survey.
 
-Gamified Web-Based Surveys
---------------------------
+### Gamified Web-Based Surveys
 
 Why a gamified survey?
 Gamified web-based surveys are becoming more common in market research to encourage response. The main problem we face with online research is motivating people to take part in surveys and give us their full attention during the time they are completing them. The key reason for this problem is simply that surveys are generally seen as being boring.
@@ -108,8 +99,7 @@ However, the little research that has been done shows there was very little item
 
 Overall, the testing of gamified approaches shows the data were coherent and the results were useful.
 
-References
-==========
+## References
 
 The [Online Travel Survey Manual](Online_Travel_Survey_Manual) provides a comprehensive overview of travel surveys. It is curated by Transportation Research Board’s Travel Survey Methods Committee (ABJ40).
 
