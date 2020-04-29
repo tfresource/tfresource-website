@@ -324,7 +324,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | [Urban data](Urban_data) |Patricia Lavieri | 28/02/2020 | |
 | **Statewide Models:** | --- | --- | --- |
 | [Current Status of Statewide Models](Current_Status_of_Statewide_Models) | M.Bina | Done | |
-| [Georgia Statewide Model](Georgia_Statewide_Model) | Rolf | | |
+| [Georgia Statewide Model](Georgia_Statewide_Model) | Rolf | 29 April 2020 | |
 | [Long-distance Travel](Long_distance_Travel) | Rob Bostrom | | |
 | [Maryland Statewide Transportation Model](Maryland_Statewide_Transportation_Model) | Rolf | | |
 | [Statewide Modeling Case Studies](Statewide_Modeling_Case_Studies) | M.Bina | Done | |
