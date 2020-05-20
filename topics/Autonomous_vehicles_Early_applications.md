@@ -93,7 +93,15 @@ Other modeling systems
 
 ### Ohio DOT
 
-The Coordinated Travel-Regional Activity Modeling Platform (CT-RAMP) was developed as a sub-model to the Ohio 3C Model. In CT-RAMP, CAV impacts have been addressed in the levels of travel demand, vehicle routing (including empty trips), and network performance (Vovsha, Vyas, 2018)[^9]. One key innovation in this platform is a new sub-model that supplements trip and vehicle allocation at the household level with shared CAVs to meet unsatisfied travel demand. This sub-model leads to fewer trips that are foregone or rescheduled and accounts for the cost of parking and vehicle repositioning and the associated impact on demand. Network performance adjustments can also be made to evaluate segment capacity and speeds, with the ability to compare factors such as ideal speed and capacity curves against the impacts projected by researchers. The platform has also been adjusted for easy user manipulation of what-if scenarios. Across a wide range of scenarios, impacts include:
+The Coordinated Travel-Regional Activity Modeling Platform (CT-RAMP) was developed as a sub-model to the Ohio 3C Model. In CT-RAMP, CAV impacts have been addressed in the levels of travel demand, vehicle routing (including empty trips), and network performance (Vovsha, Vyas, 2018)[^9]. One key innovation in this platform is a new sub-model that supplements trip and vehicle allocation at the household level with shared CAVs to meet unsatisfied travel demand. 
+
+This sub-model leads to fewer trips that are foregone or rescheduled and accounts for the cost of parking and vehicle repositioning and the associated impact on demand. Network performance adjustments can also be made to evaluate segment capacity and speeds, with the ability to compare factors such as ideal speed and capacity curves against the impacts projected by researchers. The platform has also been adjusted for easy user manipulation of what-if scenarios.   Key mode choice parameters for the CT-RAMP CAV model include:
+ - Penetration rates – both personal CAV and TNC CAV;
+ - Discount factor for TNC CAVs
+ - Age threshold, and
+ - Capacity for interstate and arterials.
+
+Across a wide range of scenarios, impacts include:
  - Limited impacts may include modest growth in trip rates, trip length, and VMT
  - Moderate impacts may include mode shifts from local transit to rapid transit trips with CAVs providing first-mile and last-mile service
  - Substantial impacts may include congestion reduction, substantial growth in trips due to increased modal options, and less joint travel
@@ -104,7 +112,7 @@ Florida DOT developed a tool called TransFuture to look at emerging technologies
 
 ### Iowa DOT
 
-In conjunction with statewide planning for rural Interstate 80, Iowa DOT developed a scenario analysis using microsimulation tools customized to model a mixed fleet of vehicles between CAV and human-operated vehicles on representative freeway facilities. The scenarios ranged from near-term aggressive CAV adoption (25% by 2025) to both conservative (20%) and aggressive (85%) projections for future year 2040. The customized microsimulation model was used to develop a potential curve of lane-capacity to CAV adoption, showing estimated capacities near 3,000 vehicles per lane at 85% adoption. The model results showed an estimated net increase in peak-hour speeds of up to 2% above existing conditions and also a net decrease in demand to capacity ratio of 35% under twice the traffic volume present in existing conditions. For further information, see Interstate 80 Planning Study: Automated Corridors. Iowa Department of Transportation (2017)[^11].
+In conjunction with statewide planning for rural Interstate 80, Iowa DOT developed a scenario analysis using microsimulation tools customized to model a mixed fleet of vehicles between CAV and human-operated vehicles on representative freeway facilities. The scenarios ranged from near-term aggressive CAV adoption (25% by 2025) to both conservative (20%) and aggressive (85%) projections for future year 2040. The customized microsimulation model was used to develop a potential curve of lane-capacity to CAV adoption, showing estimated capacities near 3,000 vehicles per lane at 85% adoption. The model results showed an estimated net increase in peak-hour speeds of up to 2% above existing conditions and a net decrease in demand to capacity ratio of 35% under twice the traffic volume present in existing conditions. For further information, see Interstate 80 Planning Study: Automated Corridors. Iowa Department of Transportation (2017)[^11].
 
 References
 ==========
