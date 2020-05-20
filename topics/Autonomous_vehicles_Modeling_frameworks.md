@@ -89,7 +89,7 @@ Strategic models do not typically include a traditional mode choice model. Inste
 
 Using Microscopic Models for CAV Simulations
 --------------------------------------
-PTV’s Vissim and Caliper’s TransModeler both provide flexibility in the representation of basic driver behaviors and vehicle types in their latest software versions that allow the user to build CAV operating characteristics into the vehicle fleet. As previously referenced in the Jacksonville synopsis, key traffic flow parameters impacted by CAV include:
+PTV’s Vissim and Caliper’s TransModeler both provide flexibility in the representation of basic driver behaviors and vehicle types in their latest software versions that allow the user to build CAV operating characteristics into the vehicle fleet. Key traffic flow parameters impacted by CAV include:
 
  - Acceleration/deceleration
  - Car following headways
@@ -106,14 +106,18 @@ Beyond the driver behavior and fleet adjustments that are now streamlined in com
 - Real-time updates to demand and routing based on emerging mobility options
 - Dynamic operations of the network and traffic control including reservation-based signal operations.
 
-Prior to commercial mainstreaming of CAV functionality, researchers from University of California at Berkeley performed on-the-road testing of cooperative adaptive cruise control (CACC), which serves as a good surrogate for CAV operations on freeways due to vehicle speed control and vehicle gap control. The research team used their field operations data to develop dynamics models reflecting the observed behaviors with a microsimulation tool and customizations to introduce logic control to switch between manual driving mode and vehicle control mode. The manual driving mode was calibrated to field conditions before running scenarios at various CACC penetration levels. The results show that for a congested freeway corridor an increase in platooning-capable vehicles to between 20% and 40% of the vehicle fleets leads to dramatic increases in travel speed and resultant decrease in delay. Freeway capacities in areas outside the influence of freeway ramps were estimated to reach 3,500 vehicles per lane, a 67% increase. (Liu, Kan, Shladover et al, 2018). The reference also contained a history of other studies of CACC in the literature.
+<b>Application</b>
 
-Base Vissim operations were customized in Liu, Kan, Shladover et al (2018) to test CACC based on the field data. The customizations to Vissim included the following added functionality: 
+Prior to commercial mainstreaming of CAV functionality, researchers from University of California at Berkeley (Liu, Kan, Shladover et al, 2018) performed on-the-road testing of cooperative adaptive cruise control (CACC), which serves as a good surrogate for CAV operations on freeways due to vehicle speed control and vehicle gap control. The research team used their field operations data to develop dynamics models reflecting the observed behaviors with a microsimulation tool and customizations including: 
 
+ - Introduce logic control to switch between manual driving mode and vehicle control mode;
  - Defining constant headways to maintain when operating in a platoon;
  - Applying the cut-off criteria to determine whether vehicles should join a platoon;
  - Identifying when splitting a platoon would occur; and,
  - Resetting modified platoon behaviors to the vehicle’s individual behavioral preferences when operating in isolation. 
+ 
+The results show that for a congested freeway corridor an increase in platooning-capable vehicles to between 20% and 40% of the vehicle fleets leads to dramatic increases in travel speed and resultant decrease in delay. Freeway capacities in areas outside the influence of freeway ramps were estimated to reach 3,500 vehicles per lane, a 67% increase. The reference also contained a history of other studies of CACC in the literature.
+
 
 References
 ==========
