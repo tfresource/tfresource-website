@@ -7,14 +7,16 @@ categories:
 CAV Penetration Rates in the Literature
 ----------------------------------------
 
-Shladover and Greenblatt (2017) noted that impact estimates are very sensitive to assumptions about the extent of usage of AV technologies, and noted three uncertainties related to market penetration:
+CAV impact estimates are very sensitive to assumptions about the extent of usage of AV technologies, including: 
  - Pace of technological maturity
  - Rate of inclusion of technology in new vehicles and retirement of old vehicles
  - Extent of use of technology by consumers
+
+(Shladover and Greenblatt, 2017)
+
+Talebian and Mishra (2018) provide a comprehensive overview of past research on adoption rates of technology innovations including CAVs. They note that research and projected rates have been based on past technology implementations, expert knowledge of CAV technologies and projection methods, and analytical modeling. Their research was on the Theory of Diffusion in which communications among peers and through social networks and advertising over time helps increase adoption rates of any technology.
  
-Talebian and Mishra (2018) provide a comprehensive overview of past research on adoption rates of technology innovations including CAVs. They note that research and projected rates have been based on past technology implementations, expert knowledge of CAV technologies and projection methods, and analytical modeling. Their particular research was on the Theory of Diffusion in which communications among peers and through social networks and advertising over time helps increase adoption rates of any technology. 
- 
-Gordon, Kaplan et al (2018) in their analysis based on past technology adoption take issue with some other researchers who predict that the introduction of AVs will mostly take place through the shared economy and reduce the proportion of private vehicle ownership. Based on the introduction of computers, smart phones, and similar products, the authors take a position that private ownership of AVs is likely to continue for a long period of time (a number of decades), leading to higher vehicle miles travelled (VMT) than some other researchers estimate. The authors used a threshold model that showed for numerous older technologies that Individuals learn about technologies from trend-setters, but then make the decision about whether to adopt themselves. The personal decision is influenced by differences in a person needs and circumstances as well as external events such as accidents. The authors found that more cars are likely to be purchased by individuals than TNCs, at least for many decades.  Geographic dispersion of the population, even with some cities showing a resurgence in their population, tends to favor AV use. In addition, auto companies are likely, as they have in the past, to produce multiple models and versions of AVs to appeal to the various types of car buyers.  And there will be new users of AVs such as the disabled or young. The authors identified several reasons why penetration rates and AV ownership may take longer to occur.
+Gordon, Kaplan et al (2018) in their analysis based on past technology adoption take issue with some other researchers who predict that the introduction of AVs will mostly take place through the shared economy and reduce the proportion of private vehicle ownership. Based on the introduction of computers, smart phones, and similar products, the authors take a position that private ownership of AVs is likely to continue for a long period of time (several decades), leading to higher vehicle miles travelled (VMT) than some other researchers estimate. The authors used a threshold model that showed for numerous older technologies that Individuals learn about technologies from trend-setters, but then make the decision about whether to adopt themselves. The personal decision is influenced by differences in a person needs and circumstances as well as external events such as accidents. The authors found that more cars are likely to be purchased by individuals than TNCs, at least for many decades. Geographic dispersion of the population, even with some cities showing a resurgence in their population, tends to favor AV use. In addition, auto companies are likely, as they have in the past, to produce multiple models and versions of AVs to appeal to the various types of car buyers. And there will be new users of AVs such as the disabled or young. The authors identified several reasons why penetration rates and AV ownership may take longer to occur.
  - Private ownership will continue, decreasing interest in shared AVs
  - VMT will increase with AVs
  - AV penetration may be slowed by political and regulatory issues
@@ -27,7 +29,7 @@ Zmud et al, 2018 included a chapter on uncertainties associated with CAVs that w
 - Comfort and convenience, in addition to cost, will drive consumer preferences regarding AVs.
 - Roadway and parking infrastructure will need to be adapted to CAVs.
 - Government policy and traffic laws, including tests of liability in the court system, will undoubtedly drive market penetration scenarios.
-- The technology will certainly advance and change, and features will be added or subtracted on the basis of cost effectiveness in the market.
+- The technology will certainly advance and change, and features will be added or subtracted based on cost effectiveness in the market.
 
 The Zmud report emphasized the uncertainty about CAV development. Their review of the literature, which was corroborated by the study team for this current report, found high uncertainty in published deployment scenarios. They defined three “eras” during which varying but increasing rates of CAV penetration will occur:
 1.	CAVs are developed and tested.
