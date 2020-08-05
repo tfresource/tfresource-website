@@ -5,8 +5,6 @@ categories:
 
 ---
 
-# Chapter 11
-
 CHAPTER 11.0 HOUSEHOLD SURVEY CODING AND GEOCODING
 
 Let's add some links:
