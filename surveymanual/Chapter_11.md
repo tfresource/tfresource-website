@@ -46,3 +46,5 @@ It is recommended that the following standardized procedures be adopted together
 ### 11.1.2 Coding Complex Variables
 
 This item is concerned with how to code the responses to certain types of questions involving categories that may vary from survey to survey, depending on the level of detail required for a specific survey. Among the questions that fit within this category of variables are income and activity.
+
+- This is my main contribution.
