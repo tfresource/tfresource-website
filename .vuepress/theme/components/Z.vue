@@ -5,9 +5,9 @@
 
       <h1 v-if="data.heroText !== null" id="main-title">{{ data.heroText || $title || 'Hello' }}</h1>
 
-      <p class="description">{{ data.tagline || $description || 'Welcome to your VuePress site' }}</p>
+      <p class="description">{{ data.tagline || $description || 'VuePress site' }}</p>
 
-      <p class="action" v-if="actionLinks.length > 0">
+      <p class="action" v-if="actionLinks">
         <NavLink v-for="item in actionLinks" :key="item.link" class="action-button" :item="item" />
       </p>
     </header>
@@ -57,22 +57,15 @@ export default {
     },
 
     actionLinks() {
-      return [
-        {
-          link: '/topics/',
-          text: 'Travel Forecasting →',
-        },
-        {
-          link: '/surveymanual/',
-          text: 'Survey Manual →',
-        },
-      ]
+      return []
     },
-  },
 }
 </script>
 
 <style lang="stylus">
+.action-button {
+  margin-right: 1rem;
+}
 
 .home {
   padding: 0 0;
@@ -86,10 +79,6 @@ export default {
     margin: 0px auto;
     text-align: right;
     font-size: 1.25rem;
-  }
-
-  .action-button {
-    margin-right: 1rem;
   }
 
   .squish h1 { text-align: center;}

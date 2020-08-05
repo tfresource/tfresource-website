@@ -2,6 +2,7 @@
 .main-content
   .category
   h2 Main Categories
+
   .category.boop
     .topics(v-for="topic in topicCircle('Topic Circles')" :key="'tc+' + topic.path")
       .entry
@@ -13,7 +14,7 @@
         p(v-if="topic.frontmatter.description") {{ topic.frontmatter.description }}
 
   hr
-  h1 Big List of all pages by category
+  h1 All pages, grouped by category
   .category(v-for="category in categories" :key="category" )
     h2 {{ category }}:
     .boop
@@ -31,10 +32,15 @@
 <script>
 'use strict'
 export default {
+  props: ['root'],
   computed: {
+    sectionRoot() {
+      return this.root ? this.root : '/topics/'
+    },
     topics() {
+      const myRoot = this.root ? this.root : '/topics/'
       return this.$site.pages
-        .filter(x => x.path.startsWith('/topics/') && !x.frontmatter.no_index)
+        .filter(x => x.path.startsWith(myRoot) && !x.frontmatter.no_index)
         .map(x => {
           if (!x.frontmatter.title) x.frontmatter.title = x.title
           return x
@@ -54,7 +60,7 @@ export default {
       pageLookup: {},
     }
   },
-  created: function() {
+  mounted: function() {
     // uncategorized:
     /*
     const uncategorized = this.$site.pages.filter(p => p.frontmatter && p.frontmatter.categories === ['Needs Review'])
@@ -67,6 +73,8 @@ export default {
 
     for (const page of this.$site.pages) {
       if (!page.frontmatter || !page.frontmatter.categories) continue
+
+      //       if (!page.path.startsWith(this.root)) continue
 
       for (const category of page.frontmatter.categories) {
         if (!this.pageLookup[category]) this.pageLookup[category] = []

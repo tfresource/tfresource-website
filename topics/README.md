@@ -2,6 +2,8 @@
 title: 'Topic Index'
 no_index: true
 editLink: false
+categories:
+  - About
 ---
 
 The pages on TF Resource are loosely divided into sections on models, data, practical applications/use cases, and a glossary.
@@ -12,5 +14,4 @@ Browse below, or use the search box to find something specific.
 If you're new to travel forecasting, read [The Big Picture](Big_Picture) first!
 :::
 
-
-<TopicIndex />
+<TopicIndex root="/topics/" />

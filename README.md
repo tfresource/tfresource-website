@@ -2,9 +2,7 @@
 home: true
 heroImage: /bikes.jpg
 heroText: 'Travel Forecasting, Explained'
-tagline: 'A collection of best practices for travel demand forecasting and modeling.'
-actionText: Get Started →
-actionLink: /topics/
+tagline: 'A collection of best practices for travel demand forecasting and travel survey methods.'
 footer: 'Copyright © 2020 National Academy of Sciences'
 features:
   - title: State of the practice

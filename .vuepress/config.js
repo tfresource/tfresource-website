@@ -16,10 +16,17 @@ module.exports = {
       },
     ],
     ['link', { rel: 'icon', href: '/tiny-logo.png' }],
-    ['meta', { property: "og:title", content: "Travel Forecasting Resource" }],
-    ['meta', { property: "og:description", content: "Travel forecasting, explained. A collection of best practices and practical know-how for learning about, creating, and using travel forecasting models." }],
-    ['meta', { property: "og:image", content: "https://tfresource.org/og-image.jpg" }],
-    ['meta', { property: "og:url", content: "https://tfresource.org" }],
+    ['meta', { property: 'og:title', content: 'Travel Forecasting Resource' }],
+    [
+      'meta',
+      {
+        property: 'og:description',
+        content:
+          'Travel forecasting, explained. A collection of best practices and practical know-how for learning about, creating, and using travel forecasting models.',
+      },
+    ],
+    ['meta', { property: 'og:image', content: 'https://tfresource.org/og-image.jpg' }],
+    ['meta', { property: 'og:url', content: 'https://tfresource.org' }],
   ],
   markdown: {
     extendMarkdown: md => {
@@ -56,7 +63,7 @@ module.exports = {
         additionalArgs: '--no-merge',
       },
     ],
-    ['minimal-analytics', {ga: 'UA-157455011-1'}]
+    ['minimal-analytics', { ga: 'UA-157455011-1' }],
   ],
   title: 'TF Resource',
   themeConfig: {
@@ -69,8 +76,15 @@ module.exports = {
     logo: '/tfr-logo-title.png',
     sidebarDepth: 0,
     nav: [
-      { text: 'Topics', link: '/topics/' },
-      { text: 'Events', link: '/events/' },
+      { text: 'Travel Forecasting', link: '/topics/' },
+      { text: 'Survey Manual', link: '/surveymanual/' },
+      {
+        text: 'About',
+        items: [
+          { text: 'About TF-Resource', link: '/topics/About' },
+          // , { text: 'How to Contribute', link: '/thing/' }
+        ],
+      },
       /*
       {
         text: 'RESOURCES',
@@ -97,13 +111,6 @@ module.exports = {
         ],
       },
       */
-      {
-        text: 'About',
-        items: [
-          { text: 'About TF-Resource', link: '/topics/About' },
-          // , { text: 'How to Contribute', link: '/thing/' }
-        ],
-      },
     ],
     sidebar: [
       {
@@ -132,7 +139,7 @@ module.exports = {
           '/topics/Statewide_models',
           '/topics/Travel_behavior',
           '/topics/Trip_based_models',
-        ]
+        ],
       },
       {
         title: 'Forecasting Topics',
@@ -142,7 +149,11 @@ module.exports = {
           '/topics/Model_calibration_and_validation',
           '/topics/New_Starts',
           '/topics/Project_level_traffic_forecasting',
-        ]
+        ],
+      },
+      {
+        title: 'Survey Manual',
+        children: ['/surveymanual/'],
       },
       {
         title: 'About TFR',
@@ -151,7 +162,7 @@ module.exports = {
           '/topics/Governance',
           '/topics/Community',
           '/topics/Content_and_Membership_Council',
-        ]
+        ],
       },
     ],
   },
