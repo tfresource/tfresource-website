@@ -114,7 +114,7 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: 'For Reviewers',
+        title: 'For Contributors',
         children: [
           '/topics/',
           '/topics/TF_Resource_Volunteers',
