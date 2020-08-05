@@ -31,10 +31,11 @@
 <script>
 'use strict'
 export default {
+  props: ['root'],
   computed: {
     topics() {
       return this.$site.pages
-        .filter(x => x.path.startsWith('/topics/') && !x.frontmatter.no_index)
+        .filter(x => x.path.startsWith(this.root) && !x.frontmatter.no_index)
         .map(x => {
           if (!x.frontmatter.title) x.frontmatter.title = x.title
           return x
@@ -68,12 +69,15 @@ export default {
     for (const page of this.$site.pages) {
       if (!page.frontmatter || !page.frontmatter.categories) continue
 
+      console.log(page.path)
+      if (!page.path.startsWith(this.root)) continue
+
       for (const category of page.frontmatter.categories) {
         if (!this.pageLookup[category]) this.pageLookup[category] = []
         this.pageLookup[category].push(page)
       }
 
-      if (page.frontmatter.categories.length == 1) {
+      if (page.frontmatter.categories.length < 2) {
         this.pageLookup['Uncategorized'].push(page)
       }
     }
