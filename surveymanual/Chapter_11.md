@@ -1,3 +1,10 @@
+---
+title: 'Chapter 11'
+categories:
+- Chapters
+
+---
+
 # Chapter 11
 
 CHAPTER 11.0 HOUSEHOLD SURVEY CODING AND GEOCODING
@@ -10,7 +17,7 @@ Let's add some links:
 
 **Here is an image:**
 
-![My image](thumb-linkvols.jpg "Does this fix it")
+![My image](images/thumb-linkvols.jpg "Does this fix it")
 
 Note: Significant components of this chapter come from Stopher et al.’s (2008) NCHRP Report, Chapter 2.5 and Tierney et al.’s FHWA Manual Introduction (Cambridge Systematics 1994), Chapters L and Z. Other key contributors are Celia Boertlein, Michael Greenwald, Martin Trepanier and Elaine Murakami.
 
