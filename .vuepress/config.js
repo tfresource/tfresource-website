@@ -153,7 +153,7 @@ module.exports = {
       },
       {
         title: 'Survey Manual',
-        children: ['/surveymanual/Getting_Started'],
+        children: ['/surveymanual/'],
       },
       {
         title: 'About TFR',

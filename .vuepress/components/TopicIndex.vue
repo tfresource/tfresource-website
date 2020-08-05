@@ -69,7 +69,6 @@ export default {
     for (const page of this.$site.pages) {
       if (!page.frontmatter || !page.frontmatter.categories) continue
 
-      console.log(page.path)
       if (!page.path.startsWith(this.root)) continue
 
       for (const category of page.frontmatter.categories) {
