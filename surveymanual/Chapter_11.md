@@ -8,6 +8,10 @@ Let's add some links:
 - Or you can link to the [history page](History_of_travel_surveys)
 
 
+**Here is an image:**
+
+![My image](my_image.png)
+
 Note: Significant components of this chapter come from Stopher et al.’s (2008) NCHRP Report, Chapter 2.5 and Tierney et al.’s FHWA Manual Introduction (Cambridge Systematics 1994), Chapters L and Z. Other key contributors are Celia Boertlein, Michael Greenwald, Martin Trepanier and Elaine Murakami.
 
 Common socioeconomic indicators (e.g., household income levels, auto mobile ownership rates), employment requirements (e.g., work shift times), and life-style characteristics (e.g., children in daycare) all contribute to our insight into how and why people travel. In much of the analysis of survey data, such as the number of trips per household in each income range, a trip is a single event and is counted as one unit. However, the fundamental factor which underlies the use of transportation systems is geography. Origin-destination patterns define how many people are traveling in individual corridors, and how many people are in the market to use individual highway facilities or transit services, and how many people converge on downtowns or suburban activity centers. Therefore, travel survey data must be linked geographically.  In this chapter, the coding of survey data is addressed, especially geographic data (origin and destination locations) that have to be geocoded.   
