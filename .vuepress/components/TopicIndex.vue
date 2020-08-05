@@ -87,6 +87,7 @@ export default {
   },
   methods: {
     topicCircle: function(category) {
+      if (!this.pageLookup[category]) return []
       return this.pageLookup[category].sort((a, b) => (a.title < b.title ? -1 : 1))
     },
   },
