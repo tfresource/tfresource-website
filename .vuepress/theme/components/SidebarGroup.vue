@@ -4,9 +4,9 @@
     :class="[
       {
         collapsable,
-        'is-sub-group': depth !== 0
+        'is-sub-group': depth !== 0,
       },
-      `depth-${depth}`
+      `depth-${depth}`,
     ]"
   >
     <router-link
@@ -14,31 +14,18 @@
       class="sidebar-heading clickable"
       :class="{
         open,
-        'active': isActive($route, item.path)
+        active: isActive($route, item.path),
       }"
       :to="item.path"
       @click.native="$emit('toggle')"
     >
       <span>{{ item.title }}</span>
-      <span
-        class="arrow"
-        v-if="collapsable"
-        :class="open ? 'down' : 'right'">
-      </span>
+      <span class="arrow" v-if="collapsable" :class="open ? 'down' : 'right'"> </span>
     </router-link>
 
-    <p
-      v-else
-      class="sidebar-heading"
-      :class="{ open }"
-      @click="$emit('toggle')"
-    >
+    <p v-else class="sidebar-heading" :class="{ open }" @click="$emit('toggle')">
       <span>{{ item.title }}</span>
-      <span
-        class="arrow"
-        v-if="collapsable"
-        :class="open ? 'down' : 'right'">
-      </span>
+      <span class="arrow" v-if="collapsable" :class="open ? 'down' : 'right'"> </span>
     </p>
 
     <DropdownTransition>
@@ -62,10 +49,10 @@ export default {
   props: ['item', 'open', 'collapsable', 'depth'],
   components: { DropdownTransition },
   // ref: https://vuejs.org/v2/guide/components-edge-cases.html#Circular-References-Between-Components
-  beforeCreate () {
+  beforeCreate() {
     this.$options.components.SidebarLinks = require('./SidebarLinks.vue').default
   },
-  methods: { isActive }
+  methods: { isActive },
 }
 </script>
 
@@ -86,7 +73,8 @@ export default {
       font-weight normal
       padding-left 2rem
       &:not(.clickable)
-        opacity 0.5
+        color: $sideSection
+        // opacity 0.5
     & > .sidebar-group-items
       padding-left 1rem
       & > li > .sidebar-link
