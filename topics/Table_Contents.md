@@ -73,5 +73,5 @@ This section deals with using travel forecasting models within public agencies. 
 * [Statewide models](Statewide_models)
 * [Strategic models](Strategic_Models)
 * Model peer review practices
-* [Integrated models](Travel_Demand_and_Network_Model_Integration_Schemas), [[Integrated_Travel_Demand_and_Network_Models]]
+* [Integrated models](Travel_Demand_and_Network_Model_Integration_Schemas), [Integrated_Travel_Demand_and_Network_Models](Integrated_Travel_Demand_and_Network_Models), [Model_integration](Model_integration)
 * [Traffic microsimulation](Traffic_simulation_models)
