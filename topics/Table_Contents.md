@@ -70,8 +70,8 @@ Mode-specific considerations
 
 ## Model Application and Management
 This section deals with using travel forecasting models within public agencies. Topics include:
-* Statewide models
-* [Strategic models](Strategic_Models.md)
+* [Statewide models](Statewide_models)
+* [Strategic models](Strategic_Models)
 * Model peer review practices
-* Integrated models
-* Traffic microsimulation
+* [Integrated models](Travel_Demand_and_Network_Model_Integration_Schemas)
+* [Traffic microsimulation](Traffic_simulation_models)
