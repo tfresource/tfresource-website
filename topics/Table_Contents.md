@@ -14,13 +14,13 @@ The technical content on this website is organized into three primary divisions:
 This section deals with the behavioral and mathematical theory underlying travel
 forecast models.
 
-Concepts of Travel Behavior
+### Concepts of Travel Behavior
 * Value of Time
 * [Accessibility](Accessibilities)
 * [Induced Demand](Travel_Behavior_Definitions) / Derived Demand / Trip Purposes
 * [Trip-based](Trip_based_models) and [Activity-based](Activity_based_models) distinctions
 
-Travel Behavior Models
+### Travel Behavior Models
 * [Trip Generation](Trip_Generation)
 * Daily activity patterns
 * [Trip Distribution](Spatial_Interaction_Models)
@@ -31,7 +31,7 @@ Travel Behavior Models
 * [Dynamic Assignment Theory](Dynamic_Traffic_Assignment)
 * [Land Use Models](Land_use_transport_modeling)
 
-Statistics / Econometrics
+### Statistics / Econometrics
 * Growth rate functions
 * Iterative proportional fitting
 * Regression analysis
@@ -45,9 +45,9 @@ Statistics / Econometrics
 This section deals with best practices for developing and delivering travel forecasting models.
 
 ### Model building blocks
-* Travel behavior data: [Travel Behavior Definitions](Travel_Behavior_Definitions), [Travel Behavior](Travel_behavior), [Travel Behavior of Diverse Populations](Travel_Behavior_of_Diverse_Populations), [Travel Survey Data](Travel_survey_data)
+* Travel behavior data: [Travel Behavior Definitions](Travel_Behavior_Definitions), [Travel Behavior](Travel_behavior), [Travel Behavior of Diverse Populations](Travel_Behavior_of_Diverse_Populations), [Travel Surveys](Travel_surveys)
 * [Networks](Transportation_networks) and [Network Data](Spatial_Data.html#network-data)
-* [Zones](Traffic_Analysis_Zones) and more generally [Spatial Data](Spatial_data)
+* [Zones](Traffic_Analysis_Zone) and more generally [Spatial Data](Spatial_data)
 * [Socioeconomic data](Spatial_Data.html#land-use-demographic-socio-economic-data)
 * Software for model development
   - Commercial packages
