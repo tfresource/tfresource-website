@@ -1,10 +1,10 @@
 ---
 title: "Public transport (transit) modeling"
 categories:
-  - Needs Review
-  - Public Transport (Transit) Modeling
   - Topic Circles
 ---
+
+<PagesInCategory category="Public Transport (Transit) Modeling" />
 
 Representation of public transport system in a travel model
 -----------------------------------------------------------
@@ -41,7 +41,7 @@ How do passengers interact-with and judge the utility of the transit system? The
 
 1.  [Transit Path Building](Transit_Path_Building) determines how the passengers choose to travel through the transit network
 2.  [Transit Network Service Determination](Transit_Network_Service_Determination) determines the value and utility of their transit option
-3.  [Mode Choice](Mode_Choice) is the model component where travelers choose whether to ride transit, given their own assessment about service quality compared to their other options
+3.  [Mode Choice](Mode_choice) is the model component where travelers choose whether to ride transit, given their own assessment about service quality compared to their other options
 4.  [Transit Network Assignment](Transit_Network_Assignment) is the process by which every traveler that has chosen to ride transit in the mode choice step, is then assigned to the network. The output of transit assignment is the number of boardings and alightings by time of day for each [Transit Route](Transit_Route) at each stop.
 
 Developing a Transit Component in a Travel Model
@@ -52,7 +52,7 @@ Developing a Transit Component in a Travel Model
 Passenger Behavior Data:
 
 -   [On-board Surveys](On_board_Surveys)
--   [Household Travel Surveys](Travel_Survey_Data)
+-   [Household Travel Surveys](Travel_survey_data)
 -   Ridership Data (i.e. APC or manual counts)
 -   Transit Routes taken by passengers (i.e. GPS)
 
@@ -63,7 +63,7 @@ Transit Network Data:
 Typical decisions and considerations include:
 
 -   [Transit Network](Transit_networks) design
--   [Access mode, egress mode, transit mode combinations](transit_mode_combinations)
+-   [Access mode, egress mode, transit mode combinations](Transit_mode_combinations)
 -   [Schedule-based versus headway-based versus combination](schedule_versus_headway)
 -   Calculation of [dwell time](Transit_dwell_time) at stops
 -   [Incorporating transit amenities](Incorporating_transit_amenities) such as shelters, etc.
@@ -113,27 +113,18 @@ What are planners and decision makers typically interested in learning when they
 
 **Use Cases**:
 
-1.  [Small Starts / New Starts](Capital_Investment_Grant_Program_aka_New_Starts))
+1.  [Small Starts / New Starts](New_Starts)
 2.  [Long range transportation plan](Long_range_transportation_plan)
-3.  [Project Prioritization](Project_Prioritization)
-4.  [Corridor Study](Corridor_Study)
-5.  Policy Study (i.e. cordon-based [congestion pricing](congestion_pricing))
+3.  Policy Study (i.e. cordon-based congestion pricing
 
 Application and Forecasting Considerations
 ------------------------------------------
+
+to be added.
 
 Research Avenues
 ----------------
 
 -   Person-based dynamic transit assignment
 -   Tour-based path evaluation for park and ride facilities
-
-Related Content
----------------
-
-{{\#ask: [_](_)
-| format=ul
-}}
-
-------------------------------------------------------------------------
 

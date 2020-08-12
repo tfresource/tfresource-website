@@ -1,7 +1,6 @@
 ---
 title: "Puget Sound Regional Council"
 categories:
-  - Needs Review
 ---
 
 Summary

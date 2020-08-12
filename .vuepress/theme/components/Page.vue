@@ -2,12 +2,24 @@
   <main class="page">
     <slot name="top" />
 
-    <div class="nav-headings" v-if="$page.headers && $page.headers.length > 1">
-      <span v-for="header in $page.headers" :key="header.title">
-        <p v-if="header.level <= 3" :class="{'lev3': header.level==3}">
-           <a :href="'#' + header.slug"> {{ header.title }}</a>
-        </p>
-      </span>
+    <div class="nav-headings">
+      <div v-if="$page.headers && $page.headers.length > 1">
+        <b class="toc">Contents</b>
+        <p><a href="#">{{ $page.title }}</a></p>
+        <span v-for="header in $page.headers" :key="header.title">
+          <p v-if="header.level <= 3" :class="{'lev3': header.level==3}">
+            <a :href="'#' + header.slug"> {{ header.title }}</a>
+          </p>
+        </span>
+      </div>
+
+      <div v-if="categories">
+        <p class="categories"><b>Page categories</b></p>
+        <span v-for="category in categories" :key="'cat-' + category">
+          <p><a :href="circleLookup[category.toLowerCase()]"> {{ category }} </a></p>
+        </span>
+      </div>
+
     </div>
 
     <PageEdit />
@@ -47,6 +59,30 @@ import PageNav from '@theme/components/PageNav.vue'
 export default {
   components: { PageEdit, PageNav },
   props: ['sidebarItems'],
+  computed: {
+    categories() {
+      const { frontmatter } = this.$page
+      if (!frontmatter.categories) return null
+      return frontmatter.categories.sort((a,b) => a < b ? -1 : 1)
+    },
+    circleLookup() {
+      const circles = this.$site.pages
+        .filter(
+          page => page.frontmatter.categories &&
+          page.frontmatter.categories.indexOf('Topic Circles') > -1 )
+        .sort((a,b) => a.frontmatter.title < b.frontmatter.title ? -1 : 1)
+      const lookup = {}
+      for (const page of circles) {
+        const title = page.frontmatter.title.toLowerCase()
+        lookup[title] = page.path
+        // hyphens confuse things, but this is easier than going thru every page:
+        if (title.indexOf('-')>-1) lookup[title.replace(/-/g, ' ')] = page.path
+      }
+      lookup['topic circles'] = '/topics/'
+      lookup['needs review'] = '/topics/'
+      return lookup
+    },
+  }
 }
 </script>
 
@@ -79,7 +115,7 @@ export default {
 .nav-headings {
   position: sticky;
   flex: 0 0 240px;
-  top: 8rem;
+  top: 7rem;
   right: 1rem;
   display: block;
   width: 20%;
@@ -95,6 +131,19 @@ export default {
   margin-bottom: 0.5rem;
 }
 
+.nav-headings b {
+  font-size: 0.8rem;
+  color: #575;
+}
+
+.nav-headings .toc {
+  margin-top 0px;
+}
+
+.categories {
+  padding-top 3rem;
+}
+
 .nav-headings a:hover {
   color: #060;
 }
@@ -102,6 +151,14 @@ export default {
 .lev3 { margin-left: 1rem;}
 
 @media (max-width: 85rem) {
+  .theme-default-content {
+    max-width: 34rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 77rem) {
   .nav-headings {
     display: none;
   }

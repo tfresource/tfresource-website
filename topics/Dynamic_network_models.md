@@ -1,9 +1,8 @@
 ---
 title: "Dynamic network models"
 categories:
-  - Needs Review
   - Topic Circles
+  - Network Assignment
 ---
 
-
-
+See [Dynamic Traffic Assignment](Dynamic_Traffic_Assignment).

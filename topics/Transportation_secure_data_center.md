@@ -1,7 +1,6 @@
 ---
 title: "Transportation secure data center"
 categories:
-  - Needs Review
   - Spatial Data
   - Temporal Data
   - Travel Surveys
@@ -29,14 +28,12 @@ Using archived data can reduce research costs and save public funds. This valuab
 -   Congestion mitigation research
 -   Emissions and air pollution modeling
 -   Vehicle energy and power analysis
--   Climate change impact studies
 -   Homeland Security evacuation planning
 -   Alternative fuel station planning
 -   Validating transportation data from other sources
 -   Toll and pricing research.
 
-Contacts
---------
+### Contacts
 
 Visit the [website](http://www.nrel.gov/tsdc) for more information and to apply for secure online access to TSDC data, or e-mail tsdc@nrel.gov to ask general questions.
 

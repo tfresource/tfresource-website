@@ -1,11 +1,11 @@
 ---
-title: "Destination Choice Models"
+title: "Destination choice models"
 categories:
-  - Needs Review
-  - Destination Choice Models
   - Spatial Interaction Models
   - Topic Circles
 ---
+
+<PagesInCategory category="Destination Choice Models" />
 
 Introduction
 ------------
@@ -109,13 +109,9 @@ Destination Choice: Implementation and Application
 
 Destination choice models can be implemented in various ways in different travel modeling frameworks. They can be applied disaggregately in activity-based models using Monte Carlo simulation or aggregately in trip-based models using matrices. In both of these contexts, there are important issues related to how destination choice models are integrated with the larger model system. Key issues include how various destination choices are related to each other, how choices of destination and mode are related to each other, and how the larger model system acheives an equilibrium between travel demand and supply, commonly through iterative feedback loops. For more in-depth discussion, click [here](Destination_Choice_Implementation_and_Application).
 
-<h1>
-References
+### References
 
-</h1>
-[Content Charrette: Destination Choice Models](Content_Charrette_Destination_Choice_Models)
-
-------------------------------------------------------------------------
+- [Content Charrette: Destination Choice Models](Content_Charrette_Destination_Choice_Models)
 
 [^1]: Zhao, Y. and K. Kockelman (2002) 'The Propagation of Uncertainty through Travel Demand Models', *Annals of Regional Science* 36 (1), pp.145-163
 

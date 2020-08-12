@@ -2,10 +2,11 @@
 title: "Autonomous vehicles"
 categories:
   - Activity Based Models
-  - Autonomous Vehicles
   - Topic Circles
   - Trip Based Models
 ---
+
+<PagesInCategory category="Autonomous Vehicles" />
 
 Introduction
 ------------
@@ -25,6 +26,10 @@ Planning and policy context
 
 A wide variety of questions about CAV futures are being posed by policymakers. A number of policy papers have been published on the topic, but they describe the problem space much better than specifying forecasting approaches. A number of policy issues and strategies identified in [NCHRP Report 845](http://www.trb.org/Main/Blurbs/176418.aspx) are summarized on the [planning and policy context](Autonomous_vehicles_planning_and_policy_context) page. Other issues identified in other reports have been added to the discussion.
 
+CAV Penetration Rates
+---------------------------
+Most studies of the future of CAV agree on one thing:  there is uncertainty as to when there will be widespread implementation of automated vehicles that are capable of operating at the higher levels of automation. Even after the initial highly automated driving applications become available for public use, the actual application is likely to grow gradually. And even after all new vehicles are equipped with an advanced feature, it will take a few more decades for the existing fleet to turn over. Even after all that, a significant portion of the population is likely to remain resistant to automation, so it is not realistic to expect the disappearance of human-driven vehicles even in the long term. The question this raises is: When will this gradual growth occur and what effect will that have on the future?  This section - [CAV Penetration Rates](Autonomous_vehicles_CAV_Penetration_Rates)- highlights some of the research and observations about CAVs penetrations.
+
 Behavioral considerations
 -------------------------
 
@@ -33,7 +38,7 @@ The availability of AVs, either as privately-owned, shared, or hired vehicles, w
 Operational and network considerations
 --------------------------------------
 
-`   Under construction: [dead-heading, networks, AV technology, ...]`
+The impacts of CAV operational characteristics are perhaps the most discussed in the industry to date. Much research has focused on the impact of connecting vehicles through DSRC into platoons of vehicles. The overall impact of better connected and more automated vehicles would be to increase capacity, dramatically shorten headway space and thereby improve coordinated acceleration and vehicle throughput, although operations that involve platoon formation and dissolution may decrease capacity. This section -- [Operational and network considerations](Autonomous_vehicles_operation_network)  -- discusses these and other impacts in more detail.
 
 Modeling frameworks
 -------------------

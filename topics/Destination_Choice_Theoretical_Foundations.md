@@ -15,7 +15,7 @@ Three primary theoretical starting points for developing destination choice mode
 
 These three modeling approaches are, under appropriate assumptions, mathematically equivalent, and so are special cases of what can be generally called spatial interaction models. All these models attempt to address the same problem, as illustrated in Figure 1, in which spatial interactions (usually trips) between locations in space (typically traffic zones) are to be predicted, given limited, more macro, information concerning these interactions, such as the number of trips originating in each zone and/or the number of trips destined to each zone.
 
-![Figure 1: The Spatial Interaction Problem|left](DestChoice MathFormulation Fig-1.jpg "fig:Figure 1: The Spatial Interaction Problem|left")
+![Figure 1: The Spatial Interaction Problem|left](DestChoice_MathFormulation_Fig-1.jpg "fig:Figure 1: The Spatial Interaction Problem|left")
 
 Gravity Models
 --------------
@@ -24,7 +24,7 @@ Gravity models have been in use by geographers, market researchers, transportati
 
 (1)
 
-$$F_{ij}={Gm_i}{m_j}^{-2}}$$
+$$F_{ij}={Gm_i}{m_j}^{-2}$$
 
 where $F_{ij}$ is the gravitation force between bodies i and j, $m_x$ is the mass of body x, $d_{ij}$ is the distance between bodies i and j, and G is the gravitational constant. That is, the gravitational force (or interaction) between the bodies is proportional to their masses (size) and inversely related to the distance between them: bigger bodies closer together have a greater interaction.
 
@@ -41,7 +41,7 @@ where $T_{ij}$ is the number of trips between origin i and destination j, $X_i$ 
 
 (2)
 
-$${df_{ij}\over{d}{t_{ij}}}&lt;{0}$$
+$${df_{ij}\over{d}{t_{ij}}} \lt { 0 }$$
 
 The constant k is chosen so that (2) satisfies known constraints on the interactions being predicted. If, for example, $X_i$= $O_i$, the number of shopping trips predicted by a trip generation model to originate in zone i, then it is reasonable to impose the constraint on our model that:
 
@@ -52,9 +52,9 @@ Substituting (2) into (3) and solving for k yields:
 
 (4)
 
-$${k}={X_{j'}}{f_{ij'}}}$$
+$${k}={X_{j'}}{f_{ij'}}$$
 or
-$${T_{ij}}= \over{{∑_{j'}}{X_{j'}}{f_{ij'}}}}$$
+$${T_{ij}}= \frac { {O_{i}}{X_{j}}{f_{ij}} }{ {∑_{j'}}{X_{j'}}{f_{ij'}} }$$
 
 Equation (4) is called a singly-constrained gravity model, since only a single constraint (equation (3)) has been imposed on the model. Very many examples of singly-constrained destination choice models exist, in a variety of applications. In particular, note that instead of constraining the predicted trips to match predetermined trip origin totals (an origin-constrained model), it would have been possible to constrain the trips to sum to predetermined trip destination totals instead (a destination constrained model).
 
@@ -68,9 +68,9 @@ Imposing both constraints (3) and (5) on the model results in a doubly-constrain
 
 (6)
 
-$${T_{ij}}= \over{{∑_{j'}}^{*}}{f_{ij'}}}}$$
+$${T_{ij}}= \frac { { { O }_{ i } } { { X }_{ j } } { { f }_{ ij } } }{ \sum _{ j' }^{ }{ X }_{ j' } { f }{ ij' }  }$$
 
-where ${D_{j}}^{*}$ is a modified attraction term that is iteratively defined so that constraint (5) is satisfied for all destinations j.
+where ${D_{j}}^{\ast}$ is a modified attraction term that is iteratively defined so that constraint (5) is satisfied for all destinations j.
 
 Entropy Maximization Models
 ---------------------------
@@ -87,7 +87,7 @@ subject to known constraints. In the case of a doubly-constrained model, at a mi
 
 $$\frac { \sum _{ i }^{ }{ \sum _{ j }^{ }{ { T }_{ ij } } { t }_{ ij } } }{ T } =\bar { t }\qquad \qquad { \forall }_{ i,j }$$
 
-where T is the (known) total number of trips in the system, and t ̅ is the observed average travel time. In other words, equation (8) states that a feasible predicted trip matrix is one in which the predicted average travel time (the left-hand side of (8) equals the observed average travel time).
+where T is the (known) total number of trips in the system, and  $\bar { t }$ is the observed average travel time. In other words, equation (8) states that a feasible predicted trip matrix is one in which the predicted average travel time (the left-hand side of (8) equals the observed average travel time).
 
 Solving this mathematical program yields the following trip distribution model:
 
@@ -99,22 +99,23 @@ where $ẞ<{0}$ is an estimated parameter and $A_i$ and $B_j$ are “balancing f
 
 (10.1)
 
-$${A_{i}}={B_{j'}}{D_{j'}}{e^{ẞt_{ij'}}}}}$$
+$${A_{i}}=\frac { 1 } { \sum_{ j' }^{ } {B_{j'}}{D_{j'}}{e^{ẞt_{ij'}}} }$$
 
 (10.2)
 
-$${B_{j}}={A_{ij'}}{O_{ij'}}{e^{ẞt_{i'j}}}}}$$
+$${B_{j}}= \frac { 1 } { \sum_{ i' }^{ } {A_{i'}}{O_{i'}}{e^{ẞt_{i'j}}} }$$
 
-It can be shown that $B_j$$D_j$ = ${D^*}_j$, the “modified attraction term” in the gravity model formulation, equation (6). Noting this and substituting (10.1) into (9) yields:
+It can be shown that $B_j$$D_j$ = ${D^\ast}_j$, the “modified attraction term” in the gravity model formulation, equation (6). Noting this and substituting (10.1) into (9) yields:
 
 (11)
 
-$${T_{ij}}=}\over{{∑_{j'}}{e^{βt_{ij'}}}}}$$
+$${T_{ij}}=\frac{{O_{i}}{{D^\ast}_j}{e^{{\beta t}_{ij}}}}{\sum_{j'}^{ }{{D^\ast}_j'}{e^{{\beta t}_{ij'}}} }$$
 
 This is exactly the doubly-constrained gravity model (equation (6)) with the specific impedance function $f_{ij}$ = $e^{{βt}_{ij}}$. In other words, the “ad hoc” gravity model, “properly specified” is the statistically most likely model of a trip O-D matrix, given known constraints. This provides very strong theoretical support for “gravity-like” spatial interaction models. Other important points to note include:
 
-`   A specific entropy model specification is determined by the choice of constraints imposed on the model.  The general procedure for specifying an entropy model is defined below.  Arbitrarily complex specifications can be generated, providing that an appropriate constraint set can be specified.`\
-`   In particular, the impedance functional form derives from the constraint(s) written concerning transportation level-of-service variables.  In the example above, imposing the constraint that the predicted system-wide average travel should equal the observed average time in the base data yields a negative exponential impedance function.  If instead, one wrote a constraint in which the predicted average of `$ln{(T_{ij})}$` equals the observed average value, then the resulting impedance function would take the form of a negative power function `${(t_{ij})}^{-b}$`.`
+A specific entropy model specification is determined by the choice of constraints imposed on the model.  The general procedure for specifying an entropy model is defined below.  Arbitrarily complex specifications can be generated, providing that an appropriate constraint set can be specified.
+
+In particular, the impedance functional form derives from the constraint(s) written concerning transportation level-of-service variables.  In the example above, imposing the constraint that the predicted system-wide average travel should equal the observed average time in the base data yields a negative exponential impedance function.  If instead, one wrote a constraint in which the predicted average of $ln{(T_{ij})}$ equals the observed average value, then the resulting impedance function would take the form of a negative power function ${(t_{ij})}^{-b}$.
 
 Random Utility Models
 ---------------------
@@ -125,7 +126,7 @@ A typical logit destination choice model for the probability that destination j 
 
 (12)
 
-$${P_{j|i}}=}\over{{∑_{j'}}{e^{V_{j'|i}}}}}$$
+$${P_{j|i}}= \frac { {e^{V_{j'|i}}}  }{ \sum_{ j' }^{ }{e^{V_{j'|i}}} }$$
 
 where $V_{j|i}$ is the systematic utility of destination j given origin i. Logit destination choice models are widely used for a variety of reasons including:
 
@@ -145,21 +146,23 @@ But, as Daly (1982),[^2] first observed, gravity models can be shown to be a spe
 
 As a simple illustration of this, equation (4) can be rearranged to yield:
 
-$${T_{ij}}={O_i}[\over{{∑_{j'}}{X_{j'}}{f_{ij'}}}}]=}$$
+$${T_{ij}}={O_i}{\frac { {X_{ j }}{f_{ ij }}   }{ \sum_{j'}{ }{X_{j'}}{f_{ij'}}  } }={O_{i}}{P_{j|i}}$$
 
 where:
 
 (13)
 
-$${P_{j|i}}=\over{{∑_{j'}}{X_{j'}}{f_{ij'}}}}=}}}\over{{∑_{j'}}{e^}+{ln⁡{f_{ij'}}}}}}}$$
+$${P_{j|i}}= \frac { {X_{ j }}{f_{ ij }} }{ \sum_{j'}{ }{X_{j'}}{f_{ij'}}  }=\frac { { e^{ {lnX_{j}}+{lnf_{ij}} } } }{ \sum_{j'}^{ }{e^{{lnX_{j'}}+{lnf_{ij'}}}} }$$
+
+
 
 If we assume that:
-$${f_{i}}j={e^}$$
+$${f_{ij}}={e^{ẞt_{ij}}}$$
 then equation (13) becomes:
 
 (14)
 
-$${P_{j|i}}=}}\over{{∑_{j'}}{e^}+}}}}$$
+$${P_{j|i}}= \frac { {e^{ln{X_{j}}+{{\beta t}_{ij}}}} }{ \sum_{j'}^{ }{e^{ln{X_{j'}}+{{\beta t}_{ij'}}}} }$$
 
 Equation (14) is a simple logit destination choice model.
 
@@ -176,7 +179,7 @@ The intervening opportunities model was first proposed by Stouffer (1940)[^4] an
 
 (15)
 
-$$ {t_{ij}}=}$$
+$$ {t_{ij}}=\frac { {ka_{i}} }{ {v_{ij}} }$$
 
 where k is a constant of proportionality that ensures that all trips from zone i are distributed to destination zones.
 
@@ -226,21 +229,21 @@ If we assume that these trips are proportional to a zone-to-zone impedance funct
 
 (20)
 
-$${T_{ij}}=\over{{∑_{j'}}{D_{j'}}{f_{ij'}}}}$$
+$${T_{ij}}=\frac { {O_{i}}{D_{j}}{f_{ij}} }{\sum_{j'}^{ }{D_{j'}}{f_{ij'}} }$$
 
-Equation (20), however, will not satisfy constraint (19) except, perhaps, in the most trivial cases. The only way that a spatial interaction model can satisfy both the “row constraints” (18) and the “column constraints” (19) is through an iterative solution procedure in which the actual “attraction term” $D_j$ is replaced by a “modified attraction term” ${{D_j}^{*,k}}$ :
+Equation (20), however, will not satisfy constraint (19) except, perhaps, in the most trivial cases. The only way that a spatial interaction model can satisfy both the “row constraints” (18) and the “column constraints” (19) is through an iterative solution procedure in which the actual “attraction term” $D_j$ is replaced by a “modified attraction term” ${{D_j}^{\ast,k}}$ :
 
 (21.1)
 
-$$}=[}]$$
+$$ {D_{j}^{\ast,k+1}}={D_{j}^{\ast,k}}{[\frac { {D_{j}} }{ \sum_{i}^{ }{T_{ij}^k} }]}$$
 
 (21.2)
 
-$$={D_j}$$
+$${{D_j}^{\ast,0}}={D_j}$$
 
 (22)
 
-$$^{k+1}}=\over}}$$
+$${T_{ij}^{k+1}}=\frac{ {O_{ij}}{{D_j}^{\ast,k}}{f_{ij}} }{ \sum_{j'}^{ }{{D_j'}^{\ast,k}}{f_{ij'}}  }$$
 
 Where ${{T_{ij}}^k}$ is the predicted trips from zone i to zone j in the kth iteration and the procedure iterates until:
 
@@ -254,7 +257,7 @@ The equivalent entropy formulation involves solving the following mathematical p
 
 (24)
 
-$$}$$
+$${max_T}{⁡∑_i}{∑_j}{T_{ij}}{ln⁡}{[T_{ij}]}$$
 Subject to:
 Constraints (18) and (19)
 
@@ -266,21 +269,14 @@ Using the method of Lagrange to maximize (24) subject to the equality constraint
 
 (26)
 
-$${T_{ij}}={A_i}{B_j}{O_i}{D_j}{e^}$$
+$${T_{ij}}={A_{i}}{B_{j}}{O_{i}}{D_{j}}{e^{ẞt_{ij}}}$$
 
-where β is an estimated parameter (${β<0}$)and ${A_i}$ and ${B_j}$ are "balancing factors" that are iteratively defined so that constraints (3) and (5) are both satisfied:
+where β is an estimated parameter (${β<0}$)and ${A_i}$ and ${B_j}$ are "balancing factors" that are iteratively defined so that constraints (3) and (5) are both satisfied.
 
-(27.1)
-
-$${A_i}={B_{j'}}{D_{j'}}{e^}}}$$
-
-(27.2)
-
-$${B_j}={A_{ij'}}{O_{ij'}}{e^}}}$$
 
 To numerically compute the balancing factors, the Bj terms can be initialized to 1.0, the Ai terms can be computed given these Bj’s, and the algorithm iterates until the factors converge to stable values.
 
-A common criticism of doubly-constrained gravity models is the supposedly ad hoc nature of the balancing procedure using the “modified attraction terms” described above. As shown by the entropy model formulation, however, a doubly-constrained matrix can only be computed iteratively: no analytical closed-form solution is possible. Further, with manipulation, it can be shown that ${B_j}{D_j}={{D_j}^*}$, the “modified attraction term” in the gravity model formulation, equation (22). Hence the gravity model balancing procedure is not, in fact “ad hoc” but rather the correct method for computing a doubly-constrained matrix.
+A common criticism of doubly-constrained gravity models is the supposedly ad hoc nature of the balancing procedure using the “modified attraction terms” described above. As shown by the entropy model formulation, however, a doubly-constrained matrix can only be computed iteratively: no analytical closed-form solution is possible. Further, with manipulation, it can be shown that ${B_j}{D_j}={{D_j}^\ast}$, the “modified attraction term” in the gravity model formulation, equation (22). Hence the gravity model balancing procedure is not, in fact “ad hoc” but rather the correct method for computing a doubly-constrained matrix.
 
 Estimating Gravity/Entropy Model Parameters
 -------------------------------------------
@@ -294,14 +290,14 @@ Developing an Entropy Model
 
 Explanatory variables are entered into an entropy model by writing a constraint for each variable. In the sections above, travel time was entered into the model by writing a constraint involving it (predicted average time = observed average time). This can be repeated for as many variables as desired. As an example, consider a singly- (origin-) constrained shopping destination choice model in which one wants the following explanatory variables to enter the impedance (utility) function:
 
-`   ln(Fj) (where Fj is the amount of retail floorspace in zone j)`\
-`   A “dummy variable” CBDj (where CBDj  = 1 if zone j is in the city’s central business district).`
+   ln(Fj) (where Fj is the amount of retail floorspace in zone j)
+   A “dummy variable” CBDj (where CBDj  = 1 if zone j is in the city’s central business district).
 
 The full mathematical program to solve to generate this model is:
 
 (28)
 
-$$}$$
+$${max_T}{⁡∑_i}{∑_j}{T_{ij}}{ln⁡}{[T_{ij}]}$$
 Subject to:
 
 (29)
@@ -310,14 +306,18 @@ $$\sum _{ j\prime }^{ }{ { T }_{ ij\prime } } ={ O }_{ i }\qquad \qquad { \foral
 
 (30)
 
-$${∑_i}{∑_j}{T_{ij}}{ln⁡({F_j})}= {¯F} ={"Total weighted"{ln⁡(floorspace)}visited"}$$
+$${∑_i}{∑_j}{T_{ij}}{CBD_j}= \bar {CBD} ={"TotaltripsdestinedfortheCBD"}$$
+
+(31)
+
+$${∑_i}{∑_j}{T_{ij}}{ln⁡({F_j})}= \bar {F} ={"Total weighted"{ln⁡(floorspace)}visited"}$$
 
 (32)
 
 $$\frac { \sum _{ i }^{ }{ \sum _{ j }^{ }{ { T }_{ ij } } { t }_{ ij } } }{ T } =\bar { t } \qquad \qquad { \forall }_{ i,j }$$
 To solve this, construct the Lagrangian equation:
 
-$${ln⁡{T_{ij}}}} - {∑_i}{λ_i}[{{∑_{j'}}{T_{ij'}} - {O_i}]} - - {T¯t}]}$$
+$$ {max_T}{S}={⁡∑_i}{∑_j}{T_{ij}}{ln⁡}{[T_{ij}]}-\sum_{i}{λ}_{i}{[\sum _{ j\prime }^{ }{ { T }_{ ij\prime } }-{ O }_{ i }]}-{μ}{[{∑_i}{∑_j}{T_{ij}}{CBD_j}- \bar {CBD}]}-{γ}{[{∑_i}{∑_j}{T_{ij}}{ln⁡({F_j})}-\bar {F}]}-{β}{[{ \sum _{ i }^{ }{ \sum _{ j }^{ }{ { T }_{ ij } } { t }_{ ij } } }-{ T}\bar {t}]}$$
 
 To maximize, solve the first-order optimality conditions:
 
@@ -332,19 +332,19 @@ Substituting (33) into (29) and solving for ${1+{λ_i}}$ yields:
 
 (34)
 
-$${e^{1+{λ}_i}}={e^{μ{CBD}_{j'}+γ{ln{F_{j'}}+{βt}_{ij'}}}}}}$$
+$${e^{1+{λ}_i}}=\frac {O_i} { \sum_{j'}{e^{μ{CBD}_{j'}+γln{F_{j'}}+{βt}_{ij'}}} }$$
 
 Substituting (34) into (33) yields:
 
 (35)
 
-$${T_{ij}}=}\over + {βt}_{ij'}}}}}}$$
+$${T_{ij}}=\frac { {O_i}{ e^{ μ{CBD}_{j}+γln{F_{j}}+{βt}_{ij} } }   }{ \sum_{j'}{ e^{ μ{CBD}_{j'}+γln{F_{j'}}+{βt}_{ij'} } } }$$
 
 Equation (35) is the desired singly-constrained entropy trip destination model. Note that it can be rewritten as:
 
 (36)
 
-$${T_{ij}}=}\over{{∑_{j'}}^γ}{e^ + {βt}_{ij'}}}}}$$
+$${T_{ij}}=\frac { {O_i}{F_j}^{γ}{e^{μ{CBD}_{j}+{βt}_{ij}}}   }{ \sum_{j'} {O_i}{F_j'}^{γ}{e^{μ{CBD}_{j'}+{βt}_{ij'}}}  }$$
 
 which is often the format used for “gravity” models.
 
@@ -352,7 +352,7 @@ Equation (35) also defines the destination probability choice model:
 
 (37)
 
-$${P_{j|i}}= +{βt}_{ij}}}\over{{∑_{j'}{e^ + γ{ln{F_{j'}}}+{βt}_{ij'}}}}}}$$
+$${P_{j|i}}= \frac { {e^{μ{CBD}_{j}+γln{F_{j}}+{βt}_{ij}}}   }{ \sum_{j'}{e^{μ{CBD}_{j'}+γln{F_{j'}}+{βt}_{ij'}}} }$$
 
 As previously discussed, equation (36) is a multinomial logit model, which can be estimated using standard logit estimation software.
 

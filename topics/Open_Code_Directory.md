@@ -2,7 +2,6 @@
 title: "Open Code Directory"
 noTOC: true
 categories:
-  - Needs Review
   - Reports
   - Resources
 links:
@@ -34,4 +33,3 @@ The creation of the Zephyr Directory was made possible with the support of the O
 2017-4-17
 
 ------------------------------------------------------------------------
-

@@ -11,7 +11,7 @@ categories:
 Introduction
 ------------
 
-Project-level traffic forecasting is a specialized set of techniques intended to refine and improve the output of generalized demand forecasting methods, typically by using empirical data along with other validation methodologies. Project-level traffic forecasting became well established with the publication of [NCHRP Report 255](http://teachamerica.com/tih/PDF/nchrp255.pdf) (1982), which was later superseded by [NCHRP Report 765](NCHRP_Report_765) (2014). The "[Hawaii Guidelines](Hawaii_Guidelines)" are a rewritten version of much of the material in NCHRP Report 765, and these guidelines form the basis for this article.
+Project-level traffic forecasting is a specialized set of techniques intended to refine and improve the output of generalized demand forecasting methods, typically by using empirical data along with other validation methodologies. Project-level traffic forecasting became well established with the publication of [NCHRP Report 255](http://teachamerica.com/tih/PDF/nchrp255.pdf) (1982), which was later superseded by [NCHRP Report 765](NCHRP_Report_765) (2014). The "[Hawaii Guidelines](https://rosap.ntl.bts.gov/view/dot/31466)" are a rewritten version of much of the material in NCHRP Report 765, and these guidelines form the basis for this article.
 
 The Practice of Project-Level Travel Forecasting
 ------------------------------------------------

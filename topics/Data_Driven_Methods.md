@@ -1,16 +1,12 @@
 ---
 title: "Data Driven Methods"
 categories:
-  - Needs Review
   - Destination Choice Models
 ---
 
-<span style="background:lightgrey;padding:10px;border-left: thick double #0000aa;"> This page is part of the Category \[.</span>
-
 There are generally two methods for using travel demand models together with passive origin-destination (OD) data or incorporating this data in travel demand models. The first approach uses travel demand models (usually of more traditional, aggregate designs) to pivot off of OD matrices developed from passive data and traffic counts. The second approach instead uses these OD matrices to develop fixed factors or constants which are incorporated into the travel model; this approach is more attractive for activity-based demand simulation models although it can also be applied with aggregate trip-based travel models. The following sections describe and discuss these two similar and related but alternative approaches.
 
-Pivot-Point Methods
--------------------
+## Pivot-Point Methods
 
 The most common approach to using travel demand models together with an independently data-derived trip matrix is to apply the change in OD travel patterns predicted by a model to the data-driven OD matrix.[^1] [^2]
 
@@ -26,8 +22,7 @@ This can be viewed in either a positive or negative light. On the one hand, the 
 While the inability of pivot-point methods to address under-specification errors affecting model sensitivities is an important theoretical concern, one of the main drawbacks of pivot-point approaches in practice is the inability of applying the approach at the level of disaggregate demand in demand simulation models such as activity-based models or supply chain simulation models. The fixed-factor approach presented in the following section offers an alternative method that can be applied to disaggregate demand simulation models as well as traditional aggregate models.
 In summary, pivot-point approaches may not be theoretically ideal or practical for use with activity-based or supply chain simulation models, but they are easy to apply with many travel models and can substantially reduce error.
 
-Fixed-Factor/Constant Rich Methods
-----------------------------------
+## Fixed-Factor/Constant Rich Methods
 
 Fixed-factor or constant rich approaches involve a deeper integration of big OD data into a travel model. As such, they generally require more effort, but they can also potentially yield greater benefits than pivot-point methods and are applicable to activity-based or supply chain simulation models as well as more traditional aggregate trip-based models.
 
@@ -39,23 +34,22 @@ A constant rich, fixed-factor approach was used to incorporate passive OD data i
 
 The Chattanooga model’s zones were grouped into 40 districts (in part due to limited confidence in the spatial precision of the data being used) and 1,600 constants were estimated for each district OD pairing. The shadow-pricing estimation was judged to have converged after 24 iterations. The sum of absolute errors versus the OD data decreased from 516,595 to 59,962 when comparing the original comparison of the model without constants to big OD data to the final model with the fixed factors from shadow pricing. The weighted mean absolute percent error decreased from 22.2% to 8.3%, and the RMSE decreased from 37.1% to 10.5%. A summary comparison of the actual patterns at the level of 12 further aggregated superdistricts is presented in the table below as a complement to these statistics.
 
-![](ChattanoogaDistrict2District.jpg "ChattanoogaDistrict2District.jpg")
+[](https://github.com/tfresource/website/blob/source/.vuepress/public/topics/ChattanoogaDistrict2District.jpg)
 
-''Comparison Between Passive Cell Phone Based ODs and Destination Choice Models with Fixed Factors in Chattanooga
+_Comparison Between Passive Cell Phone Based ODs and Destination Choice Models with Fixed Factors in Chattanooga_
 
 The table shows that a constant rich fixed-factor or shadow-pricing approach can allow travel demand models to reproduce travel patterns from big OD data with good accuracy. The table shows that relative percentage errors for all OD pairs are between -0.4% and +0.6% and total trips from/to superdistricts are between -1.8% and +0.7% indicating very good agreement between the model and the data. The modeled OD matrices using these factors also produced improved agreement of the modeled traffic volumes with traffic counts on the highway network. It also contributed to good assignment validation statistics allowing the model to achieve a RMSE of modeled traffic volumes versus counts of 28.97% and a correlation coefficient of 0.971. Although some traffic counts were used to correct the expansion of the cell phone data using the iterative screenline fitting approach discussed in Section 4.2.4, the final agreement between the modeled roadway volumes and all traffic counts provides some degree of further independent validation of these methods and their ability to reproduce travel patterns.
 
-References
-==========
+## References
 
 Source Content: How-To: Develop Big Data Driven Demand for Traffic Forecasting, FHWA: Travel Model Improvement Program (TMIP), Forthcoming, 2017.
-[Content Charrette: Destination Choice Models](Content_Charrette_Destination_Choice_Models)
+[Content Charrette: Destination Choice Models](https://tfresource.org/topics/Content_Charrette_Destination_Choice_Models.html)
 
-[^1]: 24\. Daly, A., J. Fox and J. Tuinenga. Pivot-Point Procedures in Practical Travel Demand Modeling. Presented at the 45th Congress of the European Regional Science Association, Amsterdam, The Netherlands, August 2005.
+[^1]: Daly, A., J. Fox and J. Tuinenga. Pivot-Point Procedures in Practical Travel Demand Modeling. Presented at the 45th Congress of the European Regional Science Association, Amsterdam, The Netherlands, August 2005.
 
-[^2]: 24\. 25. Fox, J., A. Daly and B. Patruni. Enhancement of the Pivot Point Process used in the Sydney Strategic Model. Bureau of Transport Statistics, Transport for New South Wales, 2012.
+[^2]: Fox, J., A. Daly and B. Patruni. Enhancement of the Pivot Point Process used in the Sydney Strategic Model. Bureau of Transport Statistics, Transport for New South Wales, 2012.
 
 [^3]: Zhao, Y. and K. Kockelman (2002) 'The Propagation of Uncertainty through Travel Demand Models', *Annals of Regional Science* 36 (1), pp.145-163
 
-[^4]: 13\. Lee, Y., V. Bernardin and D. Kall, Big Data and Advanced Models on a Mid-Sized City’s Budget: The Chattanooga Experience. Presented at the 15th National Tools of the Trade Conference, Charleston, SC, September, 2016.
+[^4]: Lee, Y., V. Bernardin and D. Kall, Big Data and Advanced Models on a Mid-Sized City’s Budget: The Chattanooga Experience. Presented at the 15th National Tools of the Trade Conference, Charleston, SC, September, 2016.
 

@@ -2,13 +2,12 @@
 title: "Travel Behaviour: A review of recent literature"
 noTOC: true
 categories:
-  - Needs Review
   - Reports
   - Resources
 links:
-  - type: Report (PDF)
-    label: "report"
-    url: http://urbanet.curtin.edu.au/local/pdf/ARC_TOD_Working_Paper_3.pdf
+  - type: PDF
+    label: "Report"
+    url: https://urbanet.curtin.edu.au/wp-content/uploads/sites/40/2018/12/ARC_TOD_Working_Paper_3.pdf
 ---
 
 
@@ -16,14 +15,12 @@ links:
 
 #### Author
 
-Carey Curtis
-
-Tim Perkins
+- Carey Curtis
+- Tim Perkins
 
 #### Source
 
-Department of Urban and Regional Planning,
-Curtin University
+Department of Urban and Regional Planning, Curtin University
 
 #### Abstract
 
@@ -35,9 +32,4 @@ Copyrighted, available at website.
 
 #### Publication Date
 
-2006}}
-
-------------------------------------------------------------------------
-
-
-
+2006

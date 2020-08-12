@@ -5,7 +5,7 @@ categories:
   - Public Transport (Transit) Modeling
 ---
 
-Some characteristics of transit vehicles within [Public Transport Modeling](Public_Transport_Modeling) include:
+Some characteristics of transit vehicles within [Public Transport Modeling](Public_transport_transit_modeling) include:
 
 -   Seated and crush-level capacities - required for a system that accounts for crowding
 -   Acceleration, deceleration, and maximum speeds - required if you want to translate to a traffic simulation and do an operational analysis

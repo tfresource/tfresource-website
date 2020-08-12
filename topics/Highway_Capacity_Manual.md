@@ -2,13 +2,12 @@
 title: "Highway Capacity Manual"
 noTOC: true
 categories:
-  - Needs Review
   - Reports
   - Resources
 links:
   - type: HCM Home Page
     label: "Link"
-    url: http://trb.metapress.com/content/p6v332
+    url: http://www.trb.org/Main/Blurbs/175169.aspx
 ---
 
 
@@ -72,10 +71,6 @@ To order HCM 6, go to <http://www.trb.org/publications/hcm6e.aspx>
 
 #### Publication Date
 
-2010}}
-2016}}
+2010, 2016
 
 ------------------------------------------------------------------------
-
-
-

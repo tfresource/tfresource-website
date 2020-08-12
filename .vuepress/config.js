@@ -1,3 +1,5 @@
+const sidebarEntries = require('./sidebar')
+
 module.exports = {
   evergreen: true,
   head: [
@@ -16,6 +18,17 @@ module.exports = {
       },
     ],
     ['link', { rel: 'icon', href: '/tiny-logo.png' }],
+    ['meta', { property: 'og:title', content: 'Travel Forecasting Resource' }],
+    [
+      'meta',
+      {
+        property: 'og:description',
+        content:
+          'Travel forecasting, explained. A collection of best practices and practical know-how for learning about, creating, and using travel forecasting models.',
+      },
+    ],
+    ['meta', { property: 'og:image', content: 'https://tfresource.org/og-image.jpg' }],
+    ['meta', { property: 'og:url', content: 'https://tfresource.org' }],
   ],
   markdown: {
     extendMarkdown: md => {
@@ -52,10 +65,11 @@ module.exports = {
         additionalArgs: '--no-merge',
       },
     ],
+    ['minimal-analytics', { ga: 'UA-157455011-1' }],
   ],
-  title: 'tfr',
+  title: 'TF Resource',
   themeConfig: {
-    repo: 'tfresource/tfresource.github.io',
+    repo: 'tfresource/website',
     docsBranch: 'source',
     displayAllHeaders: false,
     editLinks: true,
@@ -63,9 +77,17 @@ module.exports = {
     lastUpdated: 'Last Updated',
     logo: '/tfr-logo-title.png',
     sidebarDepth: 0,
+    sidebar: sidebarEntries,
     nav: [
-      { text: 'Topics', link: '/topics/' },
-      { text: 'Events', link: '/events/' },
+      { text: 'Travel Forecasting', link: '/topics/' },
+      { text: 'Survey Manual', link: '/surveymanual/' },
+      {
+        text: 'About',
+        items: [
+          { text: 'About TF-Resource', link: '/topics/About' },
+          // , { text: 'How to Contribute', link: '/thing/' }
+        ],
+      },
       /*
       {
         text: 'RESOURCES',
@@ -81,44 +103,17 @@ module.exports = {
           {
             text: 'Other Websites',
             items: [
-              { text: 'TF-Resource OG', link: 'http://tfresource.org' },
+              { text: 'TF-Resource OG', link: 'http://old.tfresource.org' },
               {
                 text: 'Wikipedia Travel Forecasting',
                 link: 'https://en.wikipedia.org/wiki/Transportation_forecasting',
               },
-              { text: 'TFR on Github', link: 'https://github.com/billyc/tfresource' },
+              { text: 'TFR on Github', link: 'https://github.com/tfresource' },
             ],
           },
         ],
       },
       */
-      {
-        text: 'About',
-        items: [
-          { text: 'About TF-Resource', link: '/topics/About' },
-          // , { text: 'How to Contribute', link: '/thing/' }
-        ],
-      },
-    ],
-    sidebar: [
-      {
-        title: 'For Reviewers',
-        children: [
-          '/topics/',
-          '/topics/TF_Resource_Volunteers',
-          '/topics/Contributing',
-          '/topics/Tips-for-reviewing-pages',
-          '/topics/Contributing-Dev-Instructions',
-        ],
-      },
-      {
-        title: 'Modeling Topics',
-        children: [
-          '/topics/Big_Picture',
-          '/topics/Activity_based_models',
-          '/topics/Trip_based_models'
-        ]
-      },
     ],
   },
 }

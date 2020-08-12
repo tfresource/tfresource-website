@@ -1,30 +1,32 @@
 ---
 title: "About"
 categories:
-  - Needs Review
   - About
+  - Topic Circles
 ---
+
+<PagesInCategory category="About" />
 
 About the TFResource
 --------------------
 
 ### Project origins
 
-This project came about due to a TRB research project designed to examine the state-of-the-practice in metropolitan travel forecasting. In the final report, [Metropolitan Travel Forecasting: Current Practice and Future Direction](http://www.trb.org/Main/Blurbs/158933.aspx), the committee identified many recommendations to improve travel demand forecasting, including: *A national travel forecasting handbook be developed and kept current to provide salient information to those practicing travel demand forecasting;* This suggestion was taken up by the forecasting community and this TFResource will eventually be that handbook.
+This project came about due to a TRB research project designed to examine the state-of-the-practice in metropolitan travel forecasting. In the final report, [Metropolitan Travel Forecasting: Current Practice and Future Direction](http://www.trb.org/Main/Blurbs/158933.aspx), the committee identified many recommendations to improve travel demand forecasting, including: *A national travel forecasting handbook be developed and kept current to provide salient information to those practicing travel demand forecasting;* This suggestion was taken up by the forecasting community and this TFResource will be that handbook.
 
 ### Project administration
 
-TRB is serving as the “secretariat” for the site. This means providing staffing, support to the curators and contributors, and contracting with the experts needed to develop the site. A TRB standing committee was also appointed to provide the technical expertise to develop the website - these are our [Volunteers](TF_Resource_Volunteers).
+TRB is serving as the “secretariat” for the site. This means providing staffing, support to the curators and contributors, and contracting with the experts needed to develop the site. A TRB committee was also appointed to provide the technical expertise to develop the website - these are our [volunteers](TF_Resource_Volunteers). 
 
-In addition to the [Volunteers](TF_Resource_Volunteers), the website [Administrators](Administrators) are responsible for the general organization, functionality and operation of the site itself. If you have suggestions on how to improve the TFResource functionality, please let the [Administrators](Administrators) know.
+In addition to the [volunteers](TF_Resource_Volunteers), the [administrators](Administration) are responsible for the general organization, functionality and operation of the site itself. If you have suggestions on how to improve the TFResource functionality, please let the [administrators](Administration) know.
 
 ### Wikipedia vs. TFResource - the similarities and the differences
 
-Wikipedia has changed the way we conduct research, find those pesky facts, and start to learn a topic. The TFResource
+Wikipedia has changed the way we conduct research, find those pesky facts, and start to learn a topic. Like Wikipedia, the TFResource relies on community contributors to develop and update articles. TFResource also relies on editors within the community with subject matter expertise to assist with curating articles. Traditionally, transport modelers have contributed to TFResource, but experts from related fields are welcome to contribute as well. 
 
 ### Reference and Resources we consulted in developing the site
 
-We have benefited from the many community based webpages that have been developed before ours. The references below were used in all aspects of the website development.
+We have benefited from the many community-based webpages that have been developed before ours. The references below were used in all aspects of the website development.
 
 -   Wikipedia Introduction to policies and guidelines, Five Pillars, Policies and Guidelines, List of Policies, List of Guidelines, WikiProject Council/Guide, WikiProject Council/Directory, To-do List, web resources examined 9/9/2010 and later dates
 -   Office SharePoint 2007 – Checklist Guide, Tips and Info

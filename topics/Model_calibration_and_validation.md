@@ -1,9 +1,10 @@
 ---
 title: "Model calibration and validation"
 categories:
-  - Needs Review
   - Topic Circles
 ---
+
+<PagesInCategory category="Model Calibration and Validation" />
 
 Travel models are typically defined as a set of mathematical formulae and relationships, being used in an attempt to reflect an open system – the real world populated by people who are responding to influences that are constantly changing, do not always make rational decisions, and whose responses to influences affecting travel are not always the same. Since travel models (and travel modelers) cannot be omniscient, there will always be missed information and abstractions resulting in less than perfect models. Travel model calibration can be defined as the approach and methods used to make travel models reasonably reproduce a snapshot of travel in the modeling area. Travel model validation can be defined as the approach and methods used to demonstrate that travel models have reasonable sensitivities and will provide reasonable forecasts of travel based on alternative conditions or assumptions regarding the population or transportation system.
 
@@ -43,9 +44,7 @@ Additional Information
 
 See the following pages for additional information:
 
-:   
-
--   [Validating Input Data](Validating_Input_Data)
+- [Validating Input Data](Validating_Input_Data)
 
 ### Input Data
 
@@ -129,13 +128,13 @@ Another check of travel patterns is the amount of intrazonal trips. The modeled 
 
 #### Trip Assignment Models
 
-### Activity Based Models
+#### Activity Based Models
 
 #### [Population Synthesis](Population_Synthesis)
 
 #### Long Term Choice Models
 
-### Statewide Travel Models
+#### Statewide Travel Models
 
-### Model System Validation
+#### Model System Validation
 

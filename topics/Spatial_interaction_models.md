@@ -2,10 +2,10 @@
 title: "Spatial interaction models"
 categories:
   - Destination Choice Models
-  - Spatial Interaction Models
   - Topic Circles
 ---
 
+<PagesInCategory category="Spatial Interaction Models" />
 
 Spatial interaction models predict the amount or likelihood of people or goods (or services or information) moving between two locations in space. Generally, the model predicts the interchange of goods or people between all the members of a discrete set of locations or zones resulting in a square matrix of movements or flows from each zone to each zone. However, sometimes spatial interaction models, particularly disaggregate applications, may instead produce a list of interactions or movements rather than a sparse matrix.
 
@@ -147,13 +147,13 @@ Related Content
 
 [^3]: Daly, A. (1982) 'Estimating Choice Models Containing Attraction Variables', "Transportation Research, Part B: Methodological" Vol. 16, No. 1, pp. 5-15
 
-[^4]: 
+[^4]:
 
-[^5]: 
+[^5]:
 
 [^6]: Fratar, T. J. “Vehicular Trip Distribution by Successive Approximations”, Traffic Quarterly, 1954.
 
 [^7]: Daly, A., J. Fox, B. Patruni and F. Milthorpe (2012) 'Pivoting in Travel Demand Models' presented at Australasian Transport Research Forum
 
-[^8]: 
+[^8]:
 

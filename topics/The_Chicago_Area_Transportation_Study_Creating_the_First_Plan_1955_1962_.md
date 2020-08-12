@@ -2,7 +2,6 @@
 title: "The Chicago Area Transportation Study: Creating the First Plan (1955-1962)"
 noTOC: true
 categories:
-  - Needs Review
   - Papers
   - Resources
   - Travel Survey Data
@@ -14,10 +13,11 @@ links:
     url: http://www.surveyarchive.org/Chicago/cats_1954-62.pdf
 ---
 
+_The Chicago Area Transportation Study: Creating the First Plan (1955-1962)_
 
 #### Author
 
-A.V. Plummer
+Andrew V. Plummer
 
 #### Source
 
@@ -34,8 +34,3 @@ None.
 #### Publication Date
 
 2010-January-1
-
-------------------------------------------------------------------------
-
-
-

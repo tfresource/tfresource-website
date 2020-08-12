@@ -1,12 +1,14 @@
 ---
 title: "Dynamic Traffic Assignment"
 categories:
-  - Needs Review
+  - Topic Circles
   - Activity Based Models
   - Network Assignment
 ---
 
-Dynamic network assignment models (also referred to as dynamic traffic assignment models or DTA) capture the changes in network performance by detailed time-of-day, and can be used to generate time varying measures of this performance. They occupy the middle ground between static macroscopic traffic assignment and microscopic traffic simulation models. The same level of network and zonal resolution used in regional travel models are often used in DTA models, but at a much finer level of temporal detail. Because they typically employ link-based simulation models they produce more robust estimates of link flows and travel times. DTA models are often used for both small and large-scale traffic studies, but traditionally have not been used with regional travel models. That is rapidly changing, as the integration of DTA and [Activity-Based\_Models](Activity_Based_Models) is a hot topic in travel forecasting.
+<PagesInCategory category="Network Assignment" />
+
+Dynamic network assignment models (also referred to as dynamic traffic assignment models or DTA) capture the changes in network performance by detailed time-of-day, and can be used to generate time varying measures of this performance. They occupy the middle ground between static macroscopic traffic assignment and microscopic traffic simulation models. The same level of network and zonal resolution used in regional travel models are often used in DTA models, but at a much finer level of temporal detail. Because they typically employ link-based simulation models they produce more robust estimates of link flows and travel times. DTA models are often used for both small and large-scale traffic studies, but traditionally have not been used with regional travel models. That is rapidly changing, as the integration of DTA and [Activity-Based\_Models](https://tfresource.github.io/topics/Activity_based_models.html) is a hot topic in travel forecasting.
 
 Background
 ----------
@@ -40,7 +42,7 @@ Research Needs
 
 A number of cities are currently testing DTA models, but are not far enough along in their work to share even preliminary results. At least a dozen such cases are known to be in varying stages of planning or execution, suggesting that the use of DTA models in planning applications is about to expand dramatically. However, in addition to the issue of long run times, a number of other issues must be addressed before such models are likely to be widely adopted:
 
--   The integration of DTA and travel demand models has only been attempted on an ad hoc basis, although the topic has received considerable research interest ([Boyce 1986](http://journals.sagepub.com/doi/abs/10.1068/a180485), [Lin et al. 2008](http://trrjournalonline.trb.org/doi/abs/10.3141/2076-06)). Operational models formally incorporating feedback between the two modeling realms was attempted as part of SHRP 2 C10 project in [Sacramento](http://apps.trb.org/cmsfeed/TRBNetProjectDisplay.asp?ProjectID=2828) and [Jacksonville](http://apps.trb.org/cmsfeed/TRBNetProjectDisplay.asp?ProjectID=2829).
+-   The integration of DTA and travel demand models has only been attempted on an ad hoc basis, although the topic has received considerable research interest ([Boyce 1986](http://journals.sagepub.com/doi/abs/10.1068/a180485), [Lin et al. 2008](http://www.caee.utexas.edu/prof/bhat/ABSTRACTS/CEMDAP_VISTA_pub.pdf)). Operational models formally incorporating feedback between the two modeling realms was attempted as part of SHRP 2 C10 project in [Sacramento](http://apps.trb.org/cmsfeed/TRBNetProjectDisplay.asp?ProjectID=2828) and [Jacksonville](http://apps.trb.org/cmsfeed/TRBNetProjectDisplay.asp?ProjectID=2829).
 
 <!-- -->
 
@@ -48,7 +50,7 @@ A number of cities are currently testing DTA models, but are not far enough alon
 
 <!-- -->
 
--   Traffic signal timings have a significant effect on network performance. However, most of the research on DTA models has been on node-abstract analytical solutions. Practical and scalable methods for developing signal timing inputs to regional DTA models have yet to emerge despite considerable evidence of its influence on capacity and operations ([Berg and Do 1981](https://trid.trb.org/view.aspx?id=174269), [Boyce et al. 1989](https://trid.trb.org/view.aspx?id=367767), [Rakha & Van Aerde 1996](http://trrjournalonline.trb.org/doi/abs/10.3141/1566-01)).
+-   Traffic signal timings have a significant effect on network performance. However, most of the research on DTA models has been on node-abstract analytical solutions. Practical and scalable methods for developing signal timing inputs to regional DTA models have yet to emerge despite considerable evidence of its influence on capacity and operations ([Berg and Do 1981](https://trid.trb.org/view.aspx?id=174269), [Boyce et al. 1989](https://trid.trb.org/view.aspx?id=367767), [Rakha & Van Aerde 1996](http://www.civil.uwaterloo.ca/bhellinga/publications/Publications/TRB%201996%20Integration%20Features.pdf)).
 
 <!-- -->
 

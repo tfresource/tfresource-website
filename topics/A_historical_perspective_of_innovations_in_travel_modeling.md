@@ -2,7 +2,6 @@
 title: 'A historical perspective of innovations in travel modeling'
 noTOC: true
 categories:
-  - Needs Review
   - Innovations In Travel Modeling
   - Presentations
   - Resources
@@ -13,7 +12,7 @@ links:
     url: 20160503ITM_WiesPresentation.pdf
 ---
 
-_Resource Title_
+_A historical perspective of innovations in travel modeling_
 
 #### Author
 
@@ -23,12 +22,10 @@ Kermit Wies
 
 #### Abstract
 
-Originally delivered orally at the Tuesday Plenary, 2016 Innovations in Travel Modeling, Denver Colorado
+Originally delivered orally at the Tuesday Plenary, 2016 Innovations in Travel Modeling, Denver, Colorado
 
 #### Copyright & Usage Permissions
 
 #### Publication Date
 
-2016-5-3
-
----
+2016-05-03

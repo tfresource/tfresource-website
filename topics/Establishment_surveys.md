@@ -1,14 +1,10 @@
 ---
 title: "Establishment surveys"
 categories:
-  - Needs Review
   - Travel Surveys
 ---
 
-**Establishment surveys** (also known as **workplace surveys**) ...
-
-Introduction to Establishment Surveys
-=====================================
+## Introduction to Establishment Surveys
 
 Establishment surveys (also known as workplace surveys) collect data on the characteristics of trips made to non-residential locations. The people who travel to non-residential, or commercial, establishments can be divided roughly into two classes: workers and visitors. (Visitors are further categorized as residents of the region and non-residents.) An establishment survey may be directed toward either or both groups, or may concentrate on a specific type of establishment, e.g., shopping center, school, hospital, etc. Many types of analyses, especially those related to studying rezoning, traffic impacts, congestion management, and trip reduction programs, require information on the number and types of trips attracted to various facilities.
 
@@ -23,8 +19,7 @@ The workplace/establishment survey can incorporate up to five separate data coll
 4. Person and/or vehicle count; and
 5. Survey and count of delivery people and/or a count of delivery vehicles. In recent years, GPS technology has been used to collect commercial vehicle movement data for vehicles based at the establishment site.
 
-References
-==========
+## References
 
-This section draws from Chapter 18 of the Travel Survey Manual, authored by Frank Southworth, Yongping Zhang and Joy Sharp. Chapter 18 draws from FHWA Manual Chapter 10.
-
+- Southworth F, Zhang Y, & Sharp J (2010).  [Travel Survey Manual, Chapter 18](https://trbtsm.wiki.zoho.com/Chapter-18.html).
+- Tierney, et al (1996).  [FHWA Travel Survey Manual](https://trid.trb.org/view/465304).

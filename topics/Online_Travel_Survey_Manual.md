@@ -2,8 +2,6 @@
 title: "Online Travel Survey Manual"
 noTOC: true
 categories:
-  - Needs Review
-  - Reports
   - Resources
 links:
   - type: Webpage
@@ -24,7 +22,7 @@ Members and Friends of the Transportation Research Board’s Travel Survey Metho
 
 <http://www.travelsurveymanual.org/>
 
-The [National Cooperative Highway Research Program’s (NCHRP’s) Report 571](National_Cooperative_Highway_Research_Program_s_NCHRP_s)_Report_571) and the [Federal Highway Administration’s (FHWA’s) 1996 Travel Survey Manual](Federal_Highway_Administration_s_FHWA_s)_1996_Travel_Survey_Manual) are the basis for the majority of content contained here.
+[NCHRP Report 571](https://doi.org/10.17226/13805) and the [FHWA 1996 Travel Survey Manual](https://doi.org/10.21949/1404543) are the basis for the majority of content contained here.
 
 #### Table of Contents
 
@@ -63,6 +61,3 @@ This manual is divided into 25 sections or chapters, each relying on multiple ed
 Some material contained here may be copyrighted, and this website does not modify any underlying copyright status. Permission is granted to copy, distribute, display and/or modify the material included here, but only for classroom and non-commercial purposes. Permission is given with the understanding that none of the material will be used to imply TRB or FHWA endorsement of a particular product, method, or practice. Those copying, distributing, displaying or modifying the material in this document for classroom or non-commercial uses will give appropriate acknowledgment of the source of any material. For other uses of the material, individuals must request permission from the Committee.
 
 ------------------------------------------------------------------------
-
-
-

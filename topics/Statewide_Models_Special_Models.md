@@ -1,11 +1,9 @@
 ---
 title: "Statewide Models: Special Models"
 categories:
-  - Needs Review
   - Statewide Models
 ---
 
-<span style="background:lightgrey;padding:10px;border-left: thick double #0000aa;"> This page is part of the Category \[.</span>
 
 This page is under construction.
 

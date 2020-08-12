@@ -6,6 +6,8 @@ categories:
   - Topic Circles
 ---
 
+<PagesInCategory category="Mode Choice" />
+
 Mode choice is the process where the means of traveling is determined. The means of travel is referred to the travel mode, which may be by private automobile, public transportation, walking, bicycling, or other means. How desirable a travel mode is usually is expressed by [utilities](Utility). In most travel models, mode choice is applied to travel that has already been estimated, meaning that mode choice is applied to a trip or tour, or group of trips or tours, where the origin and destination are already known.
 
 Mode choice is an important part of models that are used for analyses such as:
@@ -20,46 +22,33 @@ If a model is vehicle-trip based (i.e., if vehicle trips rather than person trip
 
 In a conventional four-step model, mode choice is considered the third step in the process, following [trip distribution](trip_distribution) and preceding [network assignment](network_assignment). In these models, the outputs of trip distribution are person trip tables, which are matrices of trips where the rows and columns represent some aggregate geography, usually transportation analysis zones (TAZ). By convention, at this point in the modeling process, the rows correspond to trip productions and the columns to [trip attractions](Trip_Generation). The mode choice process determines the percentage of trips made by each mode for each cell in the matrix (zone pair).
 
-In [tour based models](Tour_based_models), including \[, mode choice is usually separated into two stages, the tour level and the trip level. At the tour level, it is assumed that prior steps in the model have generated tours whose origins (usually home) and primary activity locations are known. In a disaggregate activity based model application, for each tour, the probability of using each mode is computed, and the chosen mode is realized through Monte Carlo simulation. At the trip level, it is assumed that prior steps have generated the stops on each tour and that tour mode choice has been simulated. The trip mode choice component simulates the mode for each trip between every two stops on a tour, including the origin and the primary activity location. Trip mode choice is dependent on tour mode choice in that a chosen tour mode will allow only certain trip modes as valid. For example, on an auto tour, where the vehicle is brought along to all stops, transit is usually not permitted for a trip on that tour.
+In [tour based models](Tour_based_models), mode choice is usually separated into two stages, the tour level and the trip level. At the tour level, it is assumed that prior steps in the model have generated tours whose origins (usually home) and primary activity locations are known. In a disaggregate activity based model application, for each tour, the probability of using each mode is computed, and the chosen mode is realized through Monte Carlo simulation. At the trip level, it is assumed that prior steps have generated the stops on each tour and that tour mode choice has been simulated. The trip mode choice component simulates the mode for each trip between every two stops on a tour, including the origin and the primary activity location. Trip mode choice is dependent on tour mode choice in that a chosen tour mode will allow only certain trip modes as valid. For example, on an auto tour, where the vehicle is brought along to all stops, transit is usually not permitted for a trip on that tour.
 
 In both trip based and tour based models, mode choice is determined using probabilities for each mode estimated from the characteristics of the trip, the modes, the traveler, and the environment in which the travel occurs. In an aggregate model, such as a four-step model, mode choice is realized by applying the probabilities as percentages to the trips to which the probabilities apply. In a disaggregate model, such as an activity based model, the probabilities inform a Monte Carlo simulation process that simulates the mode for each tour/trip.
 
 Typically, mode choice is formulated as a discrete choice model with alternatives corresponding to the specific tour or trip modes. The following types of mode alternatives may be found in these models:
 
--   Auto
-
-:\* Drive alone
-
-:\* Shared Ride
-
-:\* Shared ride with 2 occupants
-
-:\* Shared ride with 3 or more occupants
-
-:   
+- Auto
+  - Drive alone
+  - Shared Ride
+    - Shared ride with 2 occupants
+    - Shared ride with 3 or more occupants
 
 In some models, auto modes may be further stratified by having separate sets of alternatives for potential priced road users and non-priced road users.
 
--   Transit
-
-:\* Transit with walk access at the home end
-
-:\* Transit with walk access at the home end
-
-:   
+- Transit
+  - Transit with walk access at the home end
+  - Transit with walk access at the home end
 
 In some models, transit modes may be further stratified by having separate sets of alternatives for by type of transit, such as commuter rail, heavy rail, light rail, express bus, local bus, etc. In some models, school bus may be an alternative for tours or trips with a school purpose.
 
--   Non-motorized
-
-:\* Walk
-
-:\* Bicycle
+- Non-motorized
+  - Walk
+  - Bicycle
 
 Some regions might specify more complex travel models than are warranted based on existing travel choices represented in a travel survey. This is often the case for regions that anticipate testing new alternatives in the future. For example, a region that does not have HOV lanes in a base year might specify a model that stratifies the auto mode by group size rather than simply modeling drive alone and carpool trips. This would provide the capability for testing alternative carpool lane treatments. Likewise, an area without fixed guideway transit service may specify mode models that include walk and drive access (to estimate park-and-ride lot usage) and fixed guideway submodes in order to test future alternatives.
 
-Factors influencing mode choice
--------------------------------
+## Factors influencing mode choice
 
 ### Traveler characteristics (socio-demographics, attitudes, perceptions, lifestyle)
 
@@ -115,46 +104,37 @@ It has been noted \[citation?\] that certain land use characteristics favor the 
 -   Measures of “mixed land use” density that consider how much different types of development (e.g. commercial and residential) occur
 -   Intersection density, which considers the density of the road network as well as its connectivity
 
-Theories of mode choice: Microeconomic, Other
----------------------------------------------
+## Theories of mode choice: Microeconomic, Other
 
 Common approaches to model mode choice
 
-`  Aggregate & trip-based vs. Disaggregate & tour-based`\
-`  `[`Discrete` `choice` `models`](Choice_models)\
-`     BART models`\
-`     MNL, Nested logit, Cross-nested logit`\
-`  Diversion curves , incremental logit, and other approaches`
+- Aggregate & trip-based vs. Disaggregate & tour-based
+- [Discrete choice models](Choice_models)
+  - BART models
+  - MNL, Nested logit, Cross-nested logit, Diversion curves , incremental logit, and other approaches
 
-Practical Issues in Mode Choice Modeling
-----------------------------------------
+## Practical Issues in Mode Choice Modeling
 
 ### Market segmentation
 
 Experience shows that different segments of the population behave differently regarding mode choice \[citation?\]. Some examples are straightforward; for example, travelers without a car available are less likely to use auto modes than travelers who always have a car available. Therefore, some segments may be defined as person or household characteristics (gender, household income, number of vehicles or vehicle sufficiency). Other segments may represent geographic or land use characteristics. For example, a model may include a segment for travel to the central business district (CBD) or to the regional airport. While some of the effects of these types of segmentation may be captured in other model variables (e.g., parking prices at the airport or density of CBD land use), other effects may not be easily captures (e.g., the fact that many attractions can be reached easily without an auto in the CBD).
 Segmentation may be employed in different ways. For example, for a model with alternatives i = 1, 2, 3, … and segments a, b, c, …, and dn represents an indicator variable with value 1 of the traveler is in segment n and 0 otherwise:
 
--   Separate models for different segments
+#### Separate models for different segments
 
-:   
 
     :   V~alternative\\ i,\\ segment\\ a~ = B~0ia~ + B~1ia~X~1ia~ + B~2ia~X~2ia~ + …
 
-<!-- -->
-
-:   
 
     :   V~alternative\\ i,\\ segment\\ b~ = B~0ib~ + B~1ib~X~1ib~ + B~2ib~X~2ib~ + …
 
--   Separate parameters for different market segments
-
-:   
+#### Separate parameters for different market segments
 
     :   V~alternative\\ i~ = B~0ia~d~a~ + B~0ib~d~b~ + B~1ia~X~1i~d~a~ + B~1ib~X~1i~d~b~ + …
 
--   Segmentation variables in mode utility functions
+#### Segmentation variables in mode utility functions
 
-:   
+:
 
     :   V~alternative\\ i~ = B~0ia~d~a~ + B~0ib~d~b~ + B~1i~X~1i~ + B~2i~X~2i~ + …
 
@@ -187,7 +167,7 @@ The FHWA Model Validation Manual [2](https://www.fhwa.dot.gov/planning/tmip/publ
 -   [Transit ridership counts](Transit_Data) – Transit ridership counts have the best information on the total amount of travel by transit, usually at the route level. It is important to recognize, however, that ridership (boarding) counts represent “unlinked trips,” meaning that a person is counted each time he or she boards a new transit vehicle. So a trip that involves transit transfers is counted multiple times. Mode choice models generally consider “linked trips,” where a trip including transfers counts as only one trip. Information on transfer rates is required to convert unlinked trips to linked trips; such information generally is obtained from transit on-board surveys.
 -   [Transit rider survey](Transit_onboard_surveys) – A transit rider survey (typically an on-board survey) is an invaluable source of information for validation of the transit outputs of mode choice models but may have also been a data source for model estimation. A wealth of information that cannot be obtained from transit counts is available from on-board surveys, including:
 
-:   
+:
 
     :   - Transit trip origin-destination patterns by trip purpose;
     :   - Access modes;
@@ -195,7 +175,7 @@ The FHWA Model Validation Manual [2](https://www.fhwa.dot.gov/planning/tmip/publ
     :   - Transit submodes used (e.g., bus, light rail);
     :   - Transit transfer activity; and
     :   - Characteristics of the surveyed riders and their households.
-    :   
+    :
 
 It should be noted that transit on-board surveys usually provide data only for individual transit trips, not tours, and so their use in estimating transit travel in tour-based models is limited.
 

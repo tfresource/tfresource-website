@@ -1,17 +1,16 @@
 ---
-title: "The Transportation Planning Process - Key Issues"
+title: "The Transportation Planning Process Briefing Book"
 noTOC: true
 categories:
-  - Needs Review
   - Reports
   - Resources
 links:
-  - type: PDF
-    label: "Full Document"
-    url: http://www.planning.dot.gov/documents/briefingbook/bbook_07.pdf
+  - type: Link
+    label: "Website"
+    url: https://www.fhwa.dot.gov/planning/publications/briefing_book/index.cfm
 ---
 
-*The Transportation Planning Process: Key Issues*
+_The Transportation Planning Process Briefing Book: Key Issues for Transportation Decisionmakers, Officials, and Staff_
 
 #### Authors
 
@@ -21,19 +20,14 @@ links:
 
 #### Source
 
-US DOT; Publication Number: FHWA-HEP-07-039
+US DOT; Publication Number: FHWA-HEP-18-015
 
 #### Abstract
 
-Transportation helps shape an area’s economic health and quality of life. Not only does the transportation system provide for the mobility of people and goods, it also influences patterns of growth and economic activity by providing access to land. The performance of the system affects public policy concerns like air quality, environmental resource consumption, social equity, land use, urban growth, economic development, safety, and security. Transportation planning recognizes the critical links between transportation and other societal goals. The planning process is more than merely listing highway and transit capital projects.It requires developing strategies for operating, managing, maintaining, and financing the area’s transportation system in such a way as to advance the area’s long-term goals.
+Transportation at its core is about mobility and access. Patterns of growth and activity for people and goods across America are fundamentally driven by how well the transportation system delivers mobility and access. The performance of the transportation system also affects public policy concerns, such as safety, air quality, environmental resource consumption, social equity, resilience, land use, urban growth, economic development, and security. Transportation planning recognizes the critical links between transportation needs and other societal goals. The planning process involves more than simply tabulating capital projects. It includes strategies for operating, managing, maintaining, and financing the transportation system to advance an area's long-term goals and the regional community's shared vision for the future.
 
-This book provides government officials, transportation decisionmakers, planning board members, and transportation service providers with an overview of transportation planning. It contains a basic understanding of key concepts in statewide and metropolitan transportation planning, along with references for additional information. Part I discusses transportation planning and its relationship to decisionmaking. This section is general, and provides a broad introduction to the planning process. Part II presents short descriptions of important policy and planning topics. This section includes more technical information than Part I, but is not intended to provide details of each policy issue.
+This book provides an overview of transportation planning for government officials, transportation decisionmakers, planning board members, transportation service providers, interested stakeholders, and the public. It covers the basics and key concepts of metropolitan and statewide transportation planning, along with references for additional information. Part I discusses transportation planning and its relationship to decisionmaking. This section is general and provides a broad introduction to the planning process. Part II presents short descriptions of the key products that are prepared as part of the transportation planning process.
 
 #### Publication Date
 
-2007|9}}
-
-------------------------------------------------------------------------
-
-
-
+2018

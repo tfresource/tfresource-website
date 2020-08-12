@@ -8,7 +8,7 @@ Hello TF Resource volunteers!! Here are some common problems in the raw imported
 
 - Markdown format [cheat-sheet here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-The best way to see what a page is _supposed_ to look like is to open up the old <http://tfresource.org> website, and navigate to the page with the same name. (Use the search bar to get there quickly). Having that page open side-by-side will help you figure out what needs to be done.
+The best way to see what a page is _supposed_ to look like is to open up the old <http://old.tfresource.org> website, and navigate to the page with the same name. (Use the search bar to get there quickly). Having that page open side-by-side will help you figure out what needs to be done.
 
 ## Page Junk
 
@@ -42,11 +42,11 @@ If you see a broken image icon like this: ![](/broken_link)
 - See if replacing spaces or hyphens with underlines does the trick.
 
 - Look on Github at the folder containing all of the images here; and copy its filename exactly.\
-   ==> All images files are [listed here on Github](https://github.com/tfresource/tfresource.github.io/tree/source/.vuepress/public/topics).
+   ==> All images files are [listed here on Github](https://github.com/tfresource/website/tree/source/.vuepress/public/topics).
 
 If none of these tricks work, maybe the image didn't get copied over correctly. You can copy it directly from the old site:
 
-- Find and click on the image on <http://tfresource.org>
+- Find and click on the image on <http://old.tfresource.org>
 - Right-click and "Save As...", and save to your computer somewhere
 - Then upload that file to the `.vuepress/public/topics` folder, where all image files are stored.
 

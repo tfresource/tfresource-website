@@ -1,21 +1,21 @@
 ---
 title: "Pricing and valuation"
 categories:
-  - Needs Review
-  - Pricing And Valuation
   - Topic Circles
 ---
 
-Learn more about this circle at [Pricing and valuation](Pricing_and_valuation).
+<PagesInCategory category="Pricing and Valuation" />
 
 Attributes of Pricing
 ---------------------
 
 The continued growth in travel demand, worsening congestion, coupled with significant reduction
 in transportation funding available from traditional sources has motivated agencies with planning
-and programing resposibilities to consider tolling and pricing solutions as a means of funding new capacity and better managing system operations.
+and programing responsibilities to consider tolling and pricing solutions as a means of funding new capacity and better managing system operations.
 
-This page will consider methods and strategies for incorporating both pricing and tolling in travel models. **Tolling strategies** involve the imposition of fees for the use of a roadway facility; examples include fixed fees that motorists pay—usually based on the numberof axles or vehicle weight—to cross a bridge or tunnel or drive on a tolled highway facility. Tolling strategies are used primarily as a revenue source to finance and
+This page will consider methods and strategies for incorporating both pricing and tolling in travel models.
+
+**Tolling strategies** involve the imposition of fees for the use of a roadway facility; examples include fixed fees that motorists pay—usually based on the number of axles or vehicle weight—to cross a bridge or tunnel or drive on a tolled highway facility. Tolling strategies are used primarily as a revenue source to finance and
 expedite the implementation of needed transportation improvements.
 
 Pricing specifically refers to strategies that vary toll rates by time of day or traffic volume level to manage congestion
@@ -42,7 +42,7 @@ vehicle classification schemes may require evaluation—from a two-class car-and
 including motorbikes and light commercial vehicles. The identification of the most appropriate classification
 will depend on local conditions and the expected mix of traffic.[^1]
 
-![Traveler Responses]( pricing forms.jpg "Traveler Responses")
+![Traveler Responses](pricing_forms.jpg "Traveler Responses")
 
 Traveler Response to Pricing Strategies
 ---------------------------------------
@@ -75,7 +75,7 @@ Previous research identifies three major aspects of highway driving time that in
 -   quality: amount of stress or pleasure caused by the particular driving conditions
 -   reliability: level of uncertainty with respect to travel time and congestion levels
 
-Each of these three travel time aspects and travel cost are likely to influence travel choices differently, although the corresponding effects are often intertwined (discussed under [Methodological Condiderations](#Methodological_Considerations))
+Each of these three travel time aspects and travel cost are likely to influence travel choices differently, although the corresponding effects are often intertwined (discussed under Methodological Condiderations below)
 
 #### Parking Pricing
 
@@ -121,7 +121,7 @@ These [ models](Benefits_of_dynamic_network_models) are characterized by a fully
 Modeling Enhancements for Pricing
 ---------------------------------
 
-The Strategic Highway Research Program completed a study [ (C04)](SHRP2_C04__Improving_Our_Understanding_of_How_Highway_Congestion_and_Pricing_Affect_Travel_Demand) that provides mathematical descriptions of the full range of highway user behavioral responses to congestion, travel time reliability, and pricing. Critical modeling issues are organized in the following topic areas:
+The Strategic Highway Research Program completed a study [(C04)](SHRP2_C04_Improving_Our_Understanding_of_How_Highway_Congestion_and_Pricing_Affect_Travel_Demand) that provides mathematical descriptions of the full range of highway user behavioral responses to congestion, travel time reliability, and pricing. Critical modeling issues are organized in the following topic areas:
 
 -   Variation in VOT across highway users;
 -   Income and willingness to pay;
@@ -143,7 +143,7 @@ Travelers tend to value variation in travel time reliability (day-to-day variabi
 
 ##### *Implications for Modeling*
 
-[ CO4 Recommendations](SHRP2_C04__Improving_Our_Understanding_of_How_Highway_Congestion_and_Pricing_Affect_Travel_Demand): Although models can be estimated using measures of day-to-day travel time variables from real and simulated highway networks, further progress is needed before this method is feasible for most travel demand forecasts, particularly in terms of widespread collection of data for actual levels of travel time variability at the O-D level. Certain technical issues must also be resolved on the network simulation side, specifically the incorporation of travel time reliability in route choice and the generation of O-D travel time distributions instead of average travel times. In the near term, this method may be most applicable to corridor- and facility-level forecasts. Some simplified implicit measures of reliability (such as perceived highway time by congestion levels, as explained below) can be applied with the existing model structures and network simulation procedures.
+[CO4 Recommendations](SHRP2_C04_Improving_Our_Understanding_of_How_Highway_Congestion_and_Pricing_Affect_Travel_Demand): Although models can be estimated using measures of day-to-day travel time variables from real and simulated highway networks, further progress is needed before this method is feasible for most travel demand forecasts, particularly in terms of widespread collection of data for actual levels of travel time variability at the O-D level. Certain technical issues must also be resolved on the network simulation side, specifically the incorporation of travel time reliability in route choice and the generation of O-D travel time distributions instead of average travel times. In the near term, this method may be most applicable to corridor- and facility-level forecasts. Some simplified implicit measures of reliability (such as perceived highway time by congestion levels, as explained below) can be applied with the existing model structures and network simulation procedures.
 
 #### **Income and Willingness to Pay**
 
@@ -151,15 +151,16 @@ The C04 research discovered a strong non-linear relationship between houseold in
 
 ##### *Implications for Modeling*
 
-[ CO4 recommendations](SHRP2_C04__Improving_Our_Understanding_of_How_Highway_Congestion_and_Pricing_Affect_Travel_Demand): Forecasting models typically use income either in a simplified linear form to scale travel costs or as a segmentation variable, with different cost coefficients in different income ranges. Neither approach seems entirely appropriate. The assumption of linearity with income seems too strong, particularly in higher income ranges, and the piecewise linear approach often results in strong nonlinearities or discontinuities in the effect of income that do not have a strong statistical or behavioral basis. The recommended approach is empirically justified across a wide body of evidence and provides a smooth response surface for forecasting.
+[CO4 recommendations](SHRP2_C04_Improving_Our_Understanding_of_How_Highway_Congestion_and_Pricing_Affect_Travel_Demand): Forecasting models typically use income either in a simplified linear form to scale travel costs or as a segmentation variable, with different cost coefficients in different income ranges. Neither approach seems entirely appropriate. The assumption of linearity with income seems too strong, particularly in higher income ranges, and the piecewise linear approach often results in strong nonlinearities or discontinuities in the effect of income that do not have a strong statistical or behavioral basis. The recommended approach is empirically justified across a wide body of evidence and provides a smooth response surface for forecasting.
 
-![](willingess_pay.png "willingess_pay.png")
+![Willingness to Pay](willingess_pay.png "willingess_pay.png")
 
-~Proportion\\ of\\ payers\\ with\\ lognormal\\ distribution\\ for\\ VOT\\ for\\ a\\ toll\\ of\\ \$20.~
+*Proportion of payers with lognormal distribution for VOT for a toll of $20.*
 
-| Representing Value of Time in Travel Models [^8]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Most models used for travel demand forecasting have assumed a single Value of Time. Only occasionally have different cost coefficients been used for different income groups and vehicle occupancy levels.Differentiation of VOT is even less typical in network simulation procedures. These practices result in significant aggregation biases that affect the accuracy of traffic and revenue forecasts.Whenever possible, random coefficients should be used to estimate the distribution of VOT across the population. For general use, newer activity-based forecasting models that use a microsimulation approach can simulate a different VOT for each person and trip, providing the most disaggregate treatment of VOT, and thus avoiding one important source of possible errors and biases in the forecasts. |
+
+::: tip Representing Value of Time in Travel Models [^8]
+Most models used for travel demand forecasting have assumed a single Value of Time. Only occasionally have different cost coefficients been used for different income groups and vehicle occupancy levels.Differentiation of VOT is even less typical in network simulation procedures. These practices result in significant aggregation biases that affect the accuracy of traffic and revenue forecasts.Whenever possible, random coefficients should be used to estimate the distribution of VOT across the population. For general use, newer activity-based forecasting models that use a microsimulation approach can simulate a different VOT for each person and trip, providing the most disaggregate treatment of VOT, and thus avoiding one important source of possible errors and biases in the forecasts.
+:::
 
 #### Model Deployment Research (SHRPII C10)
 
@@ -188,29 +189,20 @@ A congestion-responsive dynamic pricing algorithm and [dynamic traffic assignmen
 
 More information can be found [here.](http://www.coloradodot.info/programs/high-performance-transportation-enterprise-hpte/projects/us-36-hpte-projects/us36tiger/AnalysisTechnicalMemo%20_draft_editedforgrant.pdf)
 
-References
-----------
+## Related Content
 
-Related Content
----------------
+[^1]: Assessing Highway Tolling and Pricing Impacts, NCHRP Report #722, v1
 
-{{\#ask: [_](_)
-| format=ul
-}}
+[^2]: Understanding Transport Demands and Elasticities, Todd Litman
 
-[^1]: ~Asessing\\ Highway\\ Tolling\\ and\\ Pricing\\ Impacts,\\ NCHRP\\ Report\\ \#722,\\ v1~
+[^3]: Improving Our Understanding of How Highway Congestion and Pricing Affect Travel Demand, SHRPII C04
 
-[^2]: ~Understanding\\ Transport\\ Demands\\ and\\ Elasticities,\\ Todd\\ Litman~
+[^4]: Fare Easticity and It's Application for Travel Demand Forecasting; American Transit Association
 
-[^3]: ~Improving\\ Our\\ Understanding\\ of\\ How\\ Highway\\ Congestion\\ and\\ Pricing\\ Affect\\ Travel\\ Demand,\\ SHRPII\\ C04~
+[^5]: Assessing Highway Tolling and Pricing Options and Impacts, Vol 2; NCHRP 08-57
 
-[^4]: ~Fare\\ Easticity\\ and\\ It's\\ Application\\ for\\ Travel\\ Demand\\ Forecasting;\\ American\\ Transit\\ Association~
+[^6]: Asessing Highway Tolling and Pricing Impacts, NCHRP Report #722, v2
 
-[^5]: ~Assessing\\ Highway\\ Tolling\\ and\\ Pricing\\ Options\\ and\\ Impacts,\\ Vol\\ 2;\\ NCHRP\\ 08-57~
+[^7]: Improving Our Understanding of How Highway Congestion and Pricing Affect Travel Demand, SHRPII C04
 
-[^6]: ~Asessing\\ Highway\\ Tolling\\ and\\ Pricing\\ Impacts,\\ NCHRP\\ Report\\ \#722,\\ v2~
-
-[^7]: ~Improving\\ Our\\ Understanding\\ of\\ How\\ Highway\\ Congestion\\ and\\ Pricing\\ Affect\\ Travel\\ Demand,\\ SHRPII\\ C04~
-
-[^8]: ~Improving\\ Our\\ Understanding\\ of\\ How\\ Highway\\ Congestion\\ and\\ Pricing\\ Affect\\ Travel\\ Demand,\\ SHRPII\\ C04~
-
+[^8]: Improving Our Understanding of How Highway Congestion and Pricing Affect Travel Demand, SHRPII C04

@@ -2,18 +2,22 @@
 title: "H-GAC Activity-Based Model – Model Validation Plan Report"
 noTOC: true
 categories:
-  - Needs Review
   - Model Calibration And Validation
   - Reports
   - Resources
+links:
+  - type: PDF
+    label: "Report PDF"
+    url: http://old.tfresource.org/images/5/59/H-GAC_ABM-Model_Validation_Plan.Final.pdf
 ---
-
 
 #### Author
 
 Cambridge Systematics, Inc.
 
 #### Source
+
+[TMIP](TMIP)
 
 #### Abstract
 
@@ -25,7 +29,4 @@ provided by Cambridge Systematics, Inc. with permission from H-GAC
 
 #### Publication Date
 
-2013|8}}
-
-------------------------------------------------------------------------
-
+August 2013

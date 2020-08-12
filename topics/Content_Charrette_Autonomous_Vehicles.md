@@ -7,7 +7,8 @@ categories:
 
 
 On November 7-8, 2017 the following individuals gathered for the express purpose of generating extensive content on the topic of Autonomous vehicles:
-![Autonomous Vehicles Content Charrette Participants, November 2017](Autonomous_Vehicles_Charrette_Participants.jpeg "fig:Autonomous Vehicles Content Charrette Participants, November 2017")
+
+![Autonomous Vehicles Content Charrette Participants, November 2017](Autonomous_Vehicles_Charrette_Participants.jpeg "Autonomous Vehicles Content Charrette Participants, November 2017")
 
 -   Rick Donnelly
 -   Julie Dunbar
