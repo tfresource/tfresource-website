@@ -6,7 +6,7 @@ categories:
   - About
 ---
 
-The pages on TF Resource are loosely divided into sections on models, data, practical applications/use cases, and a glossary.
+The pages on ==TFR== are loosely divided into sections on models, data, practical applications/use cases, and a glossary.
 
 Browse below, or use the search box to find something specific.
 

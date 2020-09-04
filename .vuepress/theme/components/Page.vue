@@ -5,9 +5,11 @@
     <div class="nav-headings">
       <div v-if="$page.headers && $page.headers.length > 1">
         <b class="toc">Contents</b>
-        <p><a href="#">{{ $page.title }}</a></p>
+        <p>
+          <a href="#">{{ $page.title }}</a>
+        </p>
         <span v-for="header in $page.headers" :key="header.title">
-          <p v-if="header.level <= 3" :class="{'lev3': header.level==3}">
+          <p v-if="header.level <= 3" :class="{ lev3: header.level == 3 }">
             <a :href="'#' + header.slug"> {{ header.title }}</a>
           </p>
         </span>
@@ -16,16 +18,17 @@
       <div v-if="categories">
         <p class="categories"><b>Page categories</b></p>
         <span v-for="category in categories" :key="'cat-' + category">
-          <p><a :href="circleLookup[category.toLowerCase()]"> {{ category }} </a></p>
+          <p>
+            <a :href="circleLookup[category.toLowerCase()]"> {{ category }} </a>
+          </p>
         </span>
       </div>
-
     </div>
 
     <PageEdit />
 
     <div class="theme-default-content">
-      <h1>{{ $page.title}}</h1>
+      <h1>{{ $page.title }}</h1>
 
       <div class="div-links" v-if="$page.frontmatter.links">
         <p>
@@ -37,7 +40,7 @@
               <b>{{ link.type }}</b>
             </td>
             <td>
-              <a :href="link.url" target="_blank">{{link.label}}</a>
+              <a :href="link.url" target="_blank">{{ link.label }}</a>
             </td>
           </tr>
         </table>
@@ -63,31 +66,30 @@ export default {
     categories() {
       const { frontmatter } = this.$page
       if (!frontmatter.categories) return null
-      return frontmatter.categories.sort((a,b) => a < b ? -1 : 1)
+      return frontmatter.categories.sort((a, b) => (a < b ? -1 : 1))
     },
     circleLookup() {
       const circles = this.$site.pages
-        .filter(
-          page => page.frontmatter.categories &&
-          page.frontmatter.categories.indexOf('Topic Circles') > -1 )
-        .sort((a,b) => a.frontmatter.title < b.frontmatter.title ? -1 : 1)
+        .filter(page => page.frontmatter.categories && page.frontmatter.categories.indexOf('Topic Circles') > -1)
+        .sort((a, b) => (a.frontmatter.title < b.frontmatter.title ? -1 : 1))
       const lookup = {}
       for (const page of circles) {
         const title = page.frontmatter.title.toLowerCase()
         lookup[title] = page.path
         // hyphens confuse things, but this is easier than going thru every page:
-        if (title.indexOf('-')>-1) lookup[title.replace(/-/g, ' ')] = page.path
+        if (title.indexOf('-') > -1) lookup[title.replace(/-/g, ' ')] = page.path
       }
       lookup['topic circles'] = '/topics/'
       lookup['needs review'] = '/topics/'
       return lookup
     },
-  }
+  },
 }
 </script>
 
 <style scoped lang="stylus">
 @require '../styles/wrapper.styl';
+@import '~html-hint/dist/html-hint.min.css'
 
 .page {
   padding-bottom: 2rem;
@@ -163,5 +165,27 @@ export default {
     display: none;
   }
 }
+</style>
 
+<style lang="stylus">
+.hint--html {
+  font-weight: bold;
+  color: $accentColor;
+}
+
+.hint__content {
+  border-left: solid 1rem $accentColor;
+  background-color: white;
+  box-shadow: 0px 2px 13px rgba(0.0,0.0,0.0,0.2);
+
+  h3 {
+    color: $accentColor;
+    margin: 0 0;
+    padding-top: 0;
+  }
+
+  p {font-size: 0.9rem; color: #777; margin: 0 0; width: max-content; font-weight: normal;}
+
+  .hint__tiny { margin-top: 0.5rem; color: #aaa; font-size: 0.7rem; text-align: right; margin-left: auto;}
+}
 </style>
