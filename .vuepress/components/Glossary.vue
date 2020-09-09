@@ -5,7 +5,12 @@
       h3 {{ topic }}
     .details
       p {{ terms[topic].definition}}
-      p: router-link.link-text(:to="terms[topic].link") {{ terms[topic].link }}
+      p(v-if="terms[topic].link")
+        a.link-text(v-if="terms[topic].link.startsWith('http')"
+          target="_blank"
+          :href="terms[topic].link") {{ terms[topic].link }}
+        router-link.link-text(v-else :to="terms[topic].link") {{ terms[topic].link }}
+
 </template>
 
 <script>
