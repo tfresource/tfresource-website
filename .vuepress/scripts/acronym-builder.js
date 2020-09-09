@@ -41,7 +41,7 @@ function replaceAcronymnsInFile(filename, lookup) {
       <div class="hint__content">
         <h3>${key}</h3>
         <p>${definition}</p>${link ? `<p class="hint__tiny__left"><a href="${link}">More info</a></p>` : ''}
-        <p class="hint__tiny">See the full <a href="/glossary">TFR Glossary</a></p>
+        <p class="hint__tiny">See the full <a href="/topics/glossary">TFR Glossary</a></p>
         </div></div></span>`
     })
   }
