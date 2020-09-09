@@ -6,7 +6,7 @@ const mdFolders = ['topics', 'surveymanual']
 function readAcronyms() {
   const lookup = {}
 
-  const data = fs.readFileSync('acronyms.csv', 'utf8')
+  const data = fs.readFileSync('.vuepress/public/acronyms.csv', 'utf8')
   for (const line of data.split('\n').slice(1)) {
     const [acronym, description, link] = line.split(',')
     if (acronym) lookup[acronym.trim()] = [description.trim(), link ? link.trim() : '']
