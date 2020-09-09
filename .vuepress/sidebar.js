@@ -1,10 +1,7 @@
 module.exports = [
   {
     title: 'Intro',
-    children: [
-      '/topics/Big_Picture',
-      '/topics/00_Table_Contents',
-    ],
+    children: ['/topics/Big_Picture', '/topics/00_Table_Contents'],
   },
   {
     title: 'Principles and Concepts',
@@ -12,10 +9,10 @@ module.exports = [
       {
         title: 'Concepts of Travel Behavior',
         children: [
-          '/topics/Accessibilities/',
-          '/topics/Impedance/',
-          '/topics/Trip_based_models/',
-          '/topics/Activity_based_models/',
+          '/topics/Accessibilities',
+          '/topics/Impedance',
+          '/topics/Trip_based_models',
+          '/topics/Activity_based_models',
         ],
       },
       {
@@ -27,14 +24,12 @@ module.exports = [
           '/topics/Mode_choice',
           '/topics/Destination_Choice_Models',
           '/topics/Network_assignment',
-          '/topics/Land_use_transport_modeling'
+          '/topics/Land_use_transport_modeling',
         ],
       },
       {
         title: 'Statistics / Econometrics',
-        children: [
-          '/topics/Choice_models',
-        ],
+        children: ['/topics/Choice_models'],
       },
     ],
   },
@@ -53,9 +48,7 @@ module.exports = [
       },
       {
         title: 'Model Development Techniques',
-        children: [
-          '/topics/Model_calibration_and_validation',
-        ],
+        children: ['/topics/Model_calibration_and_validation'],
       },
       {
         title: 'Mode-specific Considerations',
@@ -70,11 +63,7 @@ module.exports = [
   },
   {
     title: 'Model Application and Management',
-    children: [
-      '/topics/New_Starts',
-      '/topics/Project_level_traffic_forecasting',
-      '/topics/Sketch_planning_models',
-    ],
+    children: ['/topics/New_Starts', '/topics/Project_level_traffic_forecasting', '/topics/Sketch_planning_models'],
   },
   {
     title: 'Travel Survey Manual',
