@@ -180,12 +180,15 @@ export default {
 
   h3 {
     color: $accentColor;
-    margin: 0 0;
+    margin: 0 0 0.5rem 0;
     padding-top: 0;
   }
 
-  p {font-size: 0.9rem; color: #777; margin: 0 0; width: max-content; font-weight: normal;}
+  p {font-size: 0.9rem; color: #555; margin: 0 0; width: max-content; font-weight: normal;}
 
-  .hint__tiny { margin-top: 0.5rem; color: #aaa; font-size: 0.7rem; text-align: right; margin-left: auto;}
+  .hint__tiny { margin-top: 0.5rem; color: #aaa; font-size: 0.7rem;}
+
+  .hint__tiny__left { margin-top: -0.5rem; padding: 0 0; color: #aaa; font-size: 0.7rem;}
+
 }
 </style>
