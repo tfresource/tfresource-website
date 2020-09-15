@@ -170,11 +170,11 @@ export default {
 <style lang="stylus">
 .hint--html {
   font-weight: bold;
-  color: $accentColor;
+  color: $acronymPopup;
 }
 
 .hint__content {
-  border-left: solid 1rem $accentColor;
+  border-left: solid 1rem $acronymPopup;
   background-color: white;
   box-shadow: 0px 2px 13px rgba(0.0,0.0,0.0,0.2);
 
