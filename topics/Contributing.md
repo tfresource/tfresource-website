@@ -15,7 +15,7 @@ Thank you!!!
 
 This website serves as a community resource for travel forecasting research and practice. We welcome your participation!
 
-This community is comprised of [volunteers](TF_Resource_Volunteers), many of whom are affiliated with the Transportation Research Board's ADB45 Committee for Travel Forecasting Resources.
+This community is comprised of [volunteers](TF_Resource_Volunteers), many of whom are affiliated with the Transportation Research Board's Standing Committee (AEP50) on Transportation Demand Forecasting's Subcommittee for Travel Forecasting Resources.
 
 ## Getting started
 
