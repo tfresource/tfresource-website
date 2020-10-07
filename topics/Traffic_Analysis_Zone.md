@@ -29,6 +29,9 @@ Travel modeling systems could use spatial analysis units that are of a uniform s
 ## References
 
 [Content Charrette: Destination Choice Models](Content_Charrette_Destination_Choice_Models)
+
 Castiglione, J., Bradley, M., & Gliebe, J. (2015). *Activity-based travel demand models: A primer* (SHRP 2 Report SR-C46-RR-1). Transportation Research Board. https://doi.org/10.17226/22357
+
 Miller, H. J., & Shih-Lung S. (2001). *Geographic information systems for transportation*. Oxford University Press. 
+
 Ortúzar, J. d. D., & Willumsen, L. G. (2011). *Modelling transport* (4th ed.). Wiley. 
