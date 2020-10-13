@@ -1,12 +1,12 @@
 ---
-title: 'Topic Index'
+title: 'Index'
 no_index: true
 editLink: false
 categories:
   - About
 ---
 
-The pages on ==TFR== are loosely divided into sections on models, data, practical applications/use cases, and a glossary.
+The pages on ==TFR== are loosely divided into sections on models, data, practical applications/use cases, and a glossary.  You can also refer to the [Table of Contents](Table_Contents).
 
 Browse below, or use the search box to find something specific.
 

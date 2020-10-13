@@ -15,7 +15,7 @@ Thank you!!!
 
 This website serves as a community resource for travel forecasting research and practice. We welcome your participation!
 
-This community is comprised of [volunteers](TF_Resource_Volunteers), many of whom are affiliated with the Transportation Research Board's ADB45 Committee for Travel Forecasting Resources.
+This community is comprised of [volunteers](TF_Resource_Volunteers), many of whom are affiliated with the Travel Forecasting Resources Subcommitte of the Transportation Research Board's (TRB) Standing Committee on Transportation Demand Forecasting (AEP50).
 
 ## Getting started
 
@@ -71,4 +71,9 @@ This will reduce the number of "round trips" while saving and publishing -- whic
 - Please use categories that already exist! We have too many categories already, and don't need any more.
 - Be sure to spell and capitalize all categories correctly to ensure that reviewers accept your changes.
 
+## Governance
+
+Dispute resolution will be handled, if necessary, by the TRB AEP50 Subcommittee on Travel Forecasting Resources ("the committee").
+
+The committee has developed and approved the following policies and procedures.  Any necessary additions or updates will be developed and approved by the same committee. The information on the TFResource is divided into topic areas selected by the committee.  Future topics will be considered as content becomes available and contributions are made to the site.  If a topic you really care about is not currently found, please follow the instructions above and in the [Developer Instructions](Contributing-Dev-Instructions) to submit your contribution. 
 ---
