@@ -7,6 +7,7 @@ module.exports = [
     '/topics/Contributing',
     '/topics/Contributing-Dev-Instructions',
     '/topics/Style_Guide',
+    'topics/Including_TRB_sponsored_research_on_this_wiki',
     '/topics/'
     ],
   },
