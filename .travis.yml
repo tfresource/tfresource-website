@@ -1,16 +1,16 @@
 language: node_js
 node_js:
-    - "10"
+  - '12'
 
 before_script:
- - chmod +x .vuepress/scripts/build.sh
+  - chmod +x .vuepress/scripts/build.sh
 
 script: .vuepress/scripts/build.sh
 
 # branch whitelist, only for GitHub Pages
 branches:
   only:
-  - source
+    - source
 
 cache: npm # caching npm will speed up build
 
@@ -22,8 +22,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   local_dir: .vuepress/dist
-  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  github_token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
   target_branch: master
   on:
-     branch: source
-
+    branch: source

@@ -151,7 +151,7 @@ Representative structural metrics and demographic ratios for several different S
 -   Persons per Household or Dwelling Unit
 -   Employment per Population
 -   Autos per Household or Dwelling Unit
--   Population per TAZ
+-   Population per ==TAZ==
 
 These topics are discussed further in Sections 4.2 and 4.3 of [NCHRP Synthesis 514: Statewide and Megaregional Travel Forecasting Models](http://apps.trb.org/cmsfeed/TRBNetProjectDisplay.asp?ProjectID=3968).
 
