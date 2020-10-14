@@ -22,7 +22,7 @@ Travel behavior is a broad topic that touches many aspects of travel demand mode
 Some basic assumptions are often used when analyzing travel behavior. In some cases, these are generalities built from observed behavior or simplifications of complexities of human behavior. Common assumptions include the following:
 
 -   People experience disbenefits (negative [utility](https://tfresource.org/topics/Utility.html)) for additional time and money spent travelling. Humans have limited time in their days and trade-off travel for participating in other possible daily activities. Travelers will choose shorter travel time paths, all else being equal. Similarly, travelers will chose lower cost ways of travel over higher cost ways.
--   -	Individuals are rational decision makers who seek to optimize benefits to themselves (i.e., maximize their [utility](https://tfresource.org/topics/Utility.html).
+-   Individuals are rational decision makers who seek to optimize benefits to themselves (i.e., maximize their [utility](https://tfresource.org/topics/Utility.html).
 -   An individual with a higher income will tend to be less sensitive to travel cost than an individual with lower income.
 -   Travelers are attracted to locations with a large amount of households and jobs and will tend to travel further distances to these locations than lower density areas.
 -   Single occupancy vehicle travel is generally preferred over transit, even after accounting for time and cost of travel.
