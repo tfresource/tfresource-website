@@ -1,6 +1,6 @@
 module.exports = [
   {
-    title: 'Intro',
+    title: 'About',
     children: ['/topics/Big_Picture', '/topics/00_Table_Contents',
     '/topics/About',
     '/topics/Community',
