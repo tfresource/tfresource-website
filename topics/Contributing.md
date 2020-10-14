@@ -1,5 +1,5 @@
 ---
-title: 'Contributing to the TFResource'
+title: 'Contributing'
 categories:
   - About
 ---
