@@ -55,10 +55,23 @@ categories:
 - **No duplication of content**. Explain a topic on one page where it fits best. If you need to refer to that topic on another page, link back to the original page, do not recreate explanations/descriptions/facts twice. This would turn maintenance into a nightmare and invite inconsistency/contradiction. And it is plain bad practice.
 - **Do not copy over text from Wikipedia or other similar web resources**. If there is relevant and useful information, provide a link under the section "See also" at the end of the page.
 - **Respect all copyright and other intellectual property laws.** This includes academic papers published in other venues (such as TRB) and their abstracts.
-- Try to be write objectively and avoid adding biases and opinions
-- Give credit where it is due (plagiarism)
+- **Try to be write objectively and avoid adding biases and opinions**
+- **Give credit where it is due** (plagiarism)
 - TODO: DISCUSS REFERENCING STYLE
 
 ## Example Pages
 If you are looking for an example page that exemplifies the organization, formatting, and tone required by this style guide, see the following page:
 - [Skim Matrix](https://tfresource.org/topics/Skim_Matrix.html )
+
+## Tips 
+
+ - **Links**:       You DO NOT NEED the .md extension to link to a page name; just use its full exact name before the .md extension.
+ - **Equations**:   All math should use LaTex format.  
+                 - Equations that stand alone, centered, on a line should be surrounded by double-\$\$ with no spaces before/after, like so:\
+   `$$\alpha + \beta$$` for
+$$\alpha + \beta$$
+                 - Math that you want in-line as part of a sentence is surrounded by  `$single-dollars$`  instead.  
+                 - [Upmath](https://upmath.me/) is a nice interactive editor where you can experiment with LaTeX math codes, and then copy the math codes to your page when you get it right.
+ - **Tables**:      We are using Github-flavored tables, there is a [good cheat-sheet here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
+ - **Old Site**:    If you're reviewing content and want to see what it used to (is supposed to) look like, you can find the old website here: <http://old.tfresource.org>.   
+

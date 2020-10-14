@@ -6,7 +6,6 @@ module.exports = [
     '/topics/Community',
     '/topics/Contributing',
     '/topics/Style_Guide',
-    '/topics/Tips-for-reviewing-pages',
     '/topics/Contributing-Dev-Instructions',
     '/topics/Including_TRB_sponsored_research',
     '/topics/'
