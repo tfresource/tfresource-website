@@ -321,7 +321,7 @@ Below is a list of all pages that belong to this wiki. If the link to the page i
 | **Spatial Data:** | --- | --- | --- |
 | [Big Data](Big_Data) |Patricia Lavieri | 28/02/2020 | |
 | [Spatial data](Spatial_data) | Already reviewed | | |
-| [Urban data](Urban_data) |Patricia Lavieri | 28/02/2020 | |
+| [Urban Data](Urban_Data) |Patricia Lavieri | 28/02/2020 | |
 | **Statewide Models:** | --- | --- | --- |
 | [Current Status of Statewide Models](Current_Status_of_Statewide_Models) | M.Bina | Done | |
 | [Georgia Statewide Model](Georgia_Statewide_Model) | Rolf | 29 April 2020 | |

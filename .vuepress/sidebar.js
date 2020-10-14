@@ -42,7 +42,7 @@ module.exports = [
           '/topics/Highway_networks',
           '/topics/Traffic_Analysis_Zone',
           '/topics/Spatial_data',
-          '/topics/Urban_data',
+          '/topics/Urban_Data',
           '/topics/Skim_Matrix',
         ],
       },
