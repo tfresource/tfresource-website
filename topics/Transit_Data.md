@@ -9,7 +9,7 @@ categories:
 
 ### Parent Page and Resources
 
-- [Urban Data](Urban_data)
+- [Urban Data](Urban_Data)
 - [Urban Data Resources](UrbanDataResources)
 
 ### Contributors

@@ -12,7 +12,7 @@ Summary
 
 #### Parent Page and Additional Information
 
-<http://tfresource.org/Urban_data>
+<http://tfresource.org/Urban_Data>
 <http://tfresource.org/UrbanDataResources>
 
 #### Contributors:
