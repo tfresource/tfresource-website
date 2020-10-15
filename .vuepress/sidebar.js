@@ -9,7 +9,7 @@ module.exports = [
       {
         title: 'Concepts of Travel Behavior',
         children: [
-          '/topics/Accessibilities',
+          '/topics/Accessibility',
           '/topics/Impedance',
           '/topics/Trip_based_models',
           '/topics/Activity_based_models',
