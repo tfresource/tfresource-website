@@ -66,7 +66,7 @@ If you are looking for an example page that exemplifies the organization, format
 ## Tips 
 
  - **Links**:       You DO NOT NEED the .md extension to link to a page name; just use its full exact name before the .md extension.
- - **Equations**:   All math should use LaTex format.  
+ - **Equations**:   All math should use [LaTex](https://en.wikipedia.org/wiki/LaTeX) format.  
                  - Equations that stand alone, centered, on a line should be surrounded by double-\$\$ with no spaces before/after, like so:\
    `$$\alpha + \beta$$` for
 $$\alpha + \beta$$

@@ -1,9 +1,10 @@
 ---
 title: 'Developer Instructions'
-subtitle: 'Building TF-Resource Locally'
 categories:
   - About
 ---
+
+# Building TF-Resource Locally
 
 ## Why build locally?
 
