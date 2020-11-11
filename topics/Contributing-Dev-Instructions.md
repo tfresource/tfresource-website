@@ -46,6 +46,7 @@ Now you are ready to build the site (i.e., convert the markdown and page templat
 
 - Start a local web server which builds and serves the site (this command will take a minute or two):
   - `npx yarn serve`
+  - If this command fails, you may need to remove node_modules with the command `rm -rf node_modules`, and rerun `npx yarn install` and `npx yarn serve`
 - Open a browser to `http://localhost:8080` to view your local copy of the site
 - Edit any pages in the `tfresource/topics` subfolder
 - Changes should hot-reload / show up automatically in the web browser, but if you don't see your changes you can click reload.
