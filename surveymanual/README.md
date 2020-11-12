@@ -1,7 +1,6 @@
 ---
 title: 'Survey Methods Manual'
 categories:
-  - About
 no_index: true
 editLink: false
 ---

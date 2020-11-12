@@ -1,5 +1,5 @@
 ---
-title: "Including TRB-sponsored research on this wiki"
+title: "Including TRB-sponsored research"
 categories:
 - About
 ---

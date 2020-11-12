@@ -1,8 +1,10 @@
 ---
-title: 'Developer Instructions: Building TF-Resource Locally'
+title: 'Developer Instructions'
 categories:
   - About
 ---
+
+# Building TF-Resource Locally
 
 ## Why build locally?
 
@@ -39,6 +41,7 @@ cd tfresource
 npm install yarn
 npx yarn install
 ```
+If you use a GUI for git, such as Sourcetree or GitKraken, be sure to clone the "source" branch (not the "master" branch which your GUI may default to).
 
 ## 3. Make your changes
 
@@ -46,7 +49,8 @@ Now you are ready to build the site (i.e., convert the markdown and page templat
 
 - Start a local web server which builds and serves the site (this command will take a minute or two):
   - `npx yarn serve`
-- Open a browser to `https://localhost:8080` to view your local copy of the site
+  - If this command fails, you may need to remove node_modules with the command `rm -rf node_modules`, and rerun `npx yarn install` and `npx yarn serve`
+- Open a browser to `http://localhost:8080` to view your local copy of the site (using https may cause errors in some browsers).
 - Edit any pages in the `tfresource/topics` subfolder
 - Changes should hot-reload / show up automatically in the web browser, but if you don't see your changes you can click reload.
 
