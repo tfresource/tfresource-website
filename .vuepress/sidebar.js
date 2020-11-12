@@ -37,7 +37,10 @@ module.exports = [
       },
       {
         title: 'Statistics / Econometrics',
-        children: ['/topics/Choice_models'],
+        children: [
+          '/topics/Choice_models',
+          '/topics/Regression_Analysis'
+        ],
       },
     ],
   },
