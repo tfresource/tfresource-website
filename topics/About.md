@@ -5,8 +5,6 @@ categories:
   - Topic Circles
 ---
 
-<PagesInCategory category="About" />
-
 About the TFResource
 --------------------
 
@@ -18,7 +16,7 @@ This project came about due to a TRB research project designed to examine the st
 
 TRB is serving as the “secretariat” for the site. This means providing staffing, support to the curators and contributors, and contracting with the experts needed to develop the site. A TRB committee was also appointed to provide the technical expertise to develop the website - these are our [volunteers](TF_Resource_Volunteers). 
 
-In addition to the [volunteers](TF_Resource_Volunteers), the [administrators](Administration) are responsible for the general organization, functionality and operation of the site itself. If you have suggestions on how to improve the TFResource functionality, please let the [administrators](Administration) know.
+In addition to the volunteers, the administrators are responsible for the general organization, functionality and operation of the site itself. If you have suggestions on how to improve the TFResource functionality, please let the administrators know.
 
 ### Wikipedia vs. TFResource - the similarities and the differences
 
@@ -46,3 +44,4 @@ We have benefited from the many community-based webpages that have been develope
 -   Digital Universe Project, FAQ, examined 11/11/2010
 
 
+<PagesInCategory category="About" />

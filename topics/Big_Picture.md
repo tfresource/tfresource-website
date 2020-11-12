@@ -1,6 +1,7 @@
 ---
 title: "Big Picture"
 categories:
+  - About
   - Activity Based Models
   - Statewide Models
   - Trip Based Models
@@ -18,9 +19,9 @@ Each scenario is then subjected to a set of mathematical models that compare “
 
 Travel forecasts, themselves, are the “outputs” of these models. They include measures of the overall volume of travel, the modes and facilities used, and the time, distance and out-of-pocket costs of doing so.
 
-The above introduction describes the principal approach to travel forecasting as it has developed in the United States since the 1950s; and has since evolved in a variety of directions and degrees of complexity. If you are new to travel forecasting methods, we recommend that you follow-up by exploring the two primary approaches in practice today by public planning agencies in the US.
+The above introduction describes the principal approach to travel forecasting as it has developed in the United States since the 1950s and has since evolved in a variety of directions and degrees of complexity. If you are new to travel forecasting methods, we recommend that you follow-up by exploring the two primary approaches in practice today by public planning agencies in the US.
 
 - [Trip-based Models](Trip_based_models)
 - [Activity-based Models](Activity_based_models)
 
-Beyond these, this Travel Forecasting Resource includes discussions of many different types of traffic forecasting methods at varying levels of complexity. A conceptual outline of the primary topics is available in the [Table of Contents](Table_Contents)
+Beyond these, this Travel Forecasting Resource includes discussions of many different types of traffic forecasting methods at varying levels of complexity. A conceptual outline of the primary topics is available in the [Table of Contents](00_Table_Contents)
