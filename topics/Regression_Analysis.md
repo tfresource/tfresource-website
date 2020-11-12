@@ -2,6 +2,7 @@
 title: "Regression Analysis"
 categories:
   - Statistics
+  - Statistics / Econometrics
   - Topic Circles
 ---
 
