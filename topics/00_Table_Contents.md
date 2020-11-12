@@ -36,7 +36,7 @@ forecast models.
 ### Statistics / Econometrics
 * Growth rate functions
 * Iterative proportional fitting
-* Regression analysis
+* [Regression analysis](Regression_Analysis)
 * [Choice models](Choice_Models)
 * Advanced choice models
 * Coordinated choice models
