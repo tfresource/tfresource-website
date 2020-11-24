@@ -3,6 +3,7 @@ title: "Re-simulating link volumes to reflect uncertainty in highway assignment"
 categories:
   - Network Assignment
 ---
+Editor note:  This topic does not represent standard practice.  Corrections to volumes estimates from travel models for the purpose of project-level forecating are described in NCHRP Report 765.  Correction (or "refinement") methods are also described on this site under the general heading of Project-Level Traffic Forecasting.  Some of these methods relate to screenline adjustment, turning movement adjustment, and OD table estimation from traffic counts. 
 
 In the highway project prioritization process, congestion benefits of capacity-adding highway projects are often calculated by comparing Build and No-Build scenarios using a regional travel demand model, with the results presented as point estimates (i.e., one number) in the congestion scores and Benefit/Cost ratios. Although point estimates are easier to communicate and understand, they do not provide any information about the reliability of the results.
 
