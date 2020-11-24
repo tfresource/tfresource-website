@@ -14,7 +14,7 @@ In the metropolitan transportation planning and analysis, the network assignment
 
 ![Caption:Example for a network assignment showing link-level truck volumes](TrafficAssignment.png "Caption:Example for a network assignment showing link-level truck volumes")
 
-Network assignment is a mathematical problem which is solved by a solution algorithm through the use of computer. It is usually resolved as a travel cost optimization problem for each origin-destination pair on a model network. For every origin-destination pair, a path is selected that minimizes travel costs. The simplest kind of travel cost is travel time from beginning to end of the trip. A more complex form of travel cost, called generalized cost, may include combinations of other costs of travel such as toll cost and auto operating cost on highway networks. Transit networks may include within generalized cost weights to emphasize out-of-vehicle time and penalties to represent onerous tasks. Usually, monetary costs of travel, such as tolls and fares, are converted to time equivalent based on an estimated value of time. The shortest path is found using a [path finding algorithm](Path_Finding_Algorithm).
+Network assignment is a mathematical problem which is solved by a solution algorithm through the use of computer. It is usually resolved as a travel cost optimization problem for each origin-destination pair on a model network. For every origin-destination pair, a path is selected that typically minimizes travel costs. The simplest kind of travel cost is travel time from beginning to end of the trip. A more complex form of travel cost, called generalized cost, may include combinations of other costs of travel such as toll cost and auto operating cost on highway networks. Transit networks may include within generalized cost weights to emphasize out-of-vehicle time and penalties to represent onerous tasks. Usually, monetary costs of travel, such as tolls and fares, are converted to time equivalent based on an estimated value of time. The shortest path is found using a [path finding algorithm](Path_Finding_Algorithm).
 
 The surface [transportation network](Transportation_Networks) can include the auto network, bus network, passenger rail network, bicycle network, pedestrian network, freight rail network, and truck network. Traditionally, passenger modes are handled separately from vehicular modes. For example, trucks and passenger cars may be assigned to the same network, but bus riders often are assigned to a separate transit network, even though buses travel over roads. Computing traffic volume on any of these networks first requires estimating network specific origin-destination demand. In metropolitan transportation planning practice in the United States, the most common network assignments employed are automobile, truck, bus, and passenger rail. Bicycle, pedestrian, and freight rail network assignments are not as frequently practiced.
 
@@ -86,12 +86,13 @@ Numerous practical and theoretical inadequacies pertaining to Static User Equili
 -   Inadequate network convergence;
 -   Continued use of legacy slow convergent network algorithm, despite availability of faster solution methods and computers;
 -   Non-unique route flows and link flows for multi-class assignments and for assignment on networks that include delays from opposing and conflicting traffic;
--   Continued of the use of [VDFs](Delay_Estimation_in_Trip_Based_Models), when superior delay estimation techniques are available;
--   Unlikeness of steady-state network condition;
+-   Continued use of [VDFs](Delay_Estimation_in_Trip_Based_Models), when superior delay estimation techniques are available;
+-   Unlikeness of a steady-state network condition;
 -   Impractical assumption that all drivers have flawless route information and are acting without bias;
 -   Every driver travels at the same congested speed, no vehicle traveling on the same link overtakes another vehicle;
 -   Oncoming traffic does not affect traffic flows;
 -   Interruptions, such as accidents or inclement weather, are not represented;
+-   Traffic does not form queues;
 -   Continued use of multi-hour time periods, when finer temporal detail gives better estimates of delay and path choice.
 
 Transit Assignment
@@ -102,7 +103,7 @@ Most [transit network assignment](Transit_Network_Assignment) in implementation 
 Latest Developments
 -------------------
 
-With the increased emphasis on assessment of travel demand management strategies in the US, there have been some notable increases in the implementation of [disaggregated modeling](Activity_Based_Models) of individual travel demand behavior. Similar efforts to simulate travel route choice on dynamic transportation network have been proposed, primarily to support the much needed realistic representation of time and duration of roadway congestion. Successful examples of a shift in the network assignment paradigm to include [dynamic traffic assignment](Dynamic_Traffic_Assignment) on a larger network have emerged in practice. Dynamic traffic assignment are able to follow UE principles. An even newer topic is the incorporation of travel time reliability into path building.
+With the increased emphasis on assessment of travel demand management strategies in the US, there have been some notable increases in the implementation of [disaggregated modeling](Activity_Based_Models) of individual travel demand behavior. Similar efforts to simulate travel route choice on dynamic transportation network have been proposed, primarily to support the much needed realistic representation of time and duration of roadway congestion. Successful examples of a shift in the network assignment paradigm to include [dynamic traffic assignment](Dynamic_Traffic_Assignment) on a larger network have emerged in practice. Dynamic traffic assignments are able to follow UE principles. An even newer topic is the incorporation of travel time reliability into path building.
 
 References
 ----------
