@@ -60,12 +60,14 @@ export default {
       return [
         {
           link: '/topics/00_Table_Contents',
-          text: 'Travel Forecasting →',
+          text: 'Table of Contents',
         },
+        /*
         {
           link: '/surveymanual/',
           text: 'Survey Manual →',
         },
+        */
       ]
     },
   },

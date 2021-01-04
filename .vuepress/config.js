@@ -80,7 +80,7 @@ module.exports = {
     sidebar: sidebarEntries,
     nav: [
       { text: 'Travel Forecasting', link: '/topics/00_Table_Contents.md' },
-      { text: 'Survey Manual', link: '/surveymanual/' },
+      //{ text: 'Survey Manual', link: '/surveymanual/' },
       {
         text: 'About',
         items: [
