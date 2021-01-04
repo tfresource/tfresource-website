@@ -18,7 +18,7 @@ forecast models.
 
 ### Concepts of Travel Behavior
 * Value of Time
-* [Accessibility](Accessibilities)
+* [Accessibility](Accessibility)
 * [Induced Demand](Travel_Behavior_Definitions) / Derived Demand / Trip Purposes
 * [Trip-based](Trip_based_models) and [Activity-based](Activity_based_models) distinctions
 

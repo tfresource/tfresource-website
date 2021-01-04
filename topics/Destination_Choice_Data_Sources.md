@@ -57,7 +57,7 @@ The most common attractor used in destination choice modeling are [socio-economi
 ### Accessibilities
 
 ![](AccessibilityMunich.png "fig:AccessibilityMunich.png")
-[Accessibilities](Accessibilities) are an aggregate measure that describes how easily from a given zone other destinations are accessible. The most commonly used definition of accessibilities are number of jobs that can be reached within a given time (such as 30 minutes), or the Potential Accessibility[^5] that discounts the size of destinations by their distance. Zones with higher accessibilities are generally assumed to attract larger number of travelers, all other things being equal. Zones with higher accessibilities tend to be located in neighborhoods that offer many trip attractions, and thereby, allow to link trips more easily.
+[Accessibilities](Accessibility) are an aggregate measure that describes how easily from a given zone other destinations are accessible. The most commonly used definition of accessibilities are number of jobs that can be reached within a given time (such as 30 minutes), or the Potential Accessibility[^5] that discounts the size of destinations by their distance. Zones with higher accessibilities are generally assumed to attract larger number of travelers, all other things being equal. Zones with higher accessibilities tend to be located in neighborhoods that offer many trip attractions, and thereby, allow to link trips more easily.
 
 A special form of accessibilities are [mode choice logsums](Skim_Matrix#Logsums) that do not only take into account travel time by one mode, but combine travel times by various modes. Modes may be weighted by the share they are used by a particular user class, which allows to better represent the relevance of transit access for low-income households.
 
@@ -114,4 +114,3 @@ References
 [^4]: Hazelton, M. L. (2003) Some comments on origin-destination matrix estimation. In: *Transportation Research Part A - Policy and Practice* 37 (10):811-822. doi: Doi 10.1016/S0965-8564(03)00044-2.
 
 [^5]: Hansen, Walter G. (1959) How accessibility shapes land use. Journal of the American Institute of Planners 25: 73-76.
-
