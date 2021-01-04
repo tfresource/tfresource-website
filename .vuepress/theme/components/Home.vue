@@ -59,7 +59,7 @@ export default {
     actionLinks() {
       return [
         {
-          link: '/topics/',
+          link: '/topics/00_Table_Contents',
           text: 'Travel Forecasting →',
         },
         {
