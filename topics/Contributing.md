@@ -18,7 +18,7 @@ Be sure to **REMOVE the 'Needs Review'** category line from the top of a page --
 
 This website serves as a community resource for travel forecasting research and practice. We welcome your participation!
 
-This community is comprised of [volunteers](TF_Resource_Volunteers), many of whom are affiliated with the Travel Forecasting Resources Subcommitte of the Transportation Research Board's (TRB) Standing Committee on Transportation Demand Forecasting (AEP50).
+This community is comprised of [volunteers](TF_Resource_Volunteers), many of whom are affiliated with the Transportation Research Board's Standing Committee (AEP50) on Transportation Demand Forecasting's Subcommittee for Travel Forecasting Resources.
 
 ## Getting started
 
