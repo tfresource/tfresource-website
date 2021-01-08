@@ -1,5 +1,5 @@
 ---
-title: "A Self Instructing Course in Choice Modeling"
+title: "Introduction to Logit Modeling"
 categories:
   - Logit Manual
 
@@ -7,7 +7,7 @@ categories:
 
 # Introduction to Logit Modeling
 
-## background
+## Background
 Discrete choice models can be used to analyze and predict a decision maker’s choice of one alternative from a finite set of mutually exclusive and collectively exhaustive alternatives.  Such models have numerous applications since many behavioral responses are discrete or qualitative in nature; that is, they correspond to choices of one or another of a set of alternatives.
 
 The ultimate interest in discrete choice modeling, as in most econometric modeling, lies in being able to predict the decision making behavior of a group of individuals (we will use the term "individual" and "decision maker" interchangeably, though the decision maker may be an individual, a household, a shipper, an organization, or some other decision making entity).  A further interest is to determine the relative influence of different attributes of alternatives and characteristics of decision makers when they make choice decisions.  For example, transportation analysts may be interested in predicting the fraction of commuters using each of several travel modes under a variety of service conditions, or marketing researchers may be interested in examining the fraction of car buyers selecting each of several makes and models with different prices and attributes.  Further, they may be interested in predicting this fraction for different groups of individuals and identifying individuals who are most likely to favor one or another alternative.  Similarly, they may be interested in understanding how different groups value different attributes of an alternative; for example are business air travelers more sensitive to total travel time or the frequency of flight departures for a chosen destination.
