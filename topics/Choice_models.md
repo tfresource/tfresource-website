@@ -1,11 +1,9 @@
 ---
-title: "Choice Models"
+title: "Choice Models - A Self Instructing Course"
 categories:
   - Logit Manual
 
 ---
-
-# A Self Instructing Course in Choice Modeling
 
 Introduction
 ------------
@@ -23,7 +21,7 @@ Overview
 --------
 The Logit Manual is divided into several sections or modules:  
 
-- [Introduction to Logit Modeling](LM1)
+- [Introduction to Choice Modeling](LM1)
 - [Elements of the Choice Decision Process](LM2)
 - [Utility-Based Choice Theory](LM3)
 - [The Multinomial Logit Model](LM4)
