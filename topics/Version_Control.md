@@ -19,7 +19,7 @@ In this paradigm, any version of code that is stored is never overwritten by new
 
 #### Platforms
 
-In addition to archiving changes, version control is also helpful for project management and development on teams or broader collaboration (for instance, between an agency and a consultant team or other contributers). This is often faciliated through free-to-use web-based platforms such as [GitHub]((http://github.com). The easiest way to get started with version control in through GitHub, which [offers resources for quickly learning](https://lab.github.com/) how to set up and manage projects for version control for individual or team-based projects.
+In addition to archiving changes, version control is also helpful for project management and development on teams or broader collaboration (for instance, between an agency and a consultant team or other contributers). This is often faciliated through free-to-use web-based platforms such as [GitHub](http://github.com). The easiest way to get started with version control in through GitHub, which [offers resources for quickly learning](https://lab.github.com/) how to set up and manage projects for version control for individual or team-based projects.
 
 #### Example Implementations
 
