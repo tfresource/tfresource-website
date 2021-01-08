@@ -4,7 +4,7 @@ categories:
   - About
 ---
 
-# Building TF-Resource Locally
+This page describes how to run a local instance of the website for viewing local edits. Not all contributors to the site will need or want to do this.
 
 ## Why build locally?
 
