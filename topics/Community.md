@@ -13,7 +13,7 @@ The TFResource is all about community and volunteers, this page describes past a
 --------------------
 
 *Current Committee Members*
- - [Greg MacFarlane, Ph.D. (Chair)](https://www.linkedin.com/in/gregmacfarlane/)
+ - [Greg Macfarlane, Ph.D. (Chair)](https://gregmacfarlane.github.io/)
  - [Joshua Auld, Ph.D.](https://www.linkedin.com/in/joshua-auld-b4288127/)
  - [Vince Bernardin, Ph.D.](https://www.linkedin.com/in/vincebernardin/)
  - [Michelle Bina](https://www.linkedin.com/in/michellebina/)
