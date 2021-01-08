@@ -79,8 +79,8 @@ module.exports = {
     sidebarDepth: 0,
     sidebar: sidebarEntries,
     nav: [
-      { text: 'Travel Forecasting', link: '/topics/' },
-      { text: 'Survey Manual', link: '/surveymanual/' },
+      { text: 'Travel Forecasting', link: '/topics/00_Table_Contents.md' },
+      //{ text: 'Survey Manual', link: '/surveymanual/' },
       {
         text: 'About',
         items: [

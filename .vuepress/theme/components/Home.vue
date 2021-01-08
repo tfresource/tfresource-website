@@ -59,13 +59,15 @@ export default {
     actionLinks() {
       return [
         {
-          link: '/topics/',
-          text: 'Travel Forecasting →',
+          link: '/topics/00_Table_Contents',
+          text: 'Table of Contents',
         },
+        /*
         {
           link: '/surveymanual/',
           text: 'Survey Manual →',
         },
+        */
       ]
     },
   },

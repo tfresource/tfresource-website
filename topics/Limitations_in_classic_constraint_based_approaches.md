@@ -10,7 +10,7 @@ Classic constraints-based approaches are characterized by some limitations:
 ## 1. Individual accessibility
 
 
-Most models consider individual [accessibility](Accessibilities) not household accessibility.
+Most models consider individual [accessibility](Accessibility) not household accessibility.
 Recently, research has accumulated which has attempted to address these limitations.
 
 ### Individual accessibility to household accessibility

@@ -1,14 +1,17 @@
 module.exports = [
   {
     title: 'About',
-    children: ['/topics/Big_Picture', '/topics/00_Table_Contents',
-    '/topics/About',
-    '/topics/Community',
-    '/topics/Contributing',
-    '/topics/Style_Guide',
-    '/topics/Contributing-Dev-Instructions',
-    '/topics/Including_TRB_sponsored_research',
-    '/topics/'
+    children: [
+      '/topics/Big_Picture',
+      '/topics/00_Table_Contents',
+      '/topics/About',
+      '/topics/Community',
+      '/topics/Contributing',
+      '/topics/Style_Guide',
+      '/topics/Contributing-Dev-Instructions',
+      '/topics/Including_TRB_sponsored_research',
+      '/changes',
+      '/topics/',
     ],
   },
   {
@@ -37,7 +40,7 @@ module.exports = [
       },
       {
         title: 'Statistics / Econometrics',
-        children: ['/topics/Choice_models'],
+        children: ['/topics/Choice_models', '/topics/Regression_Analysis'],
       },
     ],
   },

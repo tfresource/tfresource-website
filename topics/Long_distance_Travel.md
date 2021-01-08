@@ -5,8 +5,6 @@ categories:
   - Statewide Models
 ---
 
-<span style="background:lightgrey;padding:10px;border-left: thick double #0000aa;"> This page is part of the Category \[.</span>
-
 Statewide travel models differ somewhat from urban and regional models in that they need to explicitly consider [long-distance travel](Long_distance_Travel) that may be made on a relatively infrequent basis in comparison to typical urban and regional travel (typically 0.5-3.0% of total trips), but they represent a higher share of VMT. In addition, while urban and regional models typically consider trips or tours that typically start and end the day at a person's home, statewide travel models must consider travel that do not start or end the day at a person's home.
 
 ### Definition of Long-distance Travel
@@ -41,7 +39,4 @@ The report also contains the following appendices:
 -   Other demographic and origin-destination data;
 -   Urban versus rural truck trips; and
 -   Review of statewide models.
-
-References
-==========
 

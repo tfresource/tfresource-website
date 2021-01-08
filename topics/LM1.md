@@ -4,6 +4,7 @@ categories:
   - Logit Manual
 
 ---
+
 ## Background
 Discrete choice models can be used to analyze and predict a decision maker’s choice of one alternative from a finite set of mutually exclusive and collectively exhaustive alternatives.  Such models have numerous applications since many behavioral responses are discrete or qualitative in nature; that is, they correspond to choices of one or another of a set of alternatives.
 

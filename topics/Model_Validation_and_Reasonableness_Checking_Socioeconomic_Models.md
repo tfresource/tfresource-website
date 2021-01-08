@@ -17,7 +17,7 @@ Validation of models that generate socioeconomic data inputs is discussed in [Va
 
 ### Validating Socioeconomic Models
 
-Socioeconomic models may or may not consider the level of transportation service, or [accessibility](Accessibilities). There are two major ways in which accessibility may be considered:
+Socioeconomic models may or may not consider the level of transportation service, or [accessibility](Accessibility). There are two major ways in which accessibility may be considered:
 
 1.  The locations on residential and commercial development are affected by accessibility to the transportation system. These effects are not directly modeled by a transportation model alone; an [integrated transportation-land use model](Land_Use_Transport_Modeling) is required. Validation of these types of integrated models is not covered in this manual.
 2.  Decisions on vehicle ownership/availability may be affected by the accessibility of the highway system as well as the transit system and the quality of service for nonmotorized (walk and bicycle) modes. These effects may be analyzed within the travel modeling process through the use of socioeconomic models, such as vehicle availability models.
