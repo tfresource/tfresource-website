@@ -24,7 +24,7 @@ Most spatial interaction models attempt to predict the movement of people or goo
 
 Additional explanatory variables that have been incorporated in more complex models include:
 
--   [Accessibilities](Accessibilities), to capture spatial autocorrelation and/or agglomeration effects, convenience or centrality,
+-   [Accessibilities](Accessibility), to capture spatial autocorrelation and/or agglomeration effects, convenience or centrality,
 -   Psychological Boundaries, such as rivers, ridge lines, railroad tracks or even major highways which decrease the probability of interaction,
 -   Demographic Attributes, such as the income, age or employment status of travelers,
 -   Destination Qualities (other than its size or the number of attractions) such as its walkability, diversity of land uses, etc., and
@@ -156,4 +156,3 @@ Related Content
 [^7]: Daly, A., J. Fox, B. Patruni and F. Milthorpe (2012) 'Pivoting in Travel Demand Models' presented at Australasian Transport Research Forum
 
 [^8]:
-
