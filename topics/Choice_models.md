@@ -1,55 +1,65 @@
 ---
-title: "Choice models"
+title: "A Self Instructing Course in Choice Modeling"
 categories:
-  - Destination Choice Models
-  - Land Use Transport Modeling
-  - Topic Circles
+  - Logit Manual
+
 ---
 
-<PagesInCategory category="Choice Models" />
+Introduction
+------------
+Logistic regression, or as they are often referred to in travel forecasting, logit models are one of the fundamental and most widely used methods in modeling and forecasting travel behavior and patterns.  
 
-Econometric discrete choice analysis is an essential component of studying individual choice behavior and is used in many diverse fields to model consumer demand for commodities and services. Typical examples of the use of econometric discrete choice analysis include studying labor force participation, residential location, and house tenure status (owning versus renting) in the economic, geography, and regional science fields, respectively; choice of travel mode, destination and car ownership level in the travel demand field; purchase incidence and brand choice in the marketing field; and choice of marital status and number of children in sociology.
+Logit models predict the probability of two or more discrete categorical or nominal variables, generally based on various explanatory observed or independent variables.  For example, given some conditions such as a married couple owns one car, a logit model preicts the probability that either A) the husband chooses to drive to work or B) he chooses to take public transit.  
 
-Utility Maximization
+Logit models can describe probabilities of discrete events or outcomes of stochastic processes that have nothing to do with human agents, but are more commonly used, especial in transportation science, to model human behavior like the example above, and in this context are refered to as choice models.  Choice models predict the probability that a human agent chooses given alternative actions.  The explanatory variables and their associated parameters are understood in this context as describing the attractiveness or "utility" of an alternative to the choice-maker or agent.  The mathematical form of the models can actually be derived from the economic theory of random utility maximization.  Technically, logit models are only one form of discrete choice model, corresponding to the assumption of a particular distributional form for the random component or error term of the utility; however, logit models are by far the most widely used discrete choice models because they have a convenient closed mathematical form which is much easier to use and understand than alternatives.  
+
+Logit models are used in travel forecasting to predict many choices made by travelers about their travel.  They were first used to predict the [choice of travel mode](Mode_choice), e.g., personal automobile or public transit, as early as the 1960s.  Since then, their use has expanded to [destination choice](Destination_Choice_Models), activity participation choices, temporal choices, and route choices among many others.  
+
+Given this widespread use for so many aspects of travel behavior, it is valuable for professionals involved in travel forecasting to have a fundamental grasp of logit models, and this section of the TFResource site, the Self Instructing Course in Choice Modeling, or Logit Manual, for short, is offered as a resource for those interested in developing this core competency.  
+
+Overview
+--------
+The Logit Manual is divided into several sections or modules:  
+
+- [Introduction to Logit Modeling](LM1)
+- [Elements of the Choice Decision Process](LM2)
+- [Utility-Based Choice Theory](LM3)
+- [The Multinomial Logit Model](LM4)
+- [Data Preparation and Estimation of Simple Multinomial Logit Models](LM5)
+- [The Nested Logit Model](LM8)
+- [Advanced Discrete Choice Modeling](LM12)
+
+Acknowledgments
+---------------
+The content of this section or 'category' of the TFResource site has been developed based on "A Self Instructing Course in Mode Choice Modeling: Multinomial and Nested Logit Models" prepared for the U.S. Department of Transportation, Federal Transit Administration by Frank S. Koppelman and Chandra Bhat with technical support from Vaneet Sethi, Sriram Subramanian, Vincent Bernardin, and Jian Zhang, 2006.  
+
+The original content was prepared under funding of the United States Department of Transportation through the Federal Transit Administration (Agmt. 8-17-04-A1/DTFT60-99-D-4013/0012) to AECOMConsult and Northwestern University.  Valuable reviews and comments were provided by students in travel demand modeling classes at Northwestern University and the Georgia Institute of Technology.  In addition, valuable comments, suggestions and questions were given by Rick Donnelly, Laurie Garrow, Joel Freedman, Chuck Purvis, Kimon Proussaloglou, Bruce Williams, Bill Woodford and others.  
+
+The original manual in pdf format, [A Self Instructing Course in Mode Choice Modeling: Multinomial and Nested Logit Models](http://www.ce.utexas.edu/prof/bhat/courses/lm_draft_060131final-060630.pdf) by Koppelman and Bhat (2006), is still available and remains a valuable reference.  
+
+The content presented here has been edited and adapted for incorporation in the TFResource.org site as a living document by Vince Bernardin, Greg MacFarlane, and Jeff Newman with the intent and hope that the original material could be made more accessible to a broader audience, especially a new generation of professionals and students more oriented towards web-based information.  The editors consulted the original authors before embarking on this new edition, and both Frank and Chandra responded with enthusiam for the new edition. 
+
+>*"We are very pleased that you are considering making the contents of the manual more widely available. Our sole purpose when writing the manual was to help people get into this exciting field, and we could not be happier to learn about your efforts that further our original purpose."* - Chandra Bhat, 10/14/2020 
+
+FTA was also consulted and agreed that the material was already in the public domain and gave its blessing on the project to make the manual more accessible.  
+
+As with the original manual, the editors and original authors are indebted to all who contributed to or commented on any version of but retain responsibility for any errors or omissions.  
+
+<PagesInCategory category="Logit Manual" />
+
+
+Other Text Resources
 --------------------
 
-Most econometric choice models are based on the theory of [utility](utility) maximization. The utility maximization rule is based on two fundamental concepts. The first is that the attribute vector characterizing each alternative can be reduced to a scalar utility value for that alternative. This concept implies a compensatory decision process; that is, it presumes that individuals make "trade-offs" among the attributes characterizing alternatives in determining their choice. The second concept is that the individual selects the alternative with the highest utility value. The focus on utility maximization in travel demand modeling is based on its strong theoretical background, extensive use in the development of human decision making concepts, and amenability to statistical testing of the effects of attributes on choice.
-
-The utility maximization rule states that an individual will select the alternative from his/her set of available alternatives that maximizes his or her utility. Then, if the analyst is privy to all aspects of the internal decision making process of decision agents as well as their perception of alternatives, the analyst would be able to describe that process and predict choice using deterministic utility models. However, the analyst is not privy to all factors influencing the choice decisions of agents. This is recognized in random utility choice models by including stochasticity in the development of the utility function of decision agents, representing the effects of unobserved (to the analyst) factors influencing the valuation of an alternative by an agent. This stochasticity translates utility valuations into the probabilities of choosing each alternative rather than predicting that an individual will choose a particular alternative with certainty. Effectively, these probabilities reflect the population shares of people with the given set of observed (individual and alternative) characteristics and facing the same set of alternatives choosing each one of the alternatives.
-
-Model Classes
--------------
-
-### Binary and Multinomial Logit
-
-The simplest random utility maximizing model to analyze choices is the binary logit model (in the case of two alternatives) or the multinomial logit (MNL) model (in the case of more than two unordered alternatives). Most choices studies in transportation modeling correspond to unordered alternatives in that there is no intrinsic ordering implied by the alternatives.
-(insert mathematical form of multinomial logit here) Other examples of Multinomial Logit Models are [mode choice models](Mode_Choice), [destination choice models](Destination_Choice_Models), and [land use models](Land_use_transport_modeling).
-
-#### Assumptions
-
-There are three basic assumptions which underlie the MNL model:
-
-The first assumption is that the random components of the utilities of the different alternatives are independent and identically distributed (IID) with a type I extreme-value (or Gumbel) distribution. The assumption of independence implies that there are no common unobserved factors affecting the utilities of the various alternatives. This assumption is violated, for example, if a decision-maker assigns a higher utility to all transit modes (bus, train, etc.) because of the opportunity to socialize or if the decision maker assigns a lower utility to all the transit modes because of the lack of privacy. In such situations, the same underlying unobserved factor (opportunity to socialize or lack of privacy) impacts on the utilities of all transit modes. The presence of such common underlying factors across modal utilities has implications for competitive structure. The assumption of identically distributed (across alternatives) random utility terms implies that the extent of variation in unobserved factors affecting modal utility is the same across all modes. In general, there is no theoretical reason to believe that this will be the case. For example, if comfort is an unobserved variable the values of which vary considerably for the train mode (based on, say, the degree of crowding on different train routes) but little for the automobile mode, then the random components for the automobile and train modes will have different variances. Unequal error variances have significant implications for competitive structure.
-
-The second assumption of the MNL model is that it maintains homogeneity in responsiveness to attributes of alternatives across individuals (i.e., an assumption of response homogeneity). More specifically, the MNL model does not allow sensitivity (or taste) variations to an attribute (e.g., travel cost or travel time in a mode choice model) due to unobserved individual characteristics. However, unobserved individual characteristics can and generally will affect responsiveness. For example, some individuals by their intrinsic nature may be extremely time-conscious while other individuals may be “laid back” and less time-conscious. Ignoring the effect of unobserved individual attributes can lead to biased and inconsistent parameter and choice probability estimates.
-
-The third assumption of the MNL model is that the error variance-covariance structure of the alternatives is identical across individuals (i.e., an assumption of error variance-covariance homogeneity). The assumption of identical variance across individuals can be violated if, for example, the transit system offers different levels of comfort (an unobserved variable) on different routes (i.e., some routes may be served by transit vehicles with more comfortable seating and temperature control than others). Then, the transit error variance across individuals along the two routes may differ. The assumption of identical error covariance of alternatives across individuals may not be appropriate if the extent of substitutability among alternatives differs across individuals. To summarize, error variance-covariance homogeneity implies the same competitive structure among alternatives for all individuals, an assumption which can be generally difficult to justify.
-
-The three assumptions discussed above together lead to the simple and elegant closed-form mathematical structure of the MNL. However, these assumptions also leave the MNL model saddled with the “independence of irrelevant alternatives” (IIA) property at the individual level. The IIA property states that for any individual, the ratio of the probabilities of choosing two alternatives is independent of the presence or attributes of any other alternative. The premise is that other alternatives are irrelevant to the decision of choosing between the two alternatives in the pair. The IIA property can be unrealistic in many cases. Thus, relaxing the three assumptions may be important in many choice contexts.
-
-Outside Resources
------------------
-
-The technical details of the MNL model, as discussed in the previous section, as well as models that relax many limitations of the MNL, are discussed in many excellent resources on choice modeling. Three such resources are listed here, and should be on the list of references to read for any person wanting to get seriously into choice modeling:
+In addition to the materials presented here, we recommend these two additional references which should be on the reading list for any person wanting to get seriously into choice modeling:
 
 1.  [Discrete Choice Models with Simulation](http://elsa.berkeley.edu/books/choice2.html) by Kenneth Train (2009)
-2.  [A Self Instructing Course in Mode Choice Modeling: Multinomial and Nested Logit Models](http://www.ce.utexas.edu/prof/bhat/courses/lm_draft_060131final-060630.pdf) by Koppelman and Bhat (2006)
-3.  [Discrete Choice Analysis: Theory and Application to Travel Demand](http://www.amazon.com/Discrete-Choice-Analysis-Application-Transportation/dp/0262022176) by Ben-Akiva and Lerman (1985)
+2.  [Discrete Choice Analysis: Theory and Application to Travel Demand](http://www.amazon.com/Discrete-Choice-Analysis-Application-Transportation/dp/0262022176) by Ben-Akiva and Lerman (1985)
 
 Videos
 ------
 
-The resource is structured so that people from all over can contribute text and other materials. To start off on a path of having a rich resource on discrete choice modeling, the site is organized with a set of videos that hopefully will allow for fast, yet deep, returns on time investment.
+To start off on a path of having a rich resource on discrete choice modeling, Chandra Bhat has also contributed a set of videos that hopefully will allow for fast, yet deep, returns on time investment.
 
 1.  [General introduction to choice modeling](http://www.caee.utexas.edu/prof/bhat/Videos/Bhat/OnChoiceModeling.pptx)
 2.  [Introduction and overview](http://www.caee.utexas.edu/prof/bhat/Videos/Srinivasan/Intro.zip)
@@ -70,5 +80,3 @@ The resource is structured so that people from all over can contribute text and 
 17. MNL model: Elasticity/marginal effects and interpretation
 18. Consumer surplus and compensating variation from MNL models
 19. MNL model: Model building, market segmentation, and closing
-
-
