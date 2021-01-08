@@ -46,6 +46,8 @@ development. It is assumed that households, firms, and developers prefer
 locations with higher accessibility as --- all else equal --- locations with
 higher accessibility increase access to labor, jobs, and reduce travel costs.
 
+There are important implications of accessibility beyond travel models.
+
 ## Quantitative Forms
 Three basic quantitative form for accessibility measures exist:
 
