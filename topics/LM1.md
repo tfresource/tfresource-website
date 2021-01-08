@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Logit Modeling"
+title: "Introduction to Choice Modeling"
 categories:
   - Logit Manual
 
