@@ -1,9 +1,11 @@
 ---
-title: "A Self Instructing Course in Choice Modeling"
+title: "Choice Models"
 categories:
   - Logit Manual
 
 ---
+
+# A Self Instructing Course in Choice Modeling
 
 Introduction
 ------------
