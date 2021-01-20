@@ -19,7 +19,7 @@
     <!-- Ackee analytics -->
     <script
       async
-      src="https://tfresource.herokuapp.com/tfr.js"
+      src="/tfr.js"
       data-ackee-server="https://tfresource.herokuapp.com"
       data-ackee-domain-id="03de50bf-a455-4479-b95c-d5a2378dd031"
     ></script>
