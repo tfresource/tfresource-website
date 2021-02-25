@@ -33,7 +33,7 @@ categories:
 - Concise text (to the point)
 - Limit use of abbreviations. If you do use common acronyms (like ==TAZ== and ==ABM==), define them in the acronym list as follows:
 	- Add an acronym to the list at `.vuepress/public/acronyms.csv`
-	- Call out the acronym in the page text with double equal signs, e.g. `==TRB==` will pull up the definition of the ==TRB== acronym
+	- Call out the acronym in the page text with double equal signs, e.g. `=`<pre>=TRB=</pre>`=` will pull up the definition of the ==TRB== acronym
 	- Example of doing this is [here](https://github.com/tfresource/website/commit/d49df8c41a169aa5c1841af6c2f0107a283796dc)
 
 
