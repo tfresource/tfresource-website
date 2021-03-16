@@ -11,8 +11,9 @@ categories:
 
 ## Summary
 
-A skim matrix is a matrix that provides [impedances](Impedance) between zones. Commonly, skim matrixes have the same number of rows and columns. All transportation modeling packages provide efficient ways of storing large skim files in compressed files.
-An open-source format to store matrices called [open matrix](Open_Matrix_Format) (or OMX) is also available and is a good option for moving matrices between packages and/or programming languages.
+A skim matrix is a matrix that provides [impedances](Impedance) between zones. It is called a "skim" because the action of measuring the travel time from a node to all other nodes involves sweeping a shortest path calculation across the network; this is like "skimming" across the surface of milk to remove cream or other similar physical actions. Commonly, skim matrixes have the same number of rows and columns, with the number determined by the number of modes in the network.
+
+All transportation modeling packages provide efficient ways of storing large skim files in compressed files.An open-source format to store matrices called [open matrix](Open_Matrix_Format) (or OMX) is also available and is a good option for moving matrices between packages and/or programming languages.
 
 ## Highway Skims
 
