@@ -6,11 +6,20 @@ categories:
   - Trip Based Models
 ---
 
+Background
+----------
+
 Traffic simulation models have been used for several decades to conduct detailed analyses of roadway designs and operational plans. Individual vehicles traverse detailed networks in very short time steps (typically 0.5 to 5 second intervals) in these models, and they explicitly model driver behavior such as lane changing and car following. Initially developed about the same time as the first [Trip-Based Models](Trip_Based_Models), they likewise were initially executed on mainframe computers. However, whereas trip-based models went on to become institutionalized in the urban planning process under strong federal leadership, traffic simulation models progressed at a slower rate. Over the past several decades traffic simulation models have caught up with travel demand models in terms of sophistication, quality of software, experience in practice, and to some extent, suitability for large-scale planning studies. Current platforms excel at visualization. Once in the domain of different specialists (traffic engineers and transportation modelers) that seldom collaborated, the two streams are converging as they are being used more in combination.
+
+Inputs
+------
 
 Most traffic simulation models use the familiar concepts of roadway networks and trip matrices. The former are typically far more detailed in geometric representation and lane configurations than static [Network assignment](Network_assignment) models. The latter are not only spatially more detailed than traditional trip matrices, but also more detailed in temporal respects as well. Such models also require explicit coding of traffic detectors and control systems to include traffic signal timing plans. Some traffic simulation packages can also optimize signal timings, reducing the amount of input data required to deploy them.
 
 Owing to the amount of data required to develop them and their heavy computational requirements traffic simulation models have traditionally been restricted to small area studies, often encompassing no more than a few dozen traffic signals and the detailed land use patterns and networks accompanying them. Other simulation models were developed specifically for the study of freeway corridors. In recent years the advent of GIS, remote sensing capabilities, online traffic data, and signal timing optimization programs has enabled these models to be used for successively larger study areas. GUIs have significantly eased the coding and checking of input data, and some packages have interfaces to static traffic assignment models.
+
+Applications
+------------
 
 Aside from [TRANSIMS](TRANSIMS) there have been few attempts to replace traffic assignment models in urban areas with traffic simulation models. [Rickert and Wagner (1996)](http://www.worldscientific.com/doi/abs/10.1142/S0129183196000156?journalCode=ijmpc) built a model of the German Autobahn network, and [Rakha et al. (1998)](http://dx.doi.org/10.3141/1644-10) described the application of the INTEGRATION model in Salt Lake City. Both were prototypical applications that did not lead to their use by public agencies, although further work was anticipated in both instances that would have resulted in calibrated and useful models. There are no known on-going attempts in North America to microsimulate traffic flows for entire urban networks outside of the [TRANSIMS](TRANSIMS) program.
 
