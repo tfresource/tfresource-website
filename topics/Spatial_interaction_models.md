@@ -1,5 +1,5 @@
 ---
-title: "Spatial interaction models"
+title: "Spatial Interaction Models"
 categories:
   - Destination Choice Models
   - Topic Circles
