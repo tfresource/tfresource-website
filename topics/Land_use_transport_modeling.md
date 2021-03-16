@@ -1,5 +1,5 @@
 ---
-title: "Land use-transport modeling"
+title: "Land Use-Transport Modeling"
 categories:
   - Topic Circles
   - Land Use Transport Modeling
@@ -167,5 +167,3 @@ References
 [^15]: Hägerstrand, T. (1967) Innovation diffusion as a spatial process. The University of Chicago Press, Chicago.
 
 [^16]: Schelling, T.C. (1978) Micromotives and macro behavior. W. W. Norton & Company, New York. Pages 147 ff.
-
-

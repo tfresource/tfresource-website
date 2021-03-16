@@ -3,8 +3,7 @@ title: "TMIP Activity Based Model Webinar Series Instructor Manual"
 noTOC: true
 categories:
   - Needs Review
-  - Activity Based Modeling
-  - Models
+  - Activity Based Models
   - Papers
   - Resources
 links:
@@ -29,9 +28,4 @@ TMIP Activity-Based Modeling Webinar Series Instructor's Manual
 
 #### Publication Date
 
-2012}}
-
-------------------------------------------------------------------------
-
-
-
+2012

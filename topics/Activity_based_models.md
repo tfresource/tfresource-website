@@ -1,7 +1,8 @@
 ---
-title: "Activity-based models"
+title: "Activity Based Models"
 categories:
   - Topic Circles
+  - Activity Based Models
 ---
 
 <PagesInCategory category="Activity Based Models" />

@@ -1,7 +1,7 @@
 ---
 title: "Explaining Activity-Based Models to a General Audience"
 categories:
- 
+- Activity Based Models
 ---
 
 Travel model results often require additional interpretation and explanation to a non-technical audience. Because [activity-based models](Activity_Based_Models) are costly to implement and explain it is important to carefully convey how their functionality differs from other methods
@@ -19,4 +19,3 @@ Here are some ways that modelers have successfully explained activity-based mode
 -   Translate the model results into a familiar story. Follow the day in the life of one your model residents to show how the model is synthesizing actual choices.
 
 ------------------------------------------------------------------------
-

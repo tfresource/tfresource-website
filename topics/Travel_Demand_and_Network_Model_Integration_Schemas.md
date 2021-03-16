@@ -1,9 +1,9 @@
 ---
 title: "Travel Demand and Network Model Integration Schemas"
 categories:
-  - Activity-based models
-  - Network assignment
-  - Trip-based models
+  - Activity Based Models
+  - Network Assignment
+  - Trip Based Models
 ---
 
 ### Practical Integration Schemas
@@ -62,4 +62,3 @@ These methods have been borrowed from conventional trip-based modeling technique
 #### Enforcement
 
 These methods are specific to microsimulation and designed to ensure convergence of “crisp” individual choices by suppressing or avoiding Monte-Carlo variability. These methods are currently at an early stage of theoretical development, with some empirical strategies showing very good results (Vovsha et al. 2008). Enforcement methods include (1) re-using the same random numbers or starting random seeds for certain choices that would ensure that the choice will be replicated if no change occurs to the inputs, (2) gradual freezing of portions of households or travel dimensions from iteration to iteration and (3) analytical discretizing of probability matrices instead of Monte-Carlo simulation.
-
