@@ -2,7 +2,7 @@
 title: "Activity-Travel Planning and Decision Making Behaviors"
 categories:
   - Travel Behavior
-  - stub
+  - Stub
 ---
 
 ### Introduction

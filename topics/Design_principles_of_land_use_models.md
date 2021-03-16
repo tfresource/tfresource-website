@@ -1,7 +1,7 @@
 ---
-title: "Design principles of land use models"
+title: "Design Principles of Land Use Models"
 categories:
-   - Land Use/Transport Modeling
+   - Land Use Transport Modeling
 ---
 
 Summary
