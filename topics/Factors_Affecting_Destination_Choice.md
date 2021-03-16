@@ -66,7 +66,7 @@ These terms may be understood as playing an important and implicit role in the a
 Destination Accessibilities
 ---------------------------
 
-[Accessibility measures](Accessibilities) capture spatial autocorrelation, agglomeration effects, convenience, or centrality of various alternatives. These measure not so much the intrinsic desirability of a destination itself, but rather the convenience of visiting a destination so as to be able to conduct other activities nearby as well. For example, two office towers might each be construed as substantially similar destinations, but the office tower surrounded by shops and restaurants (i.e. complementary activities) would likely be more desirable than the office tower surrounded simply by parking lots and vacant land.
+[Accessibility measures](Accessibility) capture spatial autocorrelation, agglomeration effects, convenience, or centrality of various alternatives. These measure not so much the intrinsic desirability of a destination itself, but rather the convenience of visiting a destination so as to be able to conduct other activities nearby as well. For example, two office towers might each be construed as substantially similar destinations, but the office tower surrounded by shops and restaurants (i.e. complementary activities) would likely be more desirable than the office tower surrounded simply by parking lots and vacant land.
 
 ![](AgglomerationVsSpatialCompetion.jpg "AgglomerationVsSpatialCompetion.jpg")
 
@@ -118,4 +118,3 @@ References
 [^9]: Bhat, C., A. Govindarajan, and V. Pulugurta. Disaggregate Attraction–End Choice Modeling: Formulation and Empirical Analysis. In Transportation Research Record 1645, TRB, National Research Council, Washington, D.C., 1998, pp. 60–68.
 
 [^10]: Bernardin, V., F. Koppelman, and D. Boyce. “Enhanced Destination Choice Models Incorporating Agglomeration Related to Trip Chaining While Controlling for Spatial Competition.” Transportation Research Record: Journal of the Transportation Research Board, No. 2132 (2009): p. 143-151.
-

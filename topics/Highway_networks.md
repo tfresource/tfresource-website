@@ -1,5 +1,5 @@
 ---
-title: "Highway networks"
+title: "Highway Networks"
 categories:
    - Transportation Networks
 ---
@@ -10,6 +10,7 @@ Links
 -----
 
 **Links** are often described by length, capacity, number of lanes, posted speed, and freeflow speed. The congested speed on any link may be calculated through the use of an appropriate volume-delay function (VDF). The links can represent a variety of attributes such as length, cost (such as time), and capacity. A typical highway network will include links ranging from high speed, high capacity (e.g., freeways) to low-speed, low capacity (e.g., residential streets).
+
 ![Sample Highway Network Link](HighwayNetworkLinkExample.png "fig:Sample Highway Network Link")
 
 Several typical *primary attributes* can be identified as critical to the performance of the travel demand model, and *secondary attributes* provide more information about the roadways.
@@ -41,5 +42,5 @@ Other Network Inputs
 
 ------------------------------------------------------------------------
 
-[^1]: [NCHRP\_Synthesis\_406:\_Advanced\_Practices\_in\_Travel\_Forecasting\_-\_A\_Synthesis\_of\_Highway\_Practice](NCHRP_Synthesis_406_Advanced_Practices_in_Travel_Forecasting__A_Synthesis_of_Highway_Practice), Transportation Research Board, 2010.
+[^1]: [NCHRP\_Synthesis\_406:\_Advanced\_Practices\_in\_Travel\_Forecasting\_-\_A\_Synthesis\_of\_Highway\_Practice](http://www.trb.org/Publications/Blurbs/163651.aspx), Transportation Research Board, 2010.
 

@@ -59,7 +59,7 @@ Instead of employing a complete set of constants for every alternative, it may s
 
 ### Agglomeration effects and competing destinations
 
-In the utility functions described thus far, two destinations that are equi-distant from the origin and have the same size (number of jobs, for example), will exhibit the same choice probability, all else equal. However one of these destinations may be located in a Central Business District, while the other may be located in a suburb. The CBD destination may be more attractive because it more conveniently affords opportunities for conducting other activities, such as going out for lunch, shopping, recreation, etc. That is, part of the attractiveness of a destination may lie in the accessibility that it provides to other activities. This effect can be introduced in a destination choice model by adding [accessibility](Accessibilities) variables. Note that the accessibilities are calculated from each destination zone to all other destinations:
+In the utility functions described thus far, two destinations that are equi-distant from the origin and have the same size (number of jobs, for example), will exhibit the same choice probability, all else equal. However one of these destinations may be located in a Central Business District, while the other may be located in a suburb. The CBD destination may be more attractive because it more conveniently affords opportunities for conducting other activities, such as going out for lunch, shopping, recreation, etc. That is, part of the attractiveness of a destination may lie in the accessibility that it provides to other activities. This effect can be introduced in a destination choice model by adding [accessibility](Accessibility) variables. Note that the accessibilities are calculated from each destination zone to all other destinations:
 
 $${ A }_{ j }=\ln { \left[ \sum _{ k }^{ }{ { S }_{ k } } \times exp\left( { C }_{ jk } \right) \right] }$$
 
@@ -111,4 +111,3 @@ References
 [^4]: Satomura, T., J. Kim, G. Allenby. "Multiple-Constraint Choice Models with Corner and Interior Solutions". Marketing Science, Vol. 30, No. 3, 2011, pp. 481-490
 
 [^5]: Bernardin, V., S. Trevino, G. Slater & J. Gliebe. “Simultaneous Travel Model Estimation from Survey Data and Traffic Counts.” Transportation Research Record: Journal of the Transportation Research Board, No. 2496 (2015): p. 69-76.
-

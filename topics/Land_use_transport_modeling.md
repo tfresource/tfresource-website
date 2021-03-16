@@ -8,7 +8,7 @@ categories:
 Summary
 -------
 
-Land use models can be integrated with travel demand models to reflect the interactions between the transportation system and land use development. Both households and businesses prefer locations with -everything else being equal- higher [accessibilities](Accessibilities), and therefore, are influenced by travel times that are an output of transportation models. The location choices of households, businesses and developers, in turn, influences the location and scale of travel demand that is calculated by the travel demand model. The integration of land use with transportation models has proven to improve the model sensitivities in scenario analyses. Common [design principles](Design_principles_of_land_use_models) show how different elements of land-use models work together.
+Land use models can be integrated with travel demand models to reflect the interactions between the transportation system and land use development. Both households and businesses prefer locations with -everything else being equal- higher [accessibilities](Accessibility), and therefore, are influenced by travel times that are an output of transportation models. The location choices of households, businesses and developers, in turn, influences the location and scale of travel demand that is calculated by the travel demand model. The integration of land use with transportation models has proven to improve the model sensitivities in scenario analyses. Common [design principles](Design_principles_of_land_use_models) show how different elements of land-use models work together.
 
 Introduction
 ------------
@@ -20,6 +20,9 @@ Traditionally, transportation models use static forecasts of [socio-economic dat
 *Concept of traditional transportation (left) and integrated land use/transportation models (right)*
 
 Empirical research, however, has shown that the transportation systems influences land-use decisions (compare for example Hansen 1959[^1] or Kreibich 1978[^2]), and therefore, the allocation of socio-economic data. While the static land-use forecast may be appropriate in the base scenario (often called business-as-usual scenario), the forecast of population and employment may be unrealistic in a certain policy scenario. For example, if the model is used to test the expansion of a rail line, households may decide to relocate because the rail line may make certain suburbs more attractive. The right side of the figure above visualizes this concept. A land use model is used to update the allocation of socio-economic data for a given model run.
+
+Forecasting
+-----------
 
 The integration between land use and transportation models can be rather simple as shown in the graphic below. Starting with [socio-economic data](Spatial_data) (SED) in the base year (here shown as 2000 data), the transportation model runs for the same year, representing an *average day* of that year. The [skim matrices](Skim_Matrix) of the transportation model, usually provided for travel time and travel costs, are fed into the land use model that models the land use changes from 2000 to 2001 (or whatever the time increment is set to). The output of the land use model replaces the base year socio-economic data for the next model run of the transportation model.
 

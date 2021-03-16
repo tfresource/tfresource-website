@@ -29,9 +29,9 @@ Transit skims provide information on travel between all zones by transit modes. 
 
 It is common in travel demand modeling to use a combined [impedance](Impedance) across several modes, rather than just using travel time of travel distance by one mode. This combined measurement is called Mode Choice Logsum. It is calculated by
 
-$$logsum_{i\,j} = \ln \left(\sum_{mode} \exp(u_{i,j,mode})\right)$$
+$$logsum_{i,j} = \ln \left(\sum_{mode} \exp(u_{i,j,mode})\right)$$
 
-where $logsum_{i\,j}$ is the logsum (or utility) to travel from _i_ to _j_ for purpose _k_ at time _t_ and
+where $logsum_{i,j}$ is the logsum (or utility) to travel from _i_ to _j_ for purpose _k_ at time _t_ and
 
 $$u_{i,j,mode}=c + \alpha \cdot time_{i,j,mode}+\beta \cdot costs_{i,j,mode} + \gamma \cdot transfers_{i,j,mode} + \ldots$$
 

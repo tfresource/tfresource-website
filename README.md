@@ -13,7 +13,7 @@ features:
     details: 'We welcome content from the entire travel forecasting community. Please help us keep the content fresh!'
 ---
 
-# What is the Travel Forecasting Resource?
+# What is the Travel Forecasting Resource ?
 
 This project came about due to a TRB research project designed to examine the state-of-the-practice in metropolitan travel forecasting.
 

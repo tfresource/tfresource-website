@@ -17,9 +17,7 @@ As the world's population becomes increasingly urbanized, researchers and agenci
 
 ## Summary
 
-Members and Friends of the [TRB Committee on Urban Transportation Data and Information Systems (ABJ30)](https://sites.google.com/site/trbabj30/) have compiled a list of commonly used data sources and tools. In compiling the content for this section, we went with data sources and tools that we regularly use or are exploring. We have included links to resources that we have found helpful. We also have included some information about emerging trends and issues to consider with respect to some of these data sources.
-
-This section was never intended to be an all-inclusive inventory, so if you notice a particular data source or related tool is missing, we hope that you'll add it in! We also welcome additional details regarding trends and emerging issues.
+Members and Friends of the [TRB Committee on Urban Transportation Data and Information Systems (ABJ30)](https://sites.google.com/site/trbabj30/) have compiled a list of commonly used data sources and tools. In compiling the content for this section, contributors included data sources and tools that they regularly use or are exploring. Contributors also included some information about emerging trends and issues to consider with respect to some of these data sources.
 
 ## Data Topics
 

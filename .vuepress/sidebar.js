@@ -1,7 +1,18 @@
 module.exports = [
   {
-    title: 'Intro',
-    children: ['/topics/Big_Picture', '/topics/00_Table_Contents'],
+    title: 'About',
+    children: [
+      '/topics/Big_Picture',
+      '/topics/00_Table_Contents',
+      '/topics/About',
+      '/topics/Community',
+      '/topics/Contributing',
+      '/topics/Style_Guide',
+      '/topics/Contributing-Dev-Instructions',
+      '/topics/Including_TRB_sponsored_research',
+      '/changes',
+      '/topics/',
+    ],
   },
   {
     title: 'Principles and Concepts',
@@ -9,7 +20,7 @@ module.exports = [
       {
         title: 'Concepts of Travel Behavior',
         children: [
-          '/topics/Accessibilities',
+          '/topics/Accessibility',
           '/topics/Impedance',
           '/topics/Trip_based_models',
           '/topics/Activity_based_models',
@@ -29,7 +40,7 @@ module.exports = [
       },
       {
         title: 'Statistics / Econometrics',
-        children: ['/topics/Choice_models'],
+        children: ['/topics/Choice_models', '/topics/Regression_Analysis'],
       },
     ],
   },
@@ -68,18 +79,5 @@ module.exports = [
   {
     title: 'Travel Survey Manual',
     children: ['/surveymanual/'],
-  },
-  {
-    title: 'About TFR',
-    children: [
-      '/topics/About',
-      '/topics/Governance',
-      '/topics/Community',
-      '/topics/Content_and_Membership_Council',
-      '/topics/',
-      '/topics/TF_Resource_Volunteers',
-      '/topics/Contributing',
-      '/topics/Contributing-Dev-Instructions',
-    ],
   },
 ]
