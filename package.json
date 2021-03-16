@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/billyc/tfresource#readme",
   "devDependencies": {
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
     "vuepress": "^1.2.0",
     "vuepress-plugin-minimal-analytics": "^0.1.4"
