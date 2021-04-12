@@ -21,7 +21,7 @@ module.exports = [
         title: 'Concepts of Travel Behavior',
         children: [
           '/topics/Accessibility',
-          '/topics/Impedance',
+          '/topics/Travel_Behavior_Definitions',
           '/topics/Trip_based_models',
           '/topics/Activity_based_models',
         ],
@@ -32,15 +32,17 @@ module.exports = [
           '/topics/Travel_behavior',
           '/topics/Trip_Generation',
           '/topics/Trip_distribution',
-          '/topics/Mode_choice',
           '/topics/Destination_Choice_Models',
+          '/topics/Mode_choice',
           '/topics/Network_assignment',
+          '/topics/Dynamic_Traffic_Assignment',
           '/topics/Land_use_transport_modeling',
         ],
       },
       {
         title: 'Statistics / Econometrics',
-        children: ['/topics/Choice_models', '/topics/Regression_Analysis'],
+        children: ['/topics/Regression_Analysis', 
+                   '/topics/Choice_models'],
       },
     ],
   },
@@ -50,16 +52,25 @@ module.exports = [
       {
         title: 'Model Building Blocks',
         children: [
+          '/topics/Travel_Behavior_Definitions',
+          '/topics/Travel_behavior',
+          '/topics/Travel_surveys',
           '/topics/Highway_networks',
           '/topics/Traffic_Analysis_Zone',
           '/topics/Spatial_data',
           '/topics/Urban_Data',
           '/topics/Skim_Matrix',
+          '/topics/Version_Control'
         ],
       },
       {
         title: 'Model Development Techniques',
-        children: ['/topics/Model_calibration_and_validation'],
+        children: [
+          '/topics/Model_calibration_and_validation',
+          '/topics/Mode_choice.html#calibration',
+          '/topics/Destination_Choice_Calibration_and_Validation',
+          
+        ],
       },
       {
         title: 'Mode-specific Considerations',
@@ -68,13 +79,18 @@ module.exports = [
           '/topics/Public_transport_transit_modeling',
           '/topics/Autonomous_vehicles',
           '/topics/Land_use_transport_modeling',
+          '/topics/Pedestrian_Route_Choice',
         ],
       },
     ],
   },
   {
     title: 'Model Application and Management',
-    children: ['/topics/New_Starts', '/topics/Project_level_traffic_forecasting', '/topics/Sketch_planning_models'],
+    children: ['/topics/Statewide_models', 
+               '/topics/Strategic_models', 
+               '/topics/Travel_Demand_and_Network_Model_Integration_Schemas',
+               'topics/Integrated_Travel_Demand_and_Network_Models',
+               '/topics/Traffic_simulation_models'],
   },
   {
     title: 'Travel Survey Manual',
