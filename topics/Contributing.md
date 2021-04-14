@@ -5,12 +5,12 @@ categories:
 ---
 
 ::: tip Welcome CONTRIBUTORS!
-Thanks for reviewing and contributing content!  This site wouldn't exist without volunteers like you. 
+Thanks for reviewing and contributing content!  This site wouldn't exist without volunteers like you.
 
 Remember to refer to the [Style Guide](Style_Guide).
 
 Thank you!!!
-::: 
+:::
 
 ::: tip Reminder for committee reviewers:
 Be sure to **REMOVE the 'Needs Review'** category line from the top of a page -- after you have verified it and made any necessary updates! :-)
@@ -18,7 +18,7 @@ Be sure to **REMOVE the 'Needs Review'** category line from the top of a page --
 
 This website serves as a community resource for travel forecasting research and practice. We welcome your participation!
 
-This community is comprised of [volunteers](TF_Resource_Volunteers), many of whom are affiliated with the Transportation Research Board's Standing Committee (AEP50) on Transportation Demand Forecasting's Subcommittee for Travel Forecasting Resources.
+This community is comprised of [volunteers](Community), many of whom are affiliated with the Transportation Research Board's Standing Committee (AEP50) on Transportation Demand Forecasting's Subcommittee for Travel Forecasting Resources.
 
 ## Getting started
 
@@ -85,6 +85,6 @@ Please review and refer to our [Style Guide](Style_Guide) in editing and develop
 
 Dispute resolution will be handled, if necessary, by the TRB AEP50 Subcommittee on Travel Forecasting Resources ("the committee").
 
-The committee has developed and approved the following policies and procedures.  Any necessary additions or updates will be developed and approved by the same committee. The information on the TFResource is divided into topic areas selected by the committee.  Future topics will be considered as content becomes available and contributions are made to the site.  If a topic you really care about is not currently found, please follow the instructions above and in the [Developer Instructions](Contributing-Dev-Instructions) to submit your contribution. 
+The committee has developed and approved the following policies and procedures.  Any necessary additions or updates will be developed and approved by the same committee. The information on the TFResource is divided into topic areas selected by the committee.  Future topics will be considered as content becomes available and contributions are made to the site.  If a topic you really care about is not currently found, please follow the instructions above and in the [Developer Instructions](Contributing-Dev-Instructions) to submit your contribution.
 
 ---
