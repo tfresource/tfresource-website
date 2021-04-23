@@ -41,7 +41,10 @@ module.exports = [
       },
       {
         title: 'Statistics / Econometrics',
-        children: ['/topics/Regression_Analysis', '/topics/Choice_models'],
+        children: ['/topics/Regression_Analysis', 
+                   '/topics/Choice_models'
+                   '/topics/Iterative_Proportional_Fitting'
+                  ],
       },
     ],
   },
