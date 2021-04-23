@@ -1,7 +1,7 @@
 ---
 title: "Regression Analysis"
 categories:
-  - Statistical Methods
+  - Statistics
   - Topic Circles
 ---
 
