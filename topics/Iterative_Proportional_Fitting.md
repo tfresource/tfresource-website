@@ -79,4 +79,4 @@ IPF can be conducted by multiple (more than two) dimensions. For example, there 
 
 Each iteration will adjust the matrix three times to match the control totals in these three dimensions. 
 
-[//]: # %% Note: to add this page to the menu on the left, go to website/.vuepress/sidebar.js
+[comment]: # %% Note: to add this page to the menu on the left, go to website/.vuepress/sidebar.js
