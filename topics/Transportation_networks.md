@@ -49,7 +49,7 @@ Current State of the Practice
 
 Usually all freeways, expressways, principal arterials, minor arterials, and feeder/collector routes are included. Data on roadway characteristics are associated with each link. Current highway networks range in size from 4,200 links for small MPOs to more than 20,000 for large MPOs. [^3] The detail of the network often reflects the size of the [TAZs](Traffic_Analysis_Zones), the resources available to maintain the network, and the intended applications of the model.
 
-![Sample Highway Network](MAG Highway Networks.jpg "Sample Highway Network")
+![Sample Highway Network](MAG_Highway_Networks.jpg "Sample Highway Network")
 
 The transit network (if there is one) is represented as routes for the various transit systems in the metropolitan area. Some of these routes run on the highway network and share highway links, while others are on their own right-of-way. Transit networks are typically more complex than highway networks because of the multiple modes involved and the need to consider operating frequencies and schedules. The vast majority of MPOs that have rail transit within their area include the entire rail network in their transit model. More than 80 percent of all MPOs and 90 percent of large MPOs include at least 75 percent of available express bus miles in their transit network. All of the large MPOs that reported having local bus service include at least three quarters of the local routes in their network. In contrast, more than 60 percent of the small MPOs and 20 percent of the medium MPOs that reported having local bus service include less than three-quarters of local service miles in their network.[^4]
 
