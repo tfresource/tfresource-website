@@ -57,7 +57,7 @@ module.exports = [
           '/topics/Travel_Behavior_Definitions',
           '/topics/Travel_behavior',
           '/topics/Travel_surveys',
-          '/topics/Highway_networks',
+          '/topics/Transportation_networks',
           '/topics/Traffic_Analysis_Zone',
           '/topics/Spatial_data',
           '/topics/Urban_Data',
