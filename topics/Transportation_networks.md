@@ -15,7 +15,7 @@ Learn more about this circle at [Transportation networks](Transportation_network
 Introduction
 ------------
 
-Highway and transit networks are a principal means by which the supply side of transportation is represented. A typical highway network will include links ranging from high speed, high capacity (e.g., freeways) to low-speed, low capacity (e.g., residential streets). Transit networks are a spatial representation of bus, rail, and other types of transit routes available in a region. Links will include fixed-guideway (e.g., passenger rail) to bus lines that operate in mixed-traffic on the roadway links.
+Transportation networks could be of several types for representing the infrastructure or supply of different modes. Highway and transit networks are a principal means by which the supply side of transportation is represented. A typical highway network will include links ranging from high speed, high capacity (e.g., freeways) to low-speed, low capacity (e.g., residential streets). Transit networks are a spatial representation of bus, rail, and other types of transit routes available in a region. Links will include fixed-guideway (e.g., passenger rail) to bus lines that operate in mixed-traffic on the roadway links.
 
 While all models are representations of the 'real world', it should be noted that network models can be both very precise and accurate. The following quote puts this in perspective especially as it relates to the differences between the supply and demand side of models.
 
@@ -47,7 +47,7 @@ Current State of the Practice
 
 **Network Representation**
 
-Usually all freeways, expressways, principal arterials, minor arterials, and feeder/collector routes are included. Data on roadway characteristics are associated with each link. Current highway networks range in size from 4,200 links for small MPOs to more than 20,000 for large MPOs. [^3] The detail of the network often reflects the size of the [TAZs](Traffic_Analysis_Zones), the resources available to maintain the network, and the intended applications of the model.
+Usually all freeways, expressways, principal arterials, minor arterials, and feeder/collector routes are included. Data on roadway characteristics are associated with each link. Current highway networks range in size from 4,200 links for small MPOs to more than 20,000 for large MPOs. [^3] The detail of the network often reflects the size of the [TAZs](Traffic_Analysis_Zones), the resources available to maintain the network, and the intended applications of the model. For example, [Traffic simulation models](Traffic_simulation_models) might need detailed information about turning movements and traffic controls at intersections. In other words, Multi-resolution networks may need to be developed to support [Multi-resolution models](Multi_resolution_models).
 
 ![Sample Highway Network](MAG_Highway_Networks.jpg "Sample Highway Network")
 
@@ -76,17 +76,27 @@ What is coded? A protocol should be developed to ensure consistency throughout t
 
 **Standards**
 
-There are various emerging standards for transportation networks. Standard network definitions make it easier to share networks between organizations, software programs, and people. A few relevant standards include:
+There are various emerging standards for transportation networks. A few relevant standards include:
 
 -   OpenStreetMap - <http://wiki.openstreetmap.org/wiki/Main_Page>
 -   General Transit Feed Specification (GTFS) - <https://developers.google.com/transit/gtfs>
 -   Model Free - <http://modelfree.org>
 -   UNETRANS - <http://ncrst.digitalgeographic.com/research/unetrans/first.html>
--   TIGER/Line - <http://www.census.gov/geo/maps-data/data/tiger.html>
+-   TIGER/Line - <https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_geography.html>
+
+In addition, various transportation modeling software have their own standards for representing networks. A few examples include:
+
+-   MATSim (agent-based transport simulations) - <https://www.matsim.org/about-matsim>
+-   SUMO (open source traffic simulation suite) - <https://www.eclipse.org/sumo/>
+-   AequilibraE (comprehensive Python package for transportation modeling) - <http://aequilibrae.com/>
+
+***General Modeling Network Specification (GMNS)***
+
+Standard network definitions make it easier to share networks between organizations, software programs, and people. The General Modeling Network Specification (GMNS) [^5] is a standard that aims to facilitate network tools and data sources among modelers. It is designed to be used in multi-modal static and dynamic transportation planning and operations models. See the [GMNS GitHub project page](https://github.com/zephyr-data-specs/GMNS) for more information.
 
 **Data Sources**
 
-Several sources of network data are described in the [Travel Model Validation and Reasonableness Checking Manual](Model_Validation_and_Reasonableness_Checking). [^5] These sources could include direct field observations, transportation or transit planning agencies, aerial photography, online maps ([Google Maps](https://maps.google.com), [OpenStreetMap](http://www.openstreetmap.org)), commercial venders (ArcGIS, Navteq, Tele Atlas), GTFS, [TIGER/Line Files](http://www.census.gov/geo/maps-data/data/tiger.html) from the Census Bureau, and others.
+Several sources of network data are described in the [Travel Model Validation and Reasonableness Checking Manual](Model_Validation_and_Reasonableness_Checking). [^6] These sources could include direct field observations, transportation or transit planning agencies, aerial photography, online maps ([Google Maps](https://maps.google.com), [OpenStreetMap](http://www.openstreetmap.org)), commercial venders (ArcGIS, Navteq, Tele Atlas), GTFS, [TIGER/Line Files](https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_geography.html) from the Census Bureau, and others.
 
 **Reasonableness Checks**
 
@@ -107,18 +117,13 @@ Online Network Repositories
 
 Some online repositories for actual network files for research and modeling include:
 
+-   GMNS Small Network Examples - <https://github.com/zephyr-data-specs/GMNS/tree/master/Small_Network_Examples>
+-   OSM2GMNS - <https://osm2gmns.readthedocs.io/>
 -   TransitLand - <https://transit.land>
 -   TransportationNetworks Test Programs (TNTP) - <http://trb-networkmodeling.org/testdata>
 
 References
 ----------
-
-Related Content
----------------
-
-{{\#ask: [_](_)
-| format=ul
-}}
 
 [^1]: Bain, Robert (2009) Toll Road Traffic & Revenue Forecasts, An Interpreter's Guide.
 
@@ -128,5 +133,7 @@ Related Content
 
 [^4]:
 
-[^5]: [Travel Model Validation and Reasonableness Checking Manual, Second Edition](Model_Validation_and_Reasonableness_Checking), Federal Highway Administration Travel Model Improvement Program, 2010.
+[^5]: [General Modeling Network Specification: Documentation, Software and Data](https://trid.trb.org/view/1693717).
+
+[^6]: [Travel Model Validation and Reasonableness Checking Manual, Second Edition](Model_Validation_and_Reasonableness_Checking), Federal Highway Administration Travel Model Improvement Program, 2010.
 
