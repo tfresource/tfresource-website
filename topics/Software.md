@@ -49,7 +49,7 @@ Brief description of what the software does: QRS II is a state-of-the-practice, 
 
 Uses of the software and types of users: QRS II provides traditional region-wide forecasting, as well as project-level and strategic (short to medium term) travel forecasting. QRS II runs the four-step planning process for highway and transit forecasting. QRS II has been greatly influenced by NCHRP Reports 187, 365, 716, and 765. QRS II is used by MPOs, state DOTs, municipalities, and traffic consultants.
 
-[Website](www.ajhassoc.com), [Contact](ajh.associates@att.net)
+[Website](https://www.ajhassoc.com)
 
 
 TransCAD
