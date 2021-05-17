@@ -42,7 +42,9 @@ module.exports = [
       {
         title: 'Statistics / Econometrics',
         children: ['/topics/Regression_Analysis', 
-                   '/topics/Choice_models'],
+                   '/topics/Choice_models',
+                   '/topics/Iterative_Proportional_Fitting',
+                  ],
       },
     ],
   },
@@ -60,7 +62,7 @@ module.exports = [
           '/topics/Spatial_data',
           '/topics/Urban_Data',
           '/topics/Skim_Matrix',
-          '/topics/Version_Control'
+          '/topics/Version_Control',
         ],
       },
       {
@@ -69,7 +71,6 @@ module.exports = [
           '/topics/Model_calibration_and_validation',
           '/topics/Mode_choice.html#calibration',
           '/topics/Destination_Choice_Calibration_and_Validation',
-          
         ],
       },
       {
@@ -86,11 +87,13 @@ module.exports = [
   },
   {
     title: 'Model Application and Management',
-    children: ['/topics/Statewide_models', 
-               '/topics/Strategic_models', 
-               '/topics/Travel_Demand_and_Network_Model_Integration_Schemas',
-               'topics/Integrated_Travel_Demand_and_Network_Models',
-               '/topics/Traffic_simulation_models'],
+    children: [
+      '/topics/Statewide_models',
+      '/topics/Strategic_Models',
+      '/topics/Travel_Demand_and_Network_Model_Integration_Schemas',
+      '/topics/Integrated_Travel_Demand_and_Network_Models',
+      '/topics/Traffic_simulation_models',
+    ],
   },
   {
     title: 'Travel Survey Manual',
