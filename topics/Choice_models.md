@@ -2,8 +2,10 @@
 title: "Choice Models - A Self Instructing Course"
 categories:
   - Logit Manual
+  - Statistics
 
 ---
+<PagesInCategory category="Statistics" />
 
 Introduction
 ------------
