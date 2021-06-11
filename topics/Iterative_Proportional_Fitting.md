@@ -9,13 +9,11 @@ categories:
 
 ## Introduction ##
 
-Iterative proportional fitting (IPF) serves to create two-dimensional tables (such as households by income and household size) from one-dimensional input data (such as one list with households by income and another list with households by size). 
-
-Iterative proportional fitting is also known as matrix balancing and RAS method, these terms describe the process. 
+Iterative proportional fitting (IPF) serves to create two-dimensional tables (such as households by income and household size) from separate one-dimensional input data (such as one list of households by income and another list of households by size). IPF may also be called matrix balancing or the RAS method in other fields. 
 
 ## Problem setup ##
 
-Imagine, you have data on number of households by household size, and number of households by auto-ownership. 
+Imagine you have separate data on total households by household size and number of households by car-ownership. 
 
 ![](hhBySize.png 'Households by Size')
 
@@ -25,7 +23,7 @@ Imagine, you have data on number of households by household size, and number of 
 
 *Example: Households by Car-Ownership*
 
-If you need the number of households by size and car-ownership, you can use IPF to create those numbers, respecting the given totals of households by size and households by car-ownership. In other words, the goal of IPF is to fill the cells in this matrix, while respecting row and column totals:
+IPF can be used to create a matrix of households across both of these dimensions, while respecting the given totals. In other words, the goal of IPF is to fill the cells in this matrix, while respecting row and column totals:
 
 ![](hhTable.png 'Households by Size and Car-Ownership')
 
@@ -35,11 +33,11 @@ If you need the number of households by size and car-ownership, you can use IPF 
 
 The table is filled with starting values and adjusted iteratively to match row totals and column totals. 
 
-First, starting values for each cell in this matrix needs to be set. If no better information is available, the initial values could be set to 1. Better yet, starting values could be more likely values, such as values that were observed in a different study area. 
+First, values for each cell in this matrix need to be set to some initial value. This starting values could be set at 1 if no better information is available, or the values could be based on those from another location or past study. 
 
 ### Iteration 1 ###
 
-Below, the table was filles with 1's as better data were not available. Next, the row sum is calculated (the process could equally well start with column sums). Obviously, the row sum is far off from row target. The ratio between the two describes the correction that is needed to reach the row totals. 
+The example below initializes the table with values of 1. Next, the row sum is calculated. (The process could equally well start with column sums). Obviously, the row sum is far off from row target since we assumed a naive value of 1 to start. The ratio between the row and column sums describes the correction that is needed to reach the row totals. 
 
 ![](hhTable_1.png 'Households by Size and Car-Ownership: Iteration 1')
 
@@ -47,11 +45,11 @@ After multiplying every cell in the matrix with the corresponding row ratio, the
 
 ![](hhTable_2.png 'Households by Size and Car-Ownership: Iteration 1 after adjustment')
 
-The sum of every row perfectly matches the row totals. 
+The sum of every row perfectly matches the row totals, but the column totals are far off. 
 
 ### Iteration 2 ###
 
-However, the column totals are far off. The number of households by household size is not matched yet. By summing up values across columns, the ratios between target column totals and actual column totals are calculated. 
+Since the column totals are so far off, we see that the number of households by household size from the matrix does not match the known (1-dimensional) totals. By summing up values across columns, the ratios between target column totals and actual column totals are calculated. 
 
 ![](hhTable_3.png 'Households by Size and Car-Ownership: Iteration 2')
 
