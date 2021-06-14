@@ -30,7 +30,7 @@ This project came about due to a TRB research project designed to examine the st
 
 ## Project administration
 
-TRB is serving as the “secretariat” for the site. This means providing staffing, support to the curators and contributors, and contracting with the experts needed to develop the site. A TRB committee was also appointed to provide the technical expertise to develop the website - these are our [volunteers](TF_Resource_Volunteers).
+TRB is serving as the “secretariat” for the site. This means providing staffing, support to the curators and contributors, and contracting with the experts needed to develop the site. A TRB committee was also appointed to provide the technical expertise to develop the website.
 
 In addition to the volunteers, the administrators are responsible for the general organization, functionality and operation of the site itself. If you have suggestions on how to improve the TFResource functionality, please let the administrators know.
 

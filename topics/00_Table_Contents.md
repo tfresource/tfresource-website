@@ -52,8 +52,9 @@ This section deals with best practices for developing and delivering travel fore
 * [Zones](Traffic_Analysis_Zone) and more generally [Spatial Data](Spatial_data)
 * [Socioeconomic data](Spatial_Data.html#land-use-demographic-socio-economic-data)
 * Software for model development
-  - Commercial packages
+  - [Commercial packages for travel modeling](Software)
   - Open-source languages
+  - Behavioral model estimation software
   - [Version Control](Version_Control)
 
 ### Model development techniques
