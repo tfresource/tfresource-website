@@ -8,10 +8,12 @@ categories:
 
 **Intended audience**: Since modelers frequently collaborate with planners, the wiki should be accessible to both groups of people. This will also benefit modelers and students newer to the field. Please make a concerted effort to write with these groups in mind.
 
-## Page Title
+## File-Naming
+- Before creating a new page, carefully consider whether a new page is necessary. Does your new content better fit onto an existing page?
+- Make sure that your page does not already exist under a similar or different name (search for applicable or shortened keywords).
+- When naming a new markdown file for your page, please use one capital letter followed by all lowercase.  For example: `New_page.md`
 
-- Carefully consider whether a new page is necessary. Does your new content better fit onto an existing page?
-- Make sure that page does not already exist under a similar or different name (search for applicable or shortened keywords).
+## Page Title
 - All page titles should be uppercase.
 - Keep page titles as short as possible.
 - Make them clear - the page title should give a clear indication of the page content
