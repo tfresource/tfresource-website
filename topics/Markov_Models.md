@@ -15,5 +15,5 @@ The use of Markov transition models within land use models is discussed in more 
 Please see the following external resources for more general information on Markov transition models.
 
 ## Resources
--   For a visual demo of Markov transition models, see https://setosa.io/ev/markov-chains/
--   For a more detailed explanation of Markov transition models, see https://en.wikipedia.org/wiki/Markov_chain
+-   For a visual demo of Markov transition models, see <https://setosa.io/ev/markov-chains/>
+-   For a more detailed explanation of Markov transition models, see <https://en.wikipedia.org/wiki/Markov_chain>
