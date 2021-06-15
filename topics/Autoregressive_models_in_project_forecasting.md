@@ -1,7 +1,7 @@
 ---
-title: "Autoregressive (AR) models in project-level traffic forecasting "
+title: "Autoregressive models in project-level traffic forecasting "
 categories:
-  - Needs Review
+  - Statistical Methods
 ---
 
 ## Objective
@@ -17,17 +17,16 @@ A closely related set of statistical models was developed by Box and Jenkins for
 - Moving Average (MA).  Moving average models perform data smoothing by accounting for errors that occur when the data series is used to backcast itself.
 
 ARIMA models may be enhanced by including explanatory variables or by including spatially-related variables.  An AR model with an explanatory variable may be referred to as an ARX model.  An AR model with a spatial variable may be referred to as an SAR model.
-Names for AR models often embed the number of lags.  For example, an AR(2) model would include two lag terms.  Here are two elementary AR models:
+Names for AR models often embed the number of lags.  For example, an AR(1) model would include a single lagged term,
 
-T<sub>n</sub>=a<sub>0</sub>+a<sub>1</sub> T<sub>(n-1)</sub>
+$$x_n = \beta_0 + \beta_1 x_{n-1}$$
 
-(AR model with a single lag at one period)
+while an AR(2) model would include two terms. The terms do not necessarily need to be consecutive; for instance, the model below
+can be used on monthly counts to deseasonalize the trend from the same month last year.
 
-T<sub>n</sub>=a<sub>0</sub>+a<sub>1</sub> T<sub>(n-1)</sub>+a<sub>2</sub> T<sub>(n-12)</sub>
+$$x_n = \beta_0 + \beta_1 x_{n-1} + \beta_2 x_{n-12}$$
 
-(AR model with a lag at one period and a lag at twelve periods)
-
-The second example is typical of AR models for forecasting monthly traffic counts.  Ideally, lags should be chosen both statistically and logically.
+Autoregressive models may be made statistically stronger and more policy sensitive by including explanatory variables. Explanatory variables may be demographic or socioeconomic or they can be spatial.
 
 ## Guidelines
 

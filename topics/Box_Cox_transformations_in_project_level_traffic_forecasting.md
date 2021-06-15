@@ -2,6 +2,7 @@
 title: "Box-Cox transformations in project-level traffic forecasting"
 categories:
   - Needs Review
+  - Statistical Methods
 ---
 
 Objective
@@ -71,4 +72,3 @@ Items to Report
 
 References
 ----------
-

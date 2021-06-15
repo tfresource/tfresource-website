@@ -2,7 +2,6 @@
 title: "2012 Household Travel Survey Symposium: Conference Summary and Final Report"
 noTOC: true
 categories:
-  - Needs Review
   - Reports
   - Resources
   - Travel Behavior
@@ -35,4 +34,3 @@ The symposium was divided into two parts. The discussion groups on Thursday focu
 2013-December-31
 
 ------------------------------------------------------------------------
-
