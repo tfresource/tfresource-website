@@ -7751,6 +7751,11 @@ void-elements@^3.1.0:
   resolved "https://registry.yarnpkg.com/void-elements/-/void-elements-3.1.0.tgz#614f7fbf8d801f0bb5f0661f5b2f5785750e4f09"
   integrity sha1-YU9/v42AHwu18GYfWy9XhXUOTwk=
 
+vue-cookies@^1.7.4:
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/vue-cookies/-/vue-cookies-1.7.4.tgz#d241d0a0431da0795837651d10b4d73e7c8d3e8d"
+  integrity sha512-mOS5Btr8V9zvAtkmQ7/TfqJIropOx7etDAgBywPCmHjvfJl2gFbH2XgoMghleLoyyMTi5eaJss0mPN7arMoslA==
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
@@ -7863,10 +7868,8 @@ vuepress-plugin-medium-zoom@^1.1.5:
   dependencies:
     medium-zoom "^1.0.4"
 
-vuepress-plugin-minimal-analytics@^0.1.4:
+vuepress-plugin-minimal-analytics@./.vuepress/packages/vuepress-plugin-minimal-analytics:
   version "0.1.4"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-minimal-analytics/-/vuepress-plugin-minimal-analytics-0.1.4.tgz#c6bcfc33330c65c669111df625b63a3b585fc254"
-  integrity sha512-f+Y4FYiafmxrhwQjaMeu6CFZo0BrKetMpF3X/wLMK7Sp5n7dWk0s8pBowgY82jgWZmn63PjYeaX+MTJhCqnmRg==
 
 vuepress-plugin-smooth-scroll@^0.0.3:
   version "0.0.3"
