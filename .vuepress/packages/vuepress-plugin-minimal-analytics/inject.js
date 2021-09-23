@@ -1,6 +1,14 @@
 /* global GA_ID, ga */
 
+import Vue from 'vue'
+import VueCookies from 'vue-cookies'
+Vue.use(VueCookies)
+
 export default ({ router }) => {
+  // Skip everything if GDPR consent cookie is not set
+  if (!Vue.$cookies.isKey('gdpr')) return
+  if (Vue.$cookies.get('gdpr') !== 'ok') return
+
   // Google analytics integration
   if (process.env.NODE_ENV === 'production' && GA_ID && typeof window !== 'undefined') {
     // snippet source: https://gist.github.com/DavidKuennen/443121e692175d6fc145e1efb0284ec9

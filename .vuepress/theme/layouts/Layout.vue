@@ -16,25 +16,20 @@
       <slot name="page-bottom" #bottom />
     </Page>
 
-    <!-- Ackee analytics -->
-    <script
-      async
-      src="/tfr.js"
-      data-ackee-server="https://tfresource.herokuapp.com"
-      data-ackee-domain-id="03de50bf-a455-4479-b95c-d5a2378dd031"
-    ></script>
+    <GdprBanner />
   </div>
 </template>
 
 <script>
 import Home from '@theme/components/Home.vue'
+import GdprBanner from '@theme/components/GdprBanner.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 import { resolveSidebarItems } from '../util'
 
 export default {
-  components: { Home, Page, Sidebar, Navbar },
+  components: { Home, Page, Sidebar, Navbar, GdprBanner },
 
   data() {
     return {

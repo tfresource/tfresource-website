@@ -65,7 +65,7 @@ module.exports = {
         additionalArgs: '--no-merge',
       },
     ],
-    ['minimal-analytics', { ga: 'UA-157455011-1' }],
+    ['vuepress-plugin-minimal-analytics', { ga: 'UA-157455011-1' }],
   ],
   title: 'TF Resource',
   themeConfig: {
@@ -83,37 +83,8 @@ module.exports = {
       //{ text: 'Survey Manual', link: '/surveymanual/' },
       {
         text: 'About',
-        items: [
-          { text: 'About TF-Resource', link: '/topics/About' },
-          // , { text: 'How to Contribute', link: '/thing/' }
-        ],
+        items: [{ text: 'About TF-Resource', link: '/topics/About' }],
       },
-      /*
-      {
-        text: 'RESOURCES',
-        items: [
-          {
-            text: 'TFR Resources',
-            items: [
-              { text: 'Papers', link: '/resources/papers' },
-              { text: 'Reports & Presentations', link: '/resources/presentations' },
-              { text: 'Webinars & Videos', link: '/resources/videos' },
-            ],
-          },
-          {
-            text: 'Other Websites',
-            items: [
-              { text: 'TF-Resource OG', link: 'http://old.tfresource.org' },
-              {
-                text: 'Wikipedia Travel Forecasting',
-                link: 'https://en.wikipedia.org/wiki/Transportation_forecasting',
-              },
-              { text: 'TFR on Github', link: 'https://github.com/tfresource' },
-            ],
-          },
-        ],
-      },
-      */
     ],
   },
 }
