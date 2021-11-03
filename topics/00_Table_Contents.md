@@ -25,7 +25,7 @@ forecast models.
 ### Travel Behavior Models
 * [Trip Generation](Trip_Generation)
 * Daily activity patterns
-* [Trip Distribution](Spatial_Interaction_Models)
+* [Trip Distribution](Trip_distribution)
 * [Destination Choice](Destination_Choice_Models)
 * [Mode Choice](Mode_choice)
 * Time-of-day Choice
