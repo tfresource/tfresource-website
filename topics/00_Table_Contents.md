@@ -17,10 +17,10 @@ This section deals with the behavioral and mathematical theory underlying travel
 forecast models.
 
 ### Concepts of Travel Behavior
-* Value of Time
+* [Travel Behavior](Travel_behavior)
 * [Accessibility](Accessibility)
-* [Induced Demand](Travel_Behavior_Definitions) / Derived Demand / Trip Purposes
-* [Trip-based](Trip_based_models) and [Activity-based](Activity_based_models) distinctions
+* [Trip-based models](Trip_based_models)
+* [Activity-based models](Activity_based_models)
 
 ### Travel Behavior Models
 * [Trip Generation](Trip_Generation)

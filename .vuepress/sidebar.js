@@ -20,8 +20,8 @@ module.exports = [
       {
         title: 'Concepts of Travel Behavior',
         children: [
+          '/topics/Travel_behavior',
           '/topics/Accessibility',
-          '/topics/Travel_Behavior_Definitions',
           '/topics/Trip_based_models',
           '/topics/Activity_based_models',
         ],
@@ -29,7 +29,6 @@ module.exports = [
       {
         title: 'Models of Travel Behavior',
         children: [
-          '/topics/Travel_behavior',
           '/topics/Trip_Generation',
           '/topics/Trip_distribution',
           '/topics/Destination_Choice_Models',
@@ -41,7 +40,7 @@ module.exports = [
       },
       {
         title: 'Statistics / Econometrics',
-        children: ['/topics/Regression_Analysis', 
+        children: ['/topics/Regression_Analysis',
                    '/topics/Choice_models',
                    '/topics/Iterative_Proportional_Fitting',
                   ],

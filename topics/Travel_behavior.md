@@ -1,7 +1,7 @@
 ---
 title: "Travel Behavior"
 categories:
-  - Topic Circles
+  - Travel Behavior
 ---
 
 <PagesInCategory category="Travel Behavior" />
@@ -49,30 +49,21 @@ Activity-travel planning behaviors generally refer to the behavioral processes b
 
 Joint Travel Behavior refers to how people choose to travel when considering the travel of other household members or persons in their social networks. For instance, children under driving age need to be driven to activities by parents, which requires coordination of household schedules. Household members often need to decide how to share vehicles to conduct daily activities. Some activities are more likely to be conducted with other people, like eating a meal or socializing, whereas other activities may often be conducted alone, such as commuting to work.
 
-### Current Trends in Travel Behavior
-
-### [Travel Behavior of Diverse Populations](Travel_Behavior_of_Diverse_Populations)
-
-### [Using policy to affect travel behavior](Using_policy_to_affect_travel_behavior)
-
-### [Long Distance Travel Behavior](https://tfresource.org/topics/Long_distance_Travel.html)
-
-### Historical and Political Context impacts on travel behavior
-
-### [Travel Behavior Definitions](https://tfresource.org/topics/Travel_Behavior_Definitions.html)
-
-Definitions for common terms observed in the travel behavior field.
-
-### [Travel Behavior Resources](https://tfresource.org/topics/Travel_Behavior_Resources.html)
-
-A selection of papers, presentations and reports discussing the above topics
-
 
 ## Other Resources
 
 TRB supports a [committee on travel behavior and values](http://trb-travelbehavior.org). The committee is concerned with promoting research and disseminating research results on traveler values, attitudes, and behavior. Traveler values and attitudes refer to motivational, cognitive, situation and disposition factors determining human behavior. Traveler behavior refers primarily to the modeling and analysis of travel demand, based on theories from a variety of scientific fields. These include but are not limited to time use and activity-based approaches, longitudinal methods, and spatial behavior. The committee serves as a forum for the development, testing, and dissemination of new interdisciplinary methods of inquiry. If you are interested, please visit the [TRB Traveler Behavior and Values committee website](http://www.trb.org/ADB10/ADB10.aspx)
 
 Another significant resource in the field is the [International Association of Travel Behavior Research](http://www.iatbr.org). This group consists of the leading researchers in the field of traveler behavior. It hosts triennial conferences where the latest research in field is presented and publishes selected works from each conference in a conference book. More information on IATBR can be found at [www.iatbr.org](http://www.iatbr.org/).
+
+Other pages on this website include:
+  - [Travel Behavior of Diverse Populations](Travel_Behavior_of_Diverse_Populations)
+  - [Using policy to affect travel behavior](Using_policy_to_affect_travel_behavior)
+  - [Long Distance Travel Behavior](https://tfresource.org/topics/Long_distance_Travel.html)
+  - [Travel Behavior Definitions](https://tfresource.org/topics/Travel_Behavior_Definitions.html)
+  - [Travel Behavior Resources](https://tfresource.org/topics/Travel_Behavior_Resources.html)
+
+
 
 ## References
 
