@@ -48,7 +48,7 @@ Destination Choice Models
 Pivoting, Growth Factor and Data-Driven Models
 ----------------------------------------------
 
-Another fairly common class of models goes by several names including “data-driven”, “pivoting”, “growth factor” and “Fratar” models. These models are most commonly used for distributing trucks and, more recently, public transit trips but are also used with some regularity for forecasting automobile trips as well. The defining element of these models is their reliance on a “prior” or “seed” matrix. The prior or seed matrix may be actual data on origin-destination patterns observed at some point in time (data-driven approach) or synthesized, most commonly using some method of origin-destination matrix estimation from traffic counts. Although used from the beginning of travel forecasting in the 1950s,[^6] these techniques have recently enjoyed a new wave of popularity, particularly for transit forecasting, and is now required for modeling in the UK and receiving more attention in Europe.[^7]
+Another fairly common class of models goes by several names including “data-driven”, “pivoting”, “growth factor” and “Fratar” models. These models are most commonly used for distributing trucks and, more recently, public transit trips but are also used with some regularity for forecasting automobile trips as well. The defining element of these models is their reliance on a “prior” or “seed” matrix. The prior or seed matrix may be actual data on origin-destination patterns observed at some point in time (data-driven approach) or synthesized, most commonly using some method of origin-destination matrix estimation from traffic counts. Although used from the beginning of travel forecasting in the 1950s,[^4] these techniques have recently enjoyed a new wave of popularity, particularly for transit forecasting, and is now required for modeling in the UK and receiving more attention in Europe.[^5]
 
 Intervening Opportunities Models
 --------------------------------
@@ -147,12 +147,6 @@ Related Content
 
 [^3]: Daly, A. (1982) 'Estimating Choice Models Containing Attraction Variables', "Transportation Research, Part B: Methodological" Vol. 16, No. 1, pp. 5-15
 
-[^4]:
+[^4]: Fratar, T. J. “Vehicular Trip Distribution by Successive Approximations”, Traffic Quarterly, 1954.
 
-[^5]:
-
-[^6]: Fratar, T. J. “Vehicular Trip Distribution by Successive Approximations”, Traffic Quarterly, 1954.
-
-[^7]: Daly, A., J. Fox, B. Patruni and F. Milthorpe (2012) 'Pivoting in Travel Demand Models' presented at Australasian Transport Research Forum
-
-[^8]:
+[^5]: Daly, A., J. Fox, B. Patruni and F. Milthorpe (2012) 'Pivoting in Travel Demand Models' presented at Australasian Transport Research Forum
