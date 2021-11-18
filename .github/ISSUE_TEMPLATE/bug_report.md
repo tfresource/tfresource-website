@@ -21,5 +21,5 @@ assignees: '@billyc'
 ## Issue Ready Checklist
 <!--- Needs to be fully checked-off in order to work on it -->
 
--[ ] Sufficiently defined  
--[ ] Severity labeled  
+- [ ] Sufficiently defined  
+- [ ] Severity labeled  

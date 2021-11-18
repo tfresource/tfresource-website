@@ -20,4 +20,4 @@ Pages to be updated:
 ## Issue Ready Checklist
 <!--- Needs to be fully checked-off in order to work on it -->
 
--[ ] Sufficiently defined  
+- [ ] Sufficiently defined  
