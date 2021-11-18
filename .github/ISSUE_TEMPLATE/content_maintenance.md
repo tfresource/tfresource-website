@@ -2,7 +2,7 @@
 name: ✍️ Content Maintenance
 about: Request for updated content or organization either on an existing page.
 title: 'Update: '
-labels: 'update'
+labels: 'revised content'
 assignees: ''
 ---
 
