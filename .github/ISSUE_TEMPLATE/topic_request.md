@@ -1,7 +1,7 @@
 ---
 name: 🌱 Topic Request
 about: Request for additional content either on an existing or new page.
-title: 'Topic: '
+title: '🌱 Topic: '
 labels: 'new content'
 assignees: ''
 ---

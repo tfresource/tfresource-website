@@ -1,7 +1,7 @@
 ---
 name: 🐞 Bug report
 about: Report a bug in site build or deploy process
-title: 'Bug: '
+title: '🐞 Bug: '
 labels: 'bug'
 assignees: '@billyc'
 ---

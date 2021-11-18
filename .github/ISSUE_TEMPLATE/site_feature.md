@@ -1,7 +1,7 @@
 ---
 name: 🚀 Site Feature
 about: New Feature for Site itself
-title: 'Feature: '
+title: '🚀 Feature: '
 labels: 'feature'
 assignees: ''
 ---

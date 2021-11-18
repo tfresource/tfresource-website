@@ -1,7 +1,7 @@
 ---
 name: 🛠️ Site Chore
 about: Maintenance and organization of the site (not content)
-title: 'Chore: '
+title: '🛠️ Chore: '
 labels: 'chore'
 assignees: '@billyc'
 ---
