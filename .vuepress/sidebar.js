@@ -53,15 +53,12 @@ module.exports = [
       {
         title: 'Model Building Blocks',
         children: [
-          '/topics/Travel_Behavior_Definitions',
-          '/topics/Travel_behavior',
           '/topics/Travel_surveys',
           '/topics/Transportation_networks',
           '/topics/Traffic_Analysis_Zone',
           '/topics/Spatial_data',
           '/topics/Urban_Data',
           '/topics/Skim_Matrix',
-          '/topics/Version_Control',
         ],
       },
       {
@@ -89,6 +86,7 @@ module.exports = [
     children: [
       '/topics/Statewide_models',
       '/topics/Strategic_Models',
+      '/topics/Version_Control',
       '/topics/Travel_Demand_and_Network_Model_Integration_Schemas',
       '/topics/Integrated_Travel_Demand_and_Network_Models',
       '/topics/Traffic_simulation_models',
