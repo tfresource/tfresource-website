@@ -14,7 +14,7 @@ You must create a free account on [GitHub](https://github.com/) in order to make
 
 This removes the need for complicated permissions management or gatekeeping on the site, while still allowing the TFResource editors to prevent spam or incomplete/incorrect changes. After review, TFResource volunteers may then either approve/merge the edits or suggest additional changes.
 
-- For more info on getting started, see [Contributing](https://tfresource.org/Contributing.html)
+- For more info on getting started, see [Contributing](https://tfresource.org/topics/Contributing.html)
 
 ## Governance
 
