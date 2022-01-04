@@ -92,8 +92,4 @@ module.exports = [
       '/topics/Traffic_simulation_models',
     ],
   },
-  {
-    title: 'Travel Survey Manual',
-    children: ['/surveymanual/'],
-  },
 ]
