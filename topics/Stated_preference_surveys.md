@@ -7,8 +7,7 @@ categories:
 
 Note: This material comes from the Travel Survey Manual Chapter 21. It was originally composed by Gonçalo Correia and Mark Bradley, drawing also from the FHWA’s Travel Survey Manual’s Chapter 13.
 
-Introduction
-============
+## Introduction
 
 In general transportation planning, surveys are meant to capture travelers’ current travel behavior. For instance, one is interested in knowing the actual mode a traveler is using, actual travel times, destinations, and so forth. This is known as Revealed Preference (RP) data, as the traveler is currently experiencing that behavior and making a choice based on his or her knowledge of the available travel options. Another type of data is based on Stated Responses (SR), in which hypothetical situations are presented to the respondents, who are then asked to choose based on the given attributes for each alternative, without necessarily experiencing them in real situations. SP is a very popular sub-class of SR methods, focused on estimating the utility function for alternatives (Lee-Gosselin 1995). Other question types in this class are stated intentions, stated tolerance, stated adaptation, and stated prospect, as discussed later in this chapter.
 
@@ -30,32 +29,30 @@ There are at least four other types of SR surveys: Stated Intentions, Stated Tol
 
 Of the classes of SR techniques, SP surveys are the most important source of data for developing a Discrete Choice Model (DCM) to represent traveler decisions when faced with new travel alternatives and transportation policy actions. DCMs have played an important role in transportation modeling for the last 25 years. “They are namely used to provide a detailed representation of the complex aspects of transportation demand, based on strong theoretical justifications” (Bierlaire, 1997).
 
-Designing SP Experiments
-============
+## Designing SP Experiments
 
 
 
 
-Validity of Stated-Preference Results
-============
+## Validity of Stated-Preference Results
 
-Combining Stated - and Revealed-Preference Data
-============
 
-Discrete Choice Models (DCMs) and the Willingness to Pay (WTP)
-============
+## Combining Stated - and Revealed-Preference Data
 
-Examples
-============
 
-Conclusions
-============
+## Discrete Choice Models (DCMs) and the Willingness to Pay (WTP)
+
+
+## Examples
+
+
+## Conclusions
+
 
 
 Chapter 21 of the Travel Survey Manual focuses on SP experiments. The design and deployment of the experiments is explained focusing on the attributes and their levels as well as the media and the way to present the choices to the respondents. The chapter also presents the main analysis that can be conducted through the calibration of DCMs based on SP information.
 
-References
-==========
+## References
 
 Bates, J., (1988). Econometric Issues in Stated-Preference Analysis. Journal of Transport Economics and Policy, XXII(1), 59-69.
 
