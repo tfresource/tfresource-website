@@ -5,10 +5,10 @@ categories:
   - Travel Surveys
 ---
 
+Note: This material comes from the Travel Survey Manual Chapter 21. It was originally composed by Gonçalo Correia and Mark Bradley, drawing also from the FHWA’s Travel Survey Manual’s Chapter 13.
+
 Introduction
 ============
-
-Note: This material comes from the Travel Survey Manual Chapter 21. It was originally composed by Gonçalo Correia and Mark Bradley, drawing also from the FHWA’s Travel Survey Manual’s Chapter 13.
 
 In general transportation planning, surveys are meant to capture travelers’ current travel behavior. For instance, one is interested in knowing the actual mode a traveler is using, actual travel times, destinations, and so forth. This is known as Revealed Preference (RP) data, as the traveler is currently experiencing that behavior and making a choice based on his or her knowledge of the available travel options. Another type of data is based on Stated Responses (SR), in which hypothetical situations are presented to the respondents, who are then asked to choose based on the given attributes for each alternative, without necessarily experiencing them in real situations. SP is a very popular sub-class of SR methods, focused on estimating the utility function for alternatives (Lee-Gosselin 1995). Other question types in this class are stated intentions, stated tolerance, stated adaptation, and stated prospect, as discussed later in this chapter.
 
@@ -30,10 +30,86 @@ There are at least four other types of SR surveys: Stated Intentions, Stated Tol
 
 Of the classes of SR techniques, SP surveys are the most important source of data for developing a Discrete Choice Model (DCM) to represent traveler decisions when faced with new travel alternatives and transportation policy actions. DCMs have played an important role in transportation modeling for the last 25 years. “They are namely used to provide a detailed representation of the complex aspects of transportation demand, based on strong theoretical justifications” (Bierlaire, 1997).
 
+Designing SP Experiments
+============
+
+
+
+
+Validity of Stated-Preference Results
+============
+
+Combining Stated - and Revealed-Preference Data
+============
+
+Discrete Choice Models (DCMs) and the Willingness to Pay (WTP)
+============
+
+Examples
+============
+
+Conclusions
+============
+
+
 Chapter 21 of the Travel Survey Manual focuses on SP experiments. The design and deployment of the experiments is explained focusing on the attributes and their levels as well as the media and the way to present the choices to the respondents. The chapter also presents the main analysis that can be conducted through the calibration of DCMs based on SP information.
 
 References
 ==========
+
+Bates, J., (1988). Econometric Issues in Stated-Preference Analysis. Journal of Transport Economics and Policy, XXII(1), 59-69.
+
+Bates, J.J, M. Bradley, M. Wardman, A. Fowkes; H. Gunn and several others.(1987). The Value of Travel Time Saving. A report of research undertaken for the U.K. Department of Transport. Policy Journals. Newbury, UK, 1987.
+
+Ben-Akiva, M. and Morikawa, T., (1990). Estimation of Switching Models from Revealed-Preferences and Stated Intentions. Transport Research 24A(6), 485-495.
+
+Ben-Akiva, M. E. and Lerman, S. R., (1985). Discrete choice analysis: theory and application to travel demand, Cambridge.MIT Press.
+
+Ben-Akva, M. , D. Bolduc, and M. Bradley. (1993). Estimation of travel choice models with randomly distributed values of time. Transportation Research Record. 1413: 88-97. Transportation Research Board, Washington, D.C.1993.
+
+Ben-Akiva, M., M. Bradley, T. Morikawa, J. Benjamin, T. Novak, H. Oppewal and V. Rao. Combining revealed and stated preferences data. (1994) Marketing Letters. 5(2): 335-349. Springer, Amsterdam. 1994.
+
+Bierlair, M. (1997) Discrete Choice Models. Available from: http://roso.epfl.ch/mbi/papers/discretechoice/paper.html. Access date: 11 October 2009.
+
+
+Bliemer, M.C.J. and J.M. Rose (2008). “Construction of Experimental Designs for Mixed Logit Models Allowing For Correlation Across Choice Observations”. Paper presented at the Transportation Research Board Conference, Washington, DC, January 2008.
+
+Bradley, M. and H. Gunn (1991). A stated preference analysis of values of travel time in the Netherlands.  Transportation Research Record. 1285. Transportation Research Record, Washington, D.C.1991.
+
+Bradley, M. and Kroes, E. (1992), Forecasting Issues in Stated-Preference Research. Selected Readings in Transport Survey Methodolog. E. Ampt, A. Richardson and A. Meyburg. Melbourne, Eucalyptus Press. pp. 89-107.
+
+Bradley, M and A. Daly. (1994). Estimation of logit choice models using mixed stated preference and revealed preference information. (1994). In Understanding Travel Behavior in an Era of Urban Change. P.Stopher and M.Lee-Gosselin Ed. Pergamon Press, Oxford, 1994..
+
+Bradley, M. and J. Zmud. (2006) Validating Willingness to Pay Estimates for Tolled Facilities through Panel Survey Methods. Paper presented at the 11th International Conference on Travel Behavior Research. Kyoto.
+
+Tierney et al., FHWA (1996). Travel Survey Manual. Cambridge Systematics, Inc., Cambridge, MA.
+
+Lee-Gosselin, M. (1995) The Scope and Potential of Interactive Stated-Response Data Collection Methods. TRB’s Conference on Household Travel Surveys, Irvine, CA.
+
+Hensher, D. A., (2004). Identifying the influence of stated choice design dimensionality on willingness to pay for travel time savings. Journal of Transport Economics and Policy, 38, 425-446.
+
+Hensher, D. A., Rose, J. M. and Green, W. H., (2005). Applied Choice Analysis - A Primer, Cambridge.Cambridge University Press.
+
+
+Hess, S., C. Smith, S. Falzarano, and J.Stubits (2008). “Measuring the Effects of Different Experimental Designs and Survey Administration Methods using an Atlanta Managed Lanes Stated Preference Survey”. Paper presented at the Transportation Research Board Conference, Washington, DC, January 2008
+
+Jones, P. (1989) An Overview of Stated-Preference Techniques. (Note –this needs more details, Goncalo…)
+
+Jones, P.M. and M. Bradley (2006). “Stated Preference Surveys: An Assessment” in Travel Survey Methods: Quality and Future Directions. P. Stopher and C. Stecher ed. Elsevier Science. .
+
+Louviere, J.J., D.A. Hensher and J.D, Swait. (2000). Stated Choice Methods: Analysis and Applications. Cambridge Univ. Press.
+
+Lu, H., Fowkes, A. S,. Wardman, M. R. (2006) “The influence of stated preference (SP) design on the incentive to bias in responses”. Paper presented at the European Transport Conference, Strasbourg, October 2006.
+
+Pearmain, D., Swanson, J., Kroes, E. and Bradley, M., (1991). Stated-Preference Techniques: A Guide to Practice. Steer Davies Gleave and Hague Consulting Group.
+
+Rose, J. M., Bliemer, M. C. J., Hensher, D. A. and Collins, A. T., (2008). Designing efficient stated choice experiments in the presence of reference alternatives. Transportation Research Part B, 42(4), 395-406.
+
+Sawtooth Software http://www.sawtoothsoftware.com/
+
+Train, K. E., (2002). Discrete Choice Methods with Simulation.Cambridge University Press.
+
+TRB (2006). Web-Based Survey Techniques. to be completed
 
 The [Online Travel Survey Manual](Online_Travel_Survey_Manual) provides a comprehensive overview of travel surveys. It is curated by Transportation Research Board’s Travel Survey Methods Committee (ABJ40).
 
