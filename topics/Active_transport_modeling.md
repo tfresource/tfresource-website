@@ -14,11 +14,11 @@ There are many benefits to including active transportation and non-motorized mod
 
 A variety of frameworks have been developed to model active travel within regional TDMs. These approaches can be distinguished by the stage in the modeling process (for [trip-based models](Trip_based_models) or [activity-based models](Activity_based_models)) at which active mode trips are predicted. 
 
-•	Separate trip/tour generation process: Walk and bicycle trips can be generated completely separately from other modes. This process allows for the deployment of a stand-alone active transportation direct-demand model. Such a model may look and operate completely differently than other regional travel forecasting tools, relying heavily on measures of the built environment and utilizing different zonal/network structures. However, the lack of interactivity between the motorized and non-motorized model components limits this framework’s ability to represent mode shifts. 
+- **Separate trip/tour generation process**: Walk and bicycle trips can be generated completely separately from other modes. This process allows for the deployment of a stand-alone active transportation direct-demand model. Such a model may look and operate completely differently than other regional travel forecasting tools, relying heavily on measures of the built environment and utilizing different zonal/network structures. However, the lack of interactivity between the motorized and non-motorized model components limits this framework’s ability to represent mode shifts. 
 
-•	Mode split model before or after trip distribution/destination choice: Alternatively, walk, bicycle, and/or non-motorized trips may be predicted using a mode split model, either directly between (generation)[Trip_Generation] and (distribution)[Trip_distribution]/(destination choice)[Destination_Choice_Models], or immediately prior to (mode choice)[Mode_choice]. This mode split model usually relies on built environment associations with active transportation, and it may or may not incorporate measures of accessibility. As of 2017, fewer MPOs were utilizing this framework than did so the past. 
+-	**Mode split model before or after trip distribution/destination choice**: Alternatively, walk, bicycle, and/or non-motorized trips may be predicted using a mode split model, either directly between [generation](Trip_Generation) and [distribution](Trip_distribution)/[destination choice](Destination_Choice_Models), or immediately prior to (mode choice)[Mode_choice]. This mode split model usually relies on built environment associations with active transportation, and it may or may not incorporate measures of accessibility. As of 2017, fewer MPOs were utilizing this framework than did so the past. 
 
-•	Within mode choice: By far the most common method to model pedestrian and bicycle travel in TDMs is within a trip/tour (mode choice model)[Mode_choice]. In 2012, 18 large MPOs (38%) used this framework; over half of large MPOs (28, 58%) did so in 2017. It is more common for walking and bicycling to be represented as separate modes than as a single non-motorized mode, although they may be grouped within the same non-motorized nest (within a [nested logit model](Choice_models)). Most activity-based models that include active mode trips do so within mode choice models, and many MPOs added non-motorized modeling capabilities during the process of developing activity-based models. 
+-	**Within mode choice**: By far the most common method to model pedestrian and bicycle travel in TDMs is within a trip/tour [mode choice model](Mode_choice). In 2012, 18 large MPOs (38%) used this framework; over half of large MPOs (28, 58%) did so in 2017. It is more common for walking and bicycling to be represented as separate modes than as a single non-motorized mode, although they may be grouped within the same non-motorized nest (within a [nested logit model](Choice_models)). Most activity-based models that include active mode trips do so within mode choice models, and many MPOs added non-motorized modeling capabilities during the process of developing activity-based models. 
 
 ### Route choice
 
@@ -42,20 +42,20 @@ By far the biggest challenge reported by MPO modelers in a 2017 survey was a lac
 
 ## References
 
-Broach, J., Dill, J., & Gliebe, J. (2012). Where do cyclists ride? A route choice model developed with revealed preference GPS data. Transportation Research Part A: Policy and Practice, 46(10), 1730-1740. https://doi.org/10.1016/j.tra.2012.07.005
+Broach, J., Dill, J., & Gliebe, J. (2012). Where do cyclists ride? A route choice model developed with revealed preference GPS data. *Transportation Research Part A: Policy and Practice, 46*(10), 1730-1740. https://doi.org/10.1016/j.tra.2012.07.005
 
-Clifton, K. J., Singleton, P. A., Muhs, C. D., & Schneider, R. J. (2016a). Representing pedestrian activity in travel demand models: Framework and application. Journal of Transport Geography, 52, 111–122. http://doi.org/10.1016/j.jtrangeo.2016.03.009
+Clifton, K. J., Singleton, P. A., Muhs, C. D., & Schneider, R. J. (2016a). Representing pedestrian activity in travel demand models: Framework and application. *Journal of Transport Geography, 52*, 111–122. http://doi.org/10.1016/j.jtrangeo.2016.03.009
 
-Ewing, R., & Cervero, R. (2010). Travel and the built environment: A meta-analysis. Journal of the American Planning Association, 76(3), 265-294. https://doi.org/10.1080/01944361003766766
+Ewing, R., & Cervero, R. (2010). Travel and the built environment: A meta-analysis. *Journal of the American Planning Association, 76*(3), 265-294. https://doi.org/10.1080/01944361003766766
 
-Hood, J., Sall, E., & Charlton, B. (2011). A GPS-based bicycle route choice model for San Francisco, California. Transportation Letters, 3(1), 63-75. https://doi.org/10.3328/TL.2011.03.01.63-75
+Hood, J., Sall, E., & Charlton, B. (2011). A GPS-based bicycle route choice model for San Francisco, California. *Transportation Letters, 3*(1), 63-75. https://doi.org/10.3328/TL.2011.03.01.63-75
 
-Kuzmyak, J. R., Walters, J., Bradley, M., & Kockelman, K. M. (2014). Estimating bicycling and walking for planning and project development: A guidebook (NCHRP Report 770). Transportation Research Board. https://doi.org/10.17226/22330
+Kuzmyak, J. R., Walters, J., Bradley, M., & Kockelman, K. M. (2014). *Estimating bicycling and walking for planning and project development: A guidebook* (NCHRP Report 770). Transportation Research Board. https://doi.org/10.17226/22330
 
-Saelens, B. E., & Handy, S. L. (2008). Built environment correlates of walking: A review. Medicine and Science in Sports and Exercise, 40(7 Suppl), S550. https://doi.org/10.1249/MSS.0b013e31817c67a4
+Saelens, B. E., & Handy, S. L. (2008). Built environment correlates of walking: A review. *Medicine and Science in Sports and Exercise, 40*(7 Suppl), S550. https://doi.org/10.1249/MSS.0b013e31817c67a4
 
-Singleton, P. A., Totten, J. C., Orrego-Oñate, J. P., Schneider, R. J., & Clifton, K. J. (2018). Making strides: state of the practice of pedestrian forecasting in regional travel models. Transportation Research Record: Journal of the Transportation Research Board, 2672(35), 58-68. https://doi.org/10.1177/0361198118773555
+Singleton, P. A., Totten, J. C., Orrego-Oñate, J. P., Schneider, R. J., & Clifton, K. J. (2018). Making strides: state of the practice of pedestrian forecasting in regional travel models. *Transportation Research Record: Journal of the Transportation Research Board, 2672*(35), 58-68. https://doi.org/10.1177/0361198118773555
 
-Transportation Research Board (TRB). (2007). Metropolitan travel forecasting: Current practice and future direction (Special Report 288). Transportation Research Board. https://onlinepubs.trb.org/onlinepubs/sr/sr288.pdf
+Transportation Research Board (TRB). (2007). *Metropolitan travel forecasting: Current practice and future direction* (Special Report 288). Transportation Research Board. https://onlinepubs.trb.org/onlinepubs/sr/sr288.pdf
 
-Vanasse Hangen Brustlin, Inc. (VHB). (2007). Determination of the state of the practice in metropolitan area travel forecasting: Findings of the surveys of metropolitan planning organizations. Transportation Research Board. http://onlinepubs.trb.org/onlinepubs/reports/VHB-2007-Final.pdf
+Vanasse Hangen Brustlin, Inc. (VHB). (2007). *Determination of the state of the practice in metropolitan area travel forecasting: Findings of the surveys of metropolitan planning organizations*. Transportation Research Board. http://onlinepubs.trb.org/onlinepubs/reports/VHB-2007-Final.pdf
