@@ -22,7 +22,7 @@ A variety of frameworks have been developed to model active travel within region
 
 ### Route choice
 
-Few TDMs (assign)[Network_assignment] walk or bicycle trips to the network. Some MPOs are starting to apply bicycle route choice models to their bicycle trips, utilizing sensitivities to grade, turns, stops, traffic volumes, and bicycle facilities obtained through recent GPS-based analyses of bicycling behaviors. As of 2017, no large MPO was assigning walk trips to networks, largely due to a lack of research on pedestrian route choice and the difficulties representing realistic pedestrian networks at a regional scale. 
+Few TDMs [assign](Network_assignment) walk or bicycle trips to the network. Some MPOs are starting to apply bicycle route choice models to their bicycle trips, utilizing sensitivities to grade, turns, stops, traffic volumes, and bicycle facilities obtained through recent GPS-based analyses of bicycling behaviors. As of 2017, no large MPO was assigning walk trips to networks, largely due to a lack of research on pedestrian route choice and the difficulties representing realistic pedestrian networks at a regional scale. 
 
 ## Considerations
 
