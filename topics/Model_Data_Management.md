@@ -34,5 +34,3 @@ Oftentimes, full model runs may consume large amounts of disk space. Purchasing 
 
 #### Other Issues
 Proprietary travel modeling software releases periodic updates. In some cases, there may be incompatibility issues using older data with newer releases. Users should be aware of this impediment and understand their software’s policies and abilities. Some software suites allow users to update databases to new formats, while maintaining a copy of the old database. Alternatively, users may still be able to use older version of the software but might have issues running these old versions with newer operating systems.  
-
-#### Model Management Implications
