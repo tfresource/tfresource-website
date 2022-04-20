@@ -6,6 +6,7 @@ Vue.use(VueCookies)
 
 export default ({ router }) => {
   // Skip everything if GDPR consent cookie is not set
+  if (typeof document === 'undefined') return // skip during server-side rendering
   if (!Vue.$cookies.isKey('gdpr')) return
   if (Vue.$cookies.get('gdpr') !== 'ok') return
 
