@@ -26,17 +26,18 @@
   "devDependencies": {
     "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
-    "vuepress": "^1.2.0",
-    "vuepress-plugin-minimal-analytics": "./.vuepress/packages/vuepress-plugin-minimal-analytics"
+    "vuepress": "^1.9.7"
   },
   "dependencies": {
     "html-hint": "^0.2.4",
+    "markdown-it": "^12.3.2",
     "markdown-it-footnote": "^3.0.2",
     "markdown-it-sub": "^1.0.0",
     "vue-cookies": "^1.7.4",
     "vuepress-plugin-git-log": "^1.0.1",
     "vuepress-plugin-mathjax": "^1.2.8",
     "vuepress-plugin-medium-zoom": "^1.1.5",
+    "vuepress-plugin-minimal-analytics": "./.vuepress/packages/vuepress-plugin-minimal-analytics",
     "vuepress-plugin-smooth-scroll": "^0.0.7"
   }
 }
