@@ -31,8 +31,8 @@ It is common in travel demand modeling to use a combined [impedance](Impedance) 
 
 $$logsum_{i,j} = \ln \left(\sum_{mode} \exp(u_{i,j,mode})\right)$$
 
-where $logsum_{i,j}$ is the logsum (or utility) to travel from _i_ to _j_ for purpose _k_ at time _t_ and
+where $logsum_{i,j}$ is the logsum (or utility) to travel from _i_ to _j_ for purpose _k_ at time _t_. This equation might include terms such as the following:
 
 $$u_{i,j,mode}=c + \alpha \cdot time_{i,j,mode}+\beta \cdot costs_{i,j,mode} + \gamma \cdot transfers_{i,j,mode} + \ldots$$
 
-where $u_{i,j,mode}$ is the impedance for a given mode that may include a mode-specific constant $c$, travel time $time$ multiplied with a travel time coefficient $\alpha$, travel costs $costs$ multiplied with a travel costs coefficient $\beta$. Depending on the model design, further parameters could be added for selected modes, such as number of transfers, average wait time, access or egress time, etc.
+where $u_{i,j,mode}$ is the impedance for a given mode that may include a mode-specific constant $c$, travel time $time$ multiplied with a travel time coefficient $\alpha$, travel costs $costs$ multiplied with a travel costs coefficient $\beta$. Depending on the model design, further parameters could be added for selected modes, such as number of transfers, average wait time, access or egress time, etc. More details on mode choice utility variables and models are given in the [Self-Instructing Course](https://tfresource.github.io/modechoice/).
