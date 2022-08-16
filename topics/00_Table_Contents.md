@@ -47,7 +47,7 @@ forecast models.
 This section deals with best practices for developing and delivering travel forecasting models.
 
 ### Model building blocks
-* Travel behavior data: [Travel Behavior Definitions](Travel_Behavior_Definitions), [Travel Behavior](Travel_behavior), [Travel Behavior of Diverse Populations](Travel_Behavior_of_Diverse_Populations), [Travel Surveys](Travel_surveys)
+* Travel behavior data: [Travel Behavior](Travel_behavior), [Travel Behavior of Diverse Populations](Travel_Behavior_of_Diverse_Populations), [Travel Surveys](Travel_surveys)
 * [Networks](Transportation_networks) and [Network Data](Spatial_Data.html#network-data)
 * [Zones](Traffic_Analysis_Zone) and more generally [Spatial Data](Spatial_data)
 * [Socioeconomic data](Spatial_Data.html#land-use-demographic-socio-economic-data)

@@ -60,7 +60,6 @@ Other pages on this website include:
   - [Travel Behavior of Diverse Populations](Travel_Behavior_of_Diverse_Populations)
   - [Using policy to affect travel behavior](Using_policy_to_affect_travel_behavior)
   - [Long Distance Travel Behavior](https://tfresource.org/topics/Long_distance_Travel.html)
-  - [Travel Behavior Definitions](https://tfresource.org/topics/Travel_Behavior_Definitions.html)
   - [Travel Behavior Resources](https://tfresource.org/topics/Travel_Behavior_Resources.html)
 
 
