@@ -103,9 +103,7 @@ Within a single scenario, there is still the possibility of uncertainty in a for
 
 ### Guidelines for Specific Project Types
 
-[Bypasses of regional scope](Bypasses_of_regional_scope_in_project_level_traffic_forecasting)
-
-[Bypasses of local scope](Bypasses_of_local_scope_in_project_level_traffic_forecasting)
+[Bypasses](Bypasses_in_project_level_traffic_forecasting)
 
 Time Series Methods
 -------------------
