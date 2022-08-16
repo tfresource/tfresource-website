@@ -1,8 +1,28 @@
 ---
-title: "Bypasses of local scope in project-level traffic forecasting"
+title: "Bypasses In Project-Level Traffic Forecasting"
 categories:
+  - Project Level Traffic Forecasting
+  - Needs Review
 ---
 
+## Introduction
+Bypasses are commonly evaluated projects in travel forecasting studies, and they differ from more typical capacity expansion studies in that the effects can be more regional in scope and beyond simple congestion relief in the bypassed area. This page provides an overview of the handling of regional and local bypasses in project-level traffic forecasting.
+
+## Regional Bypasses
+Bypasses of regional scope serve to relieve traffic congestion on a parallel road and to give drivers not needing to stop locally a faster alternative route to their destination. Such bypasses have more than a few intersecting streets and provide access to substantial swaths of land that are not accessible to the original route.
+
+Bypasses of a regional scope require a depth of analysis provided by a travel forecasting model. The travel forecasting model may have already been developed for long-range planning, or the travel forecasting model could be developed specifically for this bypass. If applicable, a custom model could use either the windowing technique ([Windowing with OD table estimation from traffic counts](Windowing_with_OD_table_estimation_from_traffic_counts_in_project_level_traffic_forecasting)) or the subarea focusing technique ([Subarea focusing](Subarea_focusing_in_project_level_traffic_forecasting)).
+The decision to use a custom model instead of an existing model depends upon the adequacy of the existing model. The existing model should be reviewed for:
+
+-   Size of zones, for sufficient spatial precision;
+-   Analysis time period, for sufficient temporal precision;
+-   Delay relationships, for reasonable estimates of diversion due to congestion and traffic controls;
+-   Validation accuracy on the original route and on major crossing arterials;
+-   Age of input data.
+
+In either case, the outputs of the selected travel forecasting model may be refined by comparison to screenline counts or to forecasts done by a statistical (e.g., time series) method.
+
+## Local Bypasses
 Bypasses of local scope are greatly limited in spatial extent, such that a full travel forecast with a model is unnecessary. Such bypasses include alternative routes around tourist attractions or localized business districts. Such bypasses could be handled with an existing regional model (with sufficient spatial precision) or a sub-area model, but could also be handled with statistical (e.g., time-series) methods, provided that locally collected destination-choice data can be obtained through a vehicle-re-identification study. (See [Working with vehicle re-identification data](Working_with_vehicle_re_identification_data_in_project_level_traffic_forecasting) for a discussion of vehicle re-identification in the context of O-D tables.) Presumably such bypasses are small and they would not necessitate a complete environmental review.
 
 Time series analysis may be performed on the existing road to obtain forecasts of total traffic approaching the future bypassed area in both directions. However, additional information is required to determine the fraction of drivers who would chose the bypass over the original highway. Situations will differ, but many of the bypasses will be so advantageous to drivers that few drivers will stay on the original highway unless the original highway is the only way to reach the drivers’ destination. The fraction of drivers having necessary destinations along the original highway may be determined with a carefully designed vehicle re-identification study.

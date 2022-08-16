@@ -67,7 +67,7 @@ A highway project may range in scope from several miles of new freeway to spot i
 -   Lane widening (increasing the number of through lanes)
 -   Road diet (decreasing the number of through lanes)
 -   Other cross-section modification
--   New facilities, including bypasses
+-   New facilities, including [bypasses](Bypasses_in_project_level_traffic_forecasting)
 -   Detour/diversion analysis for work zones traffic planning
 -   Travel demand management
 -   Site impact analysis
