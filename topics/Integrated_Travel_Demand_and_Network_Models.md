@@ -256,7 +256,9 @@ Since 2014, four new SHRP2 C10 funded integration projects have been underway. T
 -   Columbus
 -   Atlanta
 
-**Matsim**
+**MATSim** 
+
+[MATSim](MATSim) stands for Multi-Agent Transport Simulation.  It is a project that came in part out of [TRANSIMS](TRANSIMS); it decomposes traffic assignment into iterating between route choice and network loading, and then integrates additional choice dimensions, such as mode or departure time choice, into that loop.  The iterations follow a co-evolutionary approach. That is, the synthetic travellers (or "agents") from time to time come up with new alternatives (= new plans), try them out on the network loading (called "mobility simulation"), and obtain a score/utility for these new alternatives.  If they do not come up with new alternatives, each synthetic person selects between its existing alternatives according to the score/utility.  For more information see the separate [MATSim](MATSim) page.
 
 Emerging Practice and Research Avenues
 --------------------------------------

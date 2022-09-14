@@ -72,7 +72,7 @@ This section deals with best practices for developing and delivering travel fore
 * Urban Air Mobility
 
 ## Model Application and Management
-This section deals with using travel forecasting models within public agencies. Topics include:
+This section deals with using travel forecasting models within public agencies and/or for research. Topics include:
 * [Statewide models](Statewide_models)
 * [Strategic models](Strategic_Models)
 * Model peer review practices
