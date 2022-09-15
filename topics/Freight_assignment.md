@@ -4,11 +4,6 @@ categories:
   - Freight
 ---
 
-## What is Freight Assignment?
-
-
-## What is Freight Assignment?
-
 Freight Assignment is a demand segmentation (sub-genre) of [Network Assignment](Network_assignment) that can be defined within travel models where understanding freight movement on the network is of specific interest.  Freight (goods movement) can be shipped on a variety of modes (air, water, rail, road, pipeline), and Freight Assignment can refer to the network assignment of any of these modes on the applicable network (for example, goods shipped via air would be assigned to network of available air routes, with cargo shipment capacities).  The content on this page focuses on discussions and issues related to truck freight shipments being assigned to a roadway network alongside passenger vehicles. 
 
 ### Motivations to Assigning Freight Separately
