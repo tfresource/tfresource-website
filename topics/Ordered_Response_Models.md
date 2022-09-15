@@ -10,33 +10,33 @@ Ordinal data is quite common in the transportation arena. An ordinal variable is
 In the ordered response framework, a single latent propensity function y<sup>*</sup>
 is assumed to be translated into observed ordered outcomes by threshold parameters as follows:
 
-y = j if &theta;<sub>j-1 </sub> <= y<sup>*</sup> <= &theta;<sub>j </sub> 
+$$y = j if \theta_{j-1} \leq y^* \leq \theta_j$$ 
 
-So, a ordinal variable with J categories requires (J-1) thresholds.
+So, a ordinal variable with $J$ categories requires $J-1$ thresholds.
 
 The latent propensity function y<sup>*</sup> is assumed to be comprised of an observed component specified as a function of explanatory variables and an unobserved stochastic component as follows:
 
-y<sup>*</sup> = &beta;<sup>'</sup>X + &epsilon;  
+$$y^* = \beta' X + \epsilon$$  
 
 Different assumptions about the stochastic component  &epsilon;  will lead to different variants of the ordered response model. The parameters that the analyst must estimate include the &beta; coefficients and (J-1) &theta; parameters. However, during estimation, it is important to ensure that the threshold parameters are in the monotonically increasing order as follows:
 
- &theta;<sub>1 </sub> < &theta;<sub>2 </sub> < .... < &theta;<sub>J-1 </sub>
+ $$\theta_1 < \theta_2 < \ldots < \theta_{J-1}$$
 
 ## Ordered Logit and Probit Models
 Assuming the &epsilon; term to be i.i.d. realizations from standard logistic distribution leads to the ordered response model with the following probability expression:
 
-P(y=j) =  1/(1+exp(&beta;<sup>'</sup>X-&theta;<sub>j </sub>) - 1/(1+exp(&beta;<sup>'</sup>X-&theta;<sub>j-1 </sub>) 
+$$P(y=j) =  1/(1+\exp(\beta'X-\theta_j)) - 1/(1+\exp(\beta'X-\theta_{j-1}))$$ 
 
-On the other hand, assuming the &epsilon; term to be i.i.d. realizations from standard normal distribution leads to the ordered response model with the following probability expression:
+On the other hand, assuming the $\epsilon$ term to be i.i.d. realizations from standard normal distribution leads to the ordered response model with the following probability expression:
 
-P(y=j) =  &phi;(&beta;<sup>'</sup>X-&theta;<sub>j </sub>) - &phi;(&beta;<sup>'</sup>X-&theta;<sub>j-1 </sub>), 
+$$P(y=j) =  \phi (\beta'X-\theta_j) - \phi(\beta'X-\theta_{j-1})$$ 
 
-where &phi; is the cumulative density function of standard normal distribution.
+where $\phi$ is the cumulative density function of standard normal distribution.
 
 ## Generalized Ordered Response Models
-In the standard ordered response models, the threshold parameters &theta; are assumed to be the same across all observations. However, it is possible that different decision-makers have different threshold parameters. So, a natural extension of the standard ordered response models involves parametrizing threshold "j" as function of explanatory variables Z<sub>j</sub> as follows:
+In the standard ordered response models, the threshold parameters &theta; are assumed to be the same across all observations. However, it is possible that different decision-makers have different threshold parameters. So, a natural extension of the standard ordered response models involves parametrizing threshold $j$ as function of explanatory variables $Z_j$ as follows:
 
-&theta;<sub>j </sub> = &theta;<sub>j-1 </sub> + exp(&gamma;<sub>j</sub><sup>'</sup>Z<sub>j</sub>) 
+$$\theta_j = \theta_{j-1} + exp(\gamma_j'Z_j) 
 
 The cumulatively additive and exponential specification of thresholds ensures strict ordered of thresholds needed in the ordered response models.
 
