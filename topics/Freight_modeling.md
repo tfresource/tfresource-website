@@ -32,3 +32,4 @@ In commercial vehicle trip generation, attributes of business enterprises serve 
 
 In regions or states serving comparatively small volumes of discretionary (i.e. non-dispatched) truck traffic, a further simplification may made by simply correlating observed network truck counts to socioeconomic data to obtain a zone-level estimate of commercial vehicle trip productions and attractions.
 
+Assigning freight trips to a highway network involves some additional complications. See the [Freight Assignment](Freight_assignment) page for more details.
