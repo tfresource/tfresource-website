@@ -1,7 +1,7 @@
 ---
 title: "Freight modeling"
 categories:
-  - Needs Review
+  - Freight
 ---
 
 Fundamentals
