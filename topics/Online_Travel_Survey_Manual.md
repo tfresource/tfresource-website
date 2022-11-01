@@ -20,7 +20,7 @@ Members and Friends of the Transportation Research Board’s Travel Survey Metho
 
 #### Source
 
-<[http://travelsurveymanual.org](http://travelsurveymanual.org/)/>
+[http://travelsurveymanual.org](http://travelsurveymanual.org/)
 
 [NCHRP Report 571](https://doi.org/10.17226/13805) and the [FHWA 1996 Travel Survey Manual](https://doi.org/10.21949/1404543) are the basis for the majority of content contained here.
 
@@ -35,7 +35,7 @@ This manual is divided into 25 sections or chapters, each relying on multiple ed
 5.  [Precision and Accuracy in Travel Surveys](http://travelsurveymanual.org/Chapter-5-1.html), by Ho-Ling Hwang, Peter Stopher and Clara Reschovsky
 6.  [Household Survey Methods Design and Sampling Decisions](http://travelsurveymanual.org/Chapter-6-1.html), by Kouros Mohammadian and Harry Timmermans
 7.  [Household Survey Organization and Contracting](http://travelsurveymanual.org/Chapter-7-1.html), by Guy Rousseau and Jimmy Armoogum
-8.  [Household Survey Instrument Design](http://travelsurveymanual.org/Chapter-8-(new).html), by Peter Stopher, Kay Axhausen, Stacey Bricka and Eric Molin
+8.  [Household Survey Instrument Design](http://travelsurveymanual.org/chapter-8.html), by Peter Stopher, Kay Axhausen, Stacey Bricka and Eric Molin
 9.  [Household Survey Pretests](http://travelsurveymanual.org/Chapter-9-1.html), by Nancy McGuckin and Rob Sheldon
 10. [Household Survey Implementation](http://travelsurveymanual.org/Chapter-10-1.html), by Stacey Bricka and Joanne Pratt
 11. [Household Survey Coding and Geocoding](http://travelsurveymanual.org/Chapter-11-1.html), by Martin Trepanier, Elaine Murakami, Celia Boertlein and Michael Greenwald
