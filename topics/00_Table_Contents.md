@@ -66,7 +66,7 @@ This section deals with best practices for developing and delivering travel fore
 ### Mode-specific considerations
 * [Freight modeling](Freight_modeling)
 * [Public transport (transit) modeling](Public_transport_transit_modeling)
-* [Active transport (non-motorized) modeling](Active_transport_modeling)
+* Active transport (non-motorized) modeling: [Pedestrian Route Choice](Pedestrian_Route_Choice)
 * Shared mobility
 * [Autonomous vehicles](Autonomous_vehicles)
 * Urban Air Mobility
