@@ -36,8 +36,8 @@ In addition, you will need a good Markdown text editor. We recommend using the f
 Now "clone" (download a copy) of the site on your computer, and install all important dependencies using the following commands:
 
 ```bash
-git clone https://github.com/[your-github-name]/website.git tfresource
-cd tfresource
+git clone https://github.com/[your-github-name]/tfresource-website.git tfresource-website
+cd tfresource-website
 npm install yarn
 npx yarn install
 ```
@@ -49,9 +49,10 @@ Now you are ready to build the site (i.e., convert the markdown and page templat
 
 - Start a local web server which builds and serves the site (this command will take a minute or two):
   - `npx yarn serve`
-  - If this command fails, you may need to remove node_modules with the command `rm -rf node_modules`, and rerun `npx yarn install` and `npx yarn serve`
+  - If this command fails, you may need to remove `node_modules` with the command `rm -rf node_modules`, and rerun `npx yarn install` and `npx yarn serve`
+  - If you get an error with `ERR_OSSL_EVP_UNSUPPORTED`, you may need to run `export NODE_OPTIONS=--openssl-legacy-provider` (see this [stackoverflow](https://stackoverflow.com/questions/69394632/webpack-build-failing-with-err-ossl-evp-unsupported)) 
 - Open a browser to `http://localhost:8080` to view your local copy of the site (using https may cause errors in some browsers).
-- Edit any pages in the `tfresource/topics` subfolder
+- Edit any pages in the `tfresource-website/topics` subfolder
 - Changes should hot-reload / show up automatically in the web browser, but if you don't see your changes you can click reload.
 
 ## 4. Creating a pull request

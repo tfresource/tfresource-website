@@ -24,10 +24,6 @@ This community is comprised of [volunteers](Community), many of whom are affilia
 
 TF Resource is a collection of pages written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) plain-text format, stored on Github.com. Github uses a "pull request" workflow, which means that **you don't need anyone's permission** to suggest whatever changes you see fit! Rather, you make changes to your own copy of a page, and then you request that those changes be pulled into the site by our team of volunteers.
 
-::: tip
-You must create a free account on [GitHub](https://github.com/) in order to make changes to the site.
-:::
-
 This removes the need for complicated permissions management or gatekeeping on the site, while still allowing the TFResource editors to prevent spam or incomplete/incorrect changes. After review, TFResource volunteers may then either approve/merge the edits or suggest additional changes.
 
 #### Should I edit directly on the Github website?
@@ -38,35 +34,63 @@ For larger changes, we recommend following the detailed [setup instructions](Con
 
 This will reduce the number of "round trips" while saving and publishing -- which will save you a lot of time.
 
-## Editing a page
+## Step 0: Login to GitHub
 
-### Process (how-to)
+If you don't have a GitHub account, you'll need to [create one](https://github.com/signup).
+Then, [Login to GitHub](https://github.com/login)
 
-1. Click the _Edit this Page_ link at the top of any page to create your own copy of the page and start editing.
+## Step 1: Create a GitHub issue for your desired change
 
-   - If you are not logged into GitHub, you will be asked to log in or create a new (free) account
-   - If this is the first time you are editing, you will be asked to **Fork this repository.** Yes, fork the repository. That means you are creating your own personal copy of the site, on which you can make whatever changes you wish.
+1. Navigate to the [tfresource-website Issues](https://github.com/tfresource/tfresource-website/issues) page and click the green **New Issue** button in the upper right.  You will be presented with a few issue templates from which to select; you'll most likely choose "Content Maintenance" or "Topic Request".
+
+2. Please fill out the issue as completely as possible. If discussion with other contributors would be helpful to resolve it, then this is a good place to have that conversation; you can [tag other GitHub users](https://github.blog/2011-03-23-mention-somebody-they-re-notified/) in the issue using **@their_username**.
+
+3. If you intend to resolve the issue yourself, [assign the issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users) to yourself.
+
+(Side-note: [tfresource-website issue templates](https://github.com/tfresource/tfresource-website/tree/source/.github/ISSUE_TEMPLATE) can be modified, and if none of the existing issue templates are appropriate to your needs, you could still create a blank issue and note that.)
+
+## Step 2a: Editing a page
+
+1. Click the _Edit this Page_ link at the top of any page to create your own copy of the page and start editing.  If this is the first time you are editing, you will be asked to **Fork this repository.** Yes, [fork the repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo). That means you are creating your own personal copy of the site, on which you can make whatever changes you wish.
 
 2. You'll be taken to a page with the full text of that page in an editor window. Make changes as you see fit.
 
    - Page text is in [Markdown format](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), with standard Github-flavored extensions for tables and LaTeX/MathJax equations.
 
 3. You can review your changes in the **Preview Changes** tab, but be warned that some content such as math equations and complex tables may not preview correctly. We wish we knew how to fix this! If you are doing lots of editing, you might want to [build locally](Contributing-Dev-Instructions) instead of using the web editor to get around this limitation.
-4. When you are happy with your edits, save the file using the **Propose file change** button. You can add a description to the edits if you like.
-5. GitHub will take you to a confirmation page which shows a "diff" of the lines you changed. If everything looks good, click **Create Pull Request** and sit back.
+
+4. When you are happy with your edits, save the file using the **Propose file change** button. Include a short description of your changes and reference your issue number from *Step 1* by including **#issuenumber** in your commit message.
+
+5. GitHub will take you to a confirmation page which shows a "diff" of the lines you changed. If everything looks good, click **Create Pull Request**.  
+
+   * Make sure your request is into the **source** branch.
+   * This will require you to include a message about your pull request as well; you should also reference your issue number from *Step 1* here by including the text **fixes #issuenumber** for your issue.
+   * If you notice something amiss with your changes after your pull request has been created, don't worry!  You can commit additional changes to your fork and they'll automatically get added to your pull request.
+
 6. Someone at TFResource will review your changes and either approve, reject, or suggest further edits to your submission.
 
-### Syle (how to with style)
+## Step 2b: Creating a new page
+
+1. To create a new page, you need to fork the content into a local copy on your hard drive as explained [here](Contributing-Dev-Instructions).
+
+   * All pages must be stored in the `topics` subfolder of the site. Pages must be in Markdown format and must include a yaml header with the page title and any categories you want the page to be part of.
+   * Please name the file without any spaces or other non-alphanumeric characters.
+   *  It is probably easiest to make a copy of an existing page, and start from that, instead of trying to create a blank page with the proper formatting from scratch.
+   * Again, please refer to our [Style Guide](Style_Guide) as you develop new content.
+
+2. Commit your changes, referencing your issue number in your commit message by including the text **#issuenumber**.
+
+3. Push your changes to your GitHub fork (e.g. your_username/tfresource-website)
+
+4. Create a Pull Request from your fork into [tfresource/tfresource-website](https://github.com/tfresource/tfresource-website) by navigating to your fork on GitHub, going to **Pull requests** and clicking **New Pull Request**.  
+
+   * Make sure your request is into the **source** branch.
+   * This will require you to include a message about your pull request as well; you should also reference your issue number from *Step 1* here by including the text **fixes #issuenumber** for your issue.
+
+## Syle (how to with style)
 
 Please review and refer to our [Style Guide](Style_Guide) in editing and developing new content to ensure your contribution conforms to our common tone and guidelines so that over time the site continues to provide a uniform voice and organization throughout.  That way we can keep the user experience positive and make the site as helpful as possible for the whole community and AVOID *jarring* and **distracting** changes in style.  
 
-## Creating a new page
-
-- To create a new page, you need to fork the content into a local copy on your hard drive as explained [here](Contributing-Dev-Instructions).
-- All pages must be stored in the `topics` subfolder of the site. Pages must be in Markdown format and must include a yaml header with the page title and any categories you want the page to be part of.
-- Please name the file without any spaces or other non-alphanumeric characters.
-- It is probably easiest to make a copy of an existing page, and start from that, instead of trying to create a blank page with the proper formatting from scratch.
-- Again, please refer to our [Style Guide](Style_Guide) as you develop new content.
 
 ## Uploading files and media
 
