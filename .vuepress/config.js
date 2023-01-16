@@ -3,6 +3,9 @@ const sidebarEntries = require('./sidebar')
 module.exports = {
   evergreen: true,
   head: [
+    ['script', { src: 'https://cdn.jsdelivr.net/pyodide/v0.22.0/full/pyodide.js' }],
+    ['link', { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.2.0/css/all.css' }],
+    ['link', { rel: 'icon', href: '/tiny-logo.png' }],
     [
       'link',
       {
@@ -17,7 +20,6 @@ module.exports = {
         href: 'https://fonts.googleapis.com/css?family=Oswald:400,400i,700,700i&display=swap',
       },
     ],
-    ['link', { rel: 'icon', href: '/tiny-logo.png' }],
     ['meta', { property: 'og:title', content: 'Travel Forecasting Resource' }],
     [
       'meta',
@@ -31,7 +33,7 @@ module.exports = {
     ['meta', { property: 'og:url', content: 'https://tfresource.org' }],
   ],
   markdown: {
-    extendMarkdown: md => {
+    extendMarkdown: (md) => {
       md.use(require('markdown-it-footnote'))
       md.use(require('markdown-it-sub'))
     },
