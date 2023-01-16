@@ -3,10 +3,16 @@
   h5 Run Python in Your Browser
 
   .panels
-    .code-panel(:ref="id")
+    //- this absorbs the initial text content of the element:
+    .code-panel(:ref="`initialText-${id}`" v-show="false")
       <slot></slot>
-    pre.output-panel
-      | {{ output }}
+
+    //- and this is the editable version:
+    .code-panel
+      textarea(:ref="id" v-model="textContent")
+
+    .output-panel
+      pre {{ output }}
 
   .action-bar
     button.run-button(:disabled="!ready" @click="clickedRun") Run
@@ -14,44 +20,46 @@
 </template>
 
 <script lang="ts">
-// // Buefy widgets: https://buefy.org/documentation
-// import Vue from 'vue'
-// import Buefy from 'buefy'
-// Vue.use(Buefy)
+const INCLUDE_PACKAGES = ['numpy']
 
 export default {
   data: () => {
     return {
-      acronyms: [],
-      output: '>>>',
+      output: '...',
       ready: false,
       pyodide: {},
+      textContent: '',
       id: `id-${Math.floor(1e12 * Math.random())}`,
     }
   },
+
   async mounted() {
-    console.log('i am here')
-    //@ts-ignore
+    const initialText = this.$refs[`initialText-${this.id}`]
+    this.textContent = initialText.innerText
+
+    // @ts-ignore
     this.pyodide = await loadPyodide({ indexURL: 'https://cdn.jsdelivr.net/pyodide/v0.22.0/full/' })
 
+    // install all default packages
+    for (const pkg of INCLUDE_PACKAGES) {
+      await this.pyodide.loadPackage(pkg)
+    }
+
     this.output = this.pyodide.runPython(`
-    import sys
-    sys.version
-  `)
+      import sys
+      sys.version
+    `)
+
     let version = this.output.slice(0, this.output.indexOf(' '))
     this.output = `Python ${version} ready.\n`
 
     this.ready = true
   },
   methods: {
-    async clickedRun() {
+    clickedRun() {
       console.log('click!')
-
-      const code = this.$refs[this.id].innerText
-      console.log({ code })
-
-      this.evaluatePython(code)
-      // this.pyodide.runPython(code)
+      const finalText = this.$refs[this.id].value
+      this.evaluatePython(finalText)
     },
 
     clickedClear() {
@@ -59,7 +67,6 @@ export default {
     },
 
     evaluatePython(code) {
-      console.log(code)
       try {
         this.pyodide.runPython(`
           import io
@@ -67,10 +74,11 @@ export default {
         `)
 
         let result = this.pyodide.runPython(code)
+        console.log({ result })
         let stdout = this.pyodide.runPython('sys.stdout.getvalue()')
         this.addToOutput(stdout)
       } catch (err) {
-        this.addToOutput('' + err)
+        this.addToOutput(err)
       }
     },
 
@@ -88,6 +96,7 @@ export default {
   background-color: #222239;
   padding: 0.25rem 0.5rem 0.5rem 0.5rem;
   border-radius: 5px;
+  height: 20rem;
 }
 
 h5 {
@@ -98,20 +107,18 @@ h5 {
 }
 
 .panels {
+  flex: 1;
   display: flex;
 }
 
 .code-panel {
   background-color: #455;
-  font-size: 0.65rem;
-  color: #ddd;
   flex: 4;
   padding: 0;
   margin: 0;
   padding-top: 0.25rem;
   margin-right: 0.5rem;
   border: 2px dotted #888;
-  min-height: 10rem;
 }
 
 pre {
@@ -127,6 +134,17 @@ pre {
   margin: 0;
   border: 2px dotted #888;
   font-family: monospace;
+  width: 100%;
+  position: relative;
+}
+
+.output-panel pre {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
 }
 
 .action-bar {
@@ -156,6 +174,18 @@ button:hover {
 
 .clear-button {
   background-color: #842;
+}
+
+textarea {
+  background-color: #455;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-size: 0.65rem;
+  color: #ddd;
+  border: none;
+  outline: none;
+  resize: none;
 }
 
 @media (max-width: 600px) {
