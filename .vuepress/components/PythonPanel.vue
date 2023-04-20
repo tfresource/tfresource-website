@@ -20,7 +20,7 @@
 </template>
 
 <script lang="ts">
-const INCLUDE_PACKAGES = ['numpy']
+const INCLUDE_PACKAGES = ['numpy', 'pandas', 'geopandas', 'micropip']
 
 export default {
   data: () => {
