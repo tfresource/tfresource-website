@@ -76,7 +76,7 @@ module.exports = [
           '/topics/Public_transport_transit_modeling',
           '/topics/Autonomous_vehicles',
           '/topics/Land_use_transport_modeling',
-          '/topics/Pedestrian_Route_Choice',
+          '/topics/Active_transport_modeling',
         ],
       },
     ],
