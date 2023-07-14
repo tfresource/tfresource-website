@@ -75,7 +75,7 @@ module.exports = {
     docsBranch: 'source',
     displayAllHeaders: false,
     editLinks: true,
-    editLinkText: 'Edit This Page »',
+    editLinkText: 'Edit this page',
     lastUpdated: 'Last Updated',
     logo: '/tfr-logo-title.png',
     sidebarDepth: 0,
