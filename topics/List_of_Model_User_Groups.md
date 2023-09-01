@@ -127,6 +127,13 @@ Contact: Jonathan Avner, Whitman, Requardt & Associates
 
 [Website](https://www.linkedin.com/in/texas-model-users-group-726718139/)
 
+**Utah Model Users Group (UTAHMUG)**
+-------------------------------
+
+Contact: Bill Hereth, Wasatch Front Regional Council
+
+[Website](https://utahmug.org)
+
 References
 ==========
 
