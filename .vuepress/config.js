@@ -67,7 +67,7 @@ module.exports = {
         additionalArgs: '--no-merge',
       },
     ],
-    ['vuepress-plugin-minimal-analytics', { ga: 'UA-157455011-1' }],
+    ['vuepress-plugin-minimal-analytics', { ga: 'G-2DCTYTB7FB' }],
   ],
   title: 'TF Resource',
   themeConfig: {
