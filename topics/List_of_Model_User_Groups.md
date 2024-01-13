@@ -73,6 +73,13 @@ Contact: Gene Hicks, MnDOT
 
 [Website](http://www.dot.state.mn.us/traffic/data/mtdmcc.html)
 
+**MWCOG/NCRTPB Travel Forecasting Subcommittee (TFS)**
+----------------------------------------
+
+Contact: Mark Moran, Metropolitan Washington Council of Governments, National Capital Region Transportation Planning Board (MWCOG/NCRTPB)
+
+[Website](https://www.mwcog.org/committees/tpb-travel-forecasting-subcommittee/)
+
 New York Best Practice Model User Group
 ---------------------------------------
 
