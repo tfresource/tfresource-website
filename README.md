@@ -1,5 +1,9 @@
 # Travel Forecasting Resource
 
+> [!IMPORTANT]
+> As of Fall 2024, the Transportation Research Board has discontinued the subcommittee that oversees the development of TF Resource. As a result, active development of this site has stopped.
+> We are grateful for the long-standing contributions of many contributors, and look forward to determining the best way to move forward as a community with or beyond TF Resource.
+
 You've found the "TF Resource" -- the Travel Forecasting Resource website, a collection of best practices for travel demand forecasting and travel survey methods.
 
 This website serves as a community resource for travel forecasting research and practice. We welcome your participation!

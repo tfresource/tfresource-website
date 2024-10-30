@@ -73,6 +73,13 @@ Contact: Gene Hicks, MnDOT
 
 [Website](http://www.dot.state.mn.us/traffic/data/mtdmcc.html)
 
+**MWCOG/NCRTPB Travel Forecasting Subcommittee (TFS)**
+----------------------------------------
+
+Contact: Mark Moran, Metropolitan Washington Council of Governments, National Capital Region Transportation Planning Board (MWCOG/NCRTPB)
+
+[Website](https://www.mwcog.org/committees/tpb-travel-forecasting-subcommittee/)
+
 New York Best Practice Model User Group
 ---------------------------------------
 
@@ -126,6 +133,13 @@ Texas Model Users Group (TXMUG)
 Contact: Jonathan Avner, Whitman, Requardt & Associates
 
 [Website](https://www.linkedin.com/in/texas-model-users-group-726718139/)
+
+**Utah Model Users Group (UTAHMUG)**
+-------------------------------
+
+Contact: Natalia Brown, Utah Department of Transportation
+
+[Website](https://utahmug.org)
 
 References
 ==========

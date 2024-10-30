@@ -31,7 +31,7 @@ Employment data at the workplace is always a challenge for travel modelers, sinc
 
 ## Sources of Origin-Destination Data 
 Passenger origin-destination data is not usually a direct input to a travel model, but it can assist model calibration and validation.  Reported sources include Streetlight, CS LOCUS, Local OD surveys, NHTS, CTPP, AirSage, and LBS. 
-Freight origin-destination data may or may not be a direct input to a travel model, depending upon the modelís sophistication, as freight components can vary greatly in complexity or may be omitted.  Mentioned sources include FAF4, Transearch, Streetlight, TREDIS, INRIX, REMI, local ports, commercial truck survey (ON), CFS, and ATRI. 
+Freight origin-destination data may or may not be a direct input to a travel model, depending upon the model's sophistication, as freight components can vary greatly in complexity or may be omitted.  Mentioned sources include FAF4, Transearch, Streetlight, TREDIS, INRIX, REMI, local ports, commercial truck survey (ON), CFS, and ATRI. 
 
 ## Economic and Demographic Forecasts as Inputs 
 For the purpose of testing future scenarios, all statewide models require forecasts of economic activity, demographics, and land use, indirectly.  For the most part, these forecasts originate outside the modeling agency.  Choices of datasets are opportunistic, with modelers looking for least-cost options locally before purchasing commercial products. 

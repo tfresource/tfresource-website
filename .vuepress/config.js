@@ -4,6 +4,12 @@ module.exports = {
   evergreen: true,
   head: [
     ['script', { src: 'https://cdn.jsdelivr.net/pyodide/v0.22.0/full/pyodide.js' }],
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-2DCTYTB7FB' }],
+    [
+      'script',
+      {},
+      "window.dataLayer=window.dataLayer|| []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-2DCTYTB7FB');",
+    ],
     ['link', { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.2.0/css/all.css' }],
     ['link', { rel: 'icon', href: '/tiny-logo.png' }],
     [
@@ -67,7 +73,7 @@ module.exports = {
         additionalArgs: '--no-merge',
       },
     ],
-    ['vuepress-plugin-minimal-analytics', { ga: 'UA-157455011-1' }],
+    // ['vuepress-plugin-minimal-analytics', { ga: 'G-2DCTYTB7FB' }],
   ],
   title: 'TF Resource',
   themeConfig: {
@@ -75,7 +81,7 @@ module.exports = {
     docsBranch: 'source',
     displayAllHeaders: false,
     editLinks: true,
-    editLinkText: 'Edit This Page »',
+    editLinkText: 'Edit this page',
     lastUpdated: 'Last Updated',
     logo: '/tfr-logo-title.png',
     sidebarDepth: 0,

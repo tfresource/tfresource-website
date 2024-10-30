@@ -24,26 +24,15 @@ export default {
     }
   },
   methods: {
-    gdprNo: function() {
+    gdprNo: function () {
       Vue.$cookies.set('gdpr', 'no')
       this.cookie = 'no'
     },
-    gdprYes: function() {
+    gdprYes: function () {
       Vue.$cookies.set('gdpr', 'ok')
       this.cookie = 'ok'
-
-      // don't miss first page!
-      if (process.env.NODE_ENV === 'production' && GA_ID && typeof window !== 'undefined') {
-        this.sendAnalytics(window, GA_ID, {
-          anonymizeIp: true,
-          colorDepth: true,
-          characterSet: true,
-          screenSize: true,
-          language: true,
-        })
-      }
     },
-    sendAnalytics: function(context, trackingId, options) {
+    sendAnalytics: function (context, trackingId, options) {
       console.log('analytics consent received:', trackingId)
 
       const history = context.history
@@ -60,7 +49,7 @@ export default {
         }
         return storage.cid
       }
-      const serialize = obj => {
+      const serialize = (obj) => {
         var str = []
         for (var p in obj) {
           if (obj.hasOwnProperty(p)) {
@@ -117,7 +106,7 @@ export default {
       }
       const trackEvent = (category, action, label, value) => track('event', category, action, label, value)
       const trackException = (description, fatal) => track(typeException, null, null, null, null, description, fatal)
-      history.pushState = function(state) {
+      history.pushState = function (state) {
         if (typeof history.onpushstate == 'function') {
           history.onpushstate({ state: state })
         }
