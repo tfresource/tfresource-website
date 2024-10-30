@@ -20,3 +20,7 @@ This project came about due to a TRB research project designed to examine the st
 In the final report, [Metropolitan Travel Forecasting: Current Practice and Future Direction](/topics/SR_288_Metropolitan_Travel_Forecasting_Current_Practice_and_Future_Direction), the committee identified many recommendations to improve travel demand forecasting, including a national travel forecasting handbook to be developed and kept current.
 
 This suggestion was taken up by the forecasting community, and this TFResource is that handbook! We hope you find it useful.
+
+## The next steps
+
+As of Fall 2024, the Transportation Research Board has discontinued the subcommittee that oversees the development of TF Resource. As a result, active development of this site has stopped. We are grateful for the long-standing contributions of many contributors, and look forward to determining the best way to move forward as a community with or beyond TF Resource.
