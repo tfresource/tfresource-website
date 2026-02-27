@@ -137,7 +137,7 @@ Contact: Jonathan Avner, Whitman, Requardt & Associates
 **Utah Model Users Group (UTAHMUG)**
 -------------------------------
 
-Contact: Natalia Brown, Utah Department of Transportation
+Contact: Bill Hereth, Wasatch Front Regional Council
 
 [Website](https://utahmug.org)
 
