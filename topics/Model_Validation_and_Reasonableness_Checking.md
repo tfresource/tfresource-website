@@ -14,7 +14,7 @@ Sources
 
 These pages were initially derived from the Travel Model Validation and Reasonableness Checking Manual, Second Edition, prepared by Cambridge Systematics, Inc., and published by the Federal Highway Administration Travel Model Improvement Program in September, 2010.
 
-The original source document may be found on the web either as a [PDF](http://media.tmiponline.org/clearinghouse/FHWA-HEP-10-042/FHWA-HEP-10-042.pdf) or as [HTML](http://media.tmiponline.org/clearinghouse/FHWA-HEP-10-042).
+The original source document may be found on the web either as a [PDF](https://www.fhwa.dot.gov/planning/tmip/publications/other_reports/validation_and_reasonableness_2010/fhwahep10042.pdf) or as [HTML](https://www.fhwa.dot.gov/planning/tmip/publications/other_reports/validation_and_reasonableness_2010/).
 
 Topics
 -------------
